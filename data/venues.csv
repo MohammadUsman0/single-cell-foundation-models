@@ -1,0 +1,20 @@
+name,type,desc,link
+LMRL Workshop @ ICLR,Workshop,"The single best fit — explicitly built around virtual cells, with tracks on causality, generative modeling, and interpretable representations in biology Annual ICLR workshop; short + long paper tracks",
+Mechanistic Interpretability Workshop @ ICML,Workshop,"The flagship mech-interp venue (drew 600+ at NeurIPS 2025). Accepts short/long papers; fast-tracks accepted main-conf papers ICML 2026, Seoul, Jul 10; 2026 deadline was May 8 (watch for the next edition)",https://mechinterpworkshop.com/
+MLCB (Machine Learning in Computational Biology),Conference,"Independent conference (ex-NeurIPS workshop), strong ML-for-biology audience; values mechanistic insight Nov 16–17, NY Genome Center; co-located near NeurIPS",https://www.mlcb.org/
+ISMB / ISCB (incl. iscbAI track),Conference,"World's largest comp-bio conference; new dedicated AI track (iscbAI). Proceedings transferable to Bioinformatics Advances ISMB 2026, Washington DC; abstract deadlines ~Apr–May",
+RECOMB,Conference,"Top algorithmic comp-bio conference (peer of ISMB), rigorous review RECOMB 2026, Thessaloniki; paper deadline ~mid-Nov (prior year)",
+NeurIPS / ICLR / ICML main tracks,Conference,For methods-heavy scFM or interpretability contributions aimed at the core ML community,
+Re-Align Workshop @ ICML,Conference,Representational alignment + neural control; overlaps mech-interp; accepts concurrent submissions,https://representational-alignment.github.io/2026/
+Nature Methods,Journal,"Premier venue for new computational methods; has published scGPT, multimodal FM perspectives High bar; methods + benchmarking",
+Nature Communications,Journal,"Broad; publishes interpretable scFMs (e.g., CellVQ) Good for full method + biology stories",https://www.nature.com/ncomms/
+Cell / Cell Systems,Journal,Systems biology + virtual cell vision pieces; perturbation modeling Cell Systems is more method-friendly,
+Nature Reviews Genetics,Journal,"Review/perspective on interpretation, extrapolation, perturbation of single cells For reviews/perspectives, not primary methods",
+Genome Biology,Journal,Strong single-cell methods home Open access,
+Bioinformatics / Bioinformatics Advances (OUP),Journal,Core comp-bio methods; ISMB proceedings transfer here; OA option Faster turnaround,
+Experimental & Molecular Medicine,Journal,"Published the major scFM review ""bringing AI into cell biology"" Good for reviews",https://www.nature.com/emm/
+eLife,Journal,Reviewed-preprint model; biology + methods Public review process,https://elifesciences.org/
+"LLMs in drug discovery, genomics, single-cell analysis",Special issue,IEEE J. Biomedical & Health Informatics,
+Advances in Single-Cell & Spatial Transcriptomics (Virtual Issue),Special issue,Bioinformatics (OUP),
+Integrative Multi-Omics Approaches (Virtual Issue),Special issue,Bioinformatics Advances (OUP),
+CZI Virtual Cells benchmarking outputs,Special issue,Community (arXiv → journal),
