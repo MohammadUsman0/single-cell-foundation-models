@@ -2,17 +2,17 @@
 
 > A curated, categorised list of foundation models for single-cell biology and AI virtual-cell / world models, plus the benchmarks, perspectives, surveys and venues that surround them.
 
-**178 models · 118 benchmarks/surveys/perspectives · 19 venues** · last generated 2026-06-02.
+**183 models · 122 benchmarks/surveys/perspectives · 19 venues** · last generated 2026-06-02.
 
 This list is generated from machine-readable CSVs. **Do not edit the tables below by hand** — edit [`data/models.csv`](data/models.csv), [`data/resources.csv`](data/resources.csv) or [`data/venues.csv`](data/venues.csv) and run `python scripts/generate_readme.py`. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Contents
 
 **Models**
-- [scRNA-seq / Transcriptomics Foundation Models](#scrna-seq--transcriptomics-foundation-models) (26)
-- [Spatial & Spatial Multi-omics](#spatial--spatial-multi-omics) (19)
+- [scRNA-seq / Transcriptomics Foundation Models](#scrna-seq--transcriptomics-foundation-models) (27)
+- [Spatial & Spatial Multi-omics](#spatial--spatial-multi-omics) (20)
 - [Epigenomics & Chromatin Accessibility (scATAC)](#epigenomics--chromatin-accessibility-scatac) (5)
-- [Multimodal & Multi-omics Integration](#multimodal--multi-omics-integration) (5)
+- [Multimodal & Multi-omics Integration](#multimodal--multi-omics-integration) (6)
 - [Proteomics & Protein-level Models](#proteomics--protein-level-models) (4)
 - [Sequence-to-Expression & Regulatory Genomics](#sequence-to-expression--regulatory-genomics) (3)
 - [Gene Regulatory Networks & Graph-based Models](#gene-regulatory-networks--graph-based-models) (7)
@@ -21,7 +21,7 @@ This list is generated from machine-readable CSVs. **Do not edit the tables belo
 - [LLM-based & Language-Cell Models](#llm-based--language-cell-models) (21)
 - [Agentic & Autonomous Cell Models](#agentic--autonomous-cell-models) (8)
 - [Cross-species & Cell Atlas / Similarity Models](#cross-species--cell-atlas--similarity-models) (4)
-- [Perturbation Prediction & Virtual Cell / World Models](#perturbation-prediction--virtual-cell--world-models) (61)
+- [Perturbation Prediction & Virtual Cell / World Models](#perturbation-prediction--virtual-cell--world-models) (63)
 - [Other Single-cell Foundation Models](#other-single-cell-foundation-models) (1)
 
 **Resources**
@@ -40,6 +40,7 @@ This list is generated from machine-readable CSVs. **Do not edit the tables belo
 |---|---|---|---|---|---|---|
 | **Cell-JEPA** | 2026 | arXiv | Single-cell | FM | - large-scale human kidney scRNA-seq corpus comprising 800,000 cells used | [paper](https://arxiv.org/abs/2602.02093) |
 | **CONCORD** | 2026 | Nature Biotechnology | — | — | — | [paper](https://www.nature.com/articles/s41587-025-02950-z) · [code](https://github.com/Gartner-Lab/Concord) |
+| **xVERSE** | 2026 | bioRxiv | scRNA-seq | Foundation model (batch-invaria… | Couples batch-invariant universal cell representation with probabilistic expression generation; synthesizes high-fidelity virtual cells (AUROC ~= 0.5… | [paper](https://www.biorxiv.org/content/10.64898/2026.04.12.718016v1) |
 | **scFM** | 2025 | bioRxiv | Single-cell RNA-seq (Malignant… | scRNA-seq Foundation Model (scF… | present CancerFoundation, a novel single-cell RNA-seq foundation model (scFM) trained exclusively on malignant cells | — |
 | **Tabula** | 2025 | Cell | Single-Cell Transcriptomics | Tabular Self-Supervised | Nips 2025 poster | — |
 | **scConcept** | 2025 | bioRxiv | Single-cell (technology-agnosti… | transformer-based contrastive l… | present scConcept (“contrastive cell pre-training”), a transformer-based contrastive learning framework that directly optimizes cell embeddings by co… | — |
@@ -72,6 +73,7 @@ This list is generated from machine-readable CSVs. **Do not edit the tables belo
 | **Spatial Perturb-seq** | 2026 | Nature Communications | — | — | — | [paper](https://www.nature.com/articles/s41467-026-69677-6) · [code](https://github.com/kimberle9/spatialperturbseq) |
 | **Celcomen** | 2026 | Nature Communications | — | — | — | [paper](https://www.nature.com/articles/s41467-026-69856-5) · [code](https://github.com/Teichlab/celcomen) |
 | **stVCR** | 2026 | Nature Methods | — | — | — | [paper](https://www.nature.com/articles/s41592-026-03010-3) · [code](https://github.com/QiangweiPeng/stVCR) |
+| **HINGE** | 2026 | arXiv | Histology images + spatial tran… | Pre-trained scFM + SoftAdaLN +… | Adapts a pre-trained expression-only single-cell foundation model to generate spatial gene expression from H&E histology via layered visual context i… | [paper](https://arxiv.org/abs/2603.19766) |
 | **SpaTranslator** | 2025 | bioRxiv | Spatial Multi-omics | deep generative model | present SpaTranslator, a deep generative framework that integrates graph neural networks with an adversarial variational generative model to fully ca… | — |
 | **Nicheformer** | 2025 | Nature | Single-cell and Spatial Omics | — | - | — |
 | **SWITCH** | 2025 | Nature Computational… | Spatial Multi-omics | generative model | Introduce SWITCH (Spatially Weighted Multi-omics Integration and Cross-modal Translation with Cycle-mapping Harmonization), a deep generative model f… | — |
@@ -105,6 +107,7 @@ This list is generated from machine-readable CSVs. **Do not edit the tables belo
 |---|---|---|---|---|---|---|
 | **spEMO** | 2026 | Nature Biomedical Eng. | Spatial multi-omics + histopath… | Multimodal FM | Multi-modal FM for spatial multi-omic and histopathology data. | [paper](https://www.biorxiv.org/content/10.1101/2025.01.13.632818v3) |
 | **PETRI** | 2026 | ICLR Poster | — | — | — | [paper](https://openreview.net/forum?id=Vu8YXDooG5) |
+| **CLM-X** | 2026 | bioRxiv | scRNA-seq + scATAC-seq | Multi-way Transformer | Multimodal foundation model pretrained on million-scale unimodal and multimodal data; unifies scRNA-seq and scATAC-seq with strong RNA-ATAC cross-mod… | [paper](https://www.biorxiv.org/content/10.64898/2026.02.17.704943v1) |
 | **scLinguist** | 2025 | bioRxiv | Single-cell Multi-omics | Hyena-based | Cross-modality translation | — |
 | **CAPTAIN** | 2025 | bioRxiv | Single-cell RNA and Protein (co… | Multimodal | Protein imputation, cell type annotation, batch harmonization. Key Finding: Learns unified multimodal representations; uncovers protein-driven interc… | — |
 | **scGPT** | 2024 | Nature | Single-cell Multi-omics | Generative Pre-trained Transfor… | Single-cell multi-omics, capturing biological insights into genes and cells. | — |
@@ -232,6 +235,8 @@ This list is generated from machine-readable CSVs. **Do not edit the tables belo
 | **PerturbDiff** | 2026 | arXiv | — | — | — | [paper](https://arxiv.org/abs/2602.19685) |
 | **scBIG** | 2026 | arXiv | — | — | — | [paper](https://arxiv.org/abs/2602.04901) |
 | **CellxPert** | 2026 | arXiv | — | — | — | [paper](https://arxiv.org/abs/2605.00930) |
+| **DeSCOPE** | 2026 | bioRxiv | scRNA-seq / scATAC-seq (perturb… | Conditional VAE + ESM2 gene emb… | Lightweight conditional VAE that conditions on ESM2 protein-language embeddings of perturbed genes; strong on unseen genes, unseen cell types, and co… | [paper](https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1) · [code](https://github.com/Peg-Wu/DeSCOPE) |
+| **StateXDiff** | 2026 | arXiv | Multimodal (transcriptomics + i… | Latent diffusion Transformer | Integrates RNA and protein-level context via a Virtual Multimodal Cell State and a Mechanism-aware Drug-Gene Template to predict drug-induced single-… | [paper](https://arxiv.org/abs/2605.16104) |
 | **VCWorld** | 2025 | arXiv | — | LLM based | present VCWorld, a cell-level white-box simulator that integrates structured biological knowledge with the iterative reasoning capabilities of large… | [paper](https://arxiv.org/abs/2512.00306) · [code](https://github.com/GENTEL-lab/VCWorld) |
 | **PULSAR** | 2025 | bioRxiv | Multi-scale and Multicellular B… | unknown | - | — |
 | **CellTRIP** | 2025 | bioRxiv | — | reinforcement learning | CellTRIP, Inferring virtual cell environments using multi-agent reinforcement learning for spatiotemporal trajectory interpolation, imputation, and p… | [code](https://github.com/daifengwanglab/CellTRIP) |
@@ -290,6 +295,9 @@ This list is generated from machine-readable CSVs. **Do not edit the tables belo
 | Towards Autonomous Mechanistic Reasoning in Virtual Cells | 2026 | arXiv | — | [link](https://arxiv.org/abs/2604.11661) |
 | A Systematic Comparison of Single-Cell Perturbation Response Prediction Models | 2026 | bioRxiv | — | [link](https://www.biorxiv.org/content/10.1101/2024.12.23.630036v2) |
 | A unified framework enables accessible deployment and comprehensive benchmarking of singl… | 2026 | bioRxiv | — | [link](https://www.biorxiv.org/content/10.64898/2026.01.06.698060v1) |
+| Benchmarking virtual cell models for in-the-wild perturbation response | 2026 | arXiv | Standardized, modular benchmark for virtual cell perturbation prediction under unseen cell contexts, unseen perturbations, and cross-dataset generali… | [link](https://arxiv.org/abs/2604.27646) |
+| Foundation Models Improve Perturbation Response Prediction | 2026 | bioRxiv | Large-scale analysis of 600+ models for genetic and chemical perturbation prediction; some foundation models beat simple baselines and an attention-b… | [link](https://www.biorxiv.org/content/10.64898/2026.02.18.706454v1) |
+| CellBench-LS: Benchmark Evaluation of Single-cell Foundation Models for Low-supervision S… | 2026 | bioRxiv | Benchmark evaluating single-cell foundation models under low-supervision (limited-label) scenarios. | [link](https://www.biorxiv.org/content/10.64898/2026.04.01.714123v1) |
 | Perturbench: Benchmarking machine learning models for cellular perturbation analysis | 2025 | arXiv | PerturBench a comprehensive framework for modeling single cell transcriptomic responses to perturbations, aimed at standardizing benchmarking | [link](https://arxiv.org/abs/2408.10609) |
 | What do single-cell models already know about perturbations? | 2025 | — | We train variational autoencoders on three gene expression datasets spanning genetic, chemical, and temporal perturbations, and infer perturbations b… | [link](https://github.com/yhsure/perturbations) |
 | Effects of Distance Metrics and Scaling on the Perturbation Discrimination Score | 2025 | arXiv | Perturbation Discrimination Score (PDS) is increasingly used to evaluate whether predicted perturbation effects remain distinguishable, including in… | [link](https://arxiv.org/abs/2511.16954) |
@@ -419,6 +427,7 @@ This list is generated from machine-readable CSVs. **Do not edit the tables belo
 | Artificial intelligence-enabled multi-scale virtual cell: perspective, challenges, and op… | 2026 | Bioinformatics | — | — |
 | Towards predictive virtual embryos with genomics and AI | 2026 | Nature Methods | — | — |
 | What Makes a Representation Good for Single-Cell Perturbation Prediction? | 2026 | arXiv | — | [link](https://arxiv.org/abs/2605.19343) |
+| Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in… | 2026 | arXiv | Trains TopK sparse autoencoders on Geneformer V2 and scGPT activations and releases interactive atlases of 107,000+ interpretable features; finds org… | [link](https://arxiv.org/abs/2603.02952) |
 | Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Functi… | 2025 | bioRxiv | Giga-scale single-cell perturbation atlas (dataset). | [link](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v3) |
 | Toward ai-driven digital organism: Multiscale foundation models for predicting, simulatin… | 2024 | arXiv | — | [link](https://arxiv.org/abs/2412.06993) |
 | Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models |  | arXiv | — | [link](https://arxiv.org/abs/2509.14723) |
