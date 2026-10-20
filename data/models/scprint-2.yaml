@@ -10,6 +10,14 @@ tags:
 - cross-species
 - generative
 task: expression denoising, cell embedding, and cell type prediction
+inputs:
+- expression
+outputs:
+- expression-prediction
+- cell-embedding
+- cell-type-label
+- gene-embedding
+- gene-regulatory-network
 key: Successor to scPRINT, pre-trained on 350M cells from 16 organisms with design choices picked by an
   additive benchmark; also generative.
 links:
@@ -20,5 +28,5 @@ citation: 'Kalfon, Jérémie, Gabriel Peyré, and Laura Cantini. "scPRINT-2: Tow
 added: '2026-06-02'
 sources:
 - https://doi.org/10.64898/2025.12.11.693702
-review_basis: metadata
+review_basis: abstract
 reviewed: false

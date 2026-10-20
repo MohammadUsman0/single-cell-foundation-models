@@ -8,6 +8,11 @@ category: atlas
 tags:
 - scrna-seq
 modality: Single-cell datasets
+inputs:
+- expression
+outputs:
+- cell-embedding
+- cell-type-label
 key: Population-level integration, multi-scale analysis
 links:
   paper: https://doi.org/10.1038/s41592-023-02035-2
@@ -18,5 +23,5 @@ citation: 'De Donno, Carlo, Soroor Hediyeh-Zadeh, Amir Ali Moinfar, Marco Wagens
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41592-023-02035-2
-review_basis: metadata
+review_basis: abstract
 reviewed: false

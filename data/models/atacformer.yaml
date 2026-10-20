@@ -11,6 +11,10 @@ modality: scATAC-seq
 architecture: Transformer-based
 inputs:
 - chromatin-accessibility
+outputs:
+- cell-embedding
+- cell-type-label
+- expression-prediction
 key: Embeds individual cis-regulatory elements; used for clustering, cell-type annotation, batch correction
   and RNA imputation (via CRAFT).
 links:
@@ -21,5 +25,5 @@ citation: 'LeRoy, Nathan J., Guangtao Zheng, Oleksandr Khoroshevskyi, Donald R. 
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.11.03.685753
-review_basis: metadata
+review_basis: abstract
 reviewed: false

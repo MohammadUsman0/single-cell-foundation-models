@@ -14,6 +14,8 @@ architecture: scRNA-seq Foundation Model (scFM)
 task: Zero-shot batch integration, drug response prediction, survival prediction.
 inputs:
 - expression
+outputs:
+- perturbation-response
 key: scRNA-seq foundation model trained only on about 1M malignant cells, aimed at batch integration,
   drug response and survival prediction.
 links:
@@ -25,5 +27,5 @@ citation: 'Theus, Alexander, Florian Barkmann, David Wissel, and Valentina Boeva
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2024.11.01.621087
-review_basis: metadata
+review_basis: abstract
 reviewed: false

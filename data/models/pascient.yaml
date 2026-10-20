@@ -11,6 +11,9 @@ tags:
 modality: Single-Cell Transcriptomics
 inputs:
 - expression
+outputs:
+- disease-state
+- gene-prioritization
 key: Characterization of patient-level disease states
 links:
   paper: https://doi.org/10.1016/j.cels.2026.101570
@@ -23,5 +26,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1016/j.cels.2026.101570
 - https://doi.org/10.1101/2024.11.18.624166
-review_basis: metadata
+review_basis: abstract
 reviewed: false

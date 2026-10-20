@@ -11,6 +11,12 @@ category: proteomics
 tags:
 - proteomics
 architecture: Masked Autoencoder
+inputs:
+- protein-abundance
+outputs:
+- cell-type-label
+- expression-prediction
+- disease-state
 key: Automated Immunophenotyper
 links:
   paper: https://doi.org/10.1016/j.xcrm.2024.101808
@@ -22,5 +28,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1016/j.xcrm.2024.101808
 - https://doi.org/10.1101/2024.02.13.580114
-review_basis: metadata
+review_basis: abstract
 reviewed: false

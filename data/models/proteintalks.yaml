@@ -9,6 +9,15 @@ tags:
 - proteomics
 - perturbation
 - virtual-cell
+inputs:
+- protein-abundance
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: other
+perturbation_type:
+- chemical
+- combination
 links:
   paper: https://doi.org/10.1101/2025.02.07.637070
   code: https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks
@@ -17,5 +26,5 @@ citation: Sun, Rui, Liujia Qian, Yongge Li, Honghan Cheng, Zhangzhi Xue, Xuedong
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.02.07.637070
-review_basis: metadata
+review_basis: abstract
 reviewed: false

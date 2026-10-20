@@ -7,6 +7,10 @@ venue: Nature Communications
 category: scrna
 tags:
 - scrna-seq
+inputs:
+- expression
+outputs:
+- cell-type-label
 links:
   paper: https://doi.org/10.1038/s41467-024-51059-5
   code: https://github.com/theislab/scTab
@@ -16,5 +20,5 @@ citation: 'Fischer, Felix, David S. Fischer, Roman Mukhin, Andrey Isaev, Evan Bi
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41467-024-51059-5
-review_basis: metadata
+review_basis: abstract
 reviewed: false

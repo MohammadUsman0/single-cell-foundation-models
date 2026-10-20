@@ -15,7 +15,14 @@ architecture: Diffusion
 inputs:
 - expression
 - perturbation
+outputs:
+- perturbation-response
+- generated-cells
 architecture_family: diffusion
+perturbation_type:
+- genetic
+generalization:
+- unseen-perturbation
 key: Diffusion-based debiasing for single-cell transcriptional response prediction.
 links:
   paper: https://www.pnas.org/doi/10.1073/pnas.2525268122
@@ -26,5 +33,5 @@ citation: 'Shang, Ergan, Yuting Wei, and Kathryn Roeder. "Predicting the unseen:
 added: '2026-06-02'
 sources:
 - https://www.pnas.org/doi/10.1073/pnas.2525268122
-review_basis: metadata
+review_basis: abstract
 reviewed: false

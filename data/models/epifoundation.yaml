@@ -10,6 +10,9 @@ tags:
 modality: scATAC-seq
 inputs:
 - chromatin-accessibility
+outputs:
+- cell-type-label
+- expression-prediction
 key: Peak-to-gene cross-modality pre-training on non-zero peaks to cope with sparsity; used for cell-type
   annotation, batch correction and expression prediction.
 links:
@@ -20,5 +23,5 @@ citation: 'Wu, Juncheng, Changxin Wan, Zhicheng Ji, Yuyin Zhou, and Wenpin Hou. 
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.02.05.636688
-review_basis: metadata
+review_basis: abstract
 reviewed: false

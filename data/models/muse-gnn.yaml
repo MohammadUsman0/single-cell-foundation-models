@@ -11,6 +11,11 @@ tags:
 - graph
 modality: Multimodal Biological Graph Data
 architecture: GNN
+inputs:
+- expression
+- spatial-coordinates
+outputs:
+- gene-embedding
 architecture_family: graph-neural-network
 key: Learning unified gene representation
 links:
@@ -22,5 +27,5 @@ citation: 'Liu, Tianyu, Yuge Wang, Rex Ying, and Hongyu Zhao. "Muse-gnn: Learnin
 added: '2026-06-02'
 sources:
 - https://doi.org/10.52202/075280-1071
-review_basis: metadata
+review_basis: abstract
 reviewed: false

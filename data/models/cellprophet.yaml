@@ -9,6 +9,12 @@ category: grn
 tags:
 - gene-regulation
 architecture: Transformer-based
+inputs:
+- expression
+outputs:
+- gene-regulatory-network
+- perturbation-response
+- gene-prioritization
 key: Infers dynamic gene regulatory networks by combining temporal causality analysis with transformer
   self-attention.
 links:
@@ -20,5 +26,5 @@ citation: 'Peng, Rui, Juntian Qi, Yuxing Lu, Wei Wu, Qichen Sun, Chi Zhang, Yiha
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.02.05.636766
-review_basis: metadata
+review_basis: abstract
 reviewed: false

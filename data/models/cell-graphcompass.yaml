@@ -13,6 +13,10 @@ modality: Single-cell Transcriptomics
 architecture: Graph Pre-training
 inputs:
 - expression
+- prior-network
+outputs:
+- cell-type-label
+- perturbation-response
 architecture_family: graph-neural-network
 key: Graph pre-training over genes and cells (50M+ cells); used for batch integration, cell-type annotation
   and in-silico gene knockout.
@@ -25,5 +29,5 @@ citation: 'Fang, Chen, Wentao Cui, Zhilong Hu, Wenhao Liu, Shubai Chen, Shaole C
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1093/nsr/nwaf255
-review_basis: metadata
+review_basis: abstract
 reviewed: false

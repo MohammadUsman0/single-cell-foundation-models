@@ -11,6 +11,10 @@ tags:
 modality: Transcriptome
 inputs:
 - expression
+outputs:
+- cell-type-label
+- gene-prioritization
+- perturbation-response
 links:
   paper: https://doi.org/10.52202/079017-0204
   code: https://github.com/DeepGraphLearning/scCello
@@ -20,5 +24,5 @@ citation: 'Yuan, Xinyu, Zhihao Zhan, Zuobai Zhang, Manqi Zhou, Jianan Zhao, Boyu
 added: '2026-06-02'
 sources:
 - https://doi.org/10.52202/079017-0204
-review_basis: metadata
+review_basis: abstract
 reviewed: false

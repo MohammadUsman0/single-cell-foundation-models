@@ -14,6 +14,9 @@ architecture: Multi-Task Transformer
 inputs:
 - expression
 - protein-abundance
+outputs:
+- cell-type-label
+- expression-prediction
 key: Integrates large-scale data
 links:
   paper: https://doi.org/10.1002/advs.202307835
@@ -23,5 +26,5 @@ citation: 'Xu, Jing, De‐Shuang Huang, and Xiujun Zhang. "scmFormer integrates 
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1002/advs.202307835
-review_basis: metadata
+review_basis: abstract
 reviewed: false

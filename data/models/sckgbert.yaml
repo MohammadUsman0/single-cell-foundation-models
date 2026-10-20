@@ -7,6 +7,14 @@ venue: Genome Biology
 category: scrna
 tags:
 - scrna-seq
+inputs:
+- expression
+- prior-network
+outputs:
+- gene-embedding
+- cell-embedding
+- perturbation-response
+- disease-state
 links:
   paper: https://doi.org/10.1186/s13059-025-03862-6
   code: https://huggingface.co/catly/scKGBERT
@@ -15,5 +23,5 @@ citation: 'Li, Yang, Guanyu Qiao, Hongli Du, Xin Gao, and Guohua Wang. "scKGBERT
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1186/s13059-025-03862-6
-review_basis: metadata
+review_basis: abstract
 reviewed: false

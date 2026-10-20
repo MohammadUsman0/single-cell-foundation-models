@@ -11,7 +11,7 @@
 
 For each model, the catalogue aims to record what it is, whether you can use it (code, weights, license) and what benchmarks found about it. Titles, years, venues and links are verified against Crossref, OpenAlex, arXiv and bioRxiv with [`scripts/verify.py`](scripts/verify.py).
 
-**170 models** (143 with code) · **126 resources** · **19 venues** · updated 2026-10-20
+**170 models** (144 with code) · **126 resources** · **19 venues** · updated 2026-10-20
 
 Each entry: **name** · title (**venue year**) · tags · links. Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).
 
@@ -123,9 +123,9 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 *Single-cell and spatial proteomics.*
 
+- **KRONOS** · A Foundation Model for Spatial Proteomics (**arXiv 2025**) · `Proteomics` `Spatial` · [[paper](https://arxiv.org/abs/2506.03373)] [[code](https://github.com/mahmoodlab/KRONOS)] ![stars](https://img.shields.io/github/stars/mahmoodlab/KRONOS?style=flat-square&label=%E2%98%85)
 - **ProteinTalks** · A Perturbation Proteomics-Based Foundation Model for Virtual Cell Construction (**bioRxiv 2025**) · `Proteomics` `Perturbation` `Virtual cell` · [[paper](https://doi.org/10.1101/2025.02.07.637070)] [[code](https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks)] ![stars](https://img.shields.io/github/stars/guomics-lab/PTV-1?style=flat-square&label=%E2%98%85)
 - **scTranslator** · A pre-trained large generative model for translating single-cell transcriptomes to proteomes (**Nature Biomedical Engineering 2025**) · `Proteomics` `Generative` `scRNA-seq` · [[paper](https://doi.org/10.1038/s41551-025-01528-z)] [[code](https://github.com/TencentAILabHealthcare/scTranslator)] ![stars](https://img.shields.io/github/stars/TencentAILabHealthcare/scTranslator?style=flat-square&label=%E2%98%85)
-- **Spatial Proteomics FM** · A Foundation Model for Spatial Proteomics (**arXiv 2025**) · `Proteomics` `Spatial` · [[paper](https://arxiv.org/abs/2506.03373)]
 - **cyMAE** · Cytometry masked autoencoder: An accurate and interpretable automated immunophenotyper (**Cell Reports Medicine 2024**) · `Proteomics` · [[paper](https://doi.org/10.1016/j.xcrm.2024.101808)]
 - **ProCyon** · ProCyon: A multimodal foundation model for protein phenotypes (**bioRxiv 2024**) · `Proteomics` `Text` · [[paper](https://doi.org/10.1101/2024.12.10.627665)] [[code](https://github.com/mims-harvard/ProCyon)] ![stars](https://img.shields.io/github/stars/mims-harvard/ProCyon?style=flat-square&label=%E2%98%85)
 - **scmFormer** · scmFormer integrates large‐scale single‐cell proteomics and transcriptomics data by multi‐task transformer (**Advanced Science 2024**) · `Proteomics` `scRNA-seq` · [[paper](https://doi.org/10.1002/advs.202307835)]

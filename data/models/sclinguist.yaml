@@ -10,6 +10,10 @@ tags:
 - multi-omics
 modality: Single-cell Multi-omics
 architecture: Hyena-based
+inputs:
+- expression
+outputs:
+- expression-prediction
 architecture_family: state-space
 key: Cross-modality translation
 links:
@@ -21,5 +25,5 @@ citation: 'Fang, Zhaoyu, Ziyang Miao, Jianhui Lin, Yuying Xie, Jiliang Tang, Jia
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.09.30.679123
-review_basis: metadata
+review_basis: abstract
 reviewed: false
