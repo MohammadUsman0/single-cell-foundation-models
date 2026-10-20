@@ -9,6 +9,7 @@ modality: Single-cell datasets
 key: Population-level integration, multi-scale analysis
 links:
   paper: https://doi.org/10.1038/s41592-023-02035-2
+  code: https://github.com/theislab/scArches
 citation: 'De Donno, Carlo, Soroor Hediyeh-Zadeh, Amir Ali Moinfar, Marco Wagenstetter, Luke Zappia, Mohammad
   Lotfollahi, and Fabian J. Theis. "Population-level integration of single-cell datasets enables multi-scale
   analysis across samples." Nature Methods 20, no. 11 (2023): 1683-1692.'

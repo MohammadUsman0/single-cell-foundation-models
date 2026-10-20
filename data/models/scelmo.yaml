@@ -15,6 +15,7 @@ key: Uses LLM-written descriptions of genes and cell metadata, and their embeddi
   and fine-tuned single-cell analysis.
 links:
   paper: https://doi.org/10.1016/j.patter.2025.101431
+  code: https://github.com/HelloWorldLTY/scELMo
 citation: 'Liu, Tianyu, Tianqi Chen, Wangjie Zheng, Xiao Luo, Yiqun Chen, and Hongyu Zhao. "scelmo: Embeddings
   from language models are good learners for single-cell data analysis." bioRxiv (2025): 2023-12.'
 reviewed: false

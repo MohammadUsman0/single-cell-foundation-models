@@ -15,4 +15,5 @@ architecture: Early-fusion multimodal LLM
 key: Early-fusion multimodal LLM for single-cell transcriptomics via tokenization.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.10.22.684047v1
+  code: https://github.com/sunnsset/CellTok
 reviewed: false

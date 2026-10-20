@@ -16,6 +16,7 @@ key: 'Translating transcriptome to proteome (protein imputation). Key Finding: C
 links:
   paper: https://doi.org/10.1038/s41551-025-01528-z
   preprint: https://doi.org/10.1101/2023.07.04.547619
+  code: https://github.com/TencentAILabHealthcare/scTranslator
 citation: 'Liu, Linjing, Wei Li, Fang Wang, Yiming Li, Long-Kai Huang, Ka-Chun Wong, Fan Yang, and Jianhua
   Yao. "A pre-trained large generative model for translating single-cell transcriptomes to proteomes."
   Nature Biomedical Engineering (2025): 1-20.'

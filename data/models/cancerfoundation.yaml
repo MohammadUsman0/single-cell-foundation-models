@@ -17,6 +17,7 @@ key: scRNA-seq foundation model trained only on about 1M malignant cells, aimed 
   drug response and survival prediction.
 links:
   paper: https://doi.org/10.1101/2024.11.01.621087
+  code: https://github.com/BoevaLab/CancerFoundation
 citation: 'Theus, Alexander, Florian Barkmann, David Wissel, and Valentina Boeva. "CancerFoundation: A
   single-cell RNA sequencing foundation model to decipher drug resistance in cancer." bioRxiv (2024):
   2024-11.'
