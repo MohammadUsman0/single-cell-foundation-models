@@ -2,6 +2,9 @@
 
 Read this fully before acting. Claude Code reads this file automatically.
 
+**Also read [ROADMAP.md](ROADMAP.md)** — agreed decisions and the detailed plan for
+the remaining phases. Start there when asked to "continue".
+
 ## What this project is
 
 An **awesome-list and model catalogue** of single-cell foundation models and AI
@@ -22,6 +25,7 @@ Current size: ~182 models, ~121 resources, 19 venues.
 .
 ├── README.md                     # GENERATED — never edit by hand
 ├── CLAUDE.md                     # this file
+├── ROADMAP.md                    # decisions + phase plan (read this next)
 ├── CONTRIBUTING.md               # human-facing contribution guide
 ├── LICENSE                       # CC0-1.0
 ├── data/                         # <-- SOURCE OF TRUTH
