@@ -2350,6 +2350,14 @@
     "paper": "https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1",
     "code": "https://github.com/vandijklab/cell2sentence"
    },
+   "model_card": {
+    "params": "up to 27B",
+    "pretraining_data": "1B+ tokens of transcriptomic data, biological text and metadata",
+    "weights": "released",
+    "weights_url": "https://huggingface.co/vandijklab/C2S-Scale-Pythia-1b-pt",
+    "license": "Code: Apache-2.0; README notes a patent that may require a separate license for commercial use",
+    "package": "cell2sentence"
+   },
    "citation": "Rizvi, Syed Asad, Daniel Levine, Aakash Patel, Shiyang Zhang, Eric Wang, Curtis Jamison Perry, Ivan Vrkic et al. \"Scaling Large Language Models for Next-Generation Single-Cell Analysis.\" bioRxiv (2025).",
    "reviewed": false,
    "inputs": [
@@ -2363,9 +2371,12 @@
    "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
-    "https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1"
+    "https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1",
+    "https://github.com/vandijklab/cell2sentence",
+    "https://huggingface.co/vandijklab/C2S-Scale-Pythia-1b-pt",
+    "https://pypi.org/project/cell2sentence/"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "preprint",
    "github": "vandijklab/cell2sentence"
   },
@@ -2628,6 +2639,16 @@
     "paper": "https://doi.org/10.1038/s41467-025-59926-5",
     "code": "https://github.com/biomed-AI/CellFM"
    },
+   "model_card": {
+    "params": "800M",
+    "pretraining_cells": "~100M",
+    "species": [
+     "human"
+    ],
+    "weights": "released",
+    "weights_url": "https://huggingface.co/ShangguanNingyuan/CellFM",
+    "license": "Weights: CC BY-NC-ND 4.0 (Hugging Face); code: non-standard license"
+   },
    "citation": "Zeng, Yuansong, Jiancong Xie, Ningyuan Shangguan, Zhuoyi Wei, Wenbing Li, Yun Su, Shuangyu Yang et al. \"CellFM: a large-scale foundation model pre-trained on transcriptomics of 100 million human cells.\" Nature Communications 16, no. 1 (2025): 4679.",
    "reviewed": false,
    "inputs": [
@@ -2640,9 +2661,11 @@
    "architecture_family": "other",
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1038/s41467-025-59926-5"
+    "https://doi.org/10.1038/s41467-025-59926-5",
+    "https://github.com/biomed-AI/CellFM",
+    "https://huggingface.co/ShangguanNingyuan/CellFM"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "biomed-AI/CellFM"
   },
@@ -3135,6 +3158,14 @@
     "paper": "https://doi.org/10.1038/s41592-025-02822-z",
     "code": "https://github.com/xy-chen16/EpiAgent"
    },
+   "model_card": {
+    "pretraining_data": "Human-scATAC-Corpus",
+    "tokenization": "TF-IDF-ranked cCREs as cell sentences",
+    "weights": "released",
+    "weights_url": "https://drive.google.com/drive/folders/1WlNykSCNtZGsUp2oG0dw3cDdVKYDR-iX",
+    "license": "MIT",
+    "package": "epiagent"
+   },
    "citation": "Chen, Xiaoyang, Keyi Li, Xuejian Cui, Zian Wang, Qun Jiang, Jiacheng Lin, Zhen Li, Zijing Gao, Hairong Lv, and Rui Jiang. \"EpiAgent: foundation model for single-cell epigenomics.\" Nature Methods (2025): 1-12.",
    "reviewed": false,
    "inputs": [
@@ -3149,9 +3180,11 @@
    "architecture_family": "transformer-encoder",
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1038/s41592-025-02822-z"
+    "https://doi.org/10.1038/s41592-025-02822-z",
+    "https://github.com/xy-chen16/EpiAgent",
+    "https://pypi.org/project/epiagent/"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "xy-chen16/EpiAgent"
   },
@@ -3784,6 +3817,13 @@
     "preprint": "https://doi.org/10.1101/2024.09.09.612009",
     "code": "https://github.com/MICS-Lab/novae"
    },
+   "model_card": {
+    "pretraining_cells": "~30M (18 tissues)",
+    "weights": "released",
+    "weights_url": "https://huggingface.co/prism-oncology/novae-human-0",
+    "license": "BSD-3-Clause",
+    "package": "novae"
+   },
    "citation": "Blampey, Quentin, Hakim Benkirane, Nadège Bercovici, Kevin Mulder, Grégoire Gessain, Florent Ginhoux, Fabrice André et al. \"Novae: a graph-based foundation model for spatial transcriptomics data.\" Nature Methods 22, no. 12 (2025): 2539-2550.",
    "reviewed": false,
    "inputs": [
@@ -3798,9 +3838,12 @@
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-025-02899-6",
-    "https://doi.org/10.1101/2024.09.09.612009"
+    "https://doi.org/10.1101/2024.09.09.612009",
+    "https://github.com/MICS-Lab/novae",
+    "https://huggingface.co/prism-oncology/novae-human-0",
+    "https://pypi.org/project/novae/"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "MICS-Lab/novae"
   },
@@ -4501,6 +4544,14 @@
     "paper": "https://doi.org/10.1038/s41467-025-58699-1",
     "code": "https://github.com/cantinilab/scPRINT"
    },
+   "model_card": {
+    "pretraining_cells": "50M",
+    "pretraining_data": "CELLxGENE",
+    "weights": "released",
+    "weights_url": "https://huggingface.co/jkobject/scPRINT",
+    "license": "Code: GPL-3.0; weights (Hugging Face): Apache-2.0",
+    "package": "scprint"
+   },
    "citation": "Kalfon, Jérémie, Jules Samaran, Gabriel Peyré, and Laura Cantini. \"scPRINT: pre-training on 50 million cells allows robust gene network predictions.\" Nature Communications 16, no. 1 (2025): 3607.",
    "reviewed": false,
    "inputs": [
@@ -4513,9 +4564,12 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1038/s41467-025-58699-1"
+    "https://doi.org/10.1038/s41467-025-58699-1",
+    "https://github.com/cantinilab/scPRINT",
+    "https://huggingface.co/jkobject/scPRINT",
+    "https://pypi.org/project/scprint/"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "cantinilab/scPRINT"
   },
@@ -4917,6 +4971,16 @@
     "paper": "https://doi.org/10.1101/2025.10.23.683759",
     "code": "https://github.com/tahoebio/tahoe-x1"
    },
+   "model_card": {
+    "params": "up to 3B",
+    "pretraining_cells": "266M",
+    "pretraining_data": "CELLxGENE 2025-01, scBaseCamp 2025-02, Tahoe-100M",
+    "context_length": "2,048 (Tx1-3B)",
+    "weights": "released",
+    "weights_url": "https://huggingface.co/tahoebio/Tahoe-x1",
+    "license": "Apache-2.0",
+    "package": "tahoe-x1"
+   },
    "citation": "Gandhi, Shreshth, Farnoosh Javadi, Valentine Svensson, Umair Khan, Matthew G. Jones, John Yu, Daniele Merico, Hani Goodarzi, and Nima Alidoust. \"Tahoe-x1: Scaling Perturbation-Trained Single-Cell Foundation Models to 3 Billion Parameters.\" bioRxiv (2025): 2025-10.",
    "reviewed": false,
    "inputs": [
@@ -4937,9 +5001,12 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1101/2025.10.23.683759"
+    "https://doi.org/10.1101/2025.10.23.683759",
+    "https://github.com/tahoebio/tahoe-x1",
+    "https://huggingface.co/tahoebio/Tahoe-x1",
+    "https://pypi.org/project/tahoe-x1/"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "preprint",
    "github": "tahoebio/tahoe-x1"
   },
@@ -5452,6 +5519,12 @@
     "paper": "https://arxiv.org/abs/2405.06708",
     "code": "https://github.com/PharMolix/LangCell"
    },
+   "model_card": {
+    "pretraining_data": "scLibrary",
+    "weights": "released",
+    "weights_url": "https://drive.google.com/drive/folders/1cuhVG9v0YoAnjW-t_WMpQQguajumCBTp",
+    "license": "MIT"
+   },
    "citation": "Zhao, Suyuan, Jiahuan Zhang, Yushuai Wu, Yizhen Luo, and Zaiqing Nie. \"Langcell: Language-cell pre-training for cell identity understanding.\" arXiv preprint arXiv:2405.06708 (2024).",
    "reviewed": false,
    "inputs": [
@@ -5463,9 +5536,10 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://arxiv.org/abs/2405.06708"
+    "https://arxiv.org/abs/2405.06708",
+    "https://github.com/PharMolix/LangCell"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "preprint",
    "github": "PharMolix/LangCell"
   },
@@ -6544,6 +6618,15 @@
     "paper": "https://doi.org/10.1016/j.isci.2023.106536",
     "code": "https://github.com/deeplearningplus/tGPT"
    },
+   "model_card": {
+    "pretraining_cells": "22.3M",
+    "tokenization": "gene ranking (top-expressed genes)",
+    "objective": "autoregressive",
+    "context_length": "62 or 126 top-expressed genes",
+    "weights": "released",
+    "weights_url": "https://huggingface.co/lixiangchun/transcriptome-gpt-1024-8-16-64",
+    "license": "GPL-3.0"
+   },
    "citation": "Shen, Hongru, Jilei Liu, Jiani Hu, Xilin Shen, Chao Zhang, Dan Wu, Mengyao Feng et al. \"Generative pretraining from large-scale transcriptomes for single-cell deciphering.\" Iscience 26, no. 5 (2023).",
    "reviewed": false,
    "inputs": [
@@ -6555,9 +6638,11 @@
    "architecture_family": "transformer-decoder",
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1016/j.isci.2023.106536"
+    "https://doi.org/10.1016/j.isci.2023.106536",
+    "https://github.com/deeplearningplus/tGPT",
+    "https://huggingface.co/lixiangchun/transcriptome-gpt-1024-8-16-64"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "deeplearningplus/tGPT"
   },

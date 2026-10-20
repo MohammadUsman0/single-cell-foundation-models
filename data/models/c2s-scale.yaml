@@ -22,11 +22,22 @@ key: Scales LLMs over 'cell sentences' for next-generation single-cell analysis.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1
   code: https://github.com/vandijklab/cell2sentence
+model_card:
+  params: up to 27B
+  pretraining_data: 1B+ tokens of transcriptomic data, biological text and metadata
+  weights: released
+  weights_url: https://huggingface.co/vandijklab/C2S-Scale-Pythia-1b-pt
+  license: 'Code: Apache-2.0; README notes a patent that may require a separate license for commercial
+    use'
+  package: cell2sentence
 citation: Rizvi, Syed Asad, Daniel Levine, Aakash Patel, Shiyang Zhang, Eric Wang, Curtis Jamison Perry,
   Ivan Vrkic et al. "Scaling Large Language Models for Next-Generation Single-Cell Analysis." bioRxiv
   (2025).
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1
-review_basis: abstract
+- https://github.com/vandijklab/cell2sentence
+- https://huggingface.co/vandijklab/C2S-Scale-Pythia-1b-pt
+- https://pypi.org/project/cell2sentence/
+review_basis: repo
 reviewed: false

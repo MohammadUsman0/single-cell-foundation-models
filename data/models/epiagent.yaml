@@ -22,11 +22,20 @@ key: Encodes chromatin accessibility profiles as 'cell sentences'; used for feat
 links:
   paper: https://doi.org/10.1038/s41592-025-02822-z
   code: https://github.com/xy-chen16/EpiAgent
+model_card:
+  pretraining_data: Human-scATAC-Corpus
+  tokenization: TF-IDF-ranked cCREs as cell sentences
+  weights: released
+  weights_url: https://drive.google.com/drive/folders/1WlNykSCNtZGsUp2oG0dw3cDdVKYDR-iX
+  license: MIT
+  package: epiagent
 citation: 'Chen, Xiaoyang, Keyi Li, Xuejian Cui, Zian Wang, Qun Jiang, Jiacheng Lin, Zhen Li, Zijing Gao,
   Hairong Lv, and Rui Jiang. "EpiAgent: foundation model for single-cell epigenomics." Nature Methods
   (2025): 1-12.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41592-025-02822-z
-review_basis: abstract
+- https://github.com/xy-chen16/EpiAgent
+- https://pypi.org/project/epiagent/
+review_basis: repo
 reviewed: false

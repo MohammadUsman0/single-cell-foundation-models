@@ -22,6 +22,12 @@ links:
   paper: https://doi.org/10.1038/s41592-025-02899-6
   preprint: https://doi.org/10.1101/2024.09.09.612009
   code: https://github.com/MICS-Lab/novae
+model_card:
+  pretraining_cells: ~30M (18 tissues)
+  weights: released
+  weights_url: https://huggingface.co/prism-oncology/novae-human-0
+  license: BSD-3-Clause
+  package: novae
 citation: 'Blampey, Quentin, Hakim Benkirane, Nadège Bercovici, Kevin Mulder, Grégoire Gessain, Florent
   Ginhoux, Fabrice André et al. "Novae: a graph-based foundation model for spatial transcriptomics data."
   Nature Methods 22, no. 12 (2025): 2539-2550.'
@@ -29,5 +35,8 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41592-025-02899-6
 - https://doi.org/10.1101/2024.09.09.612009
-review_basis: abstract
+- https://github.com/MICS-Lab/novae
+- https://huggingface.co/prism-oncology/novae-human-0
+- https://pypi.org/project/novae/
+review_basis: repo
 reviewed: false

@@ -19,10 +19,16 @@ key: Pre-trains single-cell and natural-language representations jointly, so cel
 links:
   paper: https://arxiv.org/abs/2405.06708
   code: https://github.com/PharMolix/LangCell
+model_card:
+  pretraining_data: scLibrary
+  weights: released
+  weights_url: https://drive.google.com/drive/folders/1cuhVG9v0YoAnjW-t_WMpQQguajumCBTp
+  license: MIT
 citation: 'Zhao, Suyuan, Jiahuan Zhang, Yushuai Wu, Yizhen Luo, and Zaiqing Nie. "Langcell: Language-cell
   pre-training for cell identity understanding." arXiv preprint arXiv:2405.06708 (2024).'
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2405.06708
-review_basis: abstract
+- https://github.com/PharMolix/LangCell
+review_basis: repo
 reviewed: false
