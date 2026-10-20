@@ -1,7 +1,7 @@
 id: phenoprofiler
 kind: model
 name: PhenoProfiler
-title: 'PhenoProfiler: Advancing Morphology Representations for Image-based Drug Discovery'
+title: 'PhenoProfiler: advancing phenotypic learning for image-based drug discovery'
 year: 2025
 venue: Nature Communications
 category: morphology
@@ -9,6 +9,6 @@ tags:
 - imaging
 - drug-response
 links:
-  paper: https://www.nature.com/articles/s41467-025-60033-1
+  paper: https://doi.org/10.1038/s41467-025-67479-w
   code: https://github.com/QSong-github/PhenoProfiler
 reviewed: false

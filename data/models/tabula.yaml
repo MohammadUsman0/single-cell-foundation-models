@@ -3,13 +3,15 @@ kind: model
 name: Tabula
 title: 'Tabula: A Tabular Self-Supervised Foundation Model for Single-Cell Transcriptomics'
 year: 2025
-venue: Cell
+venue: NeurIPS
 category: scrna
 tags:
 - scrna-seq
 modality: Single-Cell Transcriptomics
 architecture: Tabular Self-Supervised
 key: Nips 2025 poster
+links:
+  paper: https://doi.org/10.52202/085713-3467
 citation: 'Ding, Jiayuan, Jianhui Lin, Shiyu Jiang, Yixin Wang, Ziyang Miao, Zhaoyu Fang, Jiliang Tang,
   Min Li, and Xiaojie Qiu. "Tabula: A Tabular Self-Supervised Foundation Model for Single-Cell Transcriptomics."
   In The Thirty-ninth Annual Conference on Neural Information Processing Systems.'

@@ -252,6 +252,30 @@
    "status": "preprint"
   },
   {
+   "id": "captain",
+   "kind": "model",
+   "name": "CAPTAIN",
+   "title": "CAPTAIN: a multimodal foundation model pretrained on co-assayed single-cell RNA and protein",
+   "year": 2026,
+   "venue": "Nature Communications",
+   "category": "multimodal",
+   "tags": [
+    "multi-omics",
+    "proteomics",
+    "scrna-seq"
+   ],
+   "modality": "Single-cell RNA and Protein (co-assayed)",
+   "architecture": "Multimodal",
+   "key": "Protein imputation, cell type annotation, batch harmonization. Key Finding: Learns unified multimodal representations; uncovers protein-driven intercellular dynamics.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41467-026-72882-y",
+    "preprint": "https://doi.org/10.1101/2025.07.07.663366"
+   },
+   "citation": "Ji, Boya, Tingting Hu, Jiawen Wang, Mengmeng Liu, Liwen Xu, Qinhao Zhang, Siyun Zhong et al. \"CAPTAIN: A multimodal foundation model pretrained on co-assayed single-cell RNA and protein.\" bioRxiv (2025): 2025-07.",
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "celcomen",
    "kind": "model",
    "name": "Celcomen",
@@ -553,6 +577,27 @@
    "status": "preprint"
   },
   {
+   "id": "learning-multi-cellular-representations",
+   "kind": "model",
+   "name": "Learning multi-cellular representations PaSCien",
+   "title": "Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states",
+   "year": 2026,
+   "venue": "Cell Systems",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq"
+   ],
+   "modality": "Single-Cell Transcriptomics",
+   "key": "Characterization of patient-level disease states",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cels.2026.101570",
+    "preprint": "https://doi.org/10.1101/2024.11.18.624166"
+   },
+   "citation": "Liu, Tianyu, Edward De Brouwer, Tony Kuo, Nathaniel Diamant, Alsu Missarova, Hanchen Wang, Minsheng Hao et al. \"Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states.\" In International Conference on Research in Computational Molecular Biology, pp. 303-306. Cham: Springer Nature Switzerland, 2025.",
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "lingshu-cell",
    "kind": "model",
    "name": "Lingshu-Cell",
@@ -778,6 +823,51 @@
    "github": "AI4Science-WestlakeU/scDFM"
   },
   {
+   "id": "scelmo",
+   "kind": "model",
+   "name": "scELMo",
+   "title": "Embeddings from language models are good learners for single-cell data analysis",
+   "year": 2026,
+   "venue": "Patterns",
+   "category": "llm",
+   "tags": [
+    "llm",
+    "text"
+   ],
+   "modality": "Single-cell Data",
+   "architecture": "Language Models",
+   "task": "Single-cell data analysis (embeddings)",
+   "key": "propose a method named scELMo (Single-cell Embedding from Language Models), to analyze single-cell data that utilizes Large Language Models (LLMs) as a generator for both the description of metadata information and the embeddings for such descriptions.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.patter.2025.101431"
+   },
+   "citation": "Liu, Tianyu, Tianqi Chen, Wangjie Zheng, Xiao Luo, Yiqun Chen, and Hongyu Zhao. \"scelmo: Embeddings from language models are good learners for single-cell data analysis.\" bioRxiv (2025): 2023-12.",
+   "reviewed": false,
+   "status": "published"
+  },
+  {
+   "id": "sclong",
+   "kind": "model",
+   "name": "scLong",
+   "title": "scLong: a billion-parameter foundation model for capturing long-range gene context in single-cell transcriptomics",
+   "year": 2026,
+   "venue": "Nature Communications",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq"
+   ],
+   "modality": "Single-Cell Transcriptomics",
+   "architecture": "Billion-Parameter",
+   "key": "Capturing long-range gene context",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41467-026-69102-y",
+    "preprint": "https://doi.org/10.1101/2024.11.09.622759"
+   },
+   "citation": "Bai, Ding, Shentong Mo, Ruiyi Zhang, Yingtao Luo, Jiahao Gao, Jeremy Parker Yang, Qiuyang Wu et al. \"scLong: A billion-parameter foundation model for capturing long-range gene context in single-cell transcriptomics.\" bioRxiv (2024): 2024-11.",
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "scprint-2",
    "kind": "model",
    "name": "scPRINT-2",
@@ -847,6 +937,24 @@
    "citation": "Dong, Mingze, Abhinav Adduri, Dhruv Gautam, Christopher Carpenter, Rohan Shah, Chiara Ricci-Tam, Yuval Kluger, Dave P. Burke, and Yusuf Husein Roohani. \"Stack: In-Context Learning of Single-Cell Biology.\" bioRxiv (2026): 2026-01.",
    "reviewed": false,
    "status": "preprint"
+  },
+  {
+   "id": "state",
+   "kind": "model",
+   "name": "STATE",
+   "title": "Predicting cellular responses to perturbation across diverse contexts with State",
+   "year": 2026,
+   "venue": "Cell",
+   "category": "perturbation",
+   "tags": [
+    "perturbation"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2026.07.052"
+   },
+   "citation": "Adduri, Abhinav K., Dhruv Gautam, Beatrice Bevilacqua, Alishba Imran, Rohan Shah, Mohsen Naghipourfar, Noam Teyssier et al. \"Predicting cellular responses to perturbation across diverse contexts with State.\" BioRxiv (2025): 2025-06.",
+   "reviewed": false,
+   "status": "published"
   },
   {
    "id": "statexdiff",
@@ -928,6 +1036,23 @@
    "reviewed": false,
    "status": "published",
    "github": "valence-labs/TxPert"
+  },
+  {
+   "id": "uce",
+   "kind": "model",
+   "name": "UCE",
+   "title": "Universal cell embedding provides a foundation model for cell biology",
+   "year": 2026,
+   "venue": "Nature",
+   "category": "atlas",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41586-026-10689-z",
+    "preprint": "https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2",
+    "code": "https://github.com/snap-stanford/UCE"
+   },
+   "reviewed": false,
+   "status": "published",
+   "github": "snap-stanford/UCE"
   },
   {
    "id": "x-cell",
@@ -1069,26 +1194,6 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1"
    },
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
-   "id": "captain",
-   "kind": "model",
-   "name": "CAPTAIN",
-   "title": "CAPTAIN: A multimodal foundation model pretrained on co-assayed single-cell RNA and protein",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "category": "multimodal",
-   "tags": [
-    "multi-omics",
-    "proteomics",
-    "scrna-seq"
-   ],
-   "modality": "Single-cell RNA and Protein (co-assayed)",
-   "architecture": "Multimodal",
-   "key": "Protein imputation, cell type annotation, batch harmonization. Key Finding: Learns unified multimodal representations; uncovers protein-driven intercellular dynamics.",
-   "citation": "Ji, Boya, Tingting Hu, Jiawen Wang, Mengmeng Liu, Liwen Xu, Qinhao Zhang, Siyun Zhong et al. \"CAPTAIN: A multimodal foundation model pretrained on co-assayed single-cell RNA and protein.\" bioRxiv (2025): 2025-07.",
    "reviewed": false,
    "status": "preprint"
   },
@@ -1863,15 +1968,44 @@
    "name": "Nicheformer",
    "title": "Nicheformer: a foundation model for single-cell and spatial omics",
    "year": 2025,
-   "venue": "Nature",
+   "venue": "Nature Methods",
    "category": "spatial",
    "tags": [
     "spatial"
    ],
    "modality": "Single-cell and Spatial Omics",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-025-02814-z",
+    "preprint": "https://doi.org/10.1101/2024.04.15.589472"
+   },
    "citation": "Tejada-Lapuerta, Alejandro, Anna C. Schaar, Robert Gutgesell, Giovanni Palla, Lennard Halle, Mariia Minaeva, Larsen Vornholz et al. \"Nicheformer: a foundation model for single-cell and spatial omics.\" Nature methods (2025): 1-14.",
    "reviewed": false,
    "status": "published"
+  },
+  {
+   "id": "novae",
+   "kind": "model",
+   "name": "Novae",
+   "title": "Novae: a graph-based foundation model for spatial transcriptomics data",
+   "year": 2025,
+   "venue": "Nature Methods",
+   "category": "spatial",
+   "tags": [
+    "spatial",
+    "graph",
+    "scrna-seq"
+   ],
+   "modality": "Spatial Transcriptomics",
+   "architecture": "Graph-based",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-025-02899-6",
+    "preprint": "https://doi.org/10.1101/2024.09.09.612009",
+    "code": "https://github.com/MICS-Lab/novae"
+   },
+   "citation": "Blampey, Quentin, Hakim Benkirane, Nadege Bercovici, Fabrice André, and Paul-Henry Cournede. \"Novae: a graph-based foundation model for spatial transcriptomics data.\" bioRxiv (2024): 2024-09.",
+   "reviewed": false,
+   "status": "published",
+   "github": "MICS-Lab/novae"
   },
   {
    "id": "octo-vc",
@@ -2018,7 +2152,7 @@
    "id": "phenoprofiler",
    "kind": "model",
    "name": "PhenoProfiler",
-   "title": "PhenoProfiler: Advancing Morphology Representations for Image-based Drug Discovery",
+   "title": "PhenoProfiler: advancing phenotypic learning for image-based drug discovery",
    "year": 2025,
    "venue": "Nature Communications",
    "category": "morphology",
@@ -2027,7 +2161,7 @@
     "drug-response"
    ],
    "links": {
-    "paper": "https://www.nature.com/articles/s41467-025-60033-1",
+    "paper": "https://doi.org/10.1038/s41467-025-67479-w",
     "code": "https://github.com/QSong-github/PhenoProfiler"
    },
    "reviewed": false,
@@ -2181,26 +2315,6 @@
    "task": "cell-type annotation, technology integration, dissociated to spatial cell-type transfer, spatial imputation, gene panel optimization, and mapping new technologies on already existing atlases.",
    "key": "present scConcept (“contrastive cell pre-training”), a transformer-based contrastive learning framework that directly optimizes cell embeddings by contrasting multiple views of cells. By replacing gene-level reconstruction with a cell-level identification task, scConcept learns robust representations that are invariant to count distributions and gene panel selection, across diverse assays and technologies.",
    "citation": "Bahrami, Mojtaba, Alejandro Tejada-Lapuerta, Sören Becker, Fatemeh S. Hashemi G, and Fabian J. Theis. \"scConcept: Contrastive pretraining for technology-agnostic single-cell representations beyond reconstruction.\" bioRxiv (2025): 2025-10.",
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
-   "id": "scelmo",
-   "kind": "model",
-   "name": "scELMo",
-   "title": "scelmo: Embeddings from language models are good learners for single-cell data analysis",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "category": "llm",
-   "tags": [
-    "llm",
-    "text"
-   ],
-   "modality": "Single-cell Data",
-   "architecture": "Language Models",
-   "task": "Single-cell data analysis (embeddings)",
-   "key": "propose a method named scELMo (Single-cell Embedding from Language Models), to analyze single-cell data that utilizes Large Language Models (LLMs) as a generator for both the description of metadata information and the embeddings for such descriptions.",
-   "citation": "Liu, Tianyu, Tianqi Chen, Wangjie Zheng, Xiao Luo, Yiqun Chen, and Hongyu Zhao. \"scelmo: Embeddings from language models are good learners for single-cell data analysis.\" bioRxiv (2025): 2023-12.",
    "reviewed": false,
    "status": "preprint"
   },
@@ -2546,21 +2660,6 @@
    "github": "siyuh/Squidiff"
   },
   {
-   "id": "state",
-   "kind": "model",
-   "name": "STATE",
-   "title": "Predicting cellular responses to perturbation across diverse contexts with State",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "category": "perturbation",
-   "tags": [
-    "perturbation"
-   ],
-   "citation": "Adduri, Abhinav K., Dhruv Gautam, Beatrice Bevilacqua, Alishba Imran, Rohan Shah, Mohsen Naghipourfar, Noam Teyssier et al. \"Predicting cellular responses to perturbation across diverse contexts with State.\" BioRxiv (2025): 2025-06.",
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
    "id": "stereo-cell",
    "kind": "model",
    "name": "Stereo-Cell",
@@ -2692,7 +2791,7 @@
    "name": "Tabula",
    "title": "Tabula: A Tabular Self-Supervised Foundation Model for Single-Cell Transcriptomics",
    "year": 2025,
-   "venue": "Cell",
+   "venue": "NeurIPS",
    "category": "scrna",
    "tags": [
     "scrna-seq"
@@ -2700,6 +2799,9 @@
    "modality": "Single-Cell Transcriptomics",
    "architecture": "Tabular Self-Supervised",
    "key": "Nips 2025 poster",
+   "links": {
+    "paper": "https://doi.org/10.52202/085713-3467"
+   },
    "citation": "Ding, Jiayuan, Jianhui Lin, Shiyu Jiang, Yixin Wang, Ziyang Miao, Zhaoyu Fang, Jiliang Tang, Min Li, and Xiaojie Qiu. \"Tabula: A Tabular Self-Supervised Foundation Model for Single-Cell Transcriptomics.\" In The Thirty-ninth Annual Conference on Neural Information Processing Systems.",
    "reviewed": false,
    "status": "published"
@@ -3052,23 +3154,6 @@
    "status": "preprint"
   },
   {
-   "id": "learning-multi-cellular-representations",
-   "kind": "model",
-   "name": "Learning multi-cellular representations PaSCien",
-   "title": "Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states",
-   "year": 2024,
-   "venue": "Nature",
-   "category": "scrna",
-   "tags": [
-    "scrna-seq"
-   ],
-   "modality": "Single-Cell Transcriptomics",
-   "key": "Characterization of patient-level disease states",
-   "citation": "Liu, Tianyu, Edward De Brouwer, Tony Kuo, Nathaniel Diamant, Alsu Missarova, Hanchen Wang, Minsheng Hao et al. \"Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states.\" In International Conference on Research in Computational Molecular Biology, pp. 303-306. Cham: Springer Nature Switzerland, 2025.",
-   "reviewed": false,
-   "status": "published"
-  },
-  {
    "id": "nichecompass",
    "kind": "model",
    "name": "nichecompass",
@@ -3090,29 +3175,6 @@
    "reviewed": false,
    "status": "preprint",
    "github": "Lotfollahi-lab/nichecompass"
-  },
-  {
-   "id": "novae",
-   "kind": "model",
-   "name": "Novae",
-   "title": "Novae: a graph-based foundation model for spatial transcriptomics data",
-   "year": 2024,
-   "venue": "bioRxiv",
-   "category": "spatial",
-   "tags": [
-    "spatial",
-    "graph",
-    "scrna-seq"
-   ],
-   "modality": "Spatial Transcriptomics",
-   "architecture": "Graph-based",
-   "links": {
-    "code": "https://github.com/MICS-Lab/novae"
-   },
-   "citation": "Blampey, Quentin, Hakim Benkirane, Nadege Bercovici, Fabrice André, and Paul-Henry Cournede. \"Novae: a graph-based foundation model for spatial transcriptomics data.\" bioRxiv (2024): 2024-09.",
-   "reviewed": false,
-   "status": "preprint",
-   "github": "MICS-Lab/novae"
   },
   {
    "id": "prnet",
@@ -3161,13 +3223,16 @@
    "name": "scCello",
    "title": "Cell ontology guided transcriptome foundation model",
    "year": 2024,
-   "venue": "Cell",
+   "venue": "NeurIPS",
    "category": "grn",
    "tags": [
     "gene-regulation",
     "scrna-seq"
    ],
    "modality": "Transcriptome",
+   "links": {
+    "paper": "https://doi.org/10.52202/079017-0204"
+   },
    "citation": "Yuan, Xinyu, Zhihao Zhan, Zuobai Zhang, Manqi Zhou, Jianan Zhao, Boyu Han, Yue Li, and Jian Tang. \"Cell ontology guided transcriptome foundation model.\" Advances in Neural Information Processing Systems 37 (2024): 6323-6366.",
    "reviewed": false,
    "status": "published"
@@ -3178,7 +3243,7 @@
    "name": "scFoundation",
    "title": "Large-scale foundation model on single-cell transcriptomics",
    "year": 2024,
-   "venue": "Nature",
+   "venue": "Nature Methods",
    "category": "scrna",
    "tags": [
     "scrna-seq"
@@ -3186,6 +3251,9 @@
    "modality": "Single-cell Transcriptomics",
    "architecture": "Asymmetric Transformer-like",
    "key": "Gene expression enhancement, drug response prediction, cell type annotation. Key Finding: Achieves SOTA performance in diverse tasks.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-024-02305-7"
+   },
    "citation": "Hao, Minsheng, Jing Gong, Xin Zeng, Chiming Liu, Yucheng Guo, Xingyi Cheng, Taifeng Wang, Jianzhu Ma, Xuegong Zhang, and Le Song. \"Large-scale foundation model on single-cell transcriptomics.\" Nature methods 21, no. 8 (2024): 1481-1491.",
    "reviewed": false,
    "status": "published"
@@ -3217,7 +3285,7 @@
    "name": "scGPT",
    "title": "scGPT: toward building a foundation model for single-cell multi-omics using generative AI",
    "year": 2024,
-   "venue": "Nature",
+   "venue": "Nature Methods",
    "category": "multimodal",
    "tags": [
     "multi-omics",
@@ -3226,6 +3294,10 @@
    "modality": "Single-cell Multi-omics",
    "architecture": "Generative Pre-trained Transformer (Generative AI)",
    "key": "Single-cell multi-omics, capturing biological insights into genes and cells.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-024-02201-0",
+    "preprint": "https://doi.org/10.1101/2023.04.30.538439"
+   },
    "citation": "Cui, Haotian, Chloe Wang, Hassaan Maan, Kuan Pang, Fengning Luo, Nan Duan, and Bo Wang. \"scGPT: toward building a foundation model for single-cell multi-omics using generative AI.\" Nature methods 21, no. 8 (2024): 1470-1480.",
    "reviewed": false,
    "status": "published"
@@ -3249,24 +3321,6 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2024.12.04.626878v1"
    },
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
-   "id": "sclong",
-   "kind": "model",
-   "name": "scLong",
-   "title": "scLong: A billion-parameter foundation model for capturing long-range gene context in single-cell transcriptomics",
-   "year": 2024,
-   "venue": "bioRxiv",
-   "category": "scrna",
-   "tags": [
-    "scrna-seq"
-   ],
-   "modality": "Single-Cell Transcriptomics",
-   "architecture": "Billion-Parameter",
-   "key": "Capturing long-range gene context",
-   "citation": "Bai, Ding, Shentong Mo, Ruiyi Zhang, Yingtao Luo, Jiahao Gao, Jeremy Parker Yang, Qiuyang Wu et al. \"scLong: A billion-parameter foundation model for capturing long-range gene context in single-cell transcriptomics.\" bioRxiv (2024): 2024-11.",
    "reviewed": false,
    "status": "preprint"
   },
@@ -3422,22 +3476,6 @@
    "reviewed": false,
    "status": "published",
    "github": "myzhengSIMM/TranSiGen"
-  },
-  {
-   "id": "uce",
-   "kind": "model",
-   "name": "UCE",
-   "title": "Universal Cell Embeddings: A Foundation Model for Cell Biology",
-   "year": 2024,
-   "venue": "bioRxiv",
-   "category": "atlas",
-   "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2",
-    "code": "https://github.com/snap-stanford/UCE"
-   },
-   "reviewed": false,
-   "status": "preprint",
-   "github": "snap-stanford/UCE"
   },
   {
    "id": "xtrimogene",

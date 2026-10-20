@@ -3,7 +3,7 @@ kind: model
 name: scGPT
 title: 'scGPT: toward building a foundation model for single-cell multi-omics using generative AI'
 year: 2024
-venue: Nature
+venue: Nature Methods
 category: multimodal
 tags:
 - multi-omics
@@ -11,6 +11,9 @@ tags:
 modality: Single-cell Multi-omics
 architecture: Generative Pre-trained Transformer (Generative AI)
 key: Single-cell multi-omics, capturing biological insights into genes and cells.
+links:
+  paper: https://doi.org/10.1038/s41592-024-02201-0
+  preprint: https://doi.org/10.1101/2023.04.30.538439
 citation: 'Cui, Haotian, Chloe Wang, Hassaan Maan, Kuan Pang, Fengning Luo, Nan Duan, and Bo Wang. "scGPT:
   toward building a foundation model for single-cell multi-omics using generative AI." Nature methods
   21, no. 8 (2024): 1470-1480.'

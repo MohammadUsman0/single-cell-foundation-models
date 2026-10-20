@@ -1,9 +1,9 @@
 id: captain
 kind: model
 name: CAPTAIN
-title: 'CAPTAIN: A multimodal foundation model pretrained on co-assayed single-cell RNA and protein'
-year: 2025
-venue: bioRxiv
+title: 'CAPTAIN: a multimodal foundation model pretrained on co-assayed single-cell RNA and protein'
+year: 2026
+venue: Nature Communications
 category: multimodal
 tags:
 - multi-omics
@@ -13,6 +13,9 @@ modality: Single-cell RNA and Protein (co-assayed)
 architecture: Multimodal
 key: 'Protein imputation, cell type annotation, batch harmonization. Key Finding: Learns unified multimodal
   representations; uncovers protein-driven intercellular dynamics.'
+links:
+  paper: https://doi.org/10.1038/s41467-026-72882-y
+  preprint: https://doi.org/10.1101/2025.07.07.663366
 citation: 'Ji, Boya, Tingting Hu, Jiawen Wang, Mengmeng Liu, Liwen Xu, Qinhao Zhang, Siyun Zhong et al.
   "CAPTAIN: A multimodal foundation model pretrained on co-assayed single-cell RNA and protein." bioRxiv
   (2025): 2025-07.'
