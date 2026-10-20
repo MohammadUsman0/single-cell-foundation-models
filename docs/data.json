@@ -3293,9 +3293,9 @@
    "title": "Cytometry masked autoencoder: An accurate and interpretable automated immunophenotyper",
    "year": 2024,
    "venue": "Cell Reports Medicine",
-   "category": "scrna",
+   "category": "proteomics",
    "tags": [
-    "scrna-seq"
+    "proteomics"
    ],
    "architecture": "Masked Autoencoder",
    "key": "Automated Immunophenotyper",

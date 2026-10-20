@@ -22,11 +22,11 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 **Models**
 
-- [scRNA-seq / Transcriptomics Foundation Models](#scrna-seq--transcriptomics-foundation-models) (24)
+- [scRNA-seq / Transcriptomics Foundation Models](#scrna-seq--transcriptomics-foundation-models) (23)
 - [Spatial & Spatial Multi-omics](#spatial--spatial-multi-omics) (17)
 - [Epigenomics & Chromatin Accessibility (scATAC)](#epigenomics--chromatin-accessibility-scatac) (5)
 - [Multimodal & Multi-omics Integration](#multimodal--multi-omics-integration) (6)
-- [Proteomics & Protein-level Models](#proteomics--protein-level-models) (6)
+- [Proteomics & Protein-level Models](#proteomics--protein-level-models) (7)
 - [Sequence-to-Expression & Regulatory Genomics](#sequence-to-expression--regulatory-genomics) (3)
 - [Gene Regulatory Networks & Graph-based Models](#gene-regulatory-networks--graph-based-models) (7)
 - [Generative Models (Diffusion / Flow / VAE)](#generative-models-diffusion--flow--vae) (2)
@@ -69,7 +69,6 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **TEDDY** · TEDDY: A Family of Foundation Models for Understanding Single Cell Biology (**ICML 2025**, GenBio Workshop) · `scRNA-seq` · [[paper](https://arxiv.org/pdf/2503.03485)] [[code](https://huggingface.co/Merck/TEDDY)]
 - **AIDO.Cell** · Scaling dense representations for single cell with transcriptome-scale context (**bioRxiv 2024**) · `scRNA-seq` · [[paper](https://doi.org/10.1101/2024.11.28.625303)] [[code](https://github.com/genbio-ai/AIDO)] ![stars](https://img.shields.io/github/stars/genbio-ai/AIDO?style=flat-square&label=%E2%98%85)
 - **CancerFoundation** · CancerFoundation: A single-cell RNA sequencing foundation model to decipher drug resistance in cancer (**bioRxiv 2024**) · `scRNA-seq` `Drug response` · [[paper](https://doi.org/10.1101/2024.11.01.621087)] [[code](https://github.com/BoevaLab/CancerFoundation)] ![stars](https://img.shields.io/github/stars/BoevaLab/CancerFoundation?style=flat-square&label=%E2%98%85)
-- **cyMAE** · Cytometry masked autoencoder: An accurate and interpretable automated immunophenotyper (**Cell Reports Medicine 2024**) · `scRNA-seq` · [[paper](https://doi.org/10.1016/j.xcrm.2024.101808)]
 - **scFoundation** · Large-scale foundation model on single-cell transcriptomics (**Nature Methods 2024**) · `scRNA-seq` · [[paper](https://doi.org/10.1038/s41592-024-02305-7)] [[code](https://github.com/biomap-research/scFoundation)] ![stars](https://img.shields.io/github/stars/biomap-research/scFoundation?style=flat-square&label=%E2%98%85)
 - **scTab** · scTab: Scaling Cross-Tissue Single-Cell Annotation Models (**Nature Communications 2024**) · `scRNA-seq` · [[paper](https://doi.org/10.1038/s41467-024-51059-5)] [[code](https://github.com/theislab/scTab)] ![stars](https://img.shields.io/github/stars/theislab/scTab?style=flat-square&label=%E2%98%85)
 - **CellLM** · Large-scale cell representation learning via divide-and-conquer contrastive learning (**arXiv 2023**) · `scRNA-seq` · [[paper](https://arxiv.org/abs/2306.04371)]
@@ -128,6 +127,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **ProteinTalks** · A Perturbation Proteomics-Based Foundation Model for Virtual Cell Construction (**bioRxiv 2025**) · `Proteomics` `Perturbation` `Virtual cell` · [[paper](https://doi.org/10.1101/2025.02.07.637070)] [[code](https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks)] ![stars](https://img.shields.io/github/stars/guomics-lab/PTV-1?style=flat-square&label=%E2%98%85)
 - **scTranslator** · A pre-trained large generative model for translating single-cell transcriptomes to proteomes (**Nature Biomedical Engineering 2025**) · `Proteomics` `Generative` `scRNA-seq` · [[paper](https://doi.org/10.1038/s41551-025-01528-z)] [[code](https://github.com/TencentAILabHealthcare/scTranslator)] ![stars](https://img.shields.io/github/stars/TencentAILabHealthcare/scTranslator?style=flat-square&label=%E2%98%85)
 - **Spatial Proteomics FM** · A Foundation Model for Spatial Proteomics (**arXiv 2025**) · `Proteomics` `Spatial` · [[paper](https://arxiv.org/abs/2506.03373)]
+- **cyMAE** · Cytometry masked autoencoder: An accurate and interpretable automated immunophenotyper (**Cell Reports Medicine 2024**) · `Proteomics` · [[paper](https://doi.org/10.1016/j.xcrm.2024.101808)]
 - **ProCyon** · ProCyon: A multimodal foundation model for protein phenotypes (**bioRxiv 2024**) · `Proteomics` `Text` · [[paper](https://doi.org/10.1101/2024.12.10.627665)] [[code](https://github.com/mims-harvard/ProCyon)] ![stars](https://img.shields.io/github/stars/mims-harvard/ProCyon?style=flat-square&label=%E2%98%85)
 - **scmFormer** · scmFormer integrates large‐scale single‐cell proteomics and transcriptomics data by multi‐task transformer (**Advanced Science 2024**) · `Proteomics` `scRNA-seq` · [[paper](https://doi.org/10.1002/advs.202307835)]
 - **scPROTEIN** · scPROTEIN: a versatile deep graph contrastive learning framework for single-cell proteomics embedding (**Nature Methods 2024**) · `Proteomics` `Graph` · [[paper](https://doi.org/10.1038/s41592-024-02214-9)] [[code](https://github.com/TencentAILabHealthcare/scPROTEIN)] ![stars](https://img.shields.io/github/stars/TencentAILabHealthcare/scPROTEIN?style=flat-square&label=%E2%98%85)
