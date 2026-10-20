@@ -5,5 +5,5 @@ title: 'PubChem: Compound identifiers, structures, assays, and bioactivity recor
 tags:
 - drug-response
 links:
-  paper: https://pubchem.ncbi.nlm.nih.gov/
+  dataset: https://pubchem.ncbi.nlm.nih.gov/
 reviewed: false

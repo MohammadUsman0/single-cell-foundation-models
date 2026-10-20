@@ -103,21 +103,21 @@ tabula-sapiens,dataset,Tabula Sapiens: A multiple-organ single-cell transcriptom
 sci-plex,dataset,Sci-Plex: Massively Multiplex Chemical Transcriptomics at Single-Cell Resolution,2019,Science,scrna-seq,,https://doi.org/10.1126/science.aax6234,,,,False
 l1000-cmap,dataset,"L1000/CMap: A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles",2017,Cell,perturbation; drug-response,,https://doi.org/10.1016/j.cell.2017.10.049,,,,False
 drug-repurposing-hub-curated-compound-library,dataset,The Drug Repurposing Hub: a next-generation drug library and information resource,2017,Nature Medicine,drug-response,,https://www.nature.com/articles/nm.4306,,,,False
-10x-genomics-spatial-datasets-visium-xenium,dataset,"10x Genomics spatial datasets: Visium, Xenium, and related public spatial transcriptomics example datasets",,,spatial; scrna-seq,,https://www.10xgenomics.com/datasets,,,,False
-arc-virtual-cell-atlas-large-scale,dataset,Arc Virtual Cell Atlas: Large-scale perturbation atlas and codebase from Arc Institute,,,perturbation; virtual-cell,,https://arcinstitute.org/tools/virtualcellatlas,,,,False
-bindingdb,dataset,BindingDB: Protein-small molecule binding affinity knowledgebase,,,proteomics,,https://www.bindingdb.org/,,,,False
-cell-painting-gallery,dataset,Cell Painting Gallery: Public high-content cell painting datasets from Broad and partners,,,imaging,,https://registry.opendata.aws/cellpainting-gallery/,,,,False
-chembl,dataset,"ChEMBL: Drug-like molecules, bioactivities, targets, and assays",,,drug-response,,https://www.ebi.ac.uk/chembl/,,,,False
-depmap-ccle-prism,dataset,"DepMap/CCLE/PRISM: Cancer dependency, molecular profile, and drug-response resources for cell-line perturbation modeling",,,perturbation; drug-response,,https://depmap.org/portal/,,,,False
-gtex,dataset,GTEx: Genotype-Tissue Expression project for human tissue expression baselines,,,,,https://gtexportal.org/,,,,False
-human-biomolecular-atlas-program-hubmap-healthy,dataset,Human BioMolecular Atlas Program: HuBMAP healthy human tissue atlas and common coordinate framework,,,spatial,,https://hubmapconsortium.org/,,,,False
-human-cell-atlas,dataset,Human Cell Atlas: International atlas of human cells and tissues,,,scrna-seq,,https://data.humancellatlas.org/,,,,False
-human-protein-atlas,dataset,Human Protein Atlas: Subcellular and tissue protein expression atlases,,,proteomics,,https://www.proteinatlas.org/,,,,False
-omnipath,dataset,"OmniPath: Signaling, ligand-receptor, and causal network priors for multi-omics analysis",,,multi-omics,,https://omnipathdb.org/,,,,False
-perturb-seq-datasets,dataset,"Perturb-seq datasets: Genome-scale and combinatorial Perturb-seq datasets from Replogle, Norman, Dixit, Adamson, and related screens",,,perturbation,,https://github.com/sanderlab/scPerturb,,,,False
-pubchem,dataset,"PubChem: Compound identifiers, structures, assays, and bioactivity records",,,drug-response,,https://pubchem.ncbi.nlm.nih.gov/,,,,False
-rxrx,dataset,RxRx: Recursion high-content cellular imaging datasets for perturbation and batch-correction research,,,imaging; perturbation,,https://www.rxrx.ai/datasets,,,,False
-string,dataset,STRING: Protein functional association and interaction networks,,,proteomics,,https://string-db.org/,,,,False
+10x-genomics-spatial-datasets-visium-xenium,dataset,"10x Genomics spatial datasets: Visium, Xenium, and related public spatial transcriptomics example datasets",,,spatial; scrna-seq,,,,,,False
+arc-virtual-cell-atlas-large-scale,dataset,Arc Virtual Cell Atlas: Large-scale perturbation atlas and codebase from Arc Institute,,,perturbation; virtual-cell,,,,,,False
+bindingdb,dataset,BindingDB: Protein-small molecule binding affinity knowledgebase,,,proteomics,,,,,,False
+cell-painting-gallery,dataset,Cell Painting Gallery: Public high-content cell painting datasets from Broad and partners,,,imaging,,,,,,False
+chembl,dataset,"ChEMBL: Drug-like molecules, bioactivities, targets, and assays",,,drug-response,,,,,,False
+depmap-ccle-prism,dataset,"DepMap/CCLE/PRISM: Cancer dependency, molecular profile, and drug-response resources for cell-line perturbation modeling",,,perturbation; drug-response,,,,,,False
+gtex,dataset,GTEx: Genotype-Tissue Expression project for human tissue expression baselines,,,,,,,,,False
+human-biomolecular-atlas-program-hubmap-healthy,dataset,Human BioMolecular Atlas Program: HuBMAP healthy human tissue atlas and common coordinate framework,,,spatial,,,,,,False
+human-cell-atlas,dataset,Human Cell Atlas: International atlas of human cells and tissues,,,scrna-seq,,,,,,False
+human-protein-atlas,dataset,Human Protein Atlas: Subcellular and tissue protein expression atlases,,,proteomics,,,,,,False
+omnipath,dataset,"OmniPath: Signaling, ligand-receptor, and causal network priors for multi-omics analysis",,,multi-omics,,,,,,False
+perturb-seq-datasets,dataset,"Perturb-seq datasets: Genome-scale and combinatorial Perturb-seq datasets from Replogle, Norman, Dixit, Adamson, and related screens",,,perturbation,,,,,,False
+pubchem,dataset,"PubChem: Compound identifiers, structures, assays, and bioactivity records",,,drug-response,,,,,,False
+rxrx,dataset,RxRx: Recursion high-content cellular imaging datasets for perturbation and batch-correction research,,,imaging; perturbation,,,,,,False
+string,dataset,STRING: Protein functional association and interaction networks,,,proteomics,,,,,,False
 towards-virtual-cell-construction-by-ai,perspective,Towards Virtual Cell Construction by AI,,Cell,virtual-cell,,,,,,False
-virtual-cell-challenge,dataset,Virtual Cell Challenge: Community perturbation-prediction challenge and hidden evaluation resources,,,perturbation; virtual-cell,,https://virtualcellchallenge.org/,,,,False
-vizgen-merfish-datasets,dataset,Vizgen MERFISH datasets: Public MERFISH example datasets for spatial transcriptomics,,,spatial; scrna-seq,,https://vizgen.com/data-release-program/,,,,False
+virtual-cell-challenge,dataset,Virtual Cell Challenge: Community perturbation-prediction challenge and hidden evaluation resources,,,perturbation; virtual-cell,,,,https://virtualcellchallenge.org/,,False
+vizgen-merfish-datasets,dataset,Vizgen MERFISH datasets: Public MERFISH example datasets for spatial transcriptomics,,,spatial; scrna-seq,,,,,,False

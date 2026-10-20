@@ -123,14 +123,17 @@ def check_entry(e, kind, vocab, rep):
 
     # ---- warnings ----
     links = e.get("links") or {}
-    if not links.get("paper") and not links.get("preprint"):
+    # Databases and portals (a dataset/tool with its own site) have no single paper, venue or year.
+    living = kind == "resource" and e.get("type") in ("dataset", "tool") and \
+        any(links.get(k) for k in ("dataset", "project", "docs"))
+    if not links.get("paper") and not links.get("preprint") and not living:
         rep.warn("No paper link", e)
     if kind == "model" and not links.get("code"):
         rep.warn("No code link", e)
-    if y is None:
+    if y is None and not living:
         rep.warn("No year", e)
     venue = e.get("venue") or ""
-    if not venue:
+    if not venue and not living:
         rep.warn("No venue", e)
     if not e.get("tags"):
         rep.warn("No tags", e)

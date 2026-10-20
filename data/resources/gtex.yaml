@@ -3,5 +3,5 @@ kind: resource
 type: dataset
 title: 'GTEx: Genotype-Tissue Expression project for human tissue expression baselines'
 links:
-  paper: https://gtexportal.org/
+  dataset: https://gtexportal.org/
 reviewed: false
