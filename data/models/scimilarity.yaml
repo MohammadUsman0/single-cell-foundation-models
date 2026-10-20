@@ -11,6 +11,8 @@ modality: Single-Cell Transcriptomics
 architecture: Metric-Learning Framework
 inputs:
 - expression
+outputs:
+- cell-embedding
 key: Scalable search of similar human cells, rapid queries of millions of profiles.
 links:
   paper: https://doi.org/10.1038/s41586-024-08411-y
@@ -21,5 +23,5 @@ citation: 'Heimberg, Graham, Tony Kuo, Daryle J. DePianto, Omar Salem, Tobias He
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41586-024-08411-y
-review_basis: metadata
+review_basis: abstract
 reviewed: false

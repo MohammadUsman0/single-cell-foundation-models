@@ -10,6 +10,10 @@ tags:
 modality: Single-cell and Spatial Omics
 inputs:
 - spatial-coordinates
+- expression
+outputs:
+- cell-embedding
+- spatial-domain
 links:
   paper: https://doi.org/10.1038/s41592-025-02814-z
   preprint: https://doi.org/10.1101/2024.04.15.589472
@@ -21,5 +25,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41592-025-02814-z
 - https://doi.org/10.1101/2024.04.15.589472
-review_basis: metadata
+review_basis: abstract
 reviewed: false

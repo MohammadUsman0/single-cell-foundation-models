@@ -8,6 +8,12 @@ category: scrna
 tags:
 - scrna-seq
 modality: Single-cell (50 million cells)
+inputs:
+- expression
+outputs:
+- gene-regulatory-network
+- expression-prediction
+- cell-type-label
 key: Robust gene network predictions
 links:
   paper: https://doi.org/10.1038/s41467-025-58699-1
@@ -17,5 +23,5 @@ citation: 'Kalfon, Jérémie, Jules Samaran, Gabriel Peyré, and Laura Cantini. 
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41467-025-58699-1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

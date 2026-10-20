@@ -8,6 +8,10 @@ category: atlas
 tags:
 - scrna-seq
 - cross-species
+inputs:
+- expression
+outputs:
+- cell-embedding
 links:
   paper: https://doi.org/10.1038/s41586-026-10689-z
   preprint: https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2
@@ -19,5 +23,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41586-026-10689-z
 - https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2
-review_basis: metadata
+review_basis: abstract
 reviewed: false

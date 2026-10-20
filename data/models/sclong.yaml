@@ -12,6 +12,10 @@ modality: Single-Cell Transcriptomics
 architecture: Billion-Parameter
 inputs:
 - expression
+- prior-network
+outputs:
+- perturbation-response
+- gene-regulatory-network
 key: Capturing long-range gene context
 links:
   paper: https://doi.org/10.1038/s41467-026-69102-y
@@ -24,5 +28,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41467-026-69102-y
 - https://doi.org/10.1101/2024.11.09.622759
-review_basis: metadata
+review_basis: abstract
 reviewed: false

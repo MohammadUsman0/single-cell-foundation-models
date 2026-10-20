@@ -11,6 +11,9 @@ modality: Transcriptomics (100 million human cells)
 architecture: Modified RetNet
 inputs:
 - expression
+outputs:
+- cell-type-label
+- perturbation-response
 architecture_family: other
 key: 800M-parameter model built on a modified RetNet for efficiency; used for cell annotation, gene function
   and perturbation-response prediction.
@@ -23,5 +26,5 @@ citation: 'Zeng, Yuansong, Jiancong Xie, Ningyuan Shangguan, Zhuoyi Wei, Wenbing
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41467-025-59926-5
-review_basis: metadata
+review_basis: abstract
 reviewed: false

@@ -10,6 +10,9 @@ tags:
 - text
 modality: Single-cell (Cells as tokens, tissues as sentences)
 architecture: Pre-trained Transformer
+inputs:
+- expression
+- spatial-coordinates
 key: Pre-trained transformer that encodes cell–cell relations, for a range of downstream single-cell tasks.
 links:
   paper: https://doi.org/10.1101/2023.10.03.560734
@@ -19,5 +22,5 @@ citation: 'Wen, Hongzhi, Wenzhuo Tang, Xinnan Dai, Jiayuan Ding, Wei Jin, Yuying
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2023.10.03.560734
-review_basis: metadata
+review_basis: abstract
 reviewed: false

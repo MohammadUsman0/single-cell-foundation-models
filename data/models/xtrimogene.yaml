@@ -10,6 +10,10 @@ tags:
 modality: Single-Cell RNA-Seq
 inputs:
 - expression
+outputs:
+- cell-type-label
+- perturbation-response
+architecture_family: transformer-encoder-decoder
 key: Efficient and Scalable Representation Learner
 links:
   paper: https://doi.org/10.52202/075280-3039
@@ -20,5 +24,5 @@ citation: 'Gong, Jing, Minsheng Hao, Xingyi Cheng, Xin Zeng, Chiming Liu, Jianzh
 added: '2026-06-02'
 sources:
 - https://doi.org/10.52202/075280-3039
-review_basis: metadata
+review_basis: abstract
 reviewed: false

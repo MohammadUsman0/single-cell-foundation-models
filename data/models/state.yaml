@@ -7,6 +7,17 @@ venue: Cell
 category: perturbation
 tags:
 - perturbation
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- cell-embedding
+perturbation_type:
+- genetic
+- chemical
+generalization:
+- unseen-cell-context
 links:
   paper: https://doi.org/10.1016/j.cell.2026.07.052
   code: https://github.com/ArcInstitute/state
@@ -16,5 +27,5 @@ citation: 'Adduri, Abhinav K., Dhruv Gautam, Beatrice Bevilacqua, Mohsen Naghipo
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1016/j.cell.2026.07.052
-review_basis: metadata
+review_basis: abstract
 reviewed: false

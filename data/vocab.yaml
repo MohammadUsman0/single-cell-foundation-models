@@ -120,6 +120,7 @@ outputs:
   - {id: cell-embedding, label: Cell embedding, desc: "A vector representation per cell."}
   - {id: gene-embedding, label: Gene embedding, desc: "A vector representation per gene."}
   - {id: cell-type-label, label: Cell-type label, desc: "Cell-type annotation or classification."}
+  - {id: disease-state, label: Disease state, desc: "Disease or condition status of cells or donors."}
   - {id: expression-prediction, label: Expression prediction, desc: "Imputation, denoising or cross-modality translation of measurements."}
   - {id: perturbation-response, label: Perturbation response, desc: "Predicted effect of a genetic or chemical perturbation."}
   - {id: generated-cells, label: Generated cells, desc: "Synthetic expression profiles."}

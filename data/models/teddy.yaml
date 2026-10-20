@@ -12,6 +12,8 @@ modality: scRNA-seq
 architecture: Foundation model family
 inputs:
 - expression
+outputs:
+- disease-state
 key: A family of foundation models for understanding single-cell biology.
 links:
   paper: https://arxiv.org/pdf/2503.03485
@@ -24,3 +26,6 @@ reviewed: false
 review_notes:
 - 'ICML 2025 GenBio workshop paper: workshop papers are not in the PMLR proceedings, so the venue could
   not be confirmed automatically'
+review_basis: abstract
+sources:
+- https://arxiv.org/pdf/2503.03485

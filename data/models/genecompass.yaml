@@ -9,6 +9,8 @@ category: grn
 tags:
 - gene-regulation
 - cross-species
+inputs:
+- expression
 links:
   paper: https://doi.org/10.1038/s41422-024-01034-y
   code: https://github.com/xCompass-AI/GeneCompass
@@ -18,5 +20,5 @@ citation: 'Yang, Xiaodong, Guole Liu, Guihai Feng, Dechao Bu, Pengfei Wang, Jie 
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41422-024-01034-y
-review_basis: metadata
+review_basis: abstract
 reviewed: false

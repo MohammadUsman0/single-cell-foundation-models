@@ -14,6 +14,8 @@ task: Continual Pretraining from scGPT
 inputs:
 - expression
 - spatial-coordinates
+outputs:
+- expression-prediction
 key: scGPT-spatial introduces a novel MoE (Mixture of Experts) decoder that adaptively routes samples
   for protocol-aware decoding of gene expression profiles
 links:
@@ -25,5 +27,5 @@ citation: 'Wang, Chloe, Haotian Cui, Andrew Zhang, Ronald Xie, Hani Goodarzi, an
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.02.05.636714
-review_basis: metadata
+review_basis: abstract
 reviewed: false

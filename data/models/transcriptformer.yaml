@@ -13,6 +13,10 @@ modality: Single-Cell (Transcriptome)
 architecture: Transformer
 inputs:
 - expression
+outputs:
+- cell-type-label
+- cell-embedding
+- disease-state
 key: Cross-species generative cell atlas (1.5 Billion Years of Evolution) predict cell type-specific transcription
   factors and gene-gene interactions that align with independent experimental observations
 links:
@@ -26,5 +30,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1126/science.aec8514
 - https://doi.org/10.1101/2025.04.25.650731
-review_basis: metadata
+review_basis: abstract
 reviewed: false

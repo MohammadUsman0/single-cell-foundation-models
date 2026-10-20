@@ -12,6 +12,16 @@ task: Scaling to 3 Billion Parameters, gene essentiality, cancer hallmarks, cell
   simulating perturbations
 inputs:
 - perturbation
+- expression
+outputs:
+- cell-embedding
+- gene-embedding
+- cell-type-label
+- perturbation-response
+perturbation_type:
+- chemical
+generalization:
+- unseen-cell-context
 key: Tx1 jointly learns representations of genes, cells, and compounds using a masked-expression generative
   objective that incorporates a drug token, enabling flexible adaptation to diverse downstream applications
 links:
@@ -23,5 +33,5 @@ citation: 'Gandhi, Shreshth, Farnoosh Javadi, Valentine Svensson, Umair Khan, Ma
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.10.23.683759
-review_basis: metadata
+review_basis: abstract
 reviewed: false

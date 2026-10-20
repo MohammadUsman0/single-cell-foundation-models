@@ -10,6 +10,12 @@ tags:
 - generative
 modality: Single-cell Multi-omics
 architecture: Generative Pre-trained Transformer (Generative AI)
+inputs:
+- expression
+outputs:
+- cell-type-label
+- perturbation-response
+- gene-regulatory-network
 architecture_family: transformer-decoder
 key: Single-cell multi-omics, capturing biological insights into genes and cells.
 links:
@@ -23,5 +29,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41592-024-02201-0
 - https://doi.org/10.1101/2023.04.30.538439
-review_basis: metadata
+review_basis: abstract
 reviewed: false
