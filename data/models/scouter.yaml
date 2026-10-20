@@ -1,0 +1,17 @@
+id: scouter
+kind: model
+name: Scouter
+title: Scouter predicts transcriptional responses to genetic perturbations with large language model embeddings
+year: 2025
+venue: Nature Computational Science
+category: perturbation
+tags:
+- perturbation
+- text
+- scrna-seq
+modality: scRNA-seq + LLM embeddings
+architecture: LLM-embedding model
+key: Predicts transcriptional responses to genetic perturbations using LLM embeddings.
+links:
+  paper: https://www.nature.com/articles/s43588-025-00912-8
+reviewed: false

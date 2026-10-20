@@ -1,0 +1,19 @@
+id: exceiver
+kind: model
+name: Exceiver
+title: A single-cell gene expression language model
+year: 2022
+venue: arXiv
+category: llm
+tags:
+- llm
+- text
+- scrna-seq
+modality: Single-cell Gene Expression
+architecture: Language Model
+key: Single-cell gene expression language model
+links:
+  paper: https://arxiv.org/abs/2210.14330
+citation: Connell, William, Umair Khan, and Michael J. Keiser. "A single-cell gene expression language
+  model." arXiv preprint arXiv:2210.14330 (2022).
+reviewed: false

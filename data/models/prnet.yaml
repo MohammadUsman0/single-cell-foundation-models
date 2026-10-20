@@ -1,0 +1,15 @@
+id: prnet
+kind: model
+name: PRnet
+title: Predicting transcriptional responses to novel chemical perturbations using deep generative model
+  for drug discovery
+year: 2024
+venue: Nature Communications
+category: perturbation
+tags:
+- perturbation
+- drug-response
+- generative
+links:
+  paper: https://www.nature.com/articles/s41467-024-53457-1
+reviewed: false

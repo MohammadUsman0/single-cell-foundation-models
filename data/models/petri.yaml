@@ -1,0 +1,13 @@
+id: petri
+kind: model
+name: PETRI
+title: 'PETRI: Learning Unified Cell Embeddings from Unpaired Modalities via Early-Fusion Joint Reconstruction'
+year: 2026
+venue: ICLR
+venue_detail: poster
+category: multimodal
+tags:
+- multi-omics
+links:
+  paper: https://openreview.net/forum?id=Vu8YXDooG5
+reviewed: false

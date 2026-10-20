@@ -1,0 +1,13 @@
+id: prescribe
+kind: model
+name: PRESCRIBE
+title: 'PRESCRIBE: Predicting Single-Cell Responses with Bayesian Estimation'
+year: 2025
+venue: NeurIPS
+venue_detail: poster
+category: perturbation
+tags:
+- perturbation
+links:
+  paper: https://openreview.net/forum?id=A5O41ntKjk
+reviewed: false

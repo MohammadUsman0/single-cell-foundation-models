@@ -1,0 +1,9 @@
+id: a-systematic-evaluation-of-single-cell
+kind: resource
+type: benchmark
+title: A Systematic Evaluation of Single-Cell Foundation Models on Cell-Type Classification Task
+year: 2025
+venue: WSDM
+links:
+  paper: https://dl.acm.org/doi/10.1145/3701551.3708811
+reviewed: false

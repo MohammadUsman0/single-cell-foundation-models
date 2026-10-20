@@ -1,0 +1,13 @@
+id: unicure
+kind: model
+name: UniCure
+title: 'Unicure: A Foundation Model for Predicting Personalized Cancer Therapy Response'
+year: 2025
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1
+  code: https://github.com/ZexiChen502/UniCure
+reviewed: false

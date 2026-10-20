@@ -1,0 +1,17 @@
+id: single-cell-gene-expression
+kind: model
+name: Single-cell gene expression prediction
+title: Single-cell gene expression prediction from DNA sequence at large contexts
+year: 2023
+venue: bioRxiv
+category: seq2exp
+tags:
+- dna-sequence
+- scrna-seq
+modality: Single-cell Gene Expression from DNA Sequence
+task: Prediction from DNA sequence
+key: Here, we use a transfer learning framework, seq2cells, leveraging a pre-trained epigenome model for
+  gene expression prediction from large sequence contexts at single-cell resolution.
+citation: 'Schwessinger, Ron, Jacob Deasy, Rob T. Woodruff, Stephen Young, and Kim M. Branson. "Single-cell
+  gene expression prediction from DNA sequence at large contexts." bioRxiv (2023): 2023-07.'
+reviewed: false

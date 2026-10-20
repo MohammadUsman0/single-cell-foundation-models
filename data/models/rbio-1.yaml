@@ -1,0 +1,15 @@
+id: rbio-1
+kind: model
+name: rBio-1
+title: rBio1-Training Scientific Reasoning LLMs with Biological World Models as Soft Verifiers
+year: 2025
+venue: bioRxiv
+category: agents
+tags:
+- agent
+- text
+- virtual-cell
+links:
+  paper: https://doi.org/10.1101/2025.08.18.670981
+  code: https://github.com/czi-ai/rbio
+reviewed: false

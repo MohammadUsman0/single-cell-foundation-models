@@ -1,0 +1,16 @@
+id: graphvelo
+kind: model
+name: GraphVelo
+title: GraphVelo Allows for Accurate Inference of Multimodal Velocities and Molecular Mechanisms for Single
+  Cells
+year: 2025
+venue: Nature Communications
+category: spatial
+tags:
+- spatial
+- multi-omics
+- graph
+links:
+  paper: https://www.nature.com/articles/s41467-025-62784-w
+  code: https://github.com/xing-lab-pitt/GraphVelo
+reviewed: false

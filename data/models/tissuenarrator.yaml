@@ -1,0 +1,19 @@
+id: tissuenarrator
+kind: model
+name: TissueNarrator
+title: 'TISSUENARRATOR: Generative Modeling of Spatial Transcriptomics with Large Language Models'
+year: 2025
+venue: bioRxiv
+category: llm
+tags:
+- llm
+- spatial
+- text
+- generative
+- scrna-seq
+modality: Spatial transcriptomics
+architecture: Generative LLM
+key: Generative modeling of spatial transcriptomics with LLMs.
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2025.11.24.690325v1
+reviewed: false

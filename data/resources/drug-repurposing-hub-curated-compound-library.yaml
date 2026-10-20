@@ -1,0 +1,10 @@
+id: drug-repurposing-hub-curated-compound-library
+kind: resource
+type: dataset
+title: 'Drug Repurposing Hub: Curated compound library with targets, mechanisms, and clinical annotations'
+year: 2017
+tags:
+- drug-response
+links:
+  paper: https://www.nature.com/articles/nm.4306
+reviewed: false

@@ -1,0 +1,11 @@
+id: benchmarking-ai-models-for-in-silico
+kind: resource
+type: benchmark
+title: Benchmarking AI Models for in Silico Gene Perturbation of Cells
+year: 2025
+venue: bioRxiv
+tags:
+- perturbation
+links:
+  paper: https://doi.org/10.1101/2024.12.20.629581
+reviewed: false

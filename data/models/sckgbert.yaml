@@ -1,0 +1,12 @@
+id: sckgbert
+kind: model
+name: scKGBERT
+title: 'scKGBERT: a knowledge-enhanced foundation model for single-cell transcriptomics'
+year: 2025
+venue: Genome Biology
+category: scrna
+tags:
+- scrna-seq
+citation: 'Li, Yang, Guanyu Qiao, Hongli Du, Xin Gao, and Guohua Wang. "scKGBERT: a knowledge-enhanced
+  foundation model for single-cell transcriptomics." Genome Biology 26, no. 1 (2025): 402.'
+reviewed: false

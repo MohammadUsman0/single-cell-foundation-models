@@ -1,0 +1,19 @@
+id: chromfound
+kind: model
+name: ChromFound
+title: 'ChromFound: Towards A Universal Foundation Model for Single-Cell Chromatin Accessibility Data'
+year: 2025
+venue: arXiv
+category: epigenomics
+tags:
+- scatac-seq
+modality: scATAC-seq (Chromatin Accessibility)
+architecture: Hybrid (Mamba + Self-Attention)
+key: 'Cell representation, cell type annotation, cross-omics prediction, identifies gene-enhancer relationships.
+  Key Finding: Hybrid architecture to handle long-range and local regulatory dependencies.'
+links:
+  paper: https://arxiv.org/abs/2505.12638
+citation: 'Jiao, Yifeng, Yuchen Liu, Yu Zhang, Xin Guo, Yushuai Wu, Chen Jiang, Jiyang Li et al. "ChromFound:
+  Towards A Universal Foundation Model for Single-Cell Chromatin Accessibility Data." arXiv preprint arXiv:2505.12638
+  (2025).'
+reviewed: false

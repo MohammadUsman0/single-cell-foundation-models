@@ -1,0 +1,16 @@
+id: proteintalks
+kind: model
+name: ProteinTalks
+title: A Perturbation Proteomics-Based Foundation Model for Virtual Cell Construction
+year: 2025
+venue: bioRxiv
+category: scrna
+tags:
+- scrna-seq
+- proteomics
+- perturbation
+- virtual-cell
+links:
+  paper: https://doi.org/10.1101/2025.02.07.637070
+  code: https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks
+reviewed: false

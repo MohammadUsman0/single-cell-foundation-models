@@ -1,0 +1,14 @@
+id: mixscale
+kind: model
+name: Mixscale
+title: Systematic Reconstruction of Molecular Pathway Signatures Using Scalable Single-Cell Perturbation
+  Screens
+year: 2025
+venue: Nature Cell Biology
+category: perturbation
+tags:
+- perturbation
+links:
+  paper: https://doi.org/10.1038/s41556-025-01622-z
+  code: https://github.com/satijalab/Mixscale
+reviewed: false

@@ -1,0 +1,13 @@
+id: squidiff
+kind: model
+name: Squidiff
+title: 'Squidiff: Predicting Cellular Development and Responses to Perturbations using a Diffusion Model'
+venue: Nature Methods
+category: perturbation
+tags:
+- perturbation
+- generative
+links:
+  paper: https://www.nature.com/articles/s41592-025-02877-y
+  code: https://github.com/siyuh/Squidiff
+reviewed: false

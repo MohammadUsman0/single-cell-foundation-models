@@ -1,0 +1,16 @@
+id: teddy
+kind: model
+name: TEDDY
+title: 'TEDDY: A Family of Foundation Models for Understanding Single Cell Biology'
+year: 2025
+venue: ICML
+venue_detail: GenBio Workshop
+category: scrna
+tags:
+- scrna-seq
+modality: scRNA-seq
+architecture: Foundation model family
+key: A family of foundation models for understanding single-cell biology.
+links:
+  paper: https://arxiv.org/pdf/2503.03485
+reviewed: false

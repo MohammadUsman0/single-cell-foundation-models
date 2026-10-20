@@ -1,0 +1,17 @@
+id: stofm
+kind: model
+name: SToFM
+title: 'Stofm: a multi-scale foundation model for spatial transcriptomics'
+year: 2025
+venue: arXiv
+category: spatial
+tags:
+- spatial
+- scrna-seq
+modality: Spatial Transcriptomics
+key: Multi-scale modeling
+links:
+  paper: https://arxiv.org/abs/2507.11588
+citation: 'Zhao, Suyuan, Yizhen Luo, Ganbo Yang, Yan Zhong, Hao Zhou, and Zaiqing Nie. "Stofm: a multi-scale
+  foundation model for spatial transcriptomics." arXiv preprint arXiv:2507.11588 (2025).'
+reviewed: false

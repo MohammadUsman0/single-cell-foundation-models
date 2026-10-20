@@ -1,0 +1,14 @@
+id: nicheformer
+kind: model
+name: Nicheformer
+title: 'Nicheformer: a foundation model for single-cell and spatial omics'
+year: 2025
+venue: Nature
+category: spatial
+tags:
+- spatial
+modality: Single-cell and Spatial Omics
+citation: 'Tejada-Lapuerta, Alejandro, Anna C. Schaar, Robert Gutgesell, Giovanni Palla, Lennard Halle,
+  Mariia Minaeva, Larsen Vornholz et al. "Nicheformer: a foundation model for single-cell and spatial
+  omics." Nature methods (2025): 1-14.'
+reviewed: false

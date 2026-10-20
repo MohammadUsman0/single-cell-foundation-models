@@ -1,0 +1,14 @@
+id: cell-o1
+kind: model
+name: Cell-o1
+title: 'Cell-o1: Training LLMs to Solve Single-Cell Reasoning Puzzles with Reinforcement Learning'
+year: 2025
+venue: arXiv
+category: agents
+tags:
+- agent
+- text
+links:
+  paper: https://arxiv.org/abs/2506.02911
+  code: https://github.com/ncbi-nlp/cell-o1
+reviewed: false

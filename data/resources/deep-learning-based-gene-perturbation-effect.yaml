@@ -1,0 +1,11 @@
+id: deep-learning-based-gene-perturbation-effect
+kind: resource
+type: benchmark
+title: Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines
+year: 2025
+venue: Nature Methods
+tags:
+- perturbation
+links:
+  paper: https://www.nature.com/articles/s41592-025-02772-6
+reviewed: false

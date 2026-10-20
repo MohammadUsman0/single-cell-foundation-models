@@ -1,0 +1,14 @@
+id: alphacell
+kind: model
+name: AlphaCell
+title: Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- virtual-cell
+citation: 'Chuai, Guohui, Xiaohan Chen, Xingbo Yang, Cheng Zhang, Kairu Qu, Yiheng Wang, Wannian Li et
+  al. "Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell."
+  bioRxiv (2026): 2026-03.'
+reviewed: false

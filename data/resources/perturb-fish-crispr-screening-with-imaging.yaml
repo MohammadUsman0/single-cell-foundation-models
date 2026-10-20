@@ -1,0 +1,13 @@
+id: perturb-fish-crispr-screening-with-imaging
+kind: resource
+type: dataset
+title: 'Perturb-FISH: CRISPR screening with imaging-based spatial transcriptomics'
+year: 2025
+tags:
+- spatial
+- imaging
+- perturbation
+- scrna-seq
+links:
+  paper: https://doi.org/10.1016/j.cell.2025.02.012
+reviewed: false

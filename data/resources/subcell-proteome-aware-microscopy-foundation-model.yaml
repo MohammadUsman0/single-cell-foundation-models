@@ -1,0 +1,11 @@
+id: subcell-proteome-aware-microscopy-foundation-model
+kind: resource
+type: dataset
+title: 'SubCell: Proteome-aware microscopy foundation model resources based on HPA images'
+year: 2025
+tags:
+- proteomics
+- imaging
+links:
+  paper: https://doi.org/10.1101/2024.12.06.627299
+reviewed: false

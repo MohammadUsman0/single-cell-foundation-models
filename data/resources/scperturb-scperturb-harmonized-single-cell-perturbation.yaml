@@ -1,0 +1,10 @@
+id: scperturb-scperturb-harmonized-single-cell-perturbation
+kind: resource
+type: dataset
+title: 'scPerturb: scPerturb: Harmonized Single-Cell Perturbation Data'
+year: 2024
+tags:
+- perturbation
+links:
+  paper: https://www.nature.com/articles/s41592-023-02144-y
+reviewed: false

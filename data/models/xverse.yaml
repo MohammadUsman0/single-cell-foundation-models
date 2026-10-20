@@ -1,0 +1,17 @@
+id: xverse
+kind: model
+name: xVERSE
+title: A transcriptomics-native foundation model for universal cell representation and virtual cell synthesis
+year: 2026
+venue: bioRxiv
+category: scrna
+tags:
+- scrna-seq
+- virtual-cell
+modality: scRNA-seq
+architecture: Foundation model (batch-invariant representation + probabilistic generation)
+key: Couples batch-invariant universal cell representation with probabilistic expression generation; synthesizes
+  high-fidelity virtual cells (AUROC ~= 0.5) to resolve rare cell types and improve spatial imputation.
+links:
+  paper: https://www.biorxiv.org/content/10.64898/2026.04.12.718016v1
+reviewed: false

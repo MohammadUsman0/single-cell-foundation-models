@@ -1,0 +1,12 @@
+id: cpjump1-three-million-images-and-morphological
+kind: resource
+type: dataset
+title: 'CPJUMP1: Three million images and morphological profiles of cells treated with matched chemical
+  and genetic perturbations'
+year: 2024
+tags:
+- imaging
+- perturbation
+links:
+  paper: https://www.nature.com/articles/s41592-024-02241-6
+reviewed: false

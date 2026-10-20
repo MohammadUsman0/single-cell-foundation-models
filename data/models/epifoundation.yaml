@@ -1,0 +1,15 @@
+id: epifoundation
+kind: model
+name: EpiFoundation
+title: 'EpiFoundation: A foundation model for single-cell ATAC-seq via peak-to-gene alignment'
+year: 2025
+venue: bioRxiv
+category: epigenomics
+tags:
+- scatac-seq
+modality: scATAC-seq
+key: 'Cell-type annotation, batch correction, gene expression prediction. Key Finding: Uses cross-modality
+  pre-training (peak-to-gene alignment) on non-zero peaks to handle sparsity.'
+citation: 'Wu, Juncheng, Changxin Wan, Zhicheng Ji, Yuyin Zhou, and Wenpin Hou. "EpiFoundation: A foundation
+  model for single-cell ATAC-seq via peak-to-gene alignment." bioRxiv (2025).'
+reviewed: false

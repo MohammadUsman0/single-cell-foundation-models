@@ -1,0 +1,17 @@
+id: omnicell
+kind: model
+name: OmniCell
+title: 'OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics for Cellular
+  and Molecular Insights'
+year: 2025
+venue: bioRxiv
+category: spatial
+tags:
+- spatial
+- scrna-seq
+modality: scRNA-seq + spatial
+architecture: Unified FM
+key: Unified FM over single-cell and spatial transcriptomics.
+links:
+  paper: https://www.biorxiv.org/content/10.64898/2025.12.29.696804v1
+reviewed: false

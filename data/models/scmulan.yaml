@@ -1,0 +1,19 @@
+id: scmulan
+kind: model
+name: scMulan
+title: 'scMulan: a multitask generative pre-trained language model for single-cell analysis'
+year: 2024
+venue: Nature
+category: llm
+tags:
+- llm
+- text
+- generative
+modality: Single-cell
+architecture: Multitask Generative Pre-trained Language Model
+key: Single-cell analysis
+citation: 'Bian, Haiyang, Yixin Chen, Xiaomin Dong, Chen Li, Minsheng Hao, Sijie Chen, Jinyi Hu, Maosong
+  Sun, Lei Wei, and Xuegong Zhang. "scMulan: a multitask generative pre-trained language model for single-cell
+  analysis." In International Conference on Research in Computational Molecular Biology, pp. 479-482.
+  Cham: Springer Nature Switzerland, 2024.'
+reviewed: false

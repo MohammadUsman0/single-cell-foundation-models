@@ -1,0 +1,18 @@
+id: celltok
+kind: model
+name: CellTok
+title: 'CellTok: Early-Fusion Multimodal Large Language Model for Single-Cell Transcriptomics via Tokenization'
+year: 2025
+venue: bioRxiv
+category: llm
+tags:
+- llm
+- multi-omics
+- text
+- scrna-seq
+modality: scRNA-seq
+architecture: Early-fusion multimodal LLM
+key: Early-fusion multimodal LLM for single-cell transcriptomics via tokenization.
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2025.10.22.684047v1
+reviewed: false

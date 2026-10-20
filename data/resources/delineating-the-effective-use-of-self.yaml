@@ -1,0 +1,9 @@
+id: delineating-the-effective-use-of-self
+kind: resource
+type: benchmark
+title: Delineating the effective use of self-supervised learning in single-cell genomics
+year: 2024
+venue: Nature Machine Intelligence
+links:
+  paper: https://www.nature.com/articles/s42256-024-00934-3
+reviewed: false

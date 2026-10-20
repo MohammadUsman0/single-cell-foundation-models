@@ -1,0 +1,9 @@
+id: biology-driven-insights-into-the-power
+kind: resource
+type: benchmark
+title: Biology-driven insights into the power of single-cell foundation models
+year: 2025
+venue: Genome Biology
+links:
+  paper: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03781-6
+reviewed: false

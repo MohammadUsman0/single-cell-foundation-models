@@ -1,0 +1,13 @@
+id: stvcr
+kind: model
+name: stVCR
+title: 'stVCR: spatiotemporal dynamics of single cells'
+year: 2026
+venue: Nature Methods
+category: spatial
+tags:
+- spatial
+links:
+  paper: https://www.nature.com/articles/s41592-026-03010-3
+  code: https://github.com/QiangweiPeng/stVCR
+reviewed: false

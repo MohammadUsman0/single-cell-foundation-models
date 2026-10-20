@@ -1,0 +1,13 @@
+id: sctab
+kind: model
+name: scTab
+title: 'scTab: Scaling Cross-Tissue Single-Cell Annotation Models'
+year: 2024
+venue: Nature Communications
+category: scrna
+tags:
+- scrna-seq
+links:
+  paper: https://doi.org/10.1038/s41467-024-51059-5
+  code: https://github.com/theislab/scTab
+reviewed: false

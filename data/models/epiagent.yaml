@@ -1,0 +1,17 @@
+id: epiagent
+kind: model
+name: EpiAgent
+title: 'EpiAgent: foundation model for single-cell epigenomics'
+year: 2025
+venue: Nature Methods
+category: epigenomics
+tags:
+- scatac-seq
+modality: scATAC-seq (Single-cell Epigenomics)
+architecture: Transformer-based (Bidirectional Attention)
+key: 'Unsupervised feature extraction, supervised cell type annotation, data imputation, cellular response
+  prediction (perturbations). Key Finding: Encodes chromatin accessibility patterns as ''cell sentences''.'
+citation: 'Chen, Xiaoyang, Keyi Li, Xuejian Cui, Zian Wang, Qun Jiang, Jiacheng Lin, Zhen Li, Zijing Gao,
+  Hairong Lv, and Rui Jiang. "EpiAgent: foundation model for single-cell epigenomics." Nature Methods
+  (2025): 1-12.'
+reviewed: false

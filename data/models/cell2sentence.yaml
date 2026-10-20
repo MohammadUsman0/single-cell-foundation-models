@@ -1,0 +1,17 @@
+id: cell2sentence
+kind: model
+name: Cell2Sentence
+title: 'Cell2Sentence: Teaching Large Language Models the Language of Biology'
+year: 2024
+venue: ICML
+category: llm
+tags:
+- llm
+- text
+- scrna-seq
+modality: scRNA-seq
+architecture: LLM (cell sentences)
+key: Represents cells as text sentences to teach LLMs the language of biology.
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2023.09.11.557287v1
+reviewed: false

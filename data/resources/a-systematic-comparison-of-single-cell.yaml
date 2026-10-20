@@ -1,0 +1,11 @@
+id: a-systematic-comparison-of-single-cell
+kind: resource
+type: benchmark
+title: A Systematic Comparison of Single-Cell Perturbation Response Prediction Models
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2024.12.23.630036v2
+reviewed: false

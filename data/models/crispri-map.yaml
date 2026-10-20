@@ -1,0 +1,15 @@
+id: crispri-map
+kind: model
+name: CRISPRi Map
+title: A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent stem cell
+  lines
+year: 2026
+venue: Cell Genomics
+category: perturbation
+tags:
+- perturbation
+- gene-regulation
+reviewed: false
+review_notes:
+- 'paper link looked truncated and was removed: https://www.cell.com/cell-genomics/fulltext/S2666-979X(25'
+- 'possibly not a model: a perturbation dataset, not a model'

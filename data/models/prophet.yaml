@@ -1,0 +1,13 @@
+id: prophet
+kind: model
+name: Prophet
+title: Scalable and Universal Prediction of Cellular Phenotypes
+year: 2025
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2024.08.12.607533v2.full.pdf
+  code: https://github.com/theislab/prophet
+reviewed: false

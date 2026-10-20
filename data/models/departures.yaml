@@ -1,0 +1,13 @@
+id: departures
+kind: model
+name: Departures
+title: 'Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger
+  Bridges'
+year: 2026
+venue: AAAI
+category: perturbation
+tags:
+- perturbation
+links:
+  paper: https://ojs.aaai.org/index.php/AAAI/article/view/39190
+reviewed: false

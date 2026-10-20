@@ -1,0 +1,18 @@
+id: cassia
+kind: model
+name: CASSIA
+title: 'CASSIA: a multi-agent large language model for automated and interpretable cell annotation'
+year: 2025
+venue: Nature Communications
+category: llm
+tags:
+- llm
+- text
+- agent
+- scrna-seq
+modality: scRNA-seq
+architecture: Multi-agent LLM
+key: Multi-agent LLM for automated, interpretable cell-type annotation.
+links:
+  paper: https://www.nature.com/articles/s41467-025-67084-x
+reviewed: false

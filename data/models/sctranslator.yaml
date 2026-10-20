@@ -1,0 +1,19 @@
+id: sctranslator
+kind: model
+name: scTranslator
+title: A pre-trained large generative model for translating single-cell transcriptomes to proteomes
+year: 2025
+venue: Nature Biomedical Engineering
+category: proteomics
+tags:
+- proteomics
+- generative
+- scrna-seq
+modality: Single-cell Transcriptome
+architecture: Large Generative Model
+key: 'Translating transcriptome to proteome (protein imputation). Key Finding: Confirmed accuracy across
+  various profiling techniques (CITE-seq, REAP-seq, etc.).'
+citation: 'Liu, Linjing, Wei Li, Fang Wang, Yiming Li, Long-Kai Huang, Ka-Chun Wong, Fan Yang, and Jianhua
+  Yao. "A pre-trained large generative model for translating single-cell transcriptomes to proteomes."
+  Nature Biomedical Engineering (2025): 1-20.'
+reviewed: false

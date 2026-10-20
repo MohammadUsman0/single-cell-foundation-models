@@ -1,0 +1,17 @@
+id: xtrimogene
+kind: model
+name: xTrimoGene
+title: 'xTrimoGene: an efficient and scalable representation learner for single-cell RNA-seq data'
+year: 2024
+venue: NeurIPS
+category: scrna
+tags:
+- scrna-seq
+modality: Single-Cell RNA-Seq
+key: Efficient and Scalable Representation Learner
+links:
+  code: https://github.com/biomap-research/scFoundation
+citation: 'Gong, Jing, Minsheng Hao, Xingyi Cheng, Xin Zeng, Chiming Liu, Jianzhu Ma, Xuegong Zhang, Taifeng
+  Wang, and Le Song. "xTrimoGene: an efficient and scalable representation learner for single-cell RNA-seq
+  data." Advances in Neural Information Processing Systems 36 (2023): 69391-69403.'
+reviewed: false

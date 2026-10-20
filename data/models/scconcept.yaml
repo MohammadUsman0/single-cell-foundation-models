@@ -1,0 +1,22 @@
+id: scconcept
+kind: model
+name: scConcept
+title: 'scConcept: Contrastive pretraining for technology-agnostic single-cell representations beyond
+  reconstruction'
+year: 2025
+venue: bioRxiv
+category: scrna
+tags:
+- scrna-seq
+modality: Single-cell (technology-agnostic)
+architecture: transformer-based contrastive learning framework
+task: cell-type annotation, technology integration, dissociated to spatial cell-type transfer, spatial
+  imputation, gene panel optimization, and mapping new technologies on already existing atlases.
+key: present scConcept (“contrastive cell pre-training”), a transformer-based contrastive learning framework
+  that directly optimizes cell embeddings by contrasting multiple views of cells. By replacing gene-level
+  reconstruction with a cell-level identification task, scConcept learns robust representations that are
+  invariant to count distributions and gene panel selection, across diverse assays and technologies.
+citation: 'Bahrami, Mojtaba, Alejandro Tejada-Lapuerta, Sören Becker, Fatemeh S. Hashemi G, and Fabian
+  J. Theis. "scConcept: Contrastive pretraining for technology-agnostic single-cell representations beyond
+  reconstruction." bioRxiv (2025): 2025-10.'
+reviewed: false

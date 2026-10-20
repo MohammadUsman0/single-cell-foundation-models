@@ -1,0 +1,19 @@
+id: stformer-a-framework-for
+kind: model
+name: stFormer A framework for gene representation
+title: 'stFormer: a foundation model for spatial transcriptomics'
+year: 2025
+venue: bioRxiv
+category: spatial
+tags:
+- spatial
+- scrna-seq
+modality: Spatial Transcriptomics
+architecture: Transformer (Self-Attention, Cross-Attention)
+task: 'Gene representation (integrates intracellular and spatial context). Key Finding: Incorporates ligand
+  genes within the spatial niche.'
+key: propose a biased cross-attention method that enables the model to do learning with single-cell resolution
+  on whole-transcriptome but low-resolution Visium data
+citation: 'Cao, Shenghao, Kaiyuan Yang, Jiabei Cheng, Jiachen Li, Hong-Bin Shen, Xiaoyong Pan, and Ye
+  Yuan. "stFormer: a foundation model for spatial transcriptomics." bioRxiv (2024): 2024-09.'
+reviewed: false

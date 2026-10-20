@@ -1,0 +1,12 @@
+id: large-scale-proteome-inference-from-unpaired
+kind: resource
+type: tool
+title: Large-scale proteome inference from unpaired single-cell transcriptomic and proteomic data by msInfer
+year: 2026
+venue: Research Square
+tags:
+- proteomics
+- scrna-seq
+links:
+  paper: https://doi.org/10.21203/rs.3.rs-9068677/v1
+reviewed: false

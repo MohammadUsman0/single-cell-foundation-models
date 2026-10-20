@@ -1,0 +1,16 @@
+id: assaybench-an-assay-level-virtual-cell
+kind: resource
+type: benchmark
+title: 'AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents'
+year: 2026
+venue: arXiv
+tags:
+- text
+- virtual-cell
+- agent
+links:
+  paper: https://arxiv.org/abs/2605.10876
+citation: 'De Brouwer, Edward, Carl Edwards, Alexander Wu, Jenna Collier, Graham Heimberg, Xiner Li, Meena
+  Subramaniam et al. "AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents." arXiv preprint
+  arXiv:2605.10876 (2026).'
+reviewed: false

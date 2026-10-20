@@ -1,0 +1,11 @@
+id: a-deep-dive-into-single-cell
+kind: resource
+type: benchmark
+title: A Deep Dive into Single-Cell RNA Sequencing Foundation Models
+year: 2023
+venue: bioRxiv
+tags:
+- scrna-seq
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2023.10.19.563100v1
+reviewed: false

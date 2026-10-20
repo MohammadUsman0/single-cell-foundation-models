@@ -1,0 +1,11 @@
+id: multitask-benchmarking-of-single-cell-multimodal
+kind: resource
+type: benchmark
+title: Multitask benchmarking of single-cell multimodal omics integration methods
+year: 2025
+venue: Nature Methods
+tags:
+- multi-omics
+links:
+  paper: https://www.nature.com/articles/s41592-025-02856-3
+reviewed: false

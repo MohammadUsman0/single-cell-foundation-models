@@ -1,0 +1,17 @@
+id: atacformer
+kind: model
+name: Atacformer
+title: 'Atacformer: A transformer-based foundation model for analysis and interpretation of ATAC-seq data'
+year: 2025
+venue: bioRxiv
+category: epigenomics
+tags:
+- scatac-seq
+modality: scATAC-seq
+architecture: Transformer-based
+key: 'Clustering, cell-type annotation, batch correction, RNA imputation (via CRAFT model). Key Finding:
+  Generates embeddings for individual cis-regulatory elements.'
+citation: 'LeRoy, Nathan J., Guangtao Zheng, Oleksandr Khoroshevskyi, Donald R. Campbell Jr, Aidong Zhang,
+  and Nathan C. Sheffield. "Atacformer: A transformer-based foundation model for analysis and interpretation
+  of ATAC-seq data." bioRxiv (2025): 2025-11.'
+reviewed: false

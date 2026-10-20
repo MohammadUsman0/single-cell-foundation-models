@@ -1,0 +1,17 @@
+id: perturbench-benchmarking-machine-learning-models-for
+kind: resource
+type: benchmark
+title: 'Perturbench: Benchmarking machine learning models for cellular perturbation analysis'
+year: 2025
+venue: arXiv
+tags:
+- perturbation
+- scrna-seq
+key: PerturBench a comprehensive framework for modeling single cell transcriptomic responses to perturbations,
+  aimed at standardizing benchmarking
+links:
+  paper: https://arxiv.org/abs/2408.10609
+citation: 'Wu, Yan, Esther Wershof, Sebastian M. Schmon, Marcel Nassar, Błażej Osiński, Ridvan Eksi, Zichao
+  Yan, Rory Stark, Kun Zhang, and Thore Graepel. "Perturbench: Benchmarking machine learning models for
+  cellular perturbation analysis." arXiv preprint arXiv:2408.10609 (2024).'
+reviewed: false

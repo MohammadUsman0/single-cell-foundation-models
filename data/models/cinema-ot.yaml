@@ -1,0 +1,16 @@
+id: cinema-ot
+kind: model
+name: CINEMA-OT
+title: Causal identification of single-cell experimental perturbation effects with CINEMA-OT
+year: 2023
+venue: Nature Methods
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: scRNA-seq (perturbation)
+architecture: Optimal transport (causal)
+key: Causal identification of single-cell perturbation effects via optimal transport.
+links:
+  paper: https://www.nature.com/articles/s41592-023-02040-5
+reviewed: false

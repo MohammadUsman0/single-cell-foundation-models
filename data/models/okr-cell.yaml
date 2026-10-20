@@ -1,0 +1,17 @@
+id: okr-cell
+kind: model
+name: OKR-Cell
+title: Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training
+year: 2026
+venue: bioRxiv
+category: llm
+tags:
+- llm
+- text
+- scrna-seq
+modality: scRNA-seq + text
+architecture: Cross-modal pre-training
+key: Open-world-knowledge-aided cell-language foundation model.
+links:
+  paper: https://www.biorxiv.org/content/10.64898/2026.01.09.698573v1
+reviewed: false

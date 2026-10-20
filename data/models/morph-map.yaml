@@ -1,0 +1,13 @@
+id: morph-map
+kind: model
+name: Morph Map
+title: Morphological map of under- and overexpression of genes in human cells
+year: 2025
+venue: Nature Methods
+category: morphology
+tags:
+- imaging
+links:
+  paper: https://www.nature.com/articles/s41592-025-02753-9
+  code: https://github.com/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap
+reviewed: false

@@ -1,0 +1,17 @@
+id: theory
+kind: model
+name: Theory
+title: Human Interpretable Grammar Encodes Multicellular Systems Biology Models to Democratize Virtual
+  Cell Laboratories
+year: 2025
+venue: Cell
+category: perturbation
+tags:
+- perturbation
+- virtual-cell
+links:
+  paper: https://doi.org/10.1016/j.cell.2025.06.048
+  code: https://github.com/physicell-models/grammar_samples
+reviewed: false
+review_notes:
+- 'possibly not a model: name field looks like a placeholder; check whether this is a model'

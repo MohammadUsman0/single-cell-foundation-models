@@ -1,0 +1,11 @@
+id: spatial-perturb-seq-spatial-perturb-seq
+kind: resource
+type: dataset
+title: 'Spatial Perturb-seq: Spatial perturb-seq data for functional genomics within intact tissue architecture'
+year: 2026
+tags:
+- spatial
+- perturbation
+links:
+  paper: https://www.nature.com/articles/s41467-026-69677-6
+reviewed: false

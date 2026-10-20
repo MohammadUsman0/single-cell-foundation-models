@@ -1,0 +1,10 @@
+id: string-protein-functional-association-and-interaction
+kind: resource
+type: dataset
+title: 'STRING: Protein functional association and interaction networks [[resource](https://string-db.org/)]
+  [[paper](https://academic.o'
+tags:
+- proteomics
+links:
+  paper: https://string-db.org/
+reviewed: false

@@ -1,0 +1,18 @@
+id: celllm-large-scale-cell
+kind: model
+name: CellLM Large-Scale Cell Representation Learning
+title: Large-scale cell representation learning via divide-and-conquer contrastive learning
+year: 2023
+venue: arXiv
+category: scrna
+tags:
+- scrna-seq
+architecture: Divide-and-Conquer Contrastive Learning
+task: Cell Representation Learning
+key: propose a novel divide-and-conquer contrastive learning approach to decouple the batch size from
+  the GPU memory size for cell representation learning
+links:
+  paper: https://arxiv.org/abs/2306.04371
+citation: Zhao, Suyuan, Jiahuan Zhang, and Zaiqing Nie. "Large-scale cell representation learning via
+  divide-and-conquer contrastive learning." arXiv preprint arXiv:2306.04371 (2023).
+reviewed: false

@@ -1,0 +1,12 @@
+id: scbig
+kind: model
+name: scBIG
+title: 'Beyond Independent Genes: Learning Module-Inductive Representations for Gene Perturbation Prediction'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+links:
+  paper: https://arxiv.org/abs/2602.04901
+reviewed: false

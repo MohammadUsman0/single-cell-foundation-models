@@ -1,0 +1,13 @@
+id: x-pert
+kind: model
+name: X-Pert
+title: Unified Multimodal Learning Enables Generalized Cellular Response Prediction to Diverse Perturbations
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- multi-omics
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2
+  code: https://github.com/Chen-Li-17/X-Pert
+reviewed: false

@@ -1,0 +1,13 @@
+id: geneagent
+kind: model
+name: GeneAgent
+title: 'GeneAgent: Self-Verification Language Agent for Gene-Set Analysis Using Domain Databases'
+year: 2025
+venue: Nature Methods
+category: agents
+tags:
+- agent
+links:
+  paper: https://doi.org/10.1038/s41592-025-02748-6
+  code: https://github.com/ncbi-nlp/GeneAgent
+reviewed: false

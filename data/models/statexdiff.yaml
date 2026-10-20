@@ -1,0 +1,21 @@
+id: statexdiff
+kind: model
+name: StateXDiff
+title: 'StateXDiff: Cell State-Contextualized Multimodal Diffusion for Single-Cell Perturbation Prediction'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- proteomics
+- multi-omics
+- generative
+- scrna-seq
+modality: Multimodal (transcriptomics + inferred protein)
+architecture: Latent diffusion Transformer
+key: Integrates RNA and protein-level context via a Virtual Multimodal Cell State and a Mechanism-aware
+  Drug-Gene Template to predict drug-induced single-cell responses across unseen cell lines, drugs, and
+  combinations.
+links:
+  paper: https://arxiv.org/abs/2605.16104
+reviewed: false

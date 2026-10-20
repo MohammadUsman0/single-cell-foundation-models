@@ -1,0 +1,19 @@
+id: descope
+kind: model
+name: DeSCOPE
+title: Decoding Single-Cell Omics of Perturbation Responses Using DeSCOPE
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: scRNA-seq / scATAC-seq (perturbation)
+architecture: Conditional VAE + ESM2 gene embeddings
+key: Lightweight conditional VAE that conditions on ESM2 protein-language embeddings of perturbed genes;
+  strong on unseen genes, unseen cell types, and combinatorial multi-gene perturbations.
+links:
+  paper: https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1
+  code: https://github.com/Peg-Wu/DeSCOPE
+reviewed: false

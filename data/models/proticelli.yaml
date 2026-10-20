@@ -1,0 +1,16 @@
+id: proticelli
+kind: model
+name: ProtiCelli
+title: Generative machine learning unlocks the first proteome-wide image of human cells
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- proteomics
+- imaging
+- generative
+links:
+  paper: https://doi.org/10.64898/2026.03.31.715748
+  code: https://github.com/CellProfiling/ProtiCelli
+reviewed: false

@@ -1,0 +1,9 @@
+id: metric-mirages-in-cell-embeddings
+kind: resource
+type: benchmark
+title: Metric Mirages in Cell Embeddings
+year: 2024
+venue: bioRxiv
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2024.04.02.587824v1
+reviewed: false

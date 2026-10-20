@@ -1,0 +1,12 @@
+id: virtual-cell-challenge-toward-a-turing
+kind: resource
+type: benchmark
+title: 'Virtual Cell Challenge: Toward a Turing test for the virtual cell'
+year: 2025
+venue: Cell
+tags:
+- virtual-cell
+citation: 'Roohani, Yusuf H., Tony J. Hua, Po-Yuan Tung, Lexi R. Bounds, Feiqiao B. Yu, Alexander Dobin,
+  Noam Teyssier et al. "Virtual Cell Challenge: Toward a Turing test for the virtual cell." Cell 188,
+  no. 13 (2025): 3370-3374.'
+reviewed: false

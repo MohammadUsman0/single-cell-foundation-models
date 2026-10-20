@@ -1,0 +1,22 @@
+id: saturn
+kind: model
+name: SATURN
+title: 'Toward universal cell embeddings: integrating single-cell RNA-seq datasets across species with
+  SATURN'
+year: 2024
+venue: Nature Methods
+category: llm
+tags:
+- llm
+- proteomics
+- text
+- cross-species
+- scrna-seq
+modality: Single-cell RNA-seq
+architecture: Deep Learning (Protein Language Models)
+key: 'Integrating datasets across species, universal cell embeddings. Key Finding: Encodes genes'' biological
+  properties using protein language models to transfer annotations across species.'
+citation: 'Rosen, Yanay, Maria Brbić, Yusuf Roohani, Kyle Swanson, Ziang Li, and Jure Leskovec. "Toward
+  universal cell embeddings: integrating single-cell RNA-seq datasets across species with SATURN." Nature
+  Methods 21, no. 8 (2024): 1492-1500.'
+reviewed: false

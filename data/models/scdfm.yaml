@@ -1,0 +1,15 @@
+id: scdfm
+kind: model
+name: scDFM
+title: 'scDFM: Distributional Flow Matching Model for Robust Single-Cell Perturbation Prediction'
+year: 2026
+venue: ICLR
+venue_detail: poster
+category: perturbation
+tags:
+- perturbation
+- generative
+links:
+  paper: https://openreview.net/forum?id=QSGanMEcUV
+  code: https://github.com/AI4Science-WestlakeU/scDFM
+reviewed: false

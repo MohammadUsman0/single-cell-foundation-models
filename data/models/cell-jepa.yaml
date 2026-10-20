@@ -1,0 +1,19 @@
+id: cell-jepa
+kind: model
+name: Cell-JEPA
+title: 'Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics'
+year: 2026
+venue: arXiv
+category: scrna
+tags:
+- scrna-seq
+modality: Single-cell
+architecture: FM
+task: cell-type clustering, Perturbation prediction
+key: '- large-scale human kidney scRNA-seq corpus comprising 800,000 cells used'
+links:
+  paper: https://arxiv.org/abs/2602.02093
+citation: 'ElSheikh, Ali, Rui-Xi Wang, Weimin Wu, Yibo Wen, Payam Dibaeinia, Jennifer Yuntong Zhang, Jerry
+  Yao-Chieh Hu et al. "Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics." arXiv
+  preprint arXiv:2602.02093 (2026).'
+reviewed: false

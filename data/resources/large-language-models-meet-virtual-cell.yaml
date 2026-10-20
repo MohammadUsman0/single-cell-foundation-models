@@ -1,0 +1,15 @@
+id: large-language-models-meet-virtual-cell
+kind: resource
+type: survey
+title: 'Large Language Models Meet Virtual Cell: A Survey'
+year: 2025
+venue: arXiv
+tags:
+- text
+- virtual-cell
+links:
+  paper: https://arxiv.org/abs/2510.07706
+citation: 'Li, Krinos, Xianglu Xiao, Shenglong Deng, Lucas He, Zijun Zhong, Yuanjie Zou, Zhonghao Zhan,
+  Zheng Hui, Weiye Bao, and Guang Yang. "Large Language Models Meet Virtual Cell: A Survey." arXiv preprint
+  arXiv:2510.07706 (2025).'
+reviewed: false

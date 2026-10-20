@@ -1,0 +1,26 @@
+id: lingshu-cell
+kind: model
+name: Lingshu-Cell
+title: 'Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- virtual-cell
+- generative
+- scrna-seq
+modality: Single-cell
+architecture: masked discrete diffusion model
+key: masked discrete diffusion model that learns transcriptomic state distributions and supports conditional
+  simulation under perturbation
+links:
+  paper: https://arxiv.org/abs/2603.25240
+  project: https://alibaba-damo-academy.github.io/lingshu-cell-homepage/
+citation: 'Zhang, Han, Guo-Hua Yuan, Chaohao Yuan, Tingyang Xu, Tian Bian, Hong Cheng, Wenbing Huang,
+  Deli Zhao, and Yu Rong. "Lingshu-Cell: A generative cellular world model for transcriptome modeling
+  toward virtual cells." arXiv preprint arXiv:2603.25240 (2026).'
+reviewed: false
+review_notes:
+- code field pointed to a non-code site (https://alibaba-damo-academy.github.io/lingshu-cell-homepage/);
+  stored as project link

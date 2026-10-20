@@ -1,0 +1,14 @@
+id: cellflow
+kind: model
+name: CellFlow
+title: CellFlow Enables Generative Single-Cell Phenotype Modeling with Flow Matching
+year: 2025
+venue: bioRxiv
+category: morphology
+tags:
+- imaging
+- generative
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf
+  code: https://github.com/theislab/CellFlow
+reviewed: false

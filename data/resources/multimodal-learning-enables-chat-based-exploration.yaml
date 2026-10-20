@@ -1,0 +1,11 @@
+id: multimodal-learning-enables-chat-based-exploration
+kind: resource
+type: tool
+title: Multimodal learning enables chat-based exploration of single-cell data
+year: 2025
+venue: Nature Biotechnology
+tags:
+- multi-omics
+links:
+  paper: https://www.nature.com/articles/s41587-025-02857-9
+reviewed: false

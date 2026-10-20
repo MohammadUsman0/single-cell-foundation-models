@@ -1,0 +1,16 @@
+id: spatial-perturb-seq
+kind: model
+name: Spatial Perturb-seq
+title: 'Spatial perturb-seq: single-cell functional genomics within intact tissue architecture'
+year: 2026
+venue: Nature Communications
+category: spatial
+tags:
+- spatial
+- perturbation
+links:
+  paper: https://www.nature.com/articles/s41467-026-69677-6
+  code: https://github.com/kimberle9/spatialperturbseq
+reviewed: false
+review_notes:
+- 'possibly not a model: an assay / dataset, not a model'

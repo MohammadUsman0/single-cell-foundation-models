@@ -1,0 +1,14 @@
+id: stanford-phd-thesis
+kind: model
+name: Stanford PhD Thesis
+title: Engineering Cells Using Artificial Intelligence
+year: 2024
+category: perturbation
+tags:
+- perturbation
+links:
+  paper: https://stacks.stanford.edu/file/jw766pz3938/PhD_Thesis_Roohani_Yusuf_2024-augmented.pdf
+reviewed: false
+review_notes:
+- venue field said '© by Yusuf Roohani', which is not a venue; left blank
+- 'possibly not a model: a PhD thesis, not a model; the name field is a placeholder'

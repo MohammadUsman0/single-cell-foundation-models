@@ -1,0 +1,15 @@
+id: single-cell-masked-autoencoder
+kind: model
+name: single-cell masked autoencoder (scMAE)
+title: 'Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper'
+year: 2023
+venue: NeurIPS
+category: scrna
+tags:
+- scrna-seq
+architecture: Masked Autoencoder
+key: Automated Immunophenotyper
+citation: 'Kim, Jaesik, Matei Ionita, Matthew Eric Lee, Michelle McKeague, Ajinkya Pattekar, Mark Painter,
+  Joost Wagenaar et al. "Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper."
+  In NeurIPS 2023 AI for Science Workshop. 2024.'
+reviewed: false

@@ -1,0 +1,13 @@
+id: adlf
+kind: model
+name: ADLF
+title: Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes
+venue: Science
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+links:
+  paper: https://doi.org/10.1126/science.adi8577
+  code: https://doi.org/10.5281/zenodo.16921928
+reviewed: false

@@ -1,0 +1,14 @@
+id: drugpt
+kind: model
+name: DrugPT
+title: 'DrugPT: A Flexible Framework for Integrating Gene and Chemical Representations in Perturbation
+  Modeling'
+year: 2025
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- drug-response
+links:
+  paper: https://doi.org/10.1101/2025.07.25.665130
+reviewed: false

@@ -1,0 +1,12 @@
+id: transformers-and-genome-language-models
+kind: resource
+type: survey
+title: Transformers and genome language models
+year: 2025
+venue: Nature Machine Intelligence
+tags:
+- text
+- dna-sequence
+links:
+  paper: https://www.nature.com/articles/s42256-025-01007-9
+reviewed: false

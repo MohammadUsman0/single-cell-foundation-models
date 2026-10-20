@@ -1,0 +1,17 @@
+id: c2s-scale
+kind: model
+name: C2S-Scale
+title: Scaling Large Language Models for Next-Generation Single-Cell Analysis
+year: 2025
+venue: bioRxiv
+category: llm
+tags:
+- llm
+- text
+- scrna-seq
+modality: scRNA-seq
+architecture: LLM (cell sentences)
+key: Scales LLMs over 'cell sentences' for next-generation single-cell analysis.
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1
+reviewed: false

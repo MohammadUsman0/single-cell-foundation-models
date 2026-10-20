@@ -1,0 +1,20 @@
+id: scbert
+kind: model
+name: scBERT
+title: scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell
+  RNA-seq data
+year: 2022
+venue: Nature Machine Intelligence
+category: llm
+tags:
+- llm
+- text
+- scrna-seq
+modality: Single-cell RNA-seq
+architecture: Deep Language Model
+key: 'Cell type annotation. Key Finding: Uses value categorization (binning) for gene counts, transforming
+  continuous data to categorical values.'
+citation: 'Yang, Fan, Wenchuan Wang, Fang Wang, Yuan Fang, Duyu Tang, Junzhou Huang, Hui Lu, and Jianhua
+  Yao. "scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell
+  RNA-seq data." Nature Machine Intelligence 4, no. 10 (2022): 852-866.'
+reviewed: false

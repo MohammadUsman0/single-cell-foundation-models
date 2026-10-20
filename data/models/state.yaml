@@ -1,0 +1,13 @@
+id: state
+kind: model
+name: STATE
+title: Predicting cellular responses to perturbation across diverse contexts with State
+year: 2025
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+citation: 'Adduri, Abhinav K., Dhruv Gautam, Beatrice Bevilacqua, Alishba Imran, Rohan Shah, Mohsen Naghipourfar,
+  Noam Teyssier et al. "Predicting cellular responses to perturbation across diverse contexts with State."
+  BioRxiv (2025): 2025-06.'
+reviewed: false
