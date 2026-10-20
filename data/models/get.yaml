@@ -15,6 +15,9 @@ architecture: Transformer
 inputs:
 - chromatin-accessibility
 - dna-sequence
+outputs:
+- expression-prediction
+- gene-regulatory-network
 key: Predicts gene expression in seen and unseen cell types and learns regulatory grammar across 213 human
   cell types.
 links:
@@ -26,5 +29,5 @@ citation: 'Fu, Xi, Shentong Mo, Alejandro Buendia, Anouchka P. Laurent, Anqi Sha
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41586-024-08391-z
-review_basis: metadata
+review_basis: abstract
 reviewed: false

@@ -14,6 +14,11 @@ modality: scRNA-seq
 architecture: Early-fusion multimodal LLM
 inputs:
 - expression
+- text
+outputs:
+- generated-cells
+- disease-state
+- cell-type-label
 architecture_family: llm
 key: Early-fusion multimodal LLM for single-cell transcriptomics via tokenization.
 links:
@@ -24,5 +29,5 @@ citation: Xiao, Chuxi, Yuang Ding, Haiyang Bian, Yixin Chen, Lei Wei, and Xuegon
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2025.10.22.684047v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

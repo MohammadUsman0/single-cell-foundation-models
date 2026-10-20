@@ -14,6 +14,10 @@ architecture: Multi-way Transformer
 inputs:
 - chromatin-accessibility
 - expression
+outputs:
+- expression-prediction
+- cell-type-label
+- perturbation-response
 key: Multimodal foundation model pretrained on million-scale unimodal and multimodal data; unifies scRNA-seq
   and scATAC-seq with strong RNA-ATAC cross-modal translation and genetic-perturbation-response prediction.
 links:
@@ -25,5 +29,5 @@ citation: 'Li, Bowen, Ziqiang Liu, Zhen Wang, Zhenyu Xu, Yantao Li, Chulin Sha, 
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.64898/2026.02.17.704943v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

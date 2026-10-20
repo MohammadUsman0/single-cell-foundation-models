@@ -11,6 +11,10 @@ modality: Single-Cell Transcriptomics
 architecture: Tabular Self-Supervised
 inputs:
 - expression
+outputs:
+- cell-type-label
+- expression-prediction
+- perturbation-response
 key: Single-cell foundation model with tabular-structure-aware self-supervised pre-training, designed
   for privacy-preserving federated training.
 links:
@@ -23,5 +27,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.52202/085713-3467
 - https://doi.org/10.1101/2025.01.06.631427
-review_basis: metadata
+review_basis: abstract
 reviewed: false

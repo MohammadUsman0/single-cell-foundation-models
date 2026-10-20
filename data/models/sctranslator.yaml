@@ -13,6 +13,9 @@ modality: Single-cell Transcriptome
 architecture: Large Generative Model
 inputs:
 - expression
+outputs:
+- expression-prediction
+- perturbation-response
 key: Translates transcriptomes into proteomes (protein abundance imputation), evaluated across CITE-seq,
   REAP-seq and other techniques.
 links:
@@ -26,5 +29,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41551-025-01528-z
 - https://doi.org/10.1101/2023.07.04.547619
-review_basis: metadata
+review_basis: abstract
 reviewed: false

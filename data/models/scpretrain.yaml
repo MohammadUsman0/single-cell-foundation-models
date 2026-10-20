@@ -8,6 +8,10 @@ category: scrna
 tags:
 - scrna-seq
 architecture: Multi-task Self-Supervised Learning
+inputs:
+- expression
+outputs:
+- cell-type-label
 key: Cell-type classification
 links:
   paper: https://doi.org/10.1093/bioinformatics/btac007
@@ -17,5 +21,5 @@ citation: 'Zhang, Ruiyi, Yunan Luo, Jianzhu Ma, Ming Zhang, and Sheng Wang. "scP
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1093/bioinformatics/btac007
-review_basis: metadata
+review_basis: abstract
 reviewed: false

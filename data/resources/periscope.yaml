@@ -1,10 +1,11 @@
 id: periscope
-kind: model
-name: PERISCOPE
+kind: resource
+type: dataset
 title: A genome-wide atlas of human cell morphology
+aliases:
+- PERISCOPE
 year: 2025
 venue: Nature Methods
-category: morphology
 tags:
 - imaging
 links:

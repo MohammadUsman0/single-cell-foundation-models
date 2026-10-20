@@ -10,6 +10,10 @@ tags:
 modality: Single Cell Transcriptome
 inputs:
 - expression
+outputs:
+- cell-type-label
+- perturbation-response
+architecture_family: transformer-encoder
 key: Develop AIDO.Cell, a pretrained module for representing gene expression and cellular systems in an
   AI-driven Digital Organism
 links:
@@ -21,5 +25,5 @@ citation: 'Ho, Nicholas, Caleb N. Ellington, Jinyu Hou, Sohan Addagudi, Shentong
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2024.11.28.625303
-review_basis: metadata
+review_basis: abstract
 reviewed: false

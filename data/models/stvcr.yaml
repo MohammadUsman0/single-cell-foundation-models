@@ -7,10 +7,15 @@ venue: Nature Methods
 category: spatial
 tags:
 - spatial
+inputs:
+- expression
+- spatial-coordinates
+architecture_family: flow-matching
 links:
   paper: https://www.nature.com/articles/s41592-026-03010-3
   code: https://github.com/QiangweiPeng/stVCR
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41592-026-03010-3
+review_basis: abstract
 reviewed: false

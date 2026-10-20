@@ -7,6 +7,10 @@ venue: bioRxiv
 category: agents
 tags:
 - agent
+outputs:
+- gene-prioritization
+- text
+architecture_family: agent
 links:
   paper: https://doi.org/10.1101/2025.05.30.656746
   code: https://github.com/snap-stanford/biomni
@@ -15,5 +19,5 @@ citation: 'Huang, Kexin, Serena Zhang, Hanchen Wang, Yuanhao Qu, Yingzhou Lu, Yu
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.05.30.656746
-review_basis: metadata
+review_basis: abstract
 reviewed: false

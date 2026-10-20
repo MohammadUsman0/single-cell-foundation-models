@@ -8,10 +8,19 @@ category: spatial
 tags:
 - spatial
 - perturbation
+inputs:
+- expression
+- spatial-coordinates
+outputs:
+- generated-cells
+- perturbation-response
+- gene-regulatory-network
+architecture_family: graph-neural-network
 links:
   paper: https://www.nature.com/articles/s41467-026-69856-5
   code: https://github.com/Teichlab/celcomen
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41467-026-69856-5
+review_basis: abstract
 reviewed: false

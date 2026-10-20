@@ -9,6 +9,11 @@ tags:
 - scrna-seq
 architecture: Divide-and-Conquer Contrastive Learning
 task: Cell Representation Learning
+inputs:
+- expression
+outputs:
+- cell-type-label
+- perturbation-response
 key: 50M-parameter cell language model trained on 2M normal and cancer cells, using divide-and-conquer
   contrastive learning to allow large batches.
 links:
@@ -18,5 +23,5 @@ citation: Zhao, Suyuan, Jiahuan Zhang, and Zaiqing Nie. "Large-scale cell repres
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2306.04371
-review_basis: metadata
+review_basis: abstract
 reviewed: false

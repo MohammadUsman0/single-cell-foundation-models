@@ -2,8 +2,8 @@
  "generated": "2026-10-20",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
-  "models": 174,
-  "resources": 122,
+  "models": 170,
+  "resources": 126,
   "venues": 19
  },
  "vocab": {
@@ -587,12 +587,17 @@
     "expression",
     "protein-abundance"
    ],
+   "outputs": [
+    "expression-prediction",
+    "cell-type-label",
+    "cell-embedding"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41467-026-72882-y",
     "https://doi.org/10.1101/2025.07.07.663366"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "iamjiboya/CAPTAIN"
   },
@@ -613,38 +618,23 @@
     "code": "https://github.com/Teichlab/celcomen"
    },
    "reviewed": false,
-   "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
-   "status": "published",
-   "github": "Teichlab/celcomen"
-  },
-  {
-   "id": "cell-shapes",
-   "kind": "model",
-   "name": "Cell Shapes",
-   "title": "Cell shapes decode molecular phenotypes in image-based spatial proteomics",
-   "year": 2026,
-   "venue": "Cell Systems",
-   "category": "morphology",
-   "tags": [
-    "imaging",
-    "spatial",
-    "proteomics"
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
    ],
-   "links": {
-    "paper": "https://doi.org/10.1016/j.cels.2026.101589",
-    "preprint": "https://doi.org/10.1101/2025.05.13.653868"
-   },
-   "citation": "Le, Trang, William D. Leineweber, Matheus P. Viana, Anthony Cesnik, Jan N. Hansen, Wei Ouyang, Susanne M. Rafelski et al. \"Cell shapes decode molecular phenotypes in image-based spatial proteomics.\" Cell Systems 17, no. 6 (2026): 101589.",
-   "reviewed": false,
+   "outputs": [
+    "generated-cells",
+    "perturbation-response",
+    "gene-regulatory-network"
+   ],
+   "architecture_family": "graph-neural-network",
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1016/j.cels.2026.101589",
-    "https://doi.org/10.1101/2025.05.13.653868"
+    "https://www.nature.com/articles/s41467-026-69856-5"
    ],
-   "review_basis": "metadata",
-   "status": "published"
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "Teichlab/celcomen"
   },
   {
    "id": "cell-jepa",
@@ -667,11 +657,18 @@
    },
    "citation": "ElSheikh, Ali, Rui-Xi Wang, Weimin Wu, Yibo Wen, Payam Dibaeinia, Jennifer Yuntong Zhang, Jerry Yao-Chieh Hu et al. \"Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics.\" arXiv preprint arXiv:2602.02093 (2026).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "perturbation-response"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2602.02093"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "thereecer13/VirtualCellJEPA"
   },
@@ -694,12 +691,21 @@
    },
    "citation": "Fang, Yin, Qiao Jin, Guangzhi Xiong, Bowen Jin, Xianrui Zhong, Siru Ouyang, Yifan Yang et al. \"Cell-o1 : training LLMs to solve single-cell reasoning puzzles with reinforcement learning.\" Bioinformatics 42, no. 5 (2026): btag208.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "text"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1093/bioinformatics/btag208",
     "https://arxiv.org/abs/2506.02911"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "ncbi-nlp/cell-o1"
   },
@@ -722,12 +728,16 @@
    },
    "citation": "Nouri, Nima, Ronen Artzi, and Virginia Savova. \"An agentic AI framework for ingestion and standardization of single-cell RNA-seq data analysis.\" npj Artificial Intelligence 2, no. 1 (2026): 8.",
    "reviewed": false,
+   "inputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s44387-025-00064-0",
     "https://doi.org/10.1101/2025.07.31.667880"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "AstraZeneca/cellatria"
   },
@@ -749,12 +759,20 @@
    },
    "citation": "Alber, Samuel, Bowen Chen, Eric Sun, Alina Isakova, Aaron J. Wilk, and James Zou. \"CellVoyager: AI CompBio agent generates new insights by autonomously analyzing biological data.\" Nature Methods 23, no. 4 (2026): 749-759.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-026-03029-6",
     "https://doi.org/10.1101/2025.06.03.657517"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "zou-group/CellVoyager"
   },
@@ -820,11 +838,16 @@
     "chromatin-accessibility",
     "expression"
    ],
+   "outputs": [
+    "expression-prediction",
+    "cell-type-label",
+    "perturbation-response"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2026.02.17.704943v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "HIM-AIM/CLM-X"
   },
@@ -844,9 +867,15 @@
     "code": "https://github.com/Gartner-Lab/Concord"
    },
    "reviewed": false,
+   "outputs": [
+    "cell-embedding"
+   ],
+   "architecture_family": "other",
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41587-025-02950-z"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "Gartner-Lab/Concord"
   },
@@ -1044,12 +1073,15 @@
     "histology-image",
     "spatial-coordinates"
    ],
+   "outputs": [
+    "expression-prediction"
+   ],
    "architecture_family": "diffusion",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2603.19766"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "donghaifang/HINGE"
   },
@@ -1104,7 +1136,7 @@
    "name": "OKR-Cell",
    "title": "Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training",
    "year": 2026,
-   "venue": "bioRxiv",
+   "venue": "arXiv",
    "category": "llm",
    "tags": [
     "llm",
@@ -1115,9 +1147,9 @@
    "architecture": "Cross-modal pre-training",
    "key": "Open-world-knowledge-aided cell-language foundation model.",
    "links": {
-    "paper": "https://www.biorxiv.org/content/10.64898/2026.01.09.698573v1"
+    "paper": "https://arxiv.org/abs/2601.05648"
    },
-   "citation": "Wang, Haoran, Xuanyi Zhang, Shuangsang Fang, Longke Ran, Ziqing Deng, Yong Zhang, Yuxiang Li et al. \"WITHDRAWN: OKR-Cell: Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training.\" bioRxiv (2026).",
+   "citation": "Wang, Haoran, Xuanyi Zhang, Shuangsang Fang, Longke Ran, Ziqing Deng, Yong Zhang, Yuxiang Li et al. \"Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training.\" arXiv preprint arXiv:2601.05648 (2026).",
    "reviewed": false,
    "inputs": [
     "expression",
@@ -1125,7 +1157,7 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://www.biorxiv.org/content/10.64898/2026.01.09.698573v1"
+    "https://arxiv.org/abs/2601.05648"
    ],
    "review_basis": "metadata",
    "status": "preprint"
@@ -1153,12 +1185,16 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "disease-state",
+    "gene-prioritization"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1016/j.cels.2026.101570",
     "https://doi.org/10.1101/2024.11.18.624166"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "Genentech/pascient"
   },
@@ -1321,11 +1357,17 @@
    },
    "citation": "Sun, Huangqingbo, Konstantin Kahnert, Jan N. Hansen, William Leineweber, Mingyang Li, Wanyue Feng, Frederic Ballllosera Navarro et al. \"Generative machine learning unlocks the first proteome-wide image of human cells.\" bioRxiv (2026).",
    "reviewed": false,
+   "inputs": [
+    "cell-image"
+   ],
+   "outputs": [
+    "image"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.64898/2026.03.31.715748"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "CellProfiling/ProtiCelli"
   },
@@ -1469,13 +1511,17 @@
    "inputs": [
     "expression"
    ],
-   "architecture_family": "llm",
+   "outputs": [
+    "cell-type-label",
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1002/aic.70285",
     "https://www.biorxiv.org/content/10.1101/2024.10.01.616063v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "li-group/scChat"
   },
@@ -1523,11 +1569,20 @@
    },
    "citation": "Liu, Tianyu, Tianqi Chen, Wangjie Zheng, Xiao Luo, Yiqun Chen, and Hongyu Zhao. \"Embeddings from language models are good learners for single-cell data analysis.\" Patterns 7, no. 2 (2026): 101431.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1016/j.patter.2025.101431"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "HelloWorldLTY/scELMo"
   },
@@ -1594,14 +1649,21 @@
    "reviewed": false,
    "inputs": [
     "histology-image",
-    "spatial-coordinates"
+    "spatial-coordinates",
+    "text"
+   ],
+   "outputs": [
+    "spatial-domain",
+    "cell-type-label",
+    "disease-state",
+    "text"
    ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41551-025-01602-6",
     "https://www.biorxiv.org/content/10.1101/2025.01.13.632818v3"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "HelloWorldLTY/spEMO"
   },
@@ -1757,12 +1819,17 @@
     "expression",
     "spatial-coordinates"
    ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label",
+    "perturbation-response"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1016/j.crmeth.2026.101612",
     "https://doi.org/10.1101/2024.09.27.615337"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "csh3/stFormer"
   },
@@ -1822,9 +1889,16 @@
     "code": "https://github.com/QiangweiPeng/stVCR"
    },
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "architecture_family": "flow-matching",
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41592-026-03010-3"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "QiangweiPeng/stVCR"
   },
@@ -2083,11 +2157,16 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-embedding",
+    "generated-cells",
+    "expression-prediction"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2026.04.12.718016v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -2140,11 +2219,16 @@
    "inputs": [
     "chromatin-accessibility"
    ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label",
+    "expression-prediction"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.11.03.685753"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -2164,11 +2248,16 @@
    },
    "citation": "Huang, Kexin, Serena Zhang, Hanchen Wang, Yuanhao Qu, Yingzhou Lu, Yusuf Roohani, Ryan Li et al. \"Biomni: A General-Purpose Biomedical AI Agent.\" bioRxiv (2025).",
    "reviewed": false,
+   "outputs": [
+    "gene-prioritization",
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.05.30.656746"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "snap-stanford/biomni"
   },
@@ -2196,11 +2285,14 @@
    "inputs": [
     "dna-sequence"
    ],
+   "outputs": [
+    "expression-prediction"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41588-024-02053-6"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "calico/borzoi"
   },
@@ -2268,10 +2360,16 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-type-label",
+    "text"
+   ],
    "architecture_family": "agent",
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41467-025-67084-x"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "ElliotXie/CASSIA"
   },
@@ -2327,14 +2425,19 @@
    "citation": "Fang, Chen, Wentao Cui, Zhilong Hu, Wenhao Liu, Shubai Chen, Shaole Chang, Qingqing Long et al. \"Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model.\" National Science Review (2025): nwaf255.",
    "reviewed": false,
    "inputs": [
-    "expression"
+    "expression",
+    "prior-network"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "perturbation-response"
    ],
    "architecture_family": "graph-neural-network",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1093/nsr/nwaf255"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "epang-ucas/Cell-Graph-Compass"
   },
@@ -2364,14 +2467,20 @@
    "reviewed": false,
    "inputs": [
     "expression",
-    "spatial-coordinates"
+    "spatial-coordinates",
+    "text"
    ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1002/advs.202513210",
     "https://www.biorxiv.org/content/10.1101/2024.05.08.593094v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "portrai-io/CELLama"
   },
@@ -2409,7 +2518,7 @@
    "title": "CellFlow Enables Generative Single-Cell Phenotype Modeling with Flow Matching",
    "year": 2025,
    "venue": "bioRxiv",
-   "category": "morphology",
+   "category": "perturbation",
    "tags": [
     "imaging",
     "generative"
@@ -2419,11 +2528,29 @@
     "code": "https://github.com/theislab/CellFlow"
    },
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "generated-cells"
+   ],
+   "architecture_family": "flow-matching",
+   "perturbation_type": [
+    "genetic",
+    "chemical",
+    "cytokine",
+    "combination"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "theislab/CellFlow"
   },
@@ -2541,6 +2668,15 @@
    "citation": "Gao, Yicheng, Weixu Wang, Yuheng Zhao, Kejing Dong, Caihua Shan, Weizhong Zheng, Till Richter et al. \"Language may be all omics needs: Harmonizing multimodal data for omics understanding with CellHermes.\" bioRxiv (2025).",
    "reviewed": false,
    "inputs": [
+    "text",
+    "expression",
+    "prior-network"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "gene-embedding",
+    "cell-type-label",
+    "perturbation-response",
     "text"
    ],
    "architecture_family": "llm",
@@ -2548,7 +2684,7 @@
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.11.07.687322v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "theislab/CellHermes"
   },
@@ -2609,11 +2745,19 @@
    },
    "citation": "Peng, Rui, Juntian Qi, Yuxing Lu, Wei Wu, Qichen Sun, Chi Zhang, Yihan Chen, and Jinzhuo Wang. \"Dissecting dynamic gene regulatory network using transformer-based temporal causality analysis.\" bioRxiv (2025): 2025-02.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "gene-regulatory-network",
+    "perturbation-response",
+    "gene-prioritization"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.02.05.636766"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "prsigma/CellProphet"
   },
@@ -2641,14 +2785,20 @@
    "citation": "Xiao, Chuxi, Yuang Ding, Haiyang Bian, Yixin Chen, Lei Wei, and Xuegong Zhang. \"Tokenizing single-cell transcriptomes as a native language for large language models.\" bioRxiv (2025).",
    "reviewed": false,
    "inputs": [
-    "expression"
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "generated-cells",
+    "disease-state",
+    "cell-type-label"
    ],
    "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.10.22.684047v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "sunnsset/CellTok"
   },
@@ -2705,9 +2855,17 @@
     "code": "https://github.com/zaritskylab/CELTIC"
    },
    "reviewed": false,
+   "inputs": [
+    "cell-image"
+   ],
+   "outputs": [
+    "image"
+   ],
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41592-025-02960-4"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "zaritskylab/CELTIC"
   },
@@ -2831,11 +2989,18 @@
    },
    "citation": "Qu, Yuanhao, Kaixuan Huang, Ming Yin, Kanghong Zhan, Dyllan Liu, Di Yin, Henry C. Cousins et al. \"CRISPR-GPT for agentic automation of gene-editing experiments.\" Nature Biomedical Engineering 10, no. 2 (2025): 245-258.",
    "reviewed": false,
+   "inputs": [
+    "text"
+   ],
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41551-025-01463-z"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "cong-lab/crispr-gpt-pub"
   },
@@ -2865,12 +3030,22 @@
     "expression",
     "perturbation"
    ],
+   "outputs": [
+    "perturbation-response",
+    "generated-cells"
+   ],
    "architecture_family": "diffusion",
+   "perturbation_type": [
+    "genetic"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.pnas.org/doi/10.1073/pnas.2525268122"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "ergan-shang/dbDiffusion"
   },
@@ -2968,11 +3143,15 @@
    "inputs": [
     "chromatin-accessibility"
    ],
+   "outputs": [
+    "cell-type-label",
+    "expression-prediction"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.02.05.636688"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "UCSC-VLAA/EpiFoundation"
   },
@@ -2993,11 +3172,15 @@
    },
    "citation": "Wang, Zhizheng, Qiao Jin, Chih-Hsuan Wei, Shubo Tian, Po-Ting Lai, Qingqing Zhu, Chi-Ping Day et al. \"GeneAgent: self-verification language agent for gene-set analysis using domain databases.\" Nature Methods 22, no. 8 (2025): 1677-1685.",
    "reviewed": false,
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-025-02748-6"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "ncbi-nlp/GeneAgent"
   },
@@ -3063,12 +3246,15 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-type-label"
+   ],
    "architecture_family": "state-space",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2504.16956"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "MineSelf2016/GeneMamba"
   },
@@ -3100,11 +3286,15 @@
     "chromatin-accessibility",
     "dna-sequence"
    ],
+   "outputs": [
+    "expression-prediction",
+    "gene-regulatory-network"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41586-024-08391-z"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "GET-Foundation/get_model"
   },
@@ -3190,11 +3380,19 @@
    },
    "citation": "Zhang, Mingxuan, Vinay S. Swamy, Rowan Cassius, Léo Dupire, Charilaos I. Kanatsoulis, Evan Paull, Mohammed AlQuraishi, Theofanis Karaletsos, and Andrea Califano. \"GREmLN: A Cellular Graph Structure Aware Transcriptomics Foundation Model.\" In ICLR 2026 Workshop on Machine Learning for Genomics Explorations. 2025.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "prior-network"
+   ],
+   "outputs": [
+    "gene-embedding",
+    "cell-type-label"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.07.03.663009"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "czi-ai/GREmLN"
   },
@@ -3216,11 +3414,64 @@
     "code": "https://github.com/theislab/IMPA"
    },
    "reviewed": false,
+   "inputs": [
+    "cell-image",
+    "perturbation"
+   ],
+   "outputs": [
+    "image",
+    "perturbation-response"
+   ],
+   "architecture_family": "other",
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41467-024-55707-8"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "theislab/IMPA"
+  },
+  {
+   "id": "spatial-proteomics-fm",
+   "kind": "model",
+   "name": "KRONOS",
+   "aliases": [
+    "Spatial Proteomics FM"
+   ],
+   "title": "A Foundation Model for Spatial Proteomics",
+   "year": 2025,
+   "venue": "arXiv",
+   "category": "proteomics",
+   "tags": [
+    "proteomics",
+    "spatial"
+   ],
+   "modality": "Spatial proteomics",
+   "architecture": "Foundation model",
+   "key": "A foundation model for spatial proteomics.",
+   "links": {
+    "paper": "https://arxiv.org/abs/2506.03373",
+    "code": "https://github.com/mahmoodlab/KRONOS"
+   },
+   "citation": "Shaban, Muhammad, Yuzhou Chang, Huaying Qiu, Yao Yu Yeo, Andrew H. Song, Guillaume Jaume, Yuchen Wang et al. \"A Foundation Model for Spatial Proteomics.\" arXiv preprint arXiv:2506.03373 (2025).",
+   "reviewed": false,
+   "inputs": [
+    "protein-abundance",
+    "spatial-coordinates",
+    "cell-image"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label",
+    "spatial-domain"
+   ],
+   "added": "2026-06-02",
+   "sources": [
+    "https://arxiv.org/abs/2506.03373"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "mahmoodlab/KRONOS"
   },
   {
    "id": "lpm",
@@ -3303,28 +3554,6 @@
    "github": "satijalab/Mixscale"
   },
   {
-   "id": "morph-map",
-   "kind": "model",
-   "name": "Morph Map",
-   "title": "Morphological map of under- and overexpression of genes in human cells",
-   "year": 2025,
-   "venue": "Nature Methods",
-   "category": "morphology",
-   "tags": [
-    "imaging"
-   ],
-   "links": {
-    "paper": "https://www.nature.com/articles/s41592-025-02753-9",
-    "code": "https://github.com/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap"
-   },
-   "reviewed": false,
-   "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
-   "status": "published",
-   "github": "jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap"
-  },
-  {
    "id": "morphdiff",
    "kind": "model",
    "name": "MorphDiff",
@@ -3343,9 +3572,20 @@
     "code": "https://github.com/biomap-research/MorphDiff"
    },
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "image",
+    "perturbation-response"
+   ],
+   "architecture_family": "diffusion",
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41467-025-63478-z"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "biomap-research/MorphDiff"
   },
@@ -3366,7 +3606,18 @@
     "code": "https://github.com/bowang-lab/MorphoDiff"
    },
    "reviewed": false,
+   "inputs": [
+    "perturbation"
+   ],
+   "outputs": [
+    "image"
+   ],
+   "architecture_family": "diffusion",
    "added": "2026-06-02",
+   "sources": [
+    "https://openreview.net/forum?id=PstM8YfhvI"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "bowang-lab/MorphoDiff"
   },
@@ -3392,12 +3643,21 @@
    },
    "citation": "Birk, Sebastian, Irene Bonafonte-Pardàs, Adib Miraki Feriz, Adam Boxall, Eneritz Agirre, Fani Memi, Anna Maguza et al. \"Quantitative characterization of cell niches in spatially resolved omics data.\" Nature Genetics 57, no. 4 (2025): 897-909.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "spatial-domain"
+   ],
+   "architecture_family": "graph-neural-network",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41588-025-02120-6",
     "https://doi.org/10.1101/2024.02.21.581428"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "Lotfollahi-lab/nichecompass"
   },
@@ -3544,12 +3804,16 @@
     "histology-image",
     "spatial-coordinates"
    ],
+   "outputs": [
+    "cell-type-label",
+    "expression-prediction"
+   ],
    "architecture_family": "contrastive-dual-encoder",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-025-02707-1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "GuangyuWangLab2021/Loki"
   },
@@ -3577,11 +3841,15 @@
     "expression",
     "spatial-coordinates"
    ],
+   "outputs": [
+    "gene-embedding",
+    "spatial-domain"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2025.12.29.696804v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -3616,28 +3884,6 @@
    "status": "preprint"
   },
   {
-   "id": "periscope",
-   "kind": "model",
-   "name": "PERISCOPE",
-   "title": "A genome-wide atlas of human cell morphology",
-   "year": 2025,
-   "venue": "Nature Methods",
-   "category": "morphology",
-   "tags": [
-    "imaging"
-   ],
-   "links": {
-    "paper": "https://www.nature.com/articles/s41592-024-02537-7",
-    "code": "https://github.com/broadinstitute/2022_PERISCOPE"
-   },
-   "reviewed": false,
-   "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
-   "status": "published",
-   "github": "broadinstitute/2022_PERISCOPE"
-  },
-  {
    "id": "phenoprofiler",
    "kind": "model",
    "name": "PhenoProfiler",
@@ -3655,11 +3901,17 @@
    },
    "citation": "Li, Bo, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang et al. \"PhenoProfiler: advancing phenotypic learning for image-based drug discovery.\" Nature Communications 17, no. 1 (2025): 793.",
    "reviewed": false,
+   "inputs": [
+    "cell-image"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41467-025-67479-w"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "QSong-github/PhenoProfiler"
   },
@@ -3701,11 +3953,23 @@
    },
    "citation": "Sun, Rui, Liujia Qian, Yongge Li, Honghan Cheng, Zhangzhi Xue, Xuedong Zhang, Lingling Tan et al. \"A perturbation proteomics-based foundation model for virtual cell construction.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "protein-abundance",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "architecture_family": "other",
+   "perturbation_type": [
+    "chemical",
+    "combination"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.02.07.637070"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "guomics-lab/PTV-1"
   },
@@ -3799,11 +4063,20 @@
    },
    "citation": "Istrate, Ana-Maria, Fausto Milletari, Fabrizio Castrotorres, Jakub M. Tomczak, Michaela Torkar, Donghui Li, and Theofanis Karaletsos. \"rbio1 - training scientific reasoning LLMs with biological world models as soft verifiers.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "text"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "disease-state",
+    "text"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.08.18.670981"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "czi-ai/rbio"
   },
@@ -3828,11 +4101,17 @@
     "chromatin-accessibility",
     "expression"
    ],
+   "outputs": [
+    "cell-embedding",
+    "expression-prediction",
+    "cell-type-label"
+   ],
+   "architecture_family": "state-space",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.04.07.647689"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -3856,11 +4135,19 @@
    },
    "citation": "Bahrami, Mojtaba, Alejandro Tejada-Lapuerta, Sören Becker, Fatemeh S. Hashemi G, and Fabian J. Theis. \"scConcept: Contrastive pretraining for technology-agnostic single-cell representations beyond reconstruction.\" bioRxiv (2025): 2025-10.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label",
+    "expression-prediction"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.10.14.682419"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "theislab/scConcept"
   },
@@ -3923,9 +4210,19 @@
    },
    "reviewed": false,
    "inputs": [
-    "expression"
+    "expression",
+    "text"
    ],
+   "outputs": [
+    "cell-embedding",
+    "gene-embedding"
+   ],
+   "architecture_family": "vae",
    "added": "2026-06-02",
+   "sources": [
+    "https://proceedings.mlr.press/v267/hu25aa.html"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "microsoft/sciLaMA"
   },
@@ -3946,11 +4243,21 @@
    },
    "citation": "Li, Yang, Guanyu Qiao, Hongli Du, Xin Gao, and Guohua Wang. \"scKGBERT: a knowledge-enhanced foundation model for single-cell transcriptomics.\" Genome Biology 26, no. 1 (2025): 402.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "prior-network"
+   ],
+   "outputs": [
+    "gene-embedding",
+    "cell-embedding",
+    "perturbation-response",
+    "disease-state"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1186/s13059-025-03862-6"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -3978,12 +4285,16 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "generated-cells",
+    "cell-type-label"
+   ],
    "architecture_family": "diffusion",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2511.02986"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "czi-ai/scldm"
   },
@@ -4007,12 +4318,18 @@
    },
    "citation": "Fang, Zhaoyu, Ziyang Miao, Jianhui Lin, Yuying Xie, Jiliang Tang, Jiayuan Ding, and Min Li. \"scLinguist: A pre-trained hyena-based foundation model for cross-modality translation in single-cell multi-omics.\" bioRxiv (2025): 2025-09.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "expression-prediction"
+   ],
    "architecture_family": "state-space",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.09.30.679123"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "OmicsML/scLinguist"
   },
@@ -4040,11 +4357,12 @@
     "expression",
     "prior-network"
    ],
+   "architecture_family": "graph-neural-network",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-025-02627-0"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "madilabcode/scNET"
   },
@@ -4113,8 +4431,10 @@
     "expression"
    ],
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s42256-025-01170-z"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "coffee19850519/scPEFT"
   },
@@ -4174,11 +4494,21 @@
    },
    "citation": "Kalfon, Jérémie, Gabriel Peyré, and Laura Cantini. \"scPRINT-2: Towards the next-generation of cell foundation models and benchmarks.\" bioRxiv (2025): 2025-12.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "expression-prediction",
+    "cell-embedding",
+    "cell-type-label",
+    "gene-embedding",
+    "gene-regulatory-network"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.64898/2025.12.11.693702"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "cantinilab/scPRINT-2"
   },
@@ -4208,45 +4538,18 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "expression-prediction",
+    "perturbation-response"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41551-025-01528-z",
     "https://doi.org/10.1101/2023.07.04.547619"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "TencentAILabHealthcare/scTranslator"
-  },
-  {
-   "id": "spatial-proteomics-fm",
-   "kind": "model",
-   "name": "Spatial Proteomics FM",
-   "title": "A Foundation Model for Spatial Proteomics",
-   "year": 2025,
-   "venue": "arXiv",
-   "category": "proteomics",
-   "tags": [
-    "proteomics",
-    "spatial"
-   ],
-   "modality": "Spatial proteomics",
-   "architecture": "Foundation model",
-   "key": "A foundation model for spatial proteomics.",
-   "links": {
-    "paper": "https://arxiv.org/abs/2506.03373"
-   },
-   "citation": "Shaban, Muhammad, Yuzhou Chang, Huaying Qiu, Yao Yu Yeo, Andrew H. Song, Guillaume Jaume, Yuchen Wang et al. \"A Foundation Model for Spatial Proteomics.\" arXiv preprint arXiv:2506.03373 (2025).",
-   "reviewed": false,
-   "inputs": [
-    "protein-abundance",
-    "spatial-coordinates"
-   ],
-   "added": "2026-06-02",
-   "sources": [
-    "https://arxiv.org/abs/2506.03373"
-   ],
-   "review_basis": "metadata",
-   "status": "preprint"
   },
   {
    "id": "spatialagent",
@@ -4266,11 +4569,21 @@
    },
    "citation": "Wang, Hanchen, Yichun He, Paula P. Coelho, Matthew Bucci, Abbas Nazir, Bob Chen, Linh T. Trinh et al. \"SpatialAgent: An autonomous AI agent for spatial biology.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "expression-prediction",
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.04.03.646459"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "Genentech/SpatialAgent"
   },
@@ -4343,11 +4656,14 @@
    "inputs": [
     "spatial-coordinates"
    ],
+   "outputs": [
+    "expression-prediction"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.11.15.688644"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "donghongyu2020/SpaTranslator"
   },
@@ -4388,31 +4704,6 @@
    "github": "siyuh/Squidiff"
   },
   {
-   "id": "stereo-cell",
-   "kind": "model",
-   "name": "Stereo-Cell",
-   "title": "Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density DNA Nanoball-Patterned Arrays",
-   "year": 2025,
-   "venue": "Science",
-   "category": "spatial",
-   "tags": [
-    "spatial"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1126/science.adr0475",
-    "code": "https://github.com/haoshijie13/Stereo-cell-paper-code"
-   },
-   "citation": "Liao, Sha, Xiaoxi Zhou, Chuanyu Liu, Chang Liu, Shijie Hao, Hongyu Luo, Huan Hou et al. \"Stereo-cell: Spatial enhanced-resolution single-cell sequencing with high-density DNA nanoball-patterned arrays.\" Science 389, no. 6762 (2025): eadr0475.",
-   "reviewed": false,
-   "added": "2026-06-02",
-   "sources": [
-    "https://doi.org/10.1126/science.adr0475"
-   ],
-   "review_basis": "metadata",
-   "status": "published",
-   "github": "haoshijie13/Stereo-cell-paper-code"
-  },
-  {
    "id": "stofm",
    "kind": "model",
    "name": "SToFM",
@@ -4436,11 +4727,16 @@
     "expression",
     "spatial-coordinates"
    ],
+   "outputs": [
+    "cell-embedding",
+    "spatial-domain",
+    "cell-type-label"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2507.11588"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "PharMolix/SToFM"
   },
@@ -4472,9 +4768,14 @@
     "histology-image",
     "spatial-coordinates"
    ],
+   "outputs": [
+    "expression-prediction"
+   ],
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41746-025-02020-3"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "Graph-and-Geometric-Learning/STPath"
   },
@@ -4504,11 +4805,15 @@
    "inputs": [
     "spatial-coordinates"
    ],
+   "outputs": [
+    "expression-prediction",
+    "spatial-domain"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s43588-025-00891-w"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "zzli123/SWITCH"
   },
@@ -4535,12 +4840,17 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-type-label",
+    "expression-prediction",
+    "perturbation-response"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.52202/085713-3467",
     "https://doi.org/10.1101/2025.01.06.631427"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -4647,14 +4957,20 @@
    "reviewed": false,
    "inputs": [
     "expression",
-    "spatial-coordinates"
+    "spatial-coordinates",
+    "text"
+   ],
+   "outputs": [
+    "generated-cells",
+    "perturbation-response",
+    "text"
    ],
    "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.11.24.690325v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "Steven51516/tissuenarrator"
   },
@@ -4864,11 +5180,16 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-type-label",
+    "perturbation-response"
+   ],
+   "architecture_family": "transformer-encoder",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2024.11.28.625303"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "genbio-ai/AIDO"
   },
@@ -4897,11 +5218,14 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "perturbation-response"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2024.11.01.621087"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "BoevaLab/CancerFoundation"
   },
@@ -4968,12 +5292,20 @@
    },
    "citation": "Kim, Jaesik, Matei Ionita, Matthew Lee, Michelle L. McKeague, Ajinkya Pattekar, Mark M. Painter, Joost Wagenaar et al. \"Cytometry masked autoencoder: An accurate and interpretable automated immunophenotyper.\" Cell Reports Medicine 5, no. 11 (2024): 101808.",
    "reviewed": false,
+   "inputs": [
+    "protein-abundance"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "expression-prediction",
+    "disease-state"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1016/j.xcrm.2024.101808",
     "https://doi.org/10.1101/2024.02.13.580114"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -5176,11 +5508,18 @@
    },
    "citation": "Queen, Owen, Yepeng Huang, Robert Calef, Valentina Giunchiglia, Tianlong Chen, George Dasoulas, LeAnn Tai et al. \"ProCyon: A multimodal foundation model for protein phenotypes.\" bioRxiv (2024).",
    "reviewed": false,
+   "inputs": [
+    "protein-sequence",
+    "text"
+   ],
+   "outputs": [
+    "text"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2024.12.10.627665"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "mims-harvard/ProCyon"
   },
@@ -5284,11 +5623,16 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-type-label",
+    "gene-prioritization",
+    "perturbation-response"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.52202/079017-0204"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "DeepGraphLearning/scCello"
   },
@@ -5513,11 +5857,15 @@
     "expression",
     "protein-abundance"
    ],
+   "outputs": [
+    "cell-type-label",
+    "expression-prediction"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1002/advs.202307835"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -5575,12 +5923,17 @@
    "inputs": [
     "protein-abundance"
    ],
+   "outputs": [
+    "cell-embedding",
+    "expression-prediction",
+    "cell-type-label"
+   ],
    "architecture_family": "graph-neural-network",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-024-02214-9"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "TencentAILabHealthcare/scPROTEIN"
   },
@@ -5607,7 +5960,12 @@
    "citation": "Li, Cong, Qingqing Long, Yuanchun Zhou, and Meng Xiao. \"SCREADER: Prompting Large Language Models to Interpret scRNA-seq Data.\" In 2024 IEEE International Conference on Data Mining Workshops (ICDMW) (2024): 665-672.",
    "reviewed": false,
    "inputs": [
-    "expression"
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "cell-embedding"
    ],
    "architecture_family": "llm",
    "added": "2026-06-02",
@@ -5615,7 +5973,7 @@
     "https://doi.org/10.1109/icdmw65004.2024.00092",
     "https://arxiv.org/abs/2412.18156"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -5635,11 +5993,17 @@
    },
    "citation": "Fischer, Felix, David S. Fischer, Roman Mukhin, Andrey Isaev, Evan Biederstedt, Alexandra-Chloé Villani, and Fabian J. Theis. \"scTab: Scaling cross-tissue single-cell annotation models.\" Nature Communications 15, no. 1 (2024): 6611.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-type-label"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41467-024-51059-5"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "theislab/scTab"
   },
@@ -5661,11 +6025,17 @@
    },
    "citation": "Gupta, Ankit, Zoe Wefers, Konstantin Kahnert, Jan N Hansen, Mohini K Misra, William D. Leineweber, Anthony Cesnik et al. \"SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology.\" bioRxiv (2024).",
    "reviewed": false,
+   "inputs": [
+    "cell-image"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2024.12.06.627299"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "CellProfiling/subcell-embed"
   },
@@ -5723,11 +6093,18 @@
    },
    "citation": "Zhao, Suyuan, Jiahuan Zhang, and Zaiqing Nie. \"Large-scale cell representation learning via divide-and-conquer contrastive learning.\" arXiv preprint arXiv:2306.04371 (2023).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "perturbation-response"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2306.04371"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -5902,12 +6279,19 @@
    },
    "citation": "Liu, Tianyu, Yuge Wang, Rex Ying, and Hongyu Zhao. \"Muse-gnn: Learning unified gene representation from multimodal biological graph data.\" Advances in neural information processing systems 36 (2023): 24661-24677.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "gene-embedding"
+   ],
    "architecture_family": "graph-neural-network",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.52202/075280-1071"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "HelloWorldLTY/MuSe-GNN"
   },
@@ -5958,12 +6342,16 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-type-label",
+    "expression-prediction"
+   ],
    "architecture_family": "state-space",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2310.02713"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -5985,11 +6373,18 @@
    },
    "citation": "De Donno, Carlo, Soroor Hediyeh-Zadeh, Amir Ali Moinfar, Marco Wagenstetter, Luke Zappia, Mohammad Lotfollahi, and Fabian J. Theis. \"Population-level integration of single-cell datasets enables multi-scale analysis across samples.\" Nature Methods 20, no. 11 (2023): 1683-1692.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-023-02035-2"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "theislab/scArches"
   },
@@ -6017,11 +6412,14 @@
    "inputs": [
     "dna-sequence"
    ],
+   "outputs": [
+    "expression-prediction"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2023.07.26.550634"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "GSK-AI/seq2cells"
   },
@@ -6122,11 +6520,15 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-embedding",
+    "gene-embedding"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2210.14330"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "keiserlab/exceiver"
   },
@@ -6186,11 +6588,17 @@
    },
    "citation": "Zhang, Ruiyi, Yunan Luo, Jianzhu Ma, Ming Zhang, and Sheng Wang. \"scPretrain: multi-task self-supervised learning for cell-type classification.\" Bioinformatics 38, no. 6 (2022): 1607-1614.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-type-label"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1093/bioinformatics/btac007"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "ruiyi-zhang/scPretrain"
   }
@@ -6335,6 +6743,32 @@
    ],
    "review_basis": "metadata",
    "status": "preprint"
+  },
+  {
+   "id": "cell-shapes",
+   "kind": "resource",
+   "title": "Cell shapes decode molecular phenotypes in image-based spatial proteomics",
+   "year": 2026,
+   "venue": "Cell Systems",
+   "type": "dataset",
+   "tags": [
+    "imaging",
+    "spatial",
+    "proteomics"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cels.2026.101589",
+    "preprint": "https://doi.org/10.1101/2025.05.13.653868"
+   },
+   "citation": "Le, Trang, William D. Leineweber, Matheus P. Viana, Anthony Cesnik, Jan N. Hansen, Wei Ouyang, Susanne M. Rafelski et al. \"Cell shapes decode molecular phenotypes in image-based spatial proteomics.\" Cell Systems 17, no. 6 (2026): 101589.",
+   "reviewed": false,
+   "added": "2026-06-02",
+   "sources": [
+    "https://doi.org/10.1016/j.cels.2026.101589",
+    "https://doi.org/10.1101/2025.05.13.653868"
+   ],
+   "review_basis": "metadata",
+   "status": "published"
   },
   {
    "id": "evaluating-the-role-of-pre-training",
@@ -6712,6 +7146,30 @@
    ],
    "review_basis": "metadata",
    "status": "preprint"
+  },
+  {
+   "id": "periscope",
+   "kind": "resource",
+   "aliases": [
+    "PERISCOPE"
+   ],
+   "title": "A genome-wide atlas of human cell morphology",
+   "year": 2025,
+   "venue": "Nature Methods",
+   "type": "dataset",
+   "tags": [
+    "imaging"
+   ],
+   "links": {
+    "paper": "https://www.nature.com/articles/s41592-024-02537-7",
+    "code": "https://github.com/broadinstitute/2022_PERISCOPE"
+   },
+   "reviewed": false,
+   "added": "2026-06-02",
+   "sources": [],
+   "review_basis": "metadata",
+   "status": "published",
+   "github": "broadinstitute/2022_PERISCOPE"
   },
   {
    "id": "a-survey-on-foundation-language-models",
@@ -7333,6 +7791,30 @@
    "status": "published"
   },
   {
+   "id": "morph-map",
+   "kind": "resource",
+   "aliases": [
+    "Morph Map"
+   ],
+   "title": "Morphological map of under- and overexpression of genes in human cells",
+   "year": 2025,
+   "venue": "Nature Methods",
+   "type": "dataset",
+   "tags": [
+    "imaging"
+   ],
+   "links": {
+    "paper": "https://www.nature.com/articles/s41592-025-02753-9",
+    "code": "https://github.com/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap"
+   },
+   "reviewed": false,
+   "added": "2026-06-02",
+   "sources": [],
+   "review_basis": "metadata",
+   "status": "published",
+   "github": "jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap"
+  },
+  {
    "id": "multimodal-cell-maps-as-a-foundation",
    "kind": "resource",
    "title": "Multimodal cell maps as a foundation for structural and functional genomics",
@@ -7695,6 +8177,30 @@
    ],
    "review_basis": "metadata",
    "status": "published"
+  },
+  {
+   "id": "stereo-cell",
+   "kind": "resource",
+   "title": "Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density DNA Nanoball-Patterned Arrays",
+   "year": 2025,
+   "venue": "Science",
+   "type": "tool",
+   "tags": [
+    "spatial"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1126/science.adr0475",
+    "code": "https://github.com/haoshijie13/Stereo-cell-paper-code"
+   },
+   "citation": "Liao, Sha, Xiaoxi Zhou, Chuanyu Liu, Chang Liu, Shijie Hao, Hongyu Luo, Huan Hou et al. \"Stereo-cell: Spatial enhanced-resolution single-cell sequencing with high-density DNA nanoball-patterned arrays.\" Science 389, no. 6762 (2025): eadr0475.",
+   "reviewed": false,
+   "added": "2026-06-02",
+   "sources": [
+    "https://doi.org/10.1126/science.adr0475"
+   ],
+   "review_basis": "metadata",
+   "status": "published",
+   "github": "haoshijie13/Stereo-cell-paper-code"
   },
   {
    "id": "systema-a-framework-for-evaluating-genetic",

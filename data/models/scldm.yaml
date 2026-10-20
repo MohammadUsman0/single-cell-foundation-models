@@ -13,6 +13,9 @@ architecture: Diffusion Model
 task: Scalable gene expression generation
 inputs:
 - expression
+outputs:
+- generated-cells
+- cell-type-label
 architecture_family: diffusion
 key: Latent diffusion model for generating single-cell expression, with a permutation-invariant VAE and
   multi-condition guidance.
@@ -25,5 +28,5 @@ citation: Palla, Giovanni, Sudarshan Babu, Payam Dibaeinia, James D. Pearce, Don
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2511.02986
-review_basis: metadata
+review_basis: abstract
 reviewed: false

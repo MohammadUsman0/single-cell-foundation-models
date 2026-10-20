@@ -7,6 +7,9 @@ venue: Nature Methods
 category: agents
 tags:
 - agent
+outputs:
+- text
+architecture_family: agent
 links:
   paper: https://doi.org/10.1038/s41592-025-02748-6
   code: https://github.com/ncbi-nlp/GeneAgent
@@ -16,5 +19,5 @@ citation: 'Wang, Zhizheng, Qiao Jin, Chih-Hsuan Wei, Shubo Tian, Po-Ting Lai, Qi
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41592-025-02748-6
-review_basis: metadata
+review_basis: abstract
 reviewed: false

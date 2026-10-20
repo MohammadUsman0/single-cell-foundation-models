@@ -8,6 +8,13 @@ category: agents
 tags:
 - agent
 - text
+inputs:
+- expression
+- text
+outputs:
+- cell-type-label
+- text
+architecture_family: llm
 links:
   paper: https://doi.org/10.1093/bioinformatics/btag208
   preprint: https://arxiv.org/abs/2506.02911
@@ -19,5 +26,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1093/bioinformatics/btag208
 - https://arxiv.org/abs/2506.02911
-review_basis: metadata
+review_basis: abstract
 reviewed: false

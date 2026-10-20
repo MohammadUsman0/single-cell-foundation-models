@@ -1,10 +1,9 @@
 id: cell-shapes
-kind: model
-name: Cell Shapes
+kind: resource
+type: dataset
 title: Cell shapes decode molecular phenotypes in image-based spatial proteomics
 year: 2026
 venue: Cell Systems
-category: morphology
 tags:
 - imaging
 - spatial

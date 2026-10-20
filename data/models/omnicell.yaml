@@ -14,6 +14,9 @@ architecture: Unified FM
 inputs:
 - expression
 - spatial-coordinates
+outputs:
+- gene-embedding
+- spatial-domain
 key: Unified FM over single-cell and spatial transcriptomics.
 links:
   paper: https://www.biorxiv.org/content/10.64898/2025.12.29.696804v1
@@ -23,5 +26,5 @@ citation: 'Pang, Jiangshuan, Ping Qiu, Youzhe He, Yiting Deng, Wangyang Tang, Zh
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.64898/2025.12.29.696804v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

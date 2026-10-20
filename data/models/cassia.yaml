@@ -14,12 +14,16 @@ modality: scRNA-seq
 architecture: Multi-agent LLM
 inputs:
 - expression
+outputs:
+- cell-type-label
+- text
 architecture_family: agent
 key: Multi-agent LLM for automated, interpretable cell-type annotation.
 links:
   paper: https://www.nature.com/articles/s41467-025-67084-x
   code: https://github.com/ElliotXie/CASSIA
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41467-025-67084-x
+review_basis: abstract
 reviewed: false

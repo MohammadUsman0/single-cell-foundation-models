@@ -13,6 +13,14 @@ modality: Multi-omics + text
 architecture: LLM
 inputs:
 - text
+- expression
+- prior-network
+outputs:
+- cell-embedding
+- gene-embedding
+- cell-type-label
+- perturbation-response
+- text
 architecture_family: llm
 key: Harmonizes multimodal omics data via language for omics understanding.
 links:
@@ -24,5 +32,5 @@ citation: 'Gao, Yicheng, Weixu Wang, Yuheng Zhao, Kejing Dong, Caihua Shan, Weiz
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2025.11.07.687322v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

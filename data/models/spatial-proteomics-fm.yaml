@@ -1,6 +1,8 @@
 id: spatial-proteomics-fm
 kind: model
-name: Spatial Proteomics FM
+name: KRONOS
+aliases:
+- Spatial Proteomics FM
 title: A Foundation Model for Spatial Proteomics
 year: 2025
 venue: arXiv
@@ -13,13 +15,19 @@ architecture: Foundation model
 inputs:
 - protein-abundance
 - spatial-coordinates
+- cell-image
+outputs:
+- cell-embedding
+- cell-type-label
+- spatial-domain
 key: A foundation model for spatial proteomics.
 links:
   paper: https://arxiv.org/abs/2506.03373
+  code: https://github.com/mahmoodlab/KRONOS
 citation: Shaban, Muhammad, Yuzhou Chang, Huaying Qiu, Yao Yu Yeo, Andrew H. Song, Guillaume Jaume, Yuchen
   Wang et al. "A Foundation Model for Spatial Proteomics." arXiv preprint arXiv:2506.03373 (2025).
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2506.03373
-review_basis: metadata
+review_basis: abstract
 reviewed: false

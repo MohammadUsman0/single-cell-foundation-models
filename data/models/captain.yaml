@@ -14,6 +14,10 @@ architecture: Multimodal
 inputs:
 - expression
 - protein-abundance
+outputs:
+- expression-prediction
+- cell-type-label
+- cell-embedding
 key: Learns joint RNA–protein representations; used for protein imputation, cell-type annotation and batch
   harmonization.
 links:
@@ -27,5 +31,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41467-026-72882-y
 - https://doi.org/10.1101/2025.07.07.663366
-review_basis: metadata
+review_basis: abstract
 reviewed: false

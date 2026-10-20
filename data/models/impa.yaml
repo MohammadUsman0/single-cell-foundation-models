@@ -9,10 +9,18 @@ tags:
 - imaging
 - perturbation
 - generative
+inputs:
+- cell-image
+- perturbation
+outputs:
+- image
+- perturbation-response
+architecture_family: other
 links:
   paper: https://www.nature.com/articles/s41467-024-55707-8
   code: https://github.com/theislab/IMPA
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41467-024-55707-8
+review_basis: abstract
 reviewed: false

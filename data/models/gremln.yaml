@@ -11,6 +11,12 @@ tags:
 - scrna-seq
 modality: Single-cell
 architecture: FM
+inputs:
+- expression
+- prior-network
+outputs:
+- gene-embedding
+- cell-type-label
 key: Transcriptomics foundation model that builds gene-regulatory graph structure into attention to give
   cell-specific gene embeddings.
 links:
@@ -23,7 +29,7 @@ citation: 'Zhang, Mingxuan, Vinay S. Swamy, Rowan Cassius, Léo Dupire, Charilao
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.07.03.663009
-review_basis: metadata
+review_basis: abstract
 reviewed: false
 review_notes:
 - venue was 'Cell' with no supporting source; set to the verified bioRxiv preprint. The citation mentions

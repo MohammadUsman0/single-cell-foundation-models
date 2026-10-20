@@ -1,11 +1,10 @@
 id: stereo-cell
-kind: model
-name: Stereo-Cell
+kind: resource
+type: tool
 title: 'Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density DNA Nanoball-Patterned
   Arrays'
 year: 2025
 venue: Science
-category: spatial
 tags:
 - spatial
 links:

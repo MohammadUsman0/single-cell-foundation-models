@@ -12,6 +12,9 @@ modality: Full-Length Single-Cell RNA-Seq
 architecture: Hyena-based
 inputs:
 - expression
+outputs:
+- cell-type-label
+- expression-prediction
 architecture_family: state-space
 key: Analysis in Brain
 links:
@@ -21,5 +24,5 @@ citation: 'Oh, Gyutaek, Baekgyu Choi, Inkyung Jung, and Jong Chul Ye. "schyena: 
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2310.02713
-review_basis: metadata
+review_basis: abstract
 reviewed: false

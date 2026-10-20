@@ -11,6 +11,11 @@ modality: Single Cell ATAC-seq and RNA-seq
 inputs:
 - chromatin-accessibility
 - expression
+outputs:
+- cell-embedding
+- expression-prediction
+- cell-type-label
+architecture_family: state-space
 links:
   paper: https://doi.org/10.1101/2025.04.07.647689
 citation: 'Liu, Guole, Yongbing Zhao, Yingying Zhao, Tianyu Wang, Quanyou Cai, Xiaotao Wang, Ziyi Wen,
@@ -19,5 +24,5 @@ citation: 'Liu, Guole, Yongbing Zhao, Yingying Zhao, Tianyu Wang, Quanyou Cai, X
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.04.07.647689
-review_basis: metadata
+review_basis: abstract
 reviewed: false

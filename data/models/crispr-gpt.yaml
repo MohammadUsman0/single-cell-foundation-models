@@ -8,6 +8,11 @@ category: agents
 tags:
 - agent
 - perturbation
+inputs:
+- text
+outputs:
+- text
+architecture_family: agent
 links:
   paper: https://doi.org/10.1038/s41551-025-01463-z
   code: https://github.com/cong-lab/crispr-gpt-pub
@@ -17,5 +22,5 @@ citation: 'Qu, Yuanhao, Kaixuan Huang, Ming Yin, Kanghong Zhan, Dyllan Liu, Di Y
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41551-025-01463-z
-review_basis: metadata
+review_basis: abstract
 reviewed: false

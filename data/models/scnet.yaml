@@ -13,6 +13,7 @@ modality: Single-cell Gene Expression + Protein-Protein Interactions
 inputs:
 - expression
 - prior-network
+architecture_family: graph-neural-network
 key: Learning context-specific gene/cell embeddings
 links:
   paper: https://doi.org/10.1038/s41592-025-02627-0
@@ -23,5 +24,5 @@ citation: 'Sheinin, Ron, Roded Sharan, and Asaf Madi. "scNET: learning context-s
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41592-025-02627-0
-review_basis: metadata
+review_basis: abstract
 reviewed: false

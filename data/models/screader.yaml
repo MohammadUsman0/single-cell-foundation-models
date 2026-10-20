@@ -13,6 +13,10 @@ modality: scRNA-seq
 architecture: LLM prompting
 inputs:
 - expression
+- text
+outputs:
+- cell-type-label
+- cell-embedding
 architecture_family: llm
 key: Prompts LLMs to interpret scRNA-seq data.
 links:
@@ -25,5 +29,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1109/icdmw65004.2024.00092
 - https://arxiv.org/abs/2412.18156
-review_basis: metadata
+review_basis: abstract
 reviewed: false

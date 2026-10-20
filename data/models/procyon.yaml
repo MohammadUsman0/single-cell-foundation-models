@@ -8,6 +8,11 @@ category: proteomics
 tags:
 - proteomics
 - text
+inputs:
+- protein-sequence
+- text
+outputs:
+- text
 links:
   paper: https://doi.org/10.1101/2024.12.10.627665
   code: https://github.com/mims-harvard/ProCyon
@@ -16,5 +21,5 @@ citation: 'Queen, Owen, Yepeng Huang, Robert Calef, Valentina Giunchiglia, Tianl
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2024.12.10.627665
-review_basis: metadata
+review_basis: abstract
 reviewed: false

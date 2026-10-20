@@ -18,6 +18,7 @@ links:
   paper: https://www.nature.com/articles/s42256-025-01170-z
   code: https://github.com/coffee19850519/scPEFT
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s42256-025-01170-z
+review_basis: abstract
 reviewed: false

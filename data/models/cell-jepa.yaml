@@ -10,6 +10,11 @@ tags:
 modality: Single-cell
 architecture: FM
 task: cell-type clustering, Perturbation prediction
+inputs:
+- expression
+outputs:
+- cell-embedding
+- perturbation-response
 key: Joint-embedding predictive model that predicts cell embeddings in latent space instead of reconstructing
   sparse counts, for representations robust to dropout.
 links:
@@ -21,5 +26,5 @@ citation: 'ElSheikh, Ali, Rui-Xi Wang, Weimin Wu, Yibo Wen, Payam Dibaeinia, Jen
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2602.02093
-review_basis: metadata
+review_basis: abstract
 reviewed: false

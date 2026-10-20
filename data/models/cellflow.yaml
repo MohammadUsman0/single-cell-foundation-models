@@ -4,15 +4,29 @@ name: CellFlow
 title: CellFlow Enables Generative Single-Cell Phenotype Modeling with Flow Matching
 year: 2025
 venue: bioRxiv
-category: morphology
+category: perturbation
 tags:
 - imaging
 - generative
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- generated-cells
+architecture_family: flow-matching
+perturbation_type:
+- genetic
+- chemical
+- cytokine
+- combination
+generalization:
+- unseen-perturbation
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf
   code: https://github.com/theislab/CellFlow
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf
-review_basis: metadata
+review_basis: abstract
 reviewed: false

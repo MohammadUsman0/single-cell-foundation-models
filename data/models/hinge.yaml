@@ -18,6 +18,8 @@ inputs:
 - expression
 - histology-image
 - spatial-coordinates
+outputs:
+- expression-prediction
 architecture_family: diffusion
 key: Adapts a pre-trained expression-only single-cell foundation model to generate spatial gene expression
   from H&E histology via layered visual context injection and curriculum learning, preserving learned
@@ -31,5 +33,5 @@ citation: Fang, Donghai, Yongheng Li, Zhen Wang, Yuansong Zeng, and Wenwen Min. 
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2603.19766
-review_basis: metadata
+review_basis: abstract
 reviewed: false

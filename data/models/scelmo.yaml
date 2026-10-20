@@ -11,6 +11,13 @@ tags:
 modality: Single-cell Data
 architecture: Language Models
 task: Single-cell data analysis (embeddings)
+inputs:
+- expression
+- text
+outputs:
+- cell-embedding
+- cell-type-label
+architecture_family: llm
 key: Uses LLM-written descriptions of genes and cell metadata, and their embeddings, as features for zero-shot
   and fine-tuned single-cell analysis.
 links:
@@ -21,5 +28,5 @@ citation: 'Liu, Tianyu, Tianqi Chen, Wangjie Zheng, Xiao Luo, Yiqun Chen, and Ho
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1016/j.patter.2025.101431
-review_basis: metadata
+review_basis: abstract
 reviewed: false

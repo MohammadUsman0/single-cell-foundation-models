@@ -12,6 +12,10 @@ modality: Single-cell Proteomics
 architecture: Deep Graph Contrastive Learning
 inputs:
 - protein-abundance
+outputs:
+- cell-embedding
+- expression-prediction
+- cell-type-label
 architecture_family: graph-neural-network
 key: Single-cell proteomics embedding
 links:
@@ -23,5 +27,5 @@ citation: 'Li, Wei, Fan Yang, Fang Wang, Yu Rong, Linjing Liu, Bingzhe Wu, Han Z
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41592-024-02214-9
-review_basis: metadata
+review_basis: abstract
 reviewed: false
