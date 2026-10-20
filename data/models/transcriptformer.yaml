@@ -1,10 +1,9 @@
 id: transcriptformer
 kind: model
 name: TranscriptFormer
-title: 'A Cross-Species Generative Cell Atlas Across 1.5 Billion Years of Evolution: The TranscriptFormer
-  Single-cell Model'
-year: 2025
-venue: bioRxiv
+title: 'TranscriptFormer: A generative cell atlas across 1.5 billion years of evolution'
+year: 2026
+venue: Science
 category: atlas
 tags:
 - cross-species
@@ -15,7 +14,8 @@ architecture: Transformer
 key: Cross-species generative cell atlas (1.5 Billion Years of Evolution) predict cell type-specific transcription
   factors and gene-gene interactions that align with independent experimental observations
 links:
-  paper: https://doi.org/10.1101/2025.04.25.650731
+  paper: https://doi.org/10.1126/science.aec8514
+  preprint: https://doi.org/10.1101/2025.04.25.650731
 citation: 'Pearce, James D., Sara E. Simmonds, Gita Mahmoudabadi, Lakshmi Krishnan, Giovanni Palla, Ana-Maria
   Istrate, Alexander Tarashansky et al. "A Cross-Species Generative Cell Atlas Across 1.5 Billion Years
   of Evolution: The TranscriptFormer Single-cell Model." bioRxiv (2025): 2025-04.'

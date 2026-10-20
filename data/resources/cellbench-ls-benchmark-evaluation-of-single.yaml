@@ -1,7 +1,9 @@
 id: cellbench-ls-benchmark-evaluation-of-single
 kind: resource
 type: benchmark
-title: 'CellBench-LS: Benchmark Evaluation of Single-cell Foundation Models for Low-supervision Scenarios'
+title: Task-dependent Performance of Single-cell Foundation Models under Low Supervision
+aliases:
+- CellBench-LS
 year: 2026
 venue: bioRxiv
 key: Benchmark evaluating single-cell foundation models under low-supervision (limited-label) scenarios.

@@ -2,6 +2,7 @@ id: x-pert
 kind: model
 name: X-Pert
 title: Unified Multimodal Learning Enables Generalized Cellular Response Prediction to Diverse Perturbations
+year: 2025
 venue: bioRxiv
 category: perturbation
 tags:

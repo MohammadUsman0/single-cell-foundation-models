@@ -1,7 +1,7 @@
 id: bmfm-rna-an-open-framework-for
 kind: resource
 type: benchmark
-title: 'BMFM-RNA: An Open Framework for Building and Evaluating Transcriptomic Foundation Models'
+title: 'BMFM-RNA: whole-cell expression decoding improves transcriptomic foundation models'
 year: 2025
 venue: arXiv
 tags:

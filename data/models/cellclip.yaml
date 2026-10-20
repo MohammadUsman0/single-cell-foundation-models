@@ -10,6 +10,6 @@ tags:
 - text
 - perturbation
 links:
-  paper: https://papers.nips.cc/paper_files/paper/2025/hash/b4689a8e6ac04c0919f7162365f1248d-Abstract-Conference.html
+  paper: https://doi.org/10.52202/085713-4150
   code: https://github.com/suinleelab/CellCLIP
 reviewed: false

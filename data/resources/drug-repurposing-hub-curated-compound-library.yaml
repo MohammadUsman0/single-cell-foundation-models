@@ -1,8 +1,9 @@
 id: drug-repurposing-hub-curated-compound-library
 kind: resource
 type: dataset
-title: 'Drug Repurposing Hub: Curated compound library with targets, mechanisms, and clinical annotations'
+title: 'The Drug Repurposing Hub: a next-generation drug library and information resource'
 year: 2017
+venue: Nature Medicine
 tags:
 - drug-response
 links:

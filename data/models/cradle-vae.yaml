@@ -10,6 +10,6 @@ tags:
 - perturbation
 - generative
 links:
-  paper: https://ojs.aaai.org/index.php/AAAI/article/view/33695
+  paper: https://doi.org/10.1609/aaai.v39i15.33695
   code: https://github.com/dmis-lab/CRADLE-VAE
 reviewed: false

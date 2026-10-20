@@ -3,7 +3,8 @@ kind: resource
 type: dataset
 title: 'CZ CELLxGENE Discover: A single-cell data platform for scalable exploration, analysis, and modeling
   of aggregated data'
-year: 2025
+year: 2024
+venue: Nucleic Acids Research
 links:
-  paper: https://academic.oup.com/nar/article/53/D1/D886/7912032
+  paper: https://doi.org/10.1093/nar/gkae1142
 reviewed: false

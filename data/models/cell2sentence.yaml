@@ -13,5 +13,6 @@ modality: scRNA-seq
 architecture: LLM (cell sentences)
 key: Represents cells as text sentences to teach LLMs the language of biology.
 links:
-  paper: https://www.biorxiv.org/content/10.1101/2023.09.11.557287v1
+  paper: https://proceedings.mlr.press/v235/levine24a.html
+  preprint: https://www.biorxiv.org/content/10.1101/2023.09.11.557287v1
 reviewed: false

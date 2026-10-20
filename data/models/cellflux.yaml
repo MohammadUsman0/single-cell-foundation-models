@@ -10,6 +10,6 @@ tags:
 - imaging
 - generative
 links:
-  paper: https://openreview.net/forum?id=3NLNmdheIi
+  paper: https://proceedings.mlr.press/v267/zhang25bt.html
   code: https://github.com/yuhui-zh15/CellFlux
 reviewed: false

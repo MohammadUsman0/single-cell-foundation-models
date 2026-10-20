@@ -1,7 +1,7 @@
 id: celltok
 kind: model
 name: CellTok
-title: 'CellTok: Early-Fusion Multimodal Large Language Model for Single-Cell Transcriptomics via Tokenization'
+title: Tokenizing single-cell transcriptomes as a native language for large language models
 year: 2025
 venue: bioRxiv
 category: llm

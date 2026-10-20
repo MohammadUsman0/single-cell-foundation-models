@@ -4,6 +4,7 @@ type: dataset
 title: 'CM4AI: Cell Maps for Artificial Intelligence: AI-Ready Maps of Human Cell Architecture from Disease-Relevant
   Cell Lines'
 year: 2024
+venue: bioRxiv
 links:
   paper: https://doi.org/10.1101/2024.05.21.589311
 reviewed: false

@@ -1,7 +1,7 @@
 id: scmamba-bidirectional-mamba
 kind: model
-name: scMamba (Bidirectional Mamba)
-title: 'Bidirectional Mamba for Single-Cell Data: Efficient Context Learning with Biological Fidelity'
+name: GeneMamba
+title: 'GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data'
 year: 2025
 venue: arXiv
 category: llm

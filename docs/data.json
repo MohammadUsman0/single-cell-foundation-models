@@ -500,7 +500,7 @@
     "perturbation"
    ],
    "links": {
-    "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/39190"
+    "paper": "https://doi.org/10.1609/aaai.v40i25.39190"
    },
    "reviewed": false,
    "status": "published"
@@ -549,6 +549,23 @@
    "reviewed": false,
    "status": "published",
    "github": "ChangxiChi/Doloris"
+  },
+  {
+   "id": "harmonycell",
+   "kind": "model",
+   "name": "HarmonyCell",
+   "title": "HarmonyCell: Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation"
+   ],
+   "links": {
+    "paper": "https://arxiv.org/pdf/2603.01396"
+   },
+   "reviewed": false,
+   "status": "preprint"
   },
   {
    "id": "hinge",
@@ -1011,6 +1028,30 @@
    "github": "QiangweiPeng/stVCR"
   },
   {
+   "id": "transcriptformer",
+   "kind": "model",
+   "name": "TranscriptFormer",
+   "title": "TranscriptFormer: A generative cell atlas across 1.5 billion years of evolution",
+   "year": 2026,
+   "venue": "Science",
+   "category": "atlas",
+   "tags": [
+    "cross-species",
+    "generative",
+    "scrna-seq"
+   ],
+   "modality": "Single-Cell (Transcriptome)",
+   "architecture": "Transformer",
+   "key": "Cross-species generative cell atlas (1.5 Billion Years of Evolution) predict cell type-specific transcription factors and gene-gene interactions that align with independent experimental observations",
+   "links": {
+    "paper": "https://doi.org/10.1126/science.aec8514",
+    "preprint": "https://doi.org/10.1101/2025.04.25.650731"
+   },
+   "citation": "Pearce, James D., Sara E. Simmonds, Gita Mahmoudabadi, Lakshmi Krishnan, Giovanni Palla, Ana-Maria Istrate, Alexander Tarashansky et al. \"A Cross-Species Generative Cell Atlas Across 1.5 Billion Years of Evolution: The TranscriptFormer Single-cell Model.\" bioRxiv (2025): 2025-04.",
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "twincell",
    "kind": "model",
    "name": "TwinCell",
@@ -1341,7 +1382,7 @@
     "perturbation"
    ],
    "links": {
-    "paper": "https://papers.nips.cc/paper_files/paper/2025/hash/b4689a8e6ac04c0919f7162365f1248d-Abstract-Conference.html",
+    "paper": "https://doi.org/10.52202/085713-4150",
     "code": "https://github.com/suinleelab/CellCLIP"
    },
    "reviewed": false,
@@ -1382,7 +1423,7 @@
     "generative"
    ],
    "links": {
-    "paper": "https://openreview.net/forum?id=3NLNmdheIi",
+    "paper": "https://proceedings.mlr.press/v267/zhang25bt.html",
     "code": "https://github.com/yuhui-zh15/CellFlux"
    },
    "reviewed": false,
@@ -1414,7 +1455,7 @@
    "id": "cellforge",
    "kind": "model",
    "name": "CellForge",
-   "title": "CellForge: agentic design of virtual cell models",
+   "title": "AI Scientists for Building Virtual-Cell Models",
    "year": 2025,
    "venue": "arXiv",
    "category": "perturbation",
@@ -1500,7 +1541,7 @@
    "id": "celltok",
    "kind": "model",
    "name": "CellTok",
-   "title": "CellTok: Early-Fusion Multimodal Large Language Model for Single-Cell Transcriptomics via Tokenization",
+   "title": "Tokenizing single-cell transcriptomes as a native language for large language models",
    "year": 2025,
    "venue": "bioRxiv",
    "category": "llm",
@@ -1616,7 +1657,7 @@
     "generative"
    ],
    "links": {
-    "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/33695",
+    "paper": "https://doi.org/10.1609/aaai.v39i15.33695",
     "code": "https://github.com/dmis-lab/CRADLE-VAE"
    },
    "reviewed": false,
@@ -1761,6 +1802,27 @@
    "key": "A predictive (JEPA) world model of the transcriptome.",
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2025.10.14.682378v1"
+   },
+   "reviewed": false,
+   "status": "preprint"
+  },
+  {
+   "id": "scmamba-bidirectional-mamba",
+   "kind": "model",
+   "name": "GeneMamba",
+   "title": "GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data",
+   "year": 2025,
+   "venue": "arXiv",
+   "category": "llm",
+   "tags": [
+    "llm",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Bidirectional Mamba",
+   "key": "Efficient long-context single-cell modeling with bidirectional Mamba.",
+   "links": {
+    "paper": "https://arxiv.org/abs/2504.16956"
    },
    "reviewed": false,
    "status": "preprint"
@@ -2183,25 +2245,6 @@
    "status": "published"
   },
   {
-   "id": "prophet",
-   "kind": "model",
-   "name": "Prophet",
-   "title": "Scalable and Universal Prediction of Cellular Phenotypes",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "category": "perturbation",
-   "tags": [
-    "perturbation"
-   ],
-   "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2024.08.12.607533v2.full.pdf",
-    "code": "https://github.com/theislab/prophet"
-   },
-   "reviewed": false,
-   "status": "preprint",
-   "github": "theislab/prophet"
-  },
-  {
    "id": "proteintalks",
    "kind": "model",
    "name": "ProteinTalks",
@@ -2366,7 +2409,7 @@
    "architecture": "LLM-prior representation learning",
    "key": "Leverages LLM prior knowledge for single-cell representation learning.",
    "links": {
-    "paper": "https://openreview.net/forum?id=0m4VsLwj5s"
+    "paper": "https://proceedings.mlr.press/v267/hu25aa.html"
    },
    "reviewed": false,
    "status": "published"
@@ -2430,27 +2473,6 @@
     "paper": "https://doi.org/10.1101/2025.09.30.679123"
    },
    "citation": "Fang, Zhaoyu, Ziyang Miao, Jianhui Lin, Yuying Xie, Jiliang Tang, Jiayuan Ding, and Min Li. \"scLinguist: A pre-trained hyena-based foundation model for cross-modality translation in single-cell multi-omics.\" bioRxiv (2025): 2025-09.",
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
-   "id": "scmamba-bidirectional-mamba",
-   "kind": "model",
-   "name": "scMamba (Bidirectional Mamba)",
-   "title": "Bidirectional Mamba for Single-Cell Data: Efficient Context Learning with Biological Fidelity",
-   "year": 2025,
-   "venue": "arXiv",
-   "category": "llm",
-   "tags": [
-    "llm",
-    "scrna-seq"
-   ],
-   "modality": "scRNA-seq",
-   "architecture": "Bidirectional Mamba",
-   "key": "Efficient long-context single-cell modeling with bidirectional Mamba.",
-   "links": {
-    "paper": "https://arxiv.org/abs/2504.16956"
-   },
    "reviewed": false,
    "status": "preprint"
   },
@@ -2751,26 +2773,6 @@
    "status": "published"
   },
   {
-   "id": "subcell",
-   "kind": "model",
-   "name": "SubCell",
-   "title": "SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "category": "morphology",
-   "tags": [
-    "proteomics",
-    "imaging"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1101/2024.12.06.627299",
-    "code": "https://github.com/CellProfiling/subcell-embed"
-   },
-   "reviewed": false,
-   "status": "preprint",
-   "github": "CellProfiling/subcell-embed"
-  },
-  {
    "id": "switch",
    "kind": "model",
    "name": "SWITCH",
@@ -2880,29 +2882,6 @@
    "status": "preprint"
   },
   {
-   "id": "transcriptformer",
-   "kind": "model",
-   "name": "TranscriptFormer",
-   "title": "A Cross-Species Generative Cell Atlas Across 1.5 Billion Years of Evolution: The TranscriptFormer Single-cell Model",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "category": "atlas",
-   "tags": [
-    "cross-species",
-    "generative",
-    "scrna-seq"
-   ],
-   "modality": "Single-Cell (Transcriptome)",
-   "architecture": "Transformer",
-   "key": "Cross-species generative cell atlas (1.5 Billion Years of Evolution) predict cell type-specific transcription factors and gene-gene interactions that align with independent experimental observations",
-   "links": {
-    "paper": "https://doi.org/10.1101/2025.04.25.650731"
-   },
-   "citation": "Pearce, James D., Sara E. Simmonds, Gita Mahmoudabadi, Lakshmi Krishnan, Giovanni Palla, Ana-Maria Istrate, Alexander Tarashansky et al. \"A Cross-Species Generative Cell Atlas Across 1.5 Billion Years of Evolution: The TranscriptFormer Single-cell Model.\" bioRxiv (2025): 2025-04.",
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
    "id": "unagi",
    "kind": "model",
    "name": "UNAGI",
@@ -2967,6 +2946,26 @@
    "github": "GENTEL-lab/VCWorld"
   },
   {
+   "id": "x-pert",
+   "kind": "model",
+   "name": "X-Pert",
+   "title": "Unified Multimodal Learning Enables Generalized Cellular Response Prediction to Diverse Perturbations",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "multi-omics"
+   ],
+   "links": {
+    "paper": "https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2",
+    "code": "https://github.com/Chen-Li-17/X-Pert"
+   },
+   "reviewed": false,
+   "status": "preprint",
+   "github": "Chen-Li-17/X-Pert"
+  },
+  {
    "id": "xtransfercdr",
    "kind": "model",
    "name": "XTransferCDR",
@@ -2979,7 +2978,7 @@
     "drug-response"
    ],
    "links": {
-    "paper": "https://ojs.aaai.org/index.php/AAAI/article/view/34073",
+    "paper": "https://doi.org/10.1609/aaai.v39i18.34073",
     "code": "https://github.com/hliulab/XTransferCDR"
    },
    "reviewed": false,
@@ -3046,7 +3045,8 @@
    "architecture": "LLM (cell sentences)",
    "key": "Represents cells as text sentences to teach LLMs the language of biology.",
    "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2023.09.11.557287v1"
+    "paper": "https://proceedings.mlr.press/v235/levine24a.html",
+    "preprint": "https://www.biorxiv.org/content/10.1101/2023.09.11.557287v1"
    },
    "reviewed": false,
    "status": "published"
@@ -3178,6 +3178,46 @@
    },
    "reviewed": false,
    "status": "published"
+  },
+  {
+   "id": "procyon",
+   "kind": "model",
+   "name": "ProCyon",
+   "title": "ProCyon: A multimodal foundation model for protein phenotypes",
+   "year": 2024,
+   "venue": "bioRxiv",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "proteomics",
+    "multi-omics"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1101/2024.12.10.627665",
+    "code": "https://github.com/mims-harvard/ProCyon"
+   },
+   "reviewed": false,
+   "status": "preprint",
+   "github": "mims-harvard/ProCyon"
+  },
+  {
+   "id": "prophet",
+   "kind": "model",
+   "name": "Prophet",
+   "title": "Scalable and universal prediction of cellular phenotypes enables in silico experiments",
+   "year": 2024,
+   "venue": "bioRxiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation"
+   ],
+   "links": {
+    "paper": "https://www.biorxiv.org/content/10.1101/2024.08.12.607533v2.full.pdf",
+    "code": "https://github.com/theislab/prophet"
+   },
+   "reviewed": false,
+   "status": "preprint",
+   "github": "theislab/prophet"
   },
   {
    "id": "saturn",
@@ -3463,6 +3503,26 @@
    "citation": "Cao, Shenghao, Kaiyuan Yang, Jiabei Cheng, Jiachen Li, Hong-Bin Shen, Xiaoyong Pan, and Ye Yuan. \"stFormer: a foundation model for spatial transcriptomics.\" bioRxiv (2024): 2024-09.",
    "reviewed": false,
    "status": "preprint"
+  },
+  {
+   "id": "subcell",
+   "kind": "model",
+   "name": "SubCell",
+   "title": "SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology",
+   "year": 2024,
+   "venue": "bioRxiv",
+   "category": "morphology",
+   "tags": [
+    "proteomics",
+    "imaging"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1101/2024.12.06.627299",
+    "code": "https://github.com/CellProfiling/subcell-embed"
+   },
+   "reviewed": false,
+   "status": "preprint",
+   "github": "CellProfiling/subcell-embed"
   },
   {
    "id": "transigen",
@@ -3830,61 +3890,6 @@
    "citation": "Zhang, Ruiyi, Yunan Luo, Jianzhu Ma, Ming Zhang, and Sheng Wang. \"scPretrain: multi-task self-supervised learning for cell-type classification.\" Bioinformatics 38, no. 6 (2022): 1607-1614.",
    "reviewed": false,
    "status": "published"
-  },
-  {
-   "id": "harmonycell",
-   "kind": "model",
-   "name": "HarmonyCell",
-   "title": "HarmonyCell: Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts",
-   "venue": "bioRxiv",
-   "category": "perturbation",
-   "tags": [
-    "perturbation"
-   ],
-   "links": {
-    "paper": "https://arxiv.org/pdf/2603.01396"
-   },
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
-   "id": "procyon",
-   "kind": "model",
-   "name": "ProCyon",
-   "title": "ProCyon: A multimodal foundation model for protein phenotypes",
-   "venue": "bioRxiv",
-   "category": "scrna",
-   "tags": [
-    "scrna-seq",
-    "proteomics",
-    "multi-omics"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1101/2024.12.10.627665",
-    "code": "https://github.com/mims-harvard/ProCyon"
-   },
-   "reviewed": false,
-   "status": "preprint",
-   "github": "mims-harvard/ProCyon"
-  },
-  {
-   "id": "x-pert",
-   "kind": "model",
-   "name": "X-Pert",
-   "title": "Unified Multimodal Learning Enables Generalized Cellular Response Prediction to Diverse Perturbations",
-   "venue": "bioRxiv",
-   "category": "perturbation",
-   "tags": [
-    "perturbation",
-    "multi-omics"
-   ],
-   "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2",
-    "code": "https://github.com/Chen-Li-17/X-Pert"
-   },
-   "reviewed": false,
-   "status": "preprint",
-   "github": "Chen-Li-17/X-Pert"
   }
  ],
  "resources": [
@@ -3925,7 +3930,7 @@
   {
    "id": "a-unified-framework-enables-accessible-deployment",
    "kind": "resource",
-   "title": "A unified framework enables accessible deployment and comprehensive benchmarking of single-cell foundation models",
+   "title": "Accessible and reproducible deployment reveals the practical boundaries of single-cell foundation models",
    "year": 2026,
    "venue": "bioRxiv",
    "type": "benchmark",
@@ -3987,20 +3992,6 @@
     "paper": "https://arxiv.org/abs/2604.27646"
    },
    "citation": "Mao, Xinjie, Songming Zhang, Qianhong Wen, Xiangyu Wen, Kedu Jin, Hao Wu, Shuizhou Chen, Yuqiang Li, Lei Bai, Qi Liu, Ning Ding, Siqi Sun, and Zhangyang Gao. \"Benchmarking virtual cell models for in-the-wild perturbation response.\" arXiv preprint arXiv:2604.27646 (2026).",
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
-   "id": "cellbench-ls-benchmark-evaluation-of-single",
-   "kind": "resource",
-   "title": "CellBench-LS: Benchmark Evaluation of Single-cell Foundation Models for Low-supervision Scenarios",
-   "year": 2026,
-   "venue": "bioRxiv",
-   "type": "benchmark",
-   "key": "Benchmark evaluating single-cell foundation models under low-supervision (limited-label) scenarios.",
-   "links": {
-    "paper": "https://www.biorxiv.org/content/10.64898/2026.04.01.714123v1"
-   },
    "reviewed": false,
    "status": "preprint"
   },
@@ -4123,6 +4114,24 @@
    "status": "published"
   },
   {
+   "id": "mvcbench-a-multimodal-benchmark-for-drug",
+   "kind": "resource",
+   "title": "MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "multi-omics",
+    "drug-response",
+    "virtual-cell"
+   ],
+   "links": {
+    "paper": "https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1"
+   },
+   "reviewed": false,
+   "status": "preprint"
+  },
+  {
    "id": "scclubench-comprehensive-benchmarking-of-clustering-algorithms",
    "kind": "resource",
    "title": "scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing",
@@ -4177,6 +4186,23 @@
    "reviewed": false,
    "status": "published",
    "github": "kimberle9/spatialperturbseq"
+  },
+  {
+   "id": "cellbench-ls-benchmark-evaluation-of-single",
+   "kind": "resource",
+   "aliases": [
+    "CellBench-LS"
+   ],
+   "title": "Task-dependent Performance of Single-cell Foundation Models under Low Supervision",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "key": "Benchmark evaluating single-cell foundation models under low-supervision (limited-label) scenarios.",
+   "links": {
+    "paper": "https://www.biorxiv.org/content/10.64898/2026.04.01.714123v1"
+   },
+   "reviewed": false,
+   "status": "preprint"
   },
   {
    "id": "towards-autonomous-mechanistic-reasoning-in-virtual",
@@ -4325,22 +4351,6 @@
    "status": "preprint"
   },
   {
-   "id": "benchmarking-ai-models-for-in-silico",
-   "kind": "resource",
-   "title": "Benchmarking AI Models for in Silico Gene Perturbation of Cells",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "type": "benchmark",
-   "tags": [
-    "perturbation"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1101/2024.12.20.629581"
-   },
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
    "id": "benchmarking-algorithms-for-generalizable-single-cell",
    "kind": "resource",
    "title": "Benchmarking algorithms for generalizable single-cell perturbation response prediction",
@@ -4423,6 +4433,19 @@
    "status": "published"
   },
   {
+   "id": "biollm-a-standardized-framework-for-integrating",
+   "kind": "resource",
+   "title": "BioLLM: A standardized framework for integrating and benchmarking single-cell foundation models",
+   "year": 2025,
+   "venue": "Patterns",
+   "type": "benchmark",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.patter.2025.101326"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "biology-driven-insights-into-the-power",
    "kind": "resource",
    "title": "Biology-driven insights into the power of single-cell foundation models",
@@ -4438,7 +4461,7 @@
   {
    "id": "bmfm-rna-an-open-framework-for",
    "kind": "resource",
-   "title": "BMFM-RNA: An Open Framework for Building and Evaluating Transcriptomic Foundation Models",
+   "title": "BMFM-RNA: whole-cell expression decoding improves transcriptomic foundation models",
    "year": 2025,
    "venue": "arXiv",
    "type": "benchmark",
@@ -4485,18 +4508,6 @@
    },
    "reviewed": false,
    "status": "published"
-  },
-  {
-   "id": "cz-cellxgene-discover-a-single-cell",
-   "kind": "resource",
-   "title": "CZ CELLxGENE Discover: A single-cell data platform for scalable exploration, analysis, and modeling of aggregated data",
-   "year": 2025,
-   "type": "dataset",
-   "links": {
-    "paper": "https://academic.oup.com/nar/article/53/D1/D886/7912032"
-   },
-   "reviewed": false,
-   "status": "unknown"
   },
   {
    "id": "deep-learning-based-genetic-perturbation-models",
@@ -4600,7 +4611,7 @@
    "venue": "National Science Review",
    "type": "survey",
    "links": {
-    "paper": "https://academic.oup.com/nsr/article/12/4/nwaf028/7979309"
+    "paper": "https://doi.org/10.1093/nsr/nwaf028"
    },
    "reviewed": false,
    "status": "published"
@@ -4643,7 +4654,7 @@
   {
    "id": "heimdall-a-modular-framework-for-tokenization",
    "kind": "resource",
-   "title": "HEIMDALL: A Modular Framework for Tokenization in Single-Cell Foundation Models",
+   "title": "HEIMDALL: Disentangling tokenizer design for robust transfer in single-cell foundation models",
    "year": 2025,
    "venue": "bioRxiv",
    "type": "benchmark",
@@ -4774,6 +4785,22 @@
    "status": "published"
   },
   {
+   "id": "perteval-scfm-benchmarking-single-cell-foundation",
+   "kind": "resource",
+   "title": "PertEval-scFM: Benchmarking Single-Cell Foundation Models for Perturbation Effect Prediction",
+   "year": 2025,
+   "venue": "ICML",
+   "type": "benchmark",
+   "tags": [
+    "perturbation"
+   ],
+   "links": {
+    "paper": "https://proceedings.mlr.press/v267/wenteler25a.html"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "pertpy-an-end-to-end-framework",
    "kind": "resource",
    "title": "Pertpy: an End-to-end Framework for Perturbation Analysis",
@@ -4829,8 +4856,9 @@
   {
    "id": "scbasecount-scbasecount-an-ai-agent-curated",
    "kind": "resource",
-   "title": "scBaseCount: scBaseCount: An AI Agent-Curated, Uniformly Processed, and Continually Expanding Single Cell Data Repository",
+   "title": "scBaseCount: an AI agent-curated, uniformly processed, and autonomously updated single cell data repository",
    "year": 2025,
+   "venue": "bioRxiv",
    "type": "dataset",
    "tags": [
     "agent"
@@ -4839,7 +4867,7 @@
     "paper": "https://doi.org/10.1101/2025.02.27.640494"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "preprint"
   },
   {
    "id": "scdrugmap-benchmarking-large-foundation-models-for",
@@ -5009,6 +5037,7 @@
    "kind": "resource",
    "title": "Tahoe-100M: Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling",
    "year": 2025,
+   "venue": "bioRxiv",
    "type": "dataset",
    "tags": [
     "perturbation"
@@ -5017,7 +5046,7 @@
     "paper": "https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "preprint"
   },
   {
    "id": "towards-multimodal-foundation-models-in-molecular",
@@ -5034,6 +5063,20 @@
    },
    "reviewed": false,
    "status": "published"
+  },
+  {
+   "id": "transcoder-based-circuit-analysis-for-interpretable",
+   "kind": "resource",
+   "title": "Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models",
+   "year": 2025,
+   "venue": "arXiv",
+   "type": "reference",
+   "links": {
+    "paper": "https://arxiv.org/abs/2509.14723"
+   },
+   "citation": "Hosokawa, Sosuke, Toshiharu Kawakami, Satoshi Kodera, Masamichi Ito, and Norihiko Takeda. \"Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models.\" arXiv preprint arXiv:2509.14723 (2025).",
+   "reviewed": false,
+   "status": "preprint"
   },
   {
    "id": "transformative-advances-in-single-cell-omics",
@@ -5197,6 +5240,7 @@
    "kind": "resource",
    "title": "X-Atlas/Orion: Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundat",
    "year": 2025,
+   "venue": "bioRxiv",
    "type": "dataset",
    "tags": [
     "perturbation"
@@ -5205,7 +5249,7 @@
     "paper": "https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "preprint"
   },
   {
    "id": "zero-shot-evaluation-reveals-limitations-of",
@@ -5219,6 +5263,22 @@
    },
    "reviewed": false,
    "status": "published"
+  },
+  {
+   "id": "benchmarking-ai-models-for-in-silico",
+   "kind": "resource",
+   "title": "Benchmarking AI Models for in Silico Gene Perturbation of Cells",
+   "year": 2024,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1101/2024.12.20.629581"
+   },
+   "reviewed": false,
+   "status": "preprint"
   },
   {
    "id": "benchmarking-transcriptomics-foundation-models-for-perturbation",
@@ -5238,29 +5298,17 @@
    "status": "preprint"
   },
   {
-   "id": "biollm-a-standardized-framework-for-integrating",
-   "kind": "resource",
-   "title": "BioLLM: A standardized framework for integrating and benchmarking single-cell foundation models",
-   "year": 2024,
-   "venue": "Patterns",
-   "type": "benchmark",
-   "links": {
-    "paper": "https://www.sciencedirect.com/science/article/pii/S2666389925001746"
-   },
-   "reviewed": false,
-   "status": "published"
-  },
-  {
    "id": "cm4ai-cell-maps-for-artificial-intelligence",
    "kind": "resource",
    "title": "CM4AI: Cell Maps for Artificial Intelligence: AI-Ready Maps of Human Cell Architecture from Disease-Relevant Cell Lines",
    "year": 2024,
+   "venue": "bioRxiv",
    "type": "dataset",
    "links": {
     "paper": "https://doi.org/10.1101/2024.05.21.589311"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "preprint"
   },
   {
    "id": "cpjump1-three-million-images-and-morphological",
@@ -5275,6 +5323,19 @@
    ],
    "links": {
     "paper": "https://www.nature.com/articles/s41592-024-02241-6"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
+   "id": "cz-cellxgene-discover-a-single-cell",
+   "kind": "resource",
+   "title": "CZ CELLxGENE Discover: A single-cell data platform for scalable exploration, analysis, and modeling of aggregated data",
+   "year": 2024,
+   "venue": "Nucleic Acids Research",
+   "type": "dataset",
+   "links": {
+    "paper": "https://doi.org/10.1093/nar/gkae1142"
    },
    "reviewed": false,
    "status": "published"
@@ -5360,22 +5421,6 @@
    "status": "published"
   },
   {
-   "id": "perteval-scfm-benchmarking-single-cell-foundation",
-   "kind": "resource",
-   "title": "PertEval-scFM: Benchmarking Single-Cell Foundation Models for Perturbation Effect Prediction",
-   "year": 2024,
-   "venue": "ICML",
-   "type": "benchmark",
-   "tags": [
-    "perturbation"
-   ],
-   "links": {
-    "paper": "https://openreview.net/forum?id=t04D9bkKUq"
-   },
-   "reviewed": false,
-   "status": "published"
-  },
-  {
    "id": "scperturb-scperturb-harmonized-single-cell-perturbation",
    "kind": "resource",
    "title": "scPerturb: scPerturb: Harmonized Single-Cell Perturbation Data",
@@ -5415,7 +5460,7 @@
     "perturbation"
    ],
    "links": {
-    "paper": "https://www.cell.com/cell/abstract/S0092-8674(24)00829-8"
+    "paper": "https://doi.org/10.1016/j.cell.2024.07.035"
    },
    "reviewed": false,
    "status": "published"
@@ -5482,8 +5527,9 @@
   {
    "id": "opencell-endogenous-protein-tagging-localization-and",
    "kind": "resource",
-   "title": "OpenCell: Endogenous protein tagging, localization, and interaction data for human cellular organization",
+   "title": "OpenCell: Endogenous tagging for the cartography of human cellular organization",
    "year": 2022,
+   "venue": "Science",
    "type": "dataset",
    "tags": [
     "proteomics"
@@ -5492,7 +5538,7 @@
     "paper": "https://doi.org/10.1126/science.abi6983"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "published"
   },
   {
    "id": "tabula-sapiens-a-multiple-organ-single",
@@ -5527,21 +5573,6 @@
    "status": "published"
   },
   {
-   "id": "drug-repurposing-hub-curated-compound-library",
-   "kind": "resource",
-   "title": "Drug Repurposing Hub: Curated compound library with targets, mechanisms, and clinical annotations",
-   "year": 2017,
-   "type": "dataset",
-   "tags": [
-    "drug-response"
-   ],
-   "links": {
-    "paper": "https://www.nature.com/articles/nm.4306"
-   },
-   "reviewed": false,
-   "status": "unknown"
-  },
-  {
    "id": "l1000-cmap-a-next-generation-connectivity",
    "kind": "resource",
    "title": "L1000/CMap: A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles",
@@ -5550,6 +5581,22 @@
    "type": "dataset",
    "links": {
     "paper": "https://doi.org/10.1016/j.cell.2017.10.049"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
+   "id": "drug-repurposing-hub-curated-compound-library",
+   "kind": "resource",
+   "title": "The Drug Repurposing Hub: a next-generation drug library and information resource",
+   "year": 2017,
+   "venue": "Nature Medicine",
+   "type": "dataset",
+   "tags": [
+    "drug-response"
+   ],
+   "links": {
+    "paper": "https://www.nature.com/articles/nm.4306"
    },
    "reviewed": false,
    "status": "published"
@@ -5689,23 +5736,6 @@
    "status": "unknown"
   },
   {
-   "id": "mvcbench-a-multimodal-benchmark-for-drug",
-   "kind": "resource",
-   "title": "MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes",
-   "venue": "bioRxiv",
-   "type": "benchmark",
-   "tags": [
-    "multi-omics",
-    "drug-response",
-    "virtual-cell"
-   ],
-   "links": {
-    "paper": "https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1"
-   },
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
    "id": "omnipath-signaling-ligand-receptor-and-causal",
    "kind": "resource",
    "title": "OmniPath: Signaling, ligand-receptor, and causal network priors for multi-omics analysis [[resource](https://omnipathdb.org/)] [[p",
@@ -5788,19 +5818,6 @@
    "citation": "Gao, Yicheng. \"Towards Virtual Cell Construction by AI.\"",
    "reviewed": false,
    "status": "published"
-  },
-  {
-   "id": "transcoder-based-circuit-analysis-for-interpretable",
-   "kind": "resource",
-   "title": "Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models",
-   "venue": "arXiv",
-   "type": "reference",
-   "links": {
-    "paper": "https://arxiv.org/abs/2509.14723"
-   },
-   "citation": "Hosokawa, Sosuke, Toshiharu Kawakami, Satoshi Kodera, Masamichi Ito, and Norihiko Takeda. \"Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models.\" arXiv preprint arXiv:2509.14723 (2025).",
-   "reviewed": false,
-   "status": "preprint"
   },
   {
    "id": "virtual-cell-challenge-community-perturbation-prediction",

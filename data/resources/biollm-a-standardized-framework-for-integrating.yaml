@@ -2,8 +2,8 @@ id: biollm-a-standardized-framework-for-integrating
 kind: resource
 type: benchmark
 title: 'BioLLM: A standardized framework for integrating and benchmarking single-cell foundation models'
-year: 2024
+year: 2025
 venue: Patterns
 links:
-  paper: https://www.sciencedirect.com/science/article/pii/S2666389925001746
+  paper: https://doi.org/10.1016/j.patter.2025.101326
 reviewed: false
