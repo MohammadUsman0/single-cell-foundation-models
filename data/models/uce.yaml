@@ -16,6 +16,9 @@ links:
   paper: https://doi.org/10.1038/s41586-026-10689-z
   preprint: https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2
   code: https://github.com/snap-stanford/UCE
+model_card:
+  pretraining_cells: 36M
+  license: MIT
 citation: 'Rosen, Yanay, Yusuf Roohani, Ayush Agrawal, Leon Samotorčan, Tabula Sapiens Consortium, Stephen
   R. Quake, and Jure Leskovec. "Universal cell embedding provides a foundation model for cell biology."
   Nature 656, no. 8126 (2026): 183-191.'
@@ -23,5 +26,6 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41586-026-10689-z
 - https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2
-review_basis: abstract
+- https://github.com/snap-stanford/UCE
+review_basis: repo
 reviewed: false

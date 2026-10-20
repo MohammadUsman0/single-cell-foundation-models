@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20",
+ "generated": "2026-10-21",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
   "models": 170,
@@ -1721,6 +1721,11 @@
     "paper": "https://doi.org/10.1016/j.cell.2026.07.052",
     "code": "https://github.com/ArcInstitute/state"
    },
+   "model_card": {
+    "pretraining_cells": "167M (State Embedding model)",
+    "weights": "released",
+    "license": "Code: CC BY-NC-SA 4.0; weights: Arc Research Institute State Model Non-Commercial License"
+   },
    "citation": "Adduri, Abhinav K., Dhruv Gautam, Beatrice Bevilacqua, Mohsen Naghipourfar, Alishba Imran, Rohan Shah, Noam Teyssier et al. \"Predicting cellular responses to perturbation across diverse contexts with State.\" Cell 189, no. 19 (2026): 5914-5931.e20.",
    "reviewed": false,
    "inputs": [
@@ -1740,9 +1745,10 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1016/j.cell.2026.07.052"
+    "https://doi.org/10.1016/j.cell.2026.07.052",
+    "https://github.com/ArcInstitute/state"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "ArcInstitute/state"
   },
@@ -1923,6 +1929,27 @@
     "preprint": "https://doi.org/10.1101/2025.04.25.650731",
     "code": "https://github.com/czi-ai/transcriptformer"
    },
+   "model_card": {
+    "params": "TF-Metazoa: 444M; TF-Exemplar: 542M; TF-Sapiens: 368M (trainable)",
+    "pretraining_cells": "up to 112M",
+    "species": [
+     "human",
+     "mouse",
+     "rabbit",
+     "chicken",
+     "African clawed frog",
+     "zebrafish",
+     "sea urchin",
+     "C. elegans",
+     "fruit fly",
+     "freshwater sponge",
+     "yeast",
+     "malaria parasite"
+    ],
+    "weights": "released",
+    "license": "MIT",
+    "package": "transcriptformer"
+   },
    "citation": "Pearce, James D., Sara E. Simmonds, Gita Mahmoudabadi, Lakshmi Krishnan, Giovanni Palla, Ana-Maria Istrate, Alexander Tarashansky et al. \"TranscriptFormer: A generative cell atlas across 1.5 billion years of evolution.\" Science 393, no. 6806 (2026): aec8514.",
    "reviewed": false,
    "inputs": [
@@ -1936,9 +1963,11 @@
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1126/science.aec8514",
-    "https://doi.org/10.1101/2025.04.25.650731"
+    "https://doi.org/10.1101/2025.04.25.650731",
+    "https://github.com/czi-ai/transcriptformer",
+    "https://pypi.org/project/transcriptformer/"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "czi-ai/transcriptformer"
   },
@@ -2034,6 +2063,10 @@
     "preprint": "https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2",
     "code": "https://github.com/snap-stanford/UCE"
    },
+   "model_card": {
+    "pretraining_cells": "36M",
+    "license": "MIT"
+   },
    "citation": "Rosen, Yanay, Yusuf Roohani, Ayush Agrawal, Leon Samotorčan, Tabula Sapiens Consortium, Stephen R. Quake, and Jure Leskovec. \"Universal cell embedding provides a foundation model for cell biology.\" Nature 656, no. 8126 (2026): 183-191.",
    "reviewed": false,
    "inputs": [
@@ -2045,9 +2078,10 @@
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41586-026-10689-z",
-    "https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2"
+    "https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2",
+    "https://github.com/snap-stanford/UCE"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "snap-stanford/UCE"
   },
@@ -3699,6 +3733,17 @@
     "preprint": "https://doi.org/10.1101/2024.04.15.589472",
     "code": "https://github.com/theislab/nicheformer"
    },
+   "model_card": {
+    "pretraining_cells": "110M (57M dissociated + 53M spatial)",
+    "pretraining_data": "SpatialCorpus-110M",
+    "species": [
+     "human",
+     "mouse"
+    ],
+    "weights": "released",
+    "weights_url": "https://data.mendeley.com/preview/87gm9hrgm8?a=d95a6dde-e054-4245-a7eb-0522d6ea7dff",
+    "license": "BSD-3-Clause"
+   },
    "citation": "Tejada-Lapuerta, Alejandro, Anna C. Schaar, Robert Gutgesell, Giovanni Palla, Lennard Halle, Mariia Minaeva, Larsen Vornholz et al. \"Nicheformer: a foundation model for single-cell and spatial omics.\" Nature methods (2025): 1-14.",
    "reviewed": false,
    "inputs": [
@@ -3712,9 +3757,10 @@
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-025-02814-z",
-    "https://doi.org/10.1101/2024.04.15.589472"
+    "https://doi.org/10.1101/2024.04.15.589472",
+    "https://github.com/theislab/nicheformer"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "theislab/nicheformer"
   },
@@ -5324,6 +5370,15 @@
     "paper": "https://doi.org/10.1038/s41422-024-01034-y",
     "code": "https://github.com/xCompass-AI/GeneCompass"
    },
+   "model_card": {
+    "pretraining_cells": "~101.8M",
+    "species": [
+     "human",
+     "mouse"
+    ],
+    "weights": "released",
+    "weights_url": "https://www.scidb.cn/en/anonymous/SUZOdk1y"
+   },
    "citation": "Yang, Xiaodong, Guole Liu, Guihai Feng, Dechao Bu, Pengfei Wang, Jie Jiang, Shubai Chen et al. \"GeneCompass: deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation model.\" Cell Research 34, no. 12 (2024): 830-845.",
    "reviewed": false,
    "inputs": [
@@ -5334,9 +5389,10 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1038/s41422-024-01034-y"
+    "https://doi.org/10.1038/s41422-024-01034-y",
+    "https://github.com/xCompass-AI/GeneCompass"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "xCompass-AI/GeneCompass"
   },
@@ -5654,6 +5710,16 @@
     "paper": "https://doi.org/10.1038/s41592-024-02305-7",
     "code": "https://github.com/biomap-research/scFoundation"
    },
+   "model_card": {
+    "params": "100M",
+    "pretraining_cells": "50M",
+    "species": [
+     "human"
+    ],
+    "context_length": "~20,000 genes",
+    "weights": "released",
+    "license": "Code: Apache-2.0; weights: separate Model License"
+   },
    "citation": "Hao, Minsheng, Jing Gong, Xin Zeng, Chiming Liu, Yucheng Guo, Xingyi Cheng, Taifeng Wang, Jianzhu Ma, Xuegong Zhang, and Le Song. \"Large-scale foundation model on single-cell transcriptomics.\" Nature methods 21, no. 8 (2024): 1481-1491.",
    "reviewed": false,
    "inputs": [
@@ -5667,9 +5733,10 @@
    "architecture_family": "transformer-encoder-decoder",
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1038/s41592-024-02305-7"
+    "https://doi.org/10.1038/s41592-024-02305-7",
+    "https://github.com/biomap-research/scFoundation"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "biomap-research/scFoundation"
   },
@@ -5734,6 +5801,16 @@
     "preprint": "https://doi.org/10.1101/2023.04.30.538439",
     "code": "https://github.com/bowang-lab/scGPT"
    },
+   "model_card": {
+    "pretraining_cells": "33M",
+    "species": [
+     "human"
+    ],
+    "weights": "released",
+    "weights_url": "https://drive.google.com/drive/folders/1oWh_-ZRdhtoGQ2Fw24HP41FgLoomVo-y",
+    "license": "MIT",
+    "package": "scgpt"
+   },
    "citation": "Cui, Haotian, Chloe Wang, Hassaan Maan, Kuan Pang, Fengning Luo, Nan Duan, and Bo Wang. \"scGPT: toward building a foundation model for single-cell multi-omics using generative AI.\" Nature methods 21, no. 8 (2024): 1470-1480.",
    "reviewed": false,
    "inputs": [
@@ -5748,9 +5825,11 @@
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-024-02201-0",
-    "https://doi.org/10.1101/2023.04.30.538439"
+    "https://doi.org/10.1101/2023.04.30.538439",
+    "https://github.com/bowang-lab/scGPT",
+    "https://pypi.org/project/scgpt/"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "bowang-lab/scGPT"
   },
@@ -6126,6 +6205,13 @@
     "paper": "https://doi.org/10.1101/2023.10.03.560734",
     "code": "https://github.com/OmicsML/CellPLM"
    },
+   "model_card": {
+    "tokenization": "cells as tokens, tissues as sentences",
+    "weights": "released",
+    "weights_url": "https://www.dropbox.com/scl/fo/i5rmxgtqzg7iykt2e9uqm/h?rlkey=o8hi0xads9ol07o48jdityzv1&dl=0",
+    "license": "BSD-2-Clause",
+    "package": "cellplm"
+   },
    "citation": "Wen, Hongzhi, Wenzhuo Tang, Xinnan Dai, Jiayuan Ding, Wei Jin, Yuying Xie, and Jiliang Tang. \"CellPLM: Pre-training of cell language model beyond single cells.\" BioRxiv (2023): 2023-10.",
    "reviewed": false,
    "inputs": [
@@ -6134,9 +6220,11 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1101/2023.10.03.560734"
+    "https://doi.org/10.1101/2023.10.03.560734",
+    "https://github.com/OmicsML/CellPLM",
+    "https://pypi.org/project/cellplm/"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "preprint",
    "github": "OmicsML/CellPLM"
   },
@@ -6242,6 +6330,18 @@
     "paper": "https://doi.org/10.1038/s41586-023-06139-9",
     "code": "https://huggingface.co/ctheodoris/Geneformer"
    },
+   "model_card": {
+    "params": "V1: 10M; V2: 104M, 316M",
+    "pretraining_cells": "V1: ~30M; V2: ~104M",
+    "pretraining_data": "Genecorpus-30M (V1)",
+    "species": [
+     "human"
+    ],
+    "context_length": "V1: 2,048 genes; V2: 4,096 genes",
+    "weights": "released",
+    "weights_url": "https://huggingface.co/ctheodoris/Geneformer",
+    "license": "Apache-2.0"
+   },
    "citation": "Theodoris, Christina V., Ling Xiao, Anant Chopra, Mark D. Chaffin, Zeina R. Al Sayed, Matthew C. Hill, Helene Mantineo et al. \"Transfer learning enables predictions in network biology.\" Nature 618, no. 7965 (2023): 616-624.",
    "reviewed": false,
    "inputs": [
@@ -6252,9 +6352,10 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1038/s41586-023-06139-9"
+    "https://doi.org/10.1038/s41586-023-06139-9",
+    "https://huggingface.co/ctheodoris/Geneformer"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published"
   },
   {
@@ -6552,6 +6653,11 @@
     "paper": "https://doi.org/10.1038/s42256-022-00534-z",
     "code": "https://github.com/TencentAILabHealthcare/scBERT"
    },
+   "model_card": {
+    "tokenization": "binning (7 expression bins)",
+    "weights": "released",
+    "license": "GPL-3.0"
+   },
    "citation": "Yang, Fan, Wenchuan Wang, Fang Wang, Yuan Fang, Duyu Tang, Junzhou Huang, Hui Lu, and Jianhua Yao. \"scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data.\" Nature Machine Intelligence 4, no. 10 (2022): 852-866.",
    "reviewed": false,
    "inputs": [
@@ -6563,9 +6669,10 @@
    "architecture_family": "transformer-encoder",
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1038/s42256-022-00534-z"
+    "https://doi.org/10.1038/s42256-022-00534-z",
+    "https://github.com/TencentAILabHealthcare/scBERT"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "TencentAILabHealthcare/scBERT"
   },

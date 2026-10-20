@@ -18,11 +18,22 @@ key: Pre-trained on 30M cells with genes tokenized by rank order, for prediction
 links:
   paper: https://doi.org/10.1038/s41586-023-06139-9
   code: https://huggingface.co/ctheodoris/Geneformer
+model_card:
+  params: 'V1: 10M; V2: 104M, 316M'
+  pretraining_cells: 'V1: ~30M; V2: ~104M'
+  pretraining_data: Genecorpus-30M (V1)
+  species:
+  - human
+  context_length: 'V1: 2,048 genes; V2: 4,096 genes'
+  weights: released
+  weights_url: https://huggingface.co/ctheodoris/Geneformer
+  license: Apache-2.0
 citation: 'Theodoris, Christina V., Ling Xiao, Anant Chopra, Mark D. Chaffin, Zeina R. Al Sayed, Matthew
   C. Hill, Helene Mantineo et al. "Transfer learning enables predictions in network biology." Nature 618,
   no. 7965 (2023): 616-624.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41586-023-06139-9
-review_basis: abstract
+- https://huggingface.co/ctheodoris/Geneformer
+review_basis: repo
 reviewed: false
