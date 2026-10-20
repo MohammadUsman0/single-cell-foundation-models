@@ -13,6 +13,7 @@ key: 'Gene expression enhancement, drug response prediction, cell type annotatio
   SOTA performance in diverse tasks.'
 links:
   paper: https://doi.org/10.1038/s41592-024-02305-7
+  code: https://github.com/biomap-research/scFoundation
 citation: 'Hao, Minsheng, Jing Gong, Xin Zeng, Chiming Liu, Yucheng Guo, Xingyi Cheng, Taifeng Wang, Jianzhu
   Ma, Xuegong Zhang, and Le Song. "Large-scale foundation model on single-cell transcriptomics." Nature
   methods 21, no. 8 (2024): 1481-1491.'

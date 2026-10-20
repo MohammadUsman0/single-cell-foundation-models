@@ -14,4 +14,5 @@ architecture: LLM text embeddings
 key: Builds single-cell embeddings from ChatGPT gene/text descriptions.
 links:
   paper: https://www.nature.com/articles/s41551-024-01284-6
+  code: https://github.com/yiqunchen/GenePT
 reviewed: false

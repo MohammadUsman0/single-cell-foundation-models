@@ -18,6 +18,7 @@ key: 'Integrating datasets across species, universal cell embeddings. Key Findin
   properties using protein language models to transfer annotations across species.'
 links:
   paper: https://doi.org/10.1038/s41592-024-02191-z
+  code: https://github.com/snap-stanford/saturn
 citation: 'Rosen, Yanay, Maria Brbić, Yusuf Roohani, Kyle Swanson, Ziang Li, and Jure Leskovec. "Toward
   universal cell embeddings: integrating single-cell RNA-seq datasets across species with SATURN." Nature
   Methods 21, no. 8 (2024): 1492-1500.'

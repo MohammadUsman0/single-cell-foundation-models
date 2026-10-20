@@ -14,6 +14,7 @@ key: 'Diverse downstream tasks. Key Finding: First sc-pre-trained transformer to
   100x faster inference.'
 links:
   paper: https://doi.org/10.1101/2023.10.03.560734
+  code: https://github.com/OmicsML/CellPLM
 citation: 'Wen, Hongzhi, Wenzhuo Tang, Xinnan Dai, Jiayuan Ding, Wei Jin, Yuying Xie, and Jiliang Tang.
   "CellPLM: Pre-training of cell language model beyond single cells." BioRxiv (2023): 2023-10.'
 reviewed: false

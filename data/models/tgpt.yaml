@@ -16,6 +16,7 @@ key: tGPT models gene rankings via autoregressive language modeling tGPT works e
   signatures linked to genomic and clinical features
 links:
   paper: https://doi.org/10.1016/j.isci.2023.106536
+  code: https://github.com/deeplearningplus/tGPT
 citation: Shen, Hongru, Jilei Liu, Jiani Hu, Xilin Shen, Chao Zhang, Dan Wu, Mengyao Feng et al. "Generative
   pretraining from large-scale transcriptomes for single-cell deciphering." Iscience 26, no. 5 (2023).
 reviewed: false
