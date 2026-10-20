@@ -14,6 +14,7 @@ key: Capturing long-range gene context
 links:
   paper: https://doi.org/10.1038/s41467-026-69102-y
   preprint: https://doi.org/10.1101/2024.11.09.622759
+  code: https://github.com/BaiDing1234/scLong
 citation: 'Bai, Ding, Shentong Mo, Ruiyi Zhang, Yingtao Luo, Jiahao Gao, Jeremy Parker Yang, Qiuyang Wu
   et al. "scLong: A billion-parameter foundation model for capturing long-range gene context in single-cell
   transcriptomics." bioRxiv (2024): 2024-11.'

@@ -13,6 +13,7 @@ key: 'Cell annotation, gene function prediction, perturbation response. Key Find
   for efficiency, 800 million parameters.'
 links:
   paper: https://doi.org/10.1038/s41467-025-59926-5
+  code: https://github.com/biomed-AI/CellFM
 citation: 'Zeng, Yuansong, Jiancong Xie, Ningyuan Shangguan, Zhuoyi Wei, Wenbing Li, Yun Su, Shuangyu
   Yang et al. "CellFM: a large-scale foundation model pre-trained on transcriptomics of 100 million human
   cells." Nature Communications 16, no. 1 (2025): 4679.'

@@ -14,6 +14,7 @@ key: 'Cell representation, cell type annotation, cross-omics prediction, identif
 links:
   paper: https://doi.org/10.52202/085713-2584
   preprint: https://arxiv.org/abs/2505.12638
+  code: https://github.com/JohnsonKlose/ChromFound
 citation: 'Jiao, Yifeng, Yuchen Liu, Yu Zhang, Xin Guo, Yushuai Wu, Chen Jiang, Jiyang Li et al. "ChromFound:
   Towards A Universal Foundation Model for Single-Cell Chromatin Accessibility Data." arXiv preprint arXiv:2505.12638
   (2025).'

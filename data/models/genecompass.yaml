@@ -11,6 +11,7 @@ tags:
 - cross-species
 links:
   paper: https://doi.org/10.1038/s41422-024-01034-y
+  code: https://github.com/xCompass-AI/GeneCompass
 citation: 'Yang, Xiaodong, Guole Liu, Guihai Feng, Dechao Bu, Pengfei Wang, Jie Jiang, Shubai Chen et
   al. "GeneCompass: deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species
   foundation model." Cell Research 34, no. 12 (2024): 830-845.'
