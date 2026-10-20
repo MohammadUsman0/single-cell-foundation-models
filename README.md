@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner-dark.png">
+  <img alt="Single-Cell Foundation Models &amp; Virtual Cell Modelling: models, benchmarks, datasets and tools for AI-driven single-cell biology" src="docs/assets/banner-light.png" width="100%">
+</picture>
+
 # Awesome Single-Cell Foundation Models & Virtual Cell Modelling [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of foundation models for single-cell biology and AI virtual-cell / world models, plus the benchmarks, datasets, tools and reviews around them.

@@ -84,6 +84,12 @@ def build_readme(models, resources, venues, vocab):
     n_code = sum(1 for m in models if (m.get("links") or {}).get("code"))
 
     L = [
+        "<picture>",
+        '  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner-dark.png">',
+        '  <img alt="Single-Cell Foundation Models &amp; Virtual Cell Modelling: models, benchmarks, datasets and '
+        'tools for AI-driven single-cell biology" src="docs/assets/banner-light.png" width="100%">',
+        "</picture>",
+        "",
         "# Awesome Single-Cell Foundation Models & Virtual Cell Modelling "
         "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
         "",
