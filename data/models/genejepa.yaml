@@ -13,6 +13,10 @@ modality: scRNA-seq
 architecture: JEPA world model
 inputs:
 - expression
+outputs:
+- cell-embedding
+- perturbation-response
+architecture_family: transformer-encoder
 key: A predictive (JEPA) world model of the transcriptome.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.10.14.682378v1
@@ -22,5 +26,5 @@ citation: 'Litman, Elon, Tyler Myers, Vinayak Agarwal, Ekansh Mittal, Orion Li, 
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2025.10.14.682378v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

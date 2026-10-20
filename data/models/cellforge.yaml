@@ -11,6 +11,9 @@ tags:
 - agent
 architecture: Agentic
 architecture_family: agent
+perturbation_type:
+- genetic
+- chemical
 links:
   paper: https://arxiv.org/abs/2508.02276
   code: https://github.com/gersteinlab/CellForge
@@ -19,5 +22,5 @@ citation: 'Tang, Xiangru, Zhuoyun Yu, Jiapeng Chen, Yan Cui, Daniel Shao, Weixu 
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2508.02276
-review_basis: metadata
+review_basis: abstract
 reviewed: false

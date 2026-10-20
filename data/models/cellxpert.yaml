@@ -9,6 +9,16 @@ category: perturbation
 tags:
 - perturbation
 - multi-omics
+inputs:
+- expression
+- chromatin-accessibility
+- protein-abundance
+- spatial-coordinates
+outputs:
+- cell-type-label
+- perturbation-response
+perturbation_type:
+- genetic
 links:
   paper: https://arxiv.org/abs/2605.00930
 citation: 'Demir, Andac, Erik W. Anderson, Jeremy L. Jenkins, and Srayanta Mukherjee. "CellxPert: Inference-Time
@@ -17,5 +27,5 @@ citation: 'Demir, Andac, Erik W. Anderson, Jeremy L. Jenkins, and Srayanta Mukhe
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2605.00930
-review_basis: metadata
+review_basis: abstract
 reviewed: false

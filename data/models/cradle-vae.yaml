@@ -9,6 +9,15 @@ category: perturbation
 tags:
 - perturbation
 - generative
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- generated-cells
+architecture_family: vae
+perturbation_type:
+- genetic
 links:
   paper: https://doi.org/10.1609/aaai.v39i15.33695
   code: https://github.com/dmis-lab/CRADLE-VAE
@@ -19,5 +28,5 @@ citation: 'Baek, Seungheun, Soyon Park, Yan Ting Chok, Junhyun Lee, Jueon Park, 
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1609/aaai.v39i15.33695
-review_basis: metadata
+review_basis: abstract
 reviewed: false

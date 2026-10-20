@@ -8,6 +8,14 @@ venue: Nature Cell Biology
 category: perturbation
 tags:
 - perturbation
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: other
+perturbation_type:
+- genetic
 links:
   paper: https://doi.org/10.1038/s41556-025-01622-z
   code: https://github.com/satijalab/Mixscale
@@ -17,5 +25,5 @@ citation: 'Jiang, Longda, Carol Dalgarno, Efthymia Papalexi, Isabella Mascio, Ha
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41556-025-01622-z
-review_basis: metadata
+review_basis: abstract
 reviewed: false

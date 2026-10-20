@@ -10,6 +10,12 @@ tags:
 - virtual-cell
 - agent
 architecture: reinforcement learning
+inputs:
+- expression
+outputs:
+- gene-prioritization
+- perturbation-response
+architecture_family: other
 key: CellTRIP, Inferring virtual cell environments using multi-agent reinforcement learning for spatiotemporal
   trajectory interpolation, imputation, and perturbation
 links:
@@ -21,5 +27,5 @@ citation: 'Kalafut, Noah Cohen, Chenfeng He, Jie Sheng, Pramod Bharadwaj Chandra
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.11.21.689815
-review_basis: metadata
+review_basis: abstract
 reviewed: false

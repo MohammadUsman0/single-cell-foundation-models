@@ -14,6 +14,13 @@ architecture: Adapter on scFMs
 inputs:
 - expression
 - perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- combination
+generalization:
+- unseen-perturbation
 key: Condition-sensitive adaptation of scFMs for genetic perturbation prediction.
 links:
   paper: https://doi.org/10.1093/bioinformatics/btag307
@@ -26,5 +33,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1093/bioinformatics/btag307
 - https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

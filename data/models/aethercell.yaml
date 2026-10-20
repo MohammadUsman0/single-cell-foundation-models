@@ -10,6 +10,16 @@ tags:
 - drug-response
 - virtual-cell
 - generative
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- chemical
+generalization:
+- unseen-perturbation
 links:
   paper: https://doi.org/10.64898/2026.03.13.710968
   code: https://github.com/Wenyuan-AI4science/AetherCell
@@ -18,5 +28,5 @@ citation: 'Xie, Zhi, Wenyuan Li, Yang Chen, Zhaoyi Peng, Lei Xiang, and Dong Wan
 added: '2026-06-02'
 sources:
 - https://doi.org/10.64898/2026.03.13.710968
-review_basis: metadata
+review_basis: abstract
 reviewed: false

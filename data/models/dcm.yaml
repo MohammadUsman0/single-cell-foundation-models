@@ -11,6 +11,15 @@ tags:
 - perturbation
 - generative
 - scrna-seq
+inputs:
+- expression
+- perturbation
+outputs:
+- generated-cells
+- perturbation-response
+architecture_family: diffusion
+perturbation_type:
+- genetic
 key: Diffusion model that generates single-cell expression directly as discrete counts, unconditionally
   or conditioned on perturbations.
 links:
@@ -20,5 +29,5 @@ citation: 'Bhattacharya, Sanjukta, Christian Gensbigler, Shaamil Karim, and Jon 
 added: '2026-06-02'
 sources:
 - https://doi.org/10.64898/2026.02.19.705033
-review_basis: metadata
+review_basis: abstract
 reviewed: false

@@ -7,10 +7,20 @@ venue: Nature Communications
 category: perturbation
 tags:
 - perturbation
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: other
+perturbation_type:
+- genetic
+- combination
 links:
   paper: https://www.nature.com/articles/s41467-025-61165-7
   code: https://github.com/hwxing3259/GPerturb
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41467-025-61165-7
+review_basis: abstract
 reviewed: false

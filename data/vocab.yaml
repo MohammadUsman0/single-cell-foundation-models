@@ -125,6 +125,7 @@ outputs:
   - {id: perturbation-response, label: Perturbation response, desc: "Predicted effect of a genetic or chemical perturbation."}
   - {id: generated-cells, label: Generated cells, desc: "Synthetic expression profiles."}
   - {id: gene-regulatory-network, label: Gene regulatory network, desc: "Inferred regulatory relationships."}
+  - {id: gene-prioritization, label: Gene prioritization, desc: "Ranked genes, such as drivers, key regulators or therapeutic targets."}
   - {id: spatial-domain, label: Spatial domain, desc: "Niches, tissue domains or regions."}
   - {id: image, label: Image, desc: "Generated or predicted images."}
   - {id: text, label: Text, desc: "Natural-language answers or reports."}

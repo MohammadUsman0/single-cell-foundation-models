@@ -13,6 +13,14 @@ modality: Transcriptomic Data
 architecture: Transfer Learning
 inputs:
 - expression
+outputs:
+- gene-regulatory-network
+- gene-prioritization
+- perturbation-response
+perturbation_type:
+- genetic
+generalization:
+- cross-species
 key: Generates cell-type-specific gene regulatory networks from transcriptomic data alone via transfer
   learning, and simulates in-silico perturbations.
 links:
@@ -24,5 +32,5 @@ citation: 'Feng, Guihai, Xin Qin, Jiahao Zhang, Wuliang Huang, Yiyang Zhang, Wen
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2023.09.25.559244
-review_basis: metadata
+review_basis: abstract
 reviewed: false

@@ -314,6 +314,11 @@
     "desc": "Inferred regulatory relationships."
    },
    {
+    "id": "gene-prioritization",
+    "label": "Gene prioritization",
+    "desc": "Ranked genes, such as drivers, key regulators or therapeutic targets."
+   },
+   {
     "id": "spatial-domain",
     "label": "Spatial domain",
     "desc": "Niches, tissue domains or regions."
@@ -496,11 +501,25 @@
    },
    "citation": "Xie, Zhi, Wenyuan Li, Yang Chen, Zhaoyi Peng, Lei Xiang, and Dong Wang. \"AetherCell: A generative engine for virtual cell perturbation and in vivo drug discovery.\" bioRxiv (2026): 2026-03.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "genetic",
+    "chemical"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.64898/2026.03.13.710968"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "Wenyuan-AI4science/AetherCell"
   },
@@ -521,11 +540,19 @@
    },
    "citation": "Chuai, Guohui, Xiaohan Chen, Xingbo Yang, Cheng Zhang, Kairu Qu, Yiheng Wang, Wannian Li et al. \"Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell.\" bioRxiv (2026): 2026-03.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "architecture_family": "flow-matching",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.64898/2026.03.02.709176"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -743,11 +770,24 @@
    },
    "citation": "Demir, Andac, Erik W. Anderson, Jeremy L. Jenkins, and Srayanta Mukherjee. \"CellxPert: Inference-Time MCMC Steering of a Multi-Omics Single-Cell Foundation Model for In-Silico Perturbation.\" arXiv preprint arXiv:2605.00930 (2026).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "chromatin-accessibility",
+    "protein-abundance",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "genetic"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2605.00930"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -827,11 +867,23 @@
    },
    "citation": "Bhattacharya, Sanjukta, Christian Gensbigler, Shaamil Karim, and Jon Lees. \"Discrete Diffusion for Single-Cell Gene Expression Modeling.\" bioRxiv (2026): 2026-02.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "generated-cells",
+    "perturbation-response"
+   ],
+   "architecture_family": "diffusion",
+   "perturbation_type": [
+    "genetic"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.64898/2026.02.19.705033"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -850,11 +902,19 @@
    },
    "citation": "Chi, Changxi, Yufei Huang, Jun Xia, Jiangbin Zheng, Yunfan Liu, Zelin Zang, and Stan Z. Li. \"Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger Bridges.\" Proceedings of the AAAI Conference on Artificial Intelligence 40, no. 25 (2026): 20544-20552.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "architecture_family": "flow-matching",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1609/aaai.v40i25.39190"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -884,12 +944,23 @@
     "expression",
     "perturbation"
    ],
+   "outputs": [
+    "perturbation-response"
+   ],
    "architecture_family": "vae",
+   "perturbation_type": [
+    "genetic",
+    "combination"
+   ],
+   "generalization": [
+    "unseen-perturbation",
+    "unseen-cell-context"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "Peg-Wu/DeSCOPE"
   },
@@ -931,11 +1002,12 @@
    },
    "citation": "Huang, Wenxuan, Mingyu Tsoi, Yanhao Huang, Xinjie Mao, Xue Xia, Hao Wu, Jiaqi Wei et al. \"HarmonyCell: Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts.\" arXiv preprint arXiv:2603.01396 (2026).",
    "reviewed": false,
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/pdf/2603.01396"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -1000,12 +1072,23 @@
    },
    "citation": "Zhang, Han, Guo-Hua Yuan, Chaohao Yuan, Tingyang Xu, Tian Bian, Hong Cheng, Wenbing Huang, Deli Zhao, and Yu Rong. \"Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells.\" arXiv preprint arXiv:2603.25240 (2026).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "generated-cells",
+    "perturbation-response"
+   ],
    "architecture_family": "diffusion",
+   "perturbation_type": [
+    "genetic"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2603.25240"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "alibaba-damo-academy/Lingshu-Cell"
   },
@@ -1099,12 +1182,22 @@
     "expression",
     "perturbation"
    ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "genetic",
+    "combination"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1093/bioinformatics/btag307",
     "https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "BaiDing1234/PertAdapt"
   },
@@ -1126,11 +1219,22 @@
    },
    "citation": "Yuan, Xinyu, Xixian Liu, Ya Shi Zhang, Zuobai Zhang, Hongyu Guo, and Jian Tang. \"PerturbDiff: Functional Diffusion for Single-Cell Perturbation Modeling.\" arXiv preprint arXiv:2602.19685 (2026).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "architecture_family": "diffusion",
+   "generalization": [
+    "unseen-perturbation"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2602.19685"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "DeepGraphLearning/PerturbDiff"
   },
@@ -1154,11 +1258,21 @@
    },
    "citation": "Chi Hao Ly, Kevin, Adib Miraki Feriz, Tomoya Isobe, Amirhossein Vahidi, Delshad Vaghari, Anthony Rostron, Mariana Quiroga Londono et al. \"Predicting how perturbations reshape cellular trajectories with PerturbGen.\" bioRxiv (2026): 2026-03.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "genetic"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.64898/2026.03.04.709254"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "Lotfollahi-lab/Perturbgen"
   },
@@ -1856,11 +1970,14 @@
    },
    "citation": "DeMeo, Benjamin, Charlotte Nesbitt, Samuel A. Miller, Daniel B. Burkhardt, Inna Lipchina, Doris Fu, Peter Holderrieth et al. \"Active learning framework leveraging transcriptomics identifies modulators of disease phenotypes.\" Science 390, no. 6776 (2025): eadi8577.",
    "reviewed": false,
+   "perturbation_type": [
+    "chemical"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1126/science.adi8577"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -2037,11 +2154,15 @@
    },
    "citation": "Gao, Yicheng, Kejing Dong, Caihua Shan, Dongsheng Li, and Qi Liu. \"Causal disentanglement for single-cell representations and controllable counterfactual generation.\" Nature Communications 16, no. 1 (2025): 6775.",
    "reviewed": false,
+   "outputs": [
+    "generated-cells"
+   ],
+   "architecture_family": "diffusion",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41467-025-62008-1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "bm2-lab/CausCell"
   },
@@ -2247,11 +2368,15 @@
    "citation": "Tang, Xiangru, Zhuoyun Yu, Jiapeng Chen, Yan Cui, Daniel Shao, Weixu Wang, Fang Wu et al. \"CellForge: agentic design of virtual cell models.\" arXiv preprint arXiv:2508.02276 (2025).",
    "reviewed": false,
    "architecture_family": "agent",
+   "perturbation_type": [
+    "genetic",
+    "chemical"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2508.02276"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "gersteinlab/CellForge"
   },
@@ -2307,11 +2432,22 @@
    },
    "citation": "Wang, Tianze, Yan Pan, Fusong Ju, Shuxin Zheng, Chang Liu, Yaosen Min, Qun Jiang et al. \"CellNavi predicts genes directing cellular transitions by learning a gene graph-enhanced cell state manifold.\" Nature Cell Biology 27, no. 10 (2025): 1863-1874.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "prior-network"
+   ],
+   "outputs": [
+    "gene-prioritization"
+   ],
+   "perturbation_type": [
+    "genetic",
+    "chemical"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41556-025-01755-1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "DLS5-Omics/CellNavi"
   },
@@ -2398,11 +2534,19 @@
    },
    "citation": "Kalafut, Noah Cohen, Chenfeng He, Jie Sheng, Pramod Bharadwaj Chandrashekar, Jerome J. Choi, and Daifeng Wang. \"Inferring virtual cell environments using multi-agent reinforcement learning.\" bioRxiv (2025): 2025-11.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "gene-prioritization",
+    "perturbation-response"
+   ],
+   "architecture_family": "other",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.11.21.689815"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "daifengwanglab/CellTRIP"
   },
@@ -2510,11 +2654,23 @@
    },
    "citation": "Baek, Seungheun, Soyon Park, Yan Ting Chok, Junhyun Lee, Jueon Park, Mogan Gim, and Jaewoo Kang. \"Cradle-VAE: Enhancing Single-Cell Gene Perturbation Modeling with Counterfactual Reasoning-based Artifact Disentanglement.\" Proceedings of the AAAI Conference on Artificial Intelligence 39, no. 15 (2025): 15445-15452.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "generated-cells"
+   ],
+   "architecture_family": "vae",
+   "perturbation_type": [
+    "genetic"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1609/aaai.v39i15.33695"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "dmis-lab/CRADLE-VAE"
   },
@@ -2596,11 +2752,21 @@
    },
    "citation": "Zhu, Linchang, and Yuanhanyu Luo. \"DrugPT: A Flexible Framework for Integrating Gene and Chemical Representations in Perturbation Modeling.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "chemical"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.07.25.665130"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -2721,11 +2887,16 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-embedding",
+    "perturbation-response"
+   ],
+   "architecture_family": "transformer-encoder",
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.10.14.682378v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "BiostateAI/GeneJEPA"
   },
@@ -2814,9 +2985,23 @@
     "code": "https://github.com/hwxing3259/GPerturb"
    },
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "architecture_family": "other",
+   "perturbation_type": [
+    "genetic",
+    "combination"
+   ],
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41467-025-61165-7"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "hwxing3259/GPerturb"
   },
@@ -2924,9 +3109,22 @@
     "expression",
     "perturbation"
    ],
+   "outputs": [
+    "perturbation-response",
+    "gene-regulatory-network"
+   ],
+   "perturbation_type": [
+    "genetic",
+    "chemical"
+   ],
+   "generalization": [
+    "cross-dataset"
+   ],
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s43588-025-00870-1"
+   ],
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -2946,11 +3144,22 @@
    },
    "citation": "Jiang, Longda, Carol Dalgarno, Efthymia Papalexi, Isabella Mascio, Hans-Hermann Wessels, Huiyoung Yun, Nika Iremadze et al. \"Systematic reconstruction of molecular pathway signatures using scalable single-cell perturbation screens.\" Nature Cell Biology 27, no. 3 (2025): 505-517.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "architecture_family": "other",
+   "perturbation_type": [
+    "genetic"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41556-025-01622-z"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "satijalab/Mixscale"
   },
@@ -3253,11 +3462,18 @@
    },
    "citation": "Taj, Farzan, and Lincoln D Stein. \"OmniPert: A Deep Learning Foundation Model for Predicting Responses to Genetic and Chemical Perturbations in Single Cancer Cells.\" bioRxiv (2025).",
    "reviewed": false,
+   "outputs": [
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "genetic",
+    "chemical"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.07.02.662744"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -4543,6 +4759,9 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "gene-prioritization"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41422-024-01034-y"
@@ -4647,11 +4866,17 @@
    },
    "citation": "Yang, Zikun, Xueying Fan, Meng Lan, Xin Li, Yue You, Luyi Tian, George Church, Xiaodong Liu, and Fei Gu. \"Multimodal foundation model predicts zero-shot functional perturbations and cell fate dynamics\" bioRxiv (2025)",
    "reviewed": false,
+   "outputs": [
+    "perturbation-response"
+   ],
+   "generalization": [
+    "zero-shot"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2024.12.19.629561"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "alibaba/damo-pertformer"
   },
@@ -5264,11 +5489,22 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "gene-regulatory-network",
+    "gene-prioritization",
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "genetic"
+   ],
+   "generalization": [
+    "cross-species"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2023.09.25.559244"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "xCompass-AI/CellPolaris"
   },
@@ -5296,10 +5532,15 @@
     "expression",
     "perturbation"
    ],
+   "outputs": [
+    "perturbation-response"
+   ],
    "architecture_family": "other",
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41592-023-02040-5"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "vandijklab/CINEMA-OT"
   },
@@ -5326,6 +5567,9 @@
    "reviewed": false,
    "inputs": [
     "expression"
+   ],
+   "outputs": [
+    "gene-prioritization"
    ],
    "added": "2026-06-02",
    "sources": [

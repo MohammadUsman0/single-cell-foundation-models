@@ -7,6 +7,9 @@ venue: Nature Communications
 category: perturbation
 tags:
 - perturbation
+outputs:
+- generated-cells
+architecture_family: diffusion
 links:
   paper: https://doi.org/10.1038/s41467-025-62008-1
   code: https://github.com/bm2-lab/CausCell
@@ -16,5 +19,5 @@ citation: 'Gao, Yicheng, Kejing Dong, Caihua Shan, Dongsheng Li, and Qi Liu. "Ca
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41467-025-62008-1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

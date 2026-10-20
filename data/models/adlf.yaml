@@ -8,6 +8,8 @@ category: perturbation
 tags:
 - perturbation
 - scrna-seq
+perturbation_type:
+- chemical
 links:
   paper: https://doi.org/10.1126/science.adi8577
   code: https://doi.org/10.5281/zenodo.16921928
@@ -17,5 +19,5 @@ citation: 'DeMeo, Benjamin, Charlotte Nesbitt, Samuel A. Miller, Daniel B. Burkh
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1126/science.adi8577
-review_basis: metadata
+review_basis: abstract
 reviewed: false

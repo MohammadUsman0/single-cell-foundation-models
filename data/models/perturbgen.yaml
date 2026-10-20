@@ -9,6 +9,13 @@ tags:
 - perturbation
 modality: Single-cell
 architecture: Transformer
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
 key: cell state transition prediction, gene program dicovery, in silico perturbations
 links:
   paper: https://doi.org/10.64898/2026.03.04.709254
@@ -19,5 +26,5 @@ citation: 'Chi Hao Ly, Kevin, Adib Miraki Feriz, Tomoya Isobe, Amirhossein Vahid
 added: '2026-06-02'
 sources:
 - https://doi.org/10.64898/2026.03.04.709254
-review_basis: metadata
+review_basis: abstract
 reviewed: false

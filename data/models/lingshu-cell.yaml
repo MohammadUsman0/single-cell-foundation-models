@@ -12,7 +12,15 @@ tags:
 - scrna-seq
 modality: Single-cell
 architecture: masked discrete diffusion model
+inputs:
+- expression
+- perturbation
+outputs:
+- generated-cells
+- perturbation-response
 architecture_family: diffusion
+perturbation_type:
+- genetic
 key: masked discrete diffusion model that learns transcriptomic state distributions and supports conditional
   simulation under perturbation
 links:
@@ -25,7 +33,7 @@ citation: 'Zhang, Han, Guo-Hua Yuan, Chaohao Yuan, Tingyang Xu, Tian Bian, Hong 
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2603.25240
-review_basis: metadata
+review_basis: abstract
 reviewed: false
 review_notes:
 - code field pointed to a non-code site (https://alibaba-damo-academy.github.io/lingshu-cell-homepage/);

@@ -15,7 +15,15 @@ inputs:
 - chromatin-accessibility
 - expression
 - perturbation
+outputs:
+- perturbation-response
 architecture_family: vae
+perturbation_type:
+- genetic
+- combination
+generalization:
+- unseen-perturbation
+- unseen-cell-context
 key: Lightweight conditional VAE that conditions on ESM2 protein-language embeddings of perturbed genes;
   strong on unseen genes, unseen cell types, and combinatorial multi-gene perturbations.
 links:
@@ -26,5 +34,5 @@ citation: Wu, Pengpeng, Hailin Wei, Yazi Li, Xinwei Zheng, Caibin Zhou, Xihao Hu
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false
