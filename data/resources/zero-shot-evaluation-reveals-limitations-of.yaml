@@ -9,10 +9,14 @@ tags:
 - foundation-model
 links:
   paper: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x
+evaluates:
+- scgpt
+- geneformer
+findings: Used zero-shot, Geneformer and scGPT can be beaten by simpler methods.
 citation: 'Kedzierska, Kasia Z., Lorin Crawford, Ava P. Amini, and Alex X. Lu. "Zero-shot evaluation reveals
   limitations of single-cell foundation models." Genome Biology 26, no. 1 (2025): 101.'
 added: '2026-06-02'
 sources:
 - https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x
-review_basis: metadata
+review_basis: abstract
 reviewed: false

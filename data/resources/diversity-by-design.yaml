@@ -10,11 +10,12 @@ tags:
 - scrna-seq
 links:
   paper: https://arxiv.org/abs/2506.22641
+findings: The mean baseline looks strong because of metric artefacts; DEG-aware metrics remove the effect.
 citation: 'Mejia, Gabriel M., Henry E. Miller, Francis J. A. Leblanc, Bo Wang, Brendan Swain, and Lucas
   Paulo de Lima Camillo. "Diversity by Design: Addressing Mode Collapse Improves scRNA-seq Perturbation
   Modeling on Well-Calibrated Metrics." arXiv preprint arXiv:2506.22641 (2025).'
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2506.22641
-review_basis: metadata
+review_basis: abstract
 reviewed: false

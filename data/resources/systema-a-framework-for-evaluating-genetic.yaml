@@ -9,7 +9,11 @@ tags:
 - perturbation
 links:
   paper: https://www.nature.com/articles/s41587-025-02777-8
+evaluates:
+- scgpt
+findings: Predicting unseen perturbations is harder than standard metrics suggest.
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41587-025-02777-8
+review_basis: paper
 reviewed: false

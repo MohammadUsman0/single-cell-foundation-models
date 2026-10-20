@@ -8,5 +8,10 @@ tags:
 - perturbation
 links:
   paper: https://proceedings.mlr.press/v267/wenteler25a.html
+findings: Zero-shot foundation-model embeddings give no consistent gain over baselines, especially under
+  distribution shift.
 added: '2026-06-02'
+sources:
+- https://proceedings.mlr.press/v267/wenteler25a.html
+review_basis: abstract
 reviewed: false

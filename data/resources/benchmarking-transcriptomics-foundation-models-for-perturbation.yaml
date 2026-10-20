@@ -10,11 +10,17 @@ tags:
 - scrna-seq
 links:
   paper: https://arxiv.org/abs/2410.13956
+evaluates:
+- scgpt
+- geneformer
+- uce
+- cellplm
+findings: scVI and PCA beat the foundation models for perturbation analysis.
 citation: 'Bendidi, Ihab, Shawn Whitfield, Kian Kenyon-Dean, Hanene Ben Yedder, Yassir El Mesbahi, Emmanuel
   Noutahi, and Alisandra K. Denton. "Benchmarking Transcriptomics Foundation Models for Perturbation Analysis
   : one PCA still rules them all." arXiv preprint arXiv:2410.13956 (2024).'
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2410.13956
-review_basis: metadata
+review_basis: paper
 reviewed: false

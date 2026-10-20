@@ -10,11 +10,27 @@ tags:
 - foundation-model
 links:
   paper: https://www.biorxiv.org/content/10.64898/2026.01.06.698060v1
+evaluates:
+- scfoundation
+- scprint
+- scimilarity
+- scgpt
+- geneformer
+- cellfm
+- scbert
+- cellplm
+- uce
+- langcell
+- cellama
+- sccello
+- genept
+findings: Usefulness is neither universal nor set by model scale; it depends on the representation, the
+  biological context and the supervision.
 citation: Hou, Siyu, Penghui Yang, Wenjing Ma, Jinxi Xiang, Jade Xiaoqing Wang, Hui Wan, Ying Ma et al.
   "Accessible and reproducible deployment reveals the practical boundaries of single-cell foundation models."
   bioRxiv (2026).
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.64898/2026.01.06.698060v1
-review_basis: metadata
+review_basis: paper
 reviewed: false

@@ -11,7 +11,7 @@
 
 For each model, the catalogue aims to record what it is, whether you can use it (code, weights, license) and what benchmarks found about it. Titles, years, venues and links are verified against Crossref, OpenAlex, arXiv and bioRxiv with [`scripts/verify.py`](scripts/verify.py).
 
-**170 models** (144 with code) · **126 resources** · **19 venues** · updated 2026-10-20
+**170 models** (144 with code) · **126 resources** · **19 venues** · updated 2026-10-21
 
 Each entry: **name** · title (**venue year**) · tags · links. Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).
 

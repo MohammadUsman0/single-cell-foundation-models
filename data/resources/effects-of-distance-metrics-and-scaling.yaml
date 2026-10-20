@@ -11,10 +11,12 @@ key: Shows that the Perturbation Discrimination Score depends strongly on the di
   scale of predicted effects.
 links:
   paper: https://arxiv.org/abs/2511.16954
+findings: The perturbation discrimination score depends heavily on the distance measure and the effect
+  scale.
 citation: Liu, Qiyuan, Qirui Zhang, Jinhong Du, Siming Zhao, and Jingshu Wang. "Effects of Distance Metrics
   and Scaling on the Perturbation Discrimination Score." arXiv preprint arXiv:2511.16954 (2025).
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2511.16954
-review_basis: metadata
+review_basis: abstract
 reviewed: false

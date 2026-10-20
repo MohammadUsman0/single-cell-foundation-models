@@ -60,7 +60,9 @@ reviewed: false               # set to true once someone has checked it against 
 
 Resource files use `type` (`benchmark`, `dataset`, `tool`, `survey`,
 `perspective`, `reference`) instead of `name`/`category`, and a benchmark can
-list the models it tested with `evaluates: [scgpt, geneformer]`.
+list the models it tested with `evaluates: [scgpt, geneformer]` (only models the paper
+actually runs, not ones it cites) and its main result in one line of your own words
+with `findings`.
 
 Allowed `links` keys: `paper`, `preprint`, `code`, `weights`, `project`,
 `dataset`, `docs`, `video`.

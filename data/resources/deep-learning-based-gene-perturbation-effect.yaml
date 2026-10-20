@@ -8,7 +8,15 @@ tags:
 - perturbation
 links:
   paper: https://www.nature.com/articles/s41592-025-02772-6
+evaluates:
+- scfoundation
+- scgpt
+- uce
+- scbert
+- geneformer
+findings: None of the five foundation models beat simple linear baselines at predicting perturbation effects.
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41592-025-02772-6
+review_basis: paper
 reviewed: false

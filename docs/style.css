@@ -278,5 +278,7 @@ dl.facts dd { margin: 0; overflow-wrap: anywhere; }
 .chart-card details .table-wrap { max-height: 320px; overflow: auto; }
 .viz-tip { position: fixed; z-index: 50; pointer-events: none; background: var(--surface); color: var(--text);
   border: 1px solid var(--border); border-radius: 8px; padding: 6px 9px; font-size: 12.5px; box-shadow: 0 4px 14px rgba(0,0,0,.12);
-  max-width: 280px; display: none; }
+  max-width: 320px; display: none; }
 .viz-tip b { font-weight: 600; }
+ul.rel li { margin-bottom: 8px; }
+.finding { color: var(--muted); font-size: 13.5px; margin-top: 2px; }

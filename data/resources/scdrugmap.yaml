@@ -9,7 +9,18 @@ tags:
 - drug-response
 links:
   paper: https://www.nature.com/articles/s41467-025-67481-2
+evaluates:
+- scfoundation
+- scgpt
+- uce
+- cellplm
+- scbert
+- tgpt
+- geneformer
+- celllm
+findings: scFoundation is best when data are pooled, UCE when fine-tuned across datasets, and scGPT zero-shot.
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41467-025-67481-2
+review_basis: paper
 reviewed: false

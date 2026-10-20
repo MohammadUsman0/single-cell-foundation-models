@@ -12,6 +12,7 @@ key: PerturBench a comprehensive framework for modeling single cell transcriptom
 links:
   paper: https://doi.org/10.52202/085713-3225
   preprint: https://arxiv.org/abs/2408.10609
+findings: No architecture clearly wins; simpler models are competitive and scale well.
 citation: 'Wu, Yan, Esther Wershof, Sebastian Schmon, Marcel Nassar, Błażej Osiński, Ridvan Eksi, Zichao
   Yan et al. "PerturBench: Benchmarking Machine Learning Models for Cellular Perturbation Analysis." In
   Advances in Neural Information Processing Systems 38 (2025): 106937-106977.'
@@ -19,5 +20,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.52202/085713-3225
 - https://arxiv.org/abs/2408.10609
-review_basis: metadata
+review_basis: abstract
 reviewed: false

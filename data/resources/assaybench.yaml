@@ -10,11 +10,16 @@ tags:
 - agent
 links:
   paper: https://arxiv.org/abs/2605.10876
+evaluates:
+- biomni
+- c2s-scale
+findings: General-purpose LLMs used zero-shot beat biology-specific models and agents, but every method
+  stays well below the estimated performance ceiling.
 citation: 'De Brouwer, Edward, Carl Edwards, Alexander Wu, Jenna Collier, Graham Heimberg, Xiner Li, Meena
   Subramaniam et al. "AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents." arXiv preprint
   arXiv:2605.10876 (2026).'
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2605.10876
-review_basis: metadata
+review_basis: paper
 reviewed: false

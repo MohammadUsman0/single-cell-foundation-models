@@ -8,10 +8,11 @@ tags:
 - perturbation
 links:
   paper: https://doi.org/10.1101/2024.12.20.629581
+findings: Across ten methods, zero-shot prediction remains the main gap.
 citation: Li, Chen, Haoxiang Gao, Yuli She, Haiyang Bian, Qing Chen, Kai Liu, Lei Wei et al. "Benchmarking
   AI Models for In Silico Gene Perturbation of Cells." bioRxiv (2024).
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2024.12.20.629581
-review_basis: metadata
+review_basis: abstract
 reviewed: false

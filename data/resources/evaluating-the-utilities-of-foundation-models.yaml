@@ -10,11 +10,17 @@ tags:
 links:
   paper: https://doi.org/10.1002/advs.202514490
   preprint: https://doi.org/10.1101/2023.09.08.555192
+evaluates:
+- scgpt
+- geneformer
+- cellfm
+findings: Foundation models do not consistently beat task-specific methods; scGPT, Geneformer and CellFM
+  come out on top.
 citation: 'Liu, Tianyu, Kexing Li, Yuge Wang, Hongyu Li, and Hongyu Zhao. "Evaluating the Utilities of
   Foundation Models in Single‐Cell Data Analysis." Advanced Science 13, no. 27 (2026): e14490.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1002/advs.202514490
 - https://doi.org/10.1101/2023.09.08.555192
-review_basis: metadata
+review_basis: abstract
 reviewed: false

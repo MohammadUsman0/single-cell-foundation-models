@@ -8,7 +8,9 @@ tags:
 - scrna-seq
 links:
   paper: https://www.nature.com/articles/s42256-024-00934-3
+findings: Self-supervision helps mainly in transfer settings; masked autoencoders beat contrastive methods.
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s42256-024-00934-3
+review_basis: abstract
 reviewed: false

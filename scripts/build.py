@@ -164,7 +164,7 @@ def build_readme(models, resources, venues, vocab):
 
 PUBLIC_FIELDS = ("id", "kind", "name", "aliases", "title", "year", "venue", "venue_detail", "category",
                  "type", "tags", "modality", "architecture", "task", "key", "links", "model_card",
-                 "evaluates", "citation", "reviewed", "inputs", "outputs", "architecture_family", "code_status",
+                 "evaluates", "findings", "citation", "reviewed", "inputs", "outputs", "architecture_family", "code_status",
                  "perturbation_type", "generalization", "added", "sources", "review_basis")
 
 
@@ -228,7 +228,7 @@ def main():
                "card_pretraining_cells", "card_weights", "card_license", "reviewed"])
     write_csv(os.path.join(ROOT, "exports", "resources.csv"), sorted(resources, key=year_sort_key),
               ["id", "type", "title", "year", "venue", "tags", "key", "link_paper", "link_code",
-               "link_project", "evaluates", "reviewed"])
+               "link_project", "evaluates", "findings", "reviewed"])
 
     print(f"Built README.md, docs/data.json, exports/: {len(models)} models, "
           f"{len(resources)} resources, {len(venues)} venues.")
