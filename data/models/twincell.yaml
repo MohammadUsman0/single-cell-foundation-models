@@ -2,6 +2,7 @@ id: twincell
 kind: model
 name: TwinCell
 title: 'TwinCell: Large Causal Cell Model for Reliable and Interpretable Therapeutic Target Prioritisation'
+year: 2026
 venue: bioRxiv
 category: perturbation
 tags:
@@ -10,6 +11,8 @@ modality: Single-cell
 key: identifies the upstream regulators most likely to drive the transition between two cell states, such
   as diseased and healthy, by decomposing target probability over signalling paths through a multiomics
   interactome conditioned on single-cell foundation model embeddings
+links:
+  paper: https://doi.org/10.64898/2026.01.29.702072
 citation: 'Morlot, Jean-Baptiste, Thomaz Dias, Sebastien Legare, Alessandro Romualdi, Elie Hatem, and
   Yann Abraham. "TwinCell: Large Causal Cell Model for Reliable and Interpretable Therapeutic Target Prioritisation."
   bioRxiv (2026): 2026-01.'

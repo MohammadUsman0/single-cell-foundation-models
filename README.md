@@ -55,8 +55,8 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **CellFM** · CellFM: a large-scale foundation model pre-trained on transcriptomics of 100 million human cells (**Nature Communications 2025**) · `scRNA-seq` · [[paper](https://doi.org/10.1038/s41467-025-59926-5)]
 - **ProteinTalks** · A Perturbation Proteomics-Based Foundation Model for Virtual Cell Construction (**bioRxiv 2025**) · `scRNA-seq` `Proteomics` `Perturbation` `Virtual cell` · [[paper](https://doi.org/10.1101/2025.02.07.637070)] [[code](https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks)] ![stars](https://img.shields.io/github/stars/guomics-lab/PTV-1?style=flat-square&label=%E2%98%85)
 - **scConcept** · scConcept: Contrastive pretraining for technology-agnostic single-cell representations beyond reconstruction (**bioRxiv 2025**) · `scRNA-seq` · [[paper](https://doi.org/10.1101/2025.10.14.682419)]
-- **scFM** · CancerFoundation: A single-cell RNA sequencing foundation model to decipher drug resistance in cancer (**bioRxiv 2025**) · `scRNA-seq` `Drug response`
 - **scKGBERT** · scKGBERT: a knowledge-enhanced foundation model for single-cell transcriptomics (**Genome Biology 2025**) · `scRNA-seq` · [[paper](https://doi.org/10.1186/s13059-025-03862-6)]
+- **scNET** · scNET: learning context-specific gene and cell embeddings by integrating single-cell gene expression data with protein–protein interactions (**Nature Methods 2025**) · `scRNA-seq` `Proteomics` · [[paper](https://doi.org/10.1038/s41592-025-02627-0)]
 - **scPEFT** · Harnessing the power of single-cell large language models with parameter-efficient fine-tuning using scPEFT (**Nature Machine Intelligence 2025**) · `scRNA-seq` `Text` · [[paper](https://www.nature.com/articles/s42256-025-01170-z)]
 - **scPRINT** · scPRINT: pre-training on 50 million cells allows robust gene network predictions (**Nature Communications 2025**) · `scRNA-seq` · [[paper](https://doi.org/10.1038/s41467-025-58699-1)]
 - **SubCell** · SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology (**bioRxiv 2025**) · `scRNA-seq` `Proteomics` `Imaging` · [[paper](https://doi.org/10.1101/2024.12.06.627299)] [[code](https://github.com/CellProfiling/subcell-embed)] ![stars](https://img.shields.io/github/stars/CellProfiling/subcell-embed?style=flat-square&label=%E2%98%85)
@@ -64,14 +64,14 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **TEDDY** · TEDDY: A Family of Foundation Models for Understanding Single Cell Biology (**ICML 2025**, GenBio Workshop) · `scRNA-seq` · [[paper](https://arxiv.org/pdf/2503.03485)]
 - **Toward a privacy-preserving predictive FM** · Toward a privacy-preserving predictive foundation model of single-cell transcriptomics with federated learning and tabular modeling (**bioRxiv 2025**) · `scRNA-seq` · [[paper](https://doi.org/10.1101/2025.01.06.631427)]
 - **AIDO.Cell Scaling Dense Representations** · Scaling dense representations for single cell with transcriptome-scale context (**bioRxiv 2024**) · `scRNA-seq` · [[paper](https://doi.org/10.1101/2024.11.28.625303)]
+- **scFM** · CancerFoundation: A single-cell RNA sequencing foundation model to decipher drug resistance in cancer (**bioRxiv 2024**) · `scRNA-seq` `Drug response` · [[paper](https://doi.org/10.1101/2024.11.01.621087)]
 - **scFoundation** · Large-scale foundation model on single-cell transcriptomics (**Nature Methods 2024**) · `scRNA-seq` · [[paper](https://doi.org/10.1038/s41592-024-02305-7)]
-- **scNET** · scNET: learning context-specific gene and cell embeddings by integrating single-cell gene expression data with protein–protein interactions (**Nature Methods 2024**) · `scRNA-seq` `Proteomics`
 - **scTab** · scTab: Scaling Cross-Tissue Single-Cell Annotation Models (**Nature Communications 2024**) · `scRNA-seq` · [[paper](https://doi.org/10.1038/s41467-024-51059-5)] [[code](https://github.com/theislab/scTab)] ![stars](https://img.shields.io/github/stars/theislab/scTab?style=flat-square&label=%E2%98%85)
-- **xTrimoGene** · xTrimoGene: an efficient and scalable representation learner for single-cell RNA-seq data (**NeurIPS 2024**) · `scRNA-seq` · [[code](https://github.com/biomap-research/scFoundation)] ![stars](https://img.shields.io/github/stars/biomap-research/scFoundation?style=flat-square&label=%E2%98%85)
 - **CellLM Large-Scale Cell Representation Learning** · Large-scale cell representation learning via divide-and-conquer contrastive learning (**arXiv 2023**) · `scRNA-seq` · [[paper](https://arxiv.org/abs/2306.04371)]
 - **scCLIP** · scCLIP: Multi-modal single-cell contrastive learning integration pre-training (**NeurIPS 2023**) · `scRNA-seq` `Multi-omics` · [[code](https://github.com/jsxlei/scCLIP)] ![stars](https://img.shields.io/github/stars/jsxlei/scCLIP?style=flat-square&label=%E2%98%85)
 - **single-cell masked autoencoder (scMAE)** · Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper (**NeurIPS 2023**) · `scRNA-seq`
 - **tGPT** · Generative pretraining from large-scale transcriptomes for single-cell deciphering (**iScience 2023**) · `scRNA-seq` `Generative` · [[paper](https://doi.org/10.1016/j.isci.2023.106536)]
+- **xTrimoGene** · xTrimoGene: an efficient and scalable representation learner for single-cell RNA-seq data (**NeurIPS 2023**) · `scRNA-seq` · [[paper](https://doi.org/10.52202/075280-3039)] [[code](https://github.com/biomap-research/scFoundation)] ![stars](https://img.shields.io/github/stars/biomap-research/scFoundation?style=flat-square&label=%E2%98%85)
 - **scPretrain** · scPretrain: multi-task self-supervised learning for cell-type classification (**Bioinformatics 2022**) · `scRNA-seq` · [[paper](https://doi.org/10.1093/bioinformatics/btac007)]
 - **ProCyon** · ProCyon: A multimodal foundation model for protein phenotypes (**bioRxiv**) · `scRNA-seq` `Proteomics` `Multi-omics` · [[paper](https://doi.org/10.1101/2024.12.10.627665)] [[code](https://github.com/mims-harvard/ProCyon)] ![stars](https://img.shields.io/github/stars/mims-harvard/ProCyon?style=flat-square&label=%E2%98%85)
 
@@ -93,11 +93,11 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **scGPT-spatial** · scGPT-spatial: Continual pretraining of single-cell foundation model for spatial transcriptomics (**bioRxiv 2025**) · `Spatial` `scRNA-seq` · [[paper](https://doi.org/10.1101/2025.02.05.636714)]
 - **SpaTranslator** · SpaTranslator: A deep generative framework for universal spatial multi-omics cross-modality translation (**bioRxiv 2025**) · `Spatial` `Multi-omics` `Generative` · [[paper](https://doi.org/10.1101/2025.11.15.688644)]
 - **Stereo-Cell** · Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density DNA Nanoball-Patterned Arrays (**Science 2025**) · `Spatial` · [[paper](https://doi.org/10.1126/science.adr0475)] [[code](https://github.com/haoshijie13/Stereo-cell-paper-code)] ![stars](https://img.shields.io/github/stars/haoshijie13/Stereo-cell-paper-code?style=flat-square&label=%E2%98%85)
-- **stFormer A framework for gene representation** · stFormer: a foundation model for spatial transcriptomics (**bioRxiv 2025**) · `Spatial` `scRNA-seq`
 - **SToFM** · Stofm: a multi-scale foundation model for spatial transcriptomics (**arXiv 2025**) · `Spatial` `scRNA-seq` · [[paper](https://arxiv.org/abs/2507.11588)]
 - **STPath** · STPath: a generative foundation model for integrating spatial transcriptomics and whole-slide images (**npj Digital Medicine 2025**) · `Spatial` `Histology` `Imaging` `Generative` `scRNA-seq` · [[paper](https://www.nature.com/articles/s41746-025-02020-3)]
 - **SWITCH** · Integrative deep learning of spatial multi-omics with SWITCH (**Nature Computational Science 2025**) · `Spatial` `Multi-omics` `Generative` · [[paper](https://doi.org/10.1038/s43588-025-00891-w)]
 - **nichecompass** · Large-scale characterization of cell niches in spatial atlases using bio-inspired graph learning (**bioRxiv 2024**) · `Spatial` `Cross-species` `Graph` · [[code](https://github.com/Lotfollahi-lab/nichecompass)] ![stars](https://img.shields.io/github/stars/Lotfollahi-lab/nichecompass?style=flat-square&label=%E2%98%85)
+- **stFormer A framework for gene representation** · stFormer: a foundation model for spatial transcriptomics (**bioRxiv 2024**) · `Spatial` `scRNA-seq` · [[paper](https://doi.org/10.1101/2024.09.27.615337)]
 
 ### Epigenomics & Chromatin Accessibility (scATAC)
 
@@ -141,13 +141,13 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 *GRN inference and graph priors.*
 
-- **GREmLN** · GREmLN: A Cellular Graph Structure Aware Transcriptomics Foundation Model (**Cell 2026**) · `Gene regulation` `Graph` `scRNA-seq`
 - **Cell-GraphCompass** · Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model (**National Science Review 2025**) · `Gene regulation` `Graph` `scRNA-seq` · [[paper](https://doi.org/10.1093/nsr/nwaf255)]
 - **CellProphet** · Dissecting dynamic gene regulatory network using transformer-based temporal causality analysis (**bioRxiv 2025**) · `Gene regulation` · [[code](https://github.com/prsigma/CellProphet)] ![stars](https://img.shields.io/github/stars/prsigma/CellProphet?style=flat-square&label=%E2%98%85)
+- **GREmLN** · GREmLN: A Cellular Graph Structure Aware Transcriptomics Foundation Model (**bioRxiv 2025**) · `Gene regulation` `Graph` `scRNA-seq` · [[paper](https://doi.org/10.1101/2025.07.03.663009)]
 - **GeneCompass** · GeneCompass: deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation model (**Cell Research 2024**) · `Gene regulation` `Cross-species` · [[paper](https://doi.org/10.1038/s41422-024-01034-y)]
 - **scCello** · Cell ontology guided transcriptome foundation model (**NeurIPS 2024**) · `Gene regulation` `scRNA-seq` · [[paper](https://doi.org/10.52202/079017-0204)]
 - **GeneFormer** · Transfer learning enables predictions in network biology (**Nature 2023**) · `Gene regulation` `scRNA-seq` · [[paper](https://doi.org/10.1038/s41586-023-06139-9)]
-- **MuSe-GNN** · Muse-gnn: Learning unified gene representation from multimodal biological graph data (**2023**) · `Gene regulation` `Multi-omics` `Graph`
+- **MuSe-GNN** · Muse-gnn: Learning unified gene representation from multimodal biological graph data (**NeurIPS 2023**) · `Gene regulation` `Multi-omics` `Graph` · [[paper](https://doi.org/10.52202/075280-1071)]
 
 ### Generative Models (Diffusion / Flow / VAE)
 
@@ -192,7 +192,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **GenePT** · Simple and effective embedding model for single-cell biology built from ChatGPT (**Nature Biomedical Engineering 2024**) · `LLM` `Text` `scRNA-seq` · [[paper](https://www.nature.com/articles/s41551-024-01284-6)]
 - **LangCell** · Langcell: Language-cell pre-training for cell identity understanding (**arXiv 2024**) · `LLM` · [[paper](https://arxiv.org/abs/2405.06708)]
 - **SATURN** · Toward universal cell embeddings: integrating single-cell RNA-seq datasets across species with SATURN (**Nature Methods 2024**) · `LLM` `Proteomics` `Text` `Cross-species` `scRNA-seq` · [[paper](https://doi.org/10.1038/s41592-024-02191-z)]
-- **scMulan** · scMulan: a multitask generative pre-trained language model for single-cell analysis (**Nature 2024**) · `LLM` `Text` `Generative`
+- **scMulan** · scMulan: a multitask generative pre-trained language model for single-cell analysis (**RECOMB 2024**) · `LLM` `Text` `Generative` · [[paper](https://doi.org/10.1007/978-1-0716-3989-4_57)]
 - **scReader** · scReader: Prompting Large Language Models to Interpret scRNA-seq Data (**ICDM Workshops 2024**) · `LLM` `Text` `scRNA-seq` · [[paper](https://doi.org/10.1109/icdmw65004.2024.00092)]
 - **CellPLM** · CellPLM: Pre-training of cell language model beyond single cells (**bioRxiv 2023**) · `LLM` `Text` · [[paper](https://doi.org/10.1101/2023.10.03.560734)]
 - **scHyena** · schyena: Foundation model for full-length single-cell rna-seq analysis in brain (**arXiv 2023**) · `LLM` `scRNA-seq` · [[paper](https://arxiv.org/abs/2310.02713)]
@@ -217,8 +217,8 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 *Atlas-scale, cross-species and cell-search models.*
 
 - **UCE** · Universal cell embedding provides a foundation model for cell biology (**Nature 2026**) · [[paper](https://doi.org/10.1038/s41586-026-10689-z)] [[code](https://github.com/snap-stanford/UCE)] ![stars](https://img.shields.io/github/stars/snap-stanford/UCE?style=flat-square&label=%E2%98%85)
-- **SCimilarity** · A cell atlas foundation model for scalable search of similar human cells (**Nature 2025**) · `scRNA-seq`
 - **TranscriptFormer** · A Cross-Species Generative Cell Atlas Across 1.5 Billion Years of Evolution: The TranscriptFormer Single-cell Model (**bioRxiv 2025**) · `Cross-species` `Generative` `scRNA-seq` · [[paper](https://doi.org/10.1101/2025.04.25.650731)]
+- **SCimilarity** · A cell atlas foundation model for scalable search of similar human cells (**Nature 2024**) · `scRNA-seq` · [[paper](https://doi.org/10.1038/s41586-024-08411-y)]
 - **scPoli** · Population-level integration of single-cell datasets enables multi-scale analysis across samples (**Nature Methods 2023**) · [[paper](https://doi.org/10.1038/s41592-023-02035-2)]
 
 ### Perturbation Prediction & Virtual Cell / World Models
@@ -246,6 +246,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **STATE** · Predicting cellular responses to perturbation across diverse contexts with State (**Cell 2026**) · `Perturbation` · [[paper](https://doi.org/10.1016/j.cell.2026.07.052)]
 - **StateXDiff** · StateXDiff: Cell State-Contextualized Multimodal Diffusion for Single-Cell Perturbation Prediction (**arXiv 2026**) · `Perturbation` `Proteomics` `Multi-omics` `Generative` `scRNA-seq` · [[paper](https://arxiv.org/abs/2605.16104)]
 - **STRAND** · STRAND: Sequence-Conditioned Transport for Single-Cell Perturbations (**arXiv 2026**) · `Perturbation` · [[paper](https://arxiv.org/abs/2602.10156)]
+- **TwinCell** · TwinCell: Large Causal Cell Model for Reliable and Interpretable Therapeutic Target Prioritisation (**bioRxiv 2026**) · `Perturbation` · [[paper](https://doi.org/10.64898/2026.01.29.702072)]
 - **TxPert** · TxPert: using multiple knowledge graphs for prediction of transcriptomic perturbation effects (**Nature Biotechnology 2026**) · `Perturbation` `Graph` `scRNA-seq` · [[paper](https://www.nature.com/articles/s41587-026-03113-4)] [[code](https://github.com/valence-labs/TxPert)] ![stars](https://img.shields.io/github/stars/valence-labs/TxPert?style=flat-square&label=%E2%98%85)
 - **UniPert-G2CP** · UniPert-G2CP bridges genetic and chemical screens from molecular representation to phenotype modeling (**Cell 2026**) · `Perturbation` `Multi-omics` `Drug response` · [[paper](https://doi.org/10.1016/j.cell.2026.06.005)] [[code](https://github.com/TencentAILabHealthcare/UniPert)] ![stars](https://img.shields.io/github/stars/TencentAILabHealthcare/UniPert?style=flat-square&label=%E2%98%85)
 - **X-Cell** · X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts via Diffusion Language Models (**bioRxiv 2026**) · `Perturbation` `Text` `Generative` · [[paper](https://doi.org/10.64898/2026.03.18.712807)] [[project](https://vimeo.com/1174241862)]
@@ -262,7 +263,6 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **GPerturb** · GPerturb: Gaussian process modelling of single-cell perturbation data (**Nature Communications 2025**) · `Perturbation` · [[paper](https://www.nature.com/articles/s41467-025-61165-7)] [[code](https://github.com/hwxing3259/GPerturb)] ![stars](https://img.shields.io/github/stars/hwxing3259/GPerturb?style=flat-square&label=%E2%98%85)
 - **LPM (Large Perturbation Model)** · In silico biological discovery with large perturbation models (**Nature Computational Science 2025**) · `Perturbation` `scRNA-seq` · [[paper](https://www.nature.com/articles/s43588-025-00870-1)]
 - **Mixscale** · Systematic Reconstruction of Molecular Pathway Signatures Using Scalable Single-Cell Perturbation Screens (**Nature Cell Biology 2025**) · `Perturbation` · [[paper](https://doi.org/10.1038/s41556-025-01622-z)] [[code](https://github.com/satijalab/Mixscale)] ![stars](https://img.shields.io/github/stars/satijalab/Mixscale?style=flat-square&label=%E2%98%85)
-- **Multimodal foundation model** · Multimodal foundation model predicts zero-shot functional perturbations and cell fate dynamics (**bioRxiv 2025**) · `Perturbation` `Multi-omics`
 - **OCTO-vc** · OCTO-vc: Virtual Cells in Real Tissue (**2025**) · `Perturbation` `Virtual cell`
 - **OmniPert** · OmniPert: A Deep Learning Foundation Model for Predicting Responses to Genetic and Chemical Perturbations in Single Cancer Cells (**bioRxiv 2025**) · `Perturbation` `Drug response` · [[paper](https://doi.org/10.1101/2025.07.02.662744)]
 - **PRESCRIBE** · PRESCRIBE: Predicting Single-Cell Responses with Bayesian Estimation (**NeurIPS 2025**, poster) · `Perturbation` · [[paper](https://openreview.net/forum?id=A5O41ntKjk)]
@@ -278,6 +278,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **UniCure** · Unicure: A Foundation Model for Predicting Personalized Cancer Therapy Response (**bioRxiv 2025**) · `Perturbation` · [[paper](https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1)] [[code](https://github.com/ZexiChen502/UniCure)] ![stars](https://img.shields.io/github/stars/ZexiChen502/UniCure?style=flat-square&label=%E2%98%85)
 - **VCWorld** · VCWorld: A Biological World Model for Virtual Cell Simulation (**arXiv 2025**) · `Perturbation` `Text` `Virtual cell` · [[paper](https://arxiv.org/abs/2512.00306)] [[code](https://github.com/GENTEL-lab/VCWorld)] ![stars](https://img.shields.io/github/stars/GENTEL-lab/VCWorld?style=flat-square&label=%E2%98%85)
 - **XTransferCDR** · Learning Cross-Domain Representations for Transferable Drug Perturbations on Single-Cell Transcriptional Responses (**AAAI 2025**) · `Perturbation` `Drug response` · [[paper](https://ojs.aaai.org/index.php/AAAI/article/view/34073)] [[code](https://github.com/hliulab/XTransferCDR)] ![stars](https://img.shields.io/github/stars/hliulab/XTransferCDR?style=flat-square&label=%E2%98%85)
+- **Multimodal foundation model** · Multimodal foundation model predicts zero-shot functional perturbations and cell fate dynamics (**bioRxiv 2024**) · `Perturbation` `Multi-omics` · [[paper](https://doi.org/10.1101/2024.12.19.629561)]
 - **PRnet** · Predicting transcriptional responses to novel chemical perturbations using deep generative model for drug discovery (**Nature Communications 2024**) · `Perturbation` `Drug response` `Generative` · [[paper](https://www.nature.com/articles/s41467-024-53457-1)]
 - **scGenePT** · scGenePT: Is language all you need for modeling single-cell perturbations? (**bioRxiv 2024**) · `Perturbation` `scRNA-seq` · [[paper](https://www.biorxiv.org/content/10.1101/2024.10.23.619972v1)]
 - **scLAMBDA** · Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA (**bioRxiv 2024**) · `Perturbation` `Generative` `scRNA-seq` · [[paper](https://www.biorxiv.org/content/10.1101/2024.12.04.626878v1)]
@@ -286,14 +287,13 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **CellPolaris** · CellPolaris: Decoding Cell Fate through Generalization Transfer Learning of Gene Regulatory Networks (**bioRxiv 2023**) · `Perturbation` `Gene regulation` `scRNA-seq` · [[paper](https://doi.org/10.1101/2023.09.25.559244)]
 - **CINEMA-OT** · Causal identification of single-cell experimental perturbation effects with CINEMA-OT (**Nature Methods 2023**) · `Perturbation` `scRNA-seq` · [[paper](https://www.nature.com/articles/s41592-023-02040-5)]
 - **HarmonyCell** · HarmonyCell: Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts (**bioRxiv**) · `Perturbation` · [[paper](https://arxiv.org/pdf/2603.01396)]
-- **TwinCell** · TwinCell: Large Causal Cell Model for Reliable and Interpretable Therapeutic Target Prioritisation (**bioRxiv**) · `Perturbation`
 - **X-Pert** · Unified Multimodal Learning Enables Generalized Cellular Response Prediction to Diverse Perturbations (**bioRxiv**) · `Perturbation` `Multi-omics` · [[paper](https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2)] [[code](https://github.com/Chen-Li-17/X-Pert)] ![stars](https://img.shields.io/github/stars/Chen-Li-17/X-Pert?style=flat-square&label=%E2%98%85)
 
 ### Other Single-cell Foundation Models
 
 *Fallback only.*
 
-- **scPRINT-2** · scPRINT-2: Towards the next-generation of cell foundation models and benchmarks (**bioRxiv 2026**)
+- **scPRINT-2** · scPRINT-2: Towards the next-generation of cell foundation models and benchmarks (**bioRxiv 2025**) · [[paper](https://doi.org/10.64898/2025.12.11.693702)]
 
 ## Benchmarks & Evaluation
 
@@ -303,6 +303,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - Benchmarking virtual cell models for in-the-wild perturbation response (**arXiv 2026**) · `Perturbation` `Virtual cell` · [[paper](https://arxiv.org/abs/2604.27646)]
 - CellBench-LS: Benchmark Evaluation of Single-cell Foundation Models for Low-supervision Scenarios (**bioRxiv 2026**) · [[paper](https://www.biorxiv.org/content/10.64898/2026.04.01.714123v1)]
 - Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance (**Nature Methods 2026**) · [[paper](https://doi.org/10.1038/s41592-026-03120-y)]
+- Evaluating the utilities of foundation models in single-cell data analysis (**Advanced Science 2026**) · [[paper](https://doi.org/10.1002/advs.202514490)]
 - scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing (**AAAI 2026**) · `scRNA-seq` · [[paper](https://doi.org/10.1609/aaai.v40i2.37110)]
 - Towards Autonomous Mechanistic Reasoning in Virtual Cells (**arXiv 2026**) · `Virtual cell` `Agent` · [[paper](https://arxiv.org/abs/2604.11661)]
 - A Systematic Evaluation of Single-Cell Foundation Models on Cell-Type Classification Task (**WSDM 2025**) · [[paper](https://dl.acm.org/doi/10.1145/3701551.3708811)]
@@ -331,12 +332,11 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - Sparse Autoencoders Reveal Interpretable Features in Single-Cell Foundation Models (**bioRxiv 2025**) · [[paper](https://www.biorxiv.org/content/10.1101/2025.10.22.681631v1)]
 - Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation (**Nature Biotechnology 2025**) · `Perturbation` · [[paper](https://www.nature.com/articles/s41587-025-02777-8)]
 - Virtual Cell Challenge: Toward a Turing test for the virtual cell (**Cell 2025**) · `Virtual cell` · [[paper](https://doi.org/10.1016/j.cell.2025.06.008)]
-- What do single-cell models already know about perturbations? (**2025**) · `Perturbation` `Generative` `scRNA-seq` · [[code](https://github.com/yhsure/perturbations)] ![stars](https://img.shields.io/github/stars/yhsure/perturbations?style=flat-square&label=%E2%98%85)
+- What do single-cell models already know about perturbations? (**Genes 2025**) · `Perturbation` `Generative` `scRNA-seq` · [[paper](https://doi.org/10.3390/genes16121439)] [[code](https://github.com/yhsure/perturbations)] ![stars](https://img.shields.io/github/stars/yhsure/perturbations?style=flat-square&label=%E2%98%85)
 - Zero-shot evaluation reveals limitations of single-cell foundation models (**Genome Biology 2025**) · [[paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x)]
 - Benchmarking Transcriptomics Foundation Models for Perturbation Analysis: one PCA still rules them all (**arXiv 2024**) · `Perturbation` `scRNA-seq` · [[paper](https://arxiv.org/abs/2410.13956)]
 - BioLLM: A standardized framework for integrating and benchmarking single-cell foundation models (**Patterns 2024**) · [[paper](https://www.sciencedirect.com/science/article/pii/S2666389925001746)]
 - Delineating the effective use of self-supervised learning in single-cell genomics (**Nature Machine Intelligence 2024**) · [[paper](https://www.nature.com/articles/s42256-024-00934-3)]
-- Evaluating the utilities of foundation models in single-cell data analysis (**bioRxiv 2024**)
 - PertEval-scFM: Benchmarking Single-Cell Foundation Models for Perturbation Effect Prediction (**ICML 2024**) · `Perturbation` · [[paper](https://openreview.net/forum?id=t04D9bkKUq)]
 - A Deep Dive into Single-Cell RNA Sequencing Foundation Models (**bioRxiv 2023**) · `scRNA-seq` · [[paper](https://www.biorxiv.org/content/10.1101/2023.10.19.563100v1)]
 - Foundation Models Meet Imbalanced Single-Cell Data When Learning Cell Type Annotations (**bioRxiv 2023**) · [[paper](https://www.biorxiv.org/content/10.1101/2023.10.24.563625v1)]
@@ -391,46 +391,46 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 ## Surveys
 
-- A survey on foundation language models for single-cell biology (**2025**) · `Text`
-- AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms, and clinical translation potential (**2025**) · `Perturbation` `Virtual cell`
+- A survey on foundation language models for single-cell biology (**ACL 2025**) · `Text` · [[paper](https://doi.org/10.18653/v1/2025.acl-long.26)]
+- AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms, and clinical translation potential (**npj Digital Medicine 2025**) · `Perturbation` `Virtual cell` · [[paper](https://doi.org/10.1038/s41746-025-02198-6)]
 - Foundation models in bioinformatics (**National Science Review 2025**) · [[paper](https://academic.oup.com/nsr/article/12/4/nwaf028/7979309)]
 - Large Language Models Meet Virtual Cell: A Survey (**arXiv 2025**) · `Text` `Virtual cell` · [[paper](https://arxiv.org/abs/2510.07706)]
-- Single-cell foundation models: bringing artificial intelligence into cell biology (**2025**)
-- Transformative advances in single-cell omics: a comprehensive review of foundation models, multimodal integration and computational ecosystems (**2025**) · `Multi-omics`
+- Single-cell foundation models: bringing artificial intelligence into cell biology (**Experimental & Molecular Medicine 2025**) · [[paper](https://doi.org/10.1038/s12276-025-01547-5)]
+- Transformative advances in single-cell omics: a comprehensive review of foundation models, multimodal integration and computational ecosystems (**Journal of Translational Medicine 2025**) · `Multi-omics` · [[paper](https://doi.org/10.1186/s12967-025-07091-0)]
 - Transformers and genome language models (**Nature Machine Intelligence 2025**) · `Text` `DNA sequence` · [[paper](https://www.nature.com/articles/s42256-025-01007-9)]
 - Harnessing the deep learning power of foundation models in single-cell omics (**Nature Reviews Molecular Cell Biology 2024**) · [[paper](https://www.nature.com/articles/s41580-024-00756-6)]
 - Transformers in single-cell omics: a review and new perspectives (**Nature Methods 2024**) · [[paper](https://www.nature.com/articles/s41592-024-02353-z)]
 
 ## Perspectives & Commentary
 
+- From Equations to Agents: The Artificial Intelligence Virtual Cell Reshaping Precision Oncology (**The Innovation Oncology 2026**) · `Virtual cell` `Agent` · [[paper](https://doi.org/10.59717/j.xinn-oncol.2026.100002)]
 - Interpretation, extrapolation and perturbation of single cells (**Nature Reviews Genetics 2026**) · `Perturbation` · [[paper](https://www.nature.com/articles/s41576-025-00920-4)]
 - Minimal life by computer (**Nature Biotechnology 2026**) · [[paper](https://doi.org/10.1038/s41587-026-03110-7)]
 - Artificial Intelligence Virtual Cells: From Measurements to Decisions across Modality, Scale, Dynamics, and Evaluation (**arXiv 2025**) · `Virtual cell` · [[paper](https://arxiv.org/abs/2510.12498)]
-- Build the virtual cell with artificial intelligence: a perspective for cancer research (**2025**) · `Virtual cell`
+- Build the virtual cell with artificial intelligence: a perspective for cancer research (**Military Medical Research 2025**) · `Virtual cell` · [[paper](https://doi.org/10.1186/s40779-025-00591-6)]
 - Grow AI virtual cells: three data pillars and closed-loop learning (**Cell Research 2025**) · `Cross-species` `Virtual cell` · [[paper](https://doi.org/10.1038/s41422-025-01101-y)]
 - Overcoming barriers to the wide adoption of single-cell large language models in biomedical research (**Nature Biotechnology 2025**) · `Text` · [[paper](https://www.nature.com/articles/s41587-025-02846-y)]
 - Towards multimodal foundation models in molecular cell biology (**Nature 2025**) · `Multi-omics` · [[paper](https://www.nature.com/articles/s41586-025-08710-y)]
-- Unresolved questions in the application of artificial intelligence virtual cells for cancer research (**2025**) · `Virtual cell`
+- Unresolved questions in the application of artificial intelligence virtual cells for cancer research (**Military Medical Research 2025**) · `Virtual cell` · [[paper](https://doi.org/10.1186/s40779-025-00608-0)]
 - Virtual Cells as Causal World Models: A Perspective on Evaluation (**Cell 2025**) · `Virtual cell`
 - Virtual Cells: From Conceptual Frameworks to Biomedical Applications (**arXiv 2025**) · `Virtual cell` · [[paper](https://arxiv.org/abs/2509.18220)]
 - Virtual cells: Predict, explain, discover (**arXiv 2025**) · `Virtual cell` · [[paper](https://arxiv.org/abs/2505.14613)]
 - How to build the virtual cell with artificial intelligence: Priorities and opportunities (**Cell 2024**) · `Virtual cell` · [[paper](https://doi.org/10.1016/j.cell.2024.11.015)]
 - The Human Cell Atlas: from a cell census to a unified foundation model (**Nature 2024**) · [[paper](https://www.nature.com/articles/s41586-024-08338-4)]
 - Toward a foundation model of causal cell and tissue biology with a Perturbation Cell and Tissue Atlas (**Cell 2024**) · `Perturbation` · [[paper](https://www.cell.com/cell/abstract/S0092-8674(24)00829-8)]
-- From Equations to Agents: The Artificial Intelligence Virtual Cell Reshaping Precision Oncology (**Cell**) · `Virtual cell` `Agent`
 - Towards Virtual Cell Construction by AI (**Cell**) · `Virtual cell`
 
 ## Other References
 
-- Artificial intelligence-enabled multi-scale virtual cell: perspective, challenges, and opportunities (**Bioinformatics 2026**) · `Virtual cell`
+- Artificial intelligence-enabled multi-scale virtual cell: perspective, challenges, and opportunities (**Briefings in Bioinformatics 2026**) · `Virtual cell` · [[paper](https://doi.org/10.1093/bib/bbag104)]
 - Foundation models improve perturbation response prediction (**bioRxiv 2026**) · `Perturbation` `Drug response` · [[paper](https://www.biorxiv.org/content/10.64898/2026.02.18.706454v1)] [[code](https://github.com/genbio-ai/foundation-models-perturbation)] ![stars](https://img.shields.io/github/stars/genbio-ai/foundation-models-perturbation?style=flat-square&label=%E2%98%85)
 - Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT (**arXiv 2026**) · `Gene regulation` · [[paper](https://arxiv.org/abs/2603.02952)]
 - Towards predictive virtual embryos with genomics and AI (**Nature Methods 2026**) · [[paper](https://doi.org/10.1038/s41592-026-03055-4)]
 - Virtual Cells Need Context, Not Just Scale (**bioRxiv 2026**) · `Virtual cell` · [[paper](https://doi.org/10.64898/2026.02.04.703804)]
 - What Makes a Representation Good for Single-Cell Perturbation Prediction? (**arXiv 2026**) · `Perturbation` · [[paper](https://arxiv.org/abs/2605.19343)]
+- Batch Effects Remain a Fundamental Barrier to Universal Embeddings in Single-Cell Foundation Models (**bioRxiv 2025**) · [[paper](https://doi.org/10.64898/2025.12.19.695371)]
 - Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) · `Perturbation` · [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v3)]
 - Toward ai-driven digital organism: Multiscale foundation models for predicting, simulating and programming biology at all levels (**arXiv 2024**) · `Virtual cell` · [[paper](https://arxiv.org/abs/2412.06993)]
-- Batch Effects Remain a Fundamental Barrier to Universal Embeddings in Single-Cell Foundation Models (**bioRxiv**)
 - Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models (**arXiv**) · [[paper](https://arxiv.org/abs/2509.14723)]
 
 ## Where to Publish & Track New Work

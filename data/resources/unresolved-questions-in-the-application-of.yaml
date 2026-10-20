@@ -3,8 +3,11 @@ kind: resource
 type: perspective
 title: Unresolved questions in the application of artificial intelligence virtual cells for cancer research
 year: 2025
+venue: Military Medical Research
 tags:
 - virtual-cell
+links:
+  paper: https://doi.org/10.1186/s40779-025-00608-0
 citation: 'Ardila, Carlos M., and Pradeep K. Yadalam. "Unresolved questions in the application of artificial
   intelligence virtual cells for cancer research." Military Medical Research 12, no. 1 (2025): 19.'
 reviewed: false

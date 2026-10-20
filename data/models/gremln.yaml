@@ -2,8 +2,8 @@ id: gremln
 kind: model
 name: GREmLN
 title: 'GREmLN: A Cellular Graph Structure Aware Transcriptomics Foundation Model'
-year: 2026
-venue: Cell
+year: 2025
+venue: bioRxiv
 category: grn
 tags:
 - gene-regulation
@@ -19,8 +19,13 @@ key: 'Issue: standard language models such as transformers benefits from sequent
   Embedding-based Large Neural model), a foundation model that leverages graph signal processing to embed
   gene token graph structure directly within its attention mechanism, producing biologically informed
   single cell specific gene embeddings'
+links:
+  paper: https://doi.org/10.1101/2025.07.03.663009
 citation: 'Zhang, Mingxuan, Vinay S. Swamy, Rowan Cassius, Léo Dupire, Charilaos I. Kanatsoulis, Evan
   Paull, Mohammed AlQuraishi, Theofanis Karaletsos, and Andrea Califano. "GREmLN: A Cellular Graph Structure
   Aware Transcriptomics Foundation Model." In ICLR 2026 Workshop on Machine Learning for Genomics Explorations.
   2025.'
 reviewed: false
+review_notes:
+- venue was 'Cell' with no supporting source; set to the verified bioRxiv preprint. The citation mentions
+  an ICLR 2026 MLGenX workshop paper — not confirmed by any source.

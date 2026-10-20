@@ -2,7 +2,7 @@ id: scprint-2
 kind: model
 name: scPRINT-2
 title: 'scPRINT-2: Towards the next-generation of cell foundation models and benchmarks'
-year: 2026
+year: 2025
 venue: bioRxiv
 category: other
 task: expression denoising, cell embedding, and cell type prediction
@@ -10,6 +10,8 @@ key: propose an additive benchmark across a gymnasium of tasks to discover which
   From thesefindings, we present scPRINT-2, a single-cell Foundation Model pre-trained across 350 million
   cells and 16 organisms. Our contributions in pre-training tasks, tokenization, and losses made scPRINT-2
   state-of-the-art in expression denoising, cell embedding, and cell type prediction.
+links:
+  paper: https://doi.org/10.64898/2025.12.11.693702
 citation: 'Kalfon, Jérémie, Gabriel Peyré, and Laura Cantini. "scPRINT-2: Towards the next-generation
   of cell foundation models and benchmarks." bioRxiv (2025): 2025-12.'
 reviewed: false
