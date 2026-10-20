@@ -12,4 +12,8 @@ links:
 citation: 'Li, Krinos, Xianglu Xiao, Shenglong Deng, Lucas He, Zijun Zhong, Yuanjie Zou, Zhonghao Zhan,
   Zheng Hui, Weiye Bao, and Guang Yang. "Large Language Models Meet Virtual Cell: A Survey." arXiv preprint
   arXiv:2510.07706 (2025).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2510.07706
+review_basis: metadata
 reviewed: false

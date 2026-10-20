@@ -17,4 +17,8 @@ links:
 citation: 'Li, Wei, Fan Yang, Fang Wang, Yu Rong, Linjing Liu, Bingzhe Wu, Han Zhang, and Jianhua Yao.
   "scPROTEIN: a versatile deep graph contrastive learning framework for single-cell proteomics embedding."
   Nature Methods 21, no. 4 (2024): 623-634.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41592-024-02214-9
+review_basis: metadata
 reviewed: false

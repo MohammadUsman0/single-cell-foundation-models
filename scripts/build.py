@@ -164,7 +164,8 @@ def build_readme(models, resources, venues, vocab):
 
 PUBLIC_FIELDS = ("id", "kind", "name", "aliases", "title", "year", "venue", "venue_detail", "category",
                  "type", "tags", "modality", "architecture", "task", "key", "links", "model_card",
-                 "evaluates", "citation", "reviewed")
+                 "evaluates", "citation", "reviewed", "inputs", "outputs", "architecture_family", "code_status",
+                 "perturbation_type", "generalization", "added", "sources", "review_basis")
 
 
 def public(e, vocab):

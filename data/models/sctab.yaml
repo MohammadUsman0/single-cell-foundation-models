@@ -13,4 +13,8 @@ links:
 citation: 'Fischer, Felix, David S. Fischer, Roman Mukhin, Andrey Isaev, Evan Biederstedt, Alexandra-Chloé
   Villani, and Fabian J. Theis. "scTab: Scaling cross-tissue single-cell annotation models." Nature Communications
   15, no. 1 (2024): 6611.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41467-024-51059-5
+review_basis: metadata
 reviewed: false

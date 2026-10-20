@@ -11,4 +11,8 @@ tags:
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf
   code: https://github.com/theislab/CellFlow
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf
+review_basis: metadata
 reviewed: false

@@ -16,4 +16,8 @@ links:
   code: https://github.com/PharMolix/LangCell
 citation: 'Zhao, Suyuan, Jiahuan Zhang, Yushuai Wu, Yizhen Luo, and Zaiqing Nie. "Langcell: Language-cell
   pre-training for cell identity understanding." arXiv preprint arXiv:2405.06708 (2024).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2405.06708
+review_basis: metadata
 reviewed: false

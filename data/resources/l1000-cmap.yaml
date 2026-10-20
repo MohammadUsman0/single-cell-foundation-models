@@ -12,4 +12,8 @@ links:
 citation: 'Subramanian, Aravind, Rajiv Narayan, Steven M. Corsello, David D. Peck, Ted E. Natoli, Xiaodong
   Lu, Joshua Gould et al. "A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000
   Profiles." Cell 171, no. 6 (2017): 1437-1452.e17.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1016/j.cell.2017.10.049
+review_basis: metadata
 reviewed: false

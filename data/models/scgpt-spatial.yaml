@@ -19,4 +19,8 @@ links:
 citation: 'Wang, Chloe, Haotian Cui, Andrew Zhang, Ronald Xie, Hani Goodarzi, and Bo Wang. "scGPT-spatial:
   Continual pretraining of single-cell foundation model for spatial transcriptomics." bioRxiv (2025):
   2025-02.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.02.05.636714
+review_basis: metadata
 reviewed: false

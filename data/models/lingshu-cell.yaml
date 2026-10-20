@@ -21,6 +21,10 @@ links:
 citation: 'Zhang, Han, Guo-Hua Yuan, Chaohao Yuan, Tingyang Xu, Tian Bian, Hong Cheng, Wenbing Huang,
   Deli Zhao, and Yu Rong. "Lingshu-Cell: A generative cellular world model for transcriptome modeling
   toward virtual cells." arXiv preprint arXiv:2603.25240 (2026).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2603.25240
+review_basis: metadata
 reviewed: false
 review_notes:
 - code field pointed to a non-code site (https://alibaba-damo-academy.github.io/lingshu-cell-homepage/);

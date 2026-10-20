@@ -15,4 +15,8 @@ links:
   code: https://github.com/gersteinlab/CellForge
 citation: 'Tang, Xiangru, Zhuoyun Yu, Jiapeng Chen, Yan Cui, Daniel Shao, Weixu Wang, Fang Wu et al. "CellForge:
   agentic design of virtual cell models." arXiv preprint arXiv:2508.02276 (2025).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2508.02276
+review_basis: metadata
 reviewed: false

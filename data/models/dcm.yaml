@@ -17,4 +17,8 @@ links:
   paper: https://doi.org/10.64898/2026.02.19.705033
 citation: 'Bhattacharya, Sanjukta, Christian Gensbigler, Shaamil Karim, and Jon Lees. "Discrete Diffusion
   for Single-Cell Gene Expression Modeling." bioRxiv (2026): 2026-02.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.64898/2026.02.19.705033
+review_basis: metadata
 reviewed: false

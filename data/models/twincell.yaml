@@ -16,4 +16,8 @@ links:
 citation: 'Morlot, Jean-Baptiste, Thomaz Dias, Sebastien Legare, Alessandro Romualdi, Elie Hatem, and
   Yann Abraham. "TwinCell: Large Causal Cell Model for Reliable and Interpretable Therapeutic Target Prioritisation."
   bioRxiv (2026): 2026-01.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.64898/2026.01.29.702072
+review_basis: metadata
 reviewed: false

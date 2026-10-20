@@ -16,4 +16,8 @@ links:
   code: https://github.com/czi-ai/scGenePT
 citation: 'Istrate, Ana-Maria, Donghui Li, and Theofanis Karaletsos. "scGenePT: Is language all you need
   for modeling single-cell perturbations?." bioRxiv (2024).'
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2024.10.23.619972v1
+review_basis: metadata
 reviewed: false

@@ -11,4 +11,8 @@ links:
   paper: https://doi.org/10.1038/s12276-025-01547-5
 citation: 'Baek, Seungbyn, Kyungwoo Song, and Insuk Lee. "Single-cell foundation models: bringing artificial
   intelligence into cell biology." Experimental & Molecular Medicine (2025): 1-13.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s12276-025-01547-5
+review_basis: metadata
 reviewed: false

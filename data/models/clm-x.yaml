@@ -19,4 +19,8 @@ links:
 citation: 'Li, Bowen, Ziqiang Liu, Zhen Wang, Zhenyu Xu, Yantao Li, Chulin Sha, and Xiaolin Li. "CLM-X:
   A multimodal single-cell foundation model with flexible multi-way Transformer for unified scRNA-seq
   and scATAC-seq analysis." bioRxiv (2026): 2026-02.'
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.64898/2026.02.17.704943v1
+review_basis: metadata
 reviewed: false

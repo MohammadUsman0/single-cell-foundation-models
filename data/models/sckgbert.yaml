@@ -12,4 +12,8 @@ links:
   code: https://huggingface.co/catly/scKGBERT
 citation: 'Li, Yang, Guanyu Qiao, Hongli Du, Xin Gao, and Guohua Wang. "scKGBERT: a knowledge-enhanced
   foundation model for single-cell transcriptomics." Genome Biology 26, no. 1 (2025): 402.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1186/s13059-025-03862-6
+review_basis: metadata
 reviewed: false

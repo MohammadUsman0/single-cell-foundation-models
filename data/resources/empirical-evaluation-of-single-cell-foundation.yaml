@@ -11,4 +11,8 @@ links:
   paper: https://www.biorxiv.org/content/10.1101/2025.10.31.685892v1
 citation: Roman, Ahmed, Shreya Johri, Riccardo Conci, Eliezer M. Van Allen, and Haitham Elmarakeby. "Empirical
   Evaluation of Single-Cell Foundation Models for Predicting Cancer Outcomes." bioRxiv (2025).
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2025.10.31.685892v1
+review_basis: metadata
 reviewed: false

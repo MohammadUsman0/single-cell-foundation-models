@@ -12,4 +12,8 @@ links:
   paper: https://www.biorxiv.org/content/10.1101/2025.01.29.635607v1
 citation: Zhong, Jeffrey, Lechuan Li, Ruth Dannenfelser, and Vicky Yao. "Benchmarking gene embeddings
   from sequence, expression, network, and text models for functional prediction tasks." bioRxiv (2025).
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2025.01.29.635607v1
+review_basis: metadata
 reviewed: false

@@ -20,4 +20,8 @@ links:
 citation: 'Li, Zhongzhan, Sanqing Qu, Haixin Liang, Ruohui Tang, Xudong Zhang, Fan Lu, Jiani Yang et al.
   "Integrative deep learning of spatial multi-omics with SWITCH." Nature Computational Science (2025):
   1-13.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s43588-025-00891-w
+review_basis: metadata
 reviewed: false

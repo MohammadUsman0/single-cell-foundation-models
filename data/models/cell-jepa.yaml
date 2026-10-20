@@ -18,4 +18,8 @@ links:
 citation: 'ElSheikh, Ali, Rui-Xi Wang, Weimin Wu, Yibo Wen, Payam Dibaeinia, Jennifer Yuntong Zhang, Jerry
   Yao-Chieh Hu et al. "Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics." arXiv
   preprint arXiv:2602.02093 (2026).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2602.02093
+review_basis: metadata
 reviewed: false

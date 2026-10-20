@@ -20,4 +20,8 @@ links:
 citation: 'Theus, Alexander, Florian Barkmann, David Wissel, and Valentina Boeva. "CancerFoundation: A
   single-cell RNA sequencing foundation model to decipher drug resistance in cancer." bioRxiv (2024):
   2024-11.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2024.11.01.621087
+review_basis: metadata
 reviewed: false

@@ -19,4 +19,8 @@ links:
 citation: 'Fang, Chen, Wentao Cui, Zhilong Hu, Wenhao Liu, Shubai Chen, Shaole Chang, Qingqing Long et
   al. "Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model." National Science
   Review (2025): nwaf255.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1093/nsr/nwaf255
+review_basis: metadata
 reviewed: false

@@ -11,4 +11,8 @@ links:
 citation: 'Cho, Nathan H., Keith C. Cheveralls, Andreas-David Brunner, Kibeom Kim, André C. Michaelis,
   Preethi Raghavan, Hirofumi Kobayashi et al. "OpenCell: Endogenous tagging for the cartography of human
   cellular organization." Science 375, no. 6585 (2022): eabi6983.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1126/science.abi6983
+review_basis: metadata
 reviewed: false

@@ -13,4 +13,8 @@ links:
   code: https://github.com/DeepGraphLearning/PerturbDiff
 citation: 'Yuan, Xinyu, Xixian Liu, Ya Shi Zhang, Zuobai Zhang, Hongyu Guo, and Jian Tang. "PerturbDiff:
   Functional Diffusion for Single-Cell Perturbation Modeling." arXiv preprint arXiv:2602.19685 (2026).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2602.19685
+review_basis: metadata
 reviewed: false

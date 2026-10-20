@@ -13,4 +13,8 @@ links:
 citation: 'De Brouwer, Edward, Carl Edwards, Alexander Wu, Jenna Collier, Graham Heimberg, Xiner Li, Meena
   Subramaniam et al. "AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents." arXiv preprint
   arXiv:2605.10876 (2026).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2605.10876
+review_basis: metadata
 reviewed: false

@@ -17,4 +17,8 @@ links:
   code: https://github.com/gefeiwang/scLAMBDA
 citation: Wang, Gefei, Tianyu Liu, Jia Zhao, Youshu Cheng, and Hongyu Zhao. "Modeling and predicting single-cell
   multi-gene perturbation responses with scLAMBDA." bioRxiv (2024).
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2024.12.04.626878v1
+review_basis: metadata
 reviewed: false

@@ -13,4 +13,9 @@ links:
   preprint: https://www.biorxiv.org/content/10.1101/2024.04.02.587824v1
 citation: 'Wang, Hanchen, Jure Leskovec, and Aviv Regev. "Limitations of cell embedding metrics assessed
   using drifting islands." Nature Biotechnology 44, no. 4 (2025): 574-577.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41587-025-02702-z
+- https://www.biorxiv.org/content/10.1101/2024.04.02.587824v1
+review_basis: metadata
 reviewed: false

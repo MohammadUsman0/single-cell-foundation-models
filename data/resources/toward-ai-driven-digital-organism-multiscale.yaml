@@ -12,4 +12,8 @@ links:
 citation: 'Song, Le, Eran Segal, and Eric Xing. "Toward ai-driven digital organism: Multiscale foundation
   models for predicting, simulating and programming biology at all levels." arXiv preprint arXiv:2412.06993
   (2024).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2412.06993
+review_basis: metadata
 reviewed: false

@@ -11,4 +11,8 @@ links:
 citation: Boylan, James, Elizaveta Solovyeva, Theophile Bouiller, Xiong Liu, Sebastian Hoersch, Bulent
   Ataman, Jeremy Jenkins et al. "Single Cell Foundation Models Evaluation (scFME) for In-Silico Perturbation."
   bioRxiv (2025).
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2025.09.22.677811v1
+review_basis: metadata
 reviewed: false

@@ -18,4 +18,8 @@ links:
 citation: 'Gandhi, Shreshth, Farnoosh Javadi, Valentine Svensson, Umair Khan, Matthew G. Jones, John Yu,
   Daniele Merico, Hani Goodarzi, and Nima Alidoust. "Tahoe-x1: Scaling Perturbation-Trained Single-Cell
   Foundation Models to 3 Billion Parameters." bioRxiv (2025): 2025-10.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.10.23.683759
+review_basis: metadata
 reviewed: false

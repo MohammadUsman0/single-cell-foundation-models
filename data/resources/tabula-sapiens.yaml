@@ -11,4 +11,8 @@ links:
 citation: 'The Tabula Sapiens Consortium*, Robert C. Jones, Jim Karkanias, Mark A. Krasnow, Angela Oliveira
   Pisco, Stephen R. Quake, Julia Salzman et al. "The Tabula Sapiens: A multiple-organ, single-cell transcriptomic
   atlas of humans." Science 376, no. 6594 (2022): eabl4896.'
+added: '2026-06-02'
+sources:
+- https://www.science.org/doi/10.1126/science.abl4896
+review_basis: metadata
 reviewed: false

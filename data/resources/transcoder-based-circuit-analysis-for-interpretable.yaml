@@ -11,4 +11,8 @@ links:
   paper: https://arxiv.org/abs/2509.14723
 citation: Hosokawa, Sosuke, Toshiharu Kawakami, Satoshi Kodera, Masamichi Ito, and Norihiko Takeda. "Transcoder-based
   Circuit Analysis for Interpretable Single-Cell Foundation Models." arXiv preprint arXiv:2509.14723 (2025).
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2509.14723
+review_basis: metadata
 reviewed: false

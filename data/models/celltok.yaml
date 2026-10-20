@@ -18,4 +18,8 @@ links:
   code: https://github.com/sunnsset/CellTok
 citation: Xiao, Chuxi, Yuang Ding, Haiyang Bian, Yixin Chen, Lei Wei, and Xuegong Zhang. "Tokenizing single-cell
   transcriptomes as a native language for large language models." bioRxiv (2025).
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2025.10.22.684047v1
+review_basis: metadata
 reviewed: false

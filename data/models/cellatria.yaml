@@ -14,4 +14,9 @@ links:
   code: https://github.com/AstraZeneca/cellatria
 citation: 'Nouri, Nima, Ronen Artzi, and Virginia Savova. "An agentic AI framework for ingestion and standardization
   of single-cell RNA-seq data analysis." npj Artificial Intelligence 2, no. 1 (2026): 8.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s44387-025-00064-0
+- https://doi.org/10.1101/2025.07.31.667880
+review_basis: metadata
 reviewed: false

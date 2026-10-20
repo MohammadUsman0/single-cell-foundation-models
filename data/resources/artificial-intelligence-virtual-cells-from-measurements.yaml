@@ -11,4 +11,8 @@ links:
   paper: https://arxiv.org/abs/2510.12498
 citation: 'Hu, Chengpeng, and Calvin Yu-Chian Chen. "Artificial Intelligence Virtual Cells: From Measurements
   to Decisions across Modality, Scale, Dynamics, and Evaluation." arXiv preprint arXiv:2510.12498 (2025).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2510.12498
+review_basis: metadata
 reviewed: false

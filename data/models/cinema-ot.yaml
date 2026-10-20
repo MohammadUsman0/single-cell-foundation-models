@@ -14,4 +14,7 @@ key: Causal identification of single-cell perturbation effects via optimal trans
 links:
   paper: https://www.nature.com/articles/s41592-023-02040-5
   code: https://github.com/vandijklab/CINEMA-OT
+added: '2026-06-02'
+sources: []
+review_basis: metadata
 reviewed: false

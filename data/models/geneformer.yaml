@@ -17,4 +17,8 @@ links:
 citation: 'Theodoris, Christina V., Ling Xiao, Anant Chopra, Mark D. Chaffin, Zeina R. Al Sayed, Matthew
   C. Hill, Helene Mantineo et al. "Transfer learning enables predictions in network biology." Nature 618,
   no. 7965 (2023): 616-624.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41586-023-06139-9
+review_basis: metadata
 reviewed: false

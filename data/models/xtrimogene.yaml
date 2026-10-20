@@ -15,4 +15,8 @@ links:
 citation: 'Gong, Jing, Minsheng Hao, Xingyi Cheng, Xin Zeng, Chiming Liu, Jianzhu Ma, Xuegong Zhang, Taifeng
   Wang, and Le Song. "xTrimoGene: an efficient and scalable representation learner for single-cell RNA-seq
   data." Advances in Neural Information Processing Systems 36 (2023): 69391-69403.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.52202/075280-3039
+review_basis: metadata
 reviewed: false

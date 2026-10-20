@@ -13,4 +13,9 @@ links:
 citation: 'DenAdel, Alan, Madeline Hughes, Akshaya Thoutam, Anay Gupta, Andrew W. Navia, Nicolo Fusi,
   Srivatsan Raghavan et al. "Evaluating the role of pretraining dataset size and diversity on single-cell
   foundation model performance." Nature Methods 23, no. 7 (2026): 1447-1457.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41592-026-03120-y
+- https://www.biorxiv.org/content/10.1101/2024.12.13.628448v1
+review_basis: metadata
 reviewed: false

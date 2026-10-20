@@ -16,4 +16,5 @@ key: Leverages LLM prior knowledge for single-cell representation learning.
 links:
   paper: https://proceedings.mlr.press/v267/hu25aa.html
   code: https://github.com/microsoft/sciLaMA
+added: '2026-06-02'
 reviewed: false

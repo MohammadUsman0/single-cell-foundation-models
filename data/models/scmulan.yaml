@@ -19,4 +19,8 @@ citation: 'Bian, Haiyang, Yixin Chen, Xiaomin Dong, Chen Li, Minsheng Hao, Sijie
   Sun, Lei Wei, and Xuegong Zhang. "scMulan: a multitask generative pre-trained language model for single-cell
   analysis." In International Conference on Research in Computational Molecular Biology, pp. 479-482.
   Cham: Springer Nature Switzerland, 2024.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1007/978-1-0716-3989-4_57
+review_basis: metadata
 reviewed: false

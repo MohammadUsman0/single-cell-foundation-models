@@ -15,4 +15,8 @@ links:
   code: https://github.com/PharMolix/SToFM
 citation: 'Zhao, Suyuan, Yizhen Luo, Ganbo Yang, Yan Zhong, Hao Zhou, and Zaiqing Nie. "Stofm: a multi-scale
   foundation model for spatial transcriptomics." arXiv preprint arXiv:2507.11588 (2025).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2507.11588
+review_basis: metadata
 reviewed: false

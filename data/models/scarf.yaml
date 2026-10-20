@@ -13,4 +13,8 @@ links:
 citation: 'Liu, Guole, Yongbing Zhao, Yingying Zhao, Tianyu Wang, Quanyou Cai, Xiaotao Wang, Ziyi Wen,
   Lihui Lin, Ge Yang, and Jiekai Chen. "SCARF: Single Cell ATAC-seq and RNA-seq Foundation model." bioRxiv
   (2025): 2025-04.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.04.07.647689
+review_basis: metadata
 reviewed: false

@@ -18,4 +18,8 @@ links:
 citation: Rizvi, Syed Asad, Daniel Levine, Aakash Patel, Shiyang Zhang, Eric Wang, Curtis Jamison Perry,
   Ivan Vrkic et al. "Scaling Large Language Models for Next-Generation Single-Cell Analysis." bioRxiv
   (2025).
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1
+review_basis: metadata
 reviewed: false

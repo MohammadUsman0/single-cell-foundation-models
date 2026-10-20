@@ -18,4 +18,8 @@ links:
 citation: 'Linder, Johannes, Divyanshi Srivastava, Han Yuan, Vikram Agarwal, and David R. Kelley. "Predicting
   RNA-seq coverage from DNA sequence as a unifying model of gene regulation." Nature Genetics 57, no.
   4 (2025): 949-961.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41588-024-02053-6
+review_basis: metadata
 reviewed: false

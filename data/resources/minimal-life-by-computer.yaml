@@ -9,6 +9,10 @@ tags:
 links:
   paper: https://doi.org/10.1038/s41587-026-03110-7
 citation: Minimal life by computer. Nat Biotechnol (2026). https://doi.org/10.1038/s41587-026-03110-7
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41587-026-03110-7
+review_basis: metadata
 reviewed: false
 review_notes:
 - type was 'Nature Biotech Editorial Paper' (not in the old schema); mapped to perspective

@@ -14,4 +14,8 @@ links:
 citation: 'Li, Bo, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang et
   al. "PhenoProfiler: advancing phenotypic learning for image-based drug discovery." Nature Communications
   17, no. 1 (2025): 793.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41467-025-67479-w
+review_basis: metadata
 reviewed: false

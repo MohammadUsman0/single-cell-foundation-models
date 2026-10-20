@@ -14,4 +14,8 @@ links:
 citation: 'Kendiukhov, Ihor. "Sparse autoencoders reveal organized biological knowledge but minimal regulatory
   logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT." arXiv preprint
   arXiv:2603.02952 (2026).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2603.02952
+review_basis: metadata
 reviewed: false

@@ -16,4 +16,8 @@ links:
 citation: 'Heimberg, Graham, Tony Kuo, Daryle J. DePianto, Omar Salem, Tobias Heigl, Nathaniel Diamant,
   Gabriele Scalia et al. "A cell atlas foundation model for scalable search of similar human cells." Nature
   638, no. 8052 (2025): 1085-1094.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41586-024-08411-y
+review_basis: metadata
 reviewed: false

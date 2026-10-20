@@ -15,4 +15,8 @@ links:
 citation: 'Song, Bicna, Dingyu Liu, Weiwei Dai, Natalie F. McMyn, Qingyang Wang, Dapeng Yang, Adam Krejci
   et al. "Decoding heterogeneous single-cell perturbation responses." Nature Cell Biology 27, no. 3 (2025):
   493-504.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41556-025-01626-9
+review_basis: metadata
 reviewed: false

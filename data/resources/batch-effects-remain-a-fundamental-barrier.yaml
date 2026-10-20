@@ -11,4 +11,8 @@ links:
   paper: https://doi.org/10.64898/2025.12.19.695371
 citation: 'Wang, Linting, Chihao Zhang, and Shihua Zhang. "Batch Effects Remain a Fundamental Barrier
   to Universal Embeddings in Single-Cell Foundation Models." bioRxiv (2025): 2025-12.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.64898/2025.12.19.695371
+review_basis: metadata
 reviewed: false

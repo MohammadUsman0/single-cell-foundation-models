@@ -18,4 +18,8 @@ links:
   code: https://github.com/HelloWorldLTY/scELMo
 citation: 'Liu, Tianyu, Tianqi Chen, Wangjie Zheng, Xiao Luo, Yiqun Chen, and Hongyu Zhao. "Embeddings
   from language models are good learners for single-cell data analysis." Patterns 7, no. 2 (2026): 101431.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1016/j.patter.2025.101431
+review_basis: metadata
 reviewed: false

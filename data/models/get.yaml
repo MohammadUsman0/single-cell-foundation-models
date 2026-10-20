@@ -20,4 +20,8 @@ links:
 citation: 'Fu, Xi, Shentong Mo, Alejandro Buendia, Anouchka P. Laurent, Anqi Shao, Maria del Mar Alvarez-Torres,
   Tianji Yu et al. "A foundation model of transcription across human cell types." Nature 637, no. 8047
   (2025): 965-973.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41586-024-08391-z
+review_basis: metadata
 reviewed: false

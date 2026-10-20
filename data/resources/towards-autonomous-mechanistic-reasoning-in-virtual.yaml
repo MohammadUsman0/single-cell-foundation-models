@@ -11,4 +11,8 @@ links:
   paper: https://arxiv.org/abs/2604.11661
 citation: Jang, Yunhui, Lu Zhu, Jake Fawkes, Alisandra Kaye Denton, Dominique Beaini, and Emmanuel Noutahi.
   "Towards Autonomous Mechanistic Reasoning in Virtual Cells." arXiv preprint arXiv:2604.11661 (2026).
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2604.11661
+review_basis: metadata
 reviewed: false

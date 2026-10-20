@@ -16,4 +16,8 @@ citation: 'Baek, Seungheun, Soyon Park, Yan Ting Chok, Junhyun Lee, Jueon Park, 
   Kang. "Cradle-VAE: Enhancing Single-Cell Gene Perturbation Modeling with Counterfactual Reasoning-based
   Artifact Disentanglement." Proceedings of the AAAI Conference on Artificial Intelligence 39, no. 15
   (2025): 15445-15452.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1609/aaai.v39i15.33695
+review_basis: metadata
 reviewed: false

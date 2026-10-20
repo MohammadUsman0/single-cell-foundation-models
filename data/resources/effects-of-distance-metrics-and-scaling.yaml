@@ -13,4 +13,8 @@ links:
   paper: https://arxiv.org/abs/2511.16954
 citation: Liu, Qiyuan, Qirui Zhang, Jinhong Du, Siming Zhao, and Jingshu Wang. "Effects of Distance Metrics
   and Scaling on the Perturbation Discrimination Score." arXiv preprint arXiv:2511.16954 (2025).
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2511.16954
+review_basis: metadata
 reviewed: false

@@ -21,4 +21,9 @@ links:
 citation: 'Park, Jeongbin, Sumin Kim, Jiwon Kim, Dongjoo Lee, Sungwoo Bae, Haenara Shin, Daeseung Lee
   et al. "CELLama: Foundation Model for Single Cell and Spatial Transcriptomics by Cell Embedding Leveraging
   Language Model Abilities." Advanced Science 13, no. 7 (2025): e13210.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1002/advs.202513210
+- https://www.biorxiv.org/content/10.1101/2024.05.08.593094v1
+review_basis: metadata
 reviewed: false

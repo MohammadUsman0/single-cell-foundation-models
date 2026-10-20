@@ -17,4 +17,8 @@ links:
   code: https://github.com/keiserlab/exceiver
 citation: Connell, William, Umair Khan, and Michael J. Keiser. "A single-cell gene expression language
   model." arXiv preprint arXiv:2210.14330 (2022).
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2210.14330
+review_basis: metadata
 reviewed: false

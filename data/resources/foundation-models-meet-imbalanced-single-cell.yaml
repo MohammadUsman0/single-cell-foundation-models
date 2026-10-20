@@ -12,4 +12,8 @@ links:
 citation: Alsabbagh, Abdel Rahman, Alberto Maillo Ruiz de Infante, David Gomez-Cabrero, Narsis A. Kiani,
   Sumeer Ahmad Khan, and Jesper N. Tegnér. "Foundation Models Meet Imbalanced Single-Cell Data When Learning
   Cell Type Annotations." bioRxiv (2023).
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2023.10.24.563625v1
+review_basis: metadata
 reviewed: false

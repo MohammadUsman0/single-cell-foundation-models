@@ -15,4 +15,9 @@ links:
 citation: 'Fang, Yin, Qiao Jin, Guangzhi Xiong, Bowen Jin, Xianrui Zhong, Siru Ouyang, Yifan Yang et al.
   "Cell-o1 : training LLMs to solve single-cell reasoning puzzles with reinforcement learning." Bioinformatics
   42, no. 5 (2026): btag208.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1093/bioinformatics/btag208
+- https://arxiv.org/abs/2506.02911
+review_basis: metadata
 reviewed: false

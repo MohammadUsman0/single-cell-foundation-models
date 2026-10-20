@@ -18,4 +18,9 @@ links:
 citation: 'Li, Cong, Qingqing Long, Yuanchun Zhou, and Meng Xiao. "SCREADER: Prompting Large Language
   Models to Interpret scRNA-seq Data." In 2024 IEEE International Conference on Data Mining Workshops
   (ICDMW) (2024): 665-672.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1109/icdmw65004.2024.00092
+- https://arxiv.org/abs/2412.18156
+review_basis: metadata
 reviewed: false

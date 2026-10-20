@@ -18,4 +18,9 @@ links:
 citation: 'Blampey, Quentin, Hakim Benkirane, Nadège Bercovici, Kevin Mulder, Grégoire Gessain, Florent
   Ginhoux, Fabrice André et al. "Novae: a graph-based foundation model for spatial transcriptomics data."
   Nature Methods 22, no. 12 (2025): 2539-2550.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41592-025-02899-6
+- https://doi.org/10.1101/2024.09.09.612009
+review_basis: metadata
 reviewed: false

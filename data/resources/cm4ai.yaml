@@ -10,4 +10,8 @@ links:
 citation: 'Clark, Timothy, Jillian Mohan, Leah Schaffer, Kirsten Obernier, Sadnan Al Manir, Christopher
   P Churas, Amir Dailamy et al. "Cell Maps for Artificial Intelligence: AI-Ready Maps of Human Cell Architecture
   from Disease-Relevant Cell Lines." bioRxiv (2024).'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2024.05.21.589311
+review_basis: metadata
 reviewed: false

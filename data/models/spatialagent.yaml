@@ -13,4 +13,8 @@ links:
   code: https://github.com/Genentech/SpatialAgent
 citation: 'Wang, Hanchen, Yichun He, Paula P. Coelho, Matthew Bucci, Abbas Nazir, Bob Chen, Linh T. Trinh
   et al. "SpatialAgent: An autonomous AI agent for spatial biology." bioRxiv (2025).'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.04.03.646459
+review_basis: metadata
 reviewed: false

@@ -16,4 +16,8 @@ links:
 citation: 'Ho, Nicholas, Caleb N. Ellington, Jinyu Hou, Sohan Addagudi, Shentong Mo, Tianhua Tao, Dian
   Li et al. "Scaling dense representations for single cell with transcriptome-scale context." bioRxiv
   (2024): 2024-11.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2024.11.28.625303
+review_basis: metadata
 reviewed: false

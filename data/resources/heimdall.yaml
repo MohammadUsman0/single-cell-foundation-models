@@ -13,4 +13,8 @@ links:
 citation: 'Haber, Ellie, Shahul Alam, Nicholas Ho, Renming Liu, Evan Trop, Shaoheng Liang, Muyu Yang et
   al. "HEIMDALL: Disentangling tokenizer design for robust transfer in single-cell foundation models."
   bioRxiv (2025).'
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2025.11.09.687403v2
+review_basis: metadata
 reviewed: false

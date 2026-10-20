@@ -15,4 +15,8 @@ links:
   paper: https://arxiv.org/abs/2506.03373
 citation: Shaban, Muhammad, Yuzhou Chang, Huaying Qiu, Yao Yu Yeo, Andrew H. Song, Guillaume Jaume, Yuchen
   Wang et al. "A Foundation Model for Spatial Proteomics." arXiv preprint arXiv:2506.03373 (2025).
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2506.03373
+review_basis: metadata
 reviewed: false

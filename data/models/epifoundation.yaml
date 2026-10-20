@@ -15,4 +15,8 @@ links:
   code: https://github.com/UCSC-VLAA/EpiFoundation
 citation: 'Wu, Juncheng, Changxin Wan, Zhicheng Ji, Yuyin Zhou, and Wenpin Hou. "EpiFoundation: A foundation
   model for single-cell ATAC-seq via peak-to-gene alignment." bioRxiv (2025).'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.02.05.636688
+review_basis: metadata
 reviewed: false

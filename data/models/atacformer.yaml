@@ -16,4 +16,8 @@ links:
 citation: 'LeRoy, Nathan J., Guangtao Zheng, Oleksandr Khoroshevskyi, Donald R. Campbell Jr, Aidong Zhang,
   and Nathan C. Sheffield. "Atacformer: A transformer-based foundation model for analysis and interpretation
   of ATAC-seq data." bioRxiv (2025): 2025-11.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.11.03.685753
+review_basis: metadata
 reviewed: false

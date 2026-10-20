@@ -15,4 +15,7 @@ key: Predicts transcriptional responses to genetic perturbations using LLM embed
 links:
   paper: https://www.nature.com/articles/s43588-025-00912-8
   code: https://github.com/PancakeZoy/scouter
+added: '2026-06-02'
+sources: []
+review_basis: metadata
 reviewed: false

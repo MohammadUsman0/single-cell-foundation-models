@@ -13,4 +13,8 @@ links:
 citation: 'Wang, Zhizheng, Qiao Jin, Chih-Hsuan Wei, Shubo Tian, Po-Ting Lai, Qingqing Zhu, Chi-Ping Day
   et al. "GeneAgent: self-verification language agent for gene-set analysis using domain databases." Nature
   Methods 22, no. 8 (2025): 1677-1685.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41592-025-02748-6
+review_basis: metadata
 reviewed: false

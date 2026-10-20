@@ -19,4 +19,8 @@ links:
   code: https://github.com/Steven51516/tissuenarrator
 citation: 'Liu, Sizhe, Junjie Tang, Jian Ma, and Shaoheng Liang. "TissueNarrator: Generative Modeling
   of Spatial Transcriptomics with Large Language Models." bioRxiv (2025).'
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2025.11.24.690325v1
+review_basis: metadata
 reviewed: false

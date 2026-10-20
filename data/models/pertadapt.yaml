@@ -19,4 +19,9 @@ links:
 citation: 'Bai, Ding, Le Song, and Eric P Xing. "PertAdapt: unlocking single-cell foundation models for
   genetic perturbation prediction via condition-sensitive adaptation." Bioinformatics 42, no. Supplement_1
   (2026): btag307.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1093/bioinformatics/btag307
+- https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1
+review_basis: metadata
 reviewed: false

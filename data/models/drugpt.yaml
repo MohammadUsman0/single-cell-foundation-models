@@ -13,4 +13,8 @@ links:
   paper: https://doi.org/10.1101/2025.07.25.665130
 citation: 'Zhu, Linchang, and Yuanhanyu Luo. "DrugPT: A Flexible Framework for Integrating Gene and Chemical
   Representations in Perturbation Modeling." bioRxiv (2025).'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.07.25.665130
+review_basis: metadata
 reviewed: false

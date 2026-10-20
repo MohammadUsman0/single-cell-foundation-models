@@ -13,4 +13,8 @@ links:
 citation: 'Bao, Feng, Li Li, Heinz Hammerlindl, Susan Q. Shen, Sabrina Hammerlindl, Steven J. Altschuler,
   and Lani F. Wu. "Transitive prediction of small-molecule function through alignment of high-content
   screening resources." Nature Biotechnology 44, no. 5 (2025): 862-872.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41587-025-02729-2
+review_basis: metadata
 reviewed: false

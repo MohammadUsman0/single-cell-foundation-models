@@ -18,4 +18,8 @@ links:
 citation: 'Kalafut, Noah Cohen, Chenfeng He, Jie Sheng, Pramod Bharadwaj Chandrashekar, Jerome J. Choi,
   and Daifeng Wang. "Inferring virtual cell environments using multi-agent reinforcement learning." bioRxiv
   (2025): 2025-11.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.11.21.689815
+review_basis: metadata
 reviewed: false
