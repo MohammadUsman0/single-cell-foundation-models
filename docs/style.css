@@ -189,6 +189,7 @@ td.num { font-variant-numeric: tabular-nums; }
 td.model-col { min-width: 230px; }
 td.nowrap, th.nowrap { white-space: nowrap; }
 td.wide { min-width: 140px; }
+td.card-col { min-width: 150px; max-width: 260px; font-size: 12.5px; }
 td .t { color: var(--muted); font-size: 12.5px; display: block; max-width: 420px; }
 
 /* ---------- detail page ---------- */

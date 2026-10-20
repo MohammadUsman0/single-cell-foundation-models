@@ -22,6 +22,11 @@ links:
   paper: https://doi.org/10.52202/085713-2584
   preprint: https://arxiv.org/abs/2505.12638
   code: https://github.com/JohnsonKlose/ChromFound
+model_card:
+  pretraining_cells: 1.97M (30 tissues)
+  weights: released
+  weights_url: https://huggingface.co/YifengJiao/ChromFound
+  license: Apache-2.0
 citation: 'Jiao, Yifeng, Yuchen Liu, Yu Zhang, Xin Guo, Yushuai Wu, Chen Jiang, Jiyang Li et al. "ChromFound:
   Towards A Universal Foundation Model for Single-Cell Chromatin Accessibiltiy Data." In Advances in Neural
   Information Processing Systems 38 (2025): 85649-85686.'
@@ -29,5 +34,7 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.52202/085713-2584
 - https://arxiv.org/abs/2505.12638
-review_basis: abstract
+- https://github.com/JohnsonKlose/ChromFound
+- https://huggingface.co/YifengJiao/ChromFound
+review_basis: repo
 reviewed: false

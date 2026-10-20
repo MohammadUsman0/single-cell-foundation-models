@@ -21,11 +21,18 @@ key: scGPT-spatial introduces a novel MoE (Mixture of Experts) decoder that adap
 links:
   paper: https://doi.org/10.1101/2025.02.05.636714
   code: https://github.com/bowang-lab/scGPT-spatial
+model_card:
+  pretraining_cells: 30M cells/spots
+  pretraining_data: SpatialHuman30M (Visium, Visium HD, Xenium, MERFISH)
+  weights: released
+  weights_url: https://figshare.com/articles/software/scGPT-spatial_V1_Model_Weights/28356068
+  license: MIT
 citation: 'Wang, Chloe, Haotian Cui, Andrew Zhang, Ronald Xie, Hani Goodarzi, and Bo Wang. "scGPT-spatial:
   Continual pretraining of single-cell foundation model for spatial transcriptomics." bioRxiv (2025):
   2025-02.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.02.05.636714
-review_basis: abstract
+- https://github.com/bowang-lab/scGPT-spatial
+review_basis: repo
 reviewed: false

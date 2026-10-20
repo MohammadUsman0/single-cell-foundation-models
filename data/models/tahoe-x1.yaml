@@ -27,11 +27,23 @@ key: Tx1 jointly learns representations of genes, cells, and compounds using a m
 links:
   paper: https://doi.org/10.1101/2025.10.23.683759
   code: https://github.com/tahoebio/tahoe-x1
+model_card:
+  params: up to 3B
+  pretraining_cells: 266M
+  pretraining_data: CELLxGENE 2025-01, scBaseCamp 2025-02, Tahoe-100M
+  context_length: 2,048 (Tx1-3B)
+  weights: released
+  weights_url: https://huggingface.co/tahoebio/Tahoe-x1
+  license: Apache-2.0
+  package: tahoe-x1
 citation: 'Gandhi, Shreshth, Farnoosh Javadi, Valentine Svensson, Umair Khan, Matthew G. Jones, John Yu,
   Daniele Merico, Hani Goodarzi, and Nima Alidoust. "Tahoe-x1: Scaling Perturbation-Trained Single-Cell
   Foundation Models to 3 Billion Parameters." bioRxiv (2025): 2025-10.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.10.23.683759
-review_basis: abstract
+- https://github.com/tahoebio/tahoe-x1
+- https://huggingface.co/tahoebio/Tahoe-x1
+- https://pypi.org/project/tahoe-x1/
+review_basis: repo
 reviewed: false

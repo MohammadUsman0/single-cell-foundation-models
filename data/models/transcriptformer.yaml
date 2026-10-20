@@ -23,6 +23,25 @@ links:
   paper: https://doi.org/10.1126/science.aec8514
   preprint: https://doi.org/10.1101/2025.04.25.650731
   code: https://github.com/czi-ai/transcriptformer
+model_card:
+  params: 'TF-Metazoa: 444M; TF-Exemplar: 542M; TF-Sapiens: 368M (trainable)'
+  pretraining_cells: up to 112M
+  species:
+  - human
+  - mouse
+  - rabbit
+  - chicken
+  - African clawed frog
+  - zebrafish
+  - sea urchin
+  - C. elegans
+  - fruit fly
+  - freshwater sponge
+  - yeast
+  - malaria parasite
+  weights: released
+  license: MIT
+  package: transcriptformer
 citation: 'Pearce, James D., Sara E. Simmonds, Gita Mahmoudabadi, Lakshmi Krishnan, Giovanni Palla, Ana-Maria
   Istrate, Alexander Tarashansky et al. "TranscriptFormer: A generative cell atlas across 1.5 billion
   years of evolution." Science 393, no. 6806 (2026): aec8514.'
@@ -30,5 +49,7 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1126/science.aec8514
 - https://doi.org/10.1101/2025.04.25.650731
-review_basis: abstract
+- https://github.com/czi-ai/transcriptformer
+- https://pypi.org/project/transcriptformer/
+review_basis: repo
 reviewed: false

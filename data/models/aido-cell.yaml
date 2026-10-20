@@ -19,11 +19,21 @@ key: Develop AIDO.Cell, a pretrained module for representing gene expression and
 links:
   paper: https://doi.org/10.1101/2024.11.28.625303
   code: https://github.com/genbio-ai/AIDO
+model_card:
+  params: 3M, 10M, 100M, 650M
+  pretraining_cells: 50M
+  species:
+  - human
+  objective: read-depth-aware masked gene expression
+  context_length: whole human transcriptome (no truncation)
+  weights: released
+  license: GenBio AI Community License
 citation: 'Ho, Nicholas, Caleb N. Ellington, Jinyu Hou, Sohan Addagudi, Shentong Mo, Tianhua Tao, Dian
   Li et al. "Scaling dense representations for single cell with transcriptome-scale context." bioRxiv
   (2024): 2024-11.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2024.11.28.625303
-review_basis: abstract
+- https://github.com/genbio-ai/AIDO
+review_basis: repo
 reviewed: false

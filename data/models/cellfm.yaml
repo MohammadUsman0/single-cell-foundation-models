@@ -20,11 +20,21 @@ key: 800M-parameter model built on a modified RetNet for efficiency; used for ce
 links:
   paper: https://doi.org/10.1038/s41467-025-59926-5
   code: https://github.com/biomed-AI/CellFM
+model_card:
+  params: 800M
+  pretraining_cells: ~100M
+  species:
+  - human
+  weights: released
+  weights_url: https://huggingface.co/ShangguanNingyuan/CellFM
+  license: 'Weights: CC BY-NC-ND 4.0 (Hugging Face); code: non-standard license'
 citation: 'Zeng, Yuansong, Jiancong Xie, Ningyuan Shangguan, Zhuoyi Wei, Wenbing Li, Yun Su, Shuangyu
   Yang et al. "CellFM: a large-scale foundation model pre-trained on transcriptomics of 100 million human
   cells." Nature Communications 16, no. 1 (2025): 4679.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41467-025-59926-5
-review_basis: abstract
+- https://github.com/biomed-AI/CellFM
+- https://huggingface.co/ShangguanNingyuan/CellFM
+review_basis: repo
 reviewed: false

@@ -16,6 +16,10 @@ key: Single-cell analysis
 links:
   paper: https://doi.org/10.1007/978-1-0716-3989-4_57
   code: https://github.com/SuperBianC/scMulan
+model_card:
+  species:
+  - human
+  license: MIT
 citation: 'Bian, Haiyang, Yixin Chen, Xiaomin Dong, Chen Li, Minsheng Hao, Sijie Chen, Jinyi Hu, Maosong
   Sun, Lei Wei, and Xuegong Zhang. "scMulan: a multitask generative pre-trained language model for single-cell
   analysis." In International Conference on Research in Computational Molecular Biology, pp. 479-482.
@@ -23,5 +27,6 @@ citation: 'Bian, Haiyang, Yixin Chen, Xiaomin Dong, Chen Li, Minsheng Hao, Sijie
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1007/978-1-0716-3989-4_57
-review_basis: metadata
+- https://github.com/SuperBianC/scMulan
+review_basis: repo
 reviewed: false

@@ -21,11 +21,16 @@ key: BERT-style model that bins gene expression values into categories; used for
 links:
   paper: https://doi.org/10.1038/s42256-022-00534-z
   code: https://github.com/TencentAILabHealthcare/scBERT
+model_card:
+  tokenization: binning (7 expression bins)
+  weights: released
+  license: GPL-3.0
 citation: 'Yang, Fan, Wenchuan Wang, Fang Wang, Yuan Fang, Duyu Tang, Junzhou Huang, Hui Lu, and Jianhua
   Yao. "scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell
   RNA-seq data." Nature Machine Intelligence 4, no. 10 (2022): 852-866.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s42256-022-00534-z
-review_basis: abstract
+- https://github.com/TencentAILabHealthcare/scBERT
+review_basis: repo
 reviewed: false

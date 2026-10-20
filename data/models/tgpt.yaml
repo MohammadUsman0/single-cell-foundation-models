@@ -21,10 +21,20 @@ key: Generative pre-training that autoregressively models gene expression rankin
 links:
   paper: https://doi.org/10.1016/j.isci.2023.106536
   code: https://github.com/deeplearningplus/tGPT
+model_card:
+  pretraining_cells: 22.3M
+  tokenization: gene ranking (top-expressed genes)
+  objective: autoregressive
+  context_length: 62 or 126 top-expressed genes
+  weights: released
+  weights_url: https://huggingface.co/lixiangchun/transcriptome-gpt-1024-8-16-64
+  license: GPL-3.0
 citation: Shen, Hongru, Jilei Liu, Jiani Hu, Xilin Shen, Chao Zhang, Dan Wu, Mengyao Feng et al. "Generative
   pretraining from large-scale transcriptomes for single-cell deciphering." Iscience 26, no. 5 (2023).
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1016/j.isci.2023.106536
-review_basis: abstract
+- https://github.com/deeplearningplus/tGPT
+- https://huggingface.co/lixiangchun/transcriptome-gpt-1024-8-16-64
+review_basis: repo
 reviewed: false

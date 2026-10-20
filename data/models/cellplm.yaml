@@ -17,10 +17,18 @@ key: Pre-trained transformer that encodes cell–cell relations, for a range of 
 links:
   paper: https://doi.org/10.1101/2023.10.03.560734
   code: https://github.com/OmicsML/CellPLM
+model_card:
+  tokenization: cells as tokens, tissues as sentences
+  weights: released
+  weights_url: https://www.dropbox.com/scl/fo/i5rmxgtqzg7iykt2e9uqm/h?rlkey=o8hi0xads9ol07o48jdityzv1&dl=0
+  license: BSD-2-Clause
+  package: cellplm
 citation: 'Wen, Hongzhi, Wenzhuo Tang, Xinnan Dai, Jiayuan Ding, Wei Jin, Yuying Xie, and Jiliang Tang.
   "CellPLM: Pre-training of cell language model beyond single cells." BioRxiv (2023): 2023-10.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2023.10.03.560734
-review_basis: abstract
+- https://github.com/OmicsML/CellPLM
+- https://pypi.org/project/cellplm/
+review_basis: repo
 reviewed: false
