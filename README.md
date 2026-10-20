@@ -2,6 +2,8 @@
 
 > A curated list of foundation models for single-cell biology and AI virtual-cell / world models, plus the benchmarks, datasets, tools and reviews around them.
 
+For each model, the catalogue aims to record what it is, whether you can use it (code, weights, license) and what benchmarks found about it. Titles, years, venues and links are verified against Crossref, OpenAlex, arXiv and bioRxiv with [`scripts/verify.py`](scripts/verify.py).
+
 **182 models** (64 with code) · **121 resources** · **19 venues** · updated 2026-10-20
 
 Each entry: **name** · title (**venue year**) · tags · links. Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).

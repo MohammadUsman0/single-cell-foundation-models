@@ -252,7 +252,7 @@ def crossref(http, doi, known):
         return parts[0][0] if parts[0] else None
     year = next((y for y in map(year_of, ("published", "issued", "posted", "created")) if y), None)
     # `published` is the earliest of online/print, which is the catalogue's convention
-    # (CLAUDE.md). A DOI registered a year or more after that date suggests a back-dated issue.
+    # (CONTRIBUTING.md). A DOI registered a year or more after that date suggests a back-dated issue.
     created = year_of("created")
     year_note = ""
     if year and created and created - year >= 1:

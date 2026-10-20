@@ -71,9 +71,12 @@ Allowed `links` keys: `paper`, `preprint`, `code`, `weights`, `project`,
 2. **One model, one file.** If a preprint gets published, update the existing
    file (published link in `paper`, preprint link in `preprint`) — don't add a second one.
 3. **Write `key` in your own words.** Don't paste abstract sentences.
-4. **Models vs resources:** if it isn't a trained model (a dataset, assay,
+4. **`year` is the year the linked version first appeared:** the online-first date
+   for a journal article (as in Crossref and OpenAlex), or the first posted version
+   for a preprint. Not the journal issue year; `citation` keeps the reference as printed.
+5. **Models vs resources:** if it isn't a trained model (a dataset, assay,
    benchmark, review or commentary), it's a resource.
-5. Run `python scripts/check.py` before opening a PR. Errors must be fixed;
+6. Run `python scripts/check.py` before opening a PR. Errors must be fixed;
    warnings are listed in [`reports/data-quality.md`](reports/data-quality.md).
 
 ## Categories, types and tags
