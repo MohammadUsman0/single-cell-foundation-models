@@ -17,7 +17,7 @@ import sys
 import unicodedata
 from collections import defaultdict
 
-from catalog import PREPRINT_VENUES, ROOT, load_entries, load_venues, load_vocab
+from catalog import PREPRINT_VENUES, ROOT, load_entries, load_venues, load_vocab, utf8_stdout
 
 LINK_KEYS = {"paper", "preprint", "code", "weights", "project", "dataset", "docs", "video"}
 COMMON = {"id", "kind", "aliases", "title", "year", "venue", "venue_detail", "tags", "key", "links", "citation",
@@ -219,6 +219,7 @@ def write_report(rep, models, resources):
 
 
 def main():
+    utf8_stdout()
     ap = argparse.ArgumentParser()
     ap.add_argument("--quiet", action="store_true")
     args = ap.parse_args()

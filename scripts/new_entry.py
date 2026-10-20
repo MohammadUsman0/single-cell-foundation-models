@@ -21,7 +21,7 @@ import sys
 from collections import OrderedDict
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from catalog import DATA, load_entries, load_vocab, slug, write_yaml  # noqa: E402
+from catalog import DATA, load_entries, load_vocab, slug, utf8_stdout, write_yaml  # noqa: E402
 from check import doi_of, norm  # noqa: E402
 
 
@@ -30,6 +30,7 @@ def csv_list(s):
 
 
 def main():
+    utf8_stdout()
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("kind", choices=["model", "resource"])
     ap.add_argument("--title", required=True)
