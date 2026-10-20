@@ -10,8 +10,7 @@ tags:
 - scrna-seq
 modality: Spatial Transcriptomics
 architecture: Transformer (Self-Attention, Cross-Attention)
-task: 'Gene representation (integrates intracellular and spatial context). Key Finding: Incorporates ligand
-  genes within the spatial niche.'
+task: Gene representation that integrates intracellular and spatial context.
 key: Transformer for spatial transcriptomics that adds ligand-gene context from neighbouring cells through
   cross-attention.
 links:

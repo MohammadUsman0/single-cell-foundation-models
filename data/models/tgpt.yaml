@@ -10,10 +10,9 @@ tags:
 - generative
 modality: Large-scale Transcriptomes (22.3 million cells)
 architecture: Generative Pretraining (Autoregressive)
-task: 'Single-cell deciphering (gene ranking). Key Finding: Autoregressively models the ranking of a gene.'
-key: tGPT models gene rankings via autoregressive language modeling tGPT works effectively on fundamental
-  single-cell analysis tasks tGPT captures distinctive features of different cell types tGPT learns expression
-  signatures linked to genomic and clinical features
+task: Single-cell analysis through gene-ranking prediction.
+key: Generative pre-training that autoregressively models gene expression rankings, for single-cell analysis
+  tasks.
 links:
   paper: https://doi.org/10.1016/j.isci.2023.106536
   code: https://github.com/deeplearningplus/tGPT

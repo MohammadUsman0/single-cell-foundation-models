@@ -274,7 +274,7 @@
    ],
    "modality": "Single-cell RNA and Protein (co-assayed)",
    "architecture": "Multimodal",
-   "key": "Protein imputation, cell type annotation, batch harmonization. Key Finding: Learns unified multimodal representations; uncovers protein-driven intercellular dynamics.",
+   "key": "Learns joint RNA–protein representations; used for protein imputation, cell-type annotation and batch harmonization.",
    "links": {
     "paper": "https://doi.org/10.1038/s41467-026-72882-y",
     "preprint": "https://doi.org/10.1101/2025.07.07.663366",
@@ -1036,7 +1036,7 @@
    ],
    "modality": "Spatial Transcriptomics",
    "architecture": "Transformer (Self-Attention, Cross-Attention)",
-   "task": "Gene representation (integrates intracellular and spatial context). Key Finding: Incorporates ligand genes within the spatial niche.",
+   "task": "Gene representation that integrates intracellular and spatial context.",
    "key": "Transformer for spatial transcriptomics that adds ligand-gene context from neighbouring cells through cross-attention.",
    "links": {
     "paper": "https://doi.org/10.1016/j.crmeth.2026.101612",
@@ -1271,7 +1271,7 @@
    ],
    "modality": "scATAC-seq",
    "architecture": "Transformer-based",
-   "key": "Clustering, cell-type annotation, batch correction, RNA imputation (via CRAFT model). Key Finding: Generates embeddings for individual cis-regulatory elements.",
+   "key": "Embeds individual cis-regulatory elements; used for clustering, cell-type annotation, batch correction and RNA imputation (via CRAFT).",
    "links": {
     "paper": "https://doi.org/10.1101/2025.11.03.685753"
    },
@@ -1405,7 +1405,7 @@
    ],
    "modality": "Single-cell Transcriptomics",
    "architecture": "Graph Pre-training",
-   "key": "Batch integration, cell type annotation, gene perturbation, in silico gene knockout. Key Finding: Pioneer in using graph pre-training to model genes and cells (over 50 million cells).",
+   "key": "Graph pre-training over genes and cells (50M+ cells); used for batch integration, cell-type annotation and in-silico gene knockout.",
    "links": {
     "paper": "https://doi.org/10.1093/nsr/nwaf255",
     "code": "https://github.com/epang-ucas/Cell-Graph-Compass"
@@ -1516,7 +1516,7 @@
    ],
    "modality": "Transcriptomics (100 million human cells)",
    "architecture": "Modified RetNet",
-   "key": "Cell annotation, gene function prediction, perturbation response. Key Finding: Uses a modified RetNet for efficiency, 800 million parameters.",
+   "key": "800M-parameter model built on a modified RetNet for efficiency; used for cell annotation, gene function and perturbation-response prediction.",
    "links": {
     "paper": "https://doi.org/10.1038/s41467-025-59926-5",
     "code": "https://github.com/biomed-AI/CellFM"
@@ -1696,7 +1696,7 @@
    ],
    "modality": "scATAC-seq (Chromatin Accessibility)",
    "architecture": "Hybrid (Mamba + Self-Attention)",
-   "key": "Cell representation, cell type annotation, cross-omics prediction, identifies gene-enhancer relationships. Key Finding: Hybrid architecture to handle long-range and local regulatory dependencies.",
+   "key": "Hybrid architecture for long-range and local regulatory dependencies; used for cell representation, annotation, cross-omics prediction and gene–enhancer links.",
    "links": {
     "paper": "https://doi.org/10.52202/085713-2584",
     "preprint": "https://arxiv.org/abs/2505.12638",
@@ -1821,7 +1821,7 @@
    ],
    "modality": "scATAC-seq (Single-cell Epigenomics)",
    "architecture": "Transformer-based (Bidirectional Attention)",
-   "key": "Unsupervised feature extraction, supervised cell type annotation, data imputation, cellular response prediction (perturbations). Key Finding: Encodes chromatin accessibility patterns as 'cell sentences'.",
+   "key": "Encodes chromatin accessibility profiles as 'cell sentences'; used for feature extraction, cell-type annotation, imputation and perturbation-response prediction.",
    "links": {
     "paper": "https://doi.org/10.1038/s41592-025-02822-z",
     "code": "https://github.com/xy-chen16/EpiAgent"
@@ -1843,7 +1843,7 @@
     "scatac-seq"
    ],
    "modality": "scATAC-seq",
-   "key": "Cell-type annotation, batch correction, gene expression prediction. Key Finding: Uses cross-modality pre-training (peak-to-gene alignment) on non-zero peaks to handle sparsity.",
+   "key": "Peak-to-gene cross-modality pre-training on non-zero peaks to cope with sparsity; used for cell-type annotation, batch correction and expression prediction.",
    "links": {
     "paper": "https://doi.org/10.1101/2025.02.05.636688",
     "code": "https://github.com/UCSC-VLAA/EpiFoundation"
@@ -1936,7 +1936,7 @@
    ],
    "modality": "Chromatin Accessibility, Sequence Information",
    "architecture": "Transformer",
-   "key": "Predicting gene expression in seen/unseen cell types, regulatory inference. Key Finding: Achieves experimental-level accuracy; learns regulatory grammars across 213 human cell types.",
+   "key": "Predicts gene expression in seen and unseen cell types and learns regulatory grammar across 213 human cell types.",
    "links": {
     "paper": "https://doi.org/10.1038/s41586-024-08391-z",
     "code": "https://github.com/GET-Foundation/get_model"
@@ -2261,7 +2261,7 @@
    ],
    "modality": "Histopathology Image + Spatial Transcriptomics",
    "architecture": "Visual-Omics (Contrastive Learning)",
-   "key": "Cell-type decomposition, ST gene expression prediction, image–transcriptomics retrieval. Key Finding: Bridges visual and molecular data by converting transcriptomics to \"sentences.\"",
+   "key": "Links histology images and spatial transcriptomics by turning expression into text 'sentences'; used for cell-type decomposition, expression prediction and image–transcriptomics retrieval.",
    "links": {
     "paper": "https://doi.org/10.1038/s41592-025-02707-1",
     "code": "https://github.com/GuangyuWangLab2021/Loki"
@@ -2741,7 +2741,7 @@
    ],
    "modality": "Single-cell Transcriptome",
    "architecture": "Large Generative Model",
-   "key": "Translating transcriptome to proteome (protein imputation). Key Finding: Confirmed accuracy across various profiling techniques (CITE-seq, REAP-seq, etc.).",
+   "key": "Translates transcriptomes into proteomes (protein abundance imputation), evaluated across CITE-seq, REAP-seq and other techniques.",
    "links": {
     "paper": "https://doi.org/10.1038/s41551-025-01528-z",
     "preprint": "https://doi.org/10.1101/2023.07.04.547619",
@@ -3190,7 +3190,7 @@
    ],
    "modality": "Single-cell RNA-seq (Malignant cells)",
    "architecture": "scRNA-seq Foundation Model (scFM)",
-   "task": "Zero-shot batch integration, drug response prediction, survival prediction. Key Finding: Trained exclusively on malignant cells (focused, smaller model) and outperforms larger FMs in cancer tasks.",
+   "task": "Zero-shot batch integration, drug response prediction, survival prediction.",
    "key": "scRNA-seq foundation model trained only on about 1M malignant cells, aimed at batch integration, drug response and survival prediction.",
    "links": {
     "paper": "https://doi.org/10.1101/2024.11.01.621087",
@@ -3422,7 +3422,7 @@
    ],
    "modality": "Single-cell RNA-seq",
    "architecture": "Deep Learning (Protein Language Models)",
-   "key": "Integrating datasets across species, universal cell embeddings. Key Finding: Encodes genes' biological properties using protein language models to transfer annotations across species.",
+   "key": "Represents genes with protein language model embeddings to integrate datasets and transfer annotations across species.",
    "links": {
     "paper": "https://doi.org/10.1038/s41592-024-02191-z",
     "code": "https://github.com/snap-stanford/saturn"
@@ -3467,7 +3467,7 @@
    ],
    "modality": "Single-cell Transcriptomics",
    "architecture": "Asymmetric Transformer-like",
-   "key": "Gene expression enhancement, drug response prediction, cell type annotation. Key Finding: Achieves SOTA performance in diverse tasks.",
+   "key": "Large pre-trained model for gene expression enhancement, drug response prediction and cell-type annotation.",
    "links": {
     "paper": "https://doi.org/10.1038/s41592-024-02305-7",
     "code": "https://github.com/biomap-research/scFoundation"
@@ -3760,7 +3760,7 @@
    ],
    "modality": "Single-cell (Cells as tokens, tissues as sentences)",
    "architecture": "Pre-trained Transformer",
-   "key": "Diverse downstream tasks. Key Finding: First sc-pre-trained transformer to encode cell-cell relations; 100x faster inference.",
+   "key": "Pre-trained transformer that encodes cell–cell relations, for a range of downstream single-cell tasks.",
    "links": {
     "paper": "https://doi.org/10.1101/2023.10.03.560734",
     "code": "https://github.com/OmicsML/CellPLM"
@@ -3785,7 +3785,7 @@
    ],
    "modality": "Transcriptomic Data",
    "architecture": "Transfer Learning",
-   "key": "Generating cell-type-specific Gene Regulatory Networks (GRNs), simulating in-silico perturbations. Key Finding: Relies exclusively on transcriptomic data to generate GRNs via transfer learning.",
+   "key": "Generates cell-type-specific gene regulatory networks from transcriptomic data alone via transfer learning, and simulates in-silico perturbations.",
    "links": {
     "paper": "https://doi.org/10.1101/2023.09.25.559244",
     "code": "https://github.com/xCompass-AI/CellPolaris"
@@ -3832,7 +3832,7 @@
    ],
    "modality": "Single-Cell Transcriptomics",
    "architecture": "Transformer (Ordinal Positions)",
-   "key": "Predictions in network biology. Key Finding: Uses ordinal positions of tokenized genes, trained on 30 million cells.",
+   "key": "Pre-trained on 30M cells with genes tokenized by rank order, for predictions in network biology.",
    "links": {
     "paper": "https://doi.org/10.1038/s41586-023-06139-9",
     "code": "https://huggingface.co/ctheodoris/Geneformer"
@@ -3971,8 +3971,8 @@
    ],
    "modality": "Large-scale Transcriptomes (22.3 million cells)",
    "architecture": "Generative Pretraining (Autoregressive)",
-   "task": "Single-cell deciphering (gene ranking). Key Finding: Autoregressively models the ranking of a gene.",
-   "key": "tGPT models gene rankings via autoregressive language modeling tGPT works effectively on fundamental single-cell analysis tasks tGPT captures distinctive features of different cell types tGPT learns expression signatures linked to genomic and clinical features",
+   "task": "Single-cell analysis through gene-ranking prediction.",
+   "key": "Generative pre-training that autoregressively models gene expression rankings, for single-cell analysis tasks.",
    "links": {
     "paper": "https://doi.org/10.1016/j.isci.2023.106536",
     "code": "https://github.com/deeplearningplus/tGPT"
@@ -4044,7 +4044,7 @@
    ],
    "modality": "Single-cell RNA-seq",
    "architecture": "Deep Language Model",
-   "key": "Cell type annotation. Key Finding: Uses value categorization (binning) for gene counts, transforming continuous data to categorical values.",
+   "key": "BERT-style model that bins gene expression values into categories; used for cell-type annotation.",
    "links": {
     "paper": "https://doi.org/10.1038/s42256-022-00534-z",
     "code": "https://github.com/TencentAILabHealthcare/scBERT"

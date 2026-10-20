@@ -11,8 +11,8 @@ tags:
 - scrna-seq
 modality: Single-cell Transcriptomics
 architecture: Graph Pre-training
-key: 'Batch integration, cell type annotation, gene perturbation, in silico gene knockout. Key Finding:
-  Pioneer in using graph pre-training to model genes and cells (over 50 million cells).'
+key: Graph pre-training over genes and cells (50M+ cells); used for batch integration, cell-type annotation
+  and in-silico gene knockout.
 links:
   paper: https://doi.org/10.1093/nsr/nwaf255
   code: https://github.com/epang-ucas/Cell-Graph-Compass

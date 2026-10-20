@@ -9,8 +9,8 @@ tags:
 - scatac-seq
 modality: scATAC-seq
 architecture: Transformer-based
-key: 'Clustering, cell-type annotation, batch correction, RNA imputation (via CRAFT model). Key Finding:
-  Generates embeddings for individual cis-regulatory elements.'
+key: Embeds individual cis-regulatory elements; used for clustering, cell-type annotation, batch correction
+  and RNA imputation (via CRAFT).
 links:
   paper: https://doi.org/10.1101/2025.11.03.685753
 citation: 'LeRoy, Nathan J., Guangtao Zheng, Oleksandr Khoroshevskyi, Donald R. Campbell Jr, Aidong Zhang,

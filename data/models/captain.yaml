@@ -11,8 +11,8 @@ tags:
 - scrna-seq
 modality: Single-cell RNA and Protein (co-assayed)
 architecture: Multimodal
-key: 'Protein imputation, cell type annotation, batch harmonization. Key Finding: Learns unified multimodal
-  representations; uncovers protein-driven intercellular dynamics.'
+key: Learns joint RNA–protein representations; used for protein imputation, cell-type annotation and batch
+  harmonization.
 links:
   paper: https://doi.org/10.1038/s41467-026-72882-y
   preprint: https://doi.org/10.1101/2025.07.07.663366

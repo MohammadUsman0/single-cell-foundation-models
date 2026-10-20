@@ -10,8 +10,7 @@ tags:
 - scrna-seq
 modality: Single-Cell Transcriptomics
 architecture: Transformer (Ordinal Positions)
-key: 'Predictions in network biology. Key Finding: Uses ordinal positions of tokenized genes, trained
-  on 30 million cells.'
+key: Pre-trained on 30M cells with genes tokenized by rank order, for predictions in network biology.
 links:
   paper: https://doi.org/10.1038/s41586-023-06139-9
   code: https://huggingface.co/ctheodoris/Geneformer
