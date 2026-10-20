@@ -11,6 +11,7 @@ tags:
 - graph
 modality: Multimodal Biological Graph Data
 architecture: GNN
+architecture_family: graph-neural-network
 key: Learning unified gene representation
 links:
   paper: https://doi.org/10.52202/075280-1071

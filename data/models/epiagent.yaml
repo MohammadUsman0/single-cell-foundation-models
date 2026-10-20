@@ -9,6 +9,9 @@ tags:
 - scatac-seq
 modality: scATAC-seq (Single-cell Epigenomics)
 architecture: Transformer-based (Bidirectional Attention)
+inputs:
+- chromatin-accessibility
+architecture_family: transformer-encoder
 key: Encodes chromatin accessibility profiles as 'cell sentences'; used for feature extraction, cell-type
   annotation, imputation and perturbation-response prediction.
 links:

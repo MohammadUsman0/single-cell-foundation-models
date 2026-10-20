@@ -9,6 +9,8 @@ category: scrna
 tags:
 - scrna-seq
 modality: Single-Cell Transcriptomics
+inputs:
+- expression
 key: Characterization of patient-level disease states
 links:
   paper: https://doi.org/10.1016/j.cels.2026.101570

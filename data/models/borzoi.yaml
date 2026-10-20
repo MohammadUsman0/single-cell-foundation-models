@@ -10,6 +10,8 @@ tags:
 - gene-regulation
 modality: RNA-seq Coverage from DNA Sequence
 task: Prediction from DNA sequence (unifying model of gene regulation)
+inputs:
+- dna-sequence
 key: Predicts cell-type- and tissue-specific RNA-seq coverage from DNA sequence and scores variant effects
   on transcription, splicing and polyadenylation.
 links:

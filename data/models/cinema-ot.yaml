@@ -10,6 +10,10 @@ tags:
 - scrna-seq
 modality: scRNA-seq (perturbation)
 architecture: Optimal transport (causal)
+inputs:
+- expression
+- perturbation
+architecture_family: other
 key: Causal identification of single-cell perturbation effects via optimal transport.
 links:
   paper: https://www.nature.com/articles/s41592-023-02040-5

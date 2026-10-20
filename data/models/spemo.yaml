@@ -11,6 +11,9 @@ tags:
 - histology
 modality: Spatial multi-omics + histopathology
 architecture: Multimodal FM
+inputs:
+- histology-image
+- spatial-coordinates
 key: Multi-modal FM for spatial multi-omic and histopathology data.
 links:
   paper: https://doi.org/10.1038/s41551-025-01602-6

@@ -11,6 +11,10 @@ tags:
 - scrna-seq
 modality: scRNA-seq + LLM embeddings
 architecture: LLM-embedding model
+inputs:
+- expression
+- text
+architecture_family: llm
 key: Predicts transcriptional responses to genetic perturbations using LLM embeddings.
 links:
   paper: https://www.nature.com/articles/s43588-025-00912-8

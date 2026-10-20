@@ -11,6 +11,8 @@ tags:
 - scrna-seq
 modality: Single-Cell (Transcriptome)
 architecture: Transformer
+inputs:
+- expression
 key: Cross-species generative cell atlas (1.5 Billion Years of Evolution) predict cell type-specific transcription
   factors and gene-gene interactions that align with independent experimental observations
 links:

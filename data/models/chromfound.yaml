@@ -9,6 +9,9 @@ tags:
 - scatac-seq
 modality: scATAC-seq (Chromatin Accessibility)
 architecture: Hybrid (Mamba + Self-Attention)
+inputs:
+- chromatin-accessibility
+architecture_family: state-space
 key: Hybrid architecture for long-range and local regulatory dependencies; used for cell representation,
   annotation, cross-omics prediction and gene–enhancer links.
 links:

@@ -12,6 +12,9 @@ tags:
 - scrna-seq
 modality: scRNA-seq
 architecture: LLM copilot
+inputs:
+- expression
+architecture_family: llm
 key: LLM-powered copilot for contextualized scRNA-seq analysis.
 links:
   paper: https://doi.org/10.1002/aic.70285

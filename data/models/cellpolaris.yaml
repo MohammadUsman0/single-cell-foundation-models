@@ -11,6 +11,8 @@ tags:
 - scrna-seq
 modality: Transcriptomic Data
 architecture: Transfer Learning
+inputs:
+- expression
 key: Generates cell-type-specific gene regulatory networks from transcriptomic data alone via transfer
   learning, and simulates in-silico perturbations.
 links:

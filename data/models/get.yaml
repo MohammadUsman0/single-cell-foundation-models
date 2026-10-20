@@ -12,6 +12,9 @@ tags:
 - scatac-seq
 modality: Chromatin Accessibility, Sequence Information
 architecture: Transformer
+inputs:
+- chromatin-accessibility
+- dna-sequence
 key: Predicts gene expression in seen and unseen cell types and learns regulatory grammar across 213 human
   cell types.
 links:

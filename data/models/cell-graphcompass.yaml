@@ -11,6 +11,9 @@ tags:
 - scrna-seq
 modality: Single-cell Transcriptomics
 architecture: Graph Pre-training
+inputs:
+- expression
+architecture_family: graph-neural-network
 key: Graph pre-training over genes and cells (50M+ cells); used for batch integration, cell-type annotation
   and in-silico gene knockout.
 links:

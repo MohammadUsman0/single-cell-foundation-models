@@ -10,6 +10,9 @@ tags:
 - spatial
 modality: Spatial proteomics
 architecture: Foundation model
+inputs:
+- protein-abundance
+- spatial-coordinates
 key: A foundation model for spatial proteomics.
 links:
   paper: https://arxiv.org/abs/2506.03373

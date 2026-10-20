@@ -10,6 +10,8 @@ tags:
 modality: Single-Cell (Perturbation-Trained)
 task: Scaling to 3 Billion Parameters, gene essentiality, cancer hallmarks, cell type calssification,
   simulating perturbations
+inputs:
+- perturbation
 key: Tx1 jointly learns representations of genes, cells, and compounds using a masked-expression generative
   objective that incorporates a drug token, enabling flexible adaptation to diverse downstream applications
 links:

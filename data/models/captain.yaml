@@ -11,6 +11,9 @@ tags:
 - scrna-seq
 modality: Single-cell RNA and Protein (co-assayed)
 architecture: Multimodal
+inputs:
+- expression
+- protein-abundance
 key: Learns joint RNA–protein representations; used for protein imputation, cell-type annotation and batch
   harmonization.
 links:

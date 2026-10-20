@@ -11,6 +11,8 @@ tags:
 - scrna-seq
 modality: Single-cell Transcriptome
 architecture: Large Generative Model
+inputs:
+- expression
 key: Translates transcriptomes into proteomes (protein abundance imputation), evaluated across CITE-seq,
   REAP-seq and other techniques.
 links:

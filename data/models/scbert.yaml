@@ -12,6 +12,8 @@ tags:
 - scrna-seq
 modality: Single-cell RNA-seq
 architecture: Deep Language Model
+inputs:
+- expression
 key: BERT-style model that bins gene expression values into categories; used for cell-type annotation.
 links:
   paper: https://doi.org/10.1038/s42256-022-00534-z

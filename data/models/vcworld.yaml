@@ -10,6 +10,7 @@ tags:
 - text
 - virtual-cell
 architecture: LLM based
+architecture_family: llm
 key: LLM-driven white-box simulator that reasons over biological knowledge to predict drug perturbation
   responses with mechanistic explanations.
 links:

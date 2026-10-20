@@ -11,6 +11,8 @@ tags:
 - text
 modality: scRNA-seq
 architecture: Parameter-efficient fine-tuning
+inputs:
+- expression
 key: Parameter-efficient fine-tuning for single-cell LLMs.
 links:
   paper: https://www.nature.com/articles/s42256-025-01170-z

@@ -11,6 +11,9 @@ tags:
 modality: Spatial Transcriptomics
 architecture: Transformer (Self-Attention, Cross-Attention)
 task: Gene representation that integrates intracellular and spatial context.
+inputs:
+- expression
+- spatial-coordinates
 key: Transformer for spatial transcriptomics that adds ligand-gene context from neighbouring cells through
   cross-attention.
 links:

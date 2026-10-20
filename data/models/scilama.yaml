@@ -12,6 +12,8 @@ tags:
 - scrna-seq
 modality: scRNA-seq
 architecture: LLM-prior representation learning
+inputs:
+- expression
 key: Leverages LLM prior knowledge for single-cell representation learning.
 links:
   paper: https://proceedings.mlr.press/v267/hu25aa.html

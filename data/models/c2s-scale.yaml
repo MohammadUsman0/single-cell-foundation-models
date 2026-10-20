@@ -11,6 +11,9 @@ tags:
 - scrna-seq
 modality: scRNA-seq
 architecture: LLM (cell sentences)
+inputs:
+- expression
+architecture_family: llm
 key: Scales LLMs over 'cell sentences' for next-generation single-cell analysis.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1

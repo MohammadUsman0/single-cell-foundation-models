@@ -10,6 +10,8 @@ tags:
 - virtual-cell
 modality: scRNA-seq
 architecture: Foundation model (batch-invariant representation + probabilistic generation)
+inputs:
+- expression
 key: Couples batch-invariant universal cell representation with probabilistic expression generation; synthesizes
   high-fidelity virtual cells (AUROC ~= 0.5) to resolve rare cell types and improve spatial imputation.
 links:

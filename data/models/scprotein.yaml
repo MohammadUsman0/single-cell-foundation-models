@@ -10,6 +10,9 @@ tags:
 - graph
 modality: Single-cell Proteomics
 architecture: Deep Graph Contrastive Learning
+inputs:
+- protein-abundance
+architecture_family: graph-neural-network
 key: Single-cell proteomics embedding
 links:
   paper: https://doi.org/10.1038/s41592-024-02214-9

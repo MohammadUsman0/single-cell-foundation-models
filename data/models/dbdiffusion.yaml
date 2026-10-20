@@ -12,6 +12,10 @@ tags:
 - scrna-seq
 modality: scRNA-seq (perturbation)
 architecture: Diffusion
+inputs:
+- expression
+- perturbation
+architecture_family: diffusion
 key: Diffusion-based debiasing for single-cell transcriptional response prediction.
 links:
   paper: https://www.pnas.org/doi/10.1073/pnas.2525268122

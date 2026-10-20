@@ -10,6 +10,8 @@ tags:
 - scrna-seq
 modality: scRNA-seq
 architecture: Foundation model family
+inputs:
+- expression
 key: A family of foundation models for understanding single-cell biology.
 links:
   paper: https://arxiv.org/pdf/2503.03485

@@ -11,6 +11,8 @@ tags:
 - scrna-seq
 modality: Single-cell Gene Expression
 architecture: Language Model
+inputs:
+- expression
 key: Single-cell gene expression language model
 links:
   paper: https://arxiv.org/abs/2210.14330

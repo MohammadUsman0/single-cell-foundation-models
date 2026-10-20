@@ -9,6 +9,8 @@ tags:
 - scrna-seq
 modality: Single-Cell Transcriptomics
 architecture: Metric-Learning Framework
+inputs:
+- expression
 key: Scalable search of similar human cells, rapid queries of millions of profiles.
 links:
   paper: https://doi.org/10.1038/s41586-024-08411-y

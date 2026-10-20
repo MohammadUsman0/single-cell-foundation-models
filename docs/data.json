@@ -546,6 +546,10 @@
    },
    "citation": "Ji, Boya, Tingting Hu, Jiawen Wang, Mengmeng Liu, Liwen Xu, Qinhao Zhang, Siyun Zhong et al. \"CAPTAIN: a multimodal foundation model pretrained on co-assayed single-cell RNA and protein.\" Nature Communications 17, no. 1 (2026): 6161.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "protein-abundance"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41467-026-72882-y",
@@ -762,6 +766,10 @@
    },
    "citation": "Li, Bowen, Ziqiang Liu, Zhen Wang, Zhenyu Xu, Yantao Li, Chulin Sha, and Xiaolin Li. \"CLM-X: A multimodal single-cell foundation model with flexible multi-way Transformer for unified scRNA-seq and scATAC-seq analysis.\" bioRxiv (2026): 2026-02.",
    "reviewed": false,
+   "inputs": [
+    "chromatin-accessibility",
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2026.02.17.704943v1"
@@ -866,6 +874,12 @@
    },
    "citation": "Wu, Pengpeng, Hailin Wei, Yazi Li, Xinwei Zheng, Caibin Zhou, Xihao Hu, and Chenfei Wang. \"Decoding Single-Cell Omics of Perturbation Responses Using DeSCOPE.\" bioRxiv (2026).",
    "reviewed": false,
+   "inputs": [
+    "chromatin-accessibility",
+    "expression",
+    "perturbation"
+   ],
+   "architecture_family": "vae",
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1"
@@ -943,6 +957,12 @@
    },
    "citation": "Fang, Donghai, Yongheng Li, Zhen Wang, Yuansong Zeng, and Wenwen Min. \"Adapting a Pre-trained Single-Cell Foundation Model to Spatial Gene Expression Generation from Histology Images.\" arXiv preprint arXiv:2603.19766 (2026).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "histology-image",
+    "spatial-coordinates"
+   ],
+   "architecture_family": "diffusion",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2603.19766"
@@ -975,6 +995,7 @@
    },
    "citation": "Zhang, Han, Guo-Hua Yuan, Chaohao Yuan, Tingyang Xu, Tian Bian, Hong Cheng, Wenbing Huang, Deli Zhao, and Yu Rong. \"Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells.\" arXiv preprint arXiv:2603.25240 (2026).",
    "reviewed": false,
+   "architecture_family": "diffusion",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2603.25240"
@@ -1004,6 +1025,10 @@
    },
    "citation": "Wang, Haoran, Xuanyi Zhang, Shuangsang Fang, Longke Ran, Ziqing Deng, Yong Zhang, Yuxiang Li et al. \"WITHDRAWN: OKR-Cell: Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training.\" bioRxiv (2026).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2026.01.09.698573v1"
@@ -1031,6 +1056,9 @@
    },
    "citation": "Liu, Tianyu, Edward De Brouwer, Archit Verma, Alsu Missarova, Tony Kuo, Nathaniel Diamant, Hanchen Wang et al. \"Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states.\" Cell Systems 17, no. 5 (2026): 101570.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1016/j.cels.2026.101570",
@@ -1062,6 +1090,10 @@
    },
    "citation": "Bai, Ding, Le Song, and Eric P Xing. \"PertAdapt: unlocking single-cell foundation models for genetic perturbation prediction via condition-sensitive adaptation.\" Bioinformatics 42, no. Supplement_1 (2026): btag307.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1093/bioinformatics/btag307",
@@ -1272,6 +1304,10 @@
    },
    "citation": "Chiu, Hsuan‐Han, Ashley Varghese, Kunming Shao, Yen‐Chun Lu, Rahul Nahar, Hao Chen, Qing Deng et al. \"scChat : A large language model‐powered co‐pilot for contextualized single‐cell RNA sequencing analysis.\" AIChE Journal 72, no. 6 (2026): e70285.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1002/aic.70285",
@@ -1354,6 +1390,9 @@
    },
    "citation": "Bai, Ding, Shentong Mo, Ruiyi Zhang, Yingtao Luo, Jiahao Gao, Jeremy Parker Yang, Qiuyang Wu et al. \"scLong: a billion-parameter foundation model for capturing long-range gene context in single-cell transcriptomics.\" Nature Communications 17, no. 1 (2026): 2380.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41467-026-69102-y",
@@ -1386,6 +1425,10 @@
    },
    "citation": "Liu, Tianyu, Tinglin Huang, Tong Ding, Hao Wu, Peter Humphrey, Sudhir Perincheri, Kurt Schalper et al. \"Leveraging multi-modal foundation models for analysing spatial multi-omic and histopathology data.\" Nature Biomedical Engineering 10, no. 8 (2026): 1714-1731.",
    "reviewed": false,
+   "inputs": [
+    "histology-image",
+    "spatial-coordinates"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41551-025-01602-6",
@@ -1467,6 +1510,10 @@
    },
    "citation": "Shi, Peiting, Ningfeng Que, Xianzhe Huang, Xiaofei Wang, and Jianzhong Jeff Xi. \"StateXDiff: Cell State-Contextualized Multimodal Diffusion for Single-Cell Perturbation Prediction.\" arXiv preprint arXiv:2605.16104 (2026).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "diffusion",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2605.16104"
@@ -1497,6 +1544,10 @@
    },
    "citation": "Cao, Shenghao, Kaiyuan Yang, Jiabei Cheng, Jiachen Li, Hong-Bin Shen, Xiaoyong Pan, and Ye Yuan. \"stFormer integrates spatial ligand signaling into a foundation model for spatial transcriptomics.\" Cell Reports Methods (2026): 101612.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1016/j.crmeth.2026.101612",
@@ -1574,6 +1625,9 @@
    },
    "citation": "Pearce, James D., Sara E. Simmonds, Gita Mahmoudabadi, Lakshmi Krishnan, Giovanni Palla, Ana-Maria Istrate, Alexander Tarashansky et al. \"TranscriptFormer: A generative cell atlas across 1.5 billion years of evolution.\" Science 393, no. 6806 (2026): aec8514.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1126/science.aec8514",
@@ -1738,6 +1792,9 @@
    },
    "citation": "Jiang, Xiaohui, and Jichun Xie. \"A transcriptomics-native foundation model for universal cell representation and virtual cell synthesis.\" bioRxiv (2026).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2026.04.12.718016v1"
@@ -1789,6 +1846,9 @@
    },
    "citation": "LeRoy, Nathan J., Guangtao Zheng, Oleksandr Khoroshevskyi, Donald R. Campbell Jr, Aidong Zhang, and Nathan C. Sheffield. \"Atacformer: A transformer-based foundation model for analysis and interpretation of ATAC-seq data.\" bioRxiv (2025): 2025-11.",
    "reviewed": false,
+   "inputs": [
+    "chromatin-accessibility"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.11.03.685753"
@@ -1842,6 +1902,9 @@
    },
    "citation": "Linder, Johannes, Divyanshi Srivastava, Han Yuan, Vikram Agarwal, and David R. Kelley. \"Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation.\" Nature Genetics 57, no. 4 (2025): 949-961.",
    "reviewed": false,
+   "inputs": [
+    "dna-sequence"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41588-024-02053-6"
@@ -1872,6 +1935,10 @@
    },
    "citation": "Rizvi, Syed Asad, Daniel Levine, Aakash Patel, Shiyang Zhang, Eric Wang, Curtis Jamison Perry, Ivan Vrkic et al. \"Scaling Large Language Models for Next-Generation Single-Cell Analysis.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1"
@@ -1902,6 +1969,10 @@
     "code": "https://github.com/ElliotXie/CASSIA"
    },
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [],
    "review_basis": "metadata",
@@ -1955,6 +2026,10 @@
    },
    "citation": "Fang, Chen, Wentao Cui, Zhilong Hu, Wenhao Liu, Shubai Chen, Shaole Chang, Qingqing Long et al. \"Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model.\" National Science Review (2025): nwaf255.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "graph-neural-network",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1093/nsr/nwaf255"
@@ -1987,6 +2062,10 @@
    },
    "citation": "Park, Jeongbin, Sumin Kim, Jiwon Kim, Dongjoo Lee, Sungwoo Bae, Haenara Shin, Daeseung Lee et al. \"CELLama: Foundation Model for Single Cell and Spatial Transcriptomics by Cell Embedding Leveraging Language Model Abilities.\" Advanced Science 13, no. 7 (2025): e13210.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1002/advs.202513210",
@@ -2090,6 +2169,10 @@
    },
    "citation": "Zeng, Yuansong, Jiancong Xie, Ningyuan Shangguan, Zhuoyi Wei, Wenbing Li, Yun Su, Shuangyu Yang et al. \"CellFM: a large-scale foundation model pre-trained on transcriptomics of 100 million human cells.\" Nature Communications 16, no. 1 (2025): 4679.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "other",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41467-025-59926-5"
@@ -2118,6 +2201,7 @@
    },
    "citation": "Tang, Xiangru, Zhuoyun Yu, Jiapeng Chen, Yan Cui, Daniel Shao, Weixu Wang, Fang Wu et al. \"CellForge: agentic design of virtual cell models.\" arXiv preprint arXiv:2508.02276 (2025).",
    "reviewed": false,
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2508.02276"
@@ -2148,6 +2232,10 @@
    },
    "citation": "Gao, Yicheng, Weixu Wang, Yuheng Zhao, Kejing Dong, Caihua Shan, Weizhong Zheng, Till Richter et al. \"Language may be all omics needs: Harmonizing multimodal data for omics understanding with CellHermes.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "text"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.11.07.687322v1"
@@ -2232,6 +2320,10 @@
    },
    "citation": "Xiao, Chuxi, Yuang Ding, Haiyang Bian, Yixin Chen, Lei Wei, and Xuegong Zhang. \"Tokenizing single-cell transcriptomes as a native language for large language models.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.10.22.684047v1"
@@ -2312,6 +2404,10 @@
    },
    "citation": "Jiao, Yifeng, Yuchen Liu, Yu Zhang, Xin Guo, Yushuai Wu, Chen Jiang, Jiyang Li et al. \"ChromFound: Towards A Universal Foundation Model for Single-Cell Chromatin Accessibiltiy Data.\" In Advances in Neural Information Processing Systems 38 (2025): 85649-85686.",
    "reviewed": false,
+   "inputs": [
+    "chromatin-accessibility"
+   ],
+   "architecture_family": "state-space",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.52202/085713-2584",
@@ -2420,6 +2516,11 @@
    },
    "citation": "Shang, Ergan, Yuting Wei, and Kathryn Roeder. \"Predicting the unseen: A diffusion-based debiasing framework for transcriptional response prediction at single-cell resolution.\" Proceedings of the National Academy of Sciences 122, no. 52 (2025): e2525268122.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "architecture_family": "diffusion",
    "added": "2026-06-02",
    "sources": [
     "https://www.pnas.org/doi/10.1073/pnas.2525268122"
@@ -2472,6 +2573,10 @@
    },
    "citation": "Chen, Xiaoyang, Keyi Li, Xuejian Cui, Zian Wang, Qun Jiang, Jiacheng Lin, Zhen Li, Zijing Gao, Hairong Lv, and Rui Jiang. \"EpiAgent: foundation model for single-cell epigenomics.\" Nature Methods (2025): 1-12.",
    "reviewed": false,
+   "inputs": [
+    "chromatin-accessibility"
+   ],
+   "architecture_family": "transformer-encoder",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-025-02822-z"
@@ -2499,6 +2604,9 @@
    },
    "citation": "Wu, Juncheng, Changxin Wan, Zhicheng Ji, Yuyin Zhou, and Wenpin Hou. \"EpiFoundation: A foundation model for single-cell ATAC-seq via peak-to-gene alignment.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "chromatin-accessibility"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.02.05.636688"
@@ -2554,6 +2662,9 @@
    },
    "citation": "Litman, Elon, Tyler Myers, Vinayak Agarwal, Ekansh Mittal, Orion Li, Ashwin Gopinath, and Timothy Kassis. \"GeneJepa: A Predictive World Model of the Transcriptome.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.10.14.682378v1"
@@ -2583,6 +2694,10 @@
    },
    "citation": "Qi, Cong, Hanzhang Fang, Siqi Jiang, Xun Song, Tianxing Hu, and Wei Zhi. \"GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data.\" arXiv preprint arXiv:2504.16956 (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "state-space",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2504.16956"
@@ -2615,6 +2730,10 @@
    },
    "citation": "Fu, Xi, Shentong Mo, Alejandro Buendia, Anouchka P. Laurent, Anqi Shao, Maria del Mar Alvarez-Torres, Tianji Yu et al. \"A foundation model of transcription across human cell types.\" Nature 637, no. 8047 (2025): 965-973.",
    "reviewed": false,
+   "inputs": [
+    "chromatin-accessibility",
+    "dna-sequence"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41586-024-08391-z"
@@ -2745,6 +2864,10 @@
     "paper": "https://www.nature.com/articles/s43588-025-00870-1"
    },
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
    "added": "2026-06-02",
    "sources": [],
    "review_basis": "metadata",
@@ -2914,6 +3037,9 @@
    },
    "citation": "Tejada-Lapuerta, Alejandro, Anna C. Schaar, Robert Gutgesell, Giovanni Palla, Lennard Halle, Mariia Minaeva, Larsen Vornholz et al. \"Nicheformer: a foundation model for single-cell and spatial omics.\" Nature methods (2025): 1-14.",
    "reviewed": false,
+   "inputs": [
+    "spatial-coordinates"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-025-02814-z",
@@ -2945,6 +3071,11 @@
    },
    "citation": "Blampey, Quentin, Hakim Benkirane, Nadège Bercovici, Kevin Mulder, Grégoire Gessain, Florent Ginhoux, Fabrice André et al. \"Novae: a graph-based foundation model for spatial transcriptomics data.\" Nature Methods 22, no. 12 (2025): 2539-2550.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "architecture_family": "graph-neural-network",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-025-02899-6",
@@ -2995,6 +3126,12 @@
    },
    "citation": "Chen, Weiqing, Pengzhi Zhang, Tu N. Tran, Yiwei Xiao, Shengyu Li, Vrutant V. Shah, Hao Cheng et al. \"A visual–omics foundation model to bridge histopathology with spatial transcriptomics.\" Nature Methods (2025): 1-15.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "histology-image",
+    "spatial-coordinates"
+   ],
+   "architecture_family": "contrastive-dual-encoder",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-025-02707-1"
@@ -3023,6 +3160,10 @@
    },
    "citation": "Pang, Jiangshuan, Ping Qiu, Youzhe He, Yiting Deng, Wangyang Tang, Zhi Huang, Jing Yan et al. \"OmniCell: Unified Foundation Modelling of Single-Cell and Spatial Transcriptomics for Cellular and Molecular Insights.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2025.12.29.696804v1"
@@ -3245,6 +3386,10 @@
    },
    "citation": "Liu, Guole, Yongbing Zhao, Yingying Zhao, Tianyu Wang, Quanyou Cai, Xiaotao Wang, Ziyi Wen, Lihui Lin, Ge Yang, and Jiekai Chen. \"SCARF: Single Cell ATAC-seq and RNA-seq Foundation model.\" bioRxiv (2025): 2025-04.",
    "reviewed": false,
+   "inputs": [
+    "chromatin-accessibility",
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.04.07.647689"
@@ -3303,6 +3448,10 @@
    },
    "citation": "Wang, Chloe, Haotian Cui, Andrew Zhang, Ronald Xie, Hani Goodarzi, and Bo Wang. \"scGPT-spatial: Continual pretraining of single-cell foundation model for spatial transcriptomics.\" bioRxiv (2025): 2025-02.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.02.05.636714"
@@ -3332,6 +3481,9 @@
     "code": "https://github.com/microsoft/sciLaMA"
    },
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "status": "published",
    "github": "microsoft/sciLaMA"
@@ -3382,6 +3534,10 @@
    },
    "citation": "Palla, Giovanni, Sudarshan Babu, Payam Dibaeinia, James D. Pearce, Donghui Li, Aly A. Khan, Theofanis Karaletsos, and Jakub M. Tomczak. \"Scalable Single-Cell Gene Expression Generation with Latent Diffusion Models.\" arXiv preprint arXiv:2511.02986 (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "diffusion",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2511.02986"
@@ -3410,6 +3566,7 @@
    },
    "citation": "Fang, Zhaoyu, Ziyang Miao, Jianhui Lin, Yuying Xie, Jiliang Tang, Jiayuan Ding, and Min Li. \"scLinguist: A pre-trained hyena-based foundation model for cross-modality translation in single-cell multi-omics.\" bioRxiv (2025): 2025-09.",
    "reviewed": false,
+   "architecture_family": "state-space",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.09.30.679123"
@@ -3438,6 +3595,10 @@
    },
    "citation": "Sheinin, Ron, Roded Sharan, and Asaf Madi. \"scNET: learning context-specific gene and cell embeddings by integrating single-cell gene expression data with protein–protein interactions.\" Nature Methods (2025): 1-9.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "prior-network"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-025-02627-0"
@@ -3467,6 +3628,11 @@
     "code": "https://github.com/PancakeZoy/scouter"
    },
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [],
    "review_basis": "metadata",
@@ -3493,6 +3659,9 @@
     "code": "https://github.com/coffee19850519/scPEFT"
    },
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [],
    "review_basis": "metadata",
@@ -3578,6 +3747,9 @@
    },
    "citation": "Liu, Linjing, Wei Li, Fang Wang, Yiming Li, Long-Kai Huang, Ka-Chun Wong, Fan Yang, and Jianhua Yao. \"A pre-trained large generative model for translating single-cell transcriptomes to proteomes.\" Nature Biomedical Engineering (2025): 1-20.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41551-025-01528-z",
@@ -3607,6 +3779,10 @@
    },
    "citation": "Shaban, Muhammad, Yuzhou Chang, Huaying Qiu, Yao Yu Yeo, Andrew H. Song, Guillaume Jaume, Yuchen Wang et al. \"A Foundation Model for Spatial Proteomics.\" arXiv preprint arXiv:2506.03373 (2025).",
    "reviewed": false,
+   "inputs": [
+    "protein-abundance",
+    "spatial-coordinates"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2506.03373"
@@ -3662,6 +3838,10 @@
    },
    "citation": "Sun, Eric D., Alejandro Buendia, Anne Brunet, and James Zou. \"SpatialProp: tissue perturbation modeling with spatially resolved single-cell transcriptomics.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2025.11.30.691355v1"
@@ -3693,6 +3873,9 @@
    },
    "citation": "Dong, Hongyu, Sheng Mao, Yukuan Liu, Tian Tian, Lihua Zhang, Juanshu Wu, Shichen Zhang et al. \"SpaTranslator: A deep generative framework for universal spatial multi-omics cross-modality translation.\" bioRxiv (2025): 2025-11.",
    "reviewed": false,
+   "inputs": [
+    "spatial-coordinates"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.11.15.688644"
@@ -3769,6 +3952,10 @@
    },
    "citation": "Zhao, Suyuan, Yizhen Luo, Ganbo Yang, Yan Zhong, Hao Zhou, and Zaiqing Nie. \"Stofm: a multi-scale foundation model for spatial transcriptomics.\" arXiv preprint arXiv:2507.11588 (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2507.11588"
@@ -3800,6 +3987,11 @@
     "code": "https://github.com/Graph-and-Geometric-Learning/STPath"
    },
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "histology-image",
+    "spatial-coordinates"
+   ],
    "added": "2026-06-02",
    "sources": [],
    "review_basis": "metadata",
@@ -3829,6 +4021,9 @@
    },
    "citation": "Li, Zhongzhan, Sanqing Qu, Haixin Liang, Ruohui Tang, Xudong Zhang, Fan Lu, Jiani Yang et al. \"Integrative deep learning of spatial multi-omics with SWITCH.\" Nature Computational Science (2025): 1-13.",
    "reviewed": false,
+   "inputs": [
+    "spatial-coordinates"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s43588-025-00891-w"
@@ -3857,6 +4052,9 @@
    },
    "citation": "Ding, Jiayuan, Jianhui Lin, Shiyu Jiang, Yixin Wang, Ziyang Miao, Zhaoyu Fang, Jiliang Tang, Min Li, and Xiaojie Qiu. \"Tabula: A Tabular Self-Supervised Foundation Model for Single-Cell Transcriptomics.\" In The Thirty-ninth Annual Conference on Neural Information Processing Systems.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.52202/085713-3467",
@@ -3885,6 +4083,9 @@
    },
    "citation": "Gandhi, Shreshth, Farnoosh Javadi, Valentine Svensson, Umair Khan, Matthew G. Jones, John Yu, Daniele Merico, Hani Goodarzi, and Nima Alidoust. \"Tahoe-x1: Scaling Perturbation-Trained Single-Cell Foundation Models to 3 Billion Parameters.\" bioRxiv (2025): 2025-10.",
    "reviewed": false,
+   "inputs": [
+    "perturbation"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.10.23.683759"
@@ -3914,6 +4115,9 @@
    },
    "citation": "Chevalier, Alexis, Soumya Ghosh, Urvi Awasthi, James Watkins, Julia Bieniewska, Nichita Mitrea, Olga Kotova et al. \"TEDDY: A Family Of Foundation Models For Understanding Single Cell Biology.\" arXiv preprint arXiv:2503.03485 (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "status": "published"
   },
@@ -3941,6 +4145,11 @@
    },
    "citation": "Liu, Sizhe, Junjie Tang, Jian Ma, and Shaoheng Liang. \"TissueNarrator: Generative Modeling of Spatial Transcriptomics with Large Language Models.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.11.24.690325v1"
@@ -4022,6 +4231,7 @@
    },
    "citation": "Wei, Zhijian, Runze Ma, Zichen Wang, Zhongmin Li, Shuotong Song, and Shuangjia Zheng. \"VCWorld: A Biological World Model for Virtual Cell Simulation.\" arXiv preprint arXiv:2512.00306 (2025).",
    "reviewed": false,
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2512.00306"
@@ -4101,6 +4311,9 @@
    },
    "citation": "Ho, Nicholas, Caleb N. Ellington, Jinyu Hou, Sohan Addagudi, Shentong Mo, Tianhua Tao, Dian Li et al. \"Scaling dense representations for single cell with transcriptome-scale context.\" bioRxiv (2024): 2024-11.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2024.11.28.625303"
@@ -4131,6 +4344,9 @@
    },
    "citation": "Theus, Alexander, Florian Barkmann, David Wissel, and Valentina Boeva. \"CancerFoundation: A single-cell RNA sequencing foundation model to decipher drug resistance in cancer.\" bioRxiv (2024): 2024-11.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2024.11.01.621087"
@@ -4161,6 +4377,10 @@
     "code": "https://github.com/vandijklab/cell2sentence"
    },
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "status": "published",
    "github": "vandijklab/cell2sentence"
@@ -4243,6 +4463,10 @@
     "code": "https://github.com/yiqunchen/GenePT"
    },
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [],
    "review_basis": "metadata",
@@ -4406,6 +4630,9 @@
    },
    "citation": "Rosen, Yanay, Maria Brbić, Yusuf Roohani, Kyle Swanson, Ziang Li, and Jure Leskovec. \"Toward universal cell embeddings: integrating single-cell RNA-seq datasets across species with SATURN.\" Nature Methods 21, no. 8 (2024): 1492-1500.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-024-02191-z"
@@ -4433,6 +4660,9 @@
    },
    "citation": "Yuan, Xinyu, Zhihao Zhan, Zuobai Zhang, Manqi Zhou, Jianan Zhao, Boyu Han, Yue Li, and Jian Tang. \"Cell ontology guided transcriptome foundation model.\" Advances in Neural Information Processing Systems 37 (2024): 6323-6366.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.52202/079017-0204"
@@ -4461,6 +4691,10 @@
    },
    "citation": "Hao, Minsheng, Jing Gong, Xin Zeng, Chiming Liu, Yucheng Guo, Xingyi Cheng, Taifeng Wang, Jianzhu Ma, Xuegong Zhang, and Le Song. \"Large-scale foundation model on single-cell transcriptomics.\" Nature methods 21, no. 8 (2024): 1481-1491.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "transformer-encoder-decoder",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-024-02305-7"
@@ -4490,6 +4724,10 @@
    },
    "citation": "Istrate, Ana-Maria, Donghui Li, and Theofanis Karaletsos. \"scGenePT: Is language all you need for modeling single-cell perturbations?.\" bioRxiv (2024).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2024.10.23.619972v1"
@@ -4520,6 +4758,7 @@
    },
    "citation": "Cui, Haotian, Chloe Wang, Hassaan Maan, Kuan Pang, Fengning Luo, Nan Duan, and Bo Wang. \"scGPT: toward building a foundation model for single-cell multi-omics using generative AI.\" Nature methods 21, no. 8 (2024): 1470-1480.",
    "reviewed": false,
+   "architecture_family": "transformer-decoder",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-024-02201-0",
@@ -4549,6 +4788,9 @@
    },
    "citation": "Heimberg, Graham, Tony Kuo, Daryle J. DePianto, Omar Salem, Tobias Heigl, Nathaniel Diamant, Gabriele Scalia et al. \"A cell atlas foundation model for scalable search of similar human cells.\" Nature 638, no. 8052 (2025): 1085-1094.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41586-024-08411-y"
@@ -4579,6 +4821,10 @@
    },
    "citation": "Wang, Gefei, Tianyu Liu, Jia Zhao, Youshu Cheng, and Hongyu Zhao. \"Modeling and predicting single-cell multi-gene perturbation responses with scLAMBDA.\" bioRxiv (2024).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2024.12.04.626878v1"
@@ -4607,6 +4853,10 @@
    },
    "citation": "Xu, Jing, De‐Shuang Huang, and Xiujun Zhang. \"scmFormer integrates large‐scale single‐cell proteomics and transcriptomics data by multi‐task transformer.\" Advanced Science 11, no. 19 (2024): 2307835.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "protein-abundance"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1002/advs.202307835"
@@ -4636,6 +4886,7 @@
    },
    "citation": "Bian, Haiyang, Yixin Chen, Xiaomin Dong, Chen Li, Minsheng Hao, Sijie Chen, Jinyi Hu, Maosong Sun, Lei Wei, and Xuegong Zhang. \"scMulan: a multitask generative pre-trained language model for single-cell analysis.\" In International Conference on Research in Computational Molecular Biology, pp. 479-482. Cham: Springer Nature Switzerland, 2024.",
    "reviewed": false,
+   "architecture_family": "transformer-decoder",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1007/978-1-0716-3989-4_57"
@@ -4665,6 +4916,10 @@
    },
    "citation": "Li, Wei, Fan Yang, Fang Wang, Yu Rong, Linjing Liu, Bingzhe Wu, Han Zhang, and Jianhua Yao. \"scPROTEIN: a versatile deep graph contrastive learning framework for single-cell proteomics embedding.\" Nature Methods 21, no. 4 (2024): 623-634.",
    "reviewed": false,
+   "inputs": [
+    "protein-abundance"
+   ],
+   "architecture_family": "graph-neural-network",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-024-02214-9"
@@ -4695,6 +4950,10 @@
    },
    "citation": "Li, Cong, Qingqing Long, Yuanchun Zhou, and Meng Xiao. \"SCREADER: Prompting Large Language Models to Interpret scRNA-seq Data.\" In 2024 IEEE International Conference on Data Mining Workshops (ICDMW) (2024): 665-672.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1109/icdmw65004.2024.00092",
@@ -4854,6 +5113,9 @@
    },
    "citation": "Feng, Guihai, Xin Qin, Jiahao Zhang, Wuliang Huang, Yiyang Zhang, Wentao Cui, Shirui Li et al. \"CellPolaris: Decoding Cell Fate through Generalization Transfer Learning of Gene Regulatory Networks.\" bioRxiv (2023): 2023-09.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2023.09.25.559244"
@@ -4882,6 +5144,11 @@
     "code": "https://github.com/vandijklab/CINEMA-OT"
    },
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "architecture_family": "other",
    "added": "2026-06-02",
    "sources": [],
    "review_basis": "metadata",
@@ -4909,6 +5176,9 @@
    },
    "citation": "Theodoris, Christina V., Ling Xiao, Anant Chopra, Mark D. Chaffin, Zeina R. Al Sayed, Matthew C. Hill, Helene Mantineo et al. \"Transfer learning enables predictions in network biology.\" Nature 618, no. 7965 (2023): 616-624.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41586-023-06139-9"
@@ -4938,6 +5208,7 @@
    },
    "citation": "Liu, Tianyu, Yuge Wang, Rex Ying, and Hongyu Zhao. \"Muse-gnn: Learning unified gene representation from multimodal biological graph data.\" Advances in neural information processing systems 36 (2023): 24661-24677.",
    "reviewed": false,
+   "architecture_family": "graph-neural-network",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.52202/075280-1071"
@@ -4990,6 +5261,10 @@
    },
    "citation": "Oh, Gyutaek, Baekgyu Choi, Inkyung Jung, and Jong Chul Ye. \"schyena: Foundation model for full-length single-cell rna-seq analysis in brain.\" arXiv preprint arXiv:2310.02713 (2023).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "state-space",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2310.02713"
@@ -5045,6 +5320,9 @@
    },
    "citation": "Schwessinger, Ron, Jacob Deasy, Rob T. Woodruff, Stephen Young, and Kim M. Branson. \"Single-cell gene expression prediction from DNA sequence at large contexts.\" bioRxiv (2023): 2023-07.",
    "reviewed": false,
+   "inputs": [
+    "dna-sequence"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2023.07.26.550634"
@@ -5075,6 +5353,10 @@
    },
    "citation": "Shen, Hongru, Jilei Liu, Jiani Hu, Xilin Shen, Chao Zhang, Dan Wu, Mengyao Feng et al. \"Generative pretraining from large-scale transcriptomes for single-cell deciphering.\" Iscience 26, no. 5 (2023).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "architecture_family": "transformer-decoder",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1016/j.isci.2023.106536"
@@ -5102,6 +5384,9 @@
    },
    "citation": "Gong, Jing, Minsheng Hao, Xingyi Cheng, Xin Zeng, Chiming Liu, Jianzhu Ma, Xuegong Zhang, Taifeng Wang, and Le Song. \"xTrimoGene: an efficient and scalable representation learner for single-cell RNA-seq data.\" Advances in Neural Information Processing Systems 36 (2023): 69391-69403.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.52202/075280-3039"
@@ -5132,6 +5417,9 @@
    },
    "citation": "Connell, William, Umair Khan, and Michael J. Keiser. \"A single-cell gene expression language model.\" arXiv preprint arXiv:2210.14330 (2022).",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2210.14330"
@@ -5162,6 +5450,9 @@
    },
    "citation": "Yang, Fan, Wenchuan Wang, Fang Wang, Yuan Fang, Duyu Tang, Junzhou Huang, Hui Lu, and Jianhua Yao. \"scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data.\" Nature Machine Intelligence 4, no. 10 (2022): 852-866.",
    "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s42256-022-00534-z"

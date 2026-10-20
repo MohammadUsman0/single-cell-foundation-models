@@ -12,6 +12,9 @@ tags:
 - scrna-seq
 modality: scRNA-seq
 architecture: Multi-agent LLM
+inputs:
+- expression
+architecture_family: agent
 key: Multi-agent LLM for automated, interpretable cell-type annotation.
 links:
   paper: https://www.nature.com/articles/s41467-025-67084-x

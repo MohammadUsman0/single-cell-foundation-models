@@ -8,6 +8,8 @@ category: scrna
 tags:
 - scrna-seq
 modality: Single-Cell RNA-Seq
+inputs:
+- expression
 key: Efficient and Scalable Representation Learner
 links:
   paper: https://doi.org/10.52202/075280-3039

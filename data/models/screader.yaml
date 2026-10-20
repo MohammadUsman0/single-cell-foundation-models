@@ -11,6 +11,9 @@ tags:
 - scrna-seq
 modality: scRNA-seq
 architecture: LLM prompting
+inputs:
+- expression
+architecture_family: llm
 key: Prompts LLMs to interpret scRNA-seq data.
 links:
   paper: https://doi.org/10.1109/icdmw65004.2024.00092

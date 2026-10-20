@@ -13,6 +13,9 @@ tags:
 - scrna-seq
 modality: scRNA-seq + spatial
 architecture: Language-model embedding
+inputs:
+- expression
+- spatial-coordinates
 key: Cell embeddings for sc + spatial transcriptomics via LLM abilities.
 links:
   paper: https://doi.org/10.1002/advs.202513210

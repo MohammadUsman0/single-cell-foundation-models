@@ -9,6 +9,8 @@ tags:
 - scrna-seq
 modality: Single-Cell Transcriptomics
 architecture: Tabular Self-Supervised
+inputs:
+- expression
 key: Single-cell foundation model with tabular-structure-aware self-supervised pre-training, designed
   for privacy-preserving federated training.
 links:

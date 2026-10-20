@@ -11,6 +11,10 @@ tags:
 - scrna-seq
 modality: Spatial Transcriptomics
 architecture: Graph-based
+inputs:
+- expression
+- spatial-coordinates
+architecture_family: graph-neural-network
 links:
   paper: https://doi.org/10.1038/s41592-025-02899-6
   preprint: https://doi.org/10.1101/2024.09.09.612009

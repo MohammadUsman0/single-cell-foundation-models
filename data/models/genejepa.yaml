@@ -11,6 +11,8 @@ tags:
 - scrna-seq
 modality: scRNA-seq
 architecture: JEPA world model
+inputs:
+- expression
 key: A predictive (JEPA) world model of the transcriptome.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.10.14.682378v1

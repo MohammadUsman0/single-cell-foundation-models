@@ -14,6 +14,11 @@ tags:
 - scrna-seq
 modality: Histopathology Image + Spatial Transcriptomics
 architecture: Visual-Omics (Contrastive Learning)
+inputs:
+- expression
+- histology-image
+- spatial-coordinates
+architecture_family: contrastive-dual-encoder
 key: Links histology images and spatial transcriptomics by turning expression into text 'sentences'; used
   for cell-type decomposition, expression prediction and image–transcriptomics retrieval.
 links:

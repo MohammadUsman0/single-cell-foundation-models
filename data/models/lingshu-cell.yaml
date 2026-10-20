@@ -12,6 +12,7 @@ tags:
 - scrna-seq
 modality: Single-cell
 architecture: masked discrete diffusion model
+architecture_family: diffusion
 key: masked discrete diffusion model that learns transcriptomic state distributions and supports conditional
   simulation under perturbation
 links:

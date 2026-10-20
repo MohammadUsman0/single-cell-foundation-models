@@ -8,6 +8,8 @@ category: scrna
 tags:
 - scrna-seq
 modality: Single Cell Transcriptome
+inputs:
+- expression
 key: Develop AIDO.Cell, a pretrained module for representing gene expression and cellular systems in an
   AI-driven Digital Organism
 links:

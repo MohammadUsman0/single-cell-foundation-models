@@ -10,6 +10,9 @@ tags:
 - scrna-seq
 - proteomics
 modality: Single-cell Gene Expression + Protein-Protein Interactions
+inputs:
+- expression
+- prior-network
 key: Learning context-specific gene/cell embeddings
 links:
   paper: https://doi.org/10.1038/s41592-025-02627-0

@@ -10,6 +10,7 @@ tags:
 - virtual-cell
 - agent
 architecture: Agentic
+architecture_family: agent
 links:
   paper: https://arxiv.org/abs/2508.02276
   code: https://github.com/gersteinlab/CellForge

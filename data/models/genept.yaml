@@ -11,6 +11,9 @@ tags:
 - scrna-seq
 modality: scRNA-seq
 architecture: LLM text embeddings
+inputs:
+- expression
+architecture_family: llm
 key: Builds single-cell embeddings from ChatGPT gene/text descriptions.
 links:
   paper: https://www.nature.com/articles/s41551-024-01284-6

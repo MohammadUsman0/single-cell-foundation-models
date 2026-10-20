@@ -11,6 +11,11 @@ tags:
 - scrna-seq
 modality: scRNA-seq / scATAC-seq (perturbation)
 architecture: Conditional VAE + ESM2 gene embeddings
+inputs:
+- chromatin-accessibility
+- expression
+- perturbation
+architecture_family: vae
 key: Lightweight conditional VAE that conditions on ESM2 protein-language embeddings of perturbed genes;
   strong on unseen genes, unseen cell types, and combinatorial multi-gene perturbations.
 links:

@@ -11,6 +11,7 @@ tags:
 - generative
 modality: Single-cell
 architecture: Multitask Generative Pre-trained Language Model
+architecture_family: transformer-decoder
 key: Single-cell analysis
 links:
   paper: https://doi.org/10.1007/978-1-0716-3989-4_57

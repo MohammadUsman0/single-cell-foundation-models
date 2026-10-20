@@ -9,6 +9,9 @@ tags:
 - spatial
 - scrna-seq
 modality: Spatial Transcriptomics
+inputs:
+- expression
+- spatial-coordinates
 key: Multi-scale modeling
 links:
   paper: https://arxiv.org/abs/2507.11588

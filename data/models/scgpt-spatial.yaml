@@ -11,6 +11,9 @@ tags:
 modality: Spatial Transcriptomics
 architecture: Continual Pretraining
 task: Continual Pretraining from scGPT
+inputs:
+- expression
+- spatial-coordinates
 key: scGPT-spatial introduces a novel MoE (Mixture of Experts) decoder that adaptively routes samples
   for protocol-aware decoding of gene expression profiles
 links:

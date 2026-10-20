@@ -9,6 +9,9 @@ tags:
 - scrna-seq
 modality: Single-cell Transcriptomics
 architecture: Asymmetric Transformer-like
+inputs:
+- expression
+architecture_family: transformer-encoder-decoder
 key: Large pre-trained model for gene expression enhancement, drug response prediction and cell-type annotation.
 links:
   paper: https://doi.org/10.1038/s41592-024-02305-7

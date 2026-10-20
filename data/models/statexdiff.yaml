@@ -13,6 +13,9 @@ tags:
 - scrna-seq
 modality: Multimodal (transcriptomics + inferred protein)
 architecture: Latent diffusion Transformer
+inputs:
+- expression
+architecture_family: diffusion
 key: Integrates RNA and protein-level context via a Virtual Multimodal Cell State and a Mechanism-aware
   Drug-Gene Template to predict drug-induced single-cell responses across unseen cell lines, drugs, and
   combinations.

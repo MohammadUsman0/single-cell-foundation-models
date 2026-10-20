@@ -13,6 +13,8 @@ modality: Spatial Multi-omics
 architecture: deep generative model
 task: Cross-modality translation and marker genes and proteins recovery, motif enrichment analysis, and
   gene regulation inference
+inputs:
+- spatial-coordinates
 key: Generative model (graph neural network + adversarial VAE) that translates between spatial omics modalities
   to simulate paired data.
 links:

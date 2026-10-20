@@ -9,6 +9,8 @@ tags:
 - gene-regulation
 - scrna-seq
 modality: Transcriptome
+inputs:
+- expression
 links:
   paper: https://doi.org/10.52202/079017-0204
   code: https://github.com/DeepGraphLearning/scCello

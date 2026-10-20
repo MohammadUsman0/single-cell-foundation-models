@@ -12,6 +12,8 @@ tags:
 modality: Single-cell RNA-seq (Malignant cells)
 architecture: scRNA-seq Foundation Model (scFM)
 task: Zero-shot batch integration, drug response prediction, survival prediction.
+inputs:
+- expression
 key: scRNA-seq foundation model trained only on about 1M malignant cells, aimed at batch integration,
   drug response and survival prediction.
 links:

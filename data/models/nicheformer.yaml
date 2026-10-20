@@ -8,6 +8,8 @@ category: spatial
 tags:
 - spatial
 modality: Single-cell and Spatial Omics
+inputs:
+- spatial-coordinates
 links:
   paper: https://doi.org/10.1038/s41592-025-02814-z
   preprint: https://doi.org/10.1101/2024.04.15.589472

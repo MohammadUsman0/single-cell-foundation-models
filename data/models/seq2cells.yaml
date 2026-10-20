@@ -10,6 +10,8 @@ tags:
 - scrna-seq
 modality: Single-cell Gene Expression from DNA Sequence
 task: Prediction from DNA sequence
+inputs:
+- dna-sequence
 key: Predicts single-cell gene expression from DNA sequence by transfer learning from a pre-trained epigenome
   model.
 links:

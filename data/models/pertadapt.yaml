@@ -11,6 +11,9 @@ tags:
 - scrna-seq
 modality: scRNA-seq (perturbation)
 architecture: Adapter on scFMs
+inputs:
+- expression
+- perturbation
 key: Condition-sensitive adaptation of scFMs for genetic perturbation prediction.
 links:
   paper: https://doi.org/10.1093/bioinformatics/btag307

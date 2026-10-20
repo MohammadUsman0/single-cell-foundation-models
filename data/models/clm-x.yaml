@@ -11,6 +11,9 @@ tags:
 - scrna-seq
 modality: scRNA-seq + scATAC-seq
 architecture: Multi-way Transformer
+inputs:
+- chromatin-accessibility
+- expression
 key: Multimodal foundation model pretrained on million-scale unimodal and multimodal data; unifies scRNA-seq
   and scATAC-seq with strong RNA-ATAC cross-modal translation and genetic-perturbation-response prediction.
 links:

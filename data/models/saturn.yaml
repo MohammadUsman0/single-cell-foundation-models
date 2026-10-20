@@ -14,6 +14,8 @@ tags:
 - scrna-seq
 modality: Single-cell RNA-seq
 architecture: Deep Learning (Protein Language Models)
+inputs:
+- expression
 key: Represents genes with protein language model embeddings to integrate datasets and transfer annotations
   across species.
 links:

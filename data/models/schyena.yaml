@@ -10,6 +10,9 @@ tags:
 - scrna-seq
 modality: Full-Length Single-Cell RNA-Seq
 architecture: Hyena-based
+inputs:
+- expression
+architecture_family: state-space
 key: Analysis in Brain
 links:
   paper: https://arxiv.org/abs/2310.02713

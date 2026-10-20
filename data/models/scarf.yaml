@@ -8,6 +8,9 @@ category: epigenomics
 tags:
 - scatac-seq
 modality: Single Cell ATAC-seq and RNA-seq
+inputs:
+- chromatin-accessibility
+- expression
 links:
   paper: https://doi.org/10.1101/2025.04.07.647689
 citation: 'Liu, Guole, Yongbing Zhao, Yingying Zhao, Tianyu Wang, Quanyou Cai, Xiaotao Wang, Ziyi Wen,

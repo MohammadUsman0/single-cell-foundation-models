@@ -11,6 +11,9 @@ tags:
 - scrna-seq
 modality: Single-Cell Proteomics and Transcriptomics
 architecture: Multi-Task Transformer
+inputs:
+- expression
+- protein-abundance
 key: Integrates large-scale data
 links:
   paper: https://doi.org/10.1002/advs.202307835

@@ -10,6 +10,9 @@ tags:
 - scrna-seq
 modality: scRNA-seq
 architecture: Bidirectional Mamba
+inputs:
+- expression
+architecture_family: state-space
 key: Efficient long-context single-cell modeling with bidirectional Mamba.
 links:
   paper: https://arxiv.org/abs/2504.16956

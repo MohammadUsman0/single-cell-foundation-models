@@ -10,6 +10,8 @@ tags:
 - scrna-seq
 modality: Single-Cell Transcriptomics
 architecture: Billion-Parameter
+inputs:
+- expression
 key: Capturing long-range gene context
 links:
   paper: https://doi.org/10.1038/s41467-026-69102-y

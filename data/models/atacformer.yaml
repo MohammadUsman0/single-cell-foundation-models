@@ -9,6 +9,8 @@ tags:
 - scatac-seq
 modality: scATAC-seq
 architecture: Transformer-based
+inputs:
+- chromatin-accessibility
 key: Embeds individual cis-regulatory elements; used for clustering, cell-type annotation, batch correction
   and RNA imputation (via CRAFT).
 links:
