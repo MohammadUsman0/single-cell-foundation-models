@@ -1,15 +1,16 @@
 id: unipert-g2cp
 kind: model
 name: UniPert-G2CP
-title: Genetic-To-Chemical Perturbation Transfer Learning through Unified Multimodal Molecular Representations
-year: 2025
-venue: bioRxiv
+title: UniPert-G2CP bridges genetic and chemical screens from molecular representation to phenotype modeling
+year: 2026
+venue: Cell
 category: perturbation
 tags:
 - perturbation
 - multi-omics
 - drug-response
 links:
-  paper: https://doi.org/10.1101/2025.02.02.635055
+  paper: https://doi.org/10.1016/j.cell.2026.06.005
+  preprint: https://doi.org/10.1101/2025.02.02.635055
   code: https://github.com/TencentAILabHealthcare/UniPert
 reviewed: false

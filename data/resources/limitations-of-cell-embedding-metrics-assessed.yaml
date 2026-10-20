@@ -1,9 +1,12 @@
 id: limitations-of-cell-embedding-metrics-assessed
 kind: resource
 type: benchmark
+aliases:
+- Metric Mirages in Cell Embeddings
 title: Limitations of Cell Embedding Metrics Assessed Using Drifting Islands
 year: 2025
 venue: Nature Biotechnology
 links:
   paper: https://doi.org/10.1038/s41587-025-02702-z
+  preprint: https://www.biorxiv.org/content/10.1101/2024.04.02.587824v1
 reviewed: false

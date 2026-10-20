@@ -3,7 +3,7 @@
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
   "models": 182,
-  "resources": 121,
+  "resources": 120,
   "venues": 19
  },
  "vocab": {
@@ -338,6 +338,27 @@
    "status": "preprint"
   },
   {
+   "id": "cell-o1",
+   "kind": "model",
+   "name": "Cell-o1",
+   "title": "Cell-o1: Training LLMs to Solve Single-Cell Reasoning Puzzles with Reinforcement Learning",
+   "year": 2026,
+   "venue": "Bioinformatics",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "text"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1093/bioinformatics/btag208",
+    "preprint": "https://arxiv.org/abs/2506.02911",
+    "code": "https://github.com/ncbi-nlp/cell-o1"
+   },
+   "reviewed": false,
+   "status": "published",
+   "github": "ncbi-nlp/cell-o1"
+  },
+  {
    "id": "cellatria",
    "kind": "model",
    "name": "CellAtria",
@@ -645,6 +666,28 @@
    "status": "preprint"
   },
   {
+   "id": "pertadapt",
+   "kind": "model",
+   "name": "PertAdapt",
+   "title": "PertAdapt: unlocking single-cell foundation models for genetic perturbation prediction via condition-sensitive adaptation",
+   "year": 2026,
+   "venue": "Bioinformatics",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq (perturbation)",
+   "architecture": "Adapter on scFMs",
+   "key": "Condition-sensitive adaptation of scFMs for genetic perturbation prediction.",
+   "links": {
+    "paper": "https://doi.org/10.1093/bioinformatics/btag307",
+    "preprint": "https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "perturbdiff",
    "kind": "model",
    "name": "PerturbDiff",
@@ -905,7 +948,7 @@
    "id": "spemo",
    "kind": "model",
    "name": "spEMO",
-   "title": "spEMO: Leveraging Multi-Modal Foundation Models for Analyzing Spatial Multi-Omic and Histopathology Data",
+   "title": "Leveraging multi-modal foundation models for analysing spatial multi-omic and histopathology data",
    "year": 2026,
    "venue": "Nature Biomedical Engineering",
    "category": "multimodal",
@@ -918,7 +961,8 @@
    "architecture": "Multimodal FM",
    "key": "Multi-modal FM for spatial multi-omic and histopathology data.",
    "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2025.01.13.632818v3"
+    "paper": "https://doi.org/10.1038/s41551-025-01602-6",
+    "preprint": "https://www.biorxiv.org/content/10.1101/2025.01.13.632818v3"
    },
    "reviewed": false,
    "status": "published"
@@ -1053,6 +1097,28 @@
    "reviewed": false,
    "status": "published",
    "github": "snap-stanford/UCE"
+  },
+  {
+   "id": "unipert-g2cp",
+   "kind": "model",
+   "name": "UniPert-G2CP",
+   "title": "UniPert-G2CP bridges genetic and chemical screens from molecular representation to phenotype modeling",
+   "year": 2026,
+   "venue": "Cell",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "multi-omics",
+    "drug-response"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2026.06.005",
+    "preprint": "https://doi.org/10.1101/2025.02.02.635055",
+    "code": "https://github.com/TencentAILabHealthcare/UniPert"
+   },
+   "reviewed": false,
+   "status": "published",
+   "github": "TencentAILabHealthcare/UniPert"
   },
   {
    "id": "x-cell",
@@ -1278,24 +1344,28 @@
    "status": "published"
   },
   {
-   "id": "cell-o1",
+   "id": "cellama",
    "kind": "model",
-   "name": "Cell-o1",
-   "title": "Cell-o1: Training LLMs to Solve Single-Cell Reasoning Puzzles with Reinforcement Learning",
+   "name": "CELLama",
+   "title": "CELLama: Foundation Model for Single Cell and Spatial Transcriptomics by Cell Embedding Leveraging Language Model Abilities",
    "year": 2025,
-   "venue": "arXiv",
-   "category": "agents",
+   "venue": "Advanced Science",
+   "category": "llm",
    "tags": [
-    "agent",
-    "text"
+    "llm",
+    "spatial",
+    "text",
+    "scrna-seq"
    ],
+   "modality": "scRNA-seq + spatial",
+   "architecture": "Language-model embedding",
+   "key": "Cell embeddings for sc + spatial transcriptomics via LLM abilities.",
    "links": {
-    "paper": "https://arxiv.org/abs/2506.02911",
-    "code": "https://github.com/ncbi-nlp/cell-o1"
+    "paper": "https://doi.org/10.1002/advs.202513210",
+    "preprint": "https://www.biorxiv.org/content/10.1101/2024.05.08.593094v1"
    },
    "reviewed": false,
-   "status": "preprint",
-   "github": "ncbi-nlp/cell-o1"
+   "status": "published"
   },
   {
    "id": "cellclip",
@@ -1534,7 +1604,7 @@
    "name": "ChromFound",
    "title": "ChromFound: Towards A Universal Foundation Model for Single-Cell Chromatin Accessibility Data",
    "year": 2025,
-   "venue": "arXiv",
+   "venue": "NeurIPS",
    "category": "epigenomics",
    "tags": [
     "scatac-seq"
@@ -1543,11 +1613,12 @@
    "architecture": "Hybrid (Mamba + Self-Attention)",
    "key": "Cell representation, cell type annotation, cross-omics prediction, identifies gene-enhancer relationships. Key Finding: Hybrid architecture to handle long-range and local regulatory dependencies.",
    "links": {
-    "paper": "https://arxiv.org/abs/2505.12638"
+    "paper": "https://doi.org/10.52202/085713-2584",
+    "preprint": "https://arxiv.org/abs/2505.12638"
    },
    "citation": "Jiao, Yifeng, Yuchen Liu, Yu Zhang, Xin Guo, Yushuai Wu, Chen Jiang, Jiyang Li et al. \"ChromFound: Towards A Universal Foundation Model for Single-Cell Chromatin Accessibility Data.\" arXiv preprint arXiv:2505.12638 (2025).",
    "reviewed": false,
-   "status": "preprint"
+   "status": "published"
   },
   {
    "id": "clip-n",
@@ -2107,27 +2178,6 @@
    "reviewed": false,
    "status": "published",
    "github": "broadinstitute/2022_PERISCOPE"
-  },
-  {
-   "id": "pertadapt",
-   "kind": "model",
-   "name": "PertAdapt",
-   "title": "PertAdapt: Unlocking Single-Cell Foundation Models for Genetic Perturbation Prediction via Condition-Sensitive Adaptation",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "category": "perturbation",
-   "tags": [
-    "perturbation",
-    "scrna-seq"
-   ],
-   "modality": "scRNA-seq (perturbation)",
-   "architecture": "Adapter on scFMs",
-   "key": "Condition-sensitive adaptation of scFMs for genetic perturbation prediction.",
-   "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1"
-   },
-   "reviewed": false,
-   "status": "preprint"
   },
   {
    "id": "perturb-fish",
@@ -2968,27 +3018,6 @@
    "github": "ZexiChen502/UniCure"
   },
   {
-   "id": "unipert-g2cp",
-   "kind": "model",
-   "name": "UniPert-G2CP",
-   "title": "Genetic-To-Chemical Perturbation Transfer Learning through Unified Multimodal Molecular Representations",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "category": "perturbation",
-   "tags": [
-    "perturbation",
-    "multi-omics",
-    "drug-response"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1101/2025.02.02.635055",
-    "code": "https://github.com/TencentAILabHealthcare/UniPert"
-   },
-   "reviewed": false,
-   "status": "preprint",
-   "github": "TencentAILabHealthcare/UniPert"
-  },
-  {
    "id": "vcworld",
    "kind": "model",
    "name": "VCWorld",
@@ -3070,29 +3099,6 @@
    },
    "reviewed": false,
    "status": "published"
-  },
-  {
-   "id": "cellama",
-   "kind": "model",
-   "name": "CELLama",
-   "title": "CELLama: Foundation Model for Single Cell and Spatial Transcriptomics by Cell Embedding Leveraging Language Model Abilities",
-   "year": 2024,
-   "venue": "bioRxiv",
-   "category": "llm",
-   "tags": [
-    "llm",
-    "spatial",
-    "text",
-    "scrna-seq"
-   ],
-   "modality": "scRNA-seq + spatial",
-   "architecture": "Language-model embedding",
-   "key": "Cell embeddings for sc + spatial transcriptomics via LLM abilities.",
-   "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2024.05.08.593094v1"
-   },
-   "reviewed": false,
-   "status": "preprint"
   },
   {
    "id": "genecompass",
@@ -3406,7 +3412,7 @@
    "name": "scReader",
    "title": "scReader: Prompting Large Language Models to Interpret scRNA-seq Data",
    "year": 2024,
-   "venue": "arXiv",
+   "venue": "ICDM Workshops",
    "category": "llm",
    "tags": [
     "llm",
@@ -3417,10 +3423,11 @@
    "architecture": "LLM prompting",
    "key": "Prompts LLMs to interpret scRNA-seq data.",
    "links": {
-    "paper": "https://arxiv.org/abs/2412.18156"
+    "paper": "https://doi.org/10.1109/icdmw65004.2024.00092",
+    "preprint": "https://arxiv.org/abs/2412.18156"
    },
    "reviewed": false,
-   "status": "preprint"
+   "status": "published"
   },
   {
    "id": "sctab",
@@ -3962,6 +3969,20 @@
    "status": "preprint"
   },
   {
+   "id": "evaluating-the-role-of-pre-training",
+   "kind": "resource",
+   "title": "Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance",
+   "year": 2026,
+   "venue": "Nature Methods",
+   "type": "benchmark",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-026-03120-y",
+    "preprint": "https://www.biorxiv.org/content/10.1101/2024.12.13.628448v1"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "foundation-models-improve-perturbation-response-prediction",
    "kind": "resource",
    "aliases": [
@@ -4047,6 +4068,23 @@
    },
    "reviewed": false,
    "status": "unknown"
+  },
+  {
+   "id": "scclubench-comprehensive-benchmarking-of-clustering-algorithms",
+   "kind": "resource",
+   "title": "scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing",
+   "year": 2026,
+   "venue": "AAAI",
+   "type": "benchmark",
+   "tags": [
+    "scrna-seq"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1609/aaai.v40i2.37110",
+    "preprint": "https://arxiv.org/abs/2512.02471"
+   },
+   "reviewed": false,
+   "status": "published"
   },
   {
    "id": "sparse-autoencoders-reveal-organized-biological-knowledge",
@@ -4543,12 +4581,16 @@
   {
    "id": "limitations-of-cell-embedding-metrics-assessed",
    "kind": "resource",
+   "aliases": [
+    "Metric Mirages in Cell Embeddings"
+   ],
    "title": "Limitations of Cell Embedding Metrics Assessed Using Drifting Islands",
    "year": 2025,
    "venue": "Nature Biotechnology",
    "type": "benchmark",
    "links": {
-    "paper": "https://doi.org/10.1038/s41587-025-02702-z"
+    "paper": "https://doi.org/10.1038/s41587-025-02702-z",
+    "preprint": "https://www.biorxiv.org/content/10.1101/2024.04.02.587824v1"
    },
    "reviewed": false,
    "status": "published"
@@ -4638,9 +4680,9 @@
   {
    "id": "perturbench-benchmarking-machine-learning-models-for",
    "kind": "resource",
-   "title": "Perturbench: Benchmarking machine learning models for cellular perturbation analysis",
+   "title": "PerturBench: Benchmarking Machine Learning Models for Cellular Perturbation Analysis",
    "year": 2025,
-   "venue": "arXiv",
+   "venue": "NeurIPS",
    "type": "benchmark",
    "tags": [
     "perturbation",
@@ -4648,11 +4690,12 @@
    ],
    "key": "PerturBench a comprehensive framework for modeling single cell transcriptomic responses to perturbations, aimed at standardizing benchmarking",
    "links": {
-    "paper": "https://arxiv.org/abs/2408.10609"
+    "paper": "https://doi.org/10.52202/085713-3225",
+    "preprint": "https://arxiv.org/abs/2408.10609"
    },
    "citation": "Wu, Yan, Esther Wershof, Sebastian M. Schmon, Marcel Nassar, Błażej Osiński, Ridvan Eksi, Zichao Yan, Rory Stark, Kun Zhang, and Thore Graepel. \"Perturbench: Benchmarking machine learning models for cellular perturbation analysis.\" arXiv preprint arXiv:2408.10609 (2024).",
    "reviewed": false,
-   "status": "preprint"
+   "status": "published"
   },
   {
    "id": "reusability-report-transferability-of-self-supervised",
@@ -4685,22 +4728,6 @@
    },
    "reviewed": false,
    "status": "unknown"
-  },
-  {
-   "id": "scclubench-comprehensive-benchmarking-of-clustering-algorithms",
-   "kind": "resource",
-   "title": "scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing",
-   "year": 2025,
-   "venue": "arXiv",
-   "type": "benchmark",
-   "tags": [
-    "scrna-seq"
-   ],
-   "links": {
-    "paper": "https://arxiv.org/abs/2512.02471"
-   },
-   "reviewed": false,
-   "status": "preprint"
   },
   {
    "id": "scdrugmap-benchmarking-large-foundation-models-for",
@@ -5113,19 +5140,6 @@
    "status": "published"
   },
   {
-   "id": "evaluating-the-role-of-pre-training",
-   "kind": "resource",
-   "title": "Evaluating the role of pre-training dataset size and diversity on single-cell foundation model performance",
-   "year": 2024,
-   "venue": "bioRxiv",
-   "type": "benchmark",
-   "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2024.12.13.628448v1"
-   },
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
    "id": "evaluating-the-utilities-of-foundation-models",
    "kind": "resource",
    "title": "Evaluating the utilities of foundation models in single-cell data analysis",
@@ -5152,8 +5166,9 @@
   {
    "id": "hest-1k-hest-1k-a-dataset",
    "kind": "resource",
-   "title": "HEST-1k: HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis",
+   "title": "HEST-1k: A Dataset For Spatial Transcriptomics and Histology Image Analysis",
    "year": 2024,
+   "venue": "NeurIPS",
    "type": "dataset",
    "tags": [
     "spatial",
@@ -5162,10 +5177,11 @@
     "scrna-seq"
    ],
    "links": {
-    "paper": "https://arxiv.org/abs/2406.16192"
+    "paper": "https://doi.org/10.52202/079017-1704",
+    "preprint": "https://arxiv.org/abs/2406.16192"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "published"
   },
   {
    "id": "how-to-build-the-virtual-cell",
@@ -5181,19 +5197,6 @@
    "citation": "Bunne, Charlotte, Yusuf Roohani, Yanay Rosen, Ankit Gupta, Xikun Zhang, Marcel Roed, Theo Alexandrov et al. \"How to build the virtual cell with artificial intelligence: Priorities and opportunities.\" Cell 187, no. 25 (2024): 7045-7063.",
    "reviewed": false,
    "status": "published"
-  },
-  {
-   "id": "metric-mirages-in-cell-embeddings",
-   "kind": "resource",
-   "title": "Metric Mirages in Cell Embeddings",
-   "year": 2024,
-   "venue": "bioRxiv",
-   "type": "benchmark",
-   "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2024.04.02.587824v1"
-   },
-   "reviewed": false,
-   "status": "preprint"
   },
   {
    "id": "perteval-scfm-benchmarking-single-cell-foundation",

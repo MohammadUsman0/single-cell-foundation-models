@@ -1,10 +1,10 @@
 id: evaluating-the-role-of-pre-training
 kind: resource
 type: benchmark
-title: Evaluating the role of pre-training dataset size and diversity on single-cell foundation model
-  performance
-year: 2024
-venue: bioRxiv
+title: Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance
+year: 2026
+venue: Nature Methods
 links:
-  paper: https://www.biorxiv.org/content/10.1101/2024.12.13.628448v1
+  paper: https://doi.org/10.1038/s41592-026-03120-y
+  preprint: https://www.biorxiv.org/content/10.1101/2024.12.13.628448v1
 reviewed: false

@@ -1,13 +1,15 @@
 id: hest-1k-hest-1k-a-dataset
 kind: resource
 type: dataset
-title: 'HEST-1k: HEST-1k: A Dataset for Spatial Transcriptomics and Histology Image Analysis'
+title: 'HEST-1k: A Dataset For Spatial Transcriptomics and Histology Image Analysis'
 year: 2024
+venue: NeurIPS
 tags:
 - spatial
 - histology
 - imaging
 - scrna-seq
 links:
-  paper: https://arxiv.org/abs/2406.16192
+  paper: https://doi.org/10.52202/079017-1704
+  preprint: https://arxiv.org/abs/2406.16192
 reviewed: false
