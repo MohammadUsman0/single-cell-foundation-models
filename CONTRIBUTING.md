@@ -79,6 +79,26 @@ Allowed `links` keys: `paper`, `preprint`, `code`, `weights`, `project`,
 6. Run `python scripts/check.py` before opening a PR. Errors must be fixed;
    warnings are listed in [`reports/data-quality.md`](reports/data-quality.md).
 
+## What a model takes and gives (optional fields)
+
+```yaml
+inputs: [expression, perturbation]          # what goes in
+outputs: [perturbation-response]            # what comes out
+architecture_family: transformer-encoder    # one value; keep details in `architecture`
+code_status: none-found                     # only if there is no code link
+perturbation_type: [genetic]                # perturbation models only
+generalization: [unseen-perturbation]       # perturbation models only
+```
+
+Allowed values and their meanings are in [`data/vocab.yaml`](data/vocab.yaml). Set a
+value only if the paper, its abstract or the repository states it; leave the field
+out otherwise. If nothing fits, propose a new value in your pull request (with a
+one-line definition) rather than using the nearest one.
+
+Each entry also records `added` (date, `YYYY-MM-DD`), and may record `sources`
+(the URLs its details were checked against) and `review_basis` (`metadata`,
+`abstract`, `paper` or `repo`).
+
 ## Categories, types and tags
 
 All allowed values live in [`data/vocab.yaml`](data/vocab.yaml). To add or

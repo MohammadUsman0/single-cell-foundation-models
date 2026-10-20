@@ -10,6 +10,7 @@ tags:
 - generative
 modality: Single-cell Multi-omics
 architecture: Generative Pre-trained Transformer (Generative AI)
+architecture_family: transformer-decoder
 key: Single-cell multi-omics, capturing biological insights into genes and cells.
 links:
   paper: https://doi.org/10.1038/s41592-024-02201-0
@@ -18,4 +19,9 @@ links:
 citation: 'Cui, Haotian, Chloe Wang, Hassaan Maan, Kuan Pang, Fengning Luo, Nan Duan, and Bo Wang. "scGPT:
   toward building a foundation model for single-cell multi-omics using generative AI." Nature methods
   21, no. 8 (2024): 1470-1480.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41592-024-02201-0
+- https://doi.org/10.1101/2023.04.30.538439
+review_basis: metadata
 reviewed: false

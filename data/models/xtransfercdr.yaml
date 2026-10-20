@@ -15,4 +15,8 @@ links:
 citation: 'Liu, Hui, and Shikai Jin. "Learning Cross-Domain Representations for Transferable Drug Perturbations
   on Single-Cell Transcriptional Responses." Proceedings of the AAAI Conference on Artificial Intelligence
   39, no. 18 (2025): 18834-18842.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1609/aaai.v39i18.34073
+review_basis: metadata
 reviewed: false

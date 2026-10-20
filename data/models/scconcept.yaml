@@ -20,4 +20,8 @@ links:
 citation: 'Bahrami, Mojtaba, Alejandro Tejada-Lapuerta, Sören Becker, Fatemeh S. Hashemi G, and Fabian
   J. Theis. "scConcept: Contrastive pretraining for technology-agnostic single-cell representations beyond
   reconstruction." bioRxiv (2025): 2025-10.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.10.14.682419
+review_basis: metadata
 reviewed: false

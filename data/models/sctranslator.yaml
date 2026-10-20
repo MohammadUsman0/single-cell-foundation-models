@@ -11,6 +11,8 @@ tags:
 - scrna-seq
 modality: Single-cell Transcriptome
 architecture: Large Generative Model
+inputs:
+- expression
 key: Translates transcriptomes into proteomes (protein abundance imputation), evaluated across CITE-seq,
   REAP-seq and other techniques.
 links:
@@ -20,4 +22,9 @@ links:
 citation: 'Liu, Linjing, Wei Li, Fang Wang, Yiming Li, Long-Kai Huang, Ka-Chun Wong, Fan Yang, and Jianhua
   Yao. "A pre-trained large generative model for translating single-cell transcriptomes to proteomes."
   Nature Biomedical Engineering (2025): 1-20.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41551-025-01528-z
+- https://doi.org/10.1101/2023.07.04.547619
+review_basis: metadata
 reviewed: false

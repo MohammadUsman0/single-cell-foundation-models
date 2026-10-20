@@ -12,7 +12,13 @@ tags:
 - scrna-seq
 modality: scRNA-seq (perturbation)
 architecture: Large perturbation model
+inputs:
+- expression
+- perturbation
 key: Large perturbation models for in-silico biological discovery.
 links:
   paper: https://www.nature.com/articles/s43588-025-00870-1
+added: '2026-06-02'
+sources: []
+review_basis: metadata
 reviewed: false

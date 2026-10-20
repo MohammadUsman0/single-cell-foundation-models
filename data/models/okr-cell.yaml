@@ -11,10 +11,17 @@ tags:
 - scrna-seq
 modality: scRNA-seq + text
 architecture: Cross-modal pre-training
+inputs:
+- expression
+- text
 key: Open-world-knowledge-aided cell-language foundation model.
 links:
   paper: https://www.biorxiv.org/content/10.64898/2026.01.09.698573v1
 citation: 'Wang, Haoran, Xuanyi Zhang, Shuangsang Fang, Longke Ran, Ziqing Deng, Yong Zhang, Yuxiang Li
   et al. "WITHDRAWN: OKR-Cell: Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal
   Cell-Language Pre-training." bioRxiv (2026).'
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.64898/2026.01.09.698573v1
+review_basis: metadata
 reviewed: false

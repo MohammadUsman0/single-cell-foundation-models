@@ -14,8 +14,15 @@ tags:
 - scrna-seq
 modality: Spatial transcriptomics + WSI
 architecture: Generative FM
+inputs:
+- expression
+- histology-image
+- spatial-coordinates
 key: Generative FM integrating spatial transcriptomics and whole-slide images.
 links:
   paper: https://www.nature.com/articles/s41746-025-02020-3
   code: https://github.com/Graph-and-Geometric-Learning/STPath
+added: '2026-06-02'
+sources: []
+review_basis: metadata
 reviewed: false

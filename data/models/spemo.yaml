@@ -11,6 +11,9 @@ tags:
 - histology
 modality: Spatial multi-omics + histopathology
 architecture: Multimodal FM
+inputs:
+- histology-image
+- spatial-coordinates
 key: Multi-modal FM for spatial multi-omic and histopathology data.
 links:
   paper: https://doi.org/10.1038/s41551-025-01602-6
@@ -19,4 +22,9 @@ links:
 citation: 'Liu, Tianyu, Tinglin Huang, Tong Ding, Hao Wu, Peter Humphrey, Sudhir Perincheri, Kurt Schalper
   et al. "Leveraging multi-modal foundation models for analysing spatial multi-omic and histopathology
   data." Nature Biomedical Engineering 10, no. 8 (2026): 1714-1731.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41551-025-01602-6
+- https://www.biorxiv.org/content/10.1101/2025.01.13.632818v3
+review_basis: metadata
 reviewed: false

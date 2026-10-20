@@ -13,4 +13,8 @@ links:
 citation: 'Gao, Yicheng, Kejing Dong, Caihua Shan, Dongsheng Li, and Qi Liu. "Causal disentanglement for
   single-cell representations and controllable counterfactual generation." Nature Communications 16, no.
   1 (2025): 6775.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41467-025-62008-1
+review_basis: metadata
 reviewed: false

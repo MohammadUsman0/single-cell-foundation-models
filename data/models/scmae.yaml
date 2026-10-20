@@ -18,4 +18,9 @@ links:
 citation: 'Kim, Jaesik, Matei Ionita, Matthew Lee, Michelle L. McKeague, Ajinkya Pattekar, Mark M. Painter,
   Joost Wagenaar et al. "Cytometry masked autoencoder: An accurate and interpretable automated immunophenotyper."
   Cell Reports Medicine 5, no. 11 (2024): 101808.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1016/j.xcrm.2024.101808
+- https://doi.org/10.1101/2024.02.13.580114
+review_basis: metadata
 reviewed: false

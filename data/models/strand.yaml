@@ -12,4 +12,8 @@ links:
 citation: 'Fu, Boyang, George Dasoulas, Sameer Gabbita, Xiang Lin, Shanghua Gao, Xiaorui Su, Soumya Ghosh
   et al. "STRAND: Sequence-Conditioned Transport for Single-Cell Perturbations." arXiv preprint arXiv:2602.10156
   (2026).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2602.10156
+review_basis: metadata
 reviewed: false

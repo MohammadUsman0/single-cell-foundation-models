@@ -14,4 +14,8 @@ links:
 citation: 'Pang, Kuan, Yanay Rosen, Kasia Kedzierska, Ziyuan He, Abhe Rajagopal, Claire E. Gustafson,
   Grace Huynh, and Jure Leskovec. "PULSAR: a Foundation Model for Multi-scale and Multicellular Biology."
   bioRxiv (2025): 2025-11.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.11.24.685470
+review_basis: metadata
 reviewed: false

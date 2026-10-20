@@ -10,4 +10,8 @@ links:
   paper: https://doi.org/10.1038/s41592-026-03055-4
 citation: 'Cao, Natalie, Yifan Lu, and Xiaojie Qiu. "Towards predictive virtual embryos with genomics
   and AI." Nature Methods (2026): 1-5.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41592-026-03055-4
+review_basis: metadata
 reviewed: false

@@ -13,4 +13,8 @@ links:
 citation: Hou, Siyu, Penghui Yang, Wenjing Ma, Jinxi Xiang, Jade Xiaoqing Wang, Hui Wan, Ying Ma et al.
   "Accessible and reproducible deployment reveals the practical boundaries of single-cell foundation models."
   bioRxiv (2026).
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.64898/2026.01.06.698060v1
+review_basis: metadata
 reviewed: false

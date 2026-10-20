@@ -13,6 +13,9 @@ tags:
 - scrna-seq
 modality: Multimodal (transcriptomics + inferred protein)
 architecture: Latent diffusion Transformer
+inputs:
+- expression
+architecture_family: diffusion
 key: Integrates RNA and protein-level context via a Virtual Multimodal Cell State and a Mechanism-aware
   Drug-Gene Template to predict drug-induced single-cell responses across unseen cell lines, drugs, and
   combinations.
@@ -21,4 +24,8 @@ links:
 citation: 'Shi, Peiting, Ningfeng Que, Xianzhe Huang, Xiaofei Wang, and Jianzhong Jeff Xi. "StateXDiff:
   Cell State-Contextualized Multimodal Diffusion for Single-Cell Perturbation Prediction." arXiv preprint
   arXiv:2605.16104 (2026).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2605.16104
+review_basis: metadata
 reviewed: false

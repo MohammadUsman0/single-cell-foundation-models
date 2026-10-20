@@ -15,4 +15,8 @@ links:
 citation: Mao, Xinjie, Songming Zhang, Qianhong Wen, Xiangyu Wen, Kedu Jin, Hao Wu, Shuizhou Chen, Yuqiang
   Li, Lei Bai, Qi Liu, Ning Ding, Siqi Sun, and Zhangyang Gao. "Benchmarking virtual cell models for in-the-wild
   perturbation response." arXiv preprint arXiv:2604.27646 (2026).
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2604.27646
+review_basis: metadata
 reviewed: false

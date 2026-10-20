@@ -12,6 +12,8 @@ tags:
 - scrna-seq
 modality: Single-cell RNA-seq
 architecture: Deep Language Model
+inputs:
+- expression
 key: BERT-style model that bins gene expression values into categories; used for cell-type annotation.
 links:
   paper: https://doi.org/10.1038/s42256-022-00534-z
@@ -19,4 +21,8 @@ links:
 citation: 'Yang, Fan, Wenchuan Wang, Fang Wang, Yuan Fang, Duyu Tang, Junzhou Huang, Hui Lu, and Jianhua
   Yao. "scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell
   RNA-seq data." Nature Machine Intelligence 4, no. 10 (2022): 852-866.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s42256-022-00534-z
+review_basis: metadata
 reviewed: false

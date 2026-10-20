@@ -11,4 +11,8 @@ links:
 citation: 'Noutahi, Emmanuel, Jason Hartford, Prudencio Tossou, Shawn Whitfield, Alisandra K. Denton,
   Cas Wognum, Kristina Ulicna et al. "Virtual cells: Predict, explain, discover." arXiv preprint arXiv:2505.14613
   (2025).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2505.14613
+review_basis: metadata
 reviewed: false

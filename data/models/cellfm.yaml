@@ -9,6 +9,9 @@ tags:
 - scrna-seq
 modality: Transcriptomics (100 million human cells)
 architecture: Modified RetNet
+inputs:
+- expression
+architecture_family: other
 key: 800M-parameter model built on a modified RetNet for efficiency; used for cell annotation, gene function
   and perturbation-response prediction.
 links:
@@ -17,4 +20,8 @@ links:
 citation: 'Zeng, Yuansong, Jiancong Xie, Ningyuan Shangguan, Zhuoyi Wei, Wenbing Li, Yun Su, Shuangyu
   Yang et al. "CellFM: a large-scale foundation model pre-trained on transcriptomics of 100 million human
   cells." Nature Communications 16, no. 1 (2025): 4679.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41467-025-59926-5
+review_basis: metadata
 reviewed: false

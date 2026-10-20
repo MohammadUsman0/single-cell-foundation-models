@@ -13,4 +13,8 @@ links:
 citation: 'Pitino, Emanuele, Anna Pascual-Reguant, Felipe Segato-Dezem, Kellie Wise, Irepan Salvador-Martinez,
   Helena Lucia Crowell, Maycon Marção et al. "STAMP: Single-cell transcriptomics analysis and multimodal
   profiling through imaging." Cell 188, no. 18 (2025): 5100-5117.e26.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1016/j.cell.2025.05.027
+review_basis: metadata
 reviewed: false

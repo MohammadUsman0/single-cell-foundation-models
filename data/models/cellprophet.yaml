@@ -17,4 +17,8 @@ links:
 citation: 'Peng, Rui, Juntian Qi, Yuxing Lu, Wei Wu, Qichen Sun, Chi Zhang, Yihan Chen, and Jinzhuo Wang.
   "Dissecting dynamic gene regulatory network using transformer-based temporal causality analysis." bioRxiv
   (2025): 2025-02.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.02.05.636766
+review_basis: metadata
 reviewed: false

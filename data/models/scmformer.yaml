@@ -11,10 +11,17 @@ tags:
 - scrna-seq
 modality: Single-Cell Proteomics and Transcriptomics
 architecture: Multi-Task Transformer
+inputs:
+- expression
+- protein-abundance
 key: Integrates large-scale data
 links:
   paper: https://doi.org/10.1002/advs.202307835
 citation: 'Xu, Jing, De‐Shuang Huang, and Xiujun Zhang. "scmFormer integrates large‐scale single‐cell
   proteomics and transcriptomics data by multi‐task transformer." Advanced Science 11, no. 19 (2024):
   2307835.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1002/advs.202307835
+review_basis: metadata
 reviewed: false

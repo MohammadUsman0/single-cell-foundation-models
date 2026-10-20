@@ -10,4 +10,8 @@ links:
   paper: https://www.biorxiv.org/content/10.1101/2023.10.19.563100v1
 citation: Boiarsky, Rebecca, Nalini Singh, Alejandro Buendia, Gad Getz, and David Sontag. "A Deep Dive
   into Single-Cell RNA Sequencing Foundation Models." bioRxiv (2023).
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2023.10.19.563100v1
+review_basis: metadata
 reviewed: false

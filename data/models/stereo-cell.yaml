@@ -14,4 +14,8 @@ links:
 citation: 'Liao, Sha, Xiaoxi Zhou, Chuanyu Liu, Chang Liu, Shijie Hao, Hongyu Luo, Huan Hou et al. "Stereo-cell:
   Spatial enhanced-resolution single-cell sequencing with high-density DNA nanoball-patterned arrays."
   Science 389, no. 6762 (2025): eadr0475.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1126/science.adr0475
+review_basis: metadata
 reviewed: false

@@ -14,4 +14,8 @@ links:
   code: https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks
 citation: Sun, Rui, Liujia Qian, Yongge Li, Honghan Cheng, Zhangzhi Xue, Xuedong Zhang, Lingling Tan et
   al. "A perturbation proteomics-based foundation model for virtual cell construction." bioRxiv (2025).
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.02.07.637070
+review_basis: metadata
 reviewed: false

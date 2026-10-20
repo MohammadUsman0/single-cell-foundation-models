@@ -11,4 +11,8 @@ links:
 citation: 'Bhardwaj, Saurabh, Gaurav Kumar, Haochen Yang, Shaurya Bhardwaj, Qun Wang, Minjie Shen, Yizhi
   Wang, and Cristabelle Madona De Souza. "Virtual Cells: From Conceptual Frameworks to Biomedical Applications."
   arXiv preprint arXiv:2509.18220 (2025).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2509.18220
+review_basis: metadata
 reviewed: false

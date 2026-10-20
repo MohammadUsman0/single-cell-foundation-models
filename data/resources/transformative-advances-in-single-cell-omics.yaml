@@ -12,4 +12,8 @@ links:
 citation: 'Yiu, Taylor, Bin Chen, Haoyu Wang, Genyi Feng, Qiangqiang Fu, and Huijing Hu. "Transformative
   advances in single-cell omics: a comprehensive review of foundation models, multimodal integration and
   computational ecosystems." Journal of Translational Medicine 23, no. 1 (2025): 1176.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1186/s12967-025-07091-0
+review_basis: metadata
 reviewed: false

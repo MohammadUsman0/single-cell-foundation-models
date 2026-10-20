@@ -9,6 +9,8 @@ tags:
 - scatac-seq
 modality: scATAC-seq
 architecture: Transformer-based
+inputs:
+- chromatin-accessibility
 key: Embeds individual cis-regulatory elements; used for clustering, cell-type annotation, batch correction
   and RNA imputation (via CRAFT).
 links:
@@ -16,4 +18,8 @@ links:
 citation: 'LeRoy, Nathan J., Guangtao Zheng, Oleksandr Khoroshevskyi, Donald R. Campbell Jr, Aidong Zhang,
   and Nathan C. Sheffield. "Atacformer: A transformer-based foundation model for analysis and interpretation
   of ATAC-seq data." bioRxiv (2025): 2025-11.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.11.03.685753
+review_basis: metadata
 reviewed: false

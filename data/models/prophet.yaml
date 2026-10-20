@@ -10,4 +10,8 @@ tags:
 links:
   paper: https://www.biorxiv.org/content/10.1101/2024.08.12.607533v2.full.pdf
   code: https://github.com/theislab/prophet
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2024.08.12.607533v2.full.pdf
+review_basis: metadata
 reviewed: false

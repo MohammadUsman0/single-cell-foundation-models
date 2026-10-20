@@ -18,4 +18,9 @@ links:
 citation: 'Birk, Sebastian, Irene Bonafonte-Pardàs, Adib Miraki Feriz, Adam Boxall, Eneritz Agirre, Fani
   Memi, Anna Maguza et al. "Quantitative characterization of cell niches in spatially resolved omics data."
   Nature Genetics 57, no. 4 (2025): 897-909.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41588-025-02120-6
+- https://doi.org/10.1101/2024.02.21.581428
+review_basis: metadata
 reviewed: false

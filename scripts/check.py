@@ -21,8 +21,13 @@ from catalog import PREPRINT_VENUES, ROOT, load_entries, load_venues, load_vocab
 
 LINK_KEYS = {"paper", "preprint", "code", "weights", "project", "dataset", "docs", "video"}
 COMMON = {"id", "kind", "aliases", "title", "year", "venue", "venue_detail", "tags", "key", "links", "citation",
-          "reviewed", "review_notes", "_file"}
-MODEL_FIELDS = COMMON | {"name", "category", "modality", "architecture", "task", "model_card"}
+          "reviewed", "review_notes", "added", "sources", "review_basis", "_file"}
+MODEL_FIELDS = COMMON | {"name", "category", "modality", "architecture", "task", "model_card", "inputs", "outputs",
+                         "architecture_family", "code_status", "perturbation_type", "generalization"}
+# field -> vocab list it must come from (list fields may hold several values)
+VOCAB_FIELDS = {"inputs": "inputs", "outputs": "outputs", "architecture_family": "architecture_families",
+                "code_status": "code_status", "review_basis": "review_basis",
+                "perturbation_type": "perturbation_types", "generalization": "generalization"}
 RESOURCE_FIELDS = COMMON | {"type", "evaluates"}
 URL = re.compile(r"^https?://[^\s<>\"]+$")
 MAX_YEAR = datetime.date.today().year + 1
@@ -110,6 +115,16 @@ def check_entry(e, kind, vocab, rep):
     for t in e.get("tags") or []:
         if t not in tags:
             rep.err("Unknown tag", e, f"`{t}`")
+    for field, vlist in VOCAB_FIELDS.items():
+        allowed_v = {x["id"] for x in vocab.get(vlist) or []}
+        for v in ([] if e.get(field) is None else e[field] if isinstance(e[field], list) else [e[field]]):
+            if v not in allowed_v:
+                rep.err(f"Unknown {field} value", e, f"`{v}`")
+    if "added" in e and not (isinstance(e["added"], datetime.date) or re.fullmatch(r"\d{4}-\d{2}-\d{2}", str(e["added"]))):
+        rep.err("Bad added date", e, f"`{e['added']}` (use YYYY-MM-DD)")
+    for u in e.get("sources") or []:
+        if not isinstance(u, str) or not URL.match(u):
+            rep.err("Malformed source", e, f"`{u}`")
     y = e.get("year")
     if y is not None and not (isinstance(y, int) and 1990 <= y <= MAX_YEAR):
         rep.err("Bad year", e, f"`{y}`")
@@ -128,7 +143,7 @@ def check_entry(e, kind, vocab, rep):
         any(links.get(k) for k in ("dataset", "project", "docs"))
     if not links.get("paper") and not links.get("preprint") and not living:
         rep.warn("No paper link", e)
-    if kind == "model" and not links.get("code"):
+    if kind == "model" and not links.get("code") and not e.get("code_status"):
         rep.warn("No code link", e)
     if y is None and not living:
         rep.warn("No year", e)

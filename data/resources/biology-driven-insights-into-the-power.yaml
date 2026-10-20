@@ -11,4 +11,8 @@ links:
   paper: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03781-6
 citation: 'Wu, Jialu, Qing Ye, Yilin Wang, Renling Hu, Yiheng Zhu, Mingze Yin, Tianyue Wang et al. "Biology-driven
   insights into the power of single-cell foundation models." Genome Biology 26, no. 1 (2025): 334.'
+added: '2026-06-02'
+sources:
+- https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03781-6
+review_basis: metadata
 reviewed: false

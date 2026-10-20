@@ -16,4 +16,8 @@ links:
 citation: 'Zheng, Yumin, Jonas C. Schupp, Taylor Adams, Geremy Clair, Aurelien Justet, Farida Ahangari,
   Xiting Yan et al. "A deep generative model for deciphering cellular dynamics and in silico drug discovery
   in complex diseases." Nature Biomedical Engineering 9, no. 12 (2025): 2155-2180.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41551-025-01423-7
+review_basis: metadata
 reviewed: false

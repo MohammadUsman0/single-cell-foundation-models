@@ -18,4 +18,8 @@ links:
 citation: Yang, Zikun, Xueying Fan, Meng Lan, Xin Li, Yue You, Luyi Tian, George Church, Xiaodong Liu,
   and Fei Gu. "Multimodal foundation model predicts zero-shot functional perturbations and cell fate dynamics"
   bioRxiv (2025)
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2024.12.19.629561
+review_basis: metadata
 reviewed: false

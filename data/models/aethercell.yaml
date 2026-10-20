@@ -15,4 +15,8 @@ links:
   code: https://github.com/Wenyuan-AI4science/AetherCell
 citation: 'Xie, Zhi, Wenyuan Li, Yang Chen, Zhaoyi Peng, Lei Xiang, and Dong Wang. "AetherCell: A generative
   engine for virtual cell perturbation and in vivo drug discovery." bioRxiv (2026): 2026-03.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.64898/2026.03.13.710968
+review_basis: metadata
 reviewed: false

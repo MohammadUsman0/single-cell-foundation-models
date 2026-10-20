@@ -14,4 +14,8 @@ links:
   code: https://github.com/ruiyi-zhang/scPretrain
 citation: 'Zhang, Ruiyi, Yunan Luo, Jianzhu Ma, Ming Zhang, and Sheng Wang. "scPretrain: multi-task self-supervised
   learning for cell-type classification." Bioinformatics 38, no. 6 (2022): 1607-1614.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1093/bioinformatics/btac007
+review_basis: metadata
 reviewed: false

@@ -12,4 +12,8 @@ links:
   code: https://github.com/snap-stanford/biomni
 citation: 'Huang, Kexin, Serena Zhang, Hanchen Wang, Yuanhao Qu, Yingzhou Lu, Yusuf Roohani, Ryan Li et
   al. "Biomni: A General-Purpose Biomedical AI Agent." bioRxiv (2025).'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.05.30.656746
+review_basis: metadata
 reviewed: false

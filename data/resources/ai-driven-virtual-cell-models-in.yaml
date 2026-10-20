@@ -16,4 +16,8 @@ links:
 citation: 'Ma, Chunyu, Han Zhang, Yiwei Rao, Xinyu Jiang, Boheng Liu, Zhikang Sun, Zhenyu Song et al.
   "AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms, and
   clinical translation potential." npj Digital Medicine (2025).'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41746-025-02198-6
+review_basis: metadata
 reviewed: false

@@ -11,10 +11,17 @@ tags:
 - scrna-seq
 modality: scRNA-seq + spatial
 architecture: Unified FM
+inputs:
+- expression
+- spatial-coordinates
 key: Unified FM over single-cell and spatial transcriptomics.
 links:
   paper: https://www.biorxiv.org/content/10.64898/2025.12.29.696804v1
 citation: 'Pang, Jiangshuan, Ping Qiu, Youzhe He, Yiting Deng, Wangyang Tang, Zhi Huang, Jing Yan et al.
   "OmniCell: Unified Foundation Modelling of Single-Cell and Spatial Transcriptomics for Cellular and
   Molecular Insights." bioRxiv (2025).'
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.64898/2025.12.29.696804v1
+review_basis: metadata
 reviewed: false

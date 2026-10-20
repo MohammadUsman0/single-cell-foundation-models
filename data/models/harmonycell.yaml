@@ -12,4 +12,8 @@ links:
 citation: 'Huang, Wenxuan, Mingyu Tsoi, Yanhao Huang, Xinjie Mao, Xue Xia, Hao Wu, Jiaqi Wei et al. "HarmonyCell:
   Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts." arXiv preprint
   arXiv:2603.01396 (2026).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/pdf/2603.01396
+review_basis: metadata
 reviewed: false

@@ -11,10 +11,16 @@ tags:
 - scrna-seq
 modality: scRNA-seq
 architecture: JEPA world model
+inputs:
+- expression
 key: A predictive (JEPA) world model of the transcriptome.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.10.14.682378v1
   code: https://github.com/BiostateAI/GeneJEPA
 citation: 'Litman, Elon, Tyler Myers, Vinayak Agarwal, Ekansh Mittal, Orion Li, Ashwin Gopinath, and Timothy
   Kassis. "GeneJepa: A Predictive World Model of the Transcriptome." bioRxiv (2025).'
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.1101/2025.10.14.682378v1
+review_basis: metadata
 reviewed: false

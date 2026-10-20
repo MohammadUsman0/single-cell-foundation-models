@@ -11,4 +11,8 @@ links:
 citation: Jiang, Wenkang, Yuhang Liu, Yichao Cai, Erdun Gao, Jiayi Dong, Ehsan Abbasnejad, Lina Yao, and
   Javen Qinfeng Shi. "What Makes a Representation Good for Single-Cell Perturbation Prediction?." arXiv
   preprint arXiv:2605.19343 (2026).
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2605.19343
+review_basis: metadata
 reviewed: false

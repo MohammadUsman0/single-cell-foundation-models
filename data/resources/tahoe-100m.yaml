@@ -13,4 +13,8 @@ links:
 citation: 'Zhang, Jesse, Airol A Ubas, Richard de Borja, Valentine Svensson, Nicole Thomas, Neha Thakar,
   Ian Lai et al. "Tahoe-100M : A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene
   Function and Cellular Modeling." bioRxiv (2025).'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2025.02.20.639398
+review_basis: metadata
 reviewed: false

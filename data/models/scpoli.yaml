@@ -15,4 +15,8 @@ links:
 citation: 'De Donno, Carlo, Soroor Hediyeh-Zadeh, Amir Ali Moinfar, Marco Wagenstetter, Luke Zappia, Mohammad
   Lotfollahi, and Fabian J. Theis. "Population-level integration of single-cell datasets enables multi-scale
   analysis across samples." Nature Methods 20, no. 11 (2023): 1683-1692.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41592-023-02035-2
+review_basis: metadata
 reviewed: false

@@ -11,6 +11,9 @@ tags:
 modality: Spatial Transcriptomics
 architecture: Transformer (Self-Attention, Cross-Attention)
 task: Gene representation that integrates intracellular and spatial context.
+inputs:
+- expression
+- spatial-coordinates
 key: Transformer for spatial transcriptomics that adds ligand-gene context from neighbouring cells through
   cross-attention.
 links:
@@ -20,4 +23,9 @@ links:
 citation: 'Cao, Shenghao, Kaiyuan Yang, Jiabei Cheng, Jiachen Li, Hong-Bin Shen, Xiaoyong Pan, and Ye
   Yuan. "stFormer integrates spatial ligand signaling into a foundation model for spatial transcriptomics."
   Cell Reports Methods (2026): 101612.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1016/j.crmeth.2026.101612
+- https://doi.org/10.1101/2024.09.27.615337
+review_basis: metadata
 reviewed: false

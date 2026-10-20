@@ -17,6 +17,13 @@
 
   let DATA = null;
   const V = { cat: {}, tag: {}, type: {}, card: [] };   // vocabulary lookups
+  // field -> {id: label}, filled from data.json's vocab (inputs, outputs, architecture family, ...)
+  const L = { inputs: {}, outputs: {}, architecture_family: {}, code_status: {}, review_basis: {},
+              perturbation_type: {}, generalization: {} };
+  // model filters for "what it takes / gives / is": [url param, field, heading]
+  const IO = [["in", "inputs", "Takes"], ["out", "outputs", "Gives"], ["fam", "architecture_family", "Architecture"]];
+  const asList = (v) => (v == null ? [] : Array.isArray(v) ? v : [v]);
+  const lab = (field, v) => L[field][v] || v;
   const app = document.getElementById("app");
   const qInput = document.getElementById("q");
 
@@ -78,6 +85,11 @@
     if (kind === "models") {
       f.push(["cat", (e, v) => list(v).includes(e.category)]);
       f.push(["code", (e) => !!(e.links || {}).code]);
+      for (const [param, field] of IO) {
+        f.push([param, field === "architecture_family"
+          ? (e, v) => list(v).includes(e[field])
+          : (e, v) => list(v).every((x) => asList(e[field]).includes(x))]);
+      }
       for (const field of V.card) {
         f.push([`mc_${field}`, (e, v) => list(v).includes(String((e.model_card || {})[field] ?? ""))]);
       }
@@ -165,6 +177,11 @@
     if (kind === "models") {
       const c = facet("cat", (e) => e.category);
       groups.push(["Category", checks("cat", c, DATA.vocab.categories.map((x) => [x.id, x.label]))]);
+      for (const [param, field, head] of IO) {
+        const cnt = facet(param, (e) => asList(e[field]));
+        const html = checks(param, cnt, Object.entries(L[field]));
+        if (html) groups.push([head, html]);
+      }
     } else {
       const c = facet("type", (e) => e.type);
       groups.push(["Type", checks("type", c, DATA.vocab.resource_types.map((x) => [x.id, x.label]))]);
@@ -234,6 +251,7 @@
     if (params.code) add("code", "", "Has code");
     if (params.y0 || params.y1) add("year", "", `${params.y0 || "…"}–${params.y1 || "…"}`);
     for (const f of V.card) for (const v of list(params[`mc_${f}`])) add(`mc_${f}`, v, `${prettyField(f)}: ${v}`);
+    for (const [param, field, head] of IO) for (const v of list(params[param])) add(param, v, `${head}: ${lab(field, v)}`);
     return chips.length ? `<div class="chips">${chips.join("")}</div>` : "";
   }
 
@@ -262,12 +280,20 @@
         </div>
         ${e.name ? `<p class="card-title">${esc(e.title)}</p>` : ""}
         ${e.key ? `<p class="card-key">${esc(e.key)}</p>` : ""}
+        ${ioLine(e)}
         <div class="card-foot">
           ${group ? `<span class="tag cat">${esc(group)}</span>` : ""}
           ${(e.tags || []).map((t) => `<button type="button" class="tag" data-addtag="${esc(t)}">${esc(V.tag[t] || t)}</button>`).join("")}
           <span class="links">${linkButtons(e)}</span>
         </div>
       </article>`;
+  }
+
+  function ioLine(e) {
+    const ins = asList(e.inputs).map((v) => lab("inputs", v)), outs = asList(e.outputs).map((v) => lab("outputs", v));
+    if (!ins.length && !outs.length) return "";
+    return `<p class="card-io"><span class="io-label">Takes</span> ${esc(ins.join(", ") || "—")}
+      <span class="io-arrow" aria-hidden="true">→</span> <span class="io-label">Gives</span> ${esc(outs.join(", ") || "—")}</p>`;
   }
 
   function tableView(rows, params) {
@@ -282,7 +308,8 @@
     return `
       <div class="table-wrap">
         <table>
-          <thead><tr>${cols.map(th).join("")}<th scope="col">Tags</th>
+          <thead><tr>${cols.map(th).join("")}<th scope="col">Takes</th><th scope="col">Gives</th>
+            <th scope="col">Architecture</th><th scope="col">Tags</th>
             ${cardCols.map((f) => `<th scope="col">${esc(prettyField(f))}</th>`).join("")}
             <th scope="col">Paper</th><th scope="col">Code</th></tr></thead>
           <tbody>
@@ -293,6 +320,9 @@
                 <td class="num">${esc(e.year ?? "")}</td>
                 <td>${esc(e.venue || "")} ${statusBadge(e)}</td>
                 <td class="wide">${esc(V.cat[e.category] || "")}</td>
+                <td class="wide">${asList(e.inputs).map((v) => esc(lab("inputs", v))).join(", ")}</td>
+                <td class="wide">${asList(e.outputs).map((v) => esc(lab("outputs", v))).join(", ")}</td>
+                <td>${esc(e.architecture_family ? lab("architecture_family", e.architecture_family) : "")}</td>
                 <td class="wide">${(e.tags || []).map((t) => esc(V.tag[t] || t)).join(", ")}</td>
                 ${cardCols.map((f) => `<td>${esc((e.model_card || {})[f] ?? "")}</td>`).join("")}
                 <td class="nowrap">${l.paper ? `<a href="${esc(l.paper)}" target="_blank" rel="noopener">paper</a>` : ""}</td>
@@ -416,6 +446,13 @@
     add("Modality", esc(e.modality || ""));
     add("Architecture", esc(e.architecture || ""));
     add("Tasks", esc(e.task || ""));
+    if (e.architecture_family) add("Architecture family", esc(lab("architecture_family", e.architecture_family)));
+    add("Perturbation type", esc(asList(e.perturbation_type).map((v) => lab("perturbation_type", v)).join(", ")));
+    add("Generalization", esc(asList(e.generalization).map((v) => lab("generalization", v)).join(", ")));
+    if (!links.code && e.code_status) add("Code", esc(lab("code_status", e.code_status)));
+    if (e.added) add("Added to catalogue", esc(e.added));
+    if (e.review_basis) add("Checked against", esc(lab("review_basis", e.review_basis)) + (asList(e.sources).length
+      ? ": " + asList(e.sources).map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(u.replace(/^https?:\/\/(doi\.org\/)?/, ""))}</a>`).join(", ") : ""));
     for (const [k, v] of Object.entries(e.model_card || {})) add(prettyField(k), esc(Array.isArray(v) ? v.join(", ") : v));
     if (doi) add("DOI", `<a href="https://doi.org/${esc(doi)}" target="_blank" rel="noopener">${esc(doi)}</a>`);
 
@@ -448,6 +485,7 @@
         ${Object.keys(links).length ? `<div class="row" style="margin-top:12px">${Object.keys(LINK_LABELS).filter((k) => links[k])
           .map((k) => `<a class="btn" href="${esc(links[k])}" target="_blank" rel="noopener">${LINK_LABELS[k]}</a>`).join("")}</div>` : ""}
         ${e.key ? `<div class="section"><h2>Summary</h2><p style="margin:0">${esc(e.key)}</p></div>` : ""}
+        ${ioDiagram(e)}
         <div class="section"><h2>Details</h2>
           <dl class="facts">${facts.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${v}</dd>`).join("")}</dl></div>
         ${versions}
@@ -467,6 +505,24 @@
       catch (err) { copy.textContent = "Select the text to copy"; }
     });
     window.scrollTo(0, 0);
+  }
+
+  function ioDiagram(e) {
+    const ins = asList(e.inputs), outs = asList(e.outputs);
+    if (!ins.length && !outs.length) return "";
+    const chips = (field, arr, param) => arr.length
+      ? arr.map((v) => `<a class="io-chip" href="#/models?${param}=${esc(v)}">${esc(lab(field, v))}</a>`).join("")
+      : `<span class="note">not recorded</span>`;
+    return `
+      <div class="section"><h2>What it takes and gives</h2>
+        <div class="io-flow">
+          <div class="io-col"><div class="io-head">Inputs</div>${chips("inputs", ins, "in")}</div>
+          <div class="io-arrow-big" aria-hidden="true">→</div>
+          <div class="io-model"><strong>${esc(label(e))}</strong>${e.architecture_family
+            ? `<span>${esc(lab("architecture_family", e.architecture_family))}</span>` : ""}</div>
+          <div class="io-arrow-big" aria-hidden="true">→</div>
+          <div class="io-col"><div class="io-head">Outputs</div>${chips("outputs", outs, "out")}</div>
+        </div></div>`;
   }
 
   // ------------------------------------------------------------ router
@@ -507,6 +563,10 @@
       for (const c of d.vocab.categories) V.cat[c.id] = c.label;
       for (const t of d.vocab.tags) V.tag[t.id] = t.label;
       for (const t of d.vocab.resource_types) V.type[t.id] = t.label;
+      const VOCAB = { inputs: "inputs", outputs: "outputs", architecture_family: "architecture_families",
+                      code_status: "code_status", review_basis: "review_basis",
+                      perturbation_type: "perturbation_types", generalization: "generalization" };
+      for (const [field, list_] of Object.entries(VOCAB)) for (const x of d.vocab[list_] || []) L[field][x.id] = x.label;
       // Model-card fields get filters/columns only once some model has data for them.
       V.card = Object.keys(d.vocab.model_card_fields || {}).filter((f) => d.models.some((m) => (m.model_card || {})[f] != null));
       document.getElementById("counts").textContent =

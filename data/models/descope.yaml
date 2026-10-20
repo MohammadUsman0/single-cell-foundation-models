@@ -11,6 +11,11 @@ tags:
 - scrna-seq
 modality: scRNA-seq / scATAC-seq (perturbation)
 architecture: Conditional VAE + ESM2 gene embeddings
+inputs:
+- chromatin-accessibility
+- expression
+- perturbation
+architecture_family: vae
 key: Lightweight conditional VAE that conditions on ESM2 protein-language embeddings of perturbed genes;
   strong on unseen genes, unseen cell types, and combinatorial multi-gene perturbations.
 links:
@@ -18,4 +23,8 @@ links:
   code: https://github.com/Peg-Wu/DeSCOPE
 citation: Wu, Pengpeng, Hailin Wei, Yazi Li, Xinwei Zheng, Caibin Zhou, Xihao Hu, and Chenfei Wang. "Decoding
   Single-Cell Omics of Perturbation Responses Using DeSCOPE." bioRxiv (2026).
+added: '2026-06-02'
+sources:
+- https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1
+review_basis: metadata
 reviewed: false

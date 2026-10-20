@@ -6,6 +6,7 @@ venue: Cell
 tags:
 - virtual-cell
 citation: Gao, Yicheng. "Towards Virtual Cell Construction by AI."
+added: '2026-06-02'
 reviewed: false
 review_notes:
 - type was 'Research statement' (not in the old schema); mapped to perspective

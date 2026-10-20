@@ -9,6 +9,9 @@ tags:
 - scatac-seq
 modality: scATAC-seq (Single-cell Epigenomics)
 architecture: Transformer-based (Bidirectional Attention)
+inputs:
+- chromatin-accessibility
+architecture_family: transformer-encoder
 key: Encodes chromatin accessibility profiles as 'cell sentences'; used for feature extraction, cell-type
   annotation, imputation and perturbation-response prediction.
 links:
@@ -17,4 +20,8 @@ links:
 citation: 'Chen, Xiaoyang, Keyi Li, Xuejian Cui, Zian Wang, Qun Jiang, Jiacheng Lin, Zhen Li, Zijing Gao,
   Hairong Lv, and Rui Jiang. "EpiAgent: foundation model for single-cell epigenomics." Nature Methods
   (2025): 1-12.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1038/s41592-025-02822-z
+review_basis: metadata
 reviewed: false

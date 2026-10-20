@@ -15,4 +15,8 @@ links:
   code: https://github.com/yhsure/perturbations
 citation: 'Bjerregaard, Andreas, Iñigo Prada-Luengo, Vivek Das, and Anders Krogh. "What do single-cell
   models already know about perturbations?." Genes 16, no. 12 (2025): 1439.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.3390/genes16121439
+review_basis: metadata
 reviewed: false

@@ -12,4 +12,8 @@ links:
 citation: 'Fahsbender, Elizabeth, Alma Andersson, Jeremy Ash, Polina Binder, Daniel Burkhardt, Benjamin
   Chang, Georg K. Gerber et al. "Benchmarking and Evaluation of AI Models in Biology: Outcomes and Recommendations
   from the CZI Virtual Cells Workshop." arXiv preprint arXiv:2507.10502 (2025).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2507.10502
+review_basis: metadata
 reviewed: false

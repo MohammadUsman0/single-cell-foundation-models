@@ -11,6 +11,8 @@ tags:
 - scrna-seq
 modality: Single-Cell (Transcriptome)
 architecture: Transformer
+inputs:
+- expression
 key: Cross-species generative cell atlas (1.5 Billion Years of Evolution) predict cell type-specific transcription
   factors and gene-gene interactions that align with independent experimental observations
 links:
@@ -20,4 +22,9 @@ links:
 citation: 'Pearce, James D., Sara E. Simmonds, Gita Mahmoudabadi, Lakshmi Krishnan, Giovanni Palla, Ana-Maria
   Istrate, Alexander Tarashansky et al. "TranscriptFormer: A generative cell atlas across 1.5 billion
   years of evolution." Science 393, no. 6806 (2026): aec8514.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1126/science.aec8514
+- https://doi.org/10.1101/2025.04.25.650731
+review_basis: metadata
 reviewed: false

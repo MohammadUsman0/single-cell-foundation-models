@@ -16,4 +16,8 @@ links:
 citation: 'Chi Hao Ly, Kevin, Adib Miraki Feriz, Tomoya Isobe, Amirhossein Vahidi, Delshad Vaghari, Anthony
   Rostron, Mariana Quiroga Londono et al. "Predicting how perturbations reshape cellular trajectories
   with PerturbGen." bioRxiv (2026): 2026-03.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.64898/2026.03.04.709254
+review_basis: metadata
 reviewed: false

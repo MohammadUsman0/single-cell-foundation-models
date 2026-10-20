@@ -14,4 +14,8 @@ links:
 citation: 'Demir, Andac, Erik W. Anderson, Jeremy L. Jenkins, and Srayanta Mukherjee. "CellxPert: Inference-Time
   MCMC Steering of a Multi-Omics Single-Cell Foundation Model for In-Silico Perturbation." arXiv preprint
   arXiv:2605.00930 (2026).'
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2605.00930
+review_basis: metadata
 reviewed: false

@@ -212,3 +212,17 @@ dl.facts dd { margin: 0; overflow-wrap: anywhere; }
 .site-footer { border-top: 1px solid var(--border); color: var(--muted); font-size: 13px; }
 .site-footer .inner { max-width: 1240px; margin: 0 auto; padding: 16px; display: flex; flex-wrap: wrap; gap: 8px 18px; }
 .loading { padding: 60px 16px; text-align: center; color: var(--muted); }
+
+/* ---------- inputs -> outputs ---------- */
+.card-io { margin: 4px 0 0; font-size: 13px; color: var(--text); }
+.io-label { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .03em; }
+.io-arrow { color: var(--muted); margin: 0 4px; }
+.io-flow { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+.io-col { display: flex; flex-direction: column; gap: 6px; min-width: 150px; }
+.io-head { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.io-chip { display: inline-block; padding: 4px 10px; border-radius: 8px; background: var(--accent-soft); color: var(--accent); font-size: 13.5px; }
+.io-model { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 12px 16px;
+  border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface-2); text-align: center; }
+.io-model span { font-size: 12.5px; color: var(--muted); }
+.io-arrow-big { font-size: 22px; color: var(--muted); }
+@media (max-width: 560px) { .io-flow { flex-direction: column; align-items: stretch; } .io-arrow-big { transform: rotate(90deg); text-align: center; } }

@@ -10,6 +10,8 @@ tags:
 - scrna-seq
 modality: Single-cell Gene Expression from DNA Sequence
 task: Prediction from DNA sequence
+inputs:
+- dna-sequence
 key: Predicts single-cell gene expression from DNA sequence by transfer learning from a pre-trained epigenome
   model.
 links:
@@ -17,4 +19,8 @@ links:
   code: https://github.com/GSK-AI/seq2cells
 citation: 'Schwessinger, Ron, Jacob Deasy, Rob T. Woodruff, Stephen Young, and Kim M. Branson. "Single-cell
   gene expression prediction from DNA sequence at large contexts." bioRxiv (2023): 2023-07.'
+added: '2026-06-02'
+sources:
+- https://doi.org/10.1101/2023.07.26.550634
+review_basis: metadata
 reviewed: false

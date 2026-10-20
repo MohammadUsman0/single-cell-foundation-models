@@ -11,6 +11,9 @@ tags:
 modality: Single-Cell Gene Expression
 architecture: Diffusion Model
 task: Scalable gene expression generation
+inputs:
+- expression
+architecture_family: diffusion
 key: Latent diffusion model for generating single-cell expression, with a permutation-invariant VAE and
   multi-condition guidance.
 links:
@@ -19,4 +22,8 @@ links:
 citation: Palla, Giovanni, Sudarshan Babu, Payam Dibaeinia, James D. Pearce, Donghui Li, Aly A. Khan,
   Theofanis Karaletsos, and Jakub M. Tomczak. "Scalable Single-Cell Gene Expression Generation with Latent
   Diffusion Models." arXiv preprint arXiv:2511.02986 (2025).
+added: '2026-06-02'
+sources:
+- https://arxiv.org/abs/2511.02986
+review_basis: metadata
 reviewed: false

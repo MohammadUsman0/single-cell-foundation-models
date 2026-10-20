@@ -13,4 +13,8 @@ citation: 'Steiner, Nicolas, Ziteng Li, Omid Vosoughi, Johanna Schrader, Soumyad
   and Ming Tang. "A Systematic Evaluation of Single-Cell Foundation Models on Cell-Type Classification
   Task." In Proceedings of the Eighteenth ACM International Conference on Web Search and Data Mining (2025):
   1112-1113.'
+added: '2026-06-02'
+sources:
+- https://dl.acm.org/doi/10.1145/3701551.3708811
+review_basis: metadata
 reviewed: false

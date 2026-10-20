@@ -101,3 +101,67 @@ model_card_fields:
   weights_url: Where the weights are hosted.
   license: Licence of code/weights, e.g. MIT, Apache-2.0, CC-BY-NC-4.0.
   package: pip/conda package name.
+
+# ---- What a model takes in and gives back (model fields `inputs`, `outputs`, `architecture_family`).
+# Values are set only when the paper, abstract or repository states them; add new values here (see CONTRIBUTING.md).
+inputs:
+  - {id: expression, label: Gene expression, desc: "Gene expression counts or profiles (scRNA-seq, snRNA-seq, bulk)."}
+  - {id: chromatin-accessibility, label: Chromatin accessibility, desc: "scATAC-seq peaks or fragments."}
+  - {id: protein-abundance, label: Protein abundance, desc: "CITE-seq antibody counts, cytometry or proteomics measurements."}
+  - {id: spatial-coordinates, label: Spatial coordinates, desc: "Cell or spot positions, or spatial neighbourhoods."}
+  - {id: histology-image, label: Histology image, desc: "H&E or other whole-slide images."}
+  - {id: cell-image, label: Cell image, desc: "Microscopy, Cell Painting or protein-localisation images."}
+  - {id: dna-sequence, label: DNA sequence, desc: "Genomic DNA sequence."}
+  - {id: protein-sequence, label: Protein sequence, desc: "Amino-acid sequences or protein language model inputs."}
+  - {id: text, label: Text, desc: "Natural language: metadata, descriptions or questions."}
+  - {id: perturbation, label: Perturbation, desc: "Identity of a genetic or chemical perturbation."}
+  - {id: prior-network, label: Prior network, desc: "A given graph: gene regulatory network, protein interactions, pathways or a knowledge graph."}
+outputs:
+  - {id: cell-embedding, label: Cell embedding, desc: "A vector representation per cell."}
+  - {id: gene-embedding, label: Gene embedding, desc: "A vector representation per gene."}
+  - {id: cell-type-label, label: Cell-type label, desc: "Cell-type annotation or classification."}
+  - {id: expression-prediction, label: Expression prediction, desc: "Imputation, denoising or cross-modality translation of measurements."}
+  - {id: perturbation-response, label: Perturbation response, desc: "Predicted effect of a genetic or chemical perturbation."}
+  - {id: generated-cells, label: Generated cells, desc: "Synthetic expression profiles."}
+  - {id: gene-regulatory-network, label: Gene regulatory network, desc: "Inferred regulatory relationships."}
+  - {id: spatial-domain, label: Spatial domain, desc: "Niches, tissue domains or regions."}
+  - {id: image, label: Image, desc: "Generated or predicted images."}
+  - {id: text, label: Text, desc: "Natural-language answers or reports."}
+architecture_families:
+  - {id: transformer-encoder, label: Transformer encoder, desc: "BERT-style, bidirectional (masked modelling)."}
+  - {id: transformer-decoder, label: Transformer decoder, desc: "GPT-style, autoregressive."}
+  - {id: transformer-encoder-decoder, label: Transformer encoder-decoder, desc: "Separate encoder and decoder, including asymmetric designs."}
+  - {id: state-space, label: State-space model, desc: "Mamba, Hyena and similar long-sequence models."}
+  - {id: graph-neural-network, label: Graph neural network, desc: "Message passing over cell or gene graphs."}
+  - {id: vae, label: VAE, desc: "Variational autoencoder."}
+  - {id: diffusion, label: Diffusion model, desc: "Denoising diffusion, including latent and discrete diffusion."}
+  - {id: flow-matching, label: Flow matching, desc: "Flow matching and optimal-transport flows."}
+  - {id: contrastive-dual-encoder, label: Contrastive dual encoder, desc: "CLIP-style paired encoders trained contrastively."}
+  - {id: llm, label: Large language model, desc: "A fine-tuned or prompted general-purpose LLM."}
+  - {id: agent, label: Agent system, desc: "One or more LLM agents with tools."}
+  - {id: other, label: Other, desc: "None of the above; the free-text `architecture` field says what."}
+
+# ---- When a model has no code link (`code_status`): stops the "No code link" warning.
+code_status:
+  - {id: none-found, label: No code found, desc: "Searched the paper, GitHub and Hugging Face; nothing public."}
+  - {id: release-pending, label: Release pending, desc: "The authors say code will be released."}
+  - {id: not-public, label: Not public, desc: "Proprietary or company model."}
+
+# ---- How an entry was checked (`review_basis`); `sources` lists the URLs.
+review_basis:
+  - {id: metadata, label: Metadata, desc: "Title, venue, year and links checked against Crossref, OpenAlex, arXiv or bioRxiv."}
+  - {id: abstract, label: Abstract, desc: "Fields read from the paper's abstract."}
+  - {id: paper, label: Full paper, desc: "Checked against the full text."}
+  - {id: repo, label: Repository, desc: "Checked against the code repository or model card."}
+
+# ---- Perturbation models only (optional).
+perturbation_types:
+  - {id: genetic, label: Genetic, desc: "CRISPR knockout, knockdown or activation; gene overexpression."}
+  - {id: chemical, label: Chemical, desc: "Drugs and small molecules."}
+  - {id: combination, label: Combination, desc: "Combinations of two or more perturbations."}
+generalization:
+  - {id: unseen-perturbation, label: Unseen perturbation, desc: "Predicts perturbations not seen in training."}
+  - {id: unseen-cell-context, label: Unseen cell context, desc: "Predicts in cell types or lines not seen in training."}
+  - {id: cross-dataset, label: Cross-dataset, desc: "Transfers to datasets from other studies."}
+  - {id: cross-species, label: Cross-species, desc: "Transfers across species."}
+  - {id: zero-shot, label: Zero-shot, desc: "Works without task-specific training."}
