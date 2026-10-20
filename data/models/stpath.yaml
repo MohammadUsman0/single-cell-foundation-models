@@ -17,4 +17,5 @@ architecture: Generative FM
 key: Generative FM integrating spatial transcriptomics and whole-slide images.
 links:
   paper: https://www.nature.com/articles/s41746-025-02020-3
+  code: https://github.com/Graph-and-Geometric-Learning/STPath
 reviewed: false

@@ -2,7 +2,7 @@ id: perturb-seq-datasets
 kind: resource
 type: dataset
 title: 'Perturb-seq datasets: Genome-scale and combinatorial Perturb-seq datasets from Replogle, Norman,
-  Dixit, Adamson, and related screens [[overvie'
+  Dixit, Adamson, and related screens'
 tags:
 - perturbation
 links:

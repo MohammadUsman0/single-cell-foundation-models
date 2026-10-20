@@ -6,6 +6,9 @@ aliases:
 - CellBench-LS
 year: 2026
 venue: bioRxiv
+tags:
+- scrna-seq
+- foundation-model
 key: Benchmark evaluating single-cell foundation models under low-supervision (limited-label) scenarios.
 links:
   paper: https://www.biorxiv.org/content/10.64898/2026.04.01.714123v1

@@ -4,6 +4,9 @@ type: benchmark
 title: Zero-shot evaluation reveals limitations of single-cell foundation models
 year: 2025
 venue: Genome Biology
+tags:
+- scrna-seq
+- foundation-model
 links:
   paper: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x
 reviewed: false

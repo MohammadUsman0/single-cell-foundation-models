@@ -15,6 +15,7 @@ key: scGPT-spatial introduces a novel MoE (Mixture of Experts) decoder that adap
   for protocol-aware decoding of gene expression profiles
 links:
   paper: https://doi.org/10.1101/2025.02.05.636714
+  code: https://github.com/bowang-lab/scGPT-spatial
 citation: 'Wang, Chloe, Haotian Cui, Andrew Zhang, Ronald Xie, Hani Goodarzi, and Bo Wang. "scGPT-spatial:
   Continual pretraining of single-cell foundation model for spatial transcriptomics." bioRxiv (2025):
   2025-02.'

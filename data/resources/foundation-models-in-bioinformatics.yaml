@@ -4,6 +4,8 @@ type: survey
 title: Foundation models in bioinformatics
 year: 2025
 venue: National Science Review
+tags:
+- foundation-model
 links:
   paper: https://doi.org/10.1093/nsr/nwaf028
 reviewed: false

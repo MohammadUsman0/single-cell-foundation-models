@@ -1,8 +1,7 @@
 id: virtual-cell-challenge
 kind: resource
 type: dataset
-title: 'Virtual Cell Challenge: Community perturbation-prediction challenge and hidden evaluation resources
-  [[homepage](https://virtualcellchallenge.org'
+title: 'Virtual Cell Challenge: Community perturbation-prediction challenge and hidden evaluation resources'
 tags:
 - perturbation
 - virtual-cell

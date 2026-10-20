@@ -15,4 +15,5 @@ architecture: Multi-agent LLM
 key: Multi-agent LLM for automated, interpretable cell-type annotation.
 links:
   paper: https://www.nature.com/articles/s41467-025-67084-x
+  code: https://github.com/ElliotXie/CASSIA
 reviewed: false

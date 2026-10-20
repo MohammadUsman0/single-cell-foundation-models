@@ -12,6 +12,7 @@ key: 'Cell-type annotation, batch correction, gene expression prediction. Key Fi
   pre-training (peak-to-gene alignment) on non-zero peaks to handle sparsity.'
 links:
   paper: https://doi.org/10.1101/2025.02.05.636688
+  code: https://github.com/UCSC-VLAA/EpiFoundation
 citation: 'Wu, Juncheng, Changxin Wan, Zhicheng Ji, Yuyin Zhou, and Wenpin Hou. "EpiFoundation: A foundation
   model for single-cell ATAC-seq via peak-to-gene alignment." bioRxiv (2025).'
 reviewed: false

@@ -14,6 +14,7 @@ key: Predicts single-cell gene expression from DNA sequence by transfer learning
   model.
 links:
   paper: https://doi.org/10.1101/2023.07.26.550634
+  code: https://github.com/GSK-AI/seq2cells
 citation: 'Schwessinger, Ron, Jacob Deasy, Rob T. Woodruff, Stephen Young, and Kim M. Branson. "Single-cell
   gene expression prediction from DNA sequence at large contexts." bioRxiv (2023): 2023-07.'
 reviewed: false

@@ -15,6 +15,7 @@ key: 'Batch integration, cell type annotation, gene perturbation, in silico gene
   Pioneer in using graph pre-training to model genes and cells (over 50 million cells).'
 links:
   paper: https://doi.org/10.1093/nsr/nwaf255
+  code: https://github.com/epang-ucas/Cell-Graph-Compass
 citation: 'Fang, Chen, Wentao Cui, Zhilong Hu, Wenhao Liu, Shubai Chen, Shaole Chang, Qingqing Long et
   al. "Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model." National Science
   Review (2025): nwaf255.'

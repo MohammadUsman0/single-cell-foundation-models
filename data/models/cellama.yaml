@@ -17,4 +17,5 @@ key: Cell embeddings for sc + spatial transcriptomics via LLM abilities.
 links:
   paper: https://doi.org/10.1002/advs.202513210
   preprint: https://www.biorxiv.org/content/10.1101/2024.05.08.593094v1
+  code: https://github.com/portrai-io/CELLama
 reviewed: false

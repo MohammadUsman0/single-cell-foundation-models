@@ -4,12 +4,17 @@ name: scPRINT-2
 title: 'scPRINT-2: Towards the next-generation of cell foundation models and benchmarks'
 year: 2025
 venue: bioRxiv
-category: other
+category: scrna
+tags:
+- scrna-seq
+- cross-species
+- generative
 task: expression denoising, cell embedding, and cell type prediction
 key: Successor to scPRINT, pre-trained on 350M cells from 16 organisms with design choices picked by an
   additive benchmark; also generative.
 links:
   paper: https://doi.org/10.64898/2025.12.11.693702
+  code: https://github.com/cantinilab/scPRINT-2
 citation: 'Kalfon, Jérémie, Gabriel Peyré, and Laura Cantini. "scPRINT-2: Towards the next-generation
   of cell foundation models and benchmarks." bioRxiv (2025): 2025-12.'
 reviewed: false

@@ -4,6 +4,9 @@ type: perspective
 title: 'The Human Cell Atlas: from a cell census to a unified foundation model'
 year: 2024
 venue: Nature
+tags:
+- scrna-seq
+- foundation-model
 links:
   paper: https://www.nature.com/articles/s41586-024-08338-4
 reviewed: false

@@ -12,6 +12,7 @@ key: Develop AIDO.Cell, a pretrained module for representing gene expression and
   AI-driven Digital Organism
 links:
   paper: https://doi.org/10.1101/2024.11.28.625303
+  code: https://github.com/genbio-ai/AIDO
 citation: 'Ho, Nicholas, Caleb N. Ellington, Jinyu Hou, Sohan Addagudi, Shentong Mo, Tianhua Tao, Dian
   Li et al. "Scaling dense representations for single cell with transcriptome-scale context." bioRxiv
   (2024): 2024-11.'

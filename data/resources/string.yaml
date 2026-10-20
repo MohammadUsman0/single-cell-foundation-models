@@ -1,8 +1,7 @@
 id: string
 kind: resource
 type: dataset
-title: 'STRING: Protein functional association and interaction networks [[resource](https://string-db.org/)]
-  [[paper](https://academic.o'
+title: 'STRING: Protein functional association and interaction networks'
 tags:
 - proteomics
 links:

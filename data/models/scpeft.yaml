@@ -14,4 +14,5 @@ architecture: Parameter-efficient fine-tuning
 key: Parameter-efficient fine-tuning for single-cell LLMs.
 links:
   paper: https://www.nature.com/articles/s42256-025-01170-z
+  code: https://github.com/coffee19850519/scPEFT
 reviewed: false

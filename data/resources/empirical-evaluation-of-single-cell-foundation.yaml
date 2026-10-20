@@ -4,6 +4,9 @@ type: benchmark
 title: Empirical Evaluation of Single-Cell Foundation Models for Predicting Cancer Outcomes
 year: 2025
 venue: bioRxiv
+tags:
+- scrna-seq
+- foundation-model
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.10.31.685892v1
 reviewed: false

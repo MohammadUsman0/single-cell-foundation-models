@@ -4,6 +4,9 @@ type: benchmark
 title: Sparse Autoencoders Reveal Interpretable Features in Single-Cell Foundation Models
 year: 2025
 venue: bioRxiv
+tags:
+- scrna-seq
+- foundation-model
 key: Interpretability via sparse autoencoders.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.10.22.681631v1

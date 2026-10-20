@@ -14,6 +14,7 @@ architecture: Language Model
 key: Single-cell gene expression language model
 links:
   paper: https://arxiv.org/abs/2210.14330
+  code: https://github.com/keiserlab/exceiver
 citation: Connell, William, Umair Khan, and Michael J. Keiser. "A single-cell gene expression language
   model." arXiv preprint arXiv:2210.14330 (2022).
 reviewed: false

@@ -4,6 +4,9 @@ type: survey
 title: 'Transformers in single-cell omics: a review and new perspectives'
 year: 2024
 venue: Nature Methods
+tags:
+- scrna-seq
+- foundation-model
 links:
   paper: https://www.nature.com/articles/s41592-024-02353-z
 reviewed: false

@@ -1,8 +1,9 @@
 id: human-biomolecular-atlas-program-hubmap-healthy
 kind: resource
 type: dataset
-title: 'Human BioMolecular Atlas Program: HuBMAP healthy human tissue atlas and common coordinate framework
-  [[portal](https://hubmapconsortium.org/)] [[paper](htt'
+title: 'Human BioMolecular Atlas Program: HuBMAP healthy human tissue atlas and common coordinate framework'
+tags:
+- spatial
 links:
   paper: https://hubmapconsortium.org/
 reviewed: false

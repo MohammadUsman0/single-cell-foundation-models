@@ -4,6 +4,8 @@ type: perspective
 title: Minimal life by computer
 year: 2026
 venue: Nature Biotechnology
+tags:
+- virtual-cell
 links:
   paper: https://doi.org/10.1038/s41587-026-03110-7
 citation: Minimal life by computer. Nat Biotechnol (2026). https://doi.org/10.1038/s41587-026-03110-7

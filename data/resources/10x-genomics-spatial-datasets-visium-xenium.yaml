@@ -2,7 +2,7 @@ id: 10x-genomics-spatial-datasets-visium-xenium
 kind: resource
 type: dataset
 title: '10x Genomics spatial datasets: Visium, Xenium, and related public spatial transcriptomics example
-  datasets [[datasets](https://www.10xgenomics.com/data'
+  datasets'
 tags:
 - spatial
 - scrna-seq

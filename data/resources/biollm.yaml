@@ -4,6 +4,9 @@ type: benchmark
 title: 'BioLLM: A standardized framework for integrating and benchmarking single-cell foundation models'
 year: 2025
 venue: Patterns
+tags:
+- scrna-seq
+- foundation-model
 links:
   paper: https://doi.org/10.1016/j.patter.2025.101326
 reviewed: false

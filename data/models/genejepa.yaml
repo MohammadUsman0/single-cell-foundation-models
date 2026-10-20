@@ -14,4 +14,5 @@ architecture: JEPA world model
 key: A predictive (JEPA) world model of the transcriptome.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.10.14.682378v1
+  code: https://github.com/BiostateAI/GeneJEPA
 reviewed: false

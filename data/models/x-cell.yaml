@@ -13,6 +13,7 @@ tags:
 modality: Single-cell
 links:
   paper: https://doi.org/10.64898/2026.03.18.712807
+  code: https://github.com/Xaira-Therapeutics/X-Cell
   project: https://vimeo.com/1174241862
 citation: 'Wang, Chloe, Mehran Karimzadeh, Neal G. Ravindra, Lexi R. Bounds, Nader Alerasool, Ann C. Huang,
   Shihao Ma et al. "X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts via

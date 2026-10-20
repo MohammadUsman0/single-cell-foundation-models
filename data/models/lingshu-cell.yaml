@@ -16,6 +16,7 @@ key: masked discrete diffusion model that learns transcriptomic state distributi
   simulation under perturbation
 links:
   paper: https://arxiv.org/abs/2603.25240
+  code: https://github.com/alibaba-damo-academy/Lingshu-Cell
   project: https://alibaba-damo-academy.github.io/lingshu-cell-homepage/
 citation: 'Zhang, Han, Guo-Hua Yuan, Chaohao Yuan, Tingyang Xu, Tian Bian, Hong Cheng, Wenbing Huang,
   Deli Zhao, and Yu Rong. "Lingshu-Cell: A generative cellular world model for transcriptome modeling

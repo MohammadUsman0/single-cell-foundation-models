@@ -15,4 +15,5 @@ key: Condition-sensitive adaptation of scFMs for genetic perturbation prediction
 links:
   paper: https://doi.org/10.1093/bioinformatics/btag307
   preprint: https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1
+  code: https://github.com/BaiDing1234/PertAdapt
 reviewed: false

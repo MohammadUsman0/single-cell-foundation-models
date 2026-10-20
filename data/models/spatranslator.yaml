@@ -17,6 +17,7 @@ key: Generative model (graph neural network + adversarial VAE) that translates b
   to simulate paired data.
 links:
   paper: https://doi.org/10.1101/2025.11.15.688644
+  code: https://github.com/donghongyu2020/SpaTranslator
 citation: 'Dong, Hongyu, Sheng Mao, Yukuan Liu, Tian Tian, Lihua Zhang, Juanshu Wu, Shichen Zhang et al.
   "SpaTranslator: A deep generative framework for universal spatial multi-omics cross-modality translation."
   bioRxiv (2025): 2025-11.'

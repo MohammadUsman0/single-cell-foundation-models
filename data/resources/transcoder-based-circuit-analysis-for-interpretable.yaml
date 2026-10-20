@@ -4,6 +4,9 @@ type: reference
 title: Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models
 year: 2025
 venue: arXiv
+tags:
+- scrna-seq
+- foundation-model
 links:
   paper: https://arxiv.org/abs/2509.14723
 citation: Hosokawa, Sosuke, Toshiharu Kawakami, Satoshi Kodera, Masamichi Ito, and Norihiko Takeda. "Transcoder-based

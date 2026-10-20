@@ -1,8 +1,7 @@
 id: human-protein-atlas
 kind: resource
 type: dataset
-title: 'Human Protein Atlas: Subcellular and tissue protein expression atlases [[resource](https://www.proteinatlas.org/)]
-  [[subcellular](https://www'
+title: 'Human Protein Atlas: Subcellular and tissue protein expression atlases'
 tags:
 - proteomics
 links:

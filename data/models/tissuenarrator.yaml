@@ -16,4 +16,5 @@ architecture: Generative LLM
 key: Generative modeling of spatial transcriptomics with LLMs.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.11.24.690325v1
+  code: https://github.com/Steven51516/tissuenarrator
 reviewed: false

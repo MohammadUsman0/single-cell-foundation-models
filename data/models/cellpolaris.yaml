@@ -15,6 +15,7 @@ key: 'Generating cell-type-specific Gene Regulatory Networks (GRNs), simulating 
   Key Finding: Relies exclusively on transcriptomic data to generate GRNs via transfer learning.'
 links:
   paper: https://doi.org/10.1101/2023.09.25.559244
+  code: https://github.com/xCompass-AI/CellPolaris
 citation: 'Feng, Guihai, Xin Qin, Jiahao Zhang, Wuliang Huang, Yiyang Zhang, Wentao Cui, Shirui Li et
   al. "CellPolaris: Decoding Cell Fate through Generalization Transfer Learning of Gene Regulatory Networks."
   bioRxiv (2023): 2023-09.'
