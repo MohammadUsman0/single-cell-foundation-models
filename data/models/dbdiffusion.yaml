@@ -1,0 +1,18 @@
+id: dbdiffusion
+kind: model
+name: dbDiffusion
+title: 'Predicting the unseen: A diffusion-based debiasing framework for transcriptional response prediction
+  at single-cell resolution'
+year: 2025
+venue: PNAS
+category: generative
+tags:
+- generative
+- perturbation
+- scrna-seq
+modality: scRNA-seq (perturbation)
+architecture: Diffusion
+key: Diffusion-based debiasing for single-cell transcriptional response prediction.
+links:
+  paper: https://www.pnas.org/doi/10.1073/pnas.2525268122
+reviewed: false

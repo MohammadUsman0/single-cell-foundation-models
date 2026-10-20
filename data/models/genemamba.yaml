@@ -1,0 +1,16 @@
+id: genemamba
+kind: model
+name: GeneMamba
+title: 'GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data'
+year: 2025
+venue: arXiv
+category: llm
+tags:
+- llm
+- scrna-seq
+modality: scRNA-seq
+architecture: Bidirectional Mamba
+key: Efficient long-context single-cell modeling with bidirectional Mamba.
+links:
+  paper: https://arxiv.org/abs/2504.16956
+reviewed: false

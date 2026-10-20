@@ -1,9 +1,0 @@
-id: cell-painting-gallery-public-high-content
-kind: resource
-type: dataset
-title: 'Cell Painting Gallery: Public high-content cell painting datasets from Broad and partners [[dataset](https://registry.opendata.aws/cellpainting'
-tags:
-- imaging
-links:
-  paper: https://registry.opendata.aws/cellpainting-gallery/
-reviewed: false

@@ -1,0 +1,10 @@
+id: vizgen-merfish-datasets
+kind: resource
+type: dataset
+title: 'Vizgen MERFISH datasets: Public MERFISH example datasets for spatial transcriptomics [[datasets](https://vizgen.com/data-release-program/)]'
+tags:
+- spatial
+- scrna-seq
+links:
+  paper: https://vizgen.com/data-release-program/
+reviewed: false

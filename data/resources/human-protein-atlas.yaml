@@ -1,0 +1,10 @@
+id: human-protein-atlas
+kind: resource
+type: dataset
+title: 'Human Protein Atlas: Subcellular and tissue protein expression atlases [[resource](https://www.proteinatlas.org/)]
+  [[subcellular](https://www'
+tags:
+- proteomics
+links:
+  paper: https://www.proteinatlas.org/
+reviewed: false

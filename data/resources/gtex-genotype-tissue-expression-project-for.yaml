@@ -1,8 +1,0 @@
-id: gtex-genotype-tissue-expression-project-for
-kind: resource
-type: dataset
-title: 'GTEx: Genotype-Tissue Expression project for human tissue expression baselines [[portal](https://gtexportal.org/)]
-  [[overview]'
-links:
-  paper: https://gtexportal.org/
-reviewed: false

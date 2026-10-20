@@ -1,0 +1,10 @@
+id: pubchem
+kind: resource
+type: dataset
+title: 'PubChem: Compound identifiers, structures, assays, and bioactivity records [[resource](https://pubchem.ncbi.nlm.nih.gov/)]
+  [[pape'
+tags:
+- drug-response
+links:
+  paper: https://pubchem.ncbi.nlm.nih.gov/
+reviewed: false

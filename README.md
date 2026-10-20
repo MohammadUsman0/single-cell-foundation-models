@@ -4,7 +4,7 @@
 
 For each model, the catalogue aims to record what it is, whether you can use it (code, weights, license) and what benchmarks found about it. Titles, years, venues and links are verified against Crossref, OpenAlex, arXiv and bioRxiv with [`scripts/verify.py`](scripts/verify.py).
 
-**174 models** (62 with code) · **123 resources** · **19 venues** · updated 2026-10-20
+**174 models** (62 with code) · **122 resources** · **19 venues** · updated 2026-10-20
 
 Each entry: **name** · title (**venue year**) · tags · links. Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).
 
@@ -37,7 +37,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - [Tools & Software](#tools--software) (6)
 - [Surveys](#surveys) (9)
 - [Perspectives & Commentary](#perspectives--commentary) (18)
-- [Other References](#other-references) (10)
+- [Other References](#other-references) (9)
 - [Where to Publish & Track New Work](#where-to-publish--track-new-work)
 - [Related Lists](#related-lists)
 
@@ -343,7 +343,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - scBaseCount: an AI agent-curated, uniformly processed, and autonomously updated single cell data repository (**bioRxiv 2025**) · `Agent` · [[paper](https://doi.org/10.1101/2025.02.27.640494)]
 - scGeneScope: scGeneScope: A Treatment-Matched Single Cell Imaging and Transcriptomics Dataset and Benchmark for Treatment Response Mo (**2025**) · `Imaging` `scRNA-seq` · [[paper](https://openreview.net/forum?id=918POZbZ50)]
 - Simultaneous CRISPR screening and spatial transcriptomics reveal intracellular, intercellular, and functional transcriptional circuits (**Cell 2025**) · `Spatial` `Imaging` `Perturbation` `scRNA-seq` · [[paper](https://doi.org/10.1016/j.cell.2025.02.012)]
-- Tahoe-100M: Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) · `Perturbation` · [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1)]
+- Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) · `Perturbation` · [[paper](https://doi.org/10.1101/2025.02.20.639398)]
 - X-Atlas/Orion: Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundat (**bioRxiv 2025**) · `Perturbation` · [[paper](https://www.biorxiv.org/content/10.1101/2025.06.11.659105v1)]
 - CM4AI: Cell Maps for Artificial Intelligence: AI-Ready Maps of Human Cell Architecture from Disease-Relevant Cell Lines (**bioRxiv 2024**) · [[paper](https://doi.org/10.1101/2024.05.21.589311)]
 - CPJUMP1: Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations (**Nature Methods 2024**) · `Imaging` `Perturbation` · [[paper](https://www.nature.com/articles/s41592-024-02241-6)]
@@ -424,7 +424,6 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - Virtual Cells Need Context, Not Just Scale (**bioRxiv 2026**) · `Virtual cell` · [[paper](https://doi.org/10.64898/2026.02.04.703804)]
 - What Makes a Representation Good for Single-Cell Perturbation Prediction? (**arXiv 2026**) · `Perturbation` · [[paper](https://arxiv.org/abs/2605.19343)]
 - Batch Effects Remain a Fundamental Barrier to Universal Embeddings in Single-Cell Foundation Models (**bioRxiv 2025**) · [[paper](https://doi.org/10.64898/2025.12.19.695371)]
-- Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling (**bioRxiv 2025**) · `Perturbation` · [[paper](https://www.biorxiv.org/content/10.1101/2025.02.20.639398v3)]
 - Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models (**arXiv 2025**) · [[paper](https://arxiv.org/abs/2509.14723)]
 - Toward ai-driven digital organism: Multiscale foundation models for predicting, simulating and programming biology at all levels (**arXiv 2024**) · `Virtual cell` · [[paper](https://arxiv.org/abs/2412.06993)]
 
