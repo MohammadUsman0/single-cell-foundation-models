@@ -2,7 +2,7 @@
  "generated": "2026-10-20",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
-  "models": 175,
+  "models": 174,
   "resources": 123,
   "venues": 19
  },
@@ -465,6 +465,30 @@
    "github": "Gartner-Lab/Concord"
   },
   {
+   "id": "discrete-cell-models-dcm",
+   "kind": "model",
+   "name": "DCM",
+   "aliases": [
+    "Discrete Cell Models"
+   ],
+   "title": "Discrete Diffusion for Single-Cell Gene Expression Modeling",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "generative",
+    "scrna-seq"
+   ],
+   "key": "results establish discrete diffusion as a promising direction for foundational models of cellular biology",
+   "links": {
+    "paper": "https://doi.org/10.64898/2026.02.19.705033"
+   },
+   "citation": "Bhattacharya, Sanjukta, Christian Gensbigler, Shaamil Karim, and Jon Lees. \"Discrete Diffusion for Single-Cell Gene Expression Modeling.\" bioRxiv (2026): 2026-02.",
+   "reviewed": false,
+   "status": "preprint"
+  },
+  {
    "id": "departures",
    "kind": "model",
    "name": "Departures",
@@ -504,27 +528,6 @@
    "reviewed": false,
    "status": "preprint",
    "github": "Peg-Wu/DeSCOPE"
-  },
-  {
-   "id": "discrete-cell-models-dcm",
-   "kind": "model",
-   "name": "Discrete Cell Models (DCM)",
-   "title": "Discrete Diffusion for Single-Cell Gene Expression Modeling",
-   "year": 2026,
-   "venue": "bioRxiv",
-   "category": "perturbation",
-   "tags": [
-    "perturbation",
-    "generative",
-    "scrna-seq"
-   ],
-   "key": "results establish discrete diffusion as a promising direction for foundational models of cellular biology",
-   "links": {
-    "paper": "https://doi.org/10.64898/2026.02.19.705033"
-   },
-   "citation": "Bhattacharya, Sanjukta, Christian Gensbigler, Shaamil Karim, and Jon Lees. \"Discrete Diffusion for Single-Cell Gene Expression Modeling.\" bioRxiv (2026): 2026-02.",
-   "reviewed": false,
-   "status": "preprint"
   },
   {
    "id": "doloris",
@@ -572,27 +575,6 @@
    "status": "preprint"
   },
   {
-   "id": "learning-multi-cellular-representations",
-   "kind": "model",
-   "name": "Learning multi-cellular representations PaSCien",
-   "title": "Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states",
-   "year": 2026,
-   "venue": "Cell Systems",
-   "category": "scrna",
-   "tags": [
-    "scrna-seq"
-   ],
-   "modality": "Single-Cell Transcriptomics",
-   "key": "Characterization of patient-level disease states",
-   "links": {
-    "paper": "https://doi.org/10.1016/j.cels.2026.101570",
-    "preprint": "https://doi.org/10.1101/2024.11.18.624166"
-   },
-   "citation": "Liu, Tianyu, Edward De Brouwer, Tony Kuo, Nathaniel Diamant, Alsu Missarova, Hanchen Wang, Minsheng Hao et al. \"Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states.\" In International Conference on Research in Computational Molecular Biology, pp. 303-306. Cham: Springer Nature Switzerland, 2025.",
-   "reviewed": false,
-   "status": "published"
-  },
-  {
    "id": "lingshu-cell",
    "kind": "model",
    "name": "Lingshu-Cell",
@@ -638,6 +620,27 @@
    },
    "reviewed": false,
    "status": "preprint"
+  },
+  {
+   "id": "learning-multi-cellular-representations",
+   "kind": "model",
+   "name": "PaSCient",
+   "title": "Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states",
+   "year": 2026,
+   "venue": "Cell Systems",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq"
+   ],
+   "modality": "Single-Cell Transcriptomics",
+   "key": "Characterization of patient-level disease states",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cels.2026.101570",
+    "preprint": "https://doi.org/10.1101/2024.11.18.624166"
+   },
+   "citation": "Liu, Tianyu, Edward De Brouwer, Tony Kuo, Nathaniel Diamant, Alsu Missarova, Hanchen Wang, Minsheng Hao et al. \"Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states.\" In International Conference on Research in Computational Molecular Biology, pp. 303-306. Cham: Springer Nature Switzerland, 2025.",
+   "reviewed": false,
+   "status": "published"
   },
   {
    "id": "pertadapt",
@@ -1192,7 +1195,7 @@
   {
    "id": "borzoi-predicting-rna-seq",
    "kind": "model",
-   "name": "Borzoi Predicting RNA-seq coverage",
+   "name": "Borzoi",
    "title": "Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation",
    "year": 2025,
    "venue": "Nature Genetics",
@@ -1643,7 +1646,7 @@
   {
    "id": "diffusion-debiasing-perturbation",
    "kind": "model",
-   "name": "Diffusion debiasing (perturbation)",
+   "name": "dbDiffusion",
    "title": "Predicting the unseen: A diffusion-based debiasing framework for transcriptional response prediction at single-cell resolution",
    "year": 2025,
    "venue": "PNAS",
@@ -1765,7 +1768,10 @@
   {
    "id": "get-general-expression-transformer",
    "kind": "model",
-   "name": "GET (General Expression Transformer)",
+   "name": "GET",
+   "aliases": [
+    "General Expression Transformer"
+   ],
    "title": "A foundation model of transcription across human cell types",
    "year": 2025,
    "venue": "Nature",
@@ -1871,7 +1877,10 @@
   {
    "id": "lpm-large-perturbation-model",
    "kind": "model",
-   "name": "LPM (Large Perturbation Model)",
+   "name": "LPM",
+   "aliases": [
+    "Large Perturbation Model"
+   ],
    "title": "In silico biological discovery with large perturbation models",
    "year": 2025,
    "venue": "Nature Computational Science",
@@ -2218,6 +2227,9 @@
    "id": "ps",
    "kind": "model",
    "name": "PS",
+   "aliases": [
+    "perturbation-response score"
+   ],
    "title": "Decoding Heterogeneous Single-Cell Perturbation Responses",
    "year": 2025,
    "venue": "Nature Cell Biology",
@@ -2797,7 +2809,8 @@
    "architecture": "Tabular Self-Supervised",
    "key": "Nips 2025 poster",
    "links": {
-    "paper": "https://doi.org/10.52202/085713-3467"
+    "paper": "https://doi.org/10.52202/085713-3467",
+    "preprint": "https://doi.org/10.1101/2025.01.06.631427"
    },
    "citation": "Ding, Jiayuan, Jianhui Lin, Shiyu Jiang, Yixin Wang, Ziyang Miao, Zhaoyu Fang, Jiliang Tang, Min Li, and Xiaojie Qiu. \"Tabula: A Tabular Self-Supervised Foundation Model for Single-Cell Transcriptomics.\" In The Thirty-ninth Annual Conference on Neural Information Processing Systems.",
    "reviewed": false,
@@ -2863,27 +2876,6 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2025.11.24.690325v1"
    },
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
-   "id": "toward-a-privacy-preserving",
-   "kind": "model",
-   "name": "Toward a privacy-preserving predictive FM",
-   "title": "Toward a privacy-preserving predictive foundation model of single-cell transcriptomics with federated learning and tabular modeling",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "category": "scrna",
-   "tags": [
-    "scrna-seq"
-   ],
-   "modality": "Single-Cell Transcriptomics",
-   "architecture": "Federated Learning, Tabular Modeling",
-   "key": "Privacy-preserving prediction",
-   "links": {
-    "paper": "https://doi.org/10.1101/2025.01.06.631427"
-   },
-   "citation": "Ding, Jiayuan, Jianhui Lin, Shiyu Jiang, Yixin Wang, Ziyang Miao, Zhaoyu Fang, Jiliang Tang, Min Li, and Xiaojie Qiu. \"Toward a privacy-preserving predictive foundation model of single-cell transcriptomics with federated learning and tabular modeling.\" bioRxiv (2025): 2025-01.",
    "reviewed": false,
    "status": "preprint"
   },
@@ -2997,7 +2989,7 @@
   {
    "id": "aido-cell-scaling-dense",
    "kind": "model",
-   "name": "AIDO.Cell Scaling Dense Representations",
+   "name": "AIDO.Cell",
    "title": "Scaling dense representations for single cell with transcriptome-scale context",
    "year": 2024,
    "venue": "bioRxiv",
@@ -3011,6 +3003,29 @@
     "paper": "https://doi.org/10.1101/2024.11.28.625303"
    },
    "citation": "Ho, Nicholas, Caleb N. Ellington, Jinyu Hou, Sohan Addagudi, Shentong Mo, Tianhua Tao, Dian Li et al. \"Scaling dense representations for single cell with transcriptome-scale context.\" bioRxiv (2024): 2024-11.",
+   "reviewed": false,
+   "status": "preprint"
+  },
+  {
+   "id": "scfm",
+   "kind": "model",
+   "name": "CancerFoundation",
+   "title": "CancerFoundation: A single-cell RNA sequencing foundation model to decipher drug resistance in cancer",
+   "year": 2024,
+   "venue": "bioRxiv",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "drug-response"
+   ],
+   "modality": "Single-cell RNA-seq (Malignant cells)",
+   "architecture": "scRNA-seq Foundation Model (scFM)",
+   "task": "Zero-shot batch integration, drug response prediction, survival prediction. Key Finding: Trained exclusively on malignant cells (focused, smaller model) and outperforms larger FMs in cancer tasks.",
+   "key": "present CancerFoundation, a novel single-cell RNA-seq foundation model (scFM) trained exclusively on malignant cells",
+   "links": {
+    "paper": "https://doi.org/10.1101/2024.11.01.621087"
+   },
+   "citation": "Theus, Alexander, Florian Barkmann, David Wissel, and Valentina Boeva. \"CancerFoundation: A single-cell RNA sequencing foundation model to decipher drug resistance in cancer.\" bioRxiv (2024): 2024-11.",
    "reviewed": false,
    "status": "preprint"
   },
@@ -3099,27 +3114,6 @@
    "status": "preprint"
   },
   {
-   "id": "multimodal-foundation-model",
-   "kind": "model",
-   "name": "Multimodal foundation model",
-   "title": "Multimodal foundation model predicts zero-shot functional perturbations and cell fate dynamics",
-   "year": 2024,
-   "venue": "bioRxiv",
-   "category": "perturbation",
-   "tags": [
-    "perturbation",
-    "multi-omics"
-   ],
-   "modality": "Multimodal (not specified)",
-   "key": "Predicts zero-shot functional perturbations and cell fate dynamics",
-   "links": {
-    "paper": "https://doi.org/10.1101/2024.12.19.629561"
-   },
-   "citation": "Yang, Zikun, Xueying Fan, Meng Lan, Xin Li, Yue You, Luyi Tian, George Church, Xiaodong Liu, and Fei Gu. \"Multimodal foundation model predicts zero-shot functional perturbations and cell fate dynamics\" bioRxiv (2025)",
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
    "id": "nichecompass",
    "kind": "model",
    "name": "nichecompass",
@@ -3141,6 +3135,30 @@
    "reviewed": false,
    "status": "preprint",
    "github": "Lotfollahi-lab/nichecompass"
+  },
+  {
+   "id": "multimodal-foundation-model",
+   "kind": "model",
+   "name": "PertFormer",
+   "aliases": [
+    "Perturbation Transformer"
+   ],
+   "title": "Multimodal foundation model predicts zero-shot functional perturbations and cell fate dynamics",
+   "year": 2024,
+   "venue": "bioRxiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "multi-omics"
+   ],
+   "modality": "Multimodal (not specified)",
+   "key": "Predicts zero-shot functional perturbations and cell fate dynamics",
+   "links": {
+    "paper": "https://doi.org/10.1101/2024.12.19.629561"
+   },
+   "citation": "Yang, Zikun, Xueying Fan, Meng Lan, Xin Li, Yue You, Luyi Tian, George Church, Xiaodong Liu, and Fei Gu. \"Multimodal foundation model predicts zero-shot functional perturbations and cell fate dynamics\" bioRxiv (2025)",
+   "reviewed": false,
+   "status": "preprint"
   },
   {
    "id": "prnet",
@@ -3205,29 +3223,6 @@
    "citation": "Yuan, Xinyu, Zhihao Zhan, Zuobai Zhang, Manqi Zhou, Jianan Zhao, Boyu Han, Yue Li, and Jian Tang. \"Cell ontology guided transcriptome foundation model.\" Advances in Neural Information Processing Systems 37 (2024): 6323-6366.",
    "reviewed": false,
    "status": "published"
-  },
-  {
-   "id": "scfm",
-   "kind": "model",
-   "name": "scFM",
-   "title": "CancerFoundation: A single-cell RNA sequencing foundation model to decipher drug resistance in cancer",
-   "year": 2024,
-   "venue": "bioRxiv",
-   "category": "scrna",
-   "tags": [
-    "scrna-seq",
-    "drug-response"
-   ],
-   "modality": "Single-cell RNA-seq (Malignant cells)",
-   "architecture": "scRNA-seq Foundation Model (scFM)",
-   "task": "Zero-shot batch integration, drug response prediction, survival prediction. Key Finding: Trained exclusively on malignant cells (focused, smaller model) and outperforms larger FMs in cancer tasks.",
-   "key": "present CancerFoundation, a novel single-cell RNA-seq foundation model (scFM) trained exclusively on malignant cells",
-   "links": {
-    "paper": "https://doi.org/10.1101/2024.11.01.621087"
-   },
-   "citation": "Theus, Alexander, Florian Barkmann, David Wissel, and Valentina Boeva. \"CancerFoundation: A single-cell RNA sequencing foundation model to decipher drug resistance in cancer.\" bioRxiv (2024): 2024-11.",
-   "reviewed": false,
-   "status": "preprint"
   },
   {
    "id": "scfoundation",
@@ -3449,7 +3444,7 @@
   {
    "id": "stformer-a-framework-for",
    "kind": "model",
-   "name": "stFormer A framework for gene representation",
+   "name": "stFormer",
    "title": "stFormer: a foundation model for spatial transcriptomics",
    "year": 2024,
    "venue": "bioRxiv",
@@ -3492,7 +3487,7 @@
   {
    "id": "celllm-large-scale-cell",
    "kind": "model",
-   "name": "CellLM Large-Scale Cell Representation Learning",
+   "name": "CellLM",
    "title": "Large-scale cell representation learning via divide-and-conquer contrastive learning",
    "year": 2023,
    "venue": "arXiv",
@@ -3667,6 +3662,26 @@
    "status": "preprint"
   },
   {
+   "id": "single-cell-masked-autoencoder",
+   "kind": "model",
+   "name": "scMAE",
+   "aliases": [
+    "Single-cell Masked Autoencoder"
+   ],
+   "title": "Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper",
+   "year": 2023,
+   "venue": "NeurIPS",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq"
+   ],
+   "architecture": "Masked Autoencoder",
+   "key": "Automated Immunophenotyper",
+   "citation": "Kim, Jaesik, Matei Ionita, Matthew Eric Lee, Michelle McKeague, Ajinkya Pattekar, Mark Painter, Joost Wagenaar et al. \"Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper.\" In NeurIPS 2023 AI for Science Workshop. 2024.",
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "scpoli",
    "kind": "model",
    "name": "scPoli",
@@ -3686,7 +3701,7 @@
   {
    "id": "single-cell-gene-expression",
    "kind": "model",
-   "name": "Single-cell gene expression prediction",
+   "name": "seq2cells",
    "title": "Single-cell gene expression prediction from DNA sequence at large contexts",
    "year": 2023,
    "venue": "bioRxiv",
@@ -3704,23 +3719,6 @@
    "citation": "Schwessinger, Ron, Jacob Deasy, Rob T. Woodruff, Stephen Young, and Kim M. Branson. \"Single-cell gene expression prediction from DNA sequence at large contexts.\" bioRxiv (2023): 2023-07.",
    "reviewed": false,
    "status": "preprint"
-  },
-  {
-   "id": "single-cell-masked-autoencoder",
-   "kind": "model",
-   "name": "single-cell masked autoencoder (scMAE)",
-   "title": "Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper",
-   "year": 2023,
-   "venue": "NeurIPS",
-   "category": "scrna",
-   "tags": [
-    "scrna-seq"
-   ],
-   "architecture": "Masked Autoencoder",
-   "key": "Automated Immunophenotyper",
-   "citation": "Kim, Jaesik, Matei Ionita, Matthew Eric Lee, Michelle McKeague, Ajinkya Pattekar, Mark Painter, Joost Wagenaar et al. \"Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper.\" In NeurIPS 2023 AI for Science Workshop. 2024.",
-   "reviewed": false,
-   "status": "published"
   },
   {
    "id": "tgpt",

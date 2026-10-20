@@ -1,6 +1,6 @@
 id: learning-multi-cellular-representations
 kind: model
-name: Learning multi-cellular representations PaSCien
+name: PaSCient
 title: Learning multi-cellular representations of single-cell transcriptomics data enables characterization
   of patient-level disease states
 year: 2026

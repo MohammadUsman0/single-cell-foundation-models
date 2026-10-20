@@ -1,6 +1,6 @@
 id: diffusion-debiasing-perturbation
 kind: model
-name: Diffusion debiasing (perturbation)
+name: dbDiffusion
 title: 'Predicting the unseen: A diffusion-based debiasing framework for transcriptional response prediction
   at single-cell resolution'
 year: 2025

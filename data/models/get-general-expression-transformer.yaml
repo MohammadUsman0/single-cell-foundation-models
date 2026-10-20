@@ -1,6 +1,8 @@
 id: get-general-expression-transformer
 kind: model
-name: GET (General Expression Transformer)
+name: GET
+aliases:
+- General Expression Transformer
 title: A foundation model of transcription across human cell types
 year: 2025
 venue: Nature

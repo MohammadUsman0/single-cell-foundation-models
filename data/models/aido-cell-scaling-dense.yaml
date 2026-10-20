@@ -1,6 +1,6 @@
 id: aido-cell-scaling-dense
 kind: model
-name: AIDO.Cell Scaling Dense Representations
+name: AIDO.Cell
 title: Scaling dense representations for single cell with transcriptome-scale context
 year: 2024
 venue: bioRxiv

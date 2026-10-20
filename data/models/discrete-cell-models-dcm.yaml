@@ -1,6 +1,8 @@
 id: discrete-cell-models-dcm
 kind: model
-name: Discrete Cell Models (DCM)
+name: DCM
+aliases:
+- Discrete Cell Models
 title: Discrete Diffusion for Single-Cell Gene Expression Modeling
 year: 2026
 venue: bioRxiv

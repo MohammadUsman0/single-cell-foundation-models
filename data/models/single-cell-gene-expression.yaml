@@ -1,6 +1,6 @@
 id: single-cell-gene-expression
 kind: model
-name: Single-cell gene expression prediction
+name: seq2cells
 title: Single-cell gene expression prediction from DNA sequence at large contexts
 year: 2023
 venue: bioRxiv

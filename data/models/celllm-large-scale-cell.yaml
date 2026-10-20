@@ -1,6 +1,6 @@
 id: celllm-large-scale-cell
 kind: model
-name: CellLM Large-Scale Cell Representation Learning
+name: CellLM
 title: Large-scale cell representation learning via divide-and-conquer contrastive learning
 year: 2023
 venue: arXiv

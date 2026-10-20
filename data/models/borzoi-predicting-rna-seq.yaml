@@ -1,6 +1,6 @@
 id: borzoi-predicting-rna-seq
 kind: model
-name: Borzoi Predicting RNA-seq coverage
+name: Borzoi
 title: Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation
 year: 2025
 venue: Nature Genetics

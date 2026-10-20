@@ -1,6 +1,8 @@
 id: ps
 kind: model
 name: PS
+aliases:
+- perturbation-response score
 title: Decoding Heterogeneous Single-Cell Perturbation Responses
 year: 2025
 venue: Nature Cell Biology

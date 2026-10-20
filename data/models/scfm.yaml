@@ -1,6 +1,6 @@
 id: scfm
 kind: model
-name: scFM
+name: CancerFoundation
 title: 'CancerFoundation: A single-cell RNA sequencing foundation model to decipher drug resistance in
   cancer'
 year: 2024

@@ -1,6 +1,8 @@
 id: multimodal-foundation-model
 kind: model
-name: Multimodal foundation model
+name: PertFormer
+aliases:
+- Perturbation Transformer
 title: Multimodal foundation model predicts zero-shot functional perturbations and cell fate dynamics
 year: 2024
 venue: bioRxiv
