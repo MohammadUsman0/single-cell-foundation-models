@@ -16,7 +16,7 @@
   const PREPRINT_VENUES = new Set(["arxiv", "biorxiv", "medrxiv", "research square", "chemrxiv", "ssrn"]);
 
   let DATA = null;
-  const V = { cat: {}, tag: {}, type: {}, card: [] };   // vocabulary lookups
+  const V = { cat: {}, tag: {}, type: {}, card: [], cardFilters: [] };   // vocabulary lookups
   // field -> {id: label}, filled from data.json's vocab (inputs, outputs, architecture family, ...)
   const L = { inputs: {}, outputs: {}, architecture_family: {}, code_status: {}, review_basis: {},
               perturbation_type: {}, generalization: {} };
@@ -91,8 +91,8 @@
           ? (e, v) => list(v).includes(e[field])
           : (e, v) => list(v).every((x) => asList(e[field]).includes(x))]);
       }
-      for (const field of V.card) {
-        f.push([`mc_${field}`, (e, v) => list(v).includes(String((e.model_card || {})[field] ?? ""))]);
+      for (const field of V.cardFilters) {   // list-aware: species can hold several values
+        f.push([`mc_${field}`, (e, v) => asList((e.model_card || {})[field]).some((x) => list(v).includes(String(x)))]);
       }
     } else {
       f.push(["type", (e, v) => list(v).includes(e.type)]);
@@ -193,8 +193,8 @@
       if (html) groups.push([g[0].toUpperCase() + g.slice(1), html]);
     }
     if (kind === "models") {
-      for (const field of V.card) {
-        const c = facet(`mc_${field}`, (e) => String((e.model_card || {})[field] ?? ""));
+      for (const field of V.cardFilters) {
+        const c = facet(`mc_${field}`, (e) => asList((e.model_card || {})[field]).map(String));
         const html = checks(`mc_${field}`, c, Object.keys(c).sort().map((v) => [v, v]));
         if (html) groups.push([prettyField(field), html]);
       }
@@ -251,7 +251,7 @@
     if (params.st) add("st", "", params.st === "published" ? "Published" : "Preprint");
     if (params.code) add("code", "", "Has code");
     if (params.y0 || params.y1) add("year", "", `${params.y0 || "…"}–${params.y1 || "…"}`);
-    for (const f of V.card) for (const v of list(params[`mc_${f}`])) add(`mc_${f}`, v, `${prettyField(f)}: ${v}`);
+    for (const f of V.cardFilters) for (const v of list(params[`mc_${f}`])) add(`mc_${f}`, v, `${prettyField(f)}: ${v}`);
     for (const [param, field, head] of IO) for (const v of list(params[param])) add(param, v, `${head}: ${lab(field, v)}`);
     return chips.length ? `<div class="chips">${chips.join("")}</div>` : "";
   }
@@ -297,6 +297,9 @@
       <span class="io-arrow" aria-hidden="true">→</span> <span class="io-label">Gives</span> ${esc(outs.join(", ") || "—")}</p>`;
   }
 
+  // Compact table cell for a model-card value: long lists become a count (full list on the model page).
+  const cardCell = (v) => (Array.isArray(v) ? (v.length > 4 ? `${v.length} species` : v.join(", ")) : v ?? "");
+
   function tableView(rows, params) {
     const cols = [
       ["name", "Model"], ["year", "Year"], ["venue", "Venue"], ["category", "Category"],
@@ -325,7 +328,7 @@
                 <td class="wide">${asList(e.outputs).map((v) => esc(lab("outputs", v))).join(", ")}</td>
                 <td>${esc(e.architecture_family ? lab("architecture_family", e.architecture_family) : "")}</td>
                 <td class="wide">${(e.tags || []).map((t) => esc(V.tag[t] || t)).join(", ")}</td>
-                ${cardCols.map((f) => `<td>${esc((e.model_card || {})[f] ?? "")}</td>`).join("")}
+                ${cardCols.map((f) => `<td class="card-col">${esc(cardCell((e.model_card || {})[f]))}</td>`).join("")}
                 <td class="nowrap">${l.paper ? `<a href="${esc(l.paper)}" target="_blank" rel="noopener">paper</a>` : ""}</td>
                 <td>${l.code ? `<a href="${esc(l.code)}" target="_blank" rel="noopener">${esc(e.github || "code")}</a>` : ""}</td>
               </tr>`;
@@ -806,6 +809,8 @@
       for (const [field, list_] of Object.entries(VOCAB)) for (const x of d.vocab[list_] || []) L[field][x.id] = x.label;
       // Model-card fields get filters/columns only once some model has data for them.
       V.card = Object.keys(d.vocab.model_card_fields || {}).filter((f) => d.models.some((m) => (m.model_card || {})[f] != null));
+      // Filters only where choosing a value makes sense; every card field still gets a table column.
+      V.cardFilters = V.card.filter((f) => ["weights", "license", "species"].includes(f));
       document.getElementById("counts").textContent =
         `${d.counts.models} models · ${d.counts.resources} resources`;
       document.getElementById("generated").textContent = `Updated ${d.generated}`;
