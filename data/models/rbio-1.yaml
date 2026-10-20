@@ -9,6 +9,13 @@ tags:
 - agent
 - text
 - virtual-cell
+inputs:
+- text
+outputs:
+- perturbation-response
+- disease-state
+- text
+architecture_family: llm
 links:
   paper: https://doi.org/10.1101/2025.08.18.670981
   code: https://github.com/czi-ai/rbio
@@ -18,5 +25,5 @@ citation: Istrate, Ana-Maria, Fausto Milletari, Fabrizio Castrotorres, Jakub M. 
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.08.18.670981
-review_basis: metadata
+review_basis: abstract
 reviewed: false

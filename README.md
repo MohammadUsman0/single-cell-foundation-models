@@ -182,7 +182,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 *Models coupled to LLMs or text, and long-sequence (Hyena/Mamba) models.*
 
-- **OKR-Cell** · Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training (**bioRxiv 2026**) · `LLM` `Text` `scRNA-seq` · [[paper](https://www.biorxiv.org/content/10.64898/2026.01.09.698573v1)]
+- **OKR-Cell** · Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training (**arXiv 2026**) · `LLM` `Text` `scRNA-seq` · [[paper](https://arxiv.org/abs/2601.05648)]
 - **scChat** · scChat: A Large Language Model-Powered Co-Pilot for Contextualized Single-Cell RNA Sequencing Analysis (**AIChE Journal 2026**) · `LLM` `Text` `scRNA-seq` · [[paper](https://doi.org/10.1002/aic.70285)] [[code](https://github.com/li-group/scChat)] ![stars](https://img.shields.io/github/stars/li-group/scChat?style=flat-square&label=%E2%98%85)
 - **scELMo** · Embeddings from language models are good learners for single-cell data analysis (**Patterns 2026**) · `LLM` `Text` · [[paper](https://doi.org/10.1016/j.patter.2025.101431)] [[code](https://github.com/HelloWorldLTY/scELMo)] ![stars](https://img.shields.io/github/stars/HelloWorldLTY/scELMo?style=flat-square&label=%E2%98%85)
 - **C2S-Scale** · Scaling Large Language Models for Next-Generation Single-Cell Analysis (**bioRxiv 2025**) · `LLM` `Text` `scRNA-seq` · [[paper](https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1)] [[code](https://github.com/vandijklab/cell2sentence)] ![stars](https://img.shields.io/github/stars/vandijklab/cell2sentence?style=flat-square&label=%E2%98%85)

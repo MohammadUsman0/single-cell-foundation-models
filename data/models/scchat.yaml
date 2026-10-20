@@ -14,7 +14,10 @@ modality: scRNA-seq
 architecture: LLM copilot
 inputs:
 - expression
-architecture_family: llm
+outputs:
+- cell-type-label
+- text
+architecture_family: agent
 key: LLM-powered copilot for contextualized scRNA-seq analysis.
 links:
   paper: https://doi.org/10.1002/aic.70285
@@ -27,5 +30,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1002/aic.70285
 - https://www.biorxiv.org/content/10.1101/2024.10.01.616063v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

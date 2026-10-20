@@ -694,12 +694,21 @@
    },
    "citation": "Fang, Yin, Qiao Jin, Guangzhi Xiong, Bowen Jin, Xianrui Zhong, Siru Ouyang, Yifan Yang et al. \"Cell-o1 : training LLMs to solve single-cell reasoning puzzles with reinforcement learning.\" Bioinformatics 42, no. 5 (2026): btag208.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "text"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1093/bioinformatics/btag208",
     "https://arxiv.org/abs/2506.02911"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "ncbi-nlp/cell-o1"
   },
@@ -722,12 +731,16 @@
    },
    "citation": "Nouri, Nima, Ronen Artzi, and Virginia Savova. \"An agentic AI framework for ingestion and standardization of single-cell RNA-seq data analysis.\" npj Artificial Intelligence 2, no. 1 (2026): 8.",
    "reviewed": false,
+   "inputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s44387-025-00064-0",
     "https://doi.org/10.1101/2025.07.31.667880"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "AstraZeneca/cellatria"
   },
@@ -749,12 +762,20 @@
    },
    "citation": "Alber, Samuel, Bowen Chen, Eric Sun, Alina Isakova, Aaron J. Wilk, and James Zou. \"CellVoyager: AI CompBio agent generates new insights by autonomously analyzing biological data.\" Nature Methods 23, no. 4 (2026): 749-759.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-026-03029-6",
     "https://doi.org/10.1101/2025.06.03.657517"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "zou-group/CellVoyager"
   },
@@ -1104,7 +1125,7 @@
    "name": "OKR-Cell",
    "title": "Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training",
    "year": 2026,
-   "venue": "bioRxiv",
+   "venue": "arXiv",
    "category": "llm",
    "tags": [
     "llm",
@@ -1115,9 +1136,9 @@
    "architecture": "Cross-modal pre-training",
    "key": "Open-world-knowledge-aided cell-language foundation model.",
    "links": {
-    "paper": "https://www.biorxiv.org/content/10.64898/2026.01.09.698573v1"
+    "paper": "https://arxiv.org/abs/2601.05648"
    },
-   "citation": "Wang, Haoran, Xuanyi Zhang, Shuangsang Fang, Longke Ran, Ziqing Deng, Yong Zhang, Yuxiang Li et al. \"WITHDRAWN: OKR-Cell: Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training.\" bioRxiv (2026).",
+   "citation": "Wang, Haoran, Xuanyi Zhang, Shuangsang Fang, Longke Ran, Ziqing Deng, Yong Zhang, Yuxiang Li et al. \"Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training.\" arXiv preprint arXiv:2601.05648 (2026).",
    "reviewed": false,
    "inputs": [
     "expression",
@@ -1125,7 +1146,7 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://www.biorxiv.org/content/10.64898/2026.01.09.698573v1"
+    "https://arxiv.org/abs/2601.05648"
    ],
    "review_basis": "metadata",
    "status": "preprint"
@@ -1469,13 +1490,17 @@
    "inputs": [
     "expression"
    ],
-   "architecture_family": "llm",
+   "outputs": [
+    "cell-type-label",
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1002/aic.70285",
     "https://www.biorxiv.org/content/10.1101/2024.10.01.616063v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "li-group/scChat"
   },
@@ -1523,11 +1548,20 @@
    },
    "citation": "Liu, Tianyu, Tianqi Chen, Wangjie Zheng, Xiao Luo, Yiqun Chen, and Hongyu Zhao. \"Embeddings from language models are good learners for single-cell data analysis.\" Patterns 7, no. 2 (2026): 101431.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1016/j.patter.2025.101431"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "HelloWorldLTY/scELMo"
   },
@@ -2164,11 +2198,16 @@
    },
    "citation": "Huang, Kexin, Serena Zhang, Hanchen Wang, Yuanhao Qu, Yingzhou Lu, Yusuf Roohani, Ryan Li et al. \"Biomni: A General-Purpose Biomedical AI Agent.\" bioRxiv (2025).",
    "reviewed": false,
+   "outputs": [
+    "gene-prioritization",
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.05.30.656746"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "snap-stanford/biomni"
   },
@@ -2268,10 +2307,16 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-type-label",
+    "text"
+   ],
    "architecture_family": "agent",
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41467-025-67084-x"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "ElliotXie/CASSIA"
   },
@@ -2364,14 +2409,20 @@
    "reviewed": false,
    "inputs": [
     "expression",
-    "spatial-coordinates"
+    "spatial-coordinates",
+    "text"
    ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1002/advs.202513210",
     "https://www.biorxiv.org/content/10.1101/2024.05.08.593094v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "portrai-io/CELLama"
   },
@@ -2541,6 +2592,15 @@
    "citation": "Gao, Yicheng, Weixu Wang, Yuheng Zhao, Kejing Dong, Caihua Shan, Weizhong Zheng, Till Richter et al. \"Language may be all omics needs: Harmonizing multimodal data for omics understanding with CellHermes.\" bioRxiv (2025).",
    "reviewed": false,
    "inputs": [
+    "text",
+    "expression",
+    "prior-network"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "gene-embedding",
+    "cell-type-label",
+    "perturbation-response",
     "text"
    ],
    "architecture_family": "llm",
@@ -2548,7 +2608,7 @@
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.11.07.687322v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "theislab/CellHermes"
   },
@@ -2641,14 +2701,20 @@
    "citation": "Xiao, Chuxi, Yuang Ding, Haiyang Bian, Yixin Chen, Lei Wei, and Xuegong Zhang. \"Tokenizing single-cell transcriptomes as a native language for large language models.\" bioRxiv (2025).",
    "reviewed": false,
    "inputs": [
-    "expression"
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "generated-cells",
+    "disease-state",
+    "cell-type-label"
    ],
    "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.10.22.684047v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "sunnsset/CellTok"
   },
@@ -2831,11 +2897,18 @@
    },
    "citation": "Qu, Yuanhao, Kaixuan Huang, Ming Yin, Kanghong Zhan, Dyllan Liu, Di Yin, Henry C. Cousins et al. \"CRISPR-GPT for agentic automation of gene-editing experiments.\" Nature Biomedical Engineering 10, no. 2 (2025): 245-258.",
    "reviewed": false,
+   "inputs": [
+    "text"
+   ],
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41551-025-01463-z"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "cong-lab/crispr-gpt-pub"
   },
@@ -2993,11 +3066,15 @@
    },
    "citation": "Wang, Zhizheng, Qiao Jin, Chih-Hsuan Wei, Shubo Tian, Po-Ting Lai, Qingqing Zhu, Chi-Ping Day et al. \"GeneAgent: self-verification language agent for gene-set analysis using domain databases.\" Nature Methods 22, no. 8 (2025): 1677-1685.",
    "reviewed": false,
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-025-02748-6"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "ncbi-nlp/GeneAgent"
   },
@@ -3063,12 +3140,15 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-type-label"
+   ],
    "architecture_family": "state-space",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2504.16956"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "MineSelf2016/GeneMamba"
   },
@@ -3799,11 +3879,20 @@
    },
    "citation": "Istrate, Ana-Maria, Fausto Milletari, Fabrizio Castrotorres, Jakub M. Tomczak, Michaela Torkar, Donghui Li, and Theofanis Karaletsos. \"rbio1 - training scientific reasoning LLMs with biological world models as soft verifiers.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "text"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "disease-state",
+    "text"
+   ],
+   "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.08.18.670981"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "czi-ai/rbio"
   },
@@ -3923,9 +4012,19 @@
    },
    "reviewed": false,
    "inputs": [
-    "expression"
+    "expression",
+    "text"
    ],
+   "outputs": [
+    "cell-embedding",
+    "gene-embedding"
+   ],
+   "architecture_family": "vae",
    "added": "2026-06-02",
+   "sources": [
+    "https://proceedings.mlr.press/v267/hu25aa.html"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "microsoft/sciLaMA"
   },
@@ -4266,11 +4365,21 @@
    },
    "citation": "Wang, Hanchen, Yichun He, Paula P. Coelho, Matthew Bucci, Abbas Nazir, Bob Chen, Linh T. Trinh et al. \"SpatialAgent: An autonomous AI agent for spatial biology.\" bioRxiv (2025).",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "expression-prediction",
+    "text"
+   ],
+   "architecture_family": "agent",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.04.03.646459"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "Genentech/SpatialAgent"
   },
@@ -4647,14 +4756,20 @@
    "reviewed": false,
    "inputs": [
     "expression",
-    "spatial-coordinates"
+    "spatial-coordinates",
+    "text"
+   ],
+   "outputs": [
+    "generated-cells",
+    "perturbation-response",
+    "text"
    ],
    "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.11.24.690325v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "Steven51516/tissuenarrator"
   },
@@ -5607,7 +5722,12 @@
    "citation": "Li, Cong, Qingqing Long, Yuanchun Zhou, and Meng Xiao. \"SCREADER: Prompting Large Language Models to Interpret scRNA-seq Data.\" In 2024 IEEE International Conference on Data Mining Workshops (ICDMW) (2024): 665-672.",
    "reviewed": false,
    "inputs": [
-    "expression"
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "cell-embedding"
    ],
    "architecture_family": "llm",
    "added": "2026-06-02",
@@ -5615,7 +5735,7 @@
     "https://doi.org/10.1109/icdmw65004.2024.00092",
     "https://arxiv.org/abs/2412.18156"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -5958,12 +6078,16 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-type-label",
+    "expression-prediction"
+   ],
    "architecture_family": "state-space",
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2310.02713"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -6122,11 +6246,15 @@
    "inputs": [
     "expression"
    ],
+   "outputs": [
+    "cell-embedding",
+    "gene-embedding"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2210.14330"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "keiserlab/exceiver"
   },

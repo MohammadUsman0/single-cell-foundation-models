@@ -13,6 +13,9 @@ modality: Single-cell Gene Expression
 architecture: Language Model
 inputs:
 - expression
+outputs:
+- cell-embedding
+- gene-embedding
 key: Single-cell gene expression language model
 links:
   paper: https://arxiv.org/abs/2210.14330
@@ -22,5 +25,5 @@ citation: Connell, William, Umair Khan, and Michael J. Keiser. "A single-cell ge
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2210.14330
-review_basis: metadata
+review_basis: abstract
 reviewed: false

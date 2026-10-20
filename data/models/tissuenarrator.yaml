@@ -16,6 +16,11 @@ architecture: Generative LLM
 inputs:
 - expression
 - spatial-coordinates
+- text
+outputs:
+- generated-cells
+- perturbation-response
+- text
 architecture_family: llm
 key: Generative modeling of spatial transcriptomics with LLMs.
 links:
@@ -26,5 +31,5 @@ citation: 'Liu, Sizhe, Junjie Tang, Jian Ma, and Shaoheng Liang. "TissueNarrator
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2025.11.24.690325v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

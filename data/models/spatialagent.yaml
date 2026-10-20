@@ -8,6 +8,14 @@ category: agents
 tags:
 - agent
 - spatial
+inputs:
+- expression
+- spatial-coordinates
+outputs:
+- cell-type-label
+- expression-prediction
+- text
+architecture_family: agent
 links:
   paper: https://doi.org/10.1101/2025.04.03.646459
   code: https://github.com/Genentech/SpatialAgent
@@ -16,5 +24,5 @@ citation: 'Wang, Hanchen, Yichun He, Paula P. Coelho, Matthew Bucci, Abbas Nazir
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.04.03.646459
-review_basis: metadata
+review_basis: abstract
 reviewed: false

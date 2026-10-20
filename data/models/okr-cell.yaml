@@ -3,7 +3,7 @@ kind: model
 name: OKR-Cell
 title: Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language Pre-training
 year: 2026
-venue: bioRxiv
+venue: arXiv
 category: llm
 tags:
 - llm
@@ -16,12 +16,12 @@ inputs:
 - text
 key: Open-world-knowledge-aided cell-language foundation model.
 links:
-  paper: https://www.biorxiv.org/content/10.64898/2026.01.09.698573v1
-citation: 'Wang, Haoran, Xuanyi Zhang, Shuangsang Fang, Longke Ran, Ziqing Deng, Yong Zhang, Yuxiang Li
-  et al. "WITHDRAWN: OKR-Cell: Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal
-  Cell-Language Pre-training." bioRxiv (2026).'
+  paper: https://arxiv.org/abs/2601.05648
+citation: Wang, Haoran, Xuanyi Zhang, Shuangsang Fang, Longke Ran, Ziqing Deng, Yong Zhang, Yuxiang Li
+  et al. "Open World Knowledge Aided Single-Cell Foundation Model with Robust Cross-Modal Cell-Language
+  Pre-training." arXiv preprint arXiv:2601.05648 (2026).
 added: '2026-06-02'
 sources:
-- https://www.biorxiv.org/content/10.64898/2026.01.09.698573v1
+- https://arxiv.org/abs/2601.05648
 review_basis: metadata
 reviewed: false

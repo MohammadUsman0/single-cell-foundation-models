@@ -16,6 +16,11 @@ architecture: Language-model embedding
 inputs:
 - expression
 - spatial-coordinates
+- text
+outputs:
+- cell-embedding
+- cell-type-label
+architecture_family: llm
 key: Cell embeddings for sc + spatial transcriptomics via LLM abilities.
 links:
   paper: https://doi.org/10.1002/advs.202513210
@@ -28,5 +33,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1002/advs.202513210
 - https://www.biorxiv.org/content/10.1101/2024.05.08.593094v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false
