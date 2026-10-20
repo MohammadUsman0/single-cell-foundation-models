@@ -2,6 +2,7 @@
 import glob
 import os
 import re
+import sys
 
 import yaml
 
@@ -16,6 +17,14 @@ def load_yaml(path):
         return yaml.safe_load(f)
 
 
+def utf8_stdout():
+    """Print non-ASCII (→, —) without crashing on consoles that default to cp1252 (Windows)."""
+    try:
+        sys.stdout.reconfigure(encoding="utf-8")
+    except AttributeError:
+        pass
+
+
 def load_vocab():
     return load_yaml(os.path.join(DATA, "vocab.yaml"))
 
@@ -25,7 +34,7 @@ def load_entries(kind):
     out = []
     for path in sorted(glob.glob(os.path.join(DATA, kind, "*.yaml"))):
         e = load_yaml(path) or {}
-        e["_file"] = os.path.relpath(path, ROOT)
+        e["_file"] = os.path.relpath(path, ROOT).replace(os.sep, "/")  # same report links on every OS
         out.append(e)
     return out
 
