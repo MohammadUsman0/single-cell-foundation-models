@@ -32,6 +32,12 @@ RELATED_LISTS = [
 ]
 
 
+def site_url():
+    """GitHub Pages address of the catalogue site (served from docs/ on main)."""
+    owner, name = REPO.split("/")
+    return f"https://{owner.lower()}.github.io/{name}/"
+
+
 def anchor(text):
     out = "".join(c for c in text.lower() if c.isalnum() or c in " -").strip()
     return out.replace(" ", "-")
@@ -78,11 +84,20 @@ def build_readme(models, resources, venues, vocab):
     n_code = sum(1 for m in models if (m.get("links") or {}).get("code"))
 
     L = [
+        "<picture>",
+        '  <source media="(prefers-color-scheme: dark)" srcset="docs/assets/banner-dark.png">',
+        '  <img alt="Single-Cell Foundation Models &amp; Virtual Cell Modelling: models, benchmarks, datasets and '
+        'tools for AI-driven single-cell biology" src="docs/assets/banner-light.png" width="100%">',
+        "</picture>",
+        "",
         "# Awesome Single-Cell Foundation Models & Virtual Cell Modelling "
         "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
         "",
         "> A curated list of foundation models for single-cell biology and AI virtual-cell / world models, "
         "plus the benchmarks, datasets, tools and reviews around them.",
+        "",
+        f"**[Browse the catalogue →]({site_url()})** search, filter and compare models; "
+        "every model has its own page.",
         "",
         "For each model, the catalogue aims to record what it is, whether you can use it "
         "(code, weights, license) and what benchmarks found about it. Titles, years, venues and links "
