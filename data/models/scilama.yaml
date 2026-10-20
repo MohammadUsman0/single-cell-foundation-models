@@ -15,4 +15,5 @@ architecture: LLM-prior representation learning
 key: Leverages LLM prior knowledge for single-cell representation learning.
 links:
   paper: https://proceedings.mlr.press/v267/hu25aa.html
+  code: https://github.com/microsoft/sciLaMA
 reviewed: false

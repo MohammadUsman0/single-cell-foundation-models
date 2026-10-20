@@ -15,4 +15,5 @@ key: Multi-modal FM for spatial multi-omic and histopathology data.
 links:
   paper: https://doi.org/10.1038/s41551-025-01602-6
   preprint: https://www.biorxiv.org/content/10.1101/2025.01.13.632818v3
+  code: https://github.com/HelloWorldLTY/spEMO
 reviewed: false

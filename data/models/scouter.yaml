@@ -14,4 +14,5 @@ architecture: LLM-embedding model
 key: Predicts transcriptional responses to genetic perturbations using LLM embeddings.
 links:
   paper: https://www.nature.com/articles/s43588-025-00912-8
+  code: https://github.com/PancakeZoy/scouter
 reviewed: false

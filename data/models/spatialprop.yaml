@@ -14,4 +14,5 @@ architecture: Perturbation model
 key: Tissue perturbation modeling with spatially resolved single-cell data.
 links:
   paper: https://www.biorxiv.org/content/10.64898/2025.11.30.691355v1
+  code: https://github.com/abuendia/SpatialProp_agent
 reviewed: false

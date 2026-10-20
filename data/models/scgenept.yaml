@@ -13,4 +13,5 @@ architecture: Language-augmented
 key: Language-augmented modeling of single-cell perturbations.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2024.10.23.619972v1
+  code: https://github.com/czi-ai/scGenePT
 reviewed: false

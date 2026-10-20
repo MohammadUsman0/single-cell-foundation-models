@@ -1,9 +1,9 @@
 id: stformer
 kind: model
 name: stFormer
-title: 'stFormer: a foundation model for spatial transcriptomics'
-year: 2024
-venue: bioRxiv
+title: stFormer integrates spatial ligand signaling into a foundation model for spatial transcriptomics
+year: 2026
+venue: Cell Reports Methods
 category: spatial
 tags:
 - spatial
@@ -15,7 +15,9 @@ task: 'Gene representation (integrates intracellular and spatial context). Key F
 key: Transformer for spatial transcriptomics that adds ligand-gene context from neighbouring cells through
   cross-attention.
 links:
-  paper: https://doi.org/10.1101/2024.09.27.615337
+  paper: https://doi.org/10.1016/j.crmeth.2026.101612
+  preprint: https://doi.org/10.1101/2024.09.27.615337
+  code: https://github.com/csh3/stFormer
 citation: 'Cao, Shenghao, Kaiyuan Yang, Jiabei Cheng, Jiachen Li, Hong-Bin Shen, Xiaoyong Pan, and Ye
   Yuan. "stFormer: a foundation model for spatial transcriptomics." bioRxiv (2024): 2024-09.'
 reviewed: false

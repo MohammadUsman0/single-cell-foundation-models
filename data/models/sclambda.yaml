@@ -14,4 +14,5 @@ architecture: Generative model
 key: Predicts single-cell multi-gene perturbation responses.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2024.12.04.626878v1
+  code: https://github.com/gefeiwang/scLAMBDA
 reviewed: false

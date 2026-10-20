@@ -19,4 +19,5 @@ key: Adapts a pre-trained expression-only single-cell foundation model to genera
   gene relationships.
 links:
   paper: https://arxiv.org/abs/2603.19766
+  code: https://github.com/donghaifang/HINGE
 reviewed: false

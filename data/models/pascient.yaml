@@ -13,6 +13,7 @@ key: Characterization of patient-level disease states
 links:
   paper: https://doi.org/10.1016/j.cels.2026.101570
   preprint: https://doi.org/10.1101/2024.11.18.624166
+  code: https://github.com/Genentech/pascient
 citation: 'Liu, Tianyu, Edward De Brouwer, Tony Kuo, Nathaniel Diamant, Alsu Missarova, Hanchen Wang,
   Minsheng Hao et al. "Learning multi-cellular representations of single-cell transcriptomics data enables
   characterization of patient-level disease states." In International Conference on Research in Computational

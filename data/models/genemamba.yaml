@@ -13,4 +13,5 @@ architecture: Bidirectional Mamba
 key: Efficient long-context single-cell modeling with bidirectional Mamba.
 links:
   paper: https://arxiv.org/abs/2504.16956
+  code: https://github.com/MineSelf2016/GeneMamba
 reviewed: false

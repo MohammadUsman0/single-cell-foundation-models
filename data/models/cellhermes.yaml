@@ -14,4 +14,5 @@ architecture: LLM
 key: Harmonizes multimodal omics data via language for omics understanding.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.11.07.687322v1
+  code: https://github.com/theislab/CellHermes
 reviewed: false

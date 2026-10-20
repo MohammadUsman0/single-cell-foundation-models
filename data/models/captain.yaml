@@ -16,6 +16,7 @@ key: 'Protein imputation, cell type annotation, batch harmonization. Key Finding
 links:
   paper: https://doi.org/10.1038/s41467-026-72882-y
   preprint: https://doi.org/10.1101/2025.07.07.663366
+  code: https://github.com/iamjiboya/CAPTAIN
 citation: 'Ji, Boya, Tingting Hu, Jiawen Wang, Mengmeng Liu, Liwen Xu, Qinhao Zhang, Siyun Zhong et al.
   "CAPTAIN: A multimodal foundation model pretrained on co-assayed single-cell RNA and protein." bioRxiv
   (2025): 2025-07.'

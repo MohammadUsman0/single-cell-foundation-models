@@ -12,6 +12,7 @@ modality: Spatial Transcriptomics
 key: Multi-scale modeling
 links:
   paper: https://arxiv.org/abs/2507.11588
+  code: https://github.com/PharMolix/SToFM
 citation: 'Zhao, Suyuan, Yizhen Luo, Ganbo Yang, Yan Zhong, Hao Zhou, and Zaiqing Nie. "Stofm: a multi-scale
   foundation model for spatial transcriptomics." arXiv preprint arXiv:2507.11588 (2025).'
 reviewed: false

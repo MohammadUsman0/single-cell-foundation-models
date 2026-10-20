@@ -15,4 +15,5 @@ architecture: Diffusion
 key: Diffusion-based debiasing for single-cell transcriptional response prediction.
 links:
   paper: https://www.pnas.org/doi/10.1073/pnas.2525268122
+  code: https://github.com/ergan-shang/dbDiffusion
 reviewed: false

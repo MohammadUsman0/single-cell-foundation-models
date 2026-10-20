@@ -12,4 +12,5 @@ tags:
 - generative
 links:
   paper: https://www.nature.com/articles/s41467-024-53457-1
+  code: https://github.com/Perturbation-Response-Prediction/PRnet
 reviewed: false

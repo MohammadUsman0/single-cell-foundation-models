@@ -15,6 +15,7 @@ key: Latent diffusion model for generating single-cell expression, with a permut
   multi-condition guidance.
 links:
   paper: https://arxiv.org/abs/2511.02986
+  code: https://github.com/czi-ai/scldm
 citation: Palla, Giovanni, Sudarshan Babu, Payam Dibaeinia, James D. Pearce, Donghui Li, Aly A. Khan,
   Theofanis Karaletsos, and Jakub M. Tomczak. "Scalable Single-Cell Gene Expression Generation with Latent
   Diffusion Models." arXiv preprint arXiv:2511.02986 (2025).

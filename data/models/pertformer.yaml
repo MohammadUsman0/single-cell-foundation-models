@@ -14,6 +14,7 @@ modality: Multimodal (not specified)
 key: Predicts zero-shot functional perturbations and cell fate dynamics
 links:
   paper: https://doi.org/10.1101/2024.12.19.629561
+  code: https://github.com/alibaba/damo-pertformer
 citation: Yang, Zikun, Xueying Fan, Meng Lan, Xin Li, Yue You, Luyi Tian, George Church, Xiaodong Liu,
   and Fei Gu. "Multimodal foundation model predicts zero-shot functional perturbations and cell fate dynamics"
   bioRxiv (2025)
