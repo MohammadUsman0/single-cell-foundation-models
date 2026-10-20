@@ -7,6 +7,14 @@ venue: bioRxiv
 category: perturbation
 tags:
 - perturbation
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- chemical
+- combination
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1
   code: https://github.com/ZexiChen502/UniCure
@@ -15,5 +23,5 @@ citation: 'Chen, Zexi, Saisai Tian, Jiazheng Pei, Ruichu Gu, Yongge Li, Shizhi D
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

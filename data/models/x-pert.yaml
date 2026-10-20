@@ -8,6 +8,13 @@ category: perturbation
 tags:
 - perturbation
 - multi-omics
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- chemical
+generalization:
+- unseen-cell-context
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2
   code: https://github.com/Chen-Li-17/X-Pert
@@ -16,5 +23,5 @@ citation: Li, Chen, Lei Wei, and Xuegong Zhang. "Unified multimodal learning ena
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2
-review_basis: metadata
+review_basis: abstract
 reviewed: false

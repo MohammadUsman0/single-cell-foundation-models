@@ -9,6 +9,15 @@ category: perturbation
 tags:
 - perturbation
 - drug-response
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- chemical
+- combination
 links:
   paper: https://doi.org/10.1609/aaai.v39i18.34073
   code: https://github.com/hliulab/XTransferCDR
@@ -18,5 +27,5 @@ citation: 'Liu, Hui, and Shikai Jin. "Learning Cross-Domain Representations for 
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1609/aaai.v39i18.34073
-review_basis: metadata
+review_basis: abstract
 reviewed: false

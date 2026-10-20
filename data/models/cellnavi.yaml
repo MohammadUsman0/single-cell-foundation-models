@@ -17,6 +17,7 @@ outputs:
 perturbation_type:
 - genetic
 - chemical
+- cytokine
 links:
   paper: https://doi.org/10.1038/s41556-025-01755-1
   code: https://github.com/DLS5-Omics/CellNavi

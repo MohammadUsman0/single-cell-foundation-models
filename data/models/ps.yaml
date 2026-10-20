@@ -9,6 +9,14 @@ venue: Nature Cell Biology
 category: perturbation
 tags:
 - perturbation
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: other
+perturbation_type:
+- genetic
 links:
   paper: https://doi.org/10.1038/s41556-025-01626-9
   code: https://github.com/davidliwei/PS
@@ -18,5 +26,5 @@ citation: 'Song, Bicna, Dingyu Liu, Weiwei Dai, Natalie F. McMyn, Qingyang Wang,
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41556-025-01626-9
-review_basis: metadata
+review_basis: abstract
 reviewed: false

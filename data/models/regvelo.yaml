@@ -8,6 +8,13 @@ category: perturbation
 tags:
 - perturbation
 - gene-regulation
+inputs:
+- expression
+outputs:
+- gene-regulatory-network
+- perturbation-response
+perturbation_type:
+- genetic
 links:
   paper: https://doi.org/10.1016/j.cell.2026.04.022
   preprint: https://doi.org/10.1101/2024.12.11.627935
@@ -19,5 +26,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1016/j.cell.2026.04.022
 - https://doi.org/10.1101/2024.12.11.627935
-review_basis: metadata
+review_basis: abstract
 reviewed: false

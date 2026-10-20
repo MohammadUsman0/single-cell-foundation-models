@@ -16,6 +16,8 @@ inputs:
 outputs:
 - perturbation-response
 architecture_family: other
+perturbation_type:
+- cytokine
 key: Causal identification of single-cell perturbation effects via optimal transport.
 links:
   paper: https://www.nature.com/articles/s41592-023-02040-5

@@ -15,7 +15,16 @@ modality: Multimodal (transcriptomics + inferred protein)
 architecture: Latent diffusion Transformer
 inputs:
 - expression
+- perturbation
+outputs:
+- perturbation-response
 architecture_family: diffusion
+perturbation_type:
+- chemical
+- combination
+generalization:
+- unseen-perturbation
+- unseen-cell-context
 key: Integrates RNA and protein-level context via a Virtual Multimodal Cell State and a Mechanism-aware
   Drug-Gene Template to predict drug-induced single-cell responses across unseen cell lines, drugs, and
   combinations.
@@ -27,5 +36,5 @@ citation: 'Shi, Peiting, Ningfeng Que, Xianzhe Huang, Xiaofei Wang, and Jianzhon
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2605.16104
-review_basis: metadata
+review_basis: abstract
 reviewed: false

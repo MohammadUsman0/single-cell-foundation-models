@@ -8,6 +8,12 @@ category: perturbation
 tags:
 - perturbation
 modality: Single-cell
+inputs:
+- prior-network
+outputs:
+- gene-prioritization
+generalization:
+- zero-shot
 key: identifies the upstream regulators most likely to drive the transition between two cell states, such
   as diseased and healthy, by decomposing target probability over signalling paths through a multiomics
   interactome conditioned on single-cell foundation model embeddings
@@ -19,5 +25,5 @@ citation: 'Morlot, Jean-Baptiste, Thomaz Dias, Sebastien Legare, Alessandro Romu
 added: '2026-06-02'
 sources:
 - https://doi.org/10.64898/2026.01.29.702072
-review_basis: metadata
+review_basis: abstract
 reviewed: false

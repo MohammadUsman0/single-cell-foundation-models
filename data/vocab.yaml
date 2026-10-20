@@ -161,6 +161,7 @@ perturbation_types:
   - {id: genetic, label: Genetic, desc: "CRISPR knockout, knockdown or activation; gene overexpression."}
   - {id: chemical, label: Chemical, desc: "Drugs and small molecules."}
   - {id: combination, label: Combination, desc: "Combinations of two or more perturbations."}
+  - {id: cytokine, label: Cytokine, desc: "Stimulation with cytokines or other signalling proteins."}
 generalization:
   - {id: unseen-perturbation, label: Unseen perturbation, desc: "Predicts perturbations not seen in training."}
   - {id: unseen-cell-context, label: Unseen cell context, desc: "Predicts in cell types or lines not seen in training."}

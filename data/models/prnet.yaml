@@ -10,10 +10,21 @@ tags:
 - perturbation
 - drug-response
 - generative
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- chemical
+generalization:
+- unseen-perturbation
+- unseen-cell-context
 links:
   paper: https://www.nature.com/articles/s41467-024-53457-1
   code: https://github.com/Perturbation-Response-Prediction/PRnet
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41467-024-53457-1
+review_basis: abstract
 reviewed: false

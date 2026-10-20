@@ -21,6 +21,7 @@ outputs:
 architecture_family: diffusion
 perturbation_type:
 - genetic
+- cytokine
 key: masked discrete diffusion model that learns transcriptomic state distributions and supports conditional
   simulation under perturbation
 links:

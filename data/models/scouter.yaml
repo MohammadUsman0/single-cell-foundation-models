@@ -14,12 +14,18 @@ architecture: LLM-embedding model
 inputs:
 - expression
 - text
+outputs:
+- perturbation-response
 architecture_family: llm
+perturbation_type:
+- genetic
+- combination
 key: Predicts transcriptional responses to genetic perturbations using LLM embeddings.
 links:
   paper: https://www.nature.com/articles/s43588-025-00912-8
   code: https://github.com/PancakeZoy/scouter
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s43588-025-00912-8
+review_basis: abstract
 reviewed: false
