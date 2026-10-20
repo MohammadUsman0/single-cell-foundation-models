@@ -24,8 +24,22 @@ links:
   paper: https://proceedings.mlr.press/v235/levine24a.html
   preprint: https://www.biorxiv.org/content/10.1101/2023.09.11.557287v1
   code: https://github.com/vandijklab/cell2sentence
+model_card:
+  pretraining_cells: 57M (2024 models)
+  pretraining_data: CELLxGENE and Human Cell Atlas
+  species:
+  - human
+  - mouse
+  weights: released
+  weights_url: https://huggingface.co/vandijklab/C2S-Pythia-410m-cell-type-prediction
+  license: 'Code: Apache-2.0; Hugging Face models: CC BY 4.0; README notes a patent that may require a
+    separate license for commercial use'
+  package: cell2sentence
 added: '2026-06-02'
 reviewed: false
-review_basis: abstract
+review_basis: repo
 sources:
 - https://proceedings.mlr.press/v235/levine24a.html
+- https://github.com/vandijklab/cell2sentence
+- https://huggingface.co/vandijklab/C2S-Pythia-410m-cell-type-prediction
+- https://pypi.org/project/cell2sentence/

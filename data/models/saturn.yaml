@@ -25,11 +25,15 @@ key: Represents genes with protein language model embeddings to integrate datase
 links:
   paper: https://doi.org/10.1038/s41592-024-02191-z
   code: https://github.com/snap-stanford/saturn
+model_card:
+  objective: conditional autoencoder (scVI ZINB loss), then metric learning
+  license: MIT
 citation: 'Rosen, Yanay, Maria Brbić, Yusuf Roohani, Kyle Swanson, Ziang Li, and Jure Leskovec. "Toward
   universal cell embeddings: integrating single-cell RNA-seq datasets across species with SATURN." Nature
   Methods 21, no. 8 (2024): 1492-1500.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41592-024-02191-z
-review_basis: abstract
+- https://github.com/snap-stanford/saturn
+review_basis: repo
 reviewed: false

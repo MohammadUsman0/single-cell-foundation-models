@@ -1605,6 +1605,13 @@
     "preprint": "https://doi.org/10.1101/2024.11.09.622759",
     "code": "https://github.com/BaiDing1234/scLong"
    },
+   "model_card": {
+    "params": "~1B",
+    "pretraining_cells": "48M",
+    "context_length": "all 28,000 human genes",
+    "weights": "released",
+    "weights_url": "https://mbzuaiac-my.sharepoint.com/:f:/g/personal/ding_bai_mbzuai_ac_ae/EpvKzQW4hI5Bnb88-iM7vE0B_e2_U5r_ZGXb_FILCLTw3Q?e=TAmKk5"
+   },
    "citation": "Bai, Ding, Shentong Mo, Ruiyi Zhang, Yingtao Luo, Jiahao Gao, Jeremy Parker Yang, Qiuyang Wu et al. \"scLong: a billion-parameter foundation model for capturing long-range gene context in single-cell transcriptomics.\" Nature Communications 17, no. 1 (2026): 2380.",
    "reviewed": false,
    "inputs": [
@@ -1618,9 +1625,10 @@
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41467-026-69102-y",
-    "https://doi.org/10.1101/2024.11.09.622759"
+    "https://doi.org/10.1101/2024.11.09.622759",
+    "https://github.com/BaiDing1234/scLong"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "BaiDing1234/scLong"
   },
@@ -2945,6 +2953,12 @@
     "preprint": "https://arxiv.org/abs/2505.12638",
     "code": "https://github.com/JohnsonKlose/ChromFound"
    },
+   "model_card": {
+    "pretraining_cells": "1.97M (30 tissues)",
+    "weights": "released",
+    "weights_url": "https://huggingface.co/YifengJiao/ChromFound",
+    "license": "Apache-2.0"
+   },
    "citation": "Jiao, Yifeng, Yuchen Liu, Yu Zhang, Xin Guo, Yushuai Wu, Chen Jiang, Jiyang Li et al. \"ChromFound: Towards A Universal Foundation Model for Single-Cell Chromatin Accessibiltiy Data.\" In Advances in Neural Information Processing Systems 38 (2025): 85649-85686.",
    "reviewed": false,
    "inputs": [
@@ -2959,9 +2973,11 @@
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.52202/085713-2584",
-    "https://arxiv.org/abs/2505.12638"
+    "https://arxiv.org/abs/2505.12638",
+    "https://github.com/JohnsonKlose/ChromFound",
+    "https://huggingface.co/YifengJiao/ChromFound"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "JohnsonKlose/ChromFound"
   },
@@ -4260,6 +4276,13 @@
     "paper": "https://doi.org/10.1101/2025.02.05.636714",
     "code": "https://github.com/bowang-lab/scGPT-spatial"
    },
+   "model_card": {
+    "pretraining_cells": "30M cells/spots",
+    "pretraining_data": "SpatialHuman30M (Visium, Visium HD, Xenium, MERFISH)",
+    "weights": "released",
+    "weights_url": "https://figshare.com/articles/software/scGPT-spatial_V1_Model_Weights/28356068",
+    "license": "MIT"
+   },
    "citation": "Wang, Chloe, Haotian Cui, Andrew Zhang, Ronald Xie, Hani Goodarzi, and Bo Wang. \"scGPT-spatial: Continual pretraining of single-cell foundation model for spatial transcriptomics.\" bioRxiv (2025): 2025-02.",
    "reviewed": false,
    "inputs": [
@@ -4271,9 +4294,10 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1101/2025.02.05.636714"
+    "https://doi.org/10.1101/2025.02.05.636714",
+    "https://github.com/bowang-lab/scGPT-spatial"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "preprint",
    "github": "bowang-lab/scGPT-spatial"
   },
@@ -5029,6 +5053,19 @@
     "paper": "https://arxiv.org/pdf/2503.03485",
     "code": "https://huggingface.co/Merck/TEDDY"
    },
+   "model_card": {
+    "params": "70M, 160M, 400M (released)",
+    "pretraining_cells": "~116M",
+    "species": [
+     "human",
+     "mouse"
+    ],
+    "tokenization": "rank-based gene tokens",
+    "objective": "masked language modelling + ontology classification",
+    "weights": "released",
+    "weights_url": "https://huggingface.co/Merck/TEDDY",
+    "license": "Apache-2.0"
+   },
    "citation": "Chevalier, Alexis, Soumya Ghosh, Urvi Awasthi, James Watkins, Julia Bieniewska, Nichita Mitrea, Olga Kotova et al. \"TEDDY: A Family Of Foundation Models For Understanding Single Cell Biology.\" arXiv preprint arXiv:2503.03485 (2025).",
    "reviewed": false,
    "inputs": [
@@ -5039,9 +5076,10 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://arxiv.org/pdf/2503.03485"
+    "https://arxiv.org/pdf/2503.03485",
+    "https://huggingface.co/Merck/TEDDY"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published"
   },
   {
@@ -5288,6 +5326,17 @@
     "paper": "https://doi.org/10.1101/2024.11.28.625303",
     "code": "https://github.com/genbio-ai/AIDO"
    },
+   "model_card": {
+    "params": "3M, 10M, 100M, 650M",
+    "pretraining_cells": "50M",
+    "species": [
+     "human"
+    ],
+    "objective": "read-depth-aware masked gene expression",
+    "context_length": "whole human transcriptome (no truncation)",
+    "weights": "released",
+    "license": "GenBio AI Community License"
+   },
    "citation": "Ho, Nicholas, Caleb N. Ellington, Jinyu Hou, Sohan Addagudi, Shentong Mo, Tianhua Tao, Dian Li et al. \"Scaling dense representations for single cell with transcriptome-scale context.\" bioRxiv (2024): 2024-11.",
    "reviewed": false,
    "inputs": [
@@ -5300,9 +5349,10 @@
    "architecture_family": "transformer-encoder",
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1101/2024.11.28.625303"
+    "https://doi.org/10.1101/2024.11.28.625303",
+    "https://github.com/genbio-ai/AIDO"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "preprint",
    "github": "genbio-ai/AIDO"
   },
@@ -5363,6 +5413,18 @@
     "preprint": "https://www.biorxiv.org/content/10.1101/2023.09.11.557287v1",
     "code": "https://github.com/vandijklab/cell2sentence"
    },
+   "model_card": {
+    "pretraining_cells": "57M (2024 models)",
+    "pretraining_data": "CELLxGENE and Human Cell Atlas",
+    "species": [
+     "human",
+     "mouse"
+    ],
+    "weights": "released",
+    "weights_url": "https://huggingface.co/vandijklab/C2S-Pythia-410m-cell-type-prediction",
+    "license": "Code: Apache-2.0; Hugging Face models: CC BY 4.0; README notes a patent that may require a separate license for commercial use",
+    "package": "cell2sentence"
+   },
    "reviewed": false,
    "inputs": [
     "expression",
@@ -5376,9 +5438,12 @@
    "architecture_family": "llm",
    "added": "2026-06-02",
    "sources": [
-    "https://proceedings.mlr.press/v235/levine24a.html"
+    "https://proceedings.mlr.press/v235/levine24a.html",
+    "https://github.com/vandijklab/cell2sentence",
+    "https://huggingface.co/vandijklab/C2S-Pythia-410m-cell-type-prediction",
+    "https://pypi.org/project/cell2sentence/"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "vandijklab/cell2sentence"
   },
@@ -5713,6 +5778,10 @@
     "paper": "https://doi.org/10.1038/s41592-024-02191-z",
     "code": "https://github.com/snap-stanford/saturn"
    },
+   "model_card": {
+    "objective": "conditional autoencoder (scVI ZINB loss), then metric learning",
+    "license": "MIT"
+   },
    "citation": "Rosen, Yanay, Maria Brbić, Yusuf Roohani, Kyle Swanson, Ziang Li, and Jure Leskovec. \"Toward universal cell embeddings: integrating single-cell RNA-seq datasets across species with SATURN.\" Nature Methods 21, no. 8 (2024): 1492-1500.",
    "reviewed": false,
    "inputs": [
@@ -5725,9 +5794,10 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1038/s41592-024-02191-z"
+    "https://doi.org/10.1038/s41592-024-02191-z",
+    "https://github.com/snap-stanford/saturn"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "snap-stanford/saturn"
   },
@@ -5925,6 +5995,14 @@
     "paper": "https://doi.org/10.1038/s41586-024-08411-y",
     "code": "https://github.com/Genentech/scimilarity"
    },
+   "model_card": {
+    "species": [
+     "human"
+    ],
+    "weights": "released",
+    "license": "Apache-2.0 (per PyPI)",
+    "package": "scimilarity"
+   },
    "citation": "Heimberg, Graham, Tony Kuo, Daryle J. DePianto, Omar Salem, Tobias Heigl, Nathaniel Diamant, Gabriele Scalia et al. \"A cell atlas foundation model for scalable search of similar human cells.\" Nature 638, no. 8052 (2025): 1085-1094.",
    "reviewed": false,
    "inputs": [
@@ -5935,9 +6013,11 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1038/s41586-024-08411-y"
+    "https://doi.org/10.1038/s41586-024-08411-y",
+    "https://github.com/Genentech/scimilarity",
+    "https://pypi.org/project/scimilarity/"
    ],
-   "review_basis": "abstract",
+   "review_basis": "repo",
    "status": "published",
    "github": "Genentech/scimilarity"
   },
@@ -6041,14 +6121,21 @@
     "paper": "https://doi.org/10.1007/978-1-0716-3989-4_57",
     "code": "https://github.com/SuperBianC/scMulan"
    },
+   "model_card": {
+    "species": [
+     "human"
+    ],
+    "license": "MIT"
+   },
    "citation": "Bian, Haiyang, Yixin Chen, Xiaomin Dong, Chen Li, Minsheng Hao, Sijie Chen, Jinyi Hu, Maosong Sun, Lei Wei, and Xuegong Zhang. \"scMulan: a multitask generative pre-trained language model for single-cell analysis.\" In International Conference on Research in Computational Molecular Biology, pp. 479-482. Cham: Springer Nature Switzerland, 2024.",
    "reviewed": false,
    "architecture_family": "transformer-decoder",
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1007/978-1-0716-3989-4_57"
+    "https://doi.org/10.1007/978-1-0716-3989-4_57",
+    "https://github.com/SuperBianC/scMulan"
    ],
-   "review_basis": "metadata",
+   "review_basis": "repo",
    "status": "published",
    "github": "SuperBianC/scMulan"
   },

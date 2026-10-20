@@ -17,11 +17,19 @@ key: Scalable search of similar human cells, rapid queries of millions of profil
 links:
   paper: https://doi.org/10.1038/s41586-024-08411-y
   code: https://github.com/Genentech/scimilarity
+model_card:
+  species:
+  - human
+  weights: released
+  license: Apache-2.0 (per PyPI)
+  package: scimilarity
 citation: 'Heimberg, Graham, Tony Kuo, Daryle J. DePianto, Omar Salem, Tobias Heigl, Nathaniel Diamant,
   Gabriele Scalia et al. "A cell atlas foundation model for scalable search of similar human cells." Nature
   638, no. 8052 (2025): 1085-1094.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41586-024-08411-y
-review_basis: abstract
+- https://github.com/Genentech/scimilarity
+- https://pypi.org/project/scimilarity/
+review_basis: repo
 reviewed: false
