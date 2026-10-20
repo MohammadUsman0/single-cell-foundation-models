@@ -11,4 +11,7 @@ tags:
 links:
   paper: https://doi.org/10.1126/science.adi8577
   code: https://doi.org/10.5281/zenodo.16921928
+citation: 'DeMeo, Benjamin, Charlotte Nesbitt, Samuel A. Miller, Daniel B. Burkhardt, Inna Lipchina, Doris
+  Fu, Peter Holderrieth et al. "Active learning framework leveraging transcriptomics identifies modulators
+  of disease phenotypes." Science 390, no. 6776 (2025): eadi8577.'
 reviewed: false

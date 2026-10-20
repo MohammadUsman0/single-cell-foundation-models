@@ -12,4 +12,7 @@ tags:
 links:
   paper: https://doi.org/10.52202/085713-4150
   code: https://github.com/suinleelab/CellCLIP
+citation: 'Lu, MingYu, Ethan Weinberger, Chanwoo Kim, and Su-In Lee. "CellCLIP - Learning Perturbation
+  Effects in Cell Painting via Text-Guided Contrastive Learning." In Advances in Neural Information Processing
+  Systems 38 (2025): 138014-138046.'
 reviewed: false

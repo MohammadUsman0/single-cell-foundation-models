@@ -9,4 +9,7 @@ tags:
 - perturbation
 links:
   paper: https://arxiv.org/pdf/2603.01396
+citation: 'Huang, Wenxuan, Mingyu Tsoi, Yanhao Huang, Xinjie Mao, Xue Xia, Hao Wu, Jiaqi Wei et al. "HarmonyCell:
+  Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts." arXiv preprint
+  arXiv:2603.01396 (2026).'
 reviewed: false

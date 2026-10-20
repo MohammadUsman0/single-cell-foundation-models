@@ -9,4 +9,7 @@ tags:
 key: Open framework for building/evaluating transcriptomic FMs.
 links:
   paper: https://arxiv.org/abs/2506.14861
+citation: 'Danziger, Michael M., Bharath Dandala, Viatcheslav Gurev, Matthew Madgwick, Sivan Ravid, Tim
+  Rumbell, Akira Koseki et al. "BMFM-RNA: whole-cell expression decoding improves transcriptomic foundation
+  models." arXiv preprint arXiv:2506.14861 (2025).'
 reviewed: false

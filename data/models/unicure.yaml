@@ -10,4 +10,6 @@ tags:
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.06.14.658531v1
   code: https://github.com/ZexiChen502/UniCure
+citation: 'Chen, Zexi, Saisai Tian, Jiazheng Pei, Ruichu Gu, Yongge Li, Shizhi Ding, Yaqian Xu et al.
+  "UniCure: A Foundation Model for Predicting Personalized Cancer Therapy Response." bioRxiv (2025).'
 reviewed: false

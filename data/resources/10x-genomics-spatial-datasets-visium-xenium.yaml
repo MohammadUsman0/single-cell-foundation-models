@@ -7,5 +7,5 @@ tags:
 - spatial
 - scrna-seq
 links:
-  paper: https://www.10xgenomics.com/datasets
+  dataset: https://www.10xgenomics.com/datasets
 reviewed: false

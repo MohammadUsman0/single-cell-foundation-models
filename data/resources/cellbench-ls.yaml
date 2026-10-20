@@ -12,4 +12,6 @@ tags:
 key: Benchmark evaluating single-cell foundation models under low-supervision (limited-label) scenarios.
 links:
   paper: https://www.biorxiv.org/content/10.64898/2026.04.01.714123v1
+citation: Xu, Yongjie, Yiyun Li, Yue Yuan, Hangyao Tao, Fengjun Hu, and Zelin Zang. "Task-dependent Performance
+  of Single-cell Foundation Models under Low Supervision." bioRxiv (2026).
 reviewed: false

@@ -12,7 +12,7 @@ key: PerturBench a comprehensive framework for modeling single cell transcriptom
 links:
   paper: https://doi.org/10.52202/085713-3225
   preprint: https://arxiv.org/abs/2408.10609
-citation: 'Wu, Yan, Esther Wershof, Sebastian M. Schmon, Marcel Nassar, Błażej Osiński, Ridvan Eksi, Zichao
-  Yan, Rory Stark, Kun Zhang, and Thore Graepel. "Perturbench: Benchmarking machine learning models for
-  cellular perturbation analysis." arXiv preprint arXiv:2408.10609 (2024).'
+citation: 'Wu, Yan, Esther Wershof, Sebastian Schmon, Marcel Nassar, Błażej Osiński, Ridvan Eksi, Zichao
+  Yan et al. "PerturBench: Benchmarking Machine Learning Models for Cellular Perturbation Analysis." In
+  Advances in Neural Information Processing Systems 38 (2025): 106937-106977.'
 reviewed: false

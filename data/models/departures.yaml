@@ -10,4 +10,7 @@ tags:
 - perturbation
 links:
   paper: https://doi.org/10.1609/aaai.v40i25.39190
+citation: 'Chi, Changxi, Yufei Huang, Jun Xia, Jiangbin Zheng, Yunfan Liu, Zelin Zang, and Stan Z. Li.
+  "Departures: Distributional Transport for Single-Cell Perturbation Prediction with Neural Schrödinger
+  Bridges." Proceedings of the AAAI Conference on Artificial Intelligence 40, no. 25 (2026): 20544-20552.'
 reviewed: false

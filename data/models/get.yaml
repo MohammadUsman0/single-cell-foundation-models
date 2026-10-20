@@ -12,8 +12,8 @@ tags:
 - scatac-seq
 modality: Chromatin Accessibility, Sequence Information
 architecture: Transformer
-key: 'Predicting gene expression in seen/unseen cell types, regulatory inference. Key Finding: Achieves
-  experimental-level accuracy; learns regulatory grammars across 213 human cell types.'
+key: Predicts gene expression in seen and unseen cell types and learns regulatory grammar across 213 human
+  cell types.
 links:
   paper: https://doi.org/10.1038/s41586-024-08391-z
   code: https://github.com/GET-Foundation/get_model

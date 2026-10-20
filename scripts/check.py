@@ -58,6 +58,7 @@ def doi_of(url):
 def citation_journal(cit, title=""):
     """Journal named in a citation string, ignoring the quoted paper title."""
     low = re.sub(r'"[^"]*"|“[^”]*”', " ", cit or "").lower()
+    low = low.replace("springer nature", " ")  # the publisher, not the journal Nature
     if title:
         low = low.replace(title.lower(), " ")
     for j in JOURNALS:
@@ -122,19 +123,25 @@ def check_entry(e, kind, vocab, rep):
 
     # ---- warnings ----
     links = e.get("links") or {}
-    if not links.get("paper") and not links.get("preprint"):
+    # Databases and portals (a dataset/tool with its own site) have no single paper, venue or year.
+    living = kind == "resource" and e.get("type") in ("dataset", "tool") and \
+        any(links.get(k) for k in ("dataset", "project", "docs"))
+    if not links.get("paper") and not links.get("preprint") and not living:
         rep.warn("No paper link", e)
     if kind == "model" and not links.get("code"):
         rep.warn("No code link", e)
-    if y is None:
+    if y is None and not living:
         rep.warn("No year", e)
     venue = e.get("venue") or ""
-    if not venue:
+    if not venue and not living:
         rep.warn("No venue", e)
     if not e.get("tags"):
         rep.warn("No tags", e)
     cj = citation_journal(e.get("citation"), e.get("title") or "")
-    if cj and venue and cj.lower() != venue.lower():
+    # A citation that names the entry's own venue agrees with it, even if a shorter journal name also matches
+    # (e.g. "Science Advances" contains "Science").
+    names_venue = venue and venue.lower() in (e.get("citation") or "").lower()
+    if cj and venue and cj.lower() != venue.lower() and not names_venue:
         if venue.lower() in PREPRINT_VENUES:
             rep.warn("Preprint that may now be published", e, f"venue `{venue}`, citation mentions *{cj}*")
         elif venue.lower() not in {"neurips", "icml", "iclr", "aaai"}:

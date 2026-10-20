@@ -14,4 +14,6 @@ key: Efficient long-context single-cell modeling with bidirectional Mamba.
 links:
   paper: https://arxiv.org/abs/2504.16956
   code: https://github.com/MineSelf2016/GeneMamba
+citation: 'Qi, Cong, Hanzhang Fang, Siqi Jiang, Xun Song, Tianxing Hu, and Wei Zhi. "GeneMamba: An Efficient
+  and Effective Foundation Model on Single Cell Data." arXiv preprint arXiv:2504.16956 (2025).'
 reviewed: false

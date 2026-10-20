@@ -9,8 +9,8 @@ tags:
 - scatac-seq
 modality: scATAC-seq (Single-cell Epigenomics)
 architecture: Transformer-based (Bidirectional Attention)
-key: 'Unsupervised feature extraction, supervised cell type annotation, data imputation, cellular response
-  prediction (perturbations). Key Finding: Encodes chromatin accessibility patterns as ''cell sentences''.'
+key: Encodes chromatin accessibility profiles as 'cell sentences'; used for feature extraction, cell-type
+  annotation, imputation and perturbation-response prediction.
 links:
   paper: https://doi.org/10.1038/s41592-025-02822-z
   code: https://github.com/xy-chen16/EpiAgent

@@ -14,8 +14,8 @@ tags:
 - scrna-seq
 modality: Histopathology Image + Spatial Transcriptomics
 architecture: Visual-Omics (Contrastive Learning)
-key: 'Cell-type decomposition, ST gene expression prediction, image–transcriptomics retrieval. Key Finding:
-  Bridges visual and molecular data by converting transcriptomics to "sentences."'
+key: Links histology images and spatial transcriptomics by turning expression into text 'sentences'; used
+  for cell-type decomposition, expression prediction and image–transcriptomics retrieval.
 links:
   paper: https://doi.org/10.1038/s41592-025-02707-1
   code: https://github.com/GuangyuWangLab2021/Loki

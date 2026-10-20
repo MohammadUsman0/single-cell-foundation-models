@@ -10,8 +10,7 @@ tags:
 - text
 modality: Single-cell (Cells as tokens, tissues as sentences)
 architecture: Pre-trained Transformer
-key: 'Diverse downstream tasks. Key Finding: First sc-pre-trained transformer to encode cell-cell relations;
-  100x faster inference.'
+key: Pre-trained transformer that encodes cell–cell relations, for a range of downstream single-cell tasks.
 links:
   paper: https://doi.org/10.1101/2023.10.03.560734
   code: https://github.com/OmicsML/CellPLM

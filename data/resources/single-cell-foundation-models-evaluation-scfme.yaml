@@ -8,4 +8,7 @@ tags:
 - perturbation
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.09.22.677811v1
+citation: Boylan, James, Elizaveta Solovyeva, Theophile Bouiller, Xiong Liu, Sebastian Hoersch, Bulent
+  Ataman, Jeremy Jenkins et al. "Single Cell Foundation Models Evaluation (scFME) for In-Silico Perturbation."
+  bioRxiv (2025).
 reviewed: false

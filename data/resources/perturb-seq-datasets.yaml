@@ -6,5 +6,5 @@ title: 'Perturb-seq datasets: Genome-scale and combinatorial Perturb-seq dataset
 tags:
 - perturbation
 links:
-  paper: https://github.com/sanderlab/scPerturb
+  dataset: https://github.com/sanderlab/scPerturb
 reviewed: false

@@ -5,5 +5,5 @@ title: 'ChEMBL: Drug-like molecules, bioactivities, targets, and assays'
 tags:
 - drug-response
 links:
-  paper: https://www.ebi.ac.uk/chembl/
+  dataset: https://www.ebi.ac.uk/chembl/
 reviewed: false

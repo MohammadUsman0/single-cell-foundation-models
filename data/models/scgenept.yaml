@@ -14,4 +14,6 @@ key: Language-augmented modeling of single-cell perturbations.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2024.10.23.619972v1
   code: https://github.com/czi-ai/scGenePT
+citation: 'Istrate, Ana-Maria, Donghui Li, and Theofanis Karaletsos. "scGenePT: Is language all you need
+  for modeling single-cell perturbations?." bioRxiv (2024).'
 reviewed: false

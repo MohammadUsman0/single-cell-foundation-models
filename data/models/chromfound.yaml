@@ -9,13 +9,13 @@ tags:
 - scatac-seq
 modality: scATAC-seq (Chromatin Accessibility)
 architecture: Hybrid (Mamba + Self-Attention)
-key: 'Cell representation, cell type annotation, cross-omics prediction, identifies gene-enhancer relationships.
-  Key Finding: Hybrid architecture to handle long-range and local regulatory dependencies.'
+key: Hybrid architecture for long-range and local regulatory dependencies; used for cell representation,
+  annotation, cross-omics prediction and gene–enhancer links.
 links:
   paper: https://doi.org/10.52202/085713-2584
   preprint: https://arxiv.org/abs/2505.12638
   code: https://github.com/JohnsonKlose/ChromFound
 citation: 'Jiao, Yifeng, Yuchen Liu, Yu Zhang, Xin Guo, Yushuai Wu, Chen Jiang, Jiyang Li et al. "ChromFound:
-  Towards A Universal Foundation Model for Single-Cell Chromatin Accessibility Data." arXiv preprint arXiv:2505.12638
-  (2025).'
+  Towards A Universal Foundation Model for Single-Cell Chromatin Accessibiltiy Data." In Advances in Neural
+  Information Processing Systems 38 (2025): 85649-85686.'
 reviewed: false

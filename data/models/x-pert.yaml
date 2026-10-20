@@ -11,4 +11,6 @@ tags:
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2
   code: https://github.com/Chen-Li-17/X-Pert
+citation: Li, Chen, Lei Wei, and Xuegong Zhang. "Unified multimodal learning enables generalized cellular
+  response prediction to diverse perturbations." bioRxiv (2025).
 reviewed: false

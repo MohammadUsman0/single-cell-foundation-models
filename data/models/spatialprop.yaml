@@ -15,4 +15,6 @@ key: Tissue perturbation modeling with spatially resolved single-cell data.
 links:
   paper: https://www.biorxiv.org/content/10.64898/2025.11.30.691355v1
   code: https://github.com/abuendia/SpatialProp_agent
+citation: 'Sun, Eric D., Alejandro Buendia, Anne Brunet, and James Zou. "SpatialProp: tissue perturbation
+  modeling with spatially resolved single-cell transcriptomics." bioRxiv (2025).'
 reviewed: false

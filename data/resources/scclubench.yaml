@@ -9,4 +9,7 @@ tags:
 links:
   paper: https://doi.org/10.1609/aaai.v40i2.37110
   preprint: https://arxiv.org/abs/2512.02471
+citation: 'Xu, Ping, Zaitian Wang, Zhirui Wang, Pengjiang Li, Jiajia Wang, Ran Zhang, Pengfei Wang et
+  al. "scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing."
+  Proceedings of the AAAI Conference on Artificial Intelligence 40, no. 2 (2026): 1364-1372.'
 reviewed: false

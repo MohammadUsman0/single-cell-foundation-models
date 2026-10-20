@@ -11,4 +11,7 @@ tags:
 links:
   paper: https://doi.org/10.1016/j.cell.2025.06.048
   code: https://github.com/physicell-models/grammar_samples
+citation: 'Johnson, Jeanette A.I., Daniel R. Bergman, Heber L. Rocha, David L. Zhou, Eric Cramer, Ian
+  C. Mclean, Yoseph W. Dance et al. "Human interpretable grammar encodes multicellular systems biology
+  models to democratize virtual cell laboratories." Cell 188, no. 17 (2025): 4711-4733.e37.'
 reviewed: false

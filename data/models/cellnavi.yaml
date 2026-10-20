@@ -12,4 +12,7 @@ tags:
 links:
   paper: https://doi.org/10.1038/s41556-025-01755-1
   code: https://github.com/DLS5-Omics/CellNavi
+citation: 'Wang, Tianze, Yan Pan, Fusong Ju, Shuxin Zheng, Chang Liu, Yaosen Min, Qun Jiang et al. "CellNavi
+  predicts genes directing cellular transitions by learning a gene graph-enhanced cell state manifold."
+  Nature Cell Biology 27, no. 10 (2025): 1863-1874.'
 reviewed: false

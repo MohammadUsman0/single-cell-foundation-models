@@ -10,4 +10,7 @@ tags:
 - scrna-seq
 links:
   paper: https://arxiv.org/abs/2506.22641
+citation: 'Mejia, Gabriel M., Henry E. Miller, Francis J. A. Leblanc, Bo Wang, Brendan Swain, and Lucas
+  Paulo de Lima Camillo. "Diversity by Design: Addressing Mode Collapse Improves scRNA-seq Perturbation
+  Modeling on Well-Calibrated Metrics." arXiv preprint arXiv:2506.22641 (2025).'
 reviewed: false

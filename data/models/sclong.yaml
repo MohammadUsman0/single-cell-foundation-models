@@ -16,6 +16,6 @@ links:
   preprint: https://doi.org/10.1101/2024.11.09.622759
   code: https://github.com/BaiDing1234/scLong
 citation: 'Bai, Ding, Shentong Mo, Ruiyi Zhang, Yingtao Luo, Jiahao Gao, Jeremy Parker Yang, Qiuyang Wu
-  et al. "scLong: A billion-parameter foundation model for capturing long-range gene context in single-cell
-  transcriptomics." bioRxiv (2024): 2024-11.'
+  et al. "scLong: a billion-parameter foundation model for capturing long-range gene context in single-cell
+  transcriptomics." Nature Communications 17, no. 1 (2026): 2380.'
 reviewed: false

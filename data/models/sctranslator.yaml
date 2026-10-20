@@ -11,8 +11,8 @@ tags:
 - scrna-seq
 modality: Single-cell Transcriptome
 architecture: Large Generative Model
-key: 'Translating transcriptome to proteome (protein imputation). Key Finding: Confirmed accuracy across
-  various profiling techniques (CITE-seq, REAP-seq, etc.).'
+key: Translates transcriptomes into proteomes (protein abundance imputation), evaluated across CITE-seq,
+  REAP-seq and other techniques.
 links:
   paper: https://doi.org/10.1038/s41551-025-01528-z
   preprint: https://doi.org/10.1101/2023.07.04.547619

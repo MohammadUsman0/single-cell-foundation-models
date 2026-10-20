@@ -11,4 +11,7 @@ tags:
 links:
   paper: https://doi.org/10.1038/s41551-025-01463-z
   code: https://github.com/cong-lab/crispr-gpt-pub
+citation: 'Qu, Yuanhao, Kaixuan Huang, Ming Yin, Kanghong Zhan, Dyllan Liu, Di Yin, Henry C. Cousins et
+  al. "CRISPR-GPT for agentic automation of gene-editing experiments." Nature Biomedical Engineering 10,
+  no. 2 (2025): 245-258.'
 reviewed: false

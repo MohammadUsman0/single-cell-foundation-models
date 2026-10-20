@@ -11,4 +11,6 @@ tags:
 links:
   paper: https://doi.org/10.1101/2024.12.10.627665
   code: https://github.com/mims-harvard/ProCyon
+citation: 'Queen, Owen, Yepeng Huang, Robert Calef, Valentina Giunchiglia, Tianlong Chen, George Dasoulas,
+  LeAnn Tai et al. "ProCyon: A multimodal foundation model for protein phenotypes." bioRxiv (2024).'
 reviewed: false

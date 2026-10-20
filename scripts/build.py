@@ -62,7 +62,7 @@ def entry_line(e, tag_labels):
     if tags:
         parts.append(" ".join(f"`{t}`" for t in tags))
     links = e.get("links") or {}
-    link_md = [f"[[{k}]({links[k]})]" for k in ("paper", "code", "weights", "project") if links.get(k)]
+    link_md = [f"[[{k}]({links[k]})]" for k in ("paper", "code", "weights", "dataset", "project") if links.get(k)]
     repo = github_repo(links.get("code"))
     if repo:
         link_md.append(f"![stars](https://img.shields.io/github/stars/{repo}?style=flat-square&label=%E2%98%85)")

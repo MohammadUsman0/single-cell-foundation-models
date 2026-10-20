@@ -10,6 +10,6 @@ tags:
 links:
   paper: https://doi.org/10.1002/advs.202514490
   preprint: https://doi.org/10.1101/2023.09.08.555192
-citation: Liu, Tianyu, Kexing Li, Yuge Wang, Hongyu Li, and Hongyu Zhao. "Evaluating the utilities of
-  foundation models in single-cell data analysis." bioRxiv (2024)
+citation: 'Liu, Tianyu, Kexing Li, Yuge Wang, Hongyu Li, and Hongyu Zhao. "Evaluating the Utilities of
+  Foundation Models in Single‐Cell Data Analysis." Advanced Science 13, no. 27 (2026): e14490.'
 reviewed: false

@@ -10,4 +10,6 @@ tags:
 - virtual-cell
 links:
   paper: https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1
+citation: 'Li, Bo, Qing Wang, Shihang Wang, Bob Zhang, Yuzhong Peng, Pinxian Zeng, Chengliang Liu et al.
+  "MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes." bioRxiv (2026).'
 reviewed: false

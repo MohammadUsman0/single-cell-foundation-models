@@ -9,4 +9,6 @@ tags:
 - foundation-model
 links:
   paper: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x
+citation: 'Kedzierska, Kasia Z., Lorin Crawford, Ava P. Amini, and Alex X. Lu. "Zero-shot evaluation reveals
+  limitations of single-cell foundation models." Genome Biology 26, no. 1 (2025): 101.'
 reviewed: false

@@ -1,7 +1,8 @@
 id: cellprophet
 kind: model
 name: CellProphet
-title: Dissecting dynamic gene regulatory network using transformer-based temporal causality analysis
+title: 'CellProphet: Dissecting Virtual Cell Differentiation through AI-Powered Dynamic Gene Regulatory
+  Network Inference'
 year: 2025
 venue: bioRxiv
 category: grn
@@ -11,6 +12,7 @@ architecture: Transformer-based
 key: Infers dynamic gene regulatory networks by combining temporal causality analysis with transformer
   self-attention.
 links:
+  paper: https://doi.org/10.1101/2025.02.05.636766
   code: https://github.com/prsigma/CellProphet
 citation: 'Peng, Rui, Juntian Qi, Yuxing Lu, Wei Wu, Qichen Sun, Chi Zhang, Yihan Chen, and Jinzhuo Wang.
   "Dissecting dynamic gene regulatory network using transformer-based temporal causality analysis." bioRxiv

@@ -12,4 +12,7 @@ links:
   paper: https://doi.org/10.1016/j.cell.2026.04.022
   preprint: https://doi.org/10.1101/2024.12.11.627935
   code: https://github.com/theislab/regvelo
+citation: 'Wang, Weixu, Zhiyuan Hu, Philipp Weiler, Sarah Mayes, Marius Lange, Daniel M. Fountain, Julianna
+  O. Haug et al. "RegVelo: Gene-regulatory-informed dynamics of single cells." Cell 189, no. 12 (2026):
+  3773-3800.e44.'
 reviewed: false

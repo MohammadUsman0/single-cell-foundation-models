@@ -9,8 +9,8 @@ tags:
 - scrna-seq
 modality: Transcriptomics (100 million human cells)
 architecture: Modified RetNet
-key: 'Cell annotation, gene function prediction, perturbation response. Key Finding: Uses a modified RetNet
-  for efficiency, 800 million parameters.'
+key: 800M-parameter model built on a modified RetNet for efficiency; used for cell annotation, gene function
+  and perturbation-response prediction.
 links:
   paper: https://doi.org/10.1038/s41467-025-59926-5
   code: https://github.com/biomed-AI/CellFM

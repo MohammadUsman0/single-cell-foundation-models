@@ -20,4 +20,7 @@ key: Adapts a pre-trained expression-only single-cell foundation model to genera
 links:
   paper: https://arxiv.org/abs/2603.19766
   code: https://github.com/donghaifang/HINGE
+citation: Fang, Donghai, Yongheng Li, Zhen Wang, Yuansong Zeng, and Wenwen Min. "Adapting a Pre-trained
+  Single-Cell Foundation Model to Spatial Gene Expression Generation from Histology Images." arXiv preprint
+  arXiv:2603.19766 (2026).
 reviewed: false

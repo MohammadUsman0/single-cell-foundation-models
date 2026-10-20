@@ -14,4 +14,7 @@ tags:
 - scrna-seq
 links:
   paper: https://doi.org/10.1016/j.cell.2025.02.012
+citation: 'Binan, Loϊc, Aiping Jiang, Serwah A. Danquah, Vera Valakh, Brooke Simonton, Jon Bezney, Robert
+  T. Manguso et al. "Simultaneous CRISPR screening and spatial transcriptomics reveal intracellular, intercellular,
+  and functional transcriptional circuits." Cell 188, no. 8 (2025): 2141-2158.e18.'
 reviewed: false

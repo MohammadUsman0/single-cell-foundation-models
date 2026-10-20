@@ -10,4 +10,7 @@ tags:
 - scrna-seq
 links:
   paper: https://arxiv.org/abs/2410.13956
+citation: 'Bendidi, Ihab, Shawn Whitfield, Kian Kenyon-Dean, Hanene Ben Yedder, Yassir El Mesbahi, Emmanuel
+  Noutahi, and Alisandra K. Denton. "Benchmarking Transcriptomics Foundation Models for Perturbation Analysis
+  : one PCA still rules them all." arXiv preprint arXiv:2410.13956 (2024).'
 reviewed: false

@@ -11,13 +11,13 @@ tags:
 - scrna-seq
 modality: Single-cell RNA and Protein (co-assayed)
 architecture: Multimodal
-key: 'Protein imputation, cell type annotation, batch harmonization. Key Finding: Learns unified multimodal
-  representations; uncovers protein-driven intercellular dynamics.'
+key: Learns joint RNA–protein representations; used for protein imputation, cell-type annotation and batch
+  harmonization.
 links:
   paper: https://doi.org/10.1038/s41467-026-72882-y
   preprint: https://doi.org/10.1101/2025.07.07.663366
   code: https://github.com/iamjiboya/CAPTAIN
 citation: 'Ji, Boya, Tingting Hu, Jiawen Wang, Mengmeng Liu, Liwen Xu, Qinhao Zhang, Siyun Zhong et al.
-  "CAPTAIN: A multimodal foundation model pretrained on co-assayed single-cell RNA and protein." bioRxiv
-  (2025): 2025-07.'
+  "CAPTAIN: a multimodal foundation model pretrained on co-assayed single-cell RNA and protein." Nature
+  Communications 17, no. 1 (2026): 6161.'
 reviewed: false

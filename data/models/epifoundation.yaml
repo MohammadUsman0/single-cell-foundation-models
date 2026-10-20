@@ -8,8 +8,8 @@ category: epigenomics
 tags:
 - scatac-seq
 modality: scATAC-seq
-key: 'Cell-type annotation, batch correction, gene expression prediction. Key Finding: Uses cross-modality
-  pre-training (peak-to-gene alignment) on non-zero peaks to handle sparsity.'
+key: Peak-to-gene cross-modality pre-training on non-zero peaks to cope with sparsity; used for cell-type
+  annotation, batch correction and expression prediction.
 links:
   paper: https://doi.org/10.1101/2025.02.05.636688
   code: https://github.com/UCSC-VLAA/EpiFoundation

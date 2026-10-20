@@ -8,4 +8,7 @@ tags:
 - scrna-seq
 links:
   paper: https://doi.org/10.1038/s41592-025-02799-9
+citation: 'Ergen, Can, Valeh Valiollah Pour Amiri, Martin Kim, Ori Kronfeld, Aaron Streets, Adam Gayoso,
+  and Nir Yosef. "Scvi-hub: an actionable repository for model-driven single-cell analysis." Nature Methods
+  22, no. 9 (2025): 1836-1845.'
 reviewed: false

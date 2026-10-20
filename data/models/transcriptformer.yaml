@@ -18,6 +18,6 @@ links:
   preprint: https://doi.org/10.1101/2025.04.25.650731
   code: https://github.com/czi-ai/transcriptformer
 citation: 'Pearce, James D., Sara E. Simmonds, Gita Mahmoudabadi, Lakshmi Krishnan, Giovanni Palla, Ana-Maria
-  Istrate, Alexander Tarashansky et al. "A Cross-Species Generative Cell Atlas Across 1.5 Billion Years
-  of Evolution: The TranscriptFormer Single-cell Model." bioRxiv (2025): 2025-04.'
+  Istrate, Alexander Tarashansky et al. "TranscriptFormer: A generative cell atlas across 1.5 billion
+  years of evolution." Science 393, no. 6806 (2026): aec8514.'
 reviewed: false

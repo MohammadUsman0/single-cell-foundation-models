@@ -16,4 +16,7 @@ key: Diffusion-based debiasing for single-cell transcriptional response predicti
 links:
   paper: https://www.pnas.org/doi/10.1073/pnas.2525268122
   code: https://github.com/ergan-shang/dbDiffusion
+citation: 'Shang, Ergan, Yuting Wei, and Kathryn Roeder. "Predicting the unseen: A diffusion-based debiasing
+  framework for transcriptional response prediction at single-cell resolution." Proceedings of the National
+  Academy of Sciences 122, no. 52 (2025): e2525268122.'
 reviewed: false

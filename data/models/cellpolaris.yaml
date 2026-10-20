@@ -11,8 +11,8 @@ tags:
 - scrna-seq
 modality: Transcriptomic Data
 architecture: Transfer Learning
-key: 'Generating cell-type-specific Gene Regulatory Networks (GRNs), simulating in-silico perturbations.
-  Key Finding: Relies exclusively on transcriptomic data to generate GRNs via transfer learning.'
+key: Generates cell-type-specific gene regulatory networks from transcriptomic data alone via transfer
+  learning, and simulates in-silico perturbations.
 links:
   paper: https://doi.org/10.1101/2023.09.25.559244
   code: https://github.com/xCompass-AI/CellPolaris
