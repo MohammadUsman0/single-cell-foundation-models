@@ -3,7 +3,7 @@
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
   "models": 174,
-  "resources": 123,
+  "resources": 122,
   "venues": 19
  },
  "vocab": {
@@ -465,7 +465,7 @@
    "github": "Gartner-Lab/Concord"
   },
   {
-   "id": "discrete-cell-models-dcm",
+   "id": "dcm",
    "kind": "model",
    "name": "DCM",
    "aliases": [
@@ -639,7 +639,7 @@
    "status": "preprint"
   },
   {
-   "id": "learning-multi-cellular-representations",
+   "id": "pascient",
    "kind": "model",
    "name": "PaSCient",
    "title": "Learning multi-cellular representations of single-cell transcriptomics data enables characterization of patient-level disease states",
@@ -1234,7 +1234,7 @@
    "github": "snap-stanford/biomni"
   },
   {
-   "id": "borzoi-predicting-rna-seq",
+   "id": "borzoi",
    "kind": "model",
    "name": "Borzoi",
    "title": "Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation",
@@ -1685,7 +1685,7 @@
    "github": "cong-lab/crispr-gpt-pub"
   },
   {
-   "id": "diffusion-debiasing-perturbation",
+   "id": "dbdiffusion",
    "kind": "model",
    "name": "dbDiffusion",
    "title": "Predicting the unseen: A diffusion-based debiasing framework for transcriptional response prediction at single-cell resolution",
@@ -1807,7 +1807,7 @@
    "status": "preprint"
   },
   {
-   "id": "scmamba-bidirectional-mamba",
+   "id": "genemamba",
    "kind": "model",
    "name": "GeneMamba",
    "title": "GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data",
@@ -1828,7 +1828,7 @@
    "status": "preprint"
   },
   {
-   "id": "get-general-expression-transformer",
+   "id": "get",
    "kind": "model",
    "name": "GET",
    "aliases": [
@@ -1937,7 +1937,7 @@
    "github": "theislab/IMPA"
   },
   {
-   "id": "lpm-large-perturbation-model",
+   "id": "lpm",
    "kind": "model",
    "name": "LPM",
    "aliases": [
@@ -2986,7 +2986,7 @@
    "github": "hliulab/XTransferCDR"
   },
   {
-   "id": "aido-cell-scaling-dense",
+   "id": "aido-cell",
    "kind": "model",
    "name": "AIDO.Cell",
    "title": "Scaling dense representations for single cell with transcriptome-scale context",
@@ -3006,7 +3006,7 @@
    "status": "preprint"
   },
   {
-   "id": "scfm",
+   "id": "cancerfoundation",
    "kind": "model",
    "name": "CancerFoundation",
    "title": "CancerFoundation: A single-cell RNA sequencing foundation model to decipher drug resistance in cancer",
@@ -3137,7 +3137,7 @@
    "github": "Lotfollahi-lab/nichecompass"
   },
   {
-   "id": "multimodal-foundation-model",
+   "id": "pertformer",
    "kind": "model",
    "name": "PertFormer",
    "aliases": [
@@ -3482,7 +3482,7 @@
    "github": "theislab/scTab"
   },
   {
-   "id": "stformer-a-framework-for",
+   "id": "stformer",
    "kind": "model",
    "name": "stFormer",
    "title": "stFormer: a foundation model for spatial transcriptomics",
@@ -3545,7 +3545,7 @@
    "github": "myzhengSIMM/TranSiGen"
   },
   {
-   "id": "celllm-large-scale-cell",
+   "id": "celllm",
    "kind": "model",
    "name": "CellLM",
    "title": "Large-scale cell representation learning via divide-and-conquer contrastive learning",
@@ -3722,7 +3722,7 @@
    "status": "preprint"
   },
   {
-   "id": "single-cell-masked-autoencoder",
+   "id": "scmae",
    "kind": "model",
    "name": "scMAE",
    "aliases": [
@@ -3759,7 +3759,7 @@
    "status": "published"
   },
   {
-   "id": "single-cell-gene-expression",
+   "id": "seq2cells",
    "kind": "model",
    "name": "seq2cells",
    "title": "Single-cell gene expression prediction from DNA sequence at large contexts",
@@ -3958,7 +3958,7 @@
    "status": "published"
   },
   {
-   "id": "assaybench-an-assay-level-virtual-cell",
+   "id": "assaybench",
    "kind": "resource",
    "title": "AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents",
    "year": 2026,
@@ -4114,7 +4114,7 @@
    "status": "published"
   },
   {
-   "id": "mvcbench-a-multimodal-benchmark-for-drug",
+   "id": "mvcbench",
    "kind": "resource",
    "title": "MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes",
    "year": 2026,
@@ -4132,7 +4132,7 @@
    "status": "preprint"
   },
   {
-   "id": "scclubench-comprehensive-benchmarking-of-clustering-algorithms",
+   "id": "scclubench",
    "kind": "resource",
    "title": "scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing",
    "year": 2026,
@@ -4166,7 +4166,7 @@
    "status": "preprint"
   },
   {
-   "id": "spatial-perturb-seq-spatial-perturb-seq",
+   "id": "spatial-perturb-seq",
    "kind": "resource",
    "aliases": [
     "Spatial Perturb-seq"
@@ -4188,7 +4188,7 @@
    "github": "kimberle9/spatialperturbseq"
   },
   {
-   "id": "cellbench-ls-benchmark-evaluation-of-single",
+   "id": "cellbench-ls",
    "kind": "resource",
    "aliases": [
     "CellBench-LS"
@@ -4433,7 +4433,7 @@
    "status": "published"
   },
   {
-   "id": "biollm-a-standardized-framework-for-integrating",
+   "id": "biollm",
    "kind": "resource",
    "title": "BioLLM: A standardized framework for integrating and benchmarking single-cell foundation models",
    "year": 2025,
@@ -4459,7 +4459,7 @@
    "status": "published"
   },
   {
-   "id": "bmfm-rna-an-open-framework-for",
+   "id": "bmfm-rna",
    "kind": "resource",
    "title": "BMFM-RNA: whole-cell expression decoding improves transcriptomic foundation models",
    "year": 2025,
@@ -4493,7 +4493,7 @@
    "status": "published"
   },
   {
-   "id": "cigs-high-throughput-profiling-of-chemical",
+   "id": "cigs",
    "kind": "resource",
    "title": "CIGS: High-Throughput Profiling of Chemical-Induced Gene Expression across 93,644 Perturbations",
    "year": 2025,
@@ -4555,7 +4555,7 @@
    "status": "published"
   },
   {
-   "id": "diversity-by-design-addressing-mode-collapse",
+   "id": "diversity-by-design",
    "kind": "resource",
    "title": "Diversity by Design: Addressing Mode Collapse Improves scRNA-seq Perturbation Modeling on Well-Calibrated Metrics",
    "year": 2025,
@@ -4652,7 +4652,7 @@
    "status": "published"
   },
   {
-   "id": "heimdall-a-modular-framework-for-tokenization",
+   "id": "heimdall",
    "kind": "resource",
    "title": "HEIMDALL: Disentangling tokenizer design for robust transfer in single-cell foundation models",
    "year": 2025,
@@ -4785,7 +4785,7 @@
    "status": "published"
   },
   {
-   "id": "perteval-scfm-benchmarking-single-cell-foundation",
+   "id": "perteval-scfm",
    "kind": "resource",
    "title": "PertEval-scFM: Benchmarking Single-Cell Foundation Models for Perturbation Effect Prediction",
    "year": 2025,
@@ -4817,7 +4817,7 @@
    "status": "published"
   },
   {
-   "id": "perturbench-benchmarking-machine-learning-models-for",
+   "id": "perturbench",
    "kind": "resource",
    "title": "PerturBench: Benchmarking Machine Learning Models for Cellular Perturbation Analysis",
    "year": 2025,
@@ -4854,7 +4854,7 @@
    "status": "published"
   },
   {
-   "id": "scbasecount-scbasecount-an-ai-agent-curated",
+   "id": "scbasecount",
    "kind": "resource",
    "title": "scBaseCount: an AI agent-curated, uniformly processed, and autonomously updated single cell data repository",
    "year": 2025,
@@ -4870,7 +4870,7 @@
    "status": "preprint"
   },
   {
-   "id": "scdrugmap-benchmarking-large-foundation-models-for",
+   "id": "scdrugmap",
    "kind": "resource",
    "title": "scDrugMap: benchmarking large foundation models for drug response prediction",
    "year": 2025,
@@ -4887,7 +4887,7 @@
    "status": "published"
   },
   {
-   "id": "scgenescope-scgenescope-a-treatment-matched-single",
+   "id": "scgenescope",
    "kind": "resource",
    "title": "scGeneScope: scGeneScope: A Treatment-Matched Single Cell Imaging and Transcriptomics Dataset and Benchmark for Treatment Response Mo",
    "year": 2025,
@@ -4903,7 +4903,7 @@
    "status": "unknown"
   },
   {
-   "id": "scvi-hub-an-actionable-repository-for",
+   "id": "scvi-hub",
    "kind": "resource",
    "title": "Scvi-hub: An Actionable Repository for Model-Driven Single-Cell Analysis",
    "year": 2025,
@@ -4916,7 +4916,7 @@
    "status": "published"
   },
   {
-   "id": "perturb-fish-crispr-screening-with-imaging",
+   "id": "perturb-fish",
    "kind": "resource",
    "aliases": [
     "Perturb-FISH"
@@ -4982,7 +4982,7 @@
    "status": "preprint"
   },
   {
-   "id": "stamp-single-cell-transcriptomics-analysis-and",
+   "id": "stamp",
    "kind": "resource",
    "title": "STAMP: Single-cell transcriptomics analysis and multimodal profiling through imaging",
    "year": 2025,
@@ -5016,34 +5016,18 @@
    "status": "published"
   },
   {
-   "id": "tahoe-100m-a-giga-scale-single",
+   "id": "tahoe-100m",
    "kind": "resource",
    "title": "Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "type": "reference",
-   "tags": [
-    "perturbation"
-   ],
-   "key": "Giga-scale single-cell perturbation atlas (dataset).",
-   "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2025.02.20.639398v3"
-   },
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
-   "id": "tahoe-100m-tahoe-100m-a-giga",
-   "kind": "resource",
-   "title": "Tahoe-100M: Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene Function and Cellular Modeling",
    "year": 2025,
    "venue": "bioRxiv",
    "type": "dataset",
    "tags": [
     "perturbation"
    ],
+   "key": "Giga-scale single-cell perturbation atlas (dataset).",
    "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1"
+    "paper": "https://doi.org/10.1101/2025.02.20.639398"
    },
    "reviewed": false,
    "status": "preprint"
@@ -5236,7 +5220,7 @@
    "github": "yhsure/perturbations"
   },
   {
-   "id": "x-atlas-orion-genome-wide-perturb",
+   "id": "x-atlas-orion",
    "kind": "resource",
    "title": "X-Atlas/Orion: Genome-Wide Perturb-Seq Datasets via a Scalable Fix-Cryopreserve Platform for Training Dose-Dependent Biological Foundat",
    "year": 2025,
@@ -5298,7 +5282,7 @@
    "status": "preprint"
   },
   {
-   "id": "cm4ai-cell-maps-for-artificial-intelligence",
+   "id": "cm4ai",
    "kind": "resource",
    "title": "CM4AI: Cell Maps for Artificial Intelligence: AI-Ready Maps of Human Cell Architecture from Disease-Relevant Cell Lines",
    "year": 2024,
@@ -5311,7 +5295,7 @@
    "status": "preprint"
   },
   {
-   "id": "cpjump1-three-million-images-and-morphological",
+   "id": "cpjump1",
    "kind": "resource",
    "title": "CPJUMP1: Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations",
    "year": 2024,
@@ -5328,7 +5312,7 @@
    "status": "published"
   },
   {
-   "id": "cz-cellxgene-discover-a-single-cell",
+   "id": "cz-cellxgene-discover",
    "kind": "resource",
    "title": "CZ CELLxGENE Discover: A single-cell data platform for scalable exploration, analysis, and modeling of aggregated data",
    "year": 2024,
@@ -5383,7 +5367,7 @@
    "status": "published"
   },
   {
-   "id": "hest-1k-hest-1k-a-dataset",
+   "id": "hest-1k",
    "kind": "resource",
    "title": "HEST-1k: A Dataset For Spatial Transcriptomics and Histology Image Analysis",
    "year": 2024,
@@ -5525,7 +5509,7 @@
    "status": "preprint"
   },
   {
-   "id": "opencell-endogenous-protein-tagging-localization-and",
+   "id": "opencell",
    "kind": "resource",
    "title": "OpenCell: Endogenous tagging for the cartography of human cellular organization",
    "year": 2022,
@@ -5541,7 +5525,7 @@
    "status": "published"
   },
   {
-   "id": "tabula-sapiens-a-multiple-organ-single",
+   "id": "tabula-sapiens",
    "kind": "resource",
    "title": "Tabula Sapiens: A multiple-organ single-cell transcriptomic atlas of humans",
    "year": 2022,
@@ -5557,7 +5541,7 @@
    "status": "published"
   },
   {
-   "id": "sci-plex-massively-multiplex-chemical-transcriptomics",
+   "id": "sci-plex",
    "kind": "resource",
    "title": "Sci-Plex: Massively Multiplex Chemical Transcriptomics at Single-Cell Resolution",
    "year": 2019,
@@ -5573,7 +5557,7 @@
    "status": "published"
   },
   {
-   "id": "l1000-cmap-a-next-generation-connectivity",
+   "id": "l1000-cmap",
    "kind": "resource",
    "title": "L1000/CMap: A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles",
    "year": 2017,
@@ -5632,7 +5616,7 @@
    "status": "unknown"
   },
   {
-   "id": "bindingdb-protein-small-molecule-binding-affinity",
+   "id": "bindingdb",
    "kind": "resource",
    "title": "BindingDB: Protein-small molecule binding affinity knowledgebase [[resource](https://www.bindingdb.org/)] [[paper](https://academic",
    "type": "dataset",
@@ -5646,7 +5630,7 @@
    "status": "unknown"
   },
   {
-   "id": "cell-painting-gallery-public-high-content",
+   "id": "cell-painting-gallery",
    "kind": "resource",
    "title": "Cell Painting Gallery: Public high-content cell painting datasets from Broad and partners [[dataset](https://registry.opendata.aws/cellpainting",
    "type": "dataset",
@@ -5660,7 +5644,7 @@
    "status": "unknown"
   },
   {
-   "id": "chembl-drug-like-molecules-bioactivities-targets",
+   "id": "chembl",
    "kind": "resource",
    "title": "ChEMBL: Drug-like molecules, bioactivities, targets, and assays [[resource](https://www.ebi.ac.uk/chembl/)] [[paper](https://aca",
    "type": "dataset",
@@ -5674,7 +5658,7 @@
    "status": "unknown"
   },
   {
-   "id": "depmap-ccle-prism-cancer-dependency-molecular",
+   "id": "depmap-ccle-prism",
    "kind": "resource",
    "title": "DepMap/CCLE/PRISM: Cancer dependency, molecular profile, and drug-response resources for cell-line perturbation modeling [[resource](https:",
    "type": "dataset",
@@ -5689,7 +5673,7 @@
    "status": "unknown"
   },
   {
-   "id": "gtex-genotype-tissue-expression-project-for",
+   "id": "gtex",
    "kind": "resource",
    "title": "GTEx: Genotype-Tissue Expression project for human tissue expression baselines [[portal](https://gtexportal.org/)] [[overview]",
    "type": "dataset",
@@ -5711,7 +5695,7 @@
    "status": "unknown"
   },
   {
-   "id": "human-cell-atlas-international-atlas-of",
+   "id": "human-cell-atlas",
    "kind": "resource",
    "title": "Human Cell Atlas: International atlas of human cells and tissues [[portal](https://data.humancellatlas.org/)] [[paper](https://www.nature.",
    "type": "dataset",
@@ -5722,7 +5706,7 @@
    "status": "unknown"
   },
   {
-   "id": "human-protein-atlas-subcellular-and-tissue",
+   "id": "human-protein-atlas",
    "kind": "resource",
    "title": "Human Protein Atlas: Subcellular and tissue protein expression atlases [[resource](https://www.proteinatlas.org/)] [[subcellular](https://www",
    "type": "dataset",
@@ -5736,7 +5720,7 @@
    "status": "unknown"
   },
   {
-   "id": "omnipath-signaling-ligand-receptor-and-causal",
+   "id": "omnipath",
    "kind": "resource",
    "title": "OmniPath: Signaling, ligand-receptor, and causal network priors for multi-omics analysis [[resource](https://omnipathdb.org/)] [[p",
    "type": "dataset",
@@ -5750,7 +5734,7 @@
    "status": "unknown"
   },
   {
-   "id": "perturb-seq-datasets-genome-scale-and",
+   "id": "perturb-seq-datasets",
    "kind": "resource",
    "title": "Perturb-seq datasets: Genome-scale and combinatorial Perturb-seq datasets from Replogle, Norman, Dixit, Adamson, and related screens [[overvie",
    "type": "dataset",
@@ -5764,7 +5748,7 @@
    "status": "unknown"
   },
   {
-   "id": "pubchem-compound-identifiers-structures-assays-and",
+   "id": "pubchem",
    "kind": "resource",
    "title": "PubChem: Compound identifiers, structures, assays, and bioactivity records [[resource](https://pubchem.ncbi.nlm.nih.gov/)] [[pape",
    "type": "dataset",
@@ -5778,7 +5762,7 @@
    "status": "unknown"
   },
   {
-   "id": "rxrx-recursion-high-content-cellular-imaging",
+   "id": "rxrx",
    "kind": "resource",
    "title": "RxRx: Recursion high-content cellular imaging datasets for perturbation and batch-correction research [[datasets](https://www.",
    "type": "dataset",
@@ -5793,7 +5777,7 @@
    "status": "unknown"
   },
   {
-   "id": "string-protein-functional-association-and-interaction",
+   "id": "string",
    "kind": "resource",
    "title": "STRING: Protein functional association and interaction networks [[resource](https://string-db.org/)] [[paper](https://academic.o",
    "type": "dataset",
@@ -5820,7 +5804,7 @@
    "status": "published"
   },
   {
-   "id": "virtual-cell-challenge-community-perturbation-prediction",
+   "id": "virtual-cell-challenge",
    "kind": "resource",
    "title": "Virtual Cell Challenge: Community perturbation-prediction challenge and hidden evaluation resources [[homepage](https://virtualcellchallenge.org",
    "type": "dataset",
@@ -5835,7 +5819,7 @@
    "status": "unknown"
   },
   {
-   "id": "vizgen-merfish-datasets-public-merfish-example",
+   "id": "vizgen-merfish-datasets",
    "kind": "resource",
    "title": "Vizgen MERFISH datasets: Public MERFISH example datasets for spatial transcriptomics [[datasets](https://vizgen.com/data-release-program/)]",
    "type": "dataset",

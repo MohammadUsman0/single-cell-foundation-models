@@ -46,7 +46,13 @@ def norm(t):
 
 def doi_of(url):
     m = re.search(r"(10\.\d{4,9}/[^\s?#]+)", url or "")
-    return m.group(1).lower().rstrip(".") if m else None
+    if not m:
+        return None
+    d = m.group(1).lower().rstrip(".")
+    d = re.sub(r"(\.full(\.pdf)?|\.abstract|\.pdf)$", "", d)
+    if d.startswith(("10.1101/", "10.64898/")):  # bioRxiv/medRxiv: v1, v2... are the same paper
+        d = re.sub(r"v\d+$", "", d)
+    return d
 
 
 def citation_journal(cit, title=""):

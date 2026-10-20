@@ -1,0 +1,9 @@
+id: scvi-hub
+kind: resource
+type: tool
+title: 'Scvi-hub: An Actionable Repository for Model-Driven Single-Cell Analysis'
+year: 2025
+venue: Nature Methods
+links:
+  paper: https://doi.org/10.1038/s41592-025-02799-9
+reviewed: false

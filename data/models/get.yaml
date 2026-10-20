@@ -1,0 +1,22 @@
+id: get
+kind: model
+name: GET
+aliases:
+- General Expression Transformer
+title: A foundation model of transcription across human cell types
+year: 2025
+venue: Nature
+category: seq2exp
+tags:
+- dna-sequence
+- scatac-seq
+modality: Chromatin Accessibility, Sequence Information
+architecture: Transformer
+key: 'Predicting gene expression in seen/unseen cell types, regulatory inference. Key Finding: Achieves
+  experimental-level accuracy; learns regulatory grammars across 213 human cell types.'
+links:
+  paper: https://doi.org/10.1038/s41586-024-08391-z
+citation: 'Fu, Xi, Shentong Mo, Alejandro Buendia, Anouchka P. Laurent, Anqi Shao, Maria del Mar Alvarez-Torres,
+  Tianji Yu et al. "A foundation model of transcription across human cell types." Nature 637, no. 8047
+  (2025): 965-973.'
+reviewed: false

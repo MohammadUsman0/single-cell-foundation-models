@@ -1,0 +1,13 @@
+id: diversity-by-design
+kind: resource
+type: benchmark
+title: 'Diversity by Design: Addressing Mode Collapse Improves scRNA-seq Perturbation Modeling on Well-Calibrated
+  Metrics'
+year: 2025
+venue: arXiv
+tags:
+- perturbation
+- scrna-seq
+links:
+  paper: https://arxiv.org/abs/2506.22641
+reviewed: false

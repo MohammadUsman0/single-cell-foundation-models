@@ -1,0 +1,20 @@
+id: dcm
+kind: model
+name: DCM
+aliases:
+- Discrete Cell Models
+title: Discrete Diffusion for Single-Cell Gene Expression Modeling
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+key: Diffusion model that generates single-cell expression directly as discrete counts, unconditionally
+  or conditioned on perturbations.
+links:
+  paper: https://doi.org/10.64898/2026.02.19.705033
+citation: 'Bhattacharya, Sanjukta, Christian Gensbigler, Shaamil Karim, and Jon Lees. "Discrete Diffusion
+  for Single-Cell Gene Expression Modeling." bioRxiv (2026): 2026-02.'
+reviewed: false

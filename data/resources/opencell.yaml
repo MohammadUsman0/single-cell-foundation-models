@@ -1,0 +1,11 @@
+id: opencell
+kind: resource
+type: dataset
+title: 'OpenCell: Endogenous tagging for the cartography of human cellular organization'
+year: 2022
+venue: Science
+tags:
+- proteomics
+links:
+  paper: https://doi.org/10.1126/science.abi6983
+reviewed: false
