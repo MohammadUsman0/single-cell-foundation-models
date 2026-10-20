@@ -32,6 +32,12 @@ RELATED_LISTS = [
 ]
 
 
+def site_url():
+    """GitHub Pages address of the catalogue site (served from docs/ on main)."""
+    owner, name = REPO.split("/")
+    return f"https://{owner.lower()}.github.io/{name}/"
+
+
 def anchor(text):
     out = "".join(c for c in text.lower() if c.isalnum() or c in " -").strip()
     return out.replace(" ", "-")
@@ -83,6 +89,9 @@ def build_readme(models, resources, venues, vocab):
         "",
         "> A curated list of foundation models for single-cell biology and AI virtual-cell / world models, "
         "plus the benchmarks, datasets, tools and reviews around them.",
+        "",
+        f"**[Browse the catalogue →]({site_url()})** search, filter and compare models; "
+        "every model has its own page.",
         "",
         "For each model, the catalogue aims to record what it is, whether you can use it "
         "(code, weights, license) and what benchmarks found about it. Titles, years, venues and links "
