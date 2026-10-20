@@ -28,7 +28,7 @@ MODEL_FIELDS = COMMON | {"name", "category", "modality", "architecture", "task",
 VOCAB_FIELDS = {"inputs": "inputs", "outputs": "outputs", "architecture_family": "architecture_families",
                 "code_status": "code_status", "review_basis": "review_basis",
                 "perturbation_type": "perturbation_types", "generalization": "generalization"}
-RESOURCE_FIELDS = COMMON | {"type", "evaluates"}
+RESOURCE_FIELDS = COMMON | {"type", "evaluates", "findings"}
 URL = re.compile(r"^https?://[^\s<>\"]+$")
 MAX_YEAR = datetime.date.today().year + 1
 
@@ -219,6 +219,8 @@ def check_cross(models, resources, rep):
         for mid in r.get("evaluates") or []:
             if mid not in model_ids:
                 rep.err("`evaluates` points to an unknown model", r, f"`{mid}`")
+        if "findings" in r and not isinstance(r["findings"], str):
+            rep.err("`findings` must be one line of text", r, "")
 
 
 def write_report(rep, models, resources):

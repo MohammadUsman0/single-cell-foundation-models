@@ -470,7 +470,8 @@
     const evaluates = kind === "resource"
       ? (e.evaluates || []).map((mid) => DATA.models.find((m) => m.id === mid)).filter(Boolean) : [];
     const relList = (arr, k) => arr.map((x) =>
-      `<li><a href="#/${k}/${encodeURIComponent(x.id)}">${esc(label(x))}</a>${x.year ? ` <span class="note">(${esc(x.year)})</span>` : ""}</li>`).join("");
+      `<li><a href="#/${k}/${encodeURIComponent(x.id)}">${esc(label(x))}</a>${x.year ? ` <span class="note">(${esc(x.year)})</span>` : ""}${
+        x.findings ? `<div class="finding">${esc(x.findings)}</div>` : ""}</li>`).join("");
 
     const q = encodeURIComponent(e.title);
     const explore = [
@@ -489,11 +490,14 @@
         ${Object.keys(links).length ? `<div class="row" style="margin-top:12px">${Object.keys(LINK_LABELS).filter((k) => links[k])
           .map((k) => `<a class="btn" href="${esc(links[k])}" target="_blank" rel="noopener">${LINK_LABELS[k]}</a>`).join("")}</div>` : ""}
         ${e.key ? `<div class="section"><h2>Summary</h2><p style="margin:0">${esc(e.key)}</p></div>` : ""}
+        ${e.findings ? `<div class="section"><h2>What it found</h2><p style="margin:0">${esc(e.findings)}</p></div>` : ""}
         ${ioDiagram(e)}
         <div class="section"><h2>Details</h2>
           <dl class="facts">${facts.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${v}</dd>`).join("")}</dl></div>
         ${versions}
-        ${evaluatedBy.length ? `<div class="section"><h2>Evaluated by</h2><ul>${relList(evaluatedBy, "resource")}</ul></div>` : ""}
+        ${evaluatedBy.length ? `<div class="section"><h2>Evaluated by</h2>
+          <p class="note" style="margin:0 0 6px">Benchmarks that tested this model, with each benchmark's headline result.</p>
+          <ul class="rel">${relList(evaluatedBy, "resource")}</ul></div>` : ""}
         ${evaluates.length ? `<div class="section"><h2>Models evaluated</h2><ul>${relList(evaluates, "model")}</ul></div>` : ""}
         <div class="section"><h2>Explore related work</h2><div class="row">${explore}</div></div>
         ${e.citation ? `<div class="section"><h2>Citation</h2><p class="cite" id="cite">${esc(e.citation)}</p>
@@ -627,6 +631,28 @@
     el.innerHTML = `<svg width="${W}" height="${H}" role="img">${g}</svg>`;
   }
 
+  function presenceGrid(el, { rows, cols, has, href, tip, colHref, colTip }) {   // rows/cols: [[id, label]]
+    const cell = 26, labelW = 280, headH = 104;
+    const W = labelW + cols.length * cell + 70, H = headH + rows.length * cell + 4;
+    let g = "";
+    cols.forEach(([c, label], j) => {
+      const cx = labelW + j * cell + cell / 2;
+      g += hit(colHref(c), colTip(c), `<text x="${cx}" y="${headH - 8}" transform="rotate(-50 ${cx} ${headH - 8})">${esc(label)}</text>
+           <rect x="${cx - cell / 2}" y="0" width="${cell}" height="${headH}" fill="transparent"/>`);
+    });
+    rows.forEach(([r, label], i) => {
+      const yy = headH + i * cell;
+      g += `<text x="${labelW - 8}" y="${yy + cell / 2 + 4}" text-anchor="end">${esc(label)}</text>`;
+      cols.forEach(([c], j) => {
+        const xx = labelW + j * cell;
+        g += has(r, c)
+          ? hit(href(r, c), tip(r, c), `<rect x="${xx + 2}" y="${yy + 2}" width="${cell - 4}" height="${cell - 4}" rx="4" style="fill:var(--s1)"/>`)
+          : `<rect x="${xx + 2}" y="${yy + 2}" width="${cell - 4}" height="${cell - 4}" rx="4" fill="none" class="gridline"/>`;
+      });
+    });
+    el.innerHTML = `<svg width="${W}" height="${H}" role="img">${g}</svg>`;
+  }
+
   const scaleLegend = (max) => `<div class="legend"><span>Fewer</span>${[0, 1, 2, 3, 4, 5, 6]
     .map((k) => `<i style="background:var(--q${k})"></i>`).join("")}<span>More (max ${max})</span></div>`;
   const seriesLegend = (series) => `<div class="legend">${series
@@ -663,6 +689,14 @@
     const noStatus = ms.filter((m) => m.status !== "published" && m.status !== "preprint").length;
     const ioMax = Math.max(...ins.flatMap(([a]) => outs.map(([b]) => io(a, b))));
     const pgMax = Math.max(...pts.flatMap(([a]) => gens.map(([b]) => pg(a, b))));
+    // 5. which models the benchmarks test
+    const short = (r) => (r.aliases || [])[0] || (r.title.length > 32 ? r.title.slice(0, 30).trim() + "…" : r.title);
+    const benches = DATA.resources.filter((r) => asList(r.evaluates).length)
+      .sort((a, b) => (b.year || 0) - (a.year || 0) || asList(b.evaluates).length - asList(a.evaluates).length);
+    const testedIn = (mid) => benches.filter((r) => asList(r.evaluates).includes(mid));
+    const tested = ms.filter((m) => testedIn(m.id).length)
+      .sort((a, b) => testedIn(b.id).length - testedIn(a.id).length || label(a).localeCompare(label(b)));
+    const byId = Object.fromEntries(benches.map((r) => [r.id, r]));
 
     app.innerHTML = `
       <div class="insights">
@@ -700,6 +734,14 @@
             ${seriesLegend(pub)}<div class="chart" id="c-pub"></div>
             ${chartTable(["Year", "Published", "Preprint"], years.map((y, i) => [yLabel(y), pub[0].values[i], pub[1].values[i]]))}</section>
         </div>
+        ${benches.length ? `<section class="chart-card"><h2>Which models get benchmarked</h2>
+          <p class="sub">${benches.length} benchmarks (rows, newest first) and the ${tested.length} catalogued models they test
+            (columns, most tested first). ${esc(label(tested[0]))} appears in ${testedIn(tested[0].id).length} of them, while
+            ${tested.filter((m) => testedIn(m.id).length === 1).length} models appear in only one. Hover a square for the benchmark's
+            headline result.</p>
+          <div class="chart" id="c-bench"></div>
+          ${chartTable(["Model", "Benchmarks", "Tested in"], tested.map((m) => [label(m), testedIn(m.id).length,
+            testedIn(m.id).map(short).join("; ")]))}</section>` : ""}
       </div>`;
 
     insightsRedraw = () => {
@@ -721,6 +763,13 @@
       stackedColumns($("#c-pub"), { cats: years.map(yLabel), series: pub,
         href: (i, s) => `#/models?st=${s.status}&y0=${years[i]}&y1=${years[i]}`,
         tip: (i, s) => `<b>${s.name}</b><br>${yLabel(years[i])}: ${s.values[i]} models` });
+      if ($("#c-bench")) presenceGrid($("#c-bench"), {
+        rows: benches.map((r) => [r.id, `${short(r)} (${r.year})`]), cols: tested.map((m) => [m.id, label(m)]),
+        has: (r, m) => asList(byId[r].evaluates).includes(m), href: (r) => `#/resource/${encodeURIComponent(r)}`,
+        tip: (r, m) => `<b>${esc(label(ms.find((x) => x.id === m)))}</b> tested in<br>${esc(byId[r].title)} (${byId[r].year})${
+          byId[r].findings ? `<br><br>${esc(byId[r].findings)}` : ""}`,
+        colHref: (m) => `#/model/${encodeURIComponent(m)}`,
+        colTip: (m) => `<b>${esc(label(ms.find((x) => x.id === m)))}</b><br>tested in ${testedIn(m).length} benchmark${testedIn(m).length > 1 ? "s" : ""}` });
     };
     insightsRedraw();
   }

@@ -10,10 +10,16 @@ tags:
 key: Interpretability via sparse autoencoders.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.10.22.681631v1
+evaluates:
+- scgpt
+- scfoundation
+- geneformer
+findings: The models encode interpretable biological and technical features; steering them can reduce
+  batch effects or mimic drug responses.
 citation: Pedrocchi, Flavia, Florian Barkmann, Amir Joudaki, and Valentina Boeva. "Sparse Autoencoders
   Reveal Interpretable Features in Single-Cell Foundation Models." bioRxiv (2025).
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2025.10.22.681631v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

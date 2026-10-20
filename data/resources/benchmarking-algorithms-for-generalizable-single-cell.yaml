@@ -8,7 +8,10 @@ tags:
 - perturbation
 links:
   paper: https://www.nature.com/articles/s41592-025-02980-0
+findings: Across 27 methods and 29 datasets, generalising to unseen contexts calls for better cell-context
+  embeddings.
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41592-025-02980-0
+review_basis: abstract
 reviewed: false

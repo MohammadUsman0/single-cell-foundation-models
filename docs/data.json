@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20",
+ "generated": "2026-10-21",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
   "models": 170,
@@ -6920,6 +6920,12 @@
     "paper": "https://doi.org/10.1126/sciadv.aed3414",
     "preprint": "https://www.biorxiv.org/content/10.1101/2024.12.23.630036v2"
    },
+   "evaluates": [
+    "scgpt",
+    "scfoundation",
+    "squidiff"
+   ],
+   "findings": "PerturbNet best recovers DE signatures, but no method generalises across cell types; fine-tuned foundation models underestimate synergy.",
    "citation": "Li, Lanxiang, Yue You, Yunlin Fu, Wenyu Liao, Xueying Fan, Shihong Lu, Ye Cao et al. \"A systematic comparison of single-cell perturbation response prediction models.\" Science Advances 12, no. 37 (2026): eaed3414.",
    "reviewed": false,
    "added": "2026-06-02",
@@ -6927,7 +6933,7 @@
     "https://doi.org/10.1126/sciadv.aed3414",
     "https://www.biorxiv.org/content/10.1101/2024.12.23.630036v2"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "published"
   },
   {
@@ -6944,13 +6950,29 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.64898/2026.01.06.698060v1"
    },
+   "evaluates": [
+    "scfoundation",
+    "scprint",
+    "scimilarity",
+    "scgpt",
+    "geneformer",
+    "cellfm",
+    "scbert",
+    "cellplm",
+    "uce",
+    "langcell",
+    "cellama",
+    "sccello",
+    "genept"
+   ],
+   "findings": "Usefulness is neither universal nor set by model scale; it depends on the representation, the biological context and the supervision.",
    "citation": "Hou, Siyu, Penghui Yang, Wenjing Ma, Jinxi Xiang, Jade Xiaoqing Wang, Hui Wan, Ying Ma et al. \"Accessible and reproducible deployment reveals the practical boundaries of single-cell foundation models.\" bioRxiv (2026).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2026.01.06.698060v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -6990,13 +7012,18 @@
    "links": {
     "paper": "https://arxiv.org/abs/2605.10876"
    },
+   "evaluates": [
+    "biomni",
+    "c2s-scale"
+   ],
+   "findings": "General-purpose LLMs used zero-shot beat biology-specific models and agents, but every method stays well below the estimated performance ceiling.",
    "citation": "De Brouwer, Edward, Carl Edwards, Alexander Wu, Jenna Collier, Graham Heimberg, Xiner Li, Meena Subramaniam et al. \"AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents.\" arXiv preprint arXiv:2605.10876 (2026).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2605.10876"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -7014,13 +7041,19 @@
    "links": {
     "paper": "https://arxiv.org/abs/2604.27646"
    },
+   "evaluates": [
+    "state",
+    "sclambda",
+    "prnet"
+   ],
+   "findings": "Performance is often overestimated and drops sharply under stricter context shifts; models capture global trends but miss perturbation-specific effects.",
    "citation": "Mao, Xinjie, Songming Zhang, Qianhong Wen, Xiangyu Wen, Kedu Jin, Hao Wu, Shuizhou Chen, Yuqiang Li, Lei Bai, Qi Liu, Ning Ding, Siqi Sun, and Zhangyang Gao. \"Benchmarking virtual cell models for in-the-wild perturbation response.\" arXiv preprint arXiv:2604.27646 (2026).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2604.27646"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -7064,6 +7097,7 @@
     "paper": "https://doi.org/10.1038/s41592-026-03120-y",
     "preprint": "https://www.biorxiv.org/content/10.1101/2024.12.13.628448v1"
    },
+   "findings": "Performance plateaus with a fraction of current corpora; there are no clear data scaling laws.",
    "citation": "DenAdel, Alan, Madeline Hughes, Akshaya Thoutam, Anay Gupta, Andrew W. Navia, Nicolo Fusi, Srivatsan Raghavan et al. \"Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance.\" Nature Methods 23, no. 7 (2026): 1447-1457.",
    "reviewed": false,
    "added": "2026-06-02",
@@ -7071,7 +7105,7 @@
     "https://doi.org/10.1038/s41592-026-03120-y",
     "https://www.biorxiv.org/content/10.1101/2024.12.13.628448v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -7089,6 +7123,12 @@
     "paper": "https://doi.org/10.1002/advs.202514490",
     "preprint": "https://doi.org/10.1101/2023.09.08.555192"
    },
+   "evaluates": [
+    "scgpt",
+    "geneformer",
+    "cellfm"
+   ],
+   "findings": "Foundation models do not consistently beat task-specific methods; scGPT, Geneformer and CellFM come out on top.",
    "citation": "Liu, Tianyu, Kexing Li, Yuge Wang, Hongyu Li, and Hongyu Zhao. \"Evaluating the Utilities of Foundation Models in Single‐Cell Data Analysis.\" Advanced Science 13, no. 27 (2026): e14490.",
    "reviewed": false,
    "added": "2026-06-02",
@@ -7096,7 +7136,7 @@
     "https://doi.org/10.1002/advs.202514490",
     "https://doi.org/10.1101/2023.09.08.555192"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -7229,13 +7269,26 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1"
    },
+   "evaluates": [
+    "tgpt",
+    "scfoundation",
+    "scgpt",
+    "geneformer",
+    "cellplm",
+    "scbert",
+    "uce",
+    "state",
+    "cell2sentence",
+    "scimilarity"
+   ],
+   "findings": "Performance collapses under distribution shift; adding morphology to transcriptomics consistently helps.",
    "citation": "Li, Bo, Qing Wang, Shihang Wang, Bob Zhang, Yuzhong Peng, Pinxian Zeng, Chengliang Liu et al. \"MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes.\" bioRxiv (2026).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -7252,6 +7305,11 @@
     "paper": "https://doi.org/10.1609/aaai.v40i2.37110",
     "preprint": "https://arxiv.org/abs/2512.02471"
    },
+   "evaluates": [
+    "scgpt",
+    "genecompass",
+    "geneformer"
+   ],
    "citation": "Xu, Ping, Zaitian Wang, Zhirui Wang, Pengjiang Li, Jiajia Wang, Ran Zhang, Pengfei Wang et al. \"scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing.\" Proceedings of the AAAI Conference on Artificial Intelligence 40, no. 2 (2026): 1364-1372.",
    "reviewed": false,
    "added": "2026-06-02",
@@ -7259,7 +7317,7 @@
     "https://doi.org/10.1609/aaai.v40i2.37110",
     "https://arxiv.org/abs/2512.02471"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "published"
   },
   {
@@ -7328,13 +7386,23 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.64898/2026.04.01.714123v1"
    },
+   "evaluates": [
+    "cellplm",
+    "scmulan",
+    "nicheformer",
+    "scfoundation",
+    "geneformer",
+    "langcell",
+    "scgpt"
+   ],
+   "findings": "CellPLM leads clustering, annotation and batch correction, scMulan leads perturbation, and PCA leads reconstruction.",
    "citation": "Xu, Yongjie, Yiyun Li, Yue Yuan, Hangyao Tao, Fengjun Hu, and Zelin Zang. \"Task-dependent Performance of Single-cell Foundation Models under Low Supervision.\" bioRxiv (2026).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2026.04.01.714123v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -7486,13 +7554,19 @@
    "links": {
     "paper": "https://dl.acm.org/doi/10.1145/3701551.3708811"
    },
+   "evaluates": [
+    "scfoundation",
+    "geneformer",
+    "scgpt"
+   ],
+   "findings": "scFoundation is consistently best, while Geneformer sometimes falls below the baselines.",
    "citation": "Steiner, Nicolas, Ziteng Li, Omid Vosoughi, Johanna Schrader, Soumyadeep Roy, Wolfgang Nejdl, and Ming Tang. \"A Systematic Evaluation of Single-Cell Foundation Models on Cell-Type Classification Task.\" In Proceedings of the Eighteenth ACM International Conference on Web Search and Data Mining (2025): 1112-1113.",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://dl.acm.org/doi/10.1145/3701551.3708811"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -7577,10 +7651,13 @@
    "links": {
     "paper": "https://www.nature.com/articles/s41592-025-02980-0"
    },
+   "findings": "Across 27 methods and 29 datasets, generalising to unseen contexts calls for better cell-context embeddings.",
    "reviewed": false,
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41592-025-02980-0"
+   ],
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -7618,10 +7695,13 @@
    "links": {
     "paper": "https://www.nature.com/articles/s41467-025-64511-x"
    },
+   "findings": "LLMs annotate major cell types with over 80-90% accuracy, and agreement grows with model size.",
    "reviewed": false,
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41467-025-64511-x"
+   ],
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -7638,13 +7718,19 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2025.01.29.635607v1"
    },
+   "evaluates": [
+    "genept",
+    "scgpt",
+    "geneformer"
+   ],
+   "findings": "The type of training data matters more than how an embedding is built; sequence-based embeddings suit genetic interactions, expression-based ones disease associations.",
    "citation": "Zhong, Jeffrey, Lechuan Li, Ruth Dannenfelser, and Vicky Yao. \"Benchmarking gene embeddings from sequence, expression, network, and text models for functional prediction tasks.\" bioRxiv (2025).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.01.29.635607v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -7679,13 +7765,20 @@
    "links": {
     "paper": "https://doi.org/10.1016/j.patter.2025.101326"
    },
+   "evaluates": [
+    "scgpt",
+    "geneformer",
+    "scfoundation",
+    "scbert"
+   ],
+   "findings": "scGPT is the most robust overall; scBERT lags.",
    "citation": "Qiu, Ping, Qianqian Chen, Hua Qin, Shuangsang Fang, Yilin Zhang, Yanlin Zhang, Tianyi Xia et al. \"BioLLM: A standardized framework for integrating and benchmarking single-cell foundation models.\" Patterns 6, no. 8 (2025): 101326.",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1016/j.patter.2025.101326"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -7702,13 +7795,14 @@
    "links": {
     "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03781-6"
    },
+   "findings": "No single foundation model wins every task; simpler models adapt better under limited resources.",
    "citation": "Wu, Jialu, Qing Ye, Yilin Wang, Renling Hu, Yiheng Zhu, Mingze Yin, Tianyue Wang et al. \"Biology-driven insights into the power of single-cell foundation models.\" Genome Biology 26, no. 1 (2025): 334.",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03781-6"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -7725,13 +7819,20 @@
    "links": {
     "paper": "https://arxiv.org/abs/2506.14861"
    },
+   "evaluates": [
+    "scgpt",
+    "transcriptformer",
+    "geneformer",
+    "uce",
+    "aido-cell"
+   ],
    "citation": "Danziger, Michael M., Bharath Dandala, Viatcheslav Gurev, Matthew Madgwick, Sivan Ravid, Tim Rumbell, Akira Koseki et al. \"BMFM-RNA: whole-cell expression decoding improves transcriptomic foundation models.\" arXiv preprint arXiv:2506.14861 (2025).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2506.14861"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -7789,13 +7890,17 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1"
    },
+   "evaluates": [
+    "scgpt"
+   ],
+   "findings": "Under well-calibrated metrics deep models do beat mean and linear baselines; earlier reports of underperformance came from poorly calibrated metrics such as MSE.",
    "citation": "Miller, Henry E., Gabriel M. Mejia, Francis J. A. Leblanc, Bo Wang, Brendan Swain, and Lucas Paulo de Lima Camillo. \"Deep Learning-Based Genetic Perturbation Models Do Outperform Uninformative Baselines on Well-Calibrated Metrics.\" bioRxiv (2025).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -7811,10 +7916,20 @@
    "links": {
     "paper": "https://www.nature.com/articles/s41592-025-02772-6"
    },
+   "evaluates": [
+    "scfoundation",
+    "scgpt",
+    "uce",
+    "scbert",
+    "geneformer"
+   ],
+   "findings": "None of the five foundation models beat simple linear baselines at predicting perturbation effects.",
    "reviewed": false,
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41592-025-02772-6"
+   ],
+   "review_basis": "paper",
    "status": "published"
   },
   {
@@ -7850,13 +7965,14 @@
    "links": {
     "paper": "https://arxiv.org/abs/2506.22641"
    },
+   "findings": "The mean baseline looks strong because of metric artefacts; DEG-aware metrics remove the effect.",
    "citation": "Mejia, Gabriel M., Henry E. Miller, Francis J. A. Leblanc, Bo Wang, Brendan Swain, and Lucas Paulo de Lima Camillo. \"Diversity by Design: Addressing Mode Collapse Improves scRNA-seq Perturbation Modeling on Well-Calibrated Metrics.\" arXiv preprint arXiv:2506.22641 (2025).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2506.22641"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -7874,13 +7990,14 @@
    "links": {
     "paper": "https://arxiv.org/abs/2511.16954"
    },
+   "findings": "The perturbation discrimination score depends heavily on the distance measure and the effect scale.",
    "citation": "Liu, Qiyuan, Qirui Zhang, Jinhong Du, Siming Zhao, and Jingshu Wang. \"Effects of Distance Metrics and Scaling on the Perturbation Discrimination Score.\" arXiv preprint arXiv:2511.16954 (2025).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2511.16954"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -7897,13 +8014,24 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2025.10.31.685892v1"
    },
+   "evaluates": [
+    "geneformer",
+    "scgpt",
+    "scimilarity",
+    "cellplm",
+    "state",
+    "scconcept",
+    "scfoundation",
+    "nicheformer"
+   ],
+   "findings": "The foundation models annotate tumour-microenvironment cells well but add little for predicting clinical outcomes.",
    "citation": "Roman, Ahmed, Shreya Johri, Riccardo Conci, Eliezer M. Van Allen, and Haitham Elmarakeby. \"Empirical Evaluation of Single-Cell Foundation Models for Predicting Cancer Outcomes.\" bioRxiv (2025).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.10.31.685892v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -7985,13 +8113,14 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2025.11.09.687403v2"
    },
+   "findings": "Tokenizer choice barely matters in-distribution but becomes critical under shift.",
    "citation": "Haber, Ellie, Shahul Alam, Nicholas Ho, Renming Liu, Evan Trop, Shaoheng Liang, Muyu Yang et al. \"HEIMDALL: Disentangling tokenizer design for robust transfer in single-cell foundation models.\" bioRxiv (2025).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.11.09.687403v2"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -8059,6 +8188,7 @@
     "paper": "https://doi.org/10.1038/s41587-025-02702-z",
     "preprint": "https://www.biorxiv.org/content/10.1101/2024.04.02.587824v1"
    },
+   "findings": "A simple MLP tops current embedding metrics while distorting biology; scGraph is proposed to catch this.",
    "citation": "Wang, Hanchen, Jure Leskovec, and Aviv Regev. \"Limitations of cell embedding metrics assessed using drifting islands.\" Nature Biotechnology 44, no. 4 (2025): 574-577.",
    "reviewed": false,
    "added": "2026-06-02",
@@ -8066,7 +8196,7 @@
     "https://doi.org/10.1038/s41587-025-02702-z",
     "https://www.biorxiv.org/content/10.1101/2024.04.02.587824v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -8186,8 +8316,13 @@
    "links": {
     "paper": "https://proceedings.mlr.press/v267/wenteler25a.html"
    },
+   "findings": "Zero-shot foundation-model embeddings give no consistent gain over baselines, especially under distribution shift.",
    "reviewed": false,
    "added": "2026-06-02",
+   "sources": [
+    "https://proceedings.mlr.press/v267/wenteler25a.html"
+   ],
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -8225,6 +8360,7 @@
     "paper": "https://doi.org/10.52202/085713-3225",
     "preprint": "https://arxiv.org/abs/2408.10609"
    },
+   "findings": "No architecture clearly wins; simpler models are competitive and scale well.",
    "citation": "Wu, Yan, Esther Wershof, Sebastian Schmon, Marcel Nassar, Błażej Osiński, Ridvan Eksi, Zichao Yan et al. \"PerturBench: Benchmarking Machine Learning Models for Cellular Perturbation Analysis.\" In Advances in Neural Information Processing Systems 38 (2025): 106937-106977.",
    "reviewed": false,
    "added": "2026-06-02",
@@ -8232,7 +8368,7 @@
     "https://doi.org/10.52202/085713-3225",
     "https://arxiv.org/abs/2408.10609"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -8291,10 +8427,23 @@
    "links": {
     "paper": "https://www.nature.com/articles/s41467-025-67481-2"
    },
+   "evaluates": [
+    "scfoundation",
+    "scgpt",
+    "uce",
+    "cellplm",
+    "scbert",
+    "tgpt",
+    "geneformer",
+    "celllm"
+   ],
+   "findings": "scFoundation is best when data are pooled, UCE when fine-tuned across datasets, and scGPT zero-shot.",
    "reviewed": false,
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41467-025-67481-2"
+   ],
+   "review_basis": "paper",
    "status": "published"
   },
   {
@@ -8377,13 +8526,17 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2025.09.22.677811v1"
    },
+   "evaluates": [
+    "geneformer",
+    "scgpt"
+   ],
    "citation": "Boylan, James, Elizaveta Solovyeva, Theophile Bouiller, Xiong Liu, Sebastian Hoersch, Bulent Ataman, Jeremy Jenkins et al. \"Single Cell Foundation Models Evaluation (scFME) for In-Silico Perturbation.\" bioRxiv (2025).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.09.22.677811v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -8424,13 +8577,19 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2025.10.22.681631v1"
    },
+   "evaluates": [
+    "scgpt",
+    "scfoundation",
+    "geneformer"
+   ],
+   "findings": "The models encode interpretable biological and technical features; steering them can reduce batch effects or mimic drug responses.",
    "citation": "Pedrocchi, Flavia, Florian Barkmann, Amir Joudaki, and Valentina Boeva. \"Sparse Autoencoders Reveal Interpretable Features in Single-Cell Foundation Models.\" bioRxiv (2025).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.10.22.681631v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -8494,10 +8653,16 @@
    "links": {
     "paper": "https://www.nature.com/articles/s41587-025-02777-8"
    },
+   "evaluates": [
+    "scgpt"
+   ],
+   "findings": "Predicting unseen perturbations is harder than standard metrics suggest.",
    "reviewed": false,
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41587-025-02777-8"
+   ],
+   "review_basis": "paper",
    "status": "published"
   },
   {
@@ -8795,13 +8960,18 @@
    "links": {
     "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x"
    },
+   "evaluates": [
+    "scgpt",
+    "geneformer"
+   ],
+   "findings": "Used zero-shot, Geneformer and scGPT can be beaten by simpler methods.",
    "citation": "Kedzierska, Kasia Z., Lorin Crawford, Ava P. Amini, and Alex X. Lu. \"Zero-shot evaluation reveals limitations of single-cell foundation models.\" Genome Biology 26, no. 1 (2025): 101.",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -8817,13 +8987,14 @@
    "links": {
     "paper": "https://doi.org/10.1101/2024.12.20.629581"
    },
+   "findings": "Across ten methods, zero-shot prediction remains the main gap.",
    "citation": "Li, Chen, Haoxiang Gao, Yuli She, Haiyang Bian, Qing Chen, Kai Liu, Lei Wei et al. \"Benchmarking AI Models for In Silico Gene Perturbation of Cells.\" bioRxiv (2024).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2024.12.20.629581"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -8840,13 +9011,20 @@
    "links": {
     "paper": "https://arxiv.org/abs/2410.13956"
    },
+   "evaluates": [
+    "scgpt",
+    "geneformer",
+    "uce",
+    "cellplm"
+   ],
+   "findings": "scVI and PCA beat the foundation models for perturbation analysis.",
    "citation": "Bendidi, Ihab, Shawn Whitfield, Kian Kenyon-Dean, Hanene Ben Yedder, Yassir El Mesbahi, Emmanuel Noutahi, and Alisandra K. Denton. \"Benchmarking Transcriptomics Foundation Models for Perturbation Analysis : one PCA still rules them all.\" arXiv preprint arXiv:2410.13956 (2024).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2410.13956"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -8923,10 +9101,13 @@
    "links": {
     "paper": "https://www.nature.com/articles/s42256-024-00934-3"
    },
+   "findings": "Self-supervision helps mainly in transfer settings; masked autoencoders beat contrastive methods.",
    "reviewed": false,
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s42256-024-00934-3"
+   ],
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -9132,13 +9313,18 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2023.10.19.563100v1"
    },
+   "evaluates": [
+    "scbert",
+    "scgpt"
+   ],
+   "findings": "Simple baselines match scBERT, and fine-tuning is sensitive to hyperparameters and initialisation.",
    "citation": "Boiarsky, Rebecca, Nalini Singh, Alejandro Buendia, Gad Getz, and David Sontag. \"A Deep Dive into Single-Cell RNA Sequencing Foundation Models.\" bioRxiv (2023).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2023.10.19.563100v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -9155,13 +9341,19 @@
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2023.10.24.563625v1"
    },
+   "evaluates": [
+    "scgpt",
+    "scbert",
+    "geneformer"
+   ],
+   "findings": "Rare cell types hurt all three models; random oversampling helps, undersampling does not.",
    "citation": "Alsabbagh, Abdel Rahman, Alberto Maillo Ruiz de Infante, David Gomez-Cabrero, Narsis A. Kiani, Sumeer Ahmad Khan, and Jesper N. Tegnér. \"Foundation Models Meet Imbalanced Single-Cell Data When Learning Cell Type Annotations.\" bioRxiv (2023).",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2023.10.24.563625v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {

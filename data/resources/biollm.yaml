@@ -9,11 +9,17 @@ tags:
 - foundation-model
 links:
   paper: https://doi.org/10.1016/j.patter.2025.101326
+evaluates:
+- scgpt
+- geneformer
+- scfoundation
+- scbert
+findings: scGPT is the most robust overall; scBERT lags.
 citation: 'Qiu, Ping, Qianqian Chen, Hua Qin, Shuangsang Fang, Yilin Zhang, Yanlin Zhang, Tianyi Xia et
   al. "BioLLM: A standardized framework for integrating and benchmarking single-cell foundation models."
   Patterns 6, no. 8 (2025): 101326.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1016/j.patter.2025.101326
-review_basis: metadata
+review_basis: abstract
 reviewed: false

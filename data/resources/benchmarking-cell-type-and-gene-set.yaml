@@ -8,7 +8,9 @@ tags:
 - text
 links:
   paper: https://www.nature.com/articles/s41467-025-64511-x
+findings: LLMs annotate major cell types with over 80-90% accuracy, and agreement grows with model size.
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41467-025-64511-x
+review_basis: abstract
 reviewed: false

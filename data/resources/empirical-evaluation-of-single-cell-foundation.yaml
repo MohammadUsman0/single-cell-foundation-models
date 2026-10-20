@@ -9,10 +9,21 @@ tags:
 - foundation-model
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.10.31.685892v1
+evaluates:
+- geneformer
+- scgpt
+- scimilarity
+- cellplm
+- state
+- scconcept
+- scfoundation
+- nicheformer
+findings: The foundation models annotate tumour-microenvironment cells well but add little for predicting
+  clinical outcomes.
 citation: Roman, Ahmed, Shreya Johri, Riccardo Conci, Eliezer M. Van Allen, and Haitham Elmarakeby. "Empirical
   Evaluation of Single-Cell Foundation Models for Predicting Cancer Outcomes." bioRxiv (2025).
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2025.10.31.685892v1
-review_basis: metadata
+review_basis: paper
 reviewed: false

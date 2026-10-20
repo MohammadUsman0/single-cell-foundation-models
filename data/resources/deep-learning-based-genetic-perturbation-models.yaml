@@ -9,11 +9,15 @@ tags:
 - perturbation
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1
+evaluates:
+- scgpt
+findings: Under well-calibrated metrics deep models do beat mean and linear baselines; earlier reports
+  of underperformance came from poorly calibrated metrics such as MSE.
 citation: Miller, Henry E., Gabriel M. Mejia, Francis J. A. Leblanc, Bo Wang, Brendan Swain, and Lucas
   Paulo de Lima Camillo. "Deep Learning-Based Genetic Perturbation Models Do Outperform Uninformative
   Baselines on Well-Calibrated Metrics." bioRxiv (2025).
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1
-review_basis: metadata
+review_basis: paper
 reviewed: false

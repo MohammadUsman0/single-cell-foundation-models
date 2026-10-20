@@ -9,6 +9,12 @@ tags:
 links:
   paper: https://doi.org/10.1126/sciadv.aed3414
   preprint: https://www.biorxiv.org/content/10.1101/2024.12.23.630036v2
+evaluates:
+- scgpt
+- scfoundation
+- squidiff
+findings: PerturbNet best recovers DE signatures, but no method generalises across cell types; fine-tuned
+  foundation models underestimate synergy.
 citation: 'Li, Lanxiang, Yue You, Yunlin Fu, Wenyu Liao, Xueying Fan, Shihong Lu, Ye Cao et al. "A systematic
   comparison of single-cell perturbation response prediction models." Science Advances 12, no. 37 (2026):
   eaed3414.'
@@ -16,5 +22,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1126/sciadv.aed3414
 - https://www.biorxiv.org/content/10.1101/2024.12.23.630036v2
-review_basis: metadata
+review_basis: paper
 reviewed: false

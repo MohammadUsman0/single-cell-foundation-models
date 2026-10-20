@@ -45,7 +45,7 @@ RETRIES = 4
 TITLE_OK = 0.9                               # below this a title is flagged
 SEARCH_OK = 0.93                             # title-search hits must be at least this close
 FIELD_ORDER = ["id", "kind", "type", "name", "aliases", "title", "year", "venue", "venue_detail", "category",
-               "tags", "modality", "architecture", "task", "key", "links", "evaluates", "model_card",
+               "tags", "modality", "architecture", "task", "key", "links", "evaluates", "findings", "model_card",
                "citation", "reviewed", "review_notes"]
 LINK_ORDER = ["paper", "preprint", "code", "weights", "project", "dataset", "docs", "video"]
 
