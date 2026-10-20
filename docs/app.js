@@ -21,7 +21,8 @@
   const L = { inputs: {}, outputs: {}, architecture_family: {}, code_status: {}, review_basis: {},
               perturbation_type: {}, generalization: {} };
   // model filters for "what it takes / gives / is": [url param, field, heading]
-  const IO = [["in", "inputs", "Takes"], ["out", "outputs", "Gives"], ["fam", "architecture_family", "Architecture"]];
+  const IO = [["in", "inputs", "Takes"], ["out", "outputs", "Gives"], ["fam", "architecture_family", "Architecture"],
+              ["pt", "perturbation_type", "Perturbation type"], ["gen", "generalization", "Generalization"]];
   const asList = (v) => (v == null ? [] : Array.isArray(v) ? v : [v]);
   const lab = (field, v) => L[field][v] || v;
   const app = document.getElementById("app");
@@ -525,6 +526,237 @@
         </div></div>`;
   }
 
+  // ------------------------------------------------------------ insights (charts)
+  // Plain SVG, built from data.json. Every mark links to the matching filtered list,
+  // shows a tooltip on hover/focus, and every chart has a table view.
+
+  const GROUPS = [   // 13 categories folded into 7 families: at most 7 categorical colours
+    ["Perturbation & virtual cell", ["perturbation"]],
+    ["Transcriptomics & atlases", ["scrna", "atlas"]],
+    ["LLM & agents", ["llm", "agents"]],
+    ["Spatial", ["spatial"]],
+    ["Imaging & proteomics", ["morphology", "proteomics"]],
+    ["Multi-omics, epigenomics & regulation", ["multimodal", "epigenomics", "grn", "seq2exp"]],
+    ["Other", ["generative", "other"]],
+  ];
+  const nice = (max) => {
+    const step = [1, 2, 5, 10, 20, 25, 50, 100].find((x) => max / x <= 5) || 100;
+    return { top: Math.ceil(max / step) * step || step, step };
+  };
+  // 4px rounded data-end, square at the baseline
+  const roundTop = (x, y, w, h, r) => { r = Math.min(r, w / 2, h);
+    return `M${x},${y + h}V${y + r}Q${x},${y} ${x + r},${y}H${x + w - r}Q${x + w},${y} ${x + w},${y + r}V${y + h}Z`; };
+  const roundRight = (x, y, w, h, r) => { r = Math.min(r, h / 2, w);
+    return `M${x},${y}H${x + w - r}Q${x + w},${y} ${x + w},${y + r}V${y + h - r}Q${x + w},${y + h} ${x + w - r},${y + h}H${x}Z`; };
+  const hit = (href, tip, inner) => `<g class="hit" tabindex="0" role="link" data-href="${esc(href)}" data-tip="${esc(tip)}"
+    aria-label="${esc(tip.replace(/<[^>]+>/g, " "))}">${inner}</g>`;
+  const chartTable = (head, rows) => `<details><summary>Table view</summary><div class="table-wrap"><table>
+      <thead><tr>${head.map((h) => `<th scope="col">${esc(h)}</th>`).join("")}</tr></thead>
+      <tbody>${rows.map((r) => `<tr>${r.map((c) => `<td>${esc(c)}</td>`).join("")}</tr>`).join("")}</tbody></table></div></details>`;
+
+  function stackedColumns(el, { cats, series, href, tip, capLabel, yFmt = (v) => v, max }) {
+    const W = Math.max(el.clientWidth, 300), H = 240, m = { l: 40, r: 8, t: 20, b: 26 };
+    const pw = W - m.l - m.r, ph = H - m.t - m.b;
+    const totals = cats.map((_, i) => series.reduce((a, s) => a + s.values[i], 0));
+    const { top, step } = nice(max ?? Math.max(...totals, 1));
+    const y = (v) => m.t + ph - (v / top) * ph, band = pw / cats.length, bw = Math.min(24, band * 0.6);
+    let g = "";
+    for (let v = 0; v <= top; v += step) {
+      g += `<line class="${v ? "gridline" : "baseline"}" x1="${m.l}" x2="${W - m.r}" y1="${y(v)}" y2="${y(v)}"/>
+            <text class="tick" x="${m.l - 6}" y="${y(v) + 4}" text-anchor="end">${yFmt(v)}</text>`;
+    }
+    cats.forEach((c, i) => {
+      const x = m.l + band * i + (band - bw) / 2;
+      const live = series.filter((s) => s.values[i] > 0), last = live[live.length - 1];
+      let base = 0;
+      for (const s of live) {
+        const v = s.values[i], y1 = y(base + v), h = y(base) - y1;
+        const seg = Math.max(h - (base > 0 ? 2 : 0), 1);   // 2px surface gap between stacked segments
+        const d = s === last ? roundTop(x, y1, bw, seg, 4) : `M${x},${y1}h${bw}v${seg}h${-bw}Z`;
+        g += hit(href(i, s), tip(i, s), `<path d="${d}" style="fill:${s.color}"/>
+             <rect x="${x - 6}" y="${y1}" width="${bw + 12}" height="${Math.max(h, 8)}" fill="transparent"/>`);
+        base += v;
+      }
+      g += `<text class="val" x="${x + bw / 2}" y="${y(totals[i]) - 6}" text-anchor="middle">${capLabel ? capLabel(i) : totals[i]}</text>
+            <text x="${x + bw / 2}" y="${H - 8}" text-anchor="middle">${esc(c)}</text>`;
+    });
+    el.innerHTML = `<svg width="${W}" height="${H}" role="img">${g}</svg>`;
+  }
+
+  function hbars(el, { items, href, tip }) {   // items: [[label, value]]
+    const W = Math.max(el.clientWidth, 300), row = 26, m = { l: 168, r: 36, t: 4 };
+    const H = m.t + items.length * row + 4, max = Math.max(...items.map((x) => x[1]), 1);
+    const x = (v) => (v / max) * (W - m.l - m.r);
+    let g = `<line class="baseline" x1="${m.l}" x2="${m.l}" y1="${m.t}" y2="${H - 4}"/>`;
+    items.forEach(([label, v], i) => {
+      const yy = m.t + i * row + 5;
+      g += hit(href(i), tip(i), `<path d="${roundRight(m.l, yy, Math.max(x(v), 2), 16, 4)}" style="fill:var(--s1)"/>
+           <rect x="0" y="${yy - 4}" width="${W}" height="${row}" fill="transparent"/>`) +
+        `<text x="${m.l - 8}" y="${yy + 12}" text-anchor="end">${esc(label)}</text>
+         <text class="val" x="${m.l + x(v) + 6}" y="${yy + 12}">${v}</text>`;
+    });
+    el.innerHTML = `<svg width="${W}" height="${H}" role="img">${g}</svg>`;
+  }
+
+  function heatmap(el, { rows, cols, value, href, tip }) {   // rows/cols: [[id, label]]
+    const cell = 34, labelW = 158, headH = 116;
+    const W = labelW + cols.length * cell + 90, H = headH + rows.length * cell + 4;   // right margin for rotated labels
+    const max = Math.max(1, ...rows.flatMap(([r]) => cols.map(([c]) => value(r, c))));
+    let g = "";
+    cols.forEach(([, label], j) => {
+      const cx = labelW + j * cell + cell / 2;
+      g += `<text x="${cx}" y="${headH - 8}" transform="rotate(-50 ${cx} ${headH - 8})">${esc(label)}</text>`;
+    });
+    rows.forEach(([r, label], i) => {
+      const yy = headH + i * cell;
+      g += `<text x="${labelW - 8}" y="${yy + cell / 2 + 4}" text-anchor="end">${esc(label)}</text>`;
+      cols.forEach(([c], j) => {
+        const v = value(r, c), xx = labelW + j * cell;
+        if (!v) {
+          g += `<rect x="${xx + 1}" y="${yy + 1}" width="${cell - 2}" height="${cell - 2}" rx="4" fill="none" class="gridline"/>`;
+          return;
+        }
+        const k = Math.min(6, Math.ceil((v / max) * 6));   // sequential step, light (few) to dark (many)
+        g += hit(href(r, c), tip(r, c, v), `<rect x="${xx + 1}" y="${yy + 1}" width="${cell - 2}" height="${cell - 2}" rx="4" style="fill:var(--q${k})"/>
+             <text x="${xx + cell / 2}" y="${yy + cell / 2 + 4}" text-anchor="middle" style="fill:var(--qt${k});font-size:11.5px">${v}</text>`);
+      });
+    });
+    el.innerHTML = `<svg width="${W}" height="${H}" role="img">${g}</svg>`;
+  }
+
+  const scaleLegend = (max) => `<div class="legend"><span>Fewer</span>${[0, 1, 2, 3, 4, 5, 6]
+    .map((k) => `<i style="background:var(--q${k})"></i>`).join("")}<span>More (max ${max})</span></div>`;
+  const seriesLegend = (series) => `<div class="legend">${series
+    .map((s) => `<span><i style="background:${s.color}"></i>${esc(s.name)}</span>`).join("")}</div>`;
+
+  let insightsRedraw = null;
+
+  function renderInsights() {
+    const ms = DATA.models;
+    const years = [...new Set(ms.map((m) => m.year).filter(Boolean))].sort();
+    const yLabel = (y) => (y === new Date().getFullYear() ? `${y} (so far)` : String(y));
+    const hasCode = (m) => !!(m.links || {}).code;
+
+    // 1. models per year, by family of categories
+    const fam = GROUPS.map(([name, cats], k) => ({ name, cats, color: `var(--s${k + 1})`,
+      values: years.map((y) => ms.filter((m) => m.year === y && cats.includes(m.category)).length) }));
+    const biggest = [...fam].sort((a, b) => b.values.reduce((x, y) => x + y) - a.values.reduce((x, y) => x + y))[0];
+    // 2. inputs x outputs; architecture families
+    const ins = DATA.vocab.inputs.map((x) => [x.id, x.label]), outs = DATA.vocab.outputs.map((x) => [x.id, x.label]);
+    const io = (a, b) => ms.filter((m) => asList(m.inputs).includes(a) && asList(m.outputs).includes(b)).length;
+    const arch = DATA.vocab.architecture_families
+      .map((f) => [f.id, f.label, ms.filter((m) => m.architecture_family === f.id).length])
+      .filter((x) => x[2]).sort((a, b) => b[2] - a[2]);
+    // 3. perturbation type x generalization
+    const pts = DATA.vocab.perturbation_types.map((x) => [x.id, x.label]);
+    const gens = DATA.vocab.generalization.map((x) => [x.id, x.label]);
+    const pg = (a, b) => ms.filter((m) => asList(m.perturbation_type).includes(a) && asList(m.generalization).includes(b)).length;
+    // 4. openness
+    const perYear = years.map((y) => ms.filter((m) => m.year === y));
+    const codeN = perYear.map((g) => g.filter(hasCode).length);
+    const codeShare = perYear.map((g, i) => (g.length ? Math.round((100 * codeN[i]) / g.length) : 0));
+    const pub = [["Published", "published", "var(--s1)"], ["Preprint", "preprint", "var(--s2)"]]
+      .map(([name, status, color]) => ({ name, status, color, values: perYear.map((g) => g.filter((m) => m.status === status).length) }));
+    const noStatus = ms.filter((m) => m.status !== "published" && m.status !== "preprint").length;
+    const ioMax = Math.max(...ins.flatMap(([a]) => outs.map(([b]) => io(a, b))));
+    const pgMax = Math.max(...pts.flatMap(([a]) => gens.map(([b]) => pg(a, b))));
+
+    app.innerHTML = `
+      <div class="insights">
+        <p class="insights-intro">Built from the catalogue data and updated with it. Click any bar or cell to open the
+          matching models. Inputs, outputs and architecture come from each paper's abstract and are recorded only where stated.</p>
+        <section class="chart-card"><h2>The field over time</h2>
+          <p class="sub">${ms.length} models by year of first appearance; ${esc(biggest.name.toLowerCase())} is the largest family.</p>
+          ${seriesLegend(fam)}<div class="chart" id="c-years"></div>
+          ${chartTable(["Family", ...years.map(yLabel)], fam.map((s) => [s.name, ...s.values]))}</section>
+        <section class="chart-card"><h2>What goes in, what comes out</h2>
+          <p class="sub">Models that take each input (rows) and give each output (columns). A model with several inputs
+            or outputs counts in several cells.</p>
+          ${scaleLegend(ioMax)}<div class="chart" id="c-io"></div>
+          ${chartTable(["Input / output", ...outs.map((o) => o[1])], ins.map(([a, l]) => [l, ...outs.map(([b]) => io(a, b))]))}</section>
+        <div class="chart-row">
+          <section class="chart-card"><h2>Architectures</h2>
+            <p class="sub">Architecture family where the paper states it
+              (${ms.filter((m) => m.architecture_family).length} of ${ms.length} models).</p>
+            <div class="chart" id="c-fam"></div>
+            ${chartTable(["Architecture family", "Models"], arch.map((f) => [f[1], f[2]]))}</section>
+          <section class="chart-card"><h2>Perturbation landscape</h2>
+            <p class="sub">Perturbation type against the generalization the paper reports
+              (${ms.filter((m) => asList(m.perturbation_type).length).length} models state a perturbation type).</p>
+            ${scaleLegend(pgMax)}<div class="chart" id="c-pert"></div>
+            ${chartTable(["Type / generalization", ...gens.map((g) => g[1])], pts.map(([a, l]) => [l, ...gens.map(([b]) => pg(a, b))]))}</section>
+        </div>
+        <div class="chart-row">
+          <section class="chart-card"><h2>Code availability</h2>
+            <p class="sub">Share of models with a public code link, by year.</p>
+            <div class="chart" id="c-code"></div>
+            ${chartTable(["Year", "Models", "With code", "Share"],
+              years.map((y, i) => [yLabel(y), perYear[i].length, codeN[i], codeShare[i] + "%"]))}</section>
+          <section class="chart-card"><h2>Published or preprint</h2>
+            <p class="sub">Models by year and publication status${noStatus ? `; ${noStatus} model${noStatus > 1 ? "s" : ""} without a venue not shown` : ""}.</p>
+            ${seriesLegend(pub)}<div class="chart" id="c-pub"></div>
+            ${chartTable(["Year", "Published", "Preprint"], years.map((y, i) => [yLabel(y), pub[0].values[i], pub[1].values[i]]))}</section>
+        </div>
+      </div>`;
+
+    insightsRedraw = () => {
+      const $ = (id) => app.querySelector(id);
+      if (!$("#c-years")) return;
+      stackedColumns($("#c-years"), { cats: years.map(yLabel), series: fam,
+        href: (i, s) => `#/models?cat=${s.cats.join(",")}&y0=${years[i]}&y1=${years[i]}`,
+        tip: (i, s) => `<b>${esc(s.name)}</b><br>${yLabel(years[i])}: ${s.values[i]} models` });
+      heatmap($("#c-io"), { rows: ins, cols: outs, value: io, href: (a, b) => `#/models?in=${a}&out=${b}`,
+        tip: (a, b, v) => `<b>${v} models</b><br>take ${esc(lab("inputs", a))}<br>give ${esc(lab("outputs", b))}` });
+      hbars($("#c-fam"), { items: arch.map((f) => [f[1], f[2]]), href: (i) => `#/models?fam=${arch[i][0]}`,
+        tip: (i) => `<b>${esc(arch[i][1])}</b><br>${arch[i][2]} models` });
+      heatmap($("#c-pert"), { rows: pts, cols: gens, value: pg, href: (a, b) => `#/models?pt=${a}&gen=${b}`,
+        tip: (a, b, v) => `<b>${v} models</b><br>${esc(lab("perturbation_type", a))} perturbations<br>${esc(lab("generalization", b))}` });
+      stackedColumns($("#c-code"), { cats: years.map((y, i) => `${y} · n=${perYear[i].length}`), max: 100, yFmt: (v) => v + "%",
+        series: [{ name: "With code", color: "var(--s1)", values: codeShare }], capLabel: (i) => codeShare[i] + "%",
+        href: (i) => `#/models?code=1&y0=${years[i]}&y1=${years[i]}`,
+        tip: (i) => `<b>${yLabel(years[i])}</b><br>${codeN[i]} of ${perYear[i].length} models have code (${codeShare[i]}%)` });
+      stackedColumns($("#c-pub"), { cats: years.map(yLabel), series: pub,
+        href: (i, s) => `#/models?st=${s.status}&y0=${years[i]}&y1=${years[i]}`,
+        tip: (i, s) => `<b>${s.name}</b><br>${yLabel(years[i])}: ${s.values[i]} models` });
+    };
+    insightsRedraw();
+  }
+
+  // One tooltip for all charts: hover or keyboard focus shows it; click or Enter opens the filtered list.
+  const tipEl = Object.assign(document.createElement("div"), { className: "viz-tip" });
+  tipEl.setAttribute("role", "tooltip");
+  document.body.appendChild(tipEl);
+  const showTip = (t, x, y) => {
+    tipEl.innerHTML = t.dataset.tip;
+    tipEl.style.display = "block";
+    const r = tipEl.getBoundingClientRect();
+    tipEl.style.left = Math.max(8, Math.min(x + 14, innerWidth - r.width - 8)) + "px";
+    tipEl.style.top = Math.max(8, y - r.height - 12) + "px";
+  };
+  app.addEventListener("mousemove", (ev) => {
+    const t = ev.target.closest("[data-tip]");
+    if (t) showTip(t, ev.clientX, ev.clientY); else tipEl.style.display = "none";
+  });
+  app.addEventListener("mouseleave", () => { tipEl.style.display = "none"; });
+  app.addEventListener("focusin", (ev) => {
+    const t = ev.target.closest("[data-tip]");
+    if (t) { const r = t.getBoundingClientRect(); showTip(t, r.left + r.width / 2, r.top); }
+  });
+  app.addEventListener("focusout", () => { tipEl.style.display = "none"; });
+  app.addEventListener("click", (ev) => {
+    const t = ev.target.closest("[data-href]");
+    if (t) { tipEl.style.display = "none"; location.hash = t.dataset.href; }
+  });
+  app.addEventListener("keydown", (ev) => {
+    const t = ev.target.closest("[data-href]");
+    if (t && (ev.key === "Enter" || ev.key === " ")) { ev.preventDefault(); location.hash = t.dataset.href; }
+  });
+  let resizeTimer;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => { if (parseHash().route === "insights" && insightsRedraw) insightsRedraw(); }, 150);
+  });
+
   // ------------------------------------------------------------ router
 
   function render() {
@@ -536,6 +768,11 @@
     });
     if (route === "model" || route === "resource") {
       renderDetail(route, id);
+      return;
+    }
+    if (route === "insights") {
+      document.title = "Insights · Single-Cell Foundation Models";
+      renderInsights();
       return;
     }
     const kind = route === "resources" ? "resources" : "models";
