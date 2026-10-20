@@ -1,8 +1,9 @@
 id: human-cell-atlas
 kind: resource
 type: dataset
-title: 'Human Cell Atlas: International atlas of human cells and tissues [[portal](https://data.humancellatlas.org/)]
-  [[paper](https://www.nature.'
+title: 'Human Cell Atlas: International atlas of human cells and tissues'
+tags:
+- scrna-seq
 links:
   paper: https://data.humancellatlas.org/
 reviewed: false

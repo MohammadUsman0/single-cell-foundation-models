@@ -1159,6 +1159,10 @@
    "year": 2026,
    "venue": "Nature",
    "category": "atlas",
+   "tags": [
+    "scrna-seq",
+    "cross-species"
+   ],
    "links": {
     "paper": "https://doi.org/10.1038/s41586-026-10689-z",
     "preprint": "https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2",
@@ -2344,9 +2348,8 @@
    "title": "A Perturbation Proteomics-Based Foundation Model for Virtual Cell Construction",
    "year": 2025,
    "venue": "bioRxiv",
-   "category": "scrna",
+   "category": "proteomics",
    "tags": [
-    "scrna-seq",
     "proteomics",
     "perturbation",
     "virtual-cell"
@@ -2680,7 +2683,12 @@
    "title": "scPRINT-2: Towards the next-generation of cell foundation models and benchmarks",
    "year": 2025,
    "venue": "bioRxiv",
-   "category": "other",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "cross-species",
+    "generative"
+   ],
    "task": "expression denoising, cell embedding, and cell type prediction",
    "key": "Successor to scPRINT, pre-trained on 350M cells from 16 organisms with design choices picked by an additive benchmark; also generative.",
    "links": {
@@ -3336,11 +3344,10 @@
    "title": "ProCyon: A multimodal foundation model for protein phenotypes",
    "year": 2024,
    "venue": "bioRxiv",
-   "category": "scrna",
+   "category": "proteomics",
    "tags": [
-    "scrna-seq",
     "proteomics",
-    "multi-omics"
+    "text"
    ],
    "links": {
     "paper": "https://doi.org/10.1101/2024.12.10.627665",
@@ -3903,6 +3910,9 @@
    "year": 2023,
    "venue": "Nature Methods",
    "category": "atlas",
+   "tags": [
+    "scrna-seq"
+   ],
    "modality": "Single-cell datasets",
    "key": "Population-level integration, multi-scale analysis",
    "links": {
@@ -4100,6 +4110,10 @@
    "year": 2026,
    "venue": "bioRxiv",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://www.biorxiv.org/content/10.64898/2026.01.06.698060v1"
    },
@@ -4168,6 +4182,10 @@
    "year": 2026,
    "venue": "Nature Methods",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://doi.org/10.1038/s41592-026-03120-y",
     "preprint": "https://www.biorxiv.org/content/10.1101/2024.12.13.628448v1"
@@ -4182,6 +4200,10 @@
    "year": 2026,
    "venue": "Advanced Science",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://doi.org/10.1002/advs.202514490",
     "preprint": "https://doi.org/10.1101/2023.09.08.555192"
@@ -4272,6 +4294,9 @@
    "year": 2026,
    "venue": "Nature Biotechnology",
    "type": "perspective",
+   "tags": [
+    "virtual-cell"
+   ],
    "links": {
     "paper": "https://doi.org/10.1038/s41587-026-03110-7"
    },
@@ -4363,6 +4388,10 @@
    "year": 2026,
    "venue": "bioRxiv",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "key": "Benchmark evaluating single-cell foundation models under low-supervision (limited-label) scenarios.",
    "links": {
     "paper": "https://www.biorxiv.org/content/10.64898/2026.04.01.714123v1"
@@ -4395,6 +4424,9 @@
    "year": 2026,
    "venue": "Nature Methods",
    "type": "reference",
+   "tags": [
+    "virtual-cell"
+   ],
    "links": {
     "paper": "https://doi.org/10.1038/s41592-026-03055-4"
    },
@@ -4460,6 +4492,10 @@
    "year": 2025,
    "venue": "WSDM",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://dl.acm.org/doi/10.1145/3701551.3708811"
    },
@@ -4509,6 +4545,10 @@
    "year": 2025,
    "venue": "bioRxiv",
    "type": "reference",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://doi.org/10.64898/2025.12.19.695371"
    },
@@ -4605,6 +4645,10 @@
    "year": 2025,
    "venue": "Patterns",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://doi.org/10.1016/j.patter.2025.101326"
    },
@@ -4618,6 +4662,10 @@
    "year": 2025,
    "venue": "Genome Biology",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03781-6"
    },
@@ -4714,6 +4762,9 @@
    "year": 2025,
    "venue": "Nature Biotechnology",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq"
+   ],
    "links": {
     "paper": "https://www.nature.com/articles/s41587-025-02694-w"
    },
@@ -4763,6 +4814,10 @@
    "year": 2025,
    "venue": "bioRxiv",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2025.10.31.685892v1"
    },
@@ -4776,6 +4831,9 @@
    "year": 2025,
    "venue": "National Science Review",
    "type": "survey",
+   "tags": [
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://doi.org/10.1093/nsr/nwaf028"
    },
@@ -4824,6 +4882,10 @@
    "year": 2025,
    "venue": "bioRxiv",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "key": "Modular tokenization framework for scFMs.",
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2025.11.09.687403v2"
@@ -4878,6 +4940,9 @@
    "year": 2025,
    "venue": "Nature Biotechnology",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq"
+   ],
    "links": {
     "paper": "https://doi.org/10.1038/s41587-025-02702-z",
     "preprint": "https://www.biorxiv.org/content/10.1101/2024.04.02.587824v1"
@@ -5075,6 +5140,9 @@
    "year": 2025,
    "venue": "Nature Methods",
    "type": "tool",
+   "tags": [
+    "scrna-seq"
+   ],
    "links": {
     "paper": "https://doi.org/10.1038/s41592-025-02799-9"
    },
@@ -5126,6 +5194,10 @@
    "year": 2025,
    "venue": "Experimental & Molecular Medicine",
    "type": "survey",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://doi.org/10.1038/s12276-025-01547-5"
    },
@@ -5140,6 +5212,10 @@
    "year": 2025,
    "venue": "bioRxiv",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "key": "Interpretability via sparse autoencoders.",
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2025.10.22.681631v1"
@@ -5221,6 +5297,10 @@
    "year": 2025,
    "venue": "arXiv",
    "type": "reference",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://arxiv.org/abs/2509.14723"
    },
@@ -5408,6 +5488,10 @@
    "year": 2025,
    "venue": "Genome Biology",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x"
    },
@@ -5484,6 +5568,9 @@
    "year": 2024,
    "venue": "Nucleic Acids Research",
    "type": "dataset",
+   "tags": [
+    "scrna-seq"
+   ],
    "links": {
     "paper": "https://doi.org/10.1093/nar/gkae1142"
    },
@@ -5497,6 +5584,9 @@
    "year": 2024,
    "venue": "Nature Machine Intelligence",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq"
+   ],
    "links": {
     "paper": "https://www.nature.com/articles/s42256-024-00934-3"
    },
@@ -5526,6 +5616,10 @@
    "year": 2024,
    "venue": "Nature Reviews Molecular Cell Biology",
    "type": "survey",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://www.nature.com/articles/s41580-024-00756-6"
    },
@@ -5593,6 +5687,10 @@
    "year": 2024,
    "venue": "Nature",
    "type": "perspective",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://www.nature.com/articles/s41586-024-08338-4"
    },
@@ -5639,6 +5737,10 @@
    "year": 2024,
    "venue": "Nature Methods",
    "type": "survey",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://www.nature.com/articles/s41592-024-02353-z"
    },
@@ -5668,6 +5770,10 @@
    "year": 2023,
    "venue": "bioRxiv",
    "type": "benchmark",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
    "links": {
     "paper": "https://www.biorxiv.org/content/10.1101/2023.10.24.563625v1"
    },
@@ -5729,6 +5835,10 @@
    "year": 2017,
    "venue": "Cell",
    "type": "dataset",
+   "tags": [
+    "perturbation",
+    "drug-response"
+   ],
    "links": {
     "paper": "https://doi.org/10.1016/j.cell.2017.10.049"
    },
@@ -5754,7 +5864,7 @@
   {
    "id": "10x-genomics-spatial-datasets-visium-xenium",
    "kind": "resource",
-   "title": "10x Genomics spatial datasets: Visium, Xenium, and related public spatial transcriptomics example datasets [[datasets](https://www.10xgenomics.com/data",
+   "title": "10x Genomics spatial datasets: Visium, Xenium, and related public spatial transcriptomics example datasets",
    "type": "dataset",
    "tags": [
     "spatial",
@@ -5769,7 +5879,7 @@
   {
    "id": "arc-virtual-cell-atlas-large-scale",
    "kind": "resource",
-   "title": "Arc Virtual Cell Atlas: Large-scale perturbation atlas and codebase from Arc Institute [[resource](https://arcinstitute.org/tools/virtualcellatl",
+   "title": "Arc Virtual Cell Atlas: Large-scale perturbation atlas and codebase from Arc Institute",
    "type": "dataset",
    "tags": [
     "perturbation",
@@ -5784,7 +5894,7 @@
   {
    "id": "bindingdb",
    "kind": "resource",
-   "title": "BindingDB: Protein-small molecule binding affinity knowledgebase [[resource](https://www.bindingdb.org/)] [[paper](https://academic",
+   "title": "BindingDB: Protein-small molecule binding affinity knowledgebase",
    "type": "dataset",
    "tags": [
     "proteomics"
@@ -5798,7 +5908,7 @@
   {
    "id": "cell-painting-gallery",
    "kind": "resource",
-   "title": "Cell Painting Gallery: Public high-content cell painting datasets from Broad and partners [[dataset](https://registry.opendata.aws/cellpainting",
+   "title": "Cell Painting Gallery: Public high-content cell painting datasets from Broad and partners",
    "type": "dataset",
    "tags": [
     "imaging"
@@ -5812,7 +5922,7 @@
   {
    "id": "chembl",
    "kind": "resource",
-   "title": "ChEMBL: Drug-like molecules, bioactivities, targets, and assays [[resource](https://www.ebi.ac.uk/chembl/)] [[paper](https://aca",
+   "title": "ChEMBL: Drug-like molecules, bioactivities, targets, and assays",
    "type": "dataset",
    "tags": [
     "drug-response"
@@ -5826,7 +5936,7 @@
   {
    "id": "depmap-ccle-prism",
    "kind": "resource",
-   "title": "DepMap/CCLE/PRISM: Cancer dependency, molecular profile, and drug-response resources for cell-line perturbation modeling [[resource](https:",
+   "title": "DepMap/CCLE/PRISM: Cancer dependency, molecular profile, and drug-response resources for cell-line perturbation modeling",
    "type": "dataset",
    "tags": [
     "perturbation",
@@ -5841,7 +5951,7 @@
   {
    "id": "gtex",
    "kind": "resource",
-   "title": "GTEx: Genotype-Tissue Expression project for human tissue expression baselines [[portal](https://gtexportal.org/)] [[overview]",
+   "title": "GTEx: Genotype-Tissue Expression project for human tissue expression baselines",
    "type": "dataset",
    "links": {
     "paper": "https://gtexportal.org/"
@@ -5852,8 +5962,11 @@
   {
    "id": "human-biomolecular-atlas-program-hubmap-healthy",
    "kind": "resource",
-   "title": "Human BioMolecular Atlas Program: HuBMAP healthy human tissue atlas and common coordinate framework [[portal](https://hubmapconsortium.org/)] [[paper](htt",
+   "title": "Human BioMolecular Atlas Program: HuBMAP healthy human tissue atlas and common coordinate framework",
    "type": "dataset",
+   "tags": [
+    "spatial"
+   ],
    "links": {
     "paper": "https://hubmapconsortium.org/"
    },
@@ -5863,8 +5976,11 @@
   {
    "id": "human-cell-atlas",
    "kind": "resource",
-   "title": "Human Cell Atlas: International atlas of human cells and tissues [[portal](https://data.humancellatlas.org/)] [[paper](https://www.nature.",
+   "title": "Human Cell Atlas: International atlas of human cells and tissues",
    "type": "dataset",
+   "tags": [
+    "scrna-seq"
+   ],
    "links": {
     "paper": "https://data.humancellatlas.org/"
    },
@@ -5874,7 +5990,7 @@
   {
    "id": "human-protein-atlas",
    "kind": "resource",
-   "title": "Human Protein Atlas: Subcellular and tissue protein expression atlases [[resource](https://www.proteinatlas.org/)] [[subcellular](https://www",
+   "title": "Human Protein Atlas: Subcellular and tissue protein expression atlases",
    "type": "dataset",
    "tags": [
     "proteomics"
@@ -5888,7 +6004,7 @@
   {
    "id": "omnipath",
    "kind": "resource",
-   "title": "OmniPath: Signaling, ligand-receptor, and causal network priors for multi-omics analysis [[resource](https://omnipathdb.org/)] [[p",
+   "title": "OmniPath: Signaling, ligand-receptor, and causal network priors for multi-omics analysis",
    "type": "dataset",
    "tags": [
     "multi-omics"
@@ -5902,7 +6018,7 @@
   {
    "id": "perturb-seq-datasets",
    "kind": "resource",
-   "title": "Perturb-seq datasets: Genome-scale and combinatorial Perturb-seq datasets from Replogle, Norman, Dixit, Adamson, and related screens [[overvie",
+   "title": "Perturb-seq datasets: Genome-scale and combinatorial Perturb-seq datasets from Replogle, Norman, Dixit, Adamson, and related screens",
    "type": "dataset",
    "tags": [
     "perturbation"
@@ -5916,7 +6032,7 @@
   {
    "id": "pubchem",
    "kind": "resource",
-   "title": "PubChem: Compound identifiers, structures, assays, and bioactivity records [[resource](https://pubchem.ncbi.nlm.nih.gov/)] [[pape",
+   "title": "PubChem: Compound identifiers, structures, assays, and bioactivity records",
    "type": "dataset",
    "tags": [
     "drug-response"
@@ -5930,7 +6046,7 @@
   {
    "id": "rxrx",
    "kind": "resource",
-   "title": "RxRx: Recursion high-content cellular imaging datasets for perturbation and batch-correction research [[datasets](https://www.",
+   "title": "RxRx: Recursion high-content cellular imaging datasets for perturbation and batch-correction research",
    "type": "dataset",
    "tags": [
     "imaging",
@@ -5945,7 +6061,7 @@
   {
    "id": "string",
    "kind": "resource",
-   "title": "STRING: Protein functional association and interaction networks [[resource](https://string-db.org/)] [[paper](https://academic.o",
+   "title": "STRING: Protein functional association and interaction networks",
    "type": "dataset",
    "tags": [
     "proteomics"
@@ -5972,7 +6088,7 @@
   {
    "id": "virtual-cell-challenge",
    "kind": "resource",
-   "title": "Virtual Cell Challenge: Community perturbation-prediction challenge and hidden evaluation resources [[homepage](https://virtualcellchallenge.org",
+   "title": "Virtual Cell Challenge: Community perturbation-prediction challenge and hidden evaluation resources",
    "type": "dataset",
    "tags": [
     "perturbation",
@@ -5987,7 +6103,7 @@
   {
    "id": "vizgen-merfish-datasets",
    "kind": "resource",
-   "title": "Vizgen MERFISH datasets: Public MERFISH example datasets for spatial transcriptomics [[datasets](https://vizgen.com/data-release-program/)]",
+   "title": "Vizgen MERFISH datasets: Public MERFISH example datasets for spatial transcriptomics",
    "type": "dataset",
    "tags": [
     "spatial",

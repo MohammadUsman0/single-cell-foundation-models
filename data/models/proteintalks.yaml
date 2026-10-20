@@ -4,9 +4,8 @@ name: ProteinTalks
 title: A Perturbation Proteomics-Based Foundation Model for Virtual Cell Construction
 year: 2025
 venue: bioRxiv
-category: scrna
+category: proteomics
 tags:
-- scrna-seq
 - proteomics
 - perturbation
 - virtual-cell

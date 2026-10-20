@@ -4,6 +4,9 @@ type: benchmark
 title: Evaluating the utilities of foundation models in single-cell data analysis
 year: 2026
 venue: Advanced Science
+tags:
+- scrna-seq
+- foundation-model
 links:
   paper: https://doi.org/10.1002/advs.202514490
   preprint: https://doi.org/10.1101/2023.09.08.555192

@@ -1,8 +1,7 @@
 id: chembl
 kind: resource
 type: dataset
-title: 'ChEMBL: Drug-like molecules, bioactivities, targets, and assays [[resource](https://www.ebi.ac.uk/chembl/)]
-  [[paper](https://aca'
+title: 'ChEMBL: Drug-like molecules, bioactivities, targets, and assays'
 tags:
 - drug-response
 links:

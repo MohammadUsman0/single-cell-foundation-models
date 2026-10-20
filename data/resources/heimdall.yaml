@@ -4,6 +4,9 @@ type: benchmark
 title: 'HEIMDALL: Disentangling tokenizer design for robust transfer in single-cell foundation models'
 year: 2025
 venue: bioRxiv
+tags:
+- scrna-seq
+- foundation-model
 key: Modular tokenization framework for scFMs.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.11.09.687403v2

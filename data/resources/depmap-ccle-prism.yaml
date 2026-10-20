@@ -2,7 +2,7 @@ id: depmap-ccle-prism
 kind: resource
 type: dataset
 title: 'DepMap/CCLE/PRISM: Cancer dependency, molecular profile, and drug-response resources for cell-line
-  perturbation modeling [[resource](https:'
+  perturbation modeling'
 tags:
 - perturbation
 - drug-response

@@ -4,6 +4,8 @@ type: benchmark
 title: Defining and benchmarking open problems in single-cell analysis
 year: 2025
 venue: Nature Biotechnology
+tags:
+- scrna-seq
 links:
   paper: https://www.nature.com/articles/s41587-025-02694-w
 reviewed: false
