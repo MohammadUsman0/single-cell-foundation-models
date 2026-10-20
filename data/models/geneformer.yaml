@@ -1,6 +1,6 @@
 id: geneformer
 kind: model
-name: GeneFormer
+name: Geneformer
 title: Transfer learning enables predictions in network biology
 year: 2023
 venue: Nature

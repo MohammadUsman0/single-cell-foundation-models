@@ -13,6 +13,7 @@ task: Scaling to 3 Billion Parameters, gene essentiality, cancer hallmarks, cell
 key: Tx1 jointly learns representations of genes, cells, and compounds using a masked-expression generative
   objective that incorporates a drug token, enabling flexible adaptation to diverse downstream applications
 links:
+  paper: https://doi.org/10.1101/2025.10.23.683759
   code: https://github.com/tahoebio/tahoe-x1
 citation: 'Gandhi, Shreshth, Farnoosh Javadi, Valentine Svensson, Umair Khan, Matthew G. Jones, John Yu,
   Daniele Merico, Hani Goodarzi, and Nima Alidoust. "Tahoe-x1: Scaling Perturbation-Trained Single-Cell

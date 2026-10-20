@@ -1,16 +1,20 @@
 id: scmae
 kind: model
-name: scMAE
+name: cyMAE
 aliases:
+- scMAE
 - Single-cell Masked Autoencoder
-title: 'Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper'
-year: 2023
-venue: NeurIPS
+title: 'Cytometry masked autoencoder: An accurate and interpretable automated immunophenotyper'
+year: 2024
+venue: Cell Reports Medicine
 category: scrna
 tags:
 - scrna-seq
 architecture: Masked Autoencoder
 key: Automated Immunophenotyper
+links:
+  paper: https://doi.org/10.1016/j.xcrm.2024.101808
+  preprint: https://doi.org/10.1101/2024.02.13.580114
 citation: 'Kim, Jaesik, Matei Ionita, Matthew Eric Lee, Michelle McKeague, Ajinkya Pattekar, Mark Painter,
   Joost Wagenaar et al. "Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper."
   In NeurIPS 2023 AI for Science Workshop. 2024.'

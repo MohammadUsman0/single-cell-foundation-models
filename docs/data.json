@@ -339,7 +339,7 @@
    "modality": "Single-cell",
    "architecture": "FM",
    "task": "cell-type clustering, Perturbation prediction",
-   "key": "- large-scale human kidney scRNA-seq corpus comprising 800,000 cells used",
+   "key": "Joint-embedding predictive model that predicts cell embeddings in latent space instead of reconstructing sparse counts, for representations robust to dropout.",
    "links": {
     "paper": "https://arxiv.org/abs/2602.02093",
     "code": "https://github.com/thereecer13/VirtualCellJEPA"
@@ -1597,7 +1597,7 @@
    "id": "cellprophet",
    "kind": "model",
    "name": "CellProphet",
-   "title": "Dissecting dynamic gene regulatory network using transformer-based temporal causality analysis",
+   "title": "CellProphet: Dissecting Virtual Cell Differentiation through AI-Powered Dynamic Gene Regulatory Network Inference",
    "year": 2025,
    "venue": "bioRxiv",
    "category": "grn",
@@ -1607,6 +1607,7 @@
    "architecture": "Transformer-based",
    "key": "Infers dynamic gene regulatory networks by combining temporal causality analysis with transformer self-attention.",
    "links": {
+    "paper": "https://doi.org/10.1101/2025.02.05.636766",
     "code": "https://github.com/prsigma/CellProphet"
    },
    "citation": "Peng, Rui, Juntian Qi, Yuxing Lu, Wei Wu, Qichen Sun, Chi Zhang, Yihan Chen, and Jinzhuo Wang. \"Dissecting dynamic gene regulatory network using transformer-based temporal causality analysis.\" bioRxiv (2025): 2025-02.",
@@ -2134,6 +2135,31 @@
    "reviewed": false,
    "status": "published",
    "github": "bowang-lab/MorphoDiff"
+  },
+  {
+   "id": "nichecompass",
+   "kind": "model",
+   "name": "nichecompass",
+   "title": "Quantitative characterization of cell niches in spatially resolved omics data",
+   "year": 2025,
+   "venue": "Nature Genetics",
+   "category": "spatial",
+   "tags": [
+    "spatial",
+    "cross-species",
+    "graph"
+   ],
+   "architecture": "Knowledge-Informed Cross-Species Foundation Model",
+   "key": "Deciphering universal gene regulatory mechanisms",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41588-025-02120-6",
+    "preprint": "https://doi.org/10.1101/2024.02.21.581428",
+    "code": "https://github.com/Lotfollahi-lab/nichecompass"
+   },
+   "citation": "Birk, Sebastian, Irene Bonafonte-Pardàs, Adib Miraki Feriz, Adam Boxall, Eneritz Agirre, Fani Memi, Anna Maguza et al. \"Large-scale characterization of cell niches in spatial atlases using bio-inspired graph learning.\" bioRxiv (2024): 2024-02.",
+   "reviewed": false,
+   "status": "published",
+   "github": "Lotfollahi-lab/nichecompass"
   },
   {
    "id": "nicheflow",
@@ -2968,6 +2994,7 @@
    "task": "Scaling to 3 Billion Parameters, gene essentiality, cancer hallmarks, cell type calssification, simulating perturbations",
    "key": "Tx1 jointly learns representations of genes, cells, and compounds using a masked-expression generative objective that incorporates a drug token, enabling flexible adaptation to diverse downstream applications",
    "links": {
+    "paper": "https://doi.org/10.1101/2025.10.23.683759",
     "code": "https://github.com/tahoebio/tahoe-x1"
    },
    "citation": "Gandhi, Shreshth, Farnoosh Javadi, Valentine Svensson, Umair Khan, Matthew G. Jones, John Yu, Daniele Merico, Hani Goodarzi, and Nima Alidoust. \"Tahoe-x1: Scaling Perturbation-Trained Single-Cell Foundation Models to 3 Billion Parameters.\" bioRxiv (2025): 2025-10.",
@@ -3200,6 +3227,31 @@
    "github": "vandijklab/cell2sentence"
   },
   {
+   "id": "scmae",
+   "kind": "model",
+   "name": "cyMAE",
+   "aliases": [
+    "scMAE",
+    "Single-cell Masked Autoencoder"
+   ],
+   "title": "Cytometry masked autoencoder: An accurate and interpretable automated immunophenotyper",
+   "year": 2024,
+   "venue": "Cell Reports Medicine",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq"
+   ],
+   "architecture": "Masked Autoencoder",
+   "key": "Automated Immunophenotyper",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.xcrm.2024.101808",
+    "preprint": "https://doi.org/10.1101/2024.02.13.580114"
+   },
+   "citation": "Kim, Jaesik, Matei Ionita, Matthew Eric Lee, Michelle McKeague, Ajinkya Pattekar, Mark Painter, Joost Wagenaar et al. \"Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper.\" In NeurIPS 2023 AI for Science Workshop. 2024.",
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "genecompass",
    "kind": "model",
    "name": "GeneCompass",
@@ -3266,29 +3318,6 @@
    "reviewed": false,
    "status": "preprint",
    "github": "PharMolix/LangCell"
-  },
-  {
-   "id": "nichecompass",
-   "kind": "model",
-   "name": "nichecompass",
-   "title": "Large-scale characterization of cell niches in spatial atlases using bio-inspired graph learning",
-   "year": 2024,
-   "venue": "bioRxiv",
-   "category": "spatial",
-   "tags": [
-    "spatial",
-    "cross-species",
-    "graph"
-   ],
-   "architecture": "Knowledge-Informed Cross-Species Foundation Model",
-   "key": "Deciphering universal gene regulatory mechanisms",
-   "links": {
-    "code": "https://github.com/Lotfollahi-lab/nichecompass"
-   },
-   "citation": "Birk, Sebastian, Irene Bonafonte-Pardàs, Adib Miraki Feriz, Adam Boxall, Eneritz Agirre, Fani Memi, Anna Maguza et al. \"Large-scale characterization of cell niches in spatial atlases using bio-inspired graph learning.\" bioRxiv (2024): 2024-02.",
-   "reviewed": false,
-   "status": "preprint",
-   "github": "Lotfollahi-lab/nichecompass"
   },
   {
    "id": "pertformer",
@@ -3792,7 +3821,7 @@
   {
    "id": "geneformer",
    "kind": "model",
-   "name": "GeneFormer",
+   "name": "Geneformer",
    "title": "Transfer learning enables predictions in network biology",
    "year": 2023,
    "venue": "Nature",
@@ -3881,26 +3910,6 @@
    "citation": "Oh, Gyutaek, Baekgyu Choi, Inkyung Jung, and Jong Chul Ye. \"schyena: Foundation model for full-length single-cell rna-seq analysis in brain.\" arXiv preprint arXiv:2310.02713 (2023).",
    "reviewed": false,
    "status": "preprint"
-  },
-  {
-   "id": "scmae",
-   "kind": "model",
-   "name": "scMAE",
-   "aliases": [
-    "Single-cell Masked Autoencoder"
-   ],
-   "title": "Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper",
-   "year": 2023,
-   "venue": "NeurIPS",
-   "category": "scrna",
-   "tags": [
-    "scrna-seq"
-   ],
-   "architecture": "Masked Autoencoder",
-   "key": "Automated Immunophenotyper",
-   "citation": "Kim, Jaesik, Matei Ionita, Matthew Eric Lee, Michelle McKeague, Ajinkya Pattekar, Mark Painter, Joost Wagenaar et al. \"Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper.\" In NeurIPS 2023 AI for Science Workshop. 2024.",
-   "reviewed": false,
-   "status": "published"
   },
   {
    "id": "scpoli",
