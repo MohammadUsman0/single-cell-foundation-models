@@ -13,6 +13,10 @@ modality: scRNA-seq
 architecture: LLM (cell sentences)
 inputs:
 - expression
+- text
+outputs:
+- perturbation-response
+- text
 architecture_family: llm
 key: Scales LLMs over 'cell sentences' for next-generation single-cell analysis.
 links:
@@ -24,5 +28,5 @@ citation: Rizvi, Syed Asad, Daniel Levine, Aakash Patel, Shiyang Zhang, Eric Wan
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

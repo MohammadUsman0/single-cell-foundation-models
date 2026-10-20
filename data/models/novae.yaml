@@ -14,6 +14,9 @@ architecture: Graph-based
 inputs:
 - expression
 - spatial-coordinates
+outputs:
+- cell-embedding
+- spatial-domain
 architecture_family: graph-neural-network
 links:
   paper: https://doi.org/10.1038/s41592-025-02899-6
@@ -26,5 +29,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41592-025-02899-6
 - https://doi.org/10.1101/2024.09.09.612009
-review_basis: metadata
+review_basis: abstract
 reviewed: false

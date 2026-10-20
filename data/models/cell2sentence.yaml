@@ -13,6 +13,11 @@ modality: scRNA-seq
 architecture: LLM (cell sentences)
 inputs:
 - expression
+- text
+outputs:
+- generated-cells
+- cell-type-label
+- text
 architecture_family: llm
 key: Represents cells as text sentences to teach LLMs the language of biology.
 links:
@@ -21,3 +26,6 @@ links:
   code: https://github.com/vandijklab/cell2sentence
 added: '2026-06-02'
 reviewed: false
+review_basis: abstract
+sources:
+- https://proceedings.mlr.press/v235/levine24a.html

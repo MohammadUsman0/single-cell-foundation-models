@@ -13,6 +13,8 @@ architecture: Generative Pretraining (Autoregressive)
 task: Single-cell analysis through gene-ranking prediction.
 inputs:
 - expression
+outputs:
+- cell-embedding
 architecture_family: transformer-decoder
 key: Generative pre-training that autoregressively models gene expression rankings, for single-cell analysis
   tasks.
@@ -24,5 +26,5 @@ citation: Shen, Hongru, Jilei Liu, Jiani Hu, Xilin Shen, Chao Zhang, Dan Wu, Men
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1016/j.isci.2023.106536
-review_basis: metadata
+review_basis: abstract
 reviewed: false

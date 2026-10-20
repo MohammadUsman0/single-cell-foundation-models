@@ -11,6 +11,10 @@ modality: scATAC-seq (Chromatin Accessibility)
 architecture: Hybrid (Mamba + Self-Attention)
 inputs:
 - chromatin-accessibility
+outputs:
+- cell-embedding
+- cell-type-label
+- expression-prediction
 architecture_family: state-space
 key: Hybrid architecture for long-range and local regulatory dependencies; used for cell representation,
   annotation, cross-omics prediction and gene–enhancer links.
@@ -25,5 +29,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.52202/085713-2584
 - https://arxiv.org/abs/2505.12638
-review_basis: metadata
+review_basis: abstract
 reviewed: false
