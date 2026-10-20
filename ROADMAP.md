@@ -4,7 +4,8 @@ Plan and decisions for turning this list into a **single-cell foundation model
 catalogue**. Read this together with [CLAUDE.md](CLAUDE.md) (rules and layout)
 and [`reports/data-quality.md`](reports/data-quality.md) (what currently needs fixing).
 
-Status: **phase 1 done** (PR #1). Next: **phase 2**.
+Status: **phase 1 done** (PR #1). **Phase 2a done** (`scripts/verify.py`,
+`verify.yml`; branch `phase-2/verify`). Next: **phase 2b** cleanup.
 
 ---
 
@@ -36,6 +37,20 @@ These were agreed with the maintainer; don't re-open them without asking.
      then look them up ourselves. Don't copy its descriptions or tags.
 7. **Automation proposes, a human approves.** Scripts write reports or open
    PRs; nothing auto-merges.
+8. **Our edge over Awesome-Virtual-Cell is model facts, not coverage** (agreed
+   2026-10-20). Compared on 2026-10-20: they list 396 papers with a DOI, status,
+   code status and evidence on every entry, a faceted live site and automated
+   publication tracking; 115 of our 182 models are also in their list. They have no
+   model facts (size, pretraining data, weights, license), no benchmark → model
+   verdicts and no lineage. So: finish verification first, then put effort into
+   model cards, the benchmark matrix and lineage, not into growing the paper count.
+9. **`year` = first appearance, online-first** (agreed 2026-10-20). Matches Crossref
+   `published` and OpenAlex `publication_year`, so it can be verified automatically;
+   journal issue years are often missing from Crossref. Rule is in CLAUDE.md.
+10. **Verification reports are not committed** (agreed 2026-10-20). They need the
+    network and API keys, so they can't be rebuilt on every push and would go stale.
+    `verify.yml` uploads them as an artifact and keeps a GitHub issue (label
+    `verification`) up to date; phase 2b PRs quote the relevant findings.
 
 ---
 
@@ -48,7 +63,15 @@ README. Migration changes are in [`reports/migration-log.md`](reports/migration-
 
 ## Phase 2 — verify and clean the existing entries
 
-### 2a. `scripts/verify.py`
+### 2a. `scripts/verify.py` (done)
+
+First full run, 2026-10-20: 303 entries, 242 findings in 181 entries, 17 safe
+fixes. Highlights: scGPT, scFoundation and Nicheformer are *Nature Methods*;
+UCE (*Nature*), STATE (*Cell*), Novae (*Nature Methods*) and others are now
+published; scCello and Tabula are NeurIPS, not *Cell*; 85 of the 87 entries
+without a paper link have an exact title match; PhenoProfiler's DOI doesn't exist.
+
+Spec as agreed:
 
 Checks every entry against external sources and **writes a report**; it does
 not change `data/` unless run with `--apply` on specific safe fixes.
@@ -90,6 +113,19 @@ For each entry:
 Add a workflow `verify.yml` (manual `workflow_dispatch` + monthly schedule)
 that runs `verify.py` and uploads the report as an artifact or opens an issue.
 
+Implementation notes (learned while building it):
+- **OpenReview's API now answers anonymous requests with a 403 browser challenge**
+  (v1 and v2). OpenReview entries fall back to an OpenAlex title search, and the
+  report says when an accept/reject decision could not be checked.
+- **bioRxiv/medRxiv moved to the DOI prefix `10.64898`** in late 2025; both
+  `10.1101` and `10.64898` are treated as preprint-server DOIs.
+- **OpenAlex now needs an API key** for real use: without one, requests draw on a
+  small free daily budget shared by everyone on the same IP address (a title search
+  costs 10× a lookup), and `mailto` no longer helps. Keys are free; the script reads
+  `VERIFY_OPENALEX_KEY` and stops cleanly (no report, cache kept) when a daily
+  budget runs out, rather than reporting unchecked entries as "not found".
+- The workflow needs the repository secrets `VERIFY_MAILTO` and `VERIFY_OPENALEX_KEY`.
+
 ### 2b. Cleanup (driven by the two reports)
 
 - **Wrong venues** already known: scGPT, scFoundation, Nicheformer list `Nature`
@@ -110,6 +146,36 @@ that runs `verify.py` and uploads the report as an artifact or opens an issue.
   Ask the maintainer first.
 - Set `reviewed: true` only after an entry has been checked against the paper.
 
+**Schema additions** (agreed 2026-10-20; add to `check.py`/`vocab.yaml` before
+filling data, so the cleanup records them as it goes):
+- `sources:` — URLs each fact was checked against (e.g. the DOI and Crossref
+  record), and `review_basis:` — `paper`, `abstract`, `repo` or `metadata`.
+  Stronger than a bare `reviewed: true`.
+- `code_status:` — `linked`, `none-found` (searched, nothing), `release-pending`,
+  `not-checked`. Lets `check.py` stop warning about code once someone has looked.
+- `added:` — date the entry was added (powers "New this month"; cheaper now than
+  reconstructing from git history later).
+- Perturbation facets for perturbation/virtual-cell models: perturbation type
+  (genetic, chemical, combination) and generalization regime (unseen perturbation,
+  unseen context, cross-dataset, cross-species, zero-shot).
+- `build.py --check` in CI: fail if generated files are out of date.
+- **What a model takes and gives** (agreed 2026-10-20), as normal model fields
+  (not in `model_card`, so they apply to all models), with values from
+  controlled lists in `vocab.yaml` (exact lists to be approved by the maintainer):
+  - `inputs` (list) — e.g. expression profile, spatial coordinates, image, DNA
+    sequence, protein sequence, text, perturbation (gene/drug), chromatin accessibility.
+  - `outputs` (list) — e.g. cell embedding, gene embedding, predicted expression,
+    perturbation response, cell-type labels, generated cells, gene regulatory
+    network, text answer.
+  - `architecture_family` (one value) — e.g. transformer encoder, transformer
+    decoder, state-space/Mamba, graph neural network, VAE, diffusion, flow
+    matching, fine-tuned LLM, CNN, agent system. The free-text `architecture`
+    stays for detail.
+  Today `modality` (94/182 filled, 56 spellings) and `architecture` (85/182, 79
+  spellings) are free text and can't be filtered; there is no output field. Map
+  existing values where unambiguous; leave the rest blank and flagged. `outputs`
+  is filled from the papers (flagship models first, phase 4a) — never guessed.
+
 Target: `check.py` warnings down to genuinely-unknown fields only.
 
 ---
@@ -129,6 +195,27 @@ Features, in priority order:
 4. Export the current filtered view as CSV / JSON / BibTeX.
 5. **Model × benchmark matrix** and **lineage graph** (once phase 4 data exists).
 6. "New this month" view (from git history or an `added` date field).
+
+Added 2026-10-20, in priority order (all generated from data, no server):
+7. **Citation graph from OpenAlex** `referenced_works`: which catalogue papers
+   cite each other. Real data, rebuilt automatically, and the base for the
+   lineage / "mind map" view.
+8. **Generated charts:** models per year by category; model size vs pretraining
+   data (needs model cards); code/weights availability over time; published vs preprint.
+9. **Outbound links per paper** from its DOI: Semantic Scholar, Connected Papers,
+   OpenAlex (Litmaps needs a login, so secondary at most).
+10. **Inputs → outputs view:** filters ("takes images", "outputs perturbation
+    response"), comparison-table columns, and on each model page a small
+    generated diagram: *inputs → [architecture family] → outputs*.
+11. *Optional, last:* topic map from title/abstract embeddings, labelled as an
+    automatic grouping (clusters can mislead; Awesome-Virtual-Cell already has a
+    landscape map).
+
+Automation rebuilds everything visible, but model cards and benchmark verdicts
+always go through a human-approved PR (decision 7).
+
+Add a short **"Start here"** section to the README: the handful of models a
+newcomer should know first.
 
 Must work on phone width, light and dark mode. Link it prominently at the top
 of the README once live.
@@ -175,6 +262,7 @@ Zenodo integration for a DOI per release; RSS/Atom feed of new entries.
 
 ## Prompt to start the next session
 
-> Read CLAUDE.md, ROADMAP.md and reports/data-quality.md. Start phase 2a:
-> write `scripts/verify.py` as specified in ROADMAP.md, run it, and show me the
-> summary of reports/verification.md. Don't change data/ yet.
+> Read CLAUDE.md, ROADMAP.md and reports/data-quality.md. Start phase 2b: run
+> `scripts/verify.py` (with VERIFY_MAILTO and VERIFY_OPENALEX_KEY set), apply the
+> safe fixes with `--apply`, then go through the remaining findings in batches,
+> highest value first, showing me each batch before committing.

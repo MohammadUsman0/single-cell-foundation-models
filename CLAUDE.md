@@ -41,8 +41,11 @@ Current size: ~182 models, ~121 resources, 19 venues.
 │   ├── check.py                  # validates data/, writes reports/data-quality.md
 │   ├── build.py                  # writes README.md, docs/data.json, exports/
 │   ├── new_entry.py              # creates one YAML entry, refuses duplicates
+│   ├── verify.py                 # checks entries against scholarly APIs, writes reports/verification.*
 │   └── legacy/migrate_csv.py     # one-off CSV → YAML migration (CSVs are in git history)
-└── .github/workflows/build-readme.yml
+└── .github/workflows/
+    ├── build-readme.yml          # check + build on PRs and pushes to main
+    └── verify.yml                # monthly verify.py run → artifact + "verification" issue
 ```
 
 ## Golden rules
@@ -65,9 +68,20 @@ python scripts/build.py                 # regenerate README, data.json, exports
 python scripts/new_entry.py model --name X --title "..." --year 2026 \
   --venue bioRxiv --category scrna --tags scrna-seq --paper https://... --code https://github.com/...
 python scripts/new_entry.py resource --type benchmark --title "..." --evaluates scgpt,geneformer
+
+# verify against Crossref/OpenAlex/arXiv/bioRxiv (needs `pip install requests`).
+# Set VERIFY_MAILTO and VERIFY_OPENALEX_KEY (free key) in the environment; never commit them.
+python scripts/verify.py                # -> reports/verification.{md,json} (git-ignored)
+python scripts/verify.py --only scgpt   # a few entries
+python scripts/verify.py --apply        # only the fixes marked safe; then check + build
 ```
 
 ## Schema
+
+**`year`** = the year the linked version *first* appeared: online-first date for a
+journal article (Crossref `published`, OpenAlex `publication_year`), first posted
+version for a preprint. Not the journal issue year; the `citation` keeps the full
+reference as printed.
 
 Model file fields: `id` (= file name), `kind: model`, `name`, `aliases`, `title`,
 `year` (int), `venue`, `venue_detail`, `category`, `tags`, `modality`,
@@ -118,9 +132,8 @@ Non-models go to resources: benchmarks → `benchmark`; datasets/assays/atlases 
 
 ## Open work (see reports/data-quality.md)
 
-- Phase 2: verify every entry against OpenAlex/Crossref/arXiv/bioRxiv (script to run
-  in GitHub Actions — this workspace can't reach those APIs), fix venues, add
-  preprint → published links, then set `reviewed: true`.
+- Phase 2b: work through the findings of `scripts/verify.py` (fix venues, add
+  preprint → published links, fill paper links), then set `reviewed: true`.
 - Entries flagged "possibly not a model" (e.g. Spatial Perturb-seq, CRISPRi Map,
   Perturb-FISH, Comment, Stanford PhD Thesis) — move to resources; several
   already have a duplicate resource entry.
