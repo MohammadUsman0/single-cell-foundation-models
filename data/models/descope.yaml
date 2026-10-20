@@ -16,4 +16,6 @@ key: Lightweight conditional VAE that conditions on ESM2 protein-language embedd
 links:
   paper: https://www.biorxiv.org/content/10.64898/2026.04.13.718147v1
   code: https://github.com/Peg-Wu/DeSCOPE
+citation: Wu, Pengpeng, Hailin Wei, Yazi Li, Xinwei Zheng, Caibin Zhou, Xihao Hu, and Chenfei Wang. "Decoding
+  Single-Cell Omics of Perturbation Responses Using DeSCOPE." bioRxiv (2026).
 reviewed: false

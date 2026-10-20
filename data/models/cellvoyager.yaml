@@ -11,4 +11,7 @@ links:
   paper: https://doi.org/10.1038/s41592-026-03029-6
   preprint: https://doi.org/10.1101/2025.06.03.657517
   code: https://github.com/zou-group/CellVoyager
+citation: 'Alber, Samuel, Bowen Chen, Eric Sun, Alina Isakova, Aaron J. Wilk, and James Zou. "CellVoyager:
+  AI CompBio agent generates new insights by autonomously analyzing biological data." Nature Methods 23,
+  no. 4 (2026): 749-759.'
 reviewed: false

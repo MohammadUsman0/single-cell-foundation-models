@@ -10,4 +10,7 @@ tags:
 links:
   paper: https://arxiv.org/abs/2602.04901
   code: https://github.com/ttruan2426-dot/scBIG
+citation: 'Ruan, Jiafa, Ruijie Quan, Liyang Xu, Zongxin Yang, and Yi Yang. "Beyond Independent Genes:
+  Learning Module-Inductive Representations for Single-Cell Gene Perturbation Prediction." arXiv preprint
+  arXiv:2602.04901 (2026).'
 reviewed: false

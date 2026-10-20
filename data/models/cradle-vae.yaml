@@ -12,4 +12,8 @@ tags:
 links:
   paper: https://doi.org/10.1609/aaai.v39i15.33695
   code: https://github.com/dmis-lab/CRADLE-VAE
+citation: 'Baek, Seungheun, Soyon Park, Yan Ting Chok, Junhyun Lee, Jueon Park, Mogan Gim, and Jaewoo
+  Kang. "Cradle-VAE: Enhancing Single-Cell Gene Perturbation Modeling with Counterfactual Reasoning-based
+  Artifact Disentanglement." Proceedings of the AAAI Conference on Artificial Intelligence 39, no. 15
+  (2025): 15445-15452.'
 reviewed: false

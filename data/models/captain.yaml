@@ -18,6 +18,6 @@ links:
   preprint: https://doi.org/10.1101/2025.07.07.663366
   code: https://github.com/iamjiboya/CAPTAIN
 citation: 'Ji, Boya, Tingting Hu, Jiawen Wang, Mengmeng Liu, Liwen Xu, Qinhao Zhang, Siyun Zhong et al.
-  "CAPTAIN: A multimodal foundation model pretrained on co-assayed single-cell RNA and protein." bioRxiv
-  (2025): 2025-07.'
+  "CAPTAIN: a multimodal foundation model pretrained on co-assayed single-cell RNA and protein." Nature
+  Communications 17, no. 1 (2026): 6161.'
 reviewed: false

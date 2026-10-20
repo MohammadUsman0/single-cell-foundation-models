@@ -17,4 +17,7 @@ links:
   paper: https://doi.org/10.1002/aic.70285
   preprint: https://www.biorxiv.org/content/10.1101/2024.10.01.616063v1
   code: https://github.com/li-group/scChat
+citation: 'Chiu, Hsuan‐Han, Ashley Varghese, Kunming Shao, Yen‐Chun Lu, Rahul Nahar, Hao Chen, Qing Deng
+  et al. "scChat : A large language model‐powered co‐pilot for contextualized single‐cell RNA sequencing
+  analysis." AIChE Journal 72, no. 6 (2026): e70285.'
 reviewed: false

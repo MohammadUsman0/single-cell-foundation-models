@@ -10,4 +10,7 @@ tags:
 - gene-regulation
 links:
   paper: https://doi.org/10.1016/j.xgen.2025.101076
+citation: 'Feng, Claudia, Elin Madli Peets, Yan Zhou, Luca Crepaldi, Sunay Usluer, Alistair Dunham, Jana
+  M. Braunger et al. "A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent
+  stem cell lines." Cell Genomics 6, no. 2 (2026): 101076.'
 reviewed: false

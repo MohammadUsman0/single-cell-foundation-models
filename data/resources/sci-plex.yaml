@@ -8,4 +8,7 @@ tags:
 - scrna-seq
 links:
   paper: https://doi.org/10.1126/science.aax6234
+citation: 'Srivatsan, Sanjay R., José L. McFaline-Figueroa, Vijay Ramani, Lauren Saunders, Junyue Cao,
+  Jonathan Packer, Hannah A. Pliner et al. "Massively multiplex chemical transcriptomics at single-cell
+  resolution." Science 367, no. 6473 (2020): 45-51.'
 reviewed: false

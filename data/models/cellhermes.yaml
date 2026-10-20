@@ -15,4 +15,7 @@ key: Harmonizes multimodal omics data via language for omics understanding.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2025.11.07.687322v1
   code: https://github.com/theislab/CellHermes
+citation: 'Gao, Yicheng, Weixu Wang, Yuheng Zhao, Kejing Dong, Caihua Shan, Weizhong Zheng, Till Richter
+  et al. "Language may be all omics needs: Harmonizing multimodal data for omics understanding with CellHermes."
+  bioRxiv (2025).'
 reviewed: false

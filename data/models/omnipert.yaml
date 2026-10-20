@@ -11,4 +11,6 @@ tags:
 - drug-response
 links:
   paper: https://doi.org/10.1101/2025.07.02.662744
+citation: 'Taj, Farzan, and Lincoln D Stein. "OmniPert: A Deep Learning Foundation Model for Predicting
+  Responses to Genetic and Chemical Perturbations in Single Cancer Cells." bioRxiv (2025).'
 reviewed: false

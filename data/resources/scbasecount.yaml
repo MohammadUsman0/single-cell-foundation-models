@@ -9,4 +9,7 @@ tags:
 - agent
 links:
   paper: https://doi.org/10.1101/2025.02.27.640494
+citation: 'Youngblut, Nicholas D., Christopher Carpenter, Arshia Nayebnazar, Abhinav Adduri, Rohan Shah,
+  Chiara Ricci-Tam, Jaanak Prashar et al. "scBaseCount: an AI agent-curated, uniformly processed, and
+  autonomously updated single cell data repository." bioRxiv (2025).'
 reviewed: false

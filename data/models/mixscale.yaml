@@ -11,4 +11,7 @@ tags:
 links:
   paper: https://doi.org/10.1038/s41556-025-01622-z
   code: https://github.com/satijalab/Mixscale
+citation: 'Jiang, Longda, Carol Dalgarno, Efthymia Papalexi, Isabella Mascio, Hans-Hermann Wessels, Huiyoung
+  Yun, Nika Iremadze et al. "Systematic reconstruction of molecular pathway signatures using scalable
+  single-cell perturbation screens." Nature Cell Biology 27, no. 3 (2025): 505-517.'
 reviewed: false

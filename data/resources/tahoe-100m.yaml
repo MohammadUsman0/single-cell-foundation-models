@@ -10,4 +10,7 @@ tags:
 key: Giga-scale single-cell perturbation atlas (dataset).
 links:
   paper: https://doi.org/10.1101/2025.02.20.639398
+citation: 'Zhang, Jesse, Airol A Ubas, Richard de Borja, Valentine Svensson, Nicole Thomas, Neha Thakar,
+  Ian Lai et al. "Tahoe-100M : A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene
+  Function and Cellular Modeling." bioRxiv (2025).'
 reviewed: false

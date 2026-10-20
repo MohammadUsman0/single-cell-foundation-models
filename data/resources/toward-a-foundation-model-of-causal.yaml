@@ -9,4 +9,6 @@ tags:
 - perturbation
 links:
   paper: https://doi.org/10.1016/j.cell.2024.07.035
+citation: 'Rood, Jennifer E., Anna Hupalowska, and Aviv Regev. "Toward a foundation model of causal cell
+  and tissue biology with a Perturbation Cell and Tissue Atlas." Cell 187, no. 17 (2024): 4520-4545.'
 reviewed: false

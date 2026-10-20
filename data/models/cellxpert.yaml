@@ -11,4 +11,7 @@ tags:
 - multi-omics
 links:
   paper: https://arxiv.org/abs/2605.00930
+citation: 'Demir, Andac, Erik W. Anderson, Jeremy L. Jenkins, and Srayanta Mukherjee. "CellxPert: Inference-Time
+  MCMC Steering of a Multi-Omics Single-Cell Foundation Model for In-Silico Perturbation." arXiv preprint
+  arXiv:2605.00930 (2026).'
 reviewed: false

@@ -13,4 +13,7 @@ tags:
 links:
   paper: https://doi.org/10.64898/2026.03.31.715748
   code: https://github.com/CellProfiling/ProtiCelli
+citation: Sun, Huangqingbo, Konstantin Kahnert, Jan N. Hansen, William Leineweber, Mingyang Li, Wanyue
+  Feng, Frederic Ballllosera Navarro et al. "Generative machine learning unlocks the first proteome-wide
+  image of human cells." bioRxiv (2026).
 reviewed: false

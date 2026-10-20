@@ -8,4 +8,6 @@ tags:
 - foundation-model
 links:
   paper: https://doi.org/10.1093/nsr/nwaf028
+citation: 'Guo, Fei, Renchu Guan, Yaohang Li, Qi Liu, Xiaowo Wang, Can Yang, and Jianxin Wang. "Foundation
+  models in bioinformatics." National Science Review 12, no. 4 (2025): nwaf028.'
 reviewed: false

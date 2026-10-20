@@ -15,7 +15,7 @@ key: Automated Immunophenotyper
 links:
   paper: https://doi.org/10.1016/j.xcrm.2024.101808
   preprint: https://doi.org/10.1101/2024.02.13.580114
-citation: 'Kim, Jaesik, Matei Ionita, Matthew Eric Lee, Michelle McKeague, Ajinkya Pattekar, Mark Painter,
-  Joost Wagenaar et al. "Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper."
-  In NeurIPS 2023 AI for Science Workshop. 2024.'
+citation: 'Kim, Jaesik, Matei Ionita, Matthew Lee, Michelle L. McKeague, Ajinkya Pattekar, Mark M. Painter,
+  Joost Wagenaar et al. "Cytometry masked autoencoder: An accurate and interpretable automated immunophenotyper."
+  Cell Reports Medicine 5, no. 11 (2024): 101808.'
 reviewed: false

@@ -14,4 +14,6 @@ key: Couples batch-invariant universal cell representation with probabilistic ex
   high-fidelity virtual cells (AUROC ~= 0.5) to resolve rare cell types and improve spatial imputation.
 links:
   paper: https://www.biorxiv.org/content/10.64898/2026.04.12.718016v1
+citation: Jiang, Xiaohui, and Jichun Xie. "A transcriptomics-native foundation model for universal cell
+  representation and virtual cell synthesis." bioRxiv (2026).
 reviewed: false

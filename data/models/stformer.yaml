@@ -18,5 +18,6 @@ links:
   preprint: https://doi.org/10.1101/2024.09.27.615337
   code: https://github.com/csh3/stFormer
 citation: 'Cao, Shenghao, Kaiyuan Yang, Jiabei Cheng, Jiachen Li, Hong-Bin Shen, Xiaoyong Pan, and Ye
-  Yuan. "stFormer: a foundation model for spatial transcriptomics." bioRxiv (2024): 2024-09.'
+  Yuan. "stFormer integrates spatial ligand signaling into a foundation model for spatial transcriptomics."
+  Cell Reports Methods (2026): 101612.'
 reviewed: false

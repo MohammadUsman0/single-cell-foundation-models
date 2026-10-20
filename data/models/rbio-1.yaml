@@ -12,4 +12,7 @@ tags:
 links:
   paper: https://doi.org/10.1101/2025.08.18.670981
   code: https://github.com/czi-ai/rbio
+citation: Istrate, Ana-Maria, Fausto Milletari, Fabrizio Castrotorres, Jakub M. Tomczak, Michaela Torkar,
+  Donghui Li, and Theofanis Karaletsos. "rbio1 - training scientific reasoning LLMs with biological world
+  models as soft verifiers." bioRxiv (2025).
 reviewed: false

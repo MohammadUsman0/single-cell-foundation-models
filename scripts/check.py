@@ -138,7 +138,10 @@ def check_entry(e, kind, vocab, rep):
     if not e.get("tags"):
         rep.warn("No tags", e)
     cj = citation_journal(e.get("citation"), e.get("title") or "")
-    if cj and venue and cj.lower() != venue.lower():
+    # A citation that names the entry's own venue agrees with it, even if a shorter journal name also matches
+    # (e.g. "Science Advances" contains "Science").
+    names_venue = venue and venue.lower() in (e.get("citation") or "").lower()
+    if cj and venue and cj.lower() != venue.lower() and not names_venue:
         if venue.lower() in PREPRINT_VENUES:
             rep.warn("Preprint that may now be published", e, f"venue `{venue}`, citation mentions *{cj}*")
         elif venue.lower() not in {"neurips", "icml", "iclr", "aaai"}:

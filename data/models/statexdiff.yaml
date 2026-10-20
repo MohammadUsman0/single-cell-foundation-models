@@ -18,4 +18,7 @@ key: Integrates RNA and protein-level context via a Virtual Multimodal Cell Stat
   combinations.
 links:
   paper: https://arxiv.org/abs/2605.16104
+citation: 'Shi, Peiting, Ningfeng Que, Xianzhe Huang, Xiaofei Wang, and Jianzhong Jeff Xi. "StateXDiff:
+  Cell State-Contextualized Multimodal Diffusion for Single-Cell Perturbation Prediction." arXiv preprint
+  arXiv:2605.16104 (2026).'
 reviewed: false

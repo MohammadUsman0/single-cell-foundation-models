@@ -11,4 +11,7 @@ tags:
 links:
   paper: https://doi.org/10.1101/2024.12.06.627299
   code: https://github.com/CellProfiling/subcell-embed
+citation: 'Gupta, Ankit, Zoe Wefers, Konstantin Kahnert, Jan N Hansen, Mohini K Misra, William D. Leineweber,
+  Anthony Cesnik et al. "SubCell: Proteome-aware vision foundation models for microscopy capture single-cell
+  biology." bioRxiv (2024).'
 reviewed: false
