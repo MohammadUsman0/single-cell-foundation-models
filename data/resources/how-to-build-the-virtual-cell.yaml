@@ -7,6 +7,8 @@ venue: Cell
 tags:
 - virtual-cell
 key: Main paper
+links:
+  paper: https://doi.org/10.1016/j.cell.2024.11.015
 citation: 'Bunne, Charlotte, Yusuf Roohani, Yanay Rosen, Ankit Gupta, Xikun Zhang, Marcel Roed, Theo Alexandrov
   et al. "How to build the virtual cell with artificial intelligence: Priorities and opportunities." Cell
   187, no. 25 (2024): 7045-7063.'

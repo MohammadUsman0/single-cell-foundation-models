@@ -11,6 +11,8 @@ tags:
 - scrna-seq
 key: results establish discrete diffusion as a promising direction for foundational models of cellular
   biology
+links:
+  paper: https://doi.org/10.64898/2026.02.19.705033
 citation: 'Bhattacharya, Sanjukta, Christian Gensbigler, Shaamil Karim, and Jon Lees. "Discrete Diffusion
   for Single-Cell Gene Expression Modeling." bioRxiv (2026): 2026-02.'
 reviewed: false

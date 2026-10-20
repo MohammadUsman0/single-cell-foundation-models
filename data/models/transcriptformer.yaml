@@ -14,6 +14,8 @@ modality: Single-Cell (Transcriptome)
 architecture: Transformer
 key: Cross-species generative cell atlas (1.5 Billion Years of Evolution) predict cell type-specific transcription
   factors and gene-gene interactions that align with independent experimental observations
+links:
+  paper: https://doi.org/10.1101/2025.04.25.650731
 citation: 'Pearce, James D., Sara E. Simmonds, Gita Mahmoudabadi, Lakshmi Krishnan, Giovanni Palla, Ana-Maria
   Istrate, Alexander Tarashansky et al. "A Cross-Species Generative Cell Atlas Across 1.5 Billion Years
   of Evolution: The TranscriptFormer Single-cell Model." bioRxiv (2025): 2025-04.'

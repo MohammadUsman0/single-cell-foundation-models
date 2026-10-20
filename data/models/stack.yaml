@@ -7,6 +7,8 @@ venue: bioRxiv
 category: perturbation
 tags:
 - perturbation
+links:
+  paper: https://doi.org/10.64898/2026.01.09.698608
 citation: 'Dong, Mingze, Abhinav Adduri, Dhruv Gautam, Christopher Carpenter, Rohan Shah, Chiara Ricci-Tam,
   Yuval Kluger, Dave P. Burke, and Yusuf Husein Roohani. "Stack: In-Context Learning of Single-Cell Biology."
   bioRxiv (2026): 2026-01.'

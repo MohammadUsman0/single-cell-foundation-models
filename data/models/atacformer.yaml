@@ -11,6 +11,8 @@ modality: scATAC-seq
 architecture: Transformer-based
 key: 'Clustering, cell-type annotation, batch correction, RNA imputation (via CRAFT model). Key Finding:
   Generates embeddings for individual cis-regulatory elements.'
+links:
+  paper: https://doi.org/10.1101/2025.11.03.685753
 citation: 'LeRoy, Nathan J., Guangtao Zheng, Oleksandr Khoroshevskyi, Donald R. Campbell Jr, Aidong Zhang,
   and Nathan C. Sheffield. "Atacformer: A transformer-based foundation model for analysis and interpretation
   of ATAC-seq data." bioRxiv (2025): 2025-11.'

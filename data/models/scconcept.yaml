@@ -16,6 +16,8 @@ key: present scConcept (“contrastive cell pre-training”), a transformer-base
   that directly optimizes cell embeddings by contrasting multiple views of cells. By replacing gene-level
   reconstruction with a cell-level identification task, scConcept learns robust representations that are
   invariant to count distributions and gene panel selection, across diverse assays and technologies.
+links:
+  paper: https://doi.org/10.1101/2025.10.14.682419
 citation: 'Bahrami, Mojtaba, Alejandro Tejada-Lapuerta, Sören Becker, Fatemeh S. Hashemi G, and Fabian
   J. Theis. "scConcept: Contrastive pretraining for technology-agnostic single-cell representations beyond
   reconstruction." bioRxiv (2025): 2025-10.'

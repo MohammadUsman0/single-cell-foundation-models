@@ -17,6 +17,8 @@ key: present SpaTranslator, a deep generative framework that integrates graph ne
   adversarial variational generative model to fully capture spatial characteristics and enable effective
   cross-modality translation of spatial omics data, enabling simulation of paired spatial multi-omics
   data from single-omics measurements
+links:
+  paper: https://doi.org/10.1101/2025.11.15.688644
 citation: 'Dong, Hongyu, Sheng Mao, Yukuan Liu, Tian Tian, Lihua Zhang, Juanshu Wu, Shichen Zhang et al.
   "SpaTranslator: A deep generative framework for universal spatial multi-omics cross-modality translation."
   bioRxiv (2025): 2025-11.'

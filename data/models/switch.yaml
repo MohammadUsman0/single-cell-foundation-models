@@ -15,6 +15,8 @@ task: Integrative deep learning, facilitate Various downstream analyses such dif
   inference and gene regulatory network inference
 key: Introduce SWITCH (Spatially Weighted Multi-omics Integration and Cross-modal Translation with Cycle-mapping
   Harmonization), a deep generative model for spatial multi-omics integration
+links:
+  paper: https://doi.org/10.1038/s43588-025-00891-w
 citation: 'Li, Zhongzhan, Sanqing Qu, Haixin Liang, Ruohui Tang, Xudong Zhang, Fan Lu, Jiani Yang et al.
   "Integrative deep learning of spatial multi-omics with SWITCH." Nature Computational Science (2025):
   1-13.'

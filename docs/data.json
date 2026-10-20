@@ -231,6 +231,9 @@
     "virtual-cell",
     "generative"
    ],
+   "links": {
+    "paper": "https://doi.org/10.64898/2026.03.13.710968"
+   },
    "citation": "Xie, Zhi, Wenyuan Li, Yang Chen, Zhaoyi Peng, Lei Xiang, and Dong Wang. \"AetherCell: A generative engine for virtual cell perturbation and in vivo drug discovery.\" bioRxiv (2026): 2026-03.",
    "reviewed": false,
    "status": "preprint"
@@ -247,6 +250,9 @@
     "perturbation",
     "virtual-cell"
    ],
+   "links": {
+    "paper": "https://doi.org/10.64898/2026.03.02.709176"
+   },
    "citation": "Chuai, Guohui, Xiaohan Chen, Xingbo Yang, Cheng Zhang, Kairu Qu, Yiheng Wang, Wannian Li et al. \"Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell.\" bioRxiv (2026): 2026-03.",
    "reviewed": false,
    "status": "preprint"
@@ -528,6 +534,9 @@
     "scrna-seq"
    ],
    "key": "results establish discrete diffusion as a promising direction for foundational models of cellular biology",
+   "links": {
+    "paper": "https://doi.org/10.64898/2026.02.19.705033"
+   },
    "citation": "Bhattacharya, Sanjukta, Christian Gensbigler, Shaamil Karim, and Jon Lees. \"Discrete Diffusion for Single-Cell Gene Expression Modeling.\" bioRxiv (2026): 2026-02.",
    "reviewed": false,
    "status": "preprint"
@@ -720,6 +729,7 @@
    "architecture": "Transformer",
    "key": "cell state transition prediction, gene program dicovery, in silico perturbations",
    "links": {
+    "paper": "https://doi.org/10.64898/2026.03.04.709254",
     "code": "https://github.com/Lotfollahi-lab/Perturbgen/"
    },
    "citation": "Chi Hao Ly, Kevin, Adib Miraki Feriz, Tomoya Isobe, Amirhossein Vahidi, Delshad Vaghari, Anthony Rostron, Mariana Quiroga Londono et al. \"Predicting how perturbations reshape cellular trajectories with PerturbGen.\" bioRxiv (2026): 2026-03.",
@@ -800,6 +810,9 @@
     "perturbation",
     "virtual-cell"
    ],
+   "links": {
+    "paper": "https://doi.org/10.64898/2026.03.17.712536"
+   },
    "citation": "Chen, Shuizhou, Lang Yu, Kedu Jin, Songming Zhang, Hao Wu, Sheng Xu, Quan Qian et al. \"SCALE: Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction.\" bioRxiv (2026): 2026-03.",
    "reviewed": false,
    "status": "preprint"
@@ -978,6 +991,9 @@
    "tags": [
     "perturbation"
    ],
+   "links": {
+    "paper": "https://doi.org/10.64898/2026.01.09.698608"
+   },
    "citation": "Dong, Mingze, Abhinav Adduri, Dhruv Gautam, Christopher Carpenter, Rohan Shah, Chiara Ricci-Tam, Yuval Kluger, Dave P. Burke, and Yusuf Husein Roohani. \"Stack: In-Context Learning of Single-Cell Biology.\" bioRxiv (2026): 2026-01.",
    "reviewed": false,
    "status": "preprint"
@@ -1135,6 +1151,7 @@
    ],
    "modality": "Single-cell",
    "links": {
+    "paper": "https://doi.org/10.64898/2026.03.18.712807",
     "project": "https://vimeo.com/1174241862"
    },
    "citation": "Wang, Chloe, Mehran Karimzadeh, Neal G. Ravindra, Lexi R. Bounds, Nader Alerasool, Ann C. Huang, Shihao Ma et al. \"X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts via Diffusion Language Models.\" bioRxiv (2026): 2026-03.",
@@ -1195,6 +1212,9 @@
    "modality": "scATAC-seq",
    "architecture": "Transformer-based",
    "key": "Clustering, cell-type annotation, batch correction, RNA imputation (via CRAFT model). Key Finding: Generates embeddings for individual cis-regulatory elements.",
+   "links": {
+    "paper": "https://doi.org/10.1101/2025.11.03.685753"
+   },
    "citation": "LeRoy, Nathan J., Guangtao Zheng, Oleksandr Khoroshevskyi, Donald R. Campbell Jr, Aidong Zhang, and Nathan C. Sheffield. \"Atacformer: A transformer-based foundation model for analysis and interpretation of ATAC-seq data.\" bioRxiv (2025): 2025-11.",
    "reviewed": false,
    "status": "preprint"
@@ -1234,6 +1254,7 @@
    "task": "Prediction from DNA sequence (unifying model of gene regulation)",
    "key": "a model that learns to predict cell-type-specific and tissue-specific RNA-seq coverage from DNA sequence. Using statistics derived from Borzoi’s predicted coverage, we isolate and accurately score DNA variant effects across multiple layers of regulation, including transcription, splicing and polyadenylation.",
    "links": {
+    "paper": "https://doi.org/10.1038/s41588-024-02053-6",
     "code": "https://github.com/calico/borzoi"
    },
    "citation": "Linder, Johannes, Divyanshi Srivastava, Han Yuan, Vikram Agarwal, and David R. Kelley. \"Predicting RNA-seq coverage from DNA sequence as a unifying model of gene regulation.\" Nature Genetics 57, no. 4 (2025): 949-961.",
@@ -1339,6 +1360,9 @@
    "modality": "Single-cell Transcriptomics",
    "architecture": "Graph Pre-training",
    "key": "Batch integration, cell type annotation, gene perturbation, in silico gene knockout. Key Finding: Pioneer in using graph pre-training to model genes and cells (over 50 million cells).",
+   "links": {
+    "paper": "https://doi.org/10.1093/nsr/nwaf255"
+   },
    "citation": "Fang, Chen, Wentao Cui, Zhilong Hu, Wenhao Liu, Shubai Chen, Shaole Chang, Qingqing Long et al. \"Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model.\" National Science Review (2025): nwaf255.",
    "reviewed": false,
    "status": "published"
@@ -1443,6 +1467,9 @@
    "modality": "Transcriptomics (100 million human cells)",
    "architecture": "Modified RetNet",
    "key": "Cell annotation, gene function prediction, perturbation response. Key Finding: Uses a modified RetNet for efficiency, 800 million parameters.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41467-025-59926-5"
+   },
    "citation": "Zeng, Yuansong, Jiancong Xie, Ningyuan Shangguan, Zhuoyi Wei, Wenbing Li, Yun Su, Shuangyu Yang et al. \"CellFM: a large-scale foundation model pre-trained on transcriptomics of 100 million human cells.\" Nature Communications 16, no. 1 (2025): 4679.",
    "reviewed": false,
    "status": "published"
@@ -1572,6 +1599,7 @@
    "architecture": "reinforcement learning",
    "key": "CellTRIP, Inferring virtual cell environments using multi-agent reinforcement learning for spatiotemporal trajectory interpolation, imputation, and perturbation",
    "links": {
+    "paper": "https://doi.org/10.1101/2025.11.21.689815",
     "code": "https://github.com/daifengwanglab/CellTRIP"
    },
    "citation": "Kalafut, Noah Cohen, Chenfeng He, Jie Sheng, Pramod Bharadwaj Chandrashekar, Jerome J. Choi, and Daifeng Wang. \"Inferring virtual cell environments using multi-agent reinforcement learning.\" bioRxiv (2025): 2025-11.",
@@ -1752,6 +1780,9 @@
    "modality": "scATAC-seq (Single-cell Epigenomics)",
    "architecture": "Transformer-based (Bidirectional Attention)",
    "key": "Unsupervised feature extraction, supervised cell type annotation, data imputation, cellular response prediction (perturbations). Key Finding: Encodes chromatin accessibility patterns as 'cell sentences'.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-025-02822-z"
+   },
    "citation": "Chen, Xiaoyang, Keyi Li, Xuejian Cui, Zian Wang, Qun Jiang, Jiacheng Lin, Zhen Li, Zijing Gao, Hairong Lv, and Rui Jiang. \"EpiAgent: foundation model for single-cell epigenomics.\" Nature Methods (2025): 1-12.",
    "reviewed": false,
    "status": "published"
@@ -1769,6 +1800,9 @@
    ],
    "modality": "scATAC-seq",
    "key": "Cell-type annotation, batch correction, gene expression prediction. Key Finding: Uses cross-modality pre-training (peak-to-gene alignment) on non-zero peaks to handle sparsity.",
+   "links": {
+    "paper": "https://doi.org/10.1101/2025.02.05.636688"
+   },
    "citation": "Wu, Juncheng, Changxin Wan, Zhicheng Ji, Yuyin Zhou, and Wenpin Hou. \"EpiFoundation: A foundation model for single-cell ATAC-seq via peak-to-gene alignment.\" bioRxiv (2025).",
    "reviewed": false,
    "status": "preprint"
@@ -1829,6 +1863,9 @@
    "modality": "Chromatin Accessibility, Sequence Information",
    "architecture": "Transformer",
    "key": "Predicting gene expression in seen/unseen cell types, regulatory inference. Key Finding: Achieves experimental-level accuracy; learns regulatory grammars across 213 human cell types.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41586-024-08391-z"
+   },
    "citation": "Fu, Xi, Shentong Mo, Alejandro Buendia, Anouchka P. Laurent, Anqi Shao, Maria del Mar Alvarez-Torres, Tianji Yu et al. \"A foundation model of transcription across human cell types.\" Nature 637, no. 8047 (2025): 965-973.",
    "reviewed": false,
    "status": "published"
@@ -2308,6 +2345,9 @@
     "perturbation"
    ],
    "modality": "Multi-scale and Multicellular Biology",
+   "links": {
+    "paper": "https://doi.org/10.1101/2025.11.24.685470"
+   },
    "citation": "Pang, Kuan, Yanay Rosen, Kasia Kedzierska, Ziyuan He, Abhe Rajagopal, Claire E. Gustafson, Grace Huynh, and Jure Leskovec. \"PULSAR: a Foundation Model for Multi-scale and Multicellular Biology.\" bioRxiv (2025): 2025-11.",
    "reviewed": false,
    "status": "preprint"
@@ -2345,6 +2385,9 @@
     "scatac-seq"
    ],
    "modality": "Single Cell ATAC-seq and RNA-seq",
+   "links": {
+    "paper": "https://doi.org/10.1101/2025.04.07.647689"
+   },
    "citation": "Liu, Guole, Yongbing Zhao, Yingying Zhao, Tianyu Wang, Quanyou Cai, Xiaotao Wang, Ziyi Wen, Lihui Lin, Ge Yang, and Jiekai Chen. \"SCARF: Single Cell ATAC-seq and RNA-seq Foundation model.\" bioRxiv (2025): 2025-04.",
    "reviewed": false,
    "status": "preprint"
@@ -2364,6 +2407,9 @@
    "architecture": "transformer-based contrastive learning framework",
    "task": "cell-type annotation, technology integration, dissociated to spatial cell-type transfer, spatial imputation, gene panel optimization, and mapping new technologies on already existing atlases.",
    "key": "present scConcept (“contrastive cell pre-training”), a transformer-based contrastive learning framework that directly optimizes cell embeddings by contrasting multiple views of cells. By replacing gene-level reconstruction with a cell-level identification task, scConcept learns robust representations that are invariant to count distributions and gene panel selection, across diverse assays and technologies.",
+   "links": {
+    "paper": "https://doi.org/10.1101/2025.10.14.682419"
+   },
    "citation": "Bahrami, Mojtaba, Alejandro Tejada-Lapuerta, Sören Becker, Fatemeh S. Hashemi G, and Fabian J. Theis. \"scConcept: Contrastive pretraining for technology-agnostic single-cell representations beyond reconstruction.\" bioRxiv (2025): 2025-10.",
    "reviewed": false,
    "status": "preprint"
@@ -2404,6 +2450,9 @@
    "architecture": "Continual Pretraining",
    "task": "Continual Pretraining from scGPT",
    "key": "scGPT-spatial introduces a novel MoE (Mixture of Experts) decoder that adaptively routes samples for protocol-aware decoding of gene expression profiles",
+   "links": {
+    "paper": "https://doi.org/10.1101/2025.02.05.636714"
+   },
    "citation": "Wang, Chloe, Haotian Cui, Andrew Zhang, Ronald Xie, Hani Goodarzi, and Bo Wang. \"scGPT-spatial: Continual pretraining of single-cell foundation model for spatial transcriptomics.\" bioRxiv (2025): 2025-02.",
    "reviewed": false,
    "status": "preprint"
@@ -2459,6 +2508,9 @@
    "tags": [
     "scrna-seq"
    ],
+   "links": {
+    "paper": "https://doi.org/10.1186/s13059-025-03862-6"
+   },
    "citation": "Li, Yang, Guanyu Qiao, Hongli Du, Xin Gao, and Guohua Wang. \"scKGBERT: a knowledge-enhanced foundation model for single-cell transcriptomics.\" Genome Biology 26, no. 1 (2025): 402.",
    "reviewed": false,
    "status": "published"
@@ -2500,6 +2552,9 @@
    "modality": "Single-cell Multi-omics",
    "architecture": "Hyena-based",
    "key": "Cross-modality translation",
+   "links": {
+    "paper": "https://doi.org/10.1101/2025.09.30.679123"
+   },
    "citation": "Fang, Zhaoyu, Ziyang Miao, Jianhui Lin, Yuying Xie, Jiliang Tang, Jiayuan Ding, and Min Li. \"scLinguist: A pre-trained hyena-based foundation model for cross-modality translation in single-cell multi-omics.\" bioRxiv (2025): 2025-09.",
    "reviewed": false,
    "status": "preprint"
@@ -2581,6 +2636,9 @@
    ],
    "modality": "Single-cell (50 million cells)",
    "key": "Robust gene network predictions",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41467-025-58699-1"
+   },
    "citation": "Kalfon, Jérémie, Jules Samaran, Gabriel Peyré, and Laura Cantini. \"scPRINT: pre-training on 50 million cells allows robust gene network predictions.\" Nature Communications 16, no. 1 (2025): 3607.",
    "reviewed": false,
    "status": "published"
@@ -2601,6 +2659,10 @@
    "modality": "Single-cell Transcriptome",
    "architecture": "Large Generative Model",
    "key": "Translating transcriptome to proteome (protein imputation). Key Finding: Confirmed accuracy across various profiling techniques (CITE-seq, REAP-seq, etc.).",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41551-025-01528-z",
+    "preprint": "https://doi.org/10.1101/2023.07.04.547619"
+   },
    "citation": "Liu, Linjing, Wei Li, Fang Wang, Yiming Li, Long-Kai Huang, Ka-Chun Wong, Fan Yang, and Jianhua Yao. \"A pre-trained large generative model for translating single-cell transcriptomes to proteomes.\" Nature Biomedical Engineering (2025): 1-20.",
    "reviewed": false,
    "status": "published"
@@ -2685,6 +2747,9 @@
    "architecture": "deep generative model",
    "task": "Cross-modality translation and marker genes and proteins recovery, motif enrichment analysis, and gene regulation inference",
    "key": "present SpaTranslator, a deep generative framework that integrates graph neural networks with an adversarial variational generative model to fully capture spatial characteristics and enable effective cross-modality translation of spatial omics data, enabling simulation of paired spatial multi-omics data from single-omics measurements",
+   "links": {
+    "paper": "https://doi.org/10.1101/2025.11.15.688644"
+   },
    "citation": "Dong, Hongyu, Sheng Mao, Yukuan Liu, Tian Tian, Lihua Zhang, Juanshu Wu, Shichen Zhang et al. \"SpaTranslator: A deep generative framework for universal spatial multi-omics cross-modality translation.\" bioRxiv (2025): 2025-11.",
    "reviewed": false,
    "status": "preprint"
@@ -2831,6 +2896,9 @@
    "architecture": "generative model",
    "task": "Integrative deep learning, facilitate Various downstream analyses such differential analysis, trajectory inference and gene regulatory network inference",
    "key": "Introduce SWITCH (Spatially Weighted Multi-omics Integration and Cross-modal Translation with Cycle-mapping Harmonization), a deep generative model for spatial multi-omics integration",
+   "links": {
+    "paper": "https://doi.org/10.1038/s43588-025-00891-w"
+   },
    "citation": "Li, Zhongzhan, Sanqing Qu, Haixin Liang, Ruohui Tang, Xudong Zhang, Fan Lu, Jiani Yang et al. \"Integrative deep learning of spatial multi-omics with SWITCH.\" Nature Computational Science (2025): 1-13.",
    "reviewed": false,
    "status": "published"
@@ -2953,6 +3021,9 @@
    "modality": "Single-Cell Transcriptomics",
    "architecture": "Federated Learning, Tabular Modeling",
    "key": "Privacy-preserving prediction",
+   "links": {
+    "paper": "https://doi.org/10.1101/2025.01.06.631427"
+   },
    "citation": "Ding, Jiayuan, Jianhui Lin, Shiyu Jiang, Yixin Wang, Ziyang Miao, Zhaoyu Fang, Jiliang Tang, Min Li, and Xiaojie Qiu. \"Toward a privacy-preserving predictive foundation model of single-cell transcriptomics with federated learning and tabular modeling.\" bioRxiv (2025): 2025-01.",
    "reviewed": false,
    "status": "preprint"
@@ -2973,6 +3044,9 @@
    "modality": "Single-Cell (Transcriptome)",
    "architecture": "Transformer",
    "key": "Cross-species generative cell atlas (1.5 Billion Years of Evolution) predict cell type-specific transcription factors and gene-gene interactions that align with independent experimental observations",
+   "links": {
+    "paper": "https://doi.org/10.1101/2025.04.25.650731"
+   },
    "citation": "Pearce, James D., Sara E. Simmonds, Gita Mahmoudabadi, Lakshmi Krishnan, Giovanni Palla, Ana-Maria Istrate, Alexander Tarashansky et al. \"A Cross-Species Generative Cell Atlas Across 1.5 Billion Years of Evolution: The TranscriptFormer Single-cell Model.\" bioRxiv (2025): 2025-04.",
    "reviewed": false,
    "status": "preprint"
@@ -3074,6 +3148,9 @@
    ],
    "modality": "Single Cell Transcriptome",
    "key": "Develop AIDO.Cell, a pretrained module for representing gene expression and cellular systems in an AI-driven Digital Organism",
+   "links": {
+    "paper": "https://doi.org/10.1101/2024.11.28.625303"
+   },
    "citation": "Ho, Nicholas, Caleb N. Ellington, Jinyu Hou, Sohan Addagudi, Shentong Mo, Tianhua Tao, Dian Li et al. \"Scaling dense representations for single cell with transcriptome-scale context.\" bioRxiv (2024): 2024-11.",
    "reviewed": false,
    "status": "preprint"
@@ -3112,6 +3189,9 @@
     "gene-regulation",
     "cross-species"
    ],
+   "links": {
+    "paper": "https://doi.org/10.1038/s41422-024-01034-y"
+   },
    "citation": "Yang, Xiaodong, Guole Liu, Guihai Feng, Dechao Bu, Pengfei Wang, Jie Jiang, Shubai Chen et al. \"GeneCompass: deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species foundation model.\" Cell Research 34, no. 12 (2024): 830-845.",
    "reviewed": false,
    "status": "published"
@@ -3219,6 +3299,9 @@
    "modality": "Single-cell RNA-seq",
    "architecture": "Deep Learning (Protein Language Models)",
    "key": "Integrating datasets across species, universal cell embeddings. Key Finding: Encodes genes' biological properties using protein language models to transfer annotations across species.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-024-02191-z"
+   },
    "citation": "Rosen, Yanay, Maria Brbić, Yusuf Roohani, Kyle Swanson, Ziang Li, and Jure Leskovec. \"Toward universal cell embeddings: integrating single-cell RNA-seq datasets across species with SATURN.\" Nature Methods 21, no. 8 (2024): 1492-1500.",
    "reviewed": false,
    "status": "published"
@@ -3345,6 +3428,9 @@
    "modality": "Single-Cell Proteomics and Transcriptomics",
    "architecture": "Multi-Task Transformer",
    "key": "Integrates large-scale data",
+   "links": {
+    "paper": "https://doi.org/10.1002/advs.202307835"
+   },
    "citation": "Xu, Jing, De‐Shuang Huang, and Xiujun Zhang. \"scmFormer integrates large‐scale single‐cell proteomics and transcriptomics data by multi‐task transformer.\" Advanced Science 11, no. 19 (2024): 2307835.",
    "reviewed": false,
    "status": "published"
@@ -3402,6 +3488,9 @@
    "modality": "Single-cell Proteomics",
    "architecture": "Deep Graph Contrastive Learning",
    "key": "Single-cell proteomics embedding",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-024-02214-9"
+   },
    "citation": "Li, Wei, Fan Yang, Fang Wang, Yu Rong, Linjing Liu, Bingzhe Wu, Han Zhang, and Jianhua Yao. \"scPROTEIN: a versatile deep graph contrastive learning framework for single-cell proteomics embedding.\" Nature Methods 21, no. 4 (2024): 623-634.",
    "reviewed": false,
    "status": "published"
@@ -3541,6 +3630,9 @@
    "modality": "Single-cell (Cells as tokens, tissues as sentences)",
    "architecture": "Pre-trained Transformer",
    "key": "Diverse downstream tasks. Key Finding: First sc-pre-trained transformer to encode cell-cell relations; 100x faster inference.",
+   "links": {
+    "paper": "https://doi.org/10.1101/2023.10.03.560734"
+   },
    "citation": "Wen, Hongzhi, Wenzhuo Tang, Xinnan Dai, Jiayuan Ding, Wei Jin, Yuying Xie, and Jiliang Tang. \"CellPLM: Pre-training of cell language model beyond single cells.\" BioRxiv (2023): 2023-10.",
    "reviewed": false,
    "status": "preprint"
@@ -3561,6 +3653,9 @@
    "modality": "Transcriptomic Data",
    "architecture": "Transfer Learning",
    "key": "Generating cell-type-specific Gene Regulatory Networks (GRNs), simulating in-silico perturbations. Key Finding: Relies exclusively on transcriptomic data to generate GRNs via transfer learning.",
+   "links": {
+    "paper": "https://doi.org/10.1101/2023.09.25.559244"
+   },
    "citation": "Feng, Guihai, Xin Qin, Jiahao Zhang, Wuliang Huang, Yiyang Zhang, Wentao Cui, Shirui Li et al. \"CellPolaris: Decoding Cell Fate through Generalization Transfer Learning of Gene Regulatory Networks.\" bioRxiv (2023): 2023-09.",
    "reviewed": false,
    "status": "preprint"
@@ -3601,6 +3696,9 @@
    "modality": "Single-Cell Transcriptomics",
    "architecture": "Transformer (Ordinal Positions)",
    "key": "Predictions in network biology. Key Finding: Uses ordinal positions of tokenized genes, trained on 30 million cells.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41586-023-06139-9"
+   },
    "citation": "Theodoris, Christina V., Ling Xiao, Anant Chopra, Mark D. Chaffin, Zeina R. Al Sayed, Matthew C. Hill, Helene Mantineo et al. \"Transfer learning enables predictions in network biology.\" Nature 618, no. 7965 (2023): 616-624.",
    "reviewed": false,
    "status": "published"
@@ -3679,6 +3777,9 @@
    "category": "atlas",
    "modality": "Single-cell datasets",
    "key": "Population-level integration, multi-scale analysis",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-023-02035-2"
+   },
    "citation": "De Donno, Carlo, Soroor Hediyeh-Zadeh, Amir Ali Moinfar, Marco Wagenstetter, Luke Zappia, Mohammad Lotfollahi, and Fabian J. Theis. \"Population-level integration of single-cell datasets enables multi-scale analysis across samples.\" Nature Methods 20, no. 11 (2023): 1683-1692.",
    "reviewed": false,
    "status": "published"
@@ -3698,6 +3799,9 @@
    "modality": "Single-cell Gene Expression from DNA Sequence",
    "task": "Prediction from DNA sequence",
    "key": "Here, we use a transfer learning framework, seq2cells, leveraging a pre-trained epigenome model for gene expression prediction from large sequence contexts at single-cell resolution.",
+   "links": {
+    "paper": "https://doi.org/10.1101/2023.07.26.550634"
+   },
    "citation": "Schwessinger, Ron, Jacob Deasy, Rob T. Woodruff, Stephen Young, and Kim M. Branson. \"Single-cell gene expression prediction from DNA sequence at large contexts.\" bioRxiv (2023): 2023-07.",
    "reviewed": false,
    "status": "preprint"
@@ -3735,6 +3839,9 @@
    "architecture": "Generative Pretraining (Autoregressive)",
    "task": "Single-cell deciphering (gene ranking). Key Finding: Autoregressively models the ranking of a gene.",
    "key": "tGPT models gene rankings via autoregressive language modeling tGPT works effectively on fundamental single-cell analysis tasks tGPT captures distinctive features of different cell types tGPT learns expression signatures linked to genomic and clinical features",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.isci.2023.106536"
+   },
    "citation": "Shen, Hongru, Jilei Liu, Jiani Hu, Xilin Shen, Chao Zhang, Dan Wu, Mengyao Feng et al. \"Generative pretraining from large-scale transcriptomes for single-cell deciphering.\" Iscience 26, no. 5 (2023).",
    "reviewed": false,
    "status": "published"
@@ -3778,6 +3885,9 @@
    "modality": "Single-cell RNA-seq",
    "architecture": "Deep Language Model",
    "key": "Cell type annotation. Key Finding: Uses value categorization (binning) for gene counts, transforming continuous data to categorical values.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s42256-022-00534-z"
+   },
    "citation": "Yang, Fan, Wenchuan Wang, Fang Wang, Yuan Fang, Duyu Tang, Junzhou Huang, Hui Lu, and Jianhua Yao. \"scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data.\" Nature Machine Intelligence 4, no. 10 (2022): 852-866.",
    "reviewed": false,
    "status": "published"
@@ -3795,6 +3905,9 @@
    ],
    "architecture": "Multi-task Self-Supervised Learning",
    "key": "Cell-type classification",
+   "links": {
+    "paper": "https://doi.org/10.1093/bioinformatics/btac007"
+   },
    "citation": "Zhang, Ruiyi, Yunan Luo, Jianzhu Ma, Ming Zhang, and Sheng Wang. \"scPretrain: multi-task self-supervised learning for cell-type classification.\" Bioinformatics 38, no. 6 (2022): 1607-1614.",
    "reviewed": false,
    "status": "published"
@@ -4144,6 +4257,9 @@
    "year": 2026,
    "venue": "Nature Methods",
    "type": "reference",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-026-03055-4"
+   },
    "citation": "Cao, Natalie, Yifan Lu, and Xiaojie Qiu. \"Towards predictive virtual embryos with genomics and AI.\" Nature Methods (2026): 1-5.",
    "reviewed": false,
    "status": "published"
@@ -4158,6 +4274,9 @@
    "tags": [
     "virtual-cell"
    ],
+   "links": {
+    "paper": "https://doi.org/10.64898/2026.02.04.703804"
+   },
    "citation": "Dibaeinia, Payam, et al. \"Virtual Cells Need Context, Not Just Scale.\" bioRxiv (2026): 2026-02.",
    "reviewed": false,
    "status": "preprint"
@@ -4542,6 +4661,9 @@
     "virtual-cell"
    ],
    "key": "propose here that the evolution or growth of AIVCs relies on three essential building blocks and nutrients: a priori knowledge, static architecture, and dynamic states. These data pillars, when combined with deep learning algorithms, form the foundation for AIVC development",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41422-025-01101-y"
+   },
    "citation": "Qian, Liujia, Zhen Dong, and Tiannan Guo. \"Grow AI virtual cells: three data pillars and closed-loop learning.\" Cell Research (2025): 1-3.",
    "reviewed": false,
    "status": "published"
@@ -4966,6 +5088,9 @@
    "tags": [
     "virtual-cell"
    ],
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2025.06.008"
+   },
    "citation": "Roohani, Yusuf H., Tony J. Hua, Po-Yuan Tung, Lexi R. Bounds, Feiqiao B. Yu, Alexander Dobin, Noam Teyssier et al. \"Virtual Cell Challenge: Toward a Turing test for the virtual cell.\" Cell 188, no. 13 (2025): 3370-3374.",
    "reviewed": false,
    "status": "published"
@@ -5194,6 +5319,9 @@
     "virtual-cell"
    ],
    "key": "Main paper",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2024.11.015"
+   },
    "citation": "Bunne, Charlotte, Yusuf Roohani, Yanay Rosen, Ankit Gupta, Xikun Zhang, Marcel Roed, Theo Alexandrov et al. \"How to build the virtual cell with artificial intelligence: Priorities and opportunities.\" Cell 187, no. 25 (2024): 7045-7063.",
    "reviewed": false,
    "status": "published"
