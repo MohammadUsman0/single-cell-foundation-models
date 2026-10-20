@@ -10,8 +10,8 @@ tags:
 - scrna-seq
 modality: Single-cell Gene Expression from DNA Sequence
 task: Prediction from DNA sequence
-key: Here, we use a transfer learning framework, seq2cells, leveraging a pre-trained epigenome model for
-  gene expression prediction from large sequence contexts at single-cell resolution.
+key: Predicts single-cell gene expression from DNA sequence by transfer learning from a pre-trained epigenome
+  model.
 links:
   paper: https://doi.org/10.1101/2023.07.26.550634
 citation: 'Schwessinger, Ron, Jacob Deasy, Rob T. Woodruff, Stephen Young, and Kim M. Branson. "Single-cell

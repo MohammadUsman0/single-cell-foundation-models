@@ -9,8 +9,8 @@ tags:
 - scrna-seq
 architecture: Divide-and-Conquer Contrastive Learning
 task: Cell Representation Learning
-key: propose a novel divide-and-conquer contrastive learning approach to decouple the batch size from
-  the GPU memory size for cell representation learning
+key: 50M-parameter cell language model trained on 2M normal and cancer cells, using divide-and-conquer
+  contrastive learning to allow large batches.
 links:
   paper: https://arxiv.org/abs/2306.04371
 citation: Zhao, Suyuan, Jiahuan Zhang, and Zaiqing Nie. "Large-scale cell representation learning via

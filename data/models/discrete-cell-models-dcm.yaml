@@ -11,8 +11,8 @@ tags:
 - perturbation
 - generative
 - scrna-seq
-key: results establish discrete diffusion as a promising direction for foundational models of cellular
-  biology
+key: Diffusion model that generates single-cell expression directly as discrete counts, unconditionally
+  or conditioned on perturbations.
 links:
   paper: https://doi.org/10.64898/2026.02.19.705033
 citation: 'Bhattacharya, Sanjukta, Christian Gensbigler, Shaamil Karim, and Jon Lees. "Discrete Diffusion

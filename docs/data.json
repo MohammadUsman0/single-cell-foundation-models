@@ -480,7 +480,7 @@
     "generative",
     "scrna-seq"
    ],
-   "key": "results establish discrete diffusion as a promising direction for foundational models of cellular biology",
+   "key": "Diffusion model that generates single-cell expression directly as discrete counts, unconditionally or conditioned on perturbations.",
    "links": {
     "paper": "https://doi.org/10.64898/2026.02.19.705033"
    },
@@ -861,7 +861,7 @@
    "modality": "Single-cell Data",
    "architecture": "Language Models",
    "task": "Single-cell data analysis (embeddings)",
-   "key": "propose a method named scELMo (Single-cell Embedding from Language Models), to analyze single-cell data that utilizes Large Language Models (LLMs) as a generator for both the description of metadata information and the embeddings for such descriptions.",
+   "key": "Uses LLM-written descriptions of genes and cell metadata, and their embeddings, as features for zero-shot and fine-tuned single-cell analysis.",
    "links": {
     "paper": "https://doi.org/10.1016/j.patter.2025.101431"
    },
@@ -1206,7 +1206,7 @@
    ],
    "modality": "RNA-seq Coverage from DNA Sequence",
    "task": "Prediction from DNA sequence (unifying model of gene regulation)",
-   "key": "a model that learns to predict cell-type-specific and tissue-specific RNA-seq coverage from DNA sequence. Using statistics derived from Borzoi’s predicted coverage, we isolate and accurately score DNA variant effects across multiple layers of regulation, including transcription, splicing and polyadenylation.",
+   "key": "Predicts cell-type- and tissue-specific RNA-seq coverage from DNA sequence and scores variant effects on transcription, splicing and polyadenylation.",
    "links": {
     "paper": "https://doi.org/10.1038/s41588-024-02053-6",
     "code": "https://github.com/calico/borzoi"
@@ -1487,7 +1487,7 @@
     "gene-regulation"
    ],
    "architecture": "Transformer-based",
-   "key": "present CellProphet, an interpretable AI model that infers dynamic GRN by integrating temporal causality with transformer self-attention mechanism",
+   "key": "Infers dynamic gene regulatory networks by combining temporal causality analysis with transformer self-attention.",
    "links": {
     "code": "https://github.com/prsigma/CellProphet"
    },
@@ -1845,7 +1845,7 @@
    ],
    "modality": "Single-cell",
    "architecture": "FM",
-   "key": "Issue: standard language models such as transformers benefits from sequentially structured data with well defined absolute or relative positional relationships, while single cell RNA data have orderless gene features. Molecular-interaction graphs, such as gene regulatory networks (GRN) or protein-protein interaction (PPI) networks, offer graph structure-based models that effectively encode both non-local gene token dependencies, as well as potential causal relationships. So they introduce GREmLN (Gene Regulatory Embedding-based Large Neural model), a foundation model that leverages graph signal processing to embed gene token graph structure directly within its attention mechanism, producing biologically informed single cell specific gene embeddings",
+   "key": "Transcriptomics foundation model that builds gene-regulatory graph structure into attention to give cell-specific gene embeddings.",
    "links": {
     "paper": "https://doi.org/10.1101/2025.07.03.663009"
    },
@@ -2318,7 +2318,7 @@
    "modality": "Single-cell (technology-agnostic)",
    "architecture": "transformer-based contrastive learning framework",
    "task": "cell-type annotation, technology integration, dissociated to spatial cell-type transfer, spatial imputation, gene panel optimization, and mapping new technologies on already existing atlases.",
-   "key": "present scConcept (“contrastive cell pre-training”), a transformer-based contrastive learning framework that directly optimizes cell embeddings by contrasting multiple views of cells. By replacing gene-level reconstruction with a cell-level identification task, scConcept learns robust representations that are invariant to count distributions and gene panel selection, across diverse assays and technologies.",
+   "key": "Contrastive transformer pre-trained on 30M+ cells that learns cell embeddings robust to sequencing technology and gene panel.",
    "links": {
     "paper": "https://doi.org/10.1101/2025.10.14.682419"
    },
@@ -2404,7 +2404,7 @@
    "modality": "Single-Cell Gene Expression",
    "architecture": "Diffusion Model",
    "task": "Scalable gene expression generation",
-   "key": "introduce a scalable latent diffusion model (scLDM) for single-cell gene expression data. authors shows superior performance in a variety of experiments for both observational and perturbational single-cell data, as well as downstream tasks like cell-level classification.",
+   "key": "Latent diffusion model for generating single-cell expression, with a permutation-invariant VAE and multi-condition guidance.",
    "links": {
     "paper": "https://arxiv.org/abs/2511.02986"
    },
@@ -2547,7 +2547,7 @@
    "venue": "bioRxiv",
    "category": "other",
    "task": "expression denoising, cell embedding, and cell type prediction",
-   "key": "propose an additive benchmark across a gymnasium of tasks to discover which features improve performance. From thesefindings, we present scPRINT-2, a single-cell Foundation Model pre-trained across 350 million cells and 16 organisms. Our contributions in pre-training tasks, tokenization, and losses made scPRINT-2 state-of-the-art in expression denoising, cell embedding, and cell type prediction.",
+   "key": "Successor to scPRINT, pre-trained on 350M cells from 16 organisms with design choices picked by an additive benchmark; also generative.",
    "links": {
     "paper": "https://doi.org/10.64898/2025.12.11.693702"
    },
@@ -2658,7 +2658,7 @@
    "modality": "Spatial Multi-omics",
    "architecture": "deep generative model",
    "task": "Cross-modality translation and marker genes and proteins recovery, motif enrichment analysis, and gene regulation inference",
-   "key": "present SpaTranslator, a deep generative framework that integrates graph neural networks with an adversarial variational generative model to fully capture spatial characteristics and enable effective cross-modality translation of spatial omics data, enabling simulation of paired spatial multi-omics data from single-omics measurements",
+   "key": "Generative model (graph neural network + adversarial VAE) that translates between spatial omics modalities to simulate paired data.",
    "links": {
     "paper": "https://doi.org/10.1101/2025.11.15.688644"
    },
@@ -2786,7 +2786,7 @@
    "modality": "Spatial Multi-omics",
    "architecture": "generative model",
    "task": "Integrative deep learning, facilitate Various downstream analyses such differential analysis, trajectory inference and gene regulatory network inference",
-   "key": "Introduce SWITCH (Spatially Weighted Multi-omics Integration and Cross-modal Translation with Cycle-mapping Harmonization), a deep generative model for spatial multi-omics integration",
+   "key": "Deep generative model for integrating spatial multi-omics data and translating between modalities.",
    "links": {
     "paper": "https://doi.org/10.1038/s43588-025-00891-w"
    },
@@ -2807,7 +2807,7 @@
    ],
    "modality": "Single-Cell Transcriptomics",
    "architecture": "Tabular Self-Supervised",
-   "key": "Nips 2025 poster",
+   "key": "Single-cell foundation model with tabular-structure-aware self-supervised pre-training, designed for privacy-preserving federated training.",
    "links": {
     "paper": "https://doi.org/10.52202/085713-3467",
     "preprint": "https://doi.org/10.1101/2025.01.06.631427"
@@ -2956,7 +2956,7 @@
     "virtual-cell"
    ],
    "architecture": "LLM based",
-   "key": "present VCWorld, a cell-level white-box simulator that integrates structured biological knowledge with the iterative reasoning capabilities of large language models to instantiate a biological world model. powered by a Large Language Model (LLM). It consists of three key stages: (1) generating rich, symbolic representations for all biological entities; (2) retrieving a support set of causal evidence guided by open-world biological knowledge; and (3) synthesizing all information through a Chain-of-Thought process to produce an interpretable prediction.",
+   "key": "LLM-driven white-box simulator that reasons over biological knowledge to predict drug perturbation responses with mechanistic explanations.",
    "links": {
     "paper": "https://arxiv.org/abs/2512.00306",
     "code": "https://github.com/GENTEL-lab/VCWorld"
@@ -3021,7 +3021,7 @@
    "modality": "Single-cell RNA-seq (Malignant cells)",
    "architecture": "scRNA-seq Foundation Model (scFM)",
    "task": "Zero-shot batch integration, drug response prediction, survival prediction. Key Finding: Trained exclusively on malignant cells (focused, smaller model) and outperforms larger FMs in cancer tasks.",
-   "key": "present CancerFoundation, a novel single-cell RNA-seq foundation model (scFM) trained exclusively on malignant cells",
+   "key": "scRNA-seq foundation model trained only on about 1M malignant cells, aimed at batch integration, drug response and survival prediction.",
    "links": {
     "paper": "https://doi.org/10.1101/2024.11.01.621087"
    },
@@ -3105,7 +3105,7 @@
    ],
    "architecture": "Language-Cell Pre-training",
    "task": "Cell Identity Understanding",
-   "key": "introduce , the first uage- pre-training framework. LangCell utilizes texts enriched with cell identity information to gain a profound comprehension of cross-modal knowledge",
+   "key": "Pre-trains single-cell and natural-language representations jointly, so cell identity tasks like annotation work with few or no labels.",
    "links": {
     "paper": "https://arxiv.org/abs/2405.06708"
    },
@@ -3456,7 +3456,7 @@
    "modality": "Spatial Transcriptomics",
    "architecture": "Transformer (Self-Attention, Cross-Attention)",
    "task": "Gene representation (integrates intracellular and spatial context). Key Finding: Incorporates ligand genes within the spatial niche.",
-   "key": "propose a biased cross-attention method that enables the model to do learning with single-cell resolution on whole-transcriptome but low-resolution Visium data",
+   "key": "Transformer for spatial transcriptomics that adds ligand-gene context from neighbouring cells through cross-attention.",
    "links": {
     "paper": "https://doi.org/10.1101/2024.09.27.615337"
    },
@@ -3497,7 +3497,7 @@
    ],
    "architecture": "Divide-and-Conquer Contrastive Learning",
    "task": "Cell Representation Learning",
-   "key": "propose a novel divide-and-conquer contrastive learning approach to decouple the batch size from the GPU memory size for cell representation learning",
+   "key": "50M-parameter cell language model trained on 2M normal and cancer cells, using divide-and-conquer contrastive learning to allow large batches.",
    "links": {
     "paper": "https://arxiv.org/abs/2306.04371"
    },
@@ -3712,7 +3712,7 @@
    ],
    "modality": "Single-cell Gene Expression from DNA Sequence",
    "task": "Prediction from DNA sequence",
-   "key": "Here, we use a transfer learning framework, seq2cells, leveraging a pre-trained epigenome model for gene expression prediction from large sequence contexts at single-cell resolution.",
+   "key": "Predicts single-cell gene expression from DNA sequence by transfer learning from a pre-trained epigenome model.",
    "links": {
     "paper": "https://doi.org/10.1101/2023.07.26.550634"
    },
@@ -4047,7 +4047,7 @@
     "perturbation",
     "drug-response"
    ],
-   "key": "Performed a comprehensive analysis of over 600 different models for embedding-based perturbation response prediction for both genetic and small molecule interventions. As we showed, while some FMs fail to improve over simpler methods for this task, others provide significant gains. Interactome based FMs, which are based on the underlying networks activated in the cell, performed particularly well.",
+   "key": "Compares 600+ models for embedding-based perturbation response prediction; some foundation models beat simple baselines, and combining several helps.",
    "links": {
     "paper": "https://www.biorxiv.org/content/10.64898/2026.02.18.706454v1",
     "code": "https://github.com/genbio-ai/foundation-models-perturbation"
@@ -4571,7 +4571,7 @@
     "perturbation",
     "virtual-cell"
    ],
-   "key": "Perturbation Discrimination Score (PDS) is increasingly used to evaluate whether predicted perturbation effects remain distinguishable, including in Systema and the Virtual Cell Challenge. We provide geometric insight and discuss implications for future discrimination-based evaluation metrics.",
+   "key": "Shows that the Perturbation Discrimination Score depends strongly on the distance metric and the scale of predicted effects.",
    "links": {
     "paper": "https://arxiv.org/abs/2511.16954"
    },
@@ -4632,7 +4632,7 @@
     "cross-species",
     "virtual-cell"
    ],
-   "key": "propose here that the evolution or growth of AIVCs relies on three essential building blocks and nutrients: a priori knowledge, static architecture, and dynamic states. These data pillars, when combined with deep learning algorithms, form the foundation for AIVC development",
+   "key": "Argues that AI virtual cells need three data pillars (prior knowledge, static architecture, dynamic states) plus closed-loop learning.",
    "links": {
     "paper": "https://doi.org/10.1038/s41422-025-01101-y"
    },
@@ -5182,7 +5182,7 @@
     "generative",
     "scrna-seq"
    ],
-   "key": "We train variational autoencoders on three gene expression datasets spanning genetic, chemical, and temporal perturbations, and infer perturbations by differentiating decoder outputs with respect to latent variables. This yields vector fields of infinitesimal change in gene expression.",
+   "key": "Shows that trained single-cell VAE decoders already encode perturbation information that gradients can read out, without perturbation labels.",
    "links": {
     "paper": "https://doi.org/10.3390/genes16121439",
     "code": "https://github.com/yhsure/perturbations"

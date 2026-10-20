@@ -9,8 +9,8 @@ tags:
 - llm
 architecture: Language-Cell Pre-training
 task: Cell Identity Understanding
-key: introduce , the first uage- pre-training framework. LangCell utilizes texts enriched with cell identity
-  information to gain a profound comprehension of cross-modal knowledge
+key: Pre-trains single-cell and natural-language representations jointly, so cell identity tasks like
+  annotation work with few or no labels.
 links:
   paper: https://arxiv.org/abs/2405.06708
 citation: 'Zhao, Suyuan, Jiahuan Zhang, Yushuai Wu, Yizhen Luo, and Zaiqing Nie. "Langcell: Language-cell

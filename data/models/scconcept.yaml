@@ -12,10 +12,8 @@ modality: Single-cell (technology-agnostic)
 architecture: transformer-based contrastive learning framework
 task: cell-type annotation, technology integration, dissociated to spatial cell-type transfer, spatial
   imputation, gene panel optimization, and mapping new technologies on already existing atlases.
-key: present scConcept (“contrastive cell pre-training”), a transformer-based contrastive learning framework
-  that directly optimizes cell embeddings by contrasting multiple views of cells. By replacing gene-level
-  reconstruction with a cell-level identification task, scConcept learns robust representations that are
-  invariant to count distributions and gene panel selection, across diverse assays and technologies.
+key: Contrastive transformer pre-trained on 30M+ cells that learns cell embeddings robust to sequencing
+  technology and gene panel.
 links:
   paper: https://doi.org/10.1101/2025.10.14.682419
 citation: 'Bahrami, Mojtaba, Alejandro Tejada-Lapuerta, Sören Becker, Fatemeh S. Hashemi G, and Fabian

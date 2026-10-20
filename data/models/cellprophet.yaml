@@ -8,8 +8,8 @@ category: grn
 tags:
 - gene-regulation
 architecture: Transformer-based
-key: present CellProphet, an interpretable AI model that infers dynamic GRN by integrating temporal causality
-  with transformer self-attention mechanism
+key: Infers dynamic gene regulatory networks by combining temporal causality analysis with transformer
+  self-attention.
 links:
   code: https://github.com/prsigma/CellProphet
 citation: 'Peng, Rui, Juntian Qi, Yuxing Lu, Wei Wu, Qichen Sun, Chi Zhang, Yihan Chen, and Jinzhuo Wang.

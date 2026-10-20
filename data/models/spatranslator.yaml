@@ -13,10 +13,8 @@ modality: Spatial Multi-omics
 architecture: deep generative model
 task: Cross-modality translation and marker genes and proteins recovery, motif enrichment analysis, and
   gene regulation inference
-key: present SpaTranslator, a deep generative framework that integrates graph neural networks with an
-  adversarial variational generative model to fully capture spatial characteristics and enable effective
-  cross-modality translation of spatial omics data, enabling simulation of paired spatial multi-omics
-  data from single-omics measurements
+key: Generative model (graph neural network + adversarial VAE) that translates between spatial omics modalities
+  to simulate paired data.
 links:
   paper: https://doi.org/10.1101/2025.11.15.688644
 citation: 'Dong, Hongyu, Sheng Mao, Yukuan Liu, Tian Tian, Lihua Zhang, Juanshu Wu, Shichen Zhang et al.

@@ -8,9 +8,8 @@ tags:
 - perturbation
 - generative
 - scrna-seq
-key: We train variational autoencoders on three gene expression datasets spanning genetic, chemical, and
-  temporal perturbations, and infer perturbations by differentiating decoder outputs with respect to latent
-  variables. This yields vector fields of infinitesimal change in gene expression.
+key: Shows that trained single-cell VAE decoders already encode perturbation information that gradients
+  can read out, without perturbation labels.
 links:
   paper: https://doi.org/10.3390/genes16121439
   code: https://github.com/yhsure/perturbations
