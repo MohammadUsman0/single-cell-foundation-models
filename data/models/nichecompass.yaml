@@ -10,6 +10,13 @@ tags:
 - cross-species
 - graph
 architecture: Knowledge-Informed Cross-Species Foundation Model
+inputs:
+- expression
+- spatial-coordinates
+outputs:
+- cell-embedding
+- spatial-domain
+architecture_family: graph-neural-network
 key: Deciphering universal gene regulatory mechanisms
 links:
   paper: https://doi.org/10.1038/s41588-025-02120-6
@@ -22,5 +29,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41588-025-02120-6
 - https://doi.org/10.1101/2024.02.21.581428
-review_basis: metadata
+review_basis: abstract
 reviewed: false

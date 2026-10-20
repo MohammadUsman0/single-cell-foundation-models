@@ -14,6 +14,10 @@ task: Gene representation that integrates intracellular and spatial context.
 inputs:
 - expression
 - spatial-coordinates
+outputs:
+- cell-embedding
+- cell-type-label
+- perturbation-response
 key: Transformer for spatial transcriptomics that adds ligand-gene context from neighbouring cells through
   cross-attention.
 links:
@@ -27,5 +31,5 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1016/j.crmeth.2026.101612
 - https://doi.org/10.1101/2024.09.27.615337
-review_basis: metadata
+review_basis: abstract
 reviewed: false

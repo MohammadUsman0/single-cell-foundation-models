@@ -11,10 +11,18 @@ tags:
 - perturbation
 - generative
 - scrna-seq
+inputs:
+- expression
+- perturbation
+outputs:
+- image
+- perturbation-response
+architecture_family: diffusion
 links:
   paper: https://www.nature.com/articles/s41467-025-63478-z
   code: https://github.com/biomap-research/MorphDiff
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41467-025-63478-z
+review_basis: abstract
 reviewed: false

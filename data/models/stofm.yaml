@@ -12,6 +12,10 @@ modality: Spatial Transcriptomics
 inputs:
 - expression
 - spatial-coordinates
+outputs:
+- cell-embedding
+- spatial-domain
+- cell-type-label
 key: Multi-scale modeling
 links:
   paper: https://arxiv.org/abs/2507.11588
@@ -21,5 +25,5 @@ citation: 'Zhao, Suyuan, Yizhen Luo, Ganbo Yang, Yan Zhong, Hao Zhou, and Zaiqin
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2507.11588
-review_basis: metadata
+review_basis: abstract
 reviewed: false

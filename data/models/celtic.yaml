@@ -7,10 +7,15 @@ venue: Nature Methods
 category: morphology
 tags:
 - imaging
+inputs:
+- cell-image
+outputs:
+- image
 links:
   paper: https://www.nature.com/articles/s41592-025-02960-4
   code: https://github.com/zaritskylab/CELTIC
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41592-025-02960-4
+review_basis: abstract
 reviewed: false

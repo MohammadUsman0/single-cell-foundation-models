@@ -2,8 +2,8 @@
  "generated": "2026-10-20",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
-  "models": 174,
-  "resources": 122,
+  "models": 170,
+  "resources": 126,
   "venues": 19
  },
  "vocab": {
@@ -613,38 +613,23 @@
     "code": "https://github.com/Teichlab/celcomen"
    },
    "reviewed": false,
-   "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
-   "status": "published",
-   "github": "Teichlab/celcomen"
-  },
-  {
-   "id": "cell-shapes",
-   "kind": "model",
-   "name": "Cell Shapes",
-   "title": "Cell shapes decode molecular phenotypes in image-based spatial proteomics",
-   "year": 2026,
-   "venue": "Cell Systems",
-   "category": "morphology",
-   "tags": [
-    "imaging",
-    "spatial",
-    "proteomics"
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
    ],
-   "links": {
-    "paper": "https://doi.org/10.1016/j.cels.2026.101589",
-    "preprint": "https://doi.org/10.1101/2025.05.13.653868"
-   },
-   "citation": "Le, Trang, William D. Leineweber, Matheus P. Viana, Anthony Cesnik, Jan N. Hansen, Wei Ouyang, Susanne M. Rafelski et al. \"Cell shapes decode molecular phenotypes in image-based spatial proteomics.\" Cell Systems 17, no. 6 (2026): 101589.",
-   "reviewed": false,
+   "outputs": [
+    "generated-cells",
+    "perturbation-response",
+    "gene-regulatory-network"
+   ],
+   "architecture_family": "graph-neural-network",
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.1016/j.cels.2026.101589",
-    "https://doi.org/10.1101/2025.05.13.653868"
+    "https://www.nature.com/articles/s41467-026-69856-5"
    ],
-   "review_basis": "metadata",
-   "status": "published"
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "Teichlab/celcomen"
   },
   {
    "id": "cell-jepa",
@@ -1342,11 +1327,17 @@
    },
    "citation": "Sun, Huangqingbo, Konstantin Kahnert, Jan N. Hansen, William Leineweber, Mingyang Li, Wanyue Feng, Frederic Ballllosera Navarro et al. \"Generative machine learning unlocks the first proteome-wide image of human cells.\" bioRxiv (2026).",
    "reviewed": false,
+   "inputs": [
+    "cell-image"
+   ],
+   "outputs": [
+    "image"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.64898/2026.03.31.715748"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "CellProfiling/ProtiCelli"
   },
@@ -1791,12 +1782,17 @@
     "expression",
     "spatial-coordinates"
    ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label",
+    "perturbation-response"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1016/j.crmeth.2026.101612",
     "https://doi.org/10.1101/2024.09.27.615337"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "csh3/stFormer"
   },
@@ -1856,9 +1852,16 @@
     "code": "https://github.com/QiangweiPeng/stVCR"
    },
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "architecture_family": "flow-matching",
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41592-026-03010-3"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "QiangweiPeng/stVCR"
   },
@@ -2460,7 +2463,7 @@
    "title": "CellFlow Enables Generative Single-Cell Phenotype Modeling with Flow Matching",
    "year": 2025,
    "venue": "bioRxiv",
-   "category": "morphology",
+   "category": "perturbation",
    "tags": [
     "imaging",
     "generative"
@@ -2470,11 +2473,29 @@
     "code": "https://github.com/theislab/CellFlow"
    },
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "generated-cells"
+   ],
+   "architecture_family": "flow-matching",
+   "perturbation_type": [
+    "genetic",
+    "chemical",
+    "cytokine",
+    "combination"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "theislab/CellFlow"
   },
@@ -2771,9 +2792,17 @@
     "code": "https://github.com/zaritskylab/CELTIC"
    },
    "reviewed": false,
+   "inputs": [
+    "cell-image"
+   ],
+   "outputs": [
+    "image"
+   ],
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41592-025-02960-4"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "zaritskylab/CELTIC"
   },
@@ -3296,9 +3325,20 @@
     "code": "https://github.com/theislab/IMPA"
    },
    "reviewed": false,
+   "inputs": [
+    "cell-image",
+    "perturbation"
+   ],
+   "outputs": [
+    "image",
+    "perturbation-response"
+   ],
+   "architecture_family": "other",
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41467-024-55707-8"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "theislab/IMPA"
   },
@@ -3383,28 +3423,6 @@
    "github": "satijalab/Mixscale"
   },
   {
-   "id": "morph-map",
-   "kind": "model",
-   "name": "Morph Map",
-   "title": "Morphological map of under- and overexpression of genes in human cells",
-   "year": 2025,
-   "venue": "Nature Methods",
-   "category": "morphology",
-   "tags": [
-    "imaging"
-   ],
-   "links": {
-    "paper": "https://www.nature.com/articles/s41592-025-02753-9",
-    "code": "https://github.com/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap"
-   },
-   "reviewed": false,
-   "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
-   "status": "published",
-   "github": "jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap"
-  },
-  {
    "id": "morphdiff",
    "kind": "model",
    "name": "MorphDiff",
@@ -3423,9 +3441,20 @@
     "code": "https://github.com/biomap-research/MorphDiff"
    },
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "image",
+    "perturbation-response"
+   ],
+   "architecture_family": "diffusion",
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41467-025-63478-z"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "biomap-research/MorphDiff"
   },
@@ -3446,7 +3475,18 @@
     "code": "https://github.com/bowang-lab/MorphoDiff"
    },
    "reviewed": false,
+   "inputs": [
+    "perturbation"
+   ],
+   "outputs": [
+    "image"
+   ],
+   "architecture_family": "diffusion",
    "added": "2026-06-02",
+   "sources": [
+    "https://openreview.net/forum?id=PstM8YfhvI"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "bowang-lab/MorphoDiff"
   },
@@ -3472,12 +3512,21 @@
    },
    "citation": "Birk, Sebastian, Irene Bonafonte-Pardàs, Adib Miraki Feriz, Adam Boxall, Eneritz Agirre, Fani Memi, Anna Maguza et al. \"Quantitative characterization of cell niches in spatially resolved omics data.\" Nature Genetics 57, no. 4 (2025): 897-909.",
    "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "spatial-domain"
+   ],
+   "architecture_family": "graph-neural-network",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41588-025-02120-6",
     "https://doi.org/10.1101/2024.02.21.581428"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "Lotfollahi-lab/nichecompass"
   },
@@ -3624,12 +3673,16 @@
     "histology-image",
     "spatial-coordinates"
    ],
+   "outputs": [
+    "cell-type-label",
+    "expression-prediction"
+   ],
    "architecture_family": "contrastive-dual-encoder",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-025-02707-1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "GuangyuWangLab2021/Loki"
   },
@@ -3657,11 +3710,15 @@
     "expression",
     "spatial-coordinates"
    ],
+   "outputs": [
+    "gene-embedding",
+    "spatial-domain"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2025.12.29.696804v1"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -3696,28 +3753,6 @@
    "status": "preprint"
   },
   {
-   "id": "periscope",
-   "kind": "model",
-   "name": "PERISCOPE",
-   "title": "A genome-wide atlas of human cell morphology",
-   "year": 2025,
-   "venue": "Nature Methods",
-   "category": "morphology",
-   "tags": [
-    "imaging"
-   ],
-   "links": {
-    "paper": "https://www.nature.com/articles/s41592-024-02537-7",
-    "code": "https://github.com/broadinstitute/2022_PERISCOPE"
-   },
-   "reviewed": false,
-   "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
-   "status": "published",
-   "github": "broadinstitute/2022_PERISCOPE"
-  },
-  {
    "id": "phenoprofiler",
    "kind": "model",
    "name": "PhenoProfiler",
@@ -3735,11 +3770,17 @@
    },
    "citation": "Li, Bo, Bob Zhang, Chengyang Zhang, Minghao Zhou, Weiliang Huang, Shihang Wang, Qing Wang et al. \"PhenoProfiler: advancing phenotypic learning for image-based drug discovery.\" Nature Communications 17, no. 1 (2025): 793.",
    "reviewed": false,
+   "inputs": [
+    "cell-image"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41467-025-67479-w"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "QSong-github/PhenoProfiler"
   },
@@ -4452,11 +4493,14 @@
    "inputs": [
     "spatial-coordinates"
    ],
+   "outputs": [
+    "expression-prediction"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.11.15.688644"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "donghongyu2020/SpaTranslator"
   },
@@ -4497,31 +4541,6 @@
    "github": "siyuh/Squidiff"
   },
   {
-   "id": "stereo-cell",
-   "kind": "model",
-   "name": "Stereo-Cell",
-   "title": "Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density DNA Nanoball-Patterned Arrays",
-   "year": 2025,
-   "venue": "Science",
-   "category": "spatial",
-   "tags": [
-    "spatial"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1126/science.adr0475",
-    "code": "https://github.com/haoshijie13/Stereo-cell-paper-code"
-   },
-   "citation": "Liao, Sha, Xiaoxi Zhou, Chuanyu Liu, Chang Liu, Shijie Hao, Hongyu Luo, Huan Hou et al. \"Stereo-cell: Spatial enhanced-resolution single-cell sequencing with high-density DNA nanoball-patterned arrays.\" Science 389, no. 6762 (2025): eadr0475.",
-   "reviewed": false,
-   "added": "2026-06-02",
-   "sources": [
-    "https://doi.org/10.1126/science.adr0475"
-   ],
-   "review_basis": "metadata",
-   "status": "published",
-   "github": "haoshijie13/Stereo-cell-paper-code"
-  },
-  {
    "id": "stofm",
    "kind": "model",
    "name": "SToFM",
@@ -4545,11 +4564,16 @@
     "expression",
     "spatial-coordinates"
    ],
+   "outputs": [
+    "cell-embedding",
+    "spatial-domain",
+    "cell-type-label"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://arxiv.org/abs/2507.11588"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "PharMolix/SToFM"
   },
@@ -4581,9 +4605,14 @@
     "histology-image",
     "spatial-coordinates"
    ],
+   "outputs": [
+    "expression-prediction"
+   ],
    "added": "2026-06-02",
-   "sources": [],
-   "review_basis": "metadata",
+   "sources": [
+    "https://www.nature.com/articles/s41746-025-02020-3"
+   ],
+   "review_basis": "abstract",
    "status": "published",
    "github": "Graph-and-Geometric-Learning/STPath"
   },
@@ -4613,11 +4642,15 @@
    "inputs": [
     "spatial-coordinates"
    ],
+   "outputs": [
+    "expression-prediction",
+    "spatial-domain"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s43588-025-00891-w"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "published",
    "github": "zzli123/SWITCH"
   },
@@ -5781,11 +5814,17 @@
    },
    "citation": "Gupta, Ankit, Zoe Wefers, Konstantin Kahnert, Jan N Hansen, Mohini K Misra, William D. Leineweber, Anthony Cesnik et al. \"SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology.\" bioRxiv (2024).",
    "reviewed": false,
+   "inputs": [
+    "cell-image"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2024.12.06.627299"
    ],
-   "review_basis": "metadata",
+   "review_basis": "abstract",
    "status": "preprint",
    "github": "CellProfiling/subcell-embed"
   },
@@ -6465,6 +6504,32 @@
    "status": "preprint"
   },
   {
+   "id": "cell-shapes",
+   "kind": "resource",
+   "title": "Cell shapes decode molecular phenotypes in image-based spatial proteomics",
+   "year": 2026,
+   "venue": "Cell Systems",
+   "type": "dataset",
+   "tags": [
+    "imaging",
+    "spatial",
+    "proteomics"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cels.2026.101589",
+    "preprint": "https://doi.org/10.1101/2025.05.13.653868"
+   },
+   "citation": "Le, Trang, William D. Leineweber, Matheus P. Viana, Anthony Cesnik, Jan N. Hansen, Wei Ouyang, Susanne M. Rafelski et al. \"Cell shapes decode molecular phenotypes in image-based spatial proteomics.\" Cell Systems 17, no. 6 (2026): 101589.",
+   "reviewed": false,
+   "added": "2026-06-02",
+   "sources": [
+    "https://doi.org/10.1016/j.cels.2026.101589",
+    "https://doi.org/10.1101/2025.05.13.653868"
+   ],
+   "review_basis": "metadata",
+   "status": "published"
+  },
+  {
    "id": "evaluating-the-role-of-pre-training",
    "kind": "resource",
    "title": "Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance",
@@ -6840,6 +6905,30 @@
    ],
    "review_basis": "metadata",
    "status": "preprint"
+  },
+  {
+   "id": "periscope",
+   "kind": "resource",
+   "aliases": [
+    "PERISCOPE"
+   ],
+   "title": "A genome-wide atlas of human cell morphology",
+   "year": 2025,
+   "venue": "Nature Methods",
+   "type": "dataset",
+   "tags": [
+    "imaging"
+   ],
+   "links": {
+    "paper": "https://www.nature.com/articles/s41592-024-02537-7",
+    "code": "https://github.com/broadinstitute/2022_PERISCOPE"
+   },
+   "reviewed": false,
+   "added": "2026-06-02",
+   "sources": [],
+   "review_basis": "metadata",
+   "status": "published",
+   "github": "broadinstitute/2022_PERISCOPE"
   },
   {
    "id": "a-survey-on-foundation-language-models",
@@ -7461,6 +7550,30 @@
    "status": "published"
   },
   {
+   "id": "morph-map",
+   "kind": "resource",
+   "aliases": [
+    "Morph Map"
+   ],
+   "title": "Morphological map of under- and overexpression of genes in human cells",
+   "year": 2025,
+   "venue": "Nature Methods",
+   "type": "dataset",
+   "tags": [
+    "imaging"
+   ],
+   "links": {
+    "paper": "https://www.nature.com/articles/s41592-025-02753-9",
+    "code": "https://github.com/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap"
+   },
+   "reviewed": false,
+   "added": "2026-06-02",
+   "sources": [],
+   "review_basis": "metadata",
+   "status": "published",
+   "github": "jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap"
+  },
+  {
    "id": "multimodal-cell-maps-as-a-foundation",
    "kind": "resource",
    "title": "Multimodal cell maps as a foundation for structural and functional genomics",
@@ -7823,6 +7936,30 @@
    ],
    "review_basis": "metadata",
    "status": "published"
+  },
+  {
+   "id": "stereo-cell",
+   "kind": "resource",
+   "title": "Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density DNA Nanoball-Patterned Arrays",
+   "year": 2025,
+   "venue": "Science",
+   "type": "tool",
+   "tags": [
+    "spatial"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1126/science.adr0475",
+    "code": "https://github.com/haoshijie13/Stereo-cell-paper-code"
+   },
+   "citation": "Liao, Sha, Xiaoxi Zhou, Chuanyu Liu, Chang Liu, Shijie Hao, Hongyu Luo, Huan Hou et al. \"Stereo-cell: Spatial enhanced-resolution single-cell sequencing with high-density DNA nanoball-patterned arrays.\" Science 389, no. 6762 (2025): eadr0475.",
+   "reviewed": false,
+   "added": "2026-06-02",
+   "sources": [
+    "https://doi.org/10.1126/science.adr0475"
+   ],
+   "review_basis": "metadata",
+   "status": "published",
+   "github": "haoshijie13/Stereo-cell-paper-code"
   },
   {
    "id": "systema-a-framework-for-evaluating-genetic",

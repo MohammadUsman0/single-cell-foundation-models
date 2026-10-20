@@ -1,10 +1,11 @@
 id: morph-map
-kind: model
-name: Morph Map
+kind: resource
+type: dataset
 title: Morphological map of under- and overexpression of genes in human cells
+aliases:
+- Morph Map
 year: 2025
 venue: Nature Methods
-category: morphology
 tags:
 - imaging
 links:

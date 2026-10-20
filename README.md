@@ -11,7 +11,7 @@
 
 For each model, the catalogue aims to record what it is, whether you can use it (code, weights, license) and what benchmarks found about it. Titles, years, venues and links are verified against Crossref, OpenAlex, arXiv and bioRxiv with [`scripts/verify.py`](scripts/verify.py).
 
-**174 models** (146 with code) · **122 resources** · **19 venues** · updated 2026-10-20
+**170 models** (143 with code) · **126 resources** · **19 venues** · updated 2026-10-20
 
 Each entry: **name** · title (**venue year**) · tags · links. Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).
 
@@ -23,24 +23,24 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 **Models**
 
 - [scRNA-seq / Transcriptomics Foundation Models](#scrna-seq--transcriptomics-foundation-models) (23)
-- [Spatial & Spatial Multi-omics](#spatial--spatial-multi-omics) (17)
+- [Spatial & Spatial Multi-omics](#spatial--spatial-multi-omics) (16)
 - [Epigenomics & Chromatin Accessibility (scATAC)](#epigenomics--chromatin-accessibility-scatac) (5)
 - [Multimodal & Multi-omics Integration](#multimodal--multi-omics-integration) (6)
 - [Proteomics & Protein-level Models](#proteomics--protein-level-models) (7)
 - [Sequence-to-Expression & Regulatory Genomics](#sequence-to-expression--regulatory-genomics) (3)
 - [Gene Regulatory Networks & Graph-based Models](#gene-regulatory-networks--graph-based-models) (7)
 - [Generative Models (Diffusion / Flow / VAE)](#generative-models-diffusion--flow--vae) (2)
-- [Cell Morphology & Imaging Models](#cell-morphology--imaging-models) (14)
+- [Cell Morphology & Imaging Models](#cell-morphology--imaging-models) (10)
 - [LLM-based & Language-Cell Models](#llm-based--language-cell-models) (21)
 - [Agentic & Autonomous Cell Models](#agentic--autonomous-cell-models) (8)
 - [Cross-species & Cell Atlas / Similarity Models](#cross-species--cell-atlas--similarity-models) (4)
-- [Perturbation Prediction & Virtual Cell / World Models](#perturbation-prediction--virtual-cell--world-models) (57)
+- [Perturbation Prediction & Virtual Cell / World Models](#perturbation-prediction--virtual-cell--world-models) (58)
 
 **Resources**
 
 - [Benchmarks & Evaluation](#benchmarks--evaluation) (44)
-- [Datasets & Atlases](#datasets--atlases) (36)
-- [Tools & Software](#tools--software) (6)
+- [Datasets & Atlases](#datasets--atlases) (39)
+- [Tools & Software](#tools--software) (7)
 - [Surveys](#surveys) (9)
 - [Perspectives & Commentary](#perspectives--commentary) (18)
 - [Other References](#other-references) (9)
@@ -94,7 +94,6 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **OmniCell** · OmniCell: Unified Foundation Modeling of Single-Cell and Spatial Transcriptomics for Cellular and Molecular Insights (**bioRxiv 2025**) · `Spatial` `scRNA-seq` · [[paper](https://www.biorxiv.org/content/10.64898/2025.12.29.696804v1)]
 - **scGPT-spatial** · scGPT-spatial: Continual pretraining of single-cell foundation model for spatial transcriptomics (**bioRxiv 2025**) · `Spatial` `scRNA-seq` · [[paper](https://doi.org/10.1101/2025.02.05.636714)] [[code](https://github.com/bowang-lab/scGPT-spatial)] ![stars](https://img.shields.io/github/stars/bowang-lab/scGPT-spatial?style=flat-square&label=%E2%98%85)
 - **SpaTranslator** · SpaTranslator: A deep generative framework for universal spatial multi-omics cross-modality translation (**bioRxiv 2025**) · `Spatial` `Multi-omics` `Generative` · [[paper](https://doi.org/10.1101/2025.11.15.688644)] [[code](https://github.com/donghongyu2020/SpaTranslator)] ![stars](https://img.shields.io/github/stars/donghongyu2020/SpaTranslator?style=flat-square&label=%E2%98%85)
-- **Stereo-Cell** · Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density DNA Nanoball-Patterned Arrays (**Science 2025**) · `Spatial` · [[paper](https://doi.org/10.1126/science.adr0475)] [[code](https://github.com/haoshijie13/Stereo-cell-paper-code)] ![stars](https://img.shields.io/github/stars/haoshijie13/Stereo-cell-paper-code?style=flat-square&label=%E2%98%85)
 - **SToFM** · Stofm: a multi-scale foundation model for spatial transcriptomics (**arXiv 2025**) · `Spatial` `scRNA-seq` · [[paper](https://arxiv.org/abs/2507.11588)] [[code](https://github.com/PharMolix/SToFM)] ![stars](https://img.shields.io/github/stars/PharMolix/SToFM?style=flat-square&label=%E2%98%85)
 - **STPath** · STPath: a generative foundation model for integrating spatial transcriptomics and whole-slide images (**npj Digital Medicine 2025**) · `Spatial` `Histology` `Imaging` `Generative` `scRNA-seq` · [[paper](https://www.nature.com/articles/s41746-025-02020-3)] [[code](https://github.com/Graph-and-Geometric-Learning/STPath)] ![stars](https://img.shields.io/github/stars/Graph-and-Geometric-Learning/STPath?style=flat-square&label=%E2%98%85)
 - **SWITCH** · Integrative deep learning of spatial multi-omics with SWITCH (**Nature Computational Science 2025**) · `Spatial` `Multi-omics` `Generative` · [[paper](https://doi.org/10.1038/s43588-025-00891-w)] [[code](https://github.com/zzli123/SWITCH)] ![stars](https://img.shields.io/github/stars/zzli123/SWITCH?style=flat-square&label=%E2%98%85)
@@ -163,18 +162,14 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 *Cell Painting, morphology and microscopy models.*
 
-- **Cell Shapes** · Cell shapes decode molecular phenotypes in image-based spatial proteomics (**Cell Systems 2026**) · `Imaging` `Spatial` `Proteomics` · [[paper](https://doi.org/10.1016/j.cels.2026.101589)]
 - **ProtiCelli** · Generative machine learning unlocks the first proteome-wide image of human cells (**bioRxiv 2026**) · `Perturbation` `Proteomics` `Imaging` `Generative` · [[paper](https://doi.org/10.64898/2026.03.31.715748)] [[code](https://github.com/CellProfiling/ProtiCelli)] ![stars](https://img.shields.io/github/stars/CellProfiling/ProtiCelli?style=flat-square&label=%E2%98%85)
 - **CellCLIP** · CellCLIP: Learning Perturbation Effects in Cell Painting via Text-Guided Contrastive Learning (**NeurIPS 2025**) · `Imaging` `Text` `Perturbation` · [[paper](https://doi.org/10.52202/085713-4150)] [[code](https://github.com/suinleelab/CellCLIP)] ![stars](https://img.shields.io/github/stars/suinleelab/CellCLIP?style=flat-square&label=%E2%98%85)
-- **CellFlow** · CellFlow Enables Generative Single-Cell Phenotype Modeling with Flow Matching (**bioRxiv 2025**) · `Imaging` `Generative` · [[paper](https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf)] [[code](https://github.com/theislab/CellFlow)] ![stars](https://img.shields.io/github/stars/theislab/CellFlow?style=flat-square&label=%E2%98%85)
 - **CellFlux** · CellFlux: Simulating Cellular Morphology Changes via Flow Matching (**ICML 2025**, poster) · `Imaging` `Generative` · [[paper](https://proceedings.mlr.press/v267/zhang25bt.html)] [[code](https://github.com/yuhui-zh15/CellFlux)] ![stars](https://img.shields.io/github/stars/yuhui-zh15/CellFlux?style=flat-square&label=%E2%98%85)
 - **CELTIC** · Cell context-dependent in silico organelle localization in label-free microscopy images (**Nature Methods 2025**) · `Imaging` · [[paper](https://www.nature.com/articles/s41592-025-02960-4)] [[code](https://github.com/zaritskylab/CELTIC)] ![stars](https://img.shields.io/github/stars/zaritskylab/CELTIC?style=flat-square&label=%E2%98%85)
 - **CLIP^n** · Transitive Prediction of Small-Molecule Function through Alignment of High-Content Screening Resources (**Nature Biotechnology 2025**) · `Imaging` · [[paper](https://doi.org/10.1038/s41587-025-02729-2)] [[code](https://github.com/AltschulerWu-Lab/CLIPn)] ![stars](https://img.shields.io/github/stars/AltschulerWu-Lab/CLIPn?style=flat-square&label=%E2%98%85)
 - **IMPA** · Predicting cell morphological responses to perturbations using generative modeling (**Nature Communications 2025**) · `Imaging` `Perturbation` `Generative` · [[paper](https://www.nature.com/articles/s41467-024-55707-8)] [[code](https://github.com/theislab/IMPA)] ![stars](https://img.shields.io/github/stars/theislab/IMPA?style=flat-square&label=%E2%98%85)
-- **Morph Map** · Morphological map of under- and overexpression of genes in human cells (**Nature Methods 2025**) · `Imaging` · [[paper](https://www.nature.com/articles/s41592-025-02753-9)] [[code](https://github.com/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap)] ![stars](https://img.shields.io/github/stars/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap?style=flat-square&label=%E2%98%85)
 - **MorphDiff** · Prediction of Cellular Morphology Changes under Perturbations with a Transcriptome-Guided Diffusion Model (**Nature Communications 2025**) · `Imaging` `Perturbation` `Generative` `scRNA-seq` · [[paper](https://www.nature.com/articles/s41467-025-63478-z)] [[code](https://github.com/biomap-research/MorphDiff)] ![stars](https://img.shields.io/github/stars/biomap-research/MorphDiff?style=flat-square&label=%E2%98%85)
 - **MorphoDiff** · MorphoDiff: Cellular Morphology Painting with Diffusion Models (**ICLR 2025**) · `Imaging` `Generative` · [[paper](https://openreview.net/forum?id=PstM8YfhvI)] [[code](https://github.com/bowang-lab/MorphoDiff)] ![stars](https://img.shields.io/github/stars/bowang-lab/MorphoDiff?style=flat-square&label=%E2%98%85)
-- **PERISCOPE** · A genome-wide atlas of human cell morphology (**Nature Methods 2025**) · `Imaging` · [[paper](https://www.nature.com/articles/s41592-024-02537-7)] [[code](https://github.com/broadinstitute/2022_PERISCOPE)] ![stars](https://img.shields.io/github/stars/broadinstitute/2022_PERISCOPE?style=flat-square&label=%E2%98%85)
 - **PhenoProfiler** · PhenoProfiler: advancing phenotypic learning for image-based drug discovery (**Nature Communications 2025**) · `Imaging` `Drug response` · [[paper](https://doi.org/10.1038/s41467-025-67479-w)] [[code](https://github.com/QSong-github/PhenoProfiler)] ![stars](https://img.shields.io/github/stars/QSong-github/PhenoProfiler?style=flat-square&label=%E2%98%85)
 - **SubCell** · SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology (**bioRxiv 2024**) · `Proteomics` `Imaging` · [[paper](https://doi.org/10.1101/2024.12.06.627299)] [[code](https://github.com/CellProfiling/subcell-embed)] ![stars](https://img.shields.io/github/stars/CellProfiling/subcell-embed?style=flat-square&label=%E2%98%85)
 
@@ -256,6 +251,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **X-Cell** · X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts via Diffusion Language Models (**bioRxiv 2026**) · `Perturbation` `Text` `Generative` · [[paper](https://doi.org/10.64898/2026.03.18.712807)] [[code](https://github.com/Xaira-Therapeutics/X-Cell)] [[project](https://vimeo.com/1174241862)] ![stars](https://img.shields.io/github/stars/Xaira-Therapeutics/X-Cell?style=flat-square&label=%E2%98%85)
 - **ADLF** · Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes (**Science 2025**) · `Perturbation` `scRNA-seq` · [[paper](https://doi.org/10.1126/science.adi8577)] [[code](https://doi.org/10.5281/zenodo.16921928)]
 - **CausCell** · Causal Disentanglement for Single-Cell Representations and Controllable Counterfactual Generation (**Nature Communications 2025**) · `Perturbation` · [[paper](https://doi.org/10.1038/s41467-025-62008-1)] [[code](https://github.com/bm2-lab/CausCell)] ![stars](https://img.shields.io/github/stars/bm2-lab/CausCell?style=flat-square&label=%E2%98%85)
+- **CellFlow** · CellFlow Enables Generative Single-Cell Phenotype Modeling with Flow Matching (**bioRxiv 2025**) · `Imaging` `Generative` · [[paper](https://www.biorxiv.org/content/10.1101/2025.04.11.648220v1.full.pdf)] [[code](https://github.com/theislab/CellFlow)] ![stars](https://img.shields.io/github/stars/theislab/CellFlow?style=flat-square&label=%E2%98%85)
 - **CellForge** · AI Scientists for Building Virtual-Cell Models (**arXiv 2025**) · `Perturbation` `Virtual cell` `Agent` · [[paper](https://arxiv.org/abs/2508.02276)] [[code](https://github.com/gersteinlab/CellForge)] ![stars](https://img.shields.io/github/stars/gersteinlab/CellForge?style=flat-square&label=%E2%98%85)
 - **CellNavi** · CellNavi Predicts Genes Directing Cellular Transitions by Learning a Gene Graph-Enhanced Cell State Manifold (**Nature Cell Biology 2025**) · `Perturbation` `Graph` · [[paper](https://doi.org/10.1038/s41556-025-01755-1)] [[code](https://github.com/DLS5-Omics/CellNavi)] ![stars](https://img.shields.io/github/stars/DLS5-Omics/CellNavi?style=flat-square&label=%E2%98%85)
 - **CellTRIP** · Inferring virtual cell environments using multi-agent reinforcement learning (**bioRxiv 2025**) · `Perturbation` `Virtual cell` `Agent` · [[paper](https://doi.org/10.1101/2025.11.21.689815)] [[code](https://github.com/daifengwanglab/CellTRIP)] ![stars](https://img.shields.io/github/stars/daifengwanglab/CellTRIP?style=flat-square&label=%E2%98%85)
@@ -338,8 +334,11 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 ## Datasets & Atlases
 
 - A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent stem cell lines (**Cell Genomics 2026**) · `Perturbation` `Gene regulation` · [[paper](https://doi.org/10.1016/j.xgen.2025.101076)]
+- Cell shapes decode molecular phenotypes in image-based spatial proteomics (**Cell Systems 2026**) · `Imaging` `Spatial` `Proteomics` · [[paper](https://doi.org/10.1016/j.cels.2026.101589)]
 - Spatial perturb-seq: single-cell functional genomics within intact tissue architecture (**Nature Communications 2026**) · `Spatial` `Perturbation` · [[paper](https://www.nature.com/articles/s41467-026-69677-6)] [[code](https://github.com/kimberle9/spatialperturbseq)] ![stars](https://img.shields.io/github/stars/kimberle9/spatialperturbseq?style=flat-square&label=%E2%98%85)
+- A genome-wide atlas of human cell morphology (**Nature Methods 2025**) · `Imaging` · [[paper](https://www.nature.com/articles/s41592-024-02537-7)] [[code](https://github.com/broadinstitute/2022_PERISCOPE)] ![stars](https://img.shields.io/github/stars/broadinstitute/2022_PERISCOPE?style=flat-square&label=%E2%98%85)
 - CIGS: High-Throughput Profiling of Chemical-Induced Gene Expression across 93,644 Perturbations (**Nature Methods 2025**) · `Perturbation` `scRNA-seq` · [[paper](https://www.nature.com/articles/s41592-025-02781-5)]
+- Morphological map of under- and overexpression of genes in human cells (**Nature Methods 2025**) · `Imaging` · [[paper](https://www.nature.com/articles/s41592-025-02753-9)] [[code](https://github.com/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap)] ![stars](https://img.shields.io/github/stars/jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap?style=flat-square&label=%E2%98%85)
 - Multimodal cell maps as a foundation for structural and functional genomics (**Nature 2025**) · `Perturbation` `Multi-omics` · [[paper](https://doi.org/10.1038/s41586-025-08878-3)]
 - scBaseCount: an AI agent-curated, uniformly processed, and autonomously updated single cell data repository (**bioRxiv 2025**) · `Agent` · [[paper](https://doi.org/10.1101/2025.02.27.640494)]
 - scGeneScope: scGeneScope: A Treatment-Matched Single Cell Imaging and Transcriptomics Dataset and Benchmark for Treatment Response Mo (**2025**) · `Imaging` `scRNA-seq` · [[paper](https://openreview.net/forum?id=918POZbZ50)]
@@ -382,6 +381,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - Pertpy: an End-to-end Framework for Perturbation Analysis (**Nature Methods 2025**) · `Perturbation` · [[paper](https://www.nature.com/articles/s41592-025-02909-7)]
 - Scvi-hub: An Actionable Repository for Model-Driven Single-Cell Analysis (**Nature Methods 2025**) · `scRNA-seq` · [[paper](https://doi.org/10.1038/s41592-025-02799-9)]
 - STAMP: Single-cell transcriptomics analysis and multimodal profiling through imaging (**Cell 2025**) · `Imaging` `Multi-omics` `scRNA-seq` · [[paper](https://doi.org/10.1016/j.cell.2025.05.027)]
+- Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density DNA Nanoball-Patterned Arrays (**Science 2025**) · `Spatial` · [[paper](https://doi.org/10.1126/science.adr0475)] [[code](https://github.com/haoshijie13/Stereo-cell-paper-code)] ![stars](https://img.shields.io/github/stars/haoshijie13/Stereo-cell-paper-code?style=flat-square&label=%E2%98%85)
 
 ## Surveys
 

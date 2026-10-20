@@ -10,6 +10,10 @@ tags:
 - proteomics
 - imaging
 - generative
+inputs:
+- cell-image
+outputs:
+- image
 links:
   paper: https://doi.org/10.64898/2026.03.31.715748
   code: https://github.com/CellProfiling/ProtiCelli
@@ -19,5 +23,5 @@ citation: Sun, Huangqingbo, Konstantin Kahnert, Jan N. Hansen, William Leinewebe
 added: '2026-06-02'
 sources:
 - https://doi.org/10.64898/2026.03.31.715748
-review_basis: metadata
+review_basis: abstract
 reviewed: false
