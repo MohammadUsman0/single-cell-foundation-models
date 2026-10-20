@@ -14,6 +14,13 @@ architecture: Perturbation model
 inputs:
 - expression
 - spatial-coordinates
+outputs:
+- expression-prediction
+- perturbation-response
+architecture_family: graph-neural-network
+perturbation_type:
+- genetic
+- combination
 key: Tissue perturbation modeling with spatially resolved single-cell data.
 links:
   paper: https://www.biorxiv.org/content/10.64898/2025.11.30.691355v1
@@ -23,5 +30,5 @@ citation: 'Sun, Eric D., Alejandro Buendia, Anne Brunet, and James Zou. "Spatial
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.64898/2025.11.30.691355v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

@@ -8,10 +8,19 @@ category: perturbation
 tags:
 - perturbation
 - generative
+inputs:
+- expression
+outputs:
+- perturbation-response
+architecture_family: diffusion
+perturbation_type:
+- genetic
+- chemical
 links:
   paper: https://www.nature.com/articles/s41592-025-02877-y
   code: https://github.com/siyuh/Squidiff
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41592-025-02877-y
+review_basis: abstract
 reviewed: false

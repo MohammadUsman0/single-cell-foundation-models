@@ -11,6 +11,20 @@ tags:
 - text
 - generative
 modality: Single-cell
+inputs:
+- expression
+- perturbation
+- text
+- protein-sequence
+- prior-network
+outputs:
+- perturbation-response
+architecture_family: diffusion
+perturbation_type:
+- genetic
+generalization:
+- zero-shot
+- unseen-cell-context
 links:
   paper: https://doi.org/10.64898/2026.03.18.712807
   code: https://github.com/Xaira-Therapeutics/X-Cell
@@ -21,7 +35,7 @@ citation: 'Wang, Chloe, Mehran Karimzadeh, Neal G. Ravindra, Lexi R. Bounds, Nad
 added: '2026-06-02'
 sources:
 - https://doi.org/10.64898/2026.03.18.712807
-review_basis: metadata
+review_basis: abstract
 reviewed: false
 review_notes:
 - code field pointed to a non-code site (https://vimeo.com/1174241862); stored as project link

@@ -15,10 +15,19 @@ architecture: Large perturbation model
 inputs:
 - expression
 - perturbation
+outputs:
+- perturbation-response
+- gene-regulatory-network
+perturbation_type:
+- genetic
+- chemical
+generalization:
+- cross-dataset
 key: Large perturbation models for in-silico biological discovery.
 links:
   paper: https://www.nature.com/articles/s43588-025-00870-1
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s43588-025-00870-1
+review_basis: abstract
 reviewed: false

@@ -13,12 +13,17 @@ architecture: Optimal transport (causal)
 inputs:
 - expression
 - perturbation
+outputs:
+- perturbation-response
 architecture_family: other
+perturbation_type:
+- cytokine
 key: Causal identification of single-cell perturbation effects via optimal transport.
 links:
   paper: https://www.nature.com/articles/s41592-023-02040-5
   code: https://github.com/vandijklab/CINEMA-OT
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41592-023-02040-5
+review_basis: abstract
 reviewed: false

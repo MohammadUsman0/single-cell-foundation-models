@@ -8,6 +8,12 @@ venue: AAAI
 category: perturbation
 tags:
 - perturbation
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: flow-matching
 links:
   paper: https://doi.org/10.1609/aaai.v40i25.39190
 citation: 'Chi, Changxi, Yufei Huang, Jun Xia, Jiangbin Zheng, Yunfan Liu, Zelin Zang, and Stan Z. Li.
@@ -16,5 +22,5 @@ citation: 'Chi, Changxi, Yufei Huang, Jun Xia, Jiangbin Zheng, Yunfan Liu, Zelin
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1609/aaai.v40i25.39190
-review_basis: metadata
+review_basis: abstract
 reviewed: false

@@ -8,6 +8,11 @@ category: perturbation
 tags:
 - perturbation
 modality: Multi-scale and Multicellular Biology
+outputs:
+- disease-state
+- perturbation-response
+perturbation_type:
+- cytokine
 links:
   paper: https://doi.org/10.1101/2025.11.24.685470
   code: https://huggingface.co/KuanP/PULSAR-all-tissue
@@ -17,5 +22,5 @@ citation: 'Pang, Kuan, Yanay Rosen, Kasia Kedzierska, Ziyuan He, Abhe Rajagopal,
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.11.24.685470
-review_basis: metadata
+review_basis: abstract
 reviewed: false

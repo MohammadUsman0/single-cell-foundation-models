@@ -7,6 +7,19 @@ venue: arXiv
 category: perturbation
 tags:
 - perturbation
+inputs:
+- expression
+- perturbation
+- dna-sequence
+outputs:
+- perturbation-response
+architecture_family: flow-matching
+perturbation_type:
+- genetic
+generalization:
+- zero-shot
+- unseen-perturbation
+- unseen-cell-context
 links:
   paper: https://arxiv.org/abs/2602.10156
 citation: 'Fu, Boyang, George Dasoulas, Sameer Gabbita, Xiang Lin, Shanghua Gao, Xiaorui Su, Soumya Ghosh
@@ -15,5 +28,5 @@ citation: 'Fu, Boyang, George Dasoulas, Sameer Gabbita, Xiang Lin, Shanghua Gao,
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2602.10156
-review_basis: metadata
+review_basis: abstract
 reviewed: false

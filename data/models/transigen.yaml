@@ -9,10 +9,18 @@ category: perturbation
 tags:
 - perturbation
 - drug-response
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- chemical
 links:
   paper: https://www.nature.com/articles/s41467-024-49620-3
   code: https://github.com/myzhengSIMM/TranSiGen
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41467-024-49620-3
+review_basis: abstract
 reviewed: false

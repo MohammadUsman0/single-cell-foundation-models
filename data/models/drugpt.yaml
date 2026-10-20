@@ -9,6 +9,13 @@ category: perturbation
 tags:
 - perturbation
 - drug-response
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- chemical
 links:
   paper: https://doi.org/10.1101/2025.07.25.665130
 citation: 'Zhu, Linchang, and Yuanhanyu Luo. "DrugPT: A Flexible Framework for Integrating Gene and Chemical
@@ -16,5 +23,5 @@ citation: 'Zhu, Linchang, and Yuanhanyu Luo. "DrugPT: A Flexible Framework for I
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.07.25.665130
-review_basis: metadata
+review_basis: abstract
 reviewed: false

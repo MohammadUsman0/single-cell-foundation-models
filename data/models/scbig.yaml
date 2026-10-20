@@ -7,6 +7,17 @@ venue: arXiv
 category: perturbation
 tags:
 - perturbation
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: flow-matching
+perturbation_type:
+- genetic
+- combination
+generalization:
+- unseen-perturbation
 links:
   paper: https://arxiv.org/abs/2602.04901
   code: https://github.com/ttruan2426-dot/scBIG
@@ -16,5 +27,5 @@ citation: 'Ruan, Jiafa, Ruijie Quan, Liyang Xu, Zongxin Yang, and Yi Yang. "Beyo
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2602.04901
-review_basis: metadata
+review_basis: abstract
 reviewed: false

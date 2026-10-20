@@ -8,6 +8,12 @@ category: perturbation
 tags:
 - perturbation
 - virtual-cell
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: flow-matching
 links:
   paper: https://doi.org/10.64898/2026.03.02.709176
 citation: 'Chuai, Guohui, Xiaohan Chen, Xingbo Yang, Cheng Zhang, Kairu Qu, Yiheng Wang, Wannian Li et
@@ -16,5 +22,5 @@ citation: 'Chuai, Guohui, Xiaohan Chen, Xingbo Yang, Cheng Zhang, Kairu Qu, Yihe
 added: '2026-06-02'
 sources:
 - https://doi.org/10.64898/2026.03.02.709176
-review_basis: metadata
+review_basis: abstract
 reviewed: false

@@ -7,6 +7,7 @@ venue: arXiv
 category: perturbation
 tags:
 - perturbation
+architecture_family: agent
 links:
   paper: https://arxiv.org/pdf/2603.01396
 citation: 'Huang, Wenxuan, Mingyu Tsoi, Yanhao Huang, Xinjie Mao, Xue Xia, Hao Wu, Jiaqi Wei et al. "HarmonyCell:
@@ -15,5 +16,5 @@ citation: 'Huang, Wenxuan, Mingyu Tsoi, Yanhao Huang, Xinjie Mao, Xue Xia, Hao W
 added: '2026-06-02'
 sources:
 - https://arxiv.org/pdf/2603.01396
-review_basis: metadata
+review_basis: abstract
 reviewed: false

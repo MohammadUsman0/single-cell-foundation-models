@@ -9,10 +9,22 @@ tags:
 - perturbation
 - graph
 - scrna-seq
+inputs:
+- perturbation
+- prior-network
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- combination
+generalization:
+- unseen-perturbation
+- unseen-cell-context
 links:
   paper: https://www.nature.com/articles/s41587-026-03113-4
   code: https://github.com/valence-labs/TxPert
 added: '2026-06-02'
-sources: []
-review_basis: metadata
+sources:
+- https://www.nature.com/articles/s41587-026-03113-4
+review_basis: abstract
 reviewed: false

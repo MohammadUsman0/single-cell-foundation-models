@@ -13,6 +13,12 @@ architecture: Language-augmented
 inputs:
 - expression
 - perturbation
+- text
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- combination
 key: Language-augmented modeling of single-cell perturbations.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2024.10.23.619972v1
@@ -22,5 +28,5 @@ citation: 'Istrate, Ana-Maria, Donghui Li, and Theofanis Karaletsos. "scGenePT: 
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2024.10.23.619972v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

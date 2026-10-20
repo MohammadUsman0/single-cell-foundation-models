@@ -10,6 +10,13 @@ tags:
 - perturbation
 - drug-response
 - generative
+inputs:
+- expression
+outputs:
+- cell-embedding
+- perturbation-response
+perturbation_type:
+- chemical
 links:
   paper: https://doi.org/10.1038/s41551-025-01423-7
   code: https://github.com/mcgilldinglab/UNAGI
@@ -19,5 +26,5 @@ citation: 'Zheng, Yumin, Jonas C. Schupp, Taylor Adams, Geremy Clair, Aurelien J
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41551-025-01423-7
-review_basis: metadata
+review_basis: abstract
 reviewed: false

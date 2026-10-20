@@ -9,6 +9,11 @@ category: perturbation
 tags:
 - perturbation
 - drug-response
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- chemical
 links:
   paper: https://doi.org/10.1101/2025.07.02.662744
 citation: 'Taj, Farzan, and Lincoln D Stein. "OmniPert: A Deep Learning Foundation Model for Predicting
@@ -16,5 +21,5 @@ citation: 'Taj, Farzan, and Lincoln D Stein. "OmniPert: A Deep Learning Foundati
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.07.02.662744
-review_basis: metadata
+review_basis: abstract
 reviewed: false

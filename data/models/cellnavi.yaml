@@ -9,6 +9,15 @@ category: perturbation
 tags:
 - perturbation
 - graph
+inputs:
+- expression
+- prior-network
+outputs:
+- gene-prioritization
+perturbation_type:
+- genetic
+- chemical
+- cytokine
 links:
   paper: https://doi.org/10.1038/s41556-025-01755-1
   code: https://github.com/DLS5-Omics/CellNavi
@@ -18,5 +27,5 @@ citation: 'Wang, Tianze, Yan Pan, Fusong Ju, Shuxin Zheng, Chang Liu, Yaosen Min
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1038/s41556-025-01755-1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

@@ -7,6 +7,17 @@ venue: bioRxiv
 category: perturbation
 tags:
 - perturbation
+inputs:
+- expression
+outputs:
+- cell-embedding
+- perturbation-response
+perturbation_type:
+- genetic
+- chemical
+- cytokine
+generalization:
+- zero-shot
 links:
   paper: https://doi.org/10.64898/2026.01.09.698608
   code: https://huggingface.co/arcinstitute/Stack-Large
@@ -16,5 +27,5 @@ citation: 'Dong, Mingze, Abhinav Adduri, Dhruv Gautam, Christopher Carpenter, Ro
 added: '2026-06-02'
 sources:
 - https://doi.org/10.64898/2026.01.09.698608
-review_basis: metadata
+review_basis: abstract
 reviewed: false

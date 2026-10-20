@@ -11,6 +11,8 @@ tags:
 - cross-species
 inputs:
 - expression
+outputs:
+- gene-prioritization
 links:
   paper: https://doi.org/10.1038/s41422-024-01034-y
   code: https://github.com/xCompass-AI/GeneCompass

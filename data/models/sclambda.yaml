@@ -14,6 +14,14 @@ architecture: Generative model
 inputs:
 - expression
 - perturbation
+- text
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- combination
+generalization:
+- unseen-perturbation
 key: Predicts single-cell multi-gene perturbation responses.
 links:
   paper: https://www.biorxiv.org/content/10.1101/2024.12.04.626878v1
@@ -23,5 +31,5 @@ citation: Wang, Gefei, Tianyu Liu, Jia Zhao, Youshu Cheng, and Hongyu Zhao. "Mod
 added: '2026-06-02'
 sources:
 - https://www.biorxiv.org/content/10.1101/2024.12.04.626878v1
-review_basis: metadata
+review_basis: abstract
 reviewed: false

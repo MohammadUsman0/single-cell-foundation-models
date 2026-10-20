@@ -11,6 +11,10 @@ tags:
 - perturbation
 - multi-omics
 modality: Multimodal (not specified)
+outputs:
+- perturbation-response
+generalization:
+- zero-shot
 key: Predicts zero-shot functional perturbations and cell fate dynamics
 links:
   paper: https://doi.org/10.1101/2024.12.19.629561
@@ -21,5 +25,5 @@ citation: Yang, Zikun, Xueying Fan, Meng Lan, Xin Li, Yue You, Luyi Tian, George
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2024.12.19.629561
-review_basis: metadata
+review_basis: abstract
 reviewed: false

@@ -10,7 +10,12 @@ tags:
 - text
 - virtual-cell
 architecture: LLM based
+outputs:
+- perturbation-response
+- text
 architecture_family: llm
+perturbation_type:
+- chemical
 key: LLM-driven white-box simulator that reasons over biological knowledge to predict drug perturbation
   responses with mechanistic explanations.
 links:
@@ -21,5 +26,5 @@ citation: 'Wei, Zhijian, Runze Ma, Zichen Wang, Zhongmin Li, Shuotong Song, and 
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2512.00306
-review_basis: metadata
+review_basis: abstract
 reviewed: false
