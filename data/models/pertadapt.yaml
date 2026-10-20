@@ -1,10 +1,10 @@
 id: pertadapt
 kind: model
 name: PertAdapt
-title: 'PertAdapt: Unlocking Single-Cell Foundation Models for Genetic Perturbation Prediction via Condition-Sensitive
-  Adaptation'
-year: 2025
-venue: bioRxiv
+title: 'PertAdapt: unlocking single-cell foundation models for genetic perturbation prediction via condition-sensitive
+  adaptation'
+year: 2026
+venue: Bioinformatics
 category: perturbation
 tags:
 - perturbation
@@ -13,5 +13,6 @@ modality: scRNA-seq (perturbation)
 architecture: Adapter on scFMs
 key: Condition-sensitive adaptation of scFMs for genetic perturbation prediction.
 links:
-  paper: https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1
+  paper: https://doi.org/10.1093/bioinformatics/btag307
+  preprint: https://www.biorxiv.org/content/10.1101/2025.11.21.689655v1
 reviewed: false

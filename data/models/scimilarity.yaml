@@ -2,7 +2,7 @@ id: scimilarity
 kind: model
 name: SCimilarity
 title: A cell atlas foundation model for scalable search of similar human cells
-year: 2025
+year: 2024
 venue: Nature
 category: atlas
 tags:
@@ -10,6 +10,8 @@ tags:
 modality: Single-Cell Transcriptomics
 architecture: Metric-Learning Framework
 key: Scalable search of similar human cells, rapid queries of millions of profiles.
+links:
+  paper: https://doi.org/10.1038/s41586-024-08411-y
 citation: 'Heimberg, Graham, Tony Kuo, Daryle J. DePianto, Omar Salem, Tobias Heigl, Nathaniel Diamant,
   Gabriele Scalia et al. "A cell atlas foundation model for scalable search of similar human cells." Nature
   638, no. 8052 (2025): 1085-1094.'

@@ -71,6 +71,7 @@ VENUE_PATTERNS = [
     (r"aaai conference on artificial intelligence|^aaai", "AAAI"),
     (r"web search and data mining|^wsdm", "WSDM"),
     (r"association for computational linguistics", "ACL"),
+    (r"conference on data mining workshops", "ICDM Workshops"),
     (r"proceedings of the national academy of sciences", "PNAS"),
     (r"^biorxiv", "bioRxiv"), (r"^medrxiv", "medRxiv"), (r"^arxiv", "arXiv"),
     (r"^research square", "Research Square"), (r"^ssrn", "SSRN"),

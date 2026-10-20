@@ -2,12 +2,13 @@ id: cellvoyager
 kind: model
 name: CellVoyager
 title: 'CellVoyager: AI CompBio Agent Generates New Insights by Autonomously Analyzing Biological Data'
-year: 2025
-venue: bioRxiv
+year: 2026
+venue: Nature Methods
 category: agents
 tags:
 - agent
 links:
-  paper: https://doi.org/10.1101/2025.06.03.657517
+  paper: https://doi.org/10.1038/s41592-026-03029-6
+  preprint: https://doi.org/10.1101/2025.06.03.657517
   code: https://github.com/zou-group/CellVoyager
 reviewed: false

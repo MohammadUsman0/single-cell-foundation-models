@@ -3,12 +3,14 @@ kind: model
 name: scCello
 title: Cell ontology guided transcriptome foundation model
 year: 2024
-venue: Cell
+venue: NeurIPS
 category: grn
 tags:
 - gene-regulation
 - scrna-seq
 modality: Transcriptome
+links:
+  paper: https://doi.org/10.52202/079017-0204
 citation: 'Yuan, Xinyu, Zhihao Zhan, Zuobai Zhang, Manqi Zhou, Jianan Zhao, Boyu Han, Yue Li, and Jian
   Tang. "Cell ontology guided transcriptome foundation model." Advances in Neural Information Processing
   Systems 37 (2024): 6323-6366.'

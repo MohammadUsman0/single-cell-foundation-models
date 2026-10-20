@@ -7,9 +7,10 @@ venue: Cell Research
 tags:
 - cross-species
 - virtual-cell
-key: 'propose here that the evolution or growth of AIVCs relies on three essential building blocks and
-  nutrients: a priori knowledge, static architecture, and dynamic states. These data pillars, when combined
-  with deep learning algorithms, form the foundation for AIVC development'
+key: Argues that AI virtual cells need three data pillars (prior knowledge, static architecture, dynamic
+  states) plus closed-loop learning.
+links:
+  paper: https://doi.org/10.1038/s41422-025-01101-y
 citation: 'Qian, Liujia, Zhen Dong, and Tiannan Guo. "Grow AI virtual cells: three data pillars and closed-loop
   learning." Cell Research (2025): 1-3.'
 reviewed: false

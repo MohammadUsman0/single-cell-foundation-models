@@ -3,14 +3,15 @@ kind: resource
 type: benchmark
 title: What do single-cell models already know about perturbations?
 year: 2025
+venue: Genes
 tags:
 - perturbation
 - generative
 - scrna-seq
-key: We train variational autoencoders on three gene expression datasets spanning genetic, chemical, and
-  temporal perturbations, and infer perturbations by differentiating decoder outputs with respect to latent
-  variables. This yields vector fields of infinitesimal change in gene expression.
+key: Shows that trained single-cell VAE decoders already encode perturbation information that gradients
+  can read out, without perturbation labels.
 links:
+  paper: https://doi.org/10.3390/genes16121439
   code: https://github.com/yhsure/perturbations
 citation: 'Bjerregaard, Andreas, Iñigo Prada-Luengo, Vivek Das, and Anders Krogh. "What do single-cell
   models already know about perturbations?." Genes 16, no. 12 (2025): 1439.'

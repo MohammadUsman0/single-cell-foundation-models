@@ -2,13 +2,14 @@ id: cell-shapes
 kind: model
 name: Cell Shapes
 title: Cell shapes decode molecular phenotypes in image-based spatial proteomics
-year: 2025
-venue: bioRxiv
+year: 2026
+venue: Cell Systems
 category: morphology
 tags:
 - imaging
 - spatial
 - proteomics
 links:
-  paper: https://doi.org/10.1101/2025.05.13.653868
+  paper: https://doi.org/10.1016/j.cels.2026.101589
+  preprint: https://doi.org/10.1101/2025.05.13.653868
 reviewed: false

@@ -3,6 +3,9 @@ kind: resource
 type: survey
 title: 'Single-cell foundation models: bringing artificial intelligence into cell biology'
 year: 2025
+venue: Experimental & Molecular Medicine
+links:
+  paper: https://doi.org/10.1038/s12276-025-01547-5
 citation: 'Baek, Seungbyn, Kyungwoo Song, and Insuk Lee. "Single-cell foundation models: bringing artificial
   intelligence into cell biology." Experimental & Molecular Medicine (2025): 1-13.'
 reviewed: false

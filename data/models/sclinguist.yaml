@@ -11,6 +11,8 @@ tags:
 modality: Single-cell Multi-omics
 architecture: Hyena-based
 key: Cross-modality translation
+links:
+  paper: https://doi.org/10.1101/2025.09.30.679123
 citation: 'Fang, Zhaoyu, Ziyang Miao, Jianhui Lin, Yuying Xie, Jiliang Tang, Jiayuan Ding, and Min Li.
   "scLinguist: A pre-trained hyena-based foundation model for cross-modality translation in single-cell
   multi-omics." bioRxiv (2025): 2025-09.'

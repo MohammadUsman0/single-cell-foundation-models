@@ -2,7 +2,10 @@ id: batch-effects-remain-a-fundamental-barrier
 kind: resource
 type: reference
 title: Batch Effects Remain a Fundamental Barrier to Universal Embeddings in Single-Cell Foundation Models
+year: 2025
 venue: bioRxiv
+links:
+  paper: https://doi.org/10.64898/2025.12.19.695371
 citation: 'Wang, Linting, Chihao Zhang, and Shihua Zhang. "Batch Effects Remain a Fundamental Barrier
   to Universal Embeddings in Single-Cell Foundation Models." bioRxiv (2025): 2025-12.'
 reviewed: false

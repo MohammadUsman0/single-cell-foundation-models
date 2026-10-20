@@ -2,7 +2,8 @@ id: harmonycell
 kind: model
 name: HarmonyCell
 title: 'HarmonyCell: Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts'
-venue: bioRxiv
+year: 2026
+venue: arXiv
 category: perturbation
 tags:
 - perturbation

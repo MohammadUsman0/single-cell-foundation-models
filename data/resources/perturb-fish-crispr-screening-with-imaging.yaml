@@ -1,8 +1,12 @@
 id: perturb-fish-crispr-screening-with-imaging
 kind: resource
 type: dataset
-title: 'Perturb-FISH: CRISPR screening with imaging-based spatial transcriptomics'
+title: Simultaneous CRISPR screening and spatial transcriptomics reveal intracellular, intercellular,
+  and functional transcriptional circuits
+aliases:
+- Perturb-FISH
 year: 2025
+venue: Cell
 tags:
 - spatial
 - imaging

@@ -9,10 +9,8 @@ venue: bioRxiv
 tags:
 - perturbation
 - drug-response
-key: Performed a comprehensive analysis of over 600 different models for embedding-based perturbation
-  response prediction for both genetic and small molecule interventions. As we showed, while some FMs
-  fail to improve over simpler methods for this task, others provide significant gains. Interactome based
-  FMs, which are based on the underlying networks activated in the cell, performed particularly well.
+key: Compares 600+ models for embedding-based perturbation response prediction; some foundation models
+  beat simple baselines, and combining several helps.
 links:
   paper: https://www.biorxiv.org/content/10.64898/2026.02.18.706454v1
   code: https://github.com/genbio-ai/foundation-models-perturbation

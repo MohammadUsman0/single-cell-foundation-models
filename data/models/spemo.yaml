@@ -1,8 +1,7 @@
 id: spemo
 kind: model
 name: spEMO
-title: 'spEMO: Leveraging Multi-Modal Foundation Models for Analyzing Spatial Multi-Omic and Histopathology
-  Data'
+title: Leveraging multi-modal foundation models for analysing spatial multi-omic and histopathology data
 year: 2026
 venue: Nature Biomedical Engineering
 category: multimodal
@@ -14,5 +13,6 @@ modality: Spatial multi-omics + histopathology
 architecture: Multimodal FM
 key: Multi-modal FM for spatial multi-omic and histopathology data.
 links:
-  paper: https://www.biorxiv.org/content/10.1101/2025.01.13.632818v3
+  paper: https://doi.org/10.1038/s41551-025-01602-6
+  preprint: https://www.biorxiv.org/content/10.1101/2025.01.13.632818v3
 reviewed: false

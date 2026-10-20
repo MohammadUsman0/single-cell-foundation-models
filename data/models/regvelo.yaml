@@ -2,12 +2,14 @@ id: regvelo
 kind: model
 name: RegVelo
 title: 'RegVelo: Gene-Regulatory-Informed Dynamics of Single Cells'
-venue: bioRxiv
+year: 2026
+venue: Cell
 category: perturbation
 tags:
 - perturbation
 - gene-regulation
 links:
-  paper: https://doi.org/10.1101/2024.12.11.627935
+  paper: https://doi.org/10.1016/j.cell.2026.04.022
+  preprint: https://doi.org/10.1101/2024.12.11.627935
   code: https://github.com/theislab/regvelo
 reviewed: false

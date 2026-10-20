@@ -9,6 +9,8 @@ tags:
 - scrna-seq
 architecture: Multi-task Self-Supervised Learning
 key: Cell-type classification
+links:
+  paper: https://doi.org/10.1093/bioinformatics/btac007
 citation: 'Zhang, Ruiyi, Yunan Luo, Jianzhu Ma, Ming Zhang, and Sheng Wang. "scPretrain: multi-task self-supervised
   learning for cell-type classification." Bioinformatics 38, no. 6 (2022): 1607-1614.'
 reviewed: false

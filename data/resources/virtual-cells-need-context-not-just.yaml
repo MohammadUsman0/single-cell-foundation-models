@@ -6,5 +6,7 @@ year: 2026
 venue: bioRxiv
 tags:
 - virtual-cell
+links:
+  paper: https://doi.org/10.64898/2026.02.04.703804
 citation: 'Dibaeinia, Payam, et al. "Virtual Cells Need Context, Not Just Scale." bioRxiv (2026): 2026-02.'
 reviewed: false

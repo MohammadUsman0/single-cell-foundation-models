@@ -3,6 +3,7 @@ kind: resource
 type: dataset
 title: 'Tabula Sapiens: A multiple-organ single-cell transcriptomic atlas of humans'
 year: 2022
+venue: Science
 tags:
 - scrna-seq
 links:

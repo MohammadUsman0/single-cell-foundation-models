@@ -7,9 +7,8 @@ venue: arXiv
 tags:
 - perturbation
 - virtual-cell
-key: Perturbation Discrimination Score (PDS) is increasingly used to evaluate whether predicted perturbation
-  effects remain distinguishable, including in Systema and the Virtual Cell Challenge. We provide geometric
-  insight and discuss implications for future discrimination-based evaluation metrics.
+key: Shows that the Perturbation Discrimination Score depends strongly on the distance metric and the
+  scale of predicted effects.
 links:
   paper: https://arxiv.org/abs/2511.16954
 citation: Liu, Qiyuan, Qirui Zhang, Jinhong Du, Siming Zhao, and Jingshu Wang. "Effects of Distance Metrics

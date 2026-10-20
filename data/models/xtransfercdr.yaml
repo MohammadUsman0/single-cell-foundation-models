@@ -10,6 +10,6 @@ tags:
 - perturbation
 - drug-response
 links:
-  paper: https://ojs.aaai.org/index.php/AAAI/article/view/34073
+  paper: https://doi.org/10.1609/aaai.v39i18.34073
   code: https://github.com/hliulab/XTransferCDR
 reviewed: false

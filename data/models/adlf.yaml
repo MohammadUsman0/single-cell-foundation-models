@@ -2,6 +2,7 @@ id: adlf
 kind: model
 name: ADLF
 title: Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes
+year: 2025
 venue: Science
 category: perturbation
 tags:

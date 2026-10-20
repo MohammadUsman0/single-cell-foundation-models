@@ -1,9 +1,9 @@
 id: scelmo
 kind: model
 name: scELMo
-title: 'scelmo: Embeddings from language models are good learners for single-cell data analysis'
-year: 2025
-venue: bioRxiv
+title: Embeddings from language models are good learners for single-cell data analysis
+year: 2026
+venue: Patterns
 category: llm
 tags:
 - llm
@@ -11,9 +11,10 @@ tags:
 modality: Single-cell Data
 architecture: Language Models
 task: Single-cell data analysis (embeddings)
-key: propose a method named scELMo (Single-cell Embedding from Language Models), to analyze single-cell
-  data that utilizes Large Language Models (LLMs) as a generator for both the description of metadata
-  information and the embeddings for such descriptions.
+key: Uses LLM-written descriptions of genes and cell metadata, and their embeddings, as features for zero-shot
+  and fine-tuned single-cell analysis.
+links:
+  paper: https://doi.org/10.1016/j.patter.2025.101431
 citation: 'Liu, Tianyu, Tianqi Chen, Wangjie Zheng, Xiao Luo, Yiqun Chen, and Hongyu Zhao. "scelmo: Embeddings
   from language models are good learners for single-cell data analysis." bioRxiv (2025): 2023-12.'
 reviewed: false

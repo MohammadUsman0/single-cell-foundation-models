@@ -2,10 +2,10 @@ id: perteval-scfm-benchmarking-single-cell-foundation
 kind: resource
 type: benchmark
 title: 'PertEval-scFM: Benchmarking Single-Cell Foundation Models for Perturbation Effect Prediction'
-year: 2024
+year: 2025
 venue: ICML
 tags:
 - perturbation
 links:
-  paper: https://openreview.net/forum?id=t04D9bkKUq
+  paper: https://proceedings.mlr.press/v267/wenteler25a.html
 reviewed: false

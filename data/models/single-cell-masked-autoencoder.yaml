@@ -1,6 +1,8 @@
 id: single-cell-masked-autoencoder
 kind: model
-name: single-cell masked autoencoder (scMAE)
+name: scMAE
+aliases:
+- Single-cell Masked Autoencoder
 title: 'Single-cell Masked Autoencoder: An Accurate and Interpretable Automated Immunophenotyper'
 year: 2023
 venue: NeurIPS

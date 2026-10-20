@@ -1,7 +1,7 @@
 id: heimdall-a-modular-framework-for-tokenization
 kind: resource
 type: benchmark
-title: 'HEIMDALL: A Modular Framework for Tokenization in Single-Cell Foundation Models'
+title: 'HEIMDALL: Disentangling tokenizer design for robust transfer in single-cell foundation models'
 year: 2025
 venue: bioRxiv
 key: Modular tokenization framework for scFMs.

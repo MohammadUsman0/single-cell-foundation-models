@@ -3,9 +3,11 @@ kind: resource
 type: reference
 title: 'Artificial intelligence-enabled multi-scale virtual cell: perspective, challenges, and opportunities'
 year: 2026
-venue: Bioinformatics
+venue: Briefings in Bioinformatics
 tags:
 - virtual-cell
+links:
+  paper: https://doi.org/10.1093/bib/bbag104
 citation: 'Jiang, Huasen, et al. "Artificial intelligence-enabled multi-scale virtual cell: perspective,
   challenges, and opportunities." Briefings in Bioinformatics 27.2 (2026): bbag104.'
 reviewed: false

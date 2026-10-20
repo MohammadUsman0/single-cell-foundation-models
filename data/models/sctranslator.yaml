@@ -13,6 +13,9 @@ modality: Single-cell Transcriptome
 architecture: Large Generative Model
 key: 'Translating transcriptome to proteome (protein imputation). Key Finding: Confirmed accuracy across
   various profiling techniques (CITE-seq, REAP-seq, etc.).'
+links:
+  paper: https://doi.org/10.1038/s41551-025-01528-z
+  preprint: https://doi.org/10.1101/2023.07.04.547619
 citation: 'Liu, Linjing, Wei Li, Fang Wang, Yiming Li, Long-Kai Huang, Ka-Chun Wong, Fan Yang, and Jianhua
   Yao. "A pre-trained large generative model for translating single-cell transcriptomes to proteomes."
   Nature Biomedical Engineering (2025): 1-20.'

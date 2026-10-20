@@ -2,6 +2,7 @@ id: mvcbench-a-multimodal-benchmark-for-drug
 kind: resource
 type: benchmark
 title: 'MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes'
+year: 2026
 venue: bioRxiv
 tags:
 - multi-omics

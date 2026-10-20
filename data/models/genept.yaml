@@ -2,7 +2,7 @@ id: genept
 kind: model
 name: GenePT
 title: Simple and effective embedding model for single-cell biology built from ChatGPT
-year: 2025
+year: 2024
 venue: Nature Biomedical Engineering
 category: llm
 tags:

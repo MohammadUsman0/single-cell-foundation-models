@@ -14,6 +14,8 @@ modality: Single-cell RNA-seq
 architecture: Deep Language Model
 key: 'Cell type annotation. Key Finding: Uses value categorization (binning) for gene counts, transforming
   continuous data to categorical values.'
+links:
+  paper: https://doi.org/10.1038/s42256-022-00534-z
 citation: 'Yang, Fan, Wenchuan Wang, Fang Wang, Yuan Fang, Duyu Tang, Junzhou Huang, Hui Lu, and Jianhua
   Yao. "scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell
   RNA-seq data." Nature Machine Intelligence 4, no. 10 (2022): 852-866.'

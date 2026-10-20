@@ -4,12 +4,15 @@ type: survey
 title: 'AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms,
   and clinical translation potential'
 year: 2025
+venue: npj Digital Medicine
 tags:
 - perturbation
 - virtual-cell
 key: review outlines the technical pathways and validation mechanisms of virtual cells, emphasizing a
   closed-loop workflow from computational evaluation to experimental verification using CRISPR assays
   and organoid platforms.
+links:
+  paper: https://doi.org/10.1038/s41746-025-02198-6
 citation: 'Ma, Chunyu, Han Zhang, Yiwei Rao, Xinyu Jiang, Boheng Liu, Zhikang Sun, Zhenyu Song et al.
   "AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms, and
   clinical translation potential." npj Digital Medicine (2025).'

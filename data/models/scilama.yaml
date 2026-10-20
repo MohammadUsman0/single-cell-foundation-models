@@ -14,5 +14,5 @@ modality: scRNA-seq
 architecture: LLM-prior representation learning
 key: Leverages LLM prior knowledge for single-cell representation learning.
 links:
-  paper: https://openreview.net/forum?id=0m4VsLwj5s
+  paper: https://proceedings.mlr.press/v267/hu25aa.html
 reviewed: false

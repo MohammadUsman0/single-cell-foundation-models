@@ -2,8 +2,8 @@ id: novae
 kind: model
 name: Novae
 title: 'Novae: a graph-based foundation model for spatial transcriptomics data'
-year: 2024
-venue: bioRxiv
+year: 2025
+venue: Nature Methods
 category: spatial
 tags:
 - spatial
@@ -12,6 +12,8 @@ tags:
 modality: Spatial Transcriptomics
 architecture: Graph-based
 links:
+  paper: https://doi.org/10.1038/s41592-025-02899-6
+  preprint: https://doi.org/10.1101/2024.09.09.612009
   code: https://github.com/MICS-Lab/novae
 citation: 'Blampey, Quentin, Hakim Benkirane, Nadege Bercovici, Fabrice André, and Paul-Henry Cournede.
   "Novae: a graph-based foundation model for spatial transcriptomics data." bioRxiv (2024): 2024-09.'

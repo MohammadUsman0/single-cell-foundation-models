@@ -2,10 +2,11 @@ id: scclubench-comprehensive-benchmarking-of-clustering-algorithms
 kind: resource
 type: benchmark
 title: 'scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing'
-year: 2025
-venue: arXiv
+year: 2026
+venue: AAAI
 tags:
 - scrna-seq
 links:
-  paper: https://arxiv.org/abs/2512.02471
+  paper: https://doi.org/10.1609/aaai.v40i2.37110
+  preprint: https://arxiv.org/abs/2512.02471
 reviewed: false

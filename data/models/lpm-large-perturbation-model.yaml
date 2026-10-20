@@ -1,6 +1,8 @@
 id: lpm-large-perturbation-model
 kind: model
-name: LPM (Large Perturbation Model)
+name: LPM
+aliases:
+- Large Perturbation Model
 title: In silico biological discovery with large perturbation models
 year: 2025
 venue: Nature Computational Science

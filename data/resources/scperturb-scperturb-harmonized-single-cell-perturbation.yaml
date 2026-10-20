@@ -3,6 +3,7 @@ kind: resource
 type: dataset
 title: 'scPerturb: scPerturb: Harmonized Single-Cell Perturbation Data'
 year: 2024
+venue: Nature Methods
 tags:
 - perturbation
 links:

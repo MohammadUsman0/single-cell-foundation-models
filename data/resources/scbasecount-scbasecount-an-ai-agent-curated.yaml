@@ -1,9 +1,10 @@
 id: scbasecount-scbasecount-an-ai-agent-curated
 kind: resource
 type: dataset
-title: 'scBaseCount: scBaseCount: An AI Agent-Curated, Uniformly Processed, and Continually Expanding
-  Single Cell Data Repository'
+title: 'scBaseCount: an AI agent-curated, uniformly processed, and autonomously updated single cell data
+  repository'
 year: 2025
+venue: bioRxiv
 tags:
 - agent
 links:
