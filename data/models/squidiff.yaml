@@ -2,6 +2,7 @@ id: squidiff
 kind: model
 name: Squidiff
 title: 'Squidiff: Predicting Cellular Development and Responses to Perturbations using a Diffusion Model'
+year: 2025
 venue: Nature Methods
 category: perturbation
 tags:

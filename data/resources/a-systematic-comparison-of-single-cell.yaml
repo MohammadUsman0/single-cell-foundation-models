@@ -3,9 +3,10 @@ kind: resource
 type: benchmark
 title: A Systematic Comparison of Single-Cell Perturbation Response Prediction Models
 year: 2026
-venue: bioRxiv
+venue: Science Advances
 tags:
 - perturbation
 links:
-  paper: https://www.biorxiv.org/content/10.1101/2024.12.23.630036v2
+  paper: https://doi.org/10.1126/sciadv.aed3414
+  preprint: https://www.biorxiv.org/content/10.1101/2024.12.23.630036v2
 reviewed: false

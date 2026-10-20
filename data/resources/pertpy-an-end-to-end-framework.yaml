@@ -2,6 +2,7 @@ id: pertpy-an-end-to-end-framework
 kind: resource
 type: tool
 title: 'Pertpy: an End-to-end Framework for Perturbation Analysis'
+year: 2025
 venue: Nature Methods
 tags:
 - perturbation

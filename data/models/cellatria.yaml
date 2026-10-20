@@ -2,13 +2,14 @@ id: cellatria
 kind: model
 name: CellAtria
 title: An Agentic AI Framework for Ingestion and Standardization of Single-Cell RNA-Seq Data Analysis
-year: 2025
-venue: bioRxiv
+year: 2026
+venue: npj Artificial Intelligence
 category: agents
 tags:
 - agent
 - scrna-seq
 links:
-  paper: https://doi.org/10.1101/2025.07.31.667880
+  paper: https://doi.org/10.1038/s44387-025-00064-0
+  preprint: https://doi.org/10.1101/2025.07.31.667880
   code: https://github.com/AstraZeneca/cellatria
 reviewed: false

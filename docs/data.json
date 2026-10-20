@@ -272,6 +272,26 @@
    "github": "Teichlab/celcomen"
   },
   {
+   "id": "cell-shapes",
+   "kind": "model",
+   "name": "Cell Shapes",
+   "title": "Cell shapes decode molecular phenotypes in image-based spatial proteomics",
+   "year": 2026,
+   "venue": "Cell Systems",
+   "category": "morphology",
+   "tags": [
+    "imaging",
+    "spatial",
+    "proteomics"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cels.2026.101589",
+    "preprint": "https://doi.org/10.1101/2025.05.13.653868"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "cell-jepa",
    "kind": "model",
    "name": "Cell-JEPA",
@@ -292,6 +312,47 @@
    "citation": "ElSheikh, Ali, Rui-Xi Wang, Weimin Wu, Yibo Wen, Payam Dibaeinia, Jennifer Yuntong Zhang, Jerry Yao-Chieh Hu et al. \"Cell-JEPA: Latent Representation Learning for Single-Cell Transcriptomics.\" arXiv preprint arXiv:2602.02093 (2026).",
    "reviewed": false,
    "status": "preprint"
+  },
+  {
+   "id": "cellatria",
+   "kind": "model",
+   "name": "CellAtria",
+   "title": "An Agentic AI Framework for Ingestion and Standardization of Single-Cell RNA-Seq Data Analysis",
+   "year": 2026,
+   "venue": "npj Artificial Intelligence",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "scrna-seq"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1038/s44387-025-00064-0",
+    "preprint": "https://doi.org/10.1101/2025.07.31.667880",
+    "code": "https://github.com/AstraZeneca/cellatria"
+   },
+   "reviewed": false,
+   "status": "published",
+   "github": "AstraZeneca/cellatria"
+  },
+  {
+   "id": "cellvoyager",
+   "kind": "model",
+   "name": "CellVoyager",
+   "title": "CellVoyager: AI CompBio Agent Generates New Insights by Autonomously Analyzing Biological Data",
+   "year": 2026,
+   "venue": "Nature Methods",
+   "category": "agents",
+   "tags": [
+    "agent"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-026-03029-6",
+    "preprint": "https://doi.org/10.1101/2025.06.03.657517",
+    "code": "https://github.com/zou-group/CellVoyager"
+   },
+   "reviewed": false,
+   "status": "published",
+   "github": "zou-group/CellVoyager"
   },
   {
    "id": "cellxpert",
@@ -619,6 +680,27 @@
    "github": "CellProfiling/ProtiCelli"
   },
   {
+   "id": "regvelo",
+   "kind": "model",
+   "name": "RegVelo",
+   "title": "RegVelo: Gene-Regulatory-Informed Dynamics of Single Cells",
+   "year": 2026,
+   "venue": "Cell",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "gene-regulation"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2026.04.022",
+    "preprint": "https://doi.org/10.1101/2024.12.11.627935",
+    "code": "https://github.com/theislab/regvelo"
+   },
+   "reviewed": false,
+   "status": "published",
+   "github": "theislab/regvelo"
+  },
+  {
    "id": "scale",
    "kind": "model",
    "name": "SCALE",
@@ -650,6 +732,29 @@
    },
    "reviewed": false,
    "status": "preprint"
+  },
+  {
+   "id": "scchat",
+   "kind": "model",
+   "name": "scChat",
+   "title": "scChat: A Large Language Model-Powered Co-Pilot for Contextualized Single-Cell RNA Sequencing Analysis",
+   "year": 2026,
+   "venue": "AIChE Journal",
+   "category": "llm",
+   "tags": [
+    "llm",
+    "text",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "LLM copilot",
+   "key": "LLM-powered copilot for contextualized scRNA-seq analysis.",
+   "links": {
+    "paper": "https://doi.org/10.1002/aic.70285",
+    "preprint": "https://www.biorxiv.org/content/10.1101/2024.10.01.616063v1"
+   },
+   "reviewed": false,
+   "status": "published"
   },
   {
    "id": "scdfm",
@@ -867,6 +972,25 @@
    "status": "preprint"
   },
   {
+   "id": "adlf",
+   "kind": "model",
+   "name": "ADLF",
+   "title": "Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes",
+   "year": 2025,
+   "venue": "Science",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "scrna-seq"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1126/science.adi8577",
+    "code": "https://doi.org/10.5281/zenodo.16921928"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "atacformer",
    "kind": "model",
    "name": "Atacformer",
@@ -1029,25 +1153,6 @@
    "status": "published"
   },
   {
-   "id": "cell-shapes",
-   "kind": "model",
-   "name": "Cell Shapes",
-   "title": "Cell shapes decode molecular phenotypes in image-based spatial proteomics",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "category": "morphology",
-   "tags": [
-    "imaging",
-    "spatial",
-    "proteomics"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1101/2025.05.13.653868"
-   },
-   "reviewed": false,
-   "status": "preprint"
-  },
-  {
    "id": "cell-graphcompass",
    "kind": "model",
    "name": "Cell-GraphCompass",
@@ -1086,26 +1191,6 @@
    "reviewed": false,
    "status": "preprint",
    "github": "ncbi-nlp/cell-o1"
-  },
-  {
-   "id": "cellatria",
-   "kind": "model",
-   "name": "CellAtria",
-   "title": "An Agentic AI Framework for Ingestion and Standardization of Single-Cell RNA-Seq Data Analysis",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "category": "agents",
-   "tags": [
-    "agent",
-    "scrna-seq"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1101/2025.07.31.667880",
-    "code": "https://github.com/AstraZeneca/cellatria"
-   },
-   "reviewed": false,
-   "status": "preprint",
-   "github": "AstraZeneca/cellatria"
   },
   {
    "id": "cellclip",
@@ -1318,25 +1403,6 @@
    "reviewed": false,
    "status": "preprint",
    "github": "daifengwanglab/CellTRIP"
-  },
-  {
-   "id": "cellvoyager",
-   "kind": "model",
-   "name": "CellVoyager",
-   "title": "CellVoyager: AI CompBio Agent Generates New Insights by Autonomously Analyzing Biological Data",
-   "year": 2025,
-   "venue": "bioRxiv",
-   "category": "agents",
-   "tags": [
-    "agent"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1101/2025.06.03.657517",
-    "code": "https://github.com/zou-group/CellVoyager"
-   },
-   "reviewed": false,
-   "status": "preprint",
-   "github": "zou-group/CellVoyager"
   },
   {
    "id": "celtic",
@@ -1571,28 +1637,6 @@
    },
    "reviewed": false,
    "status": "preprint"
-  },
-  {
-   "id": "genept",
-   "kind": "model",
-   "name": "GenePT",
-   "title": "Simple and effective embedding model for single-cell biology built from ChatGPT",
-   "year": 2025,
-   "venue": "Nature Biomedical Engineering",
-   "category": "llm",
-   "tags": [
-    "llm",
-    "text",
-    "scrna-seq"
-   ],
-   "modality": "scRNA-seq",
-   "architecture": "LLM text embeddings",
-   "key": "Builds single-cell embeddings from ChatGPT gene/text descriptions.",
-   "links": {
-    "paper": "https://www.nature.com/articles/s41551-024-01284-6"
-   },
-   "reviewed": false,
-   "status": "published"
   },
   {
    "id": "get-general-expression-transformer",
@@ -2482,6 +2526,26 @@
    "status": "preprint"
   },
   {
+   "id": "squidiff",
+   "kind": "model",
+   "name": "Squidiff",
+   "title": "Squidiff: Predicting Cellular Development and Responses to Perturbations using a Diffusion Model",
+   "year": 2025,
+   "venue": "Nature Methods",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "generative"
+   ],
+   "links": {
+    "paper": "https://www.nature.com/articles/s41592-025-02877-y",
+    "code": "https://github.com/siyuh/Squidiff"
+   },
+   "reviewed": false,
+   "status": "published",
+   "github": "siyuh/Squidiff"
+  },
+  {
    "id": "state",
    "kind": "model",
    "name": "STATE",
@@ -2945,6 +3009,28 @@
    "status": "published"
   },
   {
+   "id": "genept",
+   "kind": "model",
+   "name": "GenePT",
+   "title": "Simple and effective embedding model for single-cell biology built from ChatGPT",
+   "year": 2024,
+   "venue": "Nature Biomedical Engineering",
+   "category": "llm",
+   "tags": [
+    "llm",
+    "text",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "LLM text embeddings",
+   "key": "Builds single-cell embeddings from ChatGPT gene/text descriptions.",
+   "links": {
+    "paper": "https://www.nature.com/articles/s41551-024-01284-6"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "langcell",
    "kind": "model",
    "name": "LangCell",
@@ -3085,28 +3171,6 @@
    "citation": "Yuan, Xinyu, Zhihao Zhan, Zuobai Zhang, Manqi Zhou, Jianan Zhao, Boyu Han, Yue Li, and Jian Tang. \"Cell ontology guided transcriptome foundation model.\" Advances in Neural Information Processing Systems 37 (2024): 6323-6366.",
    "reviewed": false,
    "status": "published"
-  },
-  {
-   "id": "scchat",
-   "kind": "model",
-   "name": "scChat",
-   "title": "scChat: A Large Language Model-Powered Co-Pilot for Contextualized Single-Cell RNA Sequencing Analysis",
-   "year": 2024,
-   "venue": "bioRxiv",
-   "category": "llm",
-   "tags": [
-    "llm",
-    "text",
-    "scrna-seq"
-   ],
-   "modality": "scRNA-seq",
-   "architecture": "LLM copilot",
-   "key": "LLM-powered copilot for contextualized scRNA-seq analysis.",
-   "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2024.10.01.616063v1"
-   },
-   "reviewed": false,
-   "status": "preprint"
   },
   {
    "id": "scfoundation",
@@ -3691,24 +3755,6 @@
    "status": "published"
   },
   {
-   "id": "adlf",
-   "kind": "model",
-   "name": "ADLF",
-   "title": "Active Learning Framework Leveraging Transcriptomics Identifies Modulators of Disease Phenotypes",
-   "venue": "Science",
-   "category": "perturbation",
-   "tags": [
-    "perturbation",
-    "scrna-seq"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1126/science.adi8577",
-    "code": "https://doi.org/10.5281/zenodo.16921928"
-   },
-   "reviewed": false,
-   "status": "published"
-  },
-  {
    "id": "harmonycell",
    "kind": "model",
    "name": "HarmonyCell",
@@ -3743,44 +3789,6 @@
    "reviewed": false,
    "status": "preprint",
    "github": "mims-harvard/ProCyon"
-  },
-  {
-   "id": "regvelo",
-   "kind": "model",
-   "name": "RegVelo",
-   "title": "RegVelo: Gene-Regulatory-Informed Dynamics of Single Cells",
-   "venue": "bioRxiv",
-   "category": "perturbation",
-   "tags": [
-    "perturbation",
-    "gene-regulation"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1101/2024.12.11.627935",
-    "code": "https://github.com/theislab/regvelo"
-   },
-   "reviewed": false,
-   "status": "preprint",
-   "github": "theislab/regvelo"
-  },
-  {
-   "id": "squidiff",
-   "kind": "model",
-   "name": "Squidiff",
-   "title": "Squidiff: Predicting Cellular Development and Responses to Perturbations using a Diffusion Model",
-   "venue": "Nature Methods",
-   "category": "perturbation",
-   "tags": [
-    "perturbation",
-    "generative"
-   ],
-   "links": {
-    "paper": "https://www.nature.com/articles/s41592-025-02877-y",
-    "code": "https://github.com/siyuh/Squidiff"
-   },
-   "reviewed": false,
-   "status": "published",
-   "github": "siyuh/Squidiff"
   },
   {
    "id": "twincell",
@@ -3824,16 +3832,17 @@
    "kind": "resource",
    "title": "A Systematic Comparison of Single-Cell Perturbation Response Prediction Models",
    "year": 2026,
-   "venue": "bioRxiv",
+   "venue": "Science Advances",
    "type": "benchmark",
    "tags": [
     "perturbation"
    ],
    "links": {
-    "paper": "https://www.biorxiv.org/content/10.1101/2024.12.23.630036v2"
+    "paper": "https://doi.org/10.1126/sciadv.aed3414",
+    "preprint": "https://www.biorxiv.org/content/10.1101/2024.12.23.630036v2"
    },
    "reviewed": false,
-   "status": "preprint"
+   "status": "published"
   },
   {
    "id": "a-unified-framework-enables-accessible-deployment",
@@ -4298,6 +4307,7 @@
    "kind": "resource",
    "title": "CIGS: High-Throughput Profiling of Chemical-Induced Gene Expression across 93,644 Perturbations",
    "year": 2025,
+   "venue": "Nature Methods",
    "type": "dataset",
    "tags": [
     "perturbation",
@@ -4307,7 +4317,7 @@
     "paper": "https://www.nature.com/articles/s41592-025-02781-5"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "published"
   },
   {
    "id": "cz-cellxgene-discover-a-single-cell",
@@ -4542,13 +4552,29 @@
    "kind": "resource",
    "title": "Overcoming barriers to the wide adoption of single-cell large language models in biomedical research",
    "year": 2025,
-   "venue": "Nature Methods",
+   "venue": "Nature Biotechnology",
    "type": "perspective",
    "tags": [
     "text"
    ],
    "links": {
     "paper": "https://www.nature.com/articles/s41587-025-02846-y"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
+   "id": "pertpy-an-end-to-end-framework",
+   "kind": "resource",
+   "title": "Pertpy: an End-to-end Framework for Perturbation Analysis",
+   "year": 2025,
+   "venue": "Nature Methods",
+   "type": "tool",
+   "tags": [
+    "perturbation"
+   ],
+   "links": {
+    "paper": "https://www.nature.com/articles/s41592-025-02909-7"
    },
    "reviewed": false,
    "status": "published"
@@ -5023,6 +5049,7 @@
    "kind": "resource",
    "title": "CPJUMP1: Three million images and morphological profiles of cells treated with matched chemical and genetic perturbations",
    "year": 2024,
+   "venue": "Nature Methods",
    "type": "dataset",
    "tags": [
     "imaging",
@@ -5032,7 +5059,7 @@
     "paper": "https://www.nature.com/articles/s41592-024-02241-6"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "published"
   },
   {
    "id": "delineating-the-effective-use-of-self",
@@ -5151,6 +5178,7 @@
    "kind": "resource",
    "title": "scPerturb: scPerturb: Harmonized Single-Cell Perturbation Data",
    "year": 2024,
+   "venue": "Nature Methods",
    "type": "dataset",
    "tags": [
     "perturbation"
@@ -5159,7 +5187,7 @@
     "paper": "https://www.nature.com/articles/s41592-023-02144-y"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "published"
   },
   {
    "id": "the-human-cell-atlas-from-a",
@@ -5269,6 +5297,7 @@
    "kind": "resource",
    "title": "Tabula Sapiens: A multiple-organ single-cell transcriptomic atlas of humans",
    "year": 2022,
+   "venue": "Science",
    "type": "dataset",
    "tags": [
     "scrna-seq"
@@ -5277,13 +5306,14 @@
     "paper": "https://www.science.org/doi/10.1126/science.abl4896"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "published"
   },
   {
    "id": "sci-plex-massively-multiplex-chemical-transcriptomics",
    "kind": "resource",
    "title": "Sci-Plex: Massively Multiplex Chemical Transcriptomics at Single-Cell Resolution",
    "year": 2019,
+   "venue": "Science",
    "type": "dataset",
    "tags": [
     "scrna-seq"
@@ -5292,7 +5322,7 @@
     "paper": "https://doi.org/10.1126/science.aax6234"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "published"
   },
   {
    "id": "drug-repurposing-hub-curated-compound-library",
@@ -5314,12 +5344,13 @@
    "kind": "resource",
    "title": "L1000/CMap: A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles",
    "year": 2017,
+   "venue": "Cell",
    "type": "dataset",
    "links": {
     "paper": "https://doi.org/10.1016/j.cell.2017.10.049"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "published"
   },
   {
    "id": "10x-genomics-spatial-datasets-visium-xenium",
@@ -5509,21 +5540,6 @@
    },
    "reviewed": false,
    "status": "unknown"
-  },
-  {
-   "id": "pertpy-an-end-to-end-framework",
-   "kind": "resource",
-   "title": "Pertpy: an End-to-end Framework for Perturbation Analysis",
-   "venue": "Nature Methods",
-   "type": "tool",
-   "tags": [
-    "perturbation"
-   ],
-   "links": {
-    "paper": "https://www.nature.com/articles/s41592-025-02909-7"
-   },
-   "reviewed": false,
-   "status": "published"
   },
   {
    "id": "perturb-seq-datasets-genome-scale-and",
