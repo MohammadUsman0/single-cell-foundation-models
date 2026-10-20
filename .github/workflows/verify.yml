@@ -1,0 +1,66 @@
+name: Verify entries
+
+# Checks every entry against OpenAlex, Crossref, arXiv and bioRxiv, uploads
+# reports/verification.{md,json} as a workflow artifact and opens (or updates) a
+# GitHub issue labelled "verification" with the summary. It never changes data/:
+# a human reads the report and runs `scripts/verify.py --apply` locally if wanted.
+#
+# Set two repository secrets (Settings → Secrets and variables → Actions):
+#   VERIFY_MAILTO        contact address for the OpenAlex/Crossref polite pool
+#   VERIFY_OPENALEX_KEY  free OpenAlex API key; without it OpenAlex only allows a
+#                        small daily budget shared per IP, which runners exhaust
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 1 * *"   # 06:00 UTC on the 1st of every month
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install pyyaml requests
+      - name: Verify
+        env:
+          VERIFY_MAILTO: ${{ secrets.VERIFY_MAILTO }}
+          VERIFY_OPENALEX_KEY: ${{ secrets.VERIFY_OPENALEX_KEY }}
+        run: python scripts/verify.py
+      - name: Upload report
+        uses: actions/upload-artifact@v4
+        with:
+          name: verification-report
+          path: |
+            reports/verification.md
+            reports/verification.json
+      - name: Open or update the verification issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          {
+            # Summary section only; drop links that point inside the report file.
+            awk '/^<a id/ {exit} {print}' reports/verification.md \
+              | sed -E 's/\[([^]]*)\]\((#[^)]*|verification\.json)\)/\1/g'
+            echo
+            echo "Full tables and \`verification.json\`: the **verification-report** artifact of [this run]($RUN_URL)."
+            echo "Nothing in \`data/\` was changed. After review, apply safe fixes locally with \`python scripts/verify.py --apply\`."
+          } > issue.md
+          cat issue.md >> "$GITHUB_STEP_SUMMARY"
+          gh label create verification --color BFD4F2 --description "Monthly verify.py report" 2>/dev/null || true
+          num=$(gh issue list --label verification --state open --json number --jq '.[0].number')
+          if [ -n "$num" ]; then
+            gh issue edit "$num" --body-file issue.md
+            gh issue comment "$num" --body "Updated by [run]($RUN_URL)."
+          else
+            gh issue create --title "Verification report" --label verification --body-file issue.md
+          fi
