@@ -1,0 +1,14 @@
+id: morphodiff
+kind: model
+name: MorphoDiff
+title: 'MorphoDiff: Cellular Morphology Painting with Diffusion Models'
+year: 2025
+venue: ICLR
+category: morphology
+tags:
+- imaging
+- generative
+links:
+  paper: https://openreview.net/forum?id=PstM8YfhvI
+  code: https://github.com/bowang-lab/MorphoDiff
+reviewed: false

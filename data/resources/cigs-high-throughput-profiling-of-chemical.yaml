@@ -1,0 +1,11 @@
+id: cigs-high-throughput-profiling-of-chemical
+kind: resource
+type: dataset
+title: 'CIGS: High-Throughput Profiling of Chemical-Induced Gene Expression across 93,644 Perturbations'
+year: 2025
+tags:
+- perturbation
+- scrna-seq
+links:
+  paper: https://www.nature.com/articles/s41592-025-02781-5
+reviewed: false

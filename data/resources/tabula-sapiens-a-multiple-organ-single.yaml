@@ -1,0 +1,10 @@
+id: tabula-sapiens-a-multiple-organ-single
+kind: resource
+type: dataset
+title: 'Tabula Sapiens: A multiple-organ single-cell transcriptomic atlas of humans'
+year: 2022
+tags:
+- scrna-seq
+links:
+  paper: https://www.science.org/doi/10.1126/science.abl4896
+reviewed: false

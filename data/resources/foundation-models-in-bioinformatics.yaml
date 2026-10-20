@@ -1,0 +1,9 @@
+id: foundation-models-in-bioinformatics
+kind: resource
+type: survey
+title: Foundation models in bioinformatics
+year: 2025
+venue: National Science Review
+links:
+  paper: https://academic.oup.com/nsr/article/12/4/nwaf028/7979309
+reviewed: false

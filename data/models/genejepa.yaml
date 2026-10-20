@@ -1,0 +1,17 @@
+id: genejepa
+kind: model
+name: GeneJEPA
+title: 'GeneJepa: A Predictive World Model of the Transcriptome'
+year: 2025
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- virtual-cell
+- scrna-seq
+modality: scRNA-seq
+architecture: JEPA world model
+key: A predictive (JEPA) world model of the transcriptome.
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2025.10.14.682378v1
+reviewed: false

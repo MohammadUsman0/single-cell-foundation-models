@@ -1,0 +1,10 @@
+id: opencell-endogenous-protein-tagging-localization-and
+kind: resource
+type: dataset
+title: 'OpenCell: Endogenous protein tagging, localization, and interaction data for human cellular organization'
+year: 2022
+tags:
+- proteomics
+links:
+  paper: https://doi.org/10.1126/science.abi6983
+reviewed: false

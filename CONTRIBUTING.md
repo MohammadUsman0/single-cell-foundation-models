@@ -1,57 +1,87 @@
 # Contributing
 
-This is a **generated** awesome-list. The source of truth is the three CSV
-files in [`data/`](data/); `README.md` is built from them. Never edit the
-tables in `README.md` by hand — your change would be overwritten on the next
-build.
+This is a **generated** awesome-list. The source of truth is the YAML files in
+[`data/`](data/). `README.md`, `docs/data.json` and `exports/` are built from
+them, so never edit those by hand — your change would be overwritten.
 
-## Add or edit an entry
+Not comfortable with YAML? Just [open an issue](../../issues/new) with the paper
+link and we'll add it.
 
-1. Open the right file:
-   - **A model** → [`data/models.csv`](data/models.csv)
-   - **A benchmark / survey / perspective** → [`data/resources.csv`](data/resources.csv)
-   - **A venue (conference / journal / workshop)** → [`data/venues.csv`](data/venues.csv)
-2. Add a row (or edit one). For models, the columns are:
+## Layout
 
-   | column | meaning |
-   |---|---|
-   | `model` | short model name (e.g. `scGPT`) |
-   | `title` | paper title |
-   | `year` | publication year |
-   | `venue` | journal / preprint server / conference |
-   | `category` | one of the headings (see below) |
-   | `modality` | data type (scRNA-seq, scATAC, spatial, multi-omics, …) |
-   | `arch` | architecture (Transformer, Mamba, diffusion, GNN, …) |
-   | `task` | downstream tasks, optional |
-   | `key` | one-line description of the contribution |
-   | `paper` | URL to paper |
-   | `code` | URL to code, optional |
-   | `citation` | full citation, optional |
-
-3. Regenerate and open a PR:
-
-   ```bash
-   python scripts/generate_readme.py
-   git add -A && git commit -m "add <model>" && git push
-   ```
-
-   (A GitHub Action also rebuilds `README.md` automatically when `data/`
-   changes, so a PR that only touches the CSV is fine.)
-
-### Quick add from the command line
-
-```bash
-python scripts/add_paper.py \
-  --model "MyModel" --title "MyModel: ..." --year 2026 \
-  --venue bioRxiv --category "scRNA-seq / Transcriptomics Foundation Models" \
-  --modality "scRNA-seq" --arch "Transformer" \
-  --key "What it does in one line." \
-  --paper "https://..." --code "https://github.com/..."
+```
+data/
+├── models/<id>.yaml       one file per model
+├── resources/<id>.yaml    one file per benchmark, dataset, tool, survey, perspective
+├── venues.yaml            conferences, journals and workshops
+└── vocab.yaml             allowed categories, resource types, tags and model-card fields
 ```
 
-## Categories
+## Add an entry
 
-The model categories (and their order in the README) are defined in
-`CATEGORY_ORDER` inside [`scripts/generate_readme.py`](scripts/generate_readme.py).
-To add, rename, or reorder a category, edit that list. A model may only sit in
-one category; pick the closest primary fit.
+The quickest way is the helper, which also refuses duplicates:
+
+```bash
+pip install pyyaml
+python scripts/new_entry.py model --name MyModel \
+  --title "MyModel: ..." --year 2026 --venue bioRxiv \
+  --category scrna --tags scrna-seq,perturbation \
+  --paper https://... --code https://github.com/...
+python scripts/check.py && python scripts/build.py
+```
+
+Or copy an existing file in `data/models/` and edit it. A model file looks like this:
+
+```yaml
+id: scgpt                     # must match the file name
+kind: model
+name: scGPT
+title: 'scGPT: toward building a foundation model for single-cell multi-omics using generative AI'
+year: 2024
+venue: Nature Methods
+category: multimodal          # one id from vocab.yaml → decides the README section
+tags: [multi-omics, generative]   # any number of ids from vocab.yaml
+modality: Single-cell multi-omics # free text
+architecture: Transformer         # free text
+key: One line, in your own words — not copied from the abstract.
+links:
+  paper: https://doi.org/10.1038/s41592-024-02201-0
+  preprint: https://www.biorxiv.org/content/10.1101/2023.04.30.533534
+  code: https://github.com/bowang-lab/scGPT
+  weights: https://...
+model_card:                   # optional; allowed fields are listed in vocab.yaml
+  params: 51M
+  pretraining_cells: 33M
+  weights: released
+  license: MIT
+citation: '...'
+reviewed: false               # set to true once someone has checked it against the paper
+```
+
+Resource files use `type` (`benchmark`, `dataset`, `tool`, `survey`,
+`perspective`, `reference`) instead of `name`/`category`, and a benchmark can
+list the models it tested with `evaluates: [scgpt, geneformer]`.
+
+Allowed `links` keys: `paper`, `preprint`, `code`, `weights`, `project`,
+`dataset`, `docs`, `video`.
+
+## Rules
+
+1. **Never invent metadata or links.** Leave a field out rather than guess.
+2. **One model, one file.** If a preprint gets published, update the existing
+   file (published link in `paper`, preprint link in `preprint`) — don't add a second one.
+3. **Write `key` in your own words.** Don't paste abstract sentences.
+4. **Models vs resources:** if it isn't a trained model (a dataset, assay,
+   benchmark, review or commentary), it's a resource.
+5. Run `python scripts/check.py` before opening a PR. Errors must be fixed;
+   warnings are listed in [`reports/data-quality.md`](reports/data-quality.md).
+
+## Categories, types and tags
+
+All allowed values live in [`data/vocab.yaml`](data/vocab.yaml). To add or
+rename one, edit that file (and any entries that use the old id), then run
+`check.py` and `build.py`. The order of categories in `vocab.yaml` is the order
+of sections in the README.
+
+A GitHub Action runs `check.py` on every pull request and rebuilds the
+generated files when changes reach `main`.

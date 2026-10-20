@@ -1,0 +1,15 @@
+id: cellflux
+kind: model
+name: CellFlux
+title: 'CellFlux: Simulating Cellular Morphology Changes via Flow Matching'
+year: 2025
+venue: ICML
+venue_detail: poster
+category: morphology
+tags:
+- imaging
+- generative
+links:
+  paper: https://openreview.net/forum?id=3NLNmdheIi
+  code: https://github.com/yuhui-zh15/CellFlux
+reviewed: false

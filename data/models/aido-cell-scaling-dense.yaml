@@ -1,0 +1,16 @@
+id: aido-cell-scaling-dense
+kind: model
+name: AIDO.Cell Scaling Dense Representations
+title: Scaling dense representations for single cell with transcriptome-scale context
+year: 2024
+venue: bioRxiv
+category: scrna
+tags:
+- scrna-seq
+modality: Single Cell Transcriptome
+key: Develop AIDO.Cell, a pretrained module for representing gene expression and cellular systems in an
+  AI-driven Digital Organism
+citation: 'Ho, Nicholas, Caleb N. Ellington, Jinyu Hou, Sohan Addagudi, Shentong Mo, Tianhua Tao, Dian
+  Li et al. "Scaling dense representations for single cell with transcriptome-scale context." bioRxiv
+  (2024): 2024-11.'
+reviewed: false

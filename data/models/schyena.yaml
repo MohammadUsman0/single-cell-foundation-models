@@ -1,0 +1,18 @@
+id: schyena
+kind: model
+name: scHyena
+title: 'schyena: Foundation model for full-length single-cell rna-seq analysis in brain'
+year: 2023
+venue: arXiv
+category: llm
+tags:
+- llm
+- scrna-seq
+modality: Full-Length Single-Cell RNA-Seq
+architecture: Hyena-based
+key: Analysis in Brain
+links:
+  paper: https://arxiv.org/abs/2310.02713
+citation: 'Oh, Gyutaek, Baekgyu Choi, Inkyung Jung, and Jong Chul Ye. "schyena: Foundation model for full-length
+  single-cell rna-seq analysis in brain." arXiv preprint arXiv:2310.02713 (2023).'
+reviewed: false

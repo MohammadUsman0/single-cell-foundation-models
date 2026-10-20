@@ -1,0 +1,14 @@
+id: celcomen
+kind: model
+name: Celcomen
+title: 'Celcomen: spatial causal disentanglement for single-cell and tissue perturbation modeling'
+year: 2026
+venue: Nature Communications
+category: spatial
+tags:
+- spatial
+- perturbation
+links:
+  paper: https://www.nature.com/articles/s41467-026-69856-5
+  code: https://github.com/Teichlab/celcomen
+reviewed: false

@@ -1,0 +1,22 @@
+id: hinge
+kind: model
+name: HINGE
+title: Adapting a Pre-trained Single-Cell Foundation Model to Spatial Gene Expression Generation from
+  Histology Images
+year: 2026
+venue: arXiv
+category: spatial
+tags:
+- spatial
+- histology
+- imaging
+- generative
+- scrna-seq
+modality: Histology images + spatial transcriptomics
+architecture: Pre-trained scFM + SoftAdaLN + masked diffusion
+key: Adapts a pre-trained expression-only single-cell foundation model to generate spatial gene expression
+  from H&E histology via layered visual context injection and curriculum learning, preserving learned
+  gene relationships.
+links:
+  paper: https://arxiv.org/abs/2603.19766
+reviewed: false

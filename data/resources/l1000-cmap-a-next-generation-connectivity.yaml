@@ -1,0 +1,8 @@
+id: l1000-cmap-a-next-generation-connectivity
+kind: resource
+type: dataset
+title: 'L1000/CMap: A Next Generation Connectivity Map: L1000 Platform and the First 1,000,000 Profiles'
+year: 2017
+links:
+  paper: https://doi.org/10.1016/j.cell.2017.10.049
+reviewed: false

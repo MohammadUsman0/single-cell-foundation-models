@@ -1,0 +1,15 @@
+id: toward-ai-driven-digital-organism-multiscale
+kind: resource
+type: reference
+title: 'Toward ai-driven digital organism: Multiscale foundation models for predicting, simulating and
+  programming biology at all levels'
+year: 2024
+venue: arXiv
+tags:
+- virtual-cell
+links:
+  paper: https://arxiv.org/abs/2412.06993
+citation: 'Song, Le, Eran Segal, and Eric Xing. "Toward ai-driven digital organism: Multiscale foundation
+  models for predicting, simulating and programming biology at all levels." arXiv preprint arXiv:2412.06993
+  (2024).'
+reviewed: false

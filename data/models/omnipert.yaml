@@ -1,0 +1,14 @@
+id: omnipert
+kind: model
+name: OmniPert
+title: 'OmniPert: A Deep Learning Foundation Model for Predicting Responses to Genetic and Chemical Perturbations
+  in Single Cancer Cells'
+year: 2025
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- drug-response
+links:
+  paper: https://doi.org/10.1101/2025.07.02.662744
+reviewed: false

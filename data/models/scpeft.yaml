@@ -1,0 +1,17 @@
+id: scpeft
+kind: model
+name: scPEFT
+title: Harnessing the power of single-cell large language models with parameter-efficient fine-tuning
+  using scPEFT
+year: 2025
+venue: Nature Machine Intelligence
+category: scrna
+tags:
+- scrna-seq
+- text
+modality: scRNA-seq
+architecture: Parameter-efficient fine-tuning
+key: Parameter-efficient fine-tuning for single-cell LLMs.
+links:
+  paper: https://www.nature.com/articles/s42256-025-01170-z
+reviewed: false

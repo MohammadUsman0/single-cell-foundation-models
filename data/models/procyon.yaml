@@ -1,0 +1,14 @@
+id: procyon
+kind: model
+name: ProCyon
+title: 'ProCyon: A multimodal foundation model for protein phenotypes'
+venue: bioRxiv
+category: scrna
+tags:
+- scrna-seq
+- proteomics
+- multi-omics
+links:
+  paper: https://doi.org/10.1101/2024.12.10.627665
+  code: https://github.com/mims-harvard/ProCyon
+reviewed: false

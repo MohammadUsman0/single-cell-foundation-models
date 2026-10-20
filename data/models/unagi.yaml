@@ -1,0 +1,16 @@
+id: unagi
+kind: model
+name: UNAGI
+title: A Deep Generative Model for Deciphering Cellular Dynamics and in Silico Drug Discovery in Complex
+  Diseases
+year: 2025
+venue: Nature Biomedical Engineering
+category: perturbation
+tags:
+- perturbation
+- drug-response
+- generative
+links:
+  paper: https://doi.org/10.1038/s41551-025-01423-7
+  code: https://github.com/mcgilldinglab/UNAGI
+reviewed: false

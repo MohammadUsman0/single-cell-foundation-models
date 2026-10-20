@@ -1,0 +1,17 @@
+id: screader
+kind: model
+name: scReader
+title: 'scReader: Prompting Large Language Models to Interpret scRNA-seq Data'
+year: 2024
+venue: arXiv
+category: llm
+tags:
+- llm
+- text
+- scrna-seq
+modality: scRNA-seq
+architecture: LLM prompting
+key: Prompts LLMs to interpret scRNA-seq data.
+links:
+  paper: https://arxiv.org/abs/2412.18156
+reviewed: false

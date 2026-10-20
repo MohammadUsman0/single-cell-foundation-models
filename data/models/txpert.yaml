@@ -1,0 +1,15 @@
+id: txpert
+kind: model
+name: TxPert
+title: 'TxPert: using multiple knowledge graphs for prediction of transcriptomic perturbation effects'
+year: 2026
+venue: Nature Biotechnology
+category: perturbation
+tags:
+- perturbation
+- graph
+- scrna-seq
+links:
+  paper: https://www.nature.com/articles/s41587-026-03113-4
+  code: https://github.com/valence-labs/TxPert
+reviewed: false

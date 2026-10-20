@@ -1,0 +1,15 @@
+id: genecompass
+kind: model
+name: GeneCompass
+title: 'GeneCompass: deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species
+  foundation model'
+year: 2024
+venue: Cell Research
+category: grn
+tags:
+- gene-regulation
+- cross-species
+citation: 'Yang, Xiaodong, Guole Liu, Guihai Feng, Dechao Bu, Pengfei Wang, Jie Jiang, Shubai Chen et
+  al. "GeneCompass: deciphering universal gene regulatory mechanisms with a knowledge-informed cross-species
+  foundation model." Cell Research 34, no. 12 (2024): 830-845.'
+reviewed: false

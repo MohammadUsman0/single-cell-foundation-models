@@ -1,0 +1,13 @@
+id: biomni
+kind: model
+name: Biomni
+title: 'Biomni: A General-Purpose Biomedical AI Agent'
+year: 2025
+venue: bioRxiv
+category: agents
+tags:
+- agent
+links:
+  paper: https://doi.org/10.1101/2025.05.30.656746
+  code: https://github.com/snap-stanford/biomni
+reviewed: false

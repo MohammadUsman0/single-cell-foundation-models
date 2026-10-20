@@ -1,0 +1,15 @@
+id: transigen
+kind: model
+name: TranSiGen
+title: Deep Representation Learning of Chemical-Induced Transcriptional Profile for Phenotype-Based Drug
+  Discovery
+year: 2024
+venue: Nature Communications
+category: perturbation
+tags:
+- perturbation
+- drug-response
+links:
+  paper: https://www.nature.com/articles/s41467-024-49620-3
+  code: https://github.com/myzhengSIMM/TranSiGen
+reviewed: false

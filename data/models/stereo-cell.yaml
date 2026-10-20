@@ -1,0 +1,14 @@
+id: stereo-cell
+kind: model
+name: Stereo-Cell
+title: 'Stereo-Cell: Spatial Enhanced-Resolution Single-Cell Sequencing with High-Density DNA Nanoball-Patterned
+  Arrays'
+year: 2025
+venue: Science
+category: spatial
+tags:
+- spatial
+links:
+  paper: https://doi.org/10.1126/science.adr0475
+  code: https://github.com/haoshijie13/Stereo-cell-paper-code
+reviewed: false

@@ -1,0 +1,15 @@
+id: subcell
+kind: model
+name: SubCell
+title: 'SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology'
+year: 2025
+venue: bioRxiv
+category: scrna
+tags:
+- scrna-seq
+- proteomics
+- imaging
+links:
+  paper: https://doi.org/10.1101/2024.12.06.627299
+  code: https://github.com/CellProfiling/subcell-embed
+reviewed: false

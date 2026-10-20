@@ -1,0 +1,21 @@
+id: x-cell
+kind: model
+name: X-Cell
+title: 'X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts via Diffusion
+  Language Models'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- text
+- generative
+modality: Single-cell
+links:
+  project: https://vimeo.com/1174241862
+citation: 'Wang, Chloe, Mehran Karimzadeh, Neal G. Ravindra, Lexi R. Bounds, Nader Alerasool, Ann C. Huang,
+  Shihao Ma et al. "X-Cell: Scaling Causal Perturbation Prediction Across Diverse Cellular Contexts via
+  Diffusion Language Models." bioRxiv (2026): 2026-03.'
+reviewed: false
+review_notes:
+- code field pointed to a non-code site (https://vimeo.com/1174241862); stored as project link

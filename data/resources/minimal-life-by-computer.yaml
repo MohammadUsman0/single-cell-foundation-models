@@ -1,0 +1,12 @@
+id: minimal-life-by-computer
+kind: resource
+type: perspective
+title: Minimal life by computer
+year: 2026
+venue: Nature Biotechnology
+links:
+  paper: https://doi.org/10.1038/s41587-026-03110-7
+citation: Minimal life by computer. Nat Biotechnol (2026). https://doi.org/10.1038/s41587-026-03110-7
+reviewed: false
+review_notes:
+- type was 'Nature Biotech Editorial Paper' (not in the old schema); mapped to perspective

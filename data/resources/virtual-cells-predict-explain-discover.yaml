@@ -1,0 +1,14 @@
+id: virtual-cells-predict-explain-discover
+kind: resource
+type: perspective
+title: 'Virtual cells: Predict, explain, discover'
+year: 2025
+venue: arXiv
+tags:
+- virtual-cell
+links:
+  paper: https://arxiv.org/abs/2505.14613
+citation: 'Noutahi, Emmanuel, Jason Hartford, Prudencio Tossou, Shawn Whitfield, Alisandra K. Denton,
+  Cas Wognum, Kristina Ulicna et al. "Virtual cells: Predict, explain, discover." arXiv preprint arXiv:2505.14613
+  (2025).'
+reviewed: false

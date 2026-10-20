@@ -1,0 +1,11 @@
+id: proticelli-proteome-wide-image-generation-resources
+kind: resource
+type: dataset
+title: 'ProtiCelli: Proteome-wide image generation resources for human cell protein localization'
+year: 2026
+tags:
+- proteomics
+- imaging
+links:
+  paper: https://doi.org/10.64898/2026.03.31.715748
+reviewed: false

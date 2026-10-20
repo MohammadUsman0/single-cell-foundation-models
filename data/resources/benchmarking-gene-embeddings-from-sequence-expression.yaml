@@ -1,0 +1,13 @@
+id: benchmarking-gene-embeddings-from-sequence-expression
+kind: resource
+type: benchmark
+title: Benchmarking gene embeddings from sequence, expression, network, and text models for functional
+  prediction tasks
+year: 2025
+venue: bioRxiv
+tags:
+- text
+- dna-sequence
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2025.01.29.635607v1
+reviewed: false

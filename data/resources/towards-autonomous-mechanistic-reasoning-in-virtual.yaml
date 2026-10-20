@@ -1,0 +1,14 @@
+id: towards-autonomous-mechanistic-reasoning-in-virtual
+kind: resource
+type: benchmark
+title: Towards Autonomous Mechanistic Reasoning in Virtual Cells
+year: 2026
+venue: arXiv
+tags:
+- virtual-cell
+- agent
+links:
+  paper: https://arxiv.org/abs/2604.11661
+citation: Jang, Yunhui, Lu Zhu, Jake Fawkes, Alisandra Kaye Denton, Dominique Beaini, and Emmanuel Noutahi.
+  "Towards Autonomous Mechanistic Reasoning in Virtual Cells." arXiv preprint arXiv:2604.11661 (2026).
+reviewed: false

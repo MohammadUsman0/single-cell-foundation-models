@@ -1,0 +1,13 @@
+id: stamp-single-cell-transcriptomics-analysis-and
+kind: resource
+type: tool
+title: 'STAMP: Single-cell transcriptomics analysis and multimodal profiling through imaging'
+year: 2025
+venue: Cell
+tags:
+- imaging
+- multi-omics
+- scrna-seq
+links:
+  paper: https://doi.org/10.1016/j.cell.2025.05.027
+reviewed: false

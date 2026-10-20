@@ -1,0 +1,14 @@
+id: what-makes-a-representation-good-for
+kind: resource
+type: reference
+title: What Makes a Representation Good for Single-Cell Perturbation Prediction?
+year: 2026
+venue: arXiv
+tags:
+- perturbation
+links:
+  paper: https://arxiv.org/abs/2605.19343
+citation: Jiang, Wenkang, Yuhang Liu, Yichao Cai, Erdun Gao, Jiayi Dong, Ehsan Abbasnejad, Lina Yao, and
+  Javen Qinfeng Shi. "What Makes a Representation Good for Single-Cell Perturbation Prediction?." arXiv
+  preprint arXiv:2605.19343 (2026).
+reviewed: false

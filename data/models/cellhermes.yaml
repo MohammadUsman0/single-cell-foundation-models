@@ -1,0 +1,17 @@
+id: cellhermes
+kind: model
+name: CellHermes
+title: 'Language may be all omics needs: Harmonizing multimodal data for omics understanding with CellHermes'
+year: 2025
+venue: bioRxiv
+category: llm
+tags:
+- llm
+- multi-omics
+- text
+modality: Multi-omics + text
+architecture: LLM
+key: Harmonizes multimodal omics data via language for omics understanding.
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2025.11.07.687322v1
+reviewed: false

@@ -1,0 +1,18 @@
+id: scilama
+kind: model
+name: sciLaMA
+title: 'sciLaMA: A Single-Cell Representation Learning Framework to Leverage Prior Knowledge from Large
+  Language Models'
+year: 2025
+venue: ICML
+category: llm
+tags:
+- llm
+- text
+- scrna-seq
+modality: scRNA-seq
+architecture: LLM-prior representation learning
+key: Leverages LLM prior knowledge for single-cell representation learning.
+links:
+  paper: https://openreview.net/forum?id=0m4VsLwj5s
+reviewed: false

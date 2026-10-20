@@ -1,0 +1,15 @@
+id: cradle-vae
+kind: model
+name: Cradle-VAE
+title: 'Cradle-VAE: Enhancing Single-Cell Gene Perturbation Modeling with Counterfactual Reasoning-based
+  Artifact Disentanglement'
+year: 2025
+venue: AAAI
+category: perturbation
+tags:
+- perturbation
+- generative
+links:
+  paper: https://ojs.aaai.org/index.php/AAAI/article/view/33695
+  code: https://github.com/dmis-lab/CRADLE-VAE
+reviewed: false

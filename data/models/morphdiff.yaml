@@ -1,0 +1,17 @@
+id: morphdiff
+kind: model
+name: MorphDiff
+title: Prediction of Cellular Morphology Changes under Perturbations with a Transcriptome-Guided Diffusion
+  Model
+year: 2025
+venue: Nature Communications
+category: morphology
+tags:
+- imaging
+- perturbation
+- generative
+- scrna-seq
+links:
+  paper: https://www.nature.com/articles/s41467-025-63478-z
+  code: https://github.com/biomap-research/MorphDiff
+reviewed: false

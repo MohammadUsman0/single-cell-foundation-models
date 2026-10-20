@@ -1,0 +1,11 @@
+id: harmonycell
+kind: model
+name: HarmonyCell
+title: 'HarmonyCell: Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts'
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+links:
+  paper: https://arxiv.org/pdf/2603.01396
+reviewed: false

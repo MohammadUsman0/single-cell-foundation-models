@@ -1,0 +1,13 @@
+id: ps
+kind: model
+name: PS
+title: Decoding Heterogeneous Single-Cell Perturbation Responses
+year: 2025
+venue: Nature Cell Biology
+category: perturbation
+tags:
+- perturbation
+links:
+  paper: https://doi.org/10.1038/s41556-025-01626-9
+  code: https://github.com/davidliwei/PS
+reviewed: false

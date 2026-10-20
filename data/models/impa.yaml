@@ -1,0 +1,15 @@
+id: impa
+kind: model
+name: IMPA
+title: Predicting cell morphological responses to perturbations using generative modeling
+year: 2025
+venue: Nature Communications
+category: morphology
+tags:
+- imaging
+- perturbation
+- generative
+links:
+  paper: https://www.nature.com/articles/s41467-024-55707-8
+  code: https://github.com/theislab/IMPA
+reviewed: false

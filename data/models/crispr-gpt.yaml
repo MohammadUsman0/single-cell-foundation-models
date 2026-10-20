@@ -1,0 +1,14 @@
+id: crispr-gpt
+kind: model
+name: CRISPR-GPT
+title: CRISPR-GPT for Agentic Automation of Gene-Editing Experiments
+year: 2025
+venue: Nature Biomedical Engineering
+category: agents
+tags:
+- agent
+- perturbation
+links:
+  paper: https://doi.org/10.1038/s41551-025-01463-z
+  code: https://github.com/cong-lab/crispr-gpt-pub
+reviewed: false

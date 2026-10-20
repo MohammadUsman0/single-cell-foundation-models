@@ -1,0 +1,14 @@
+id: scale
+kind: model
+name: SCALE
+title: 'SCALE: Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- virtual-cell
+citation: 'Chen, Shuizhou, Lang Yu, Kedu Jin, Songming Zhang, Hao Wu, Sheng Xu, Quan Qian et al. "SCALE:
+  Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction." bioRxiv
+  (2026): 2026-03.'
+reviewed: false

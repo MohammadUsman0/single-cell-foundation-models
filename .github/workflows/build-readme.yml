@@ -1,11 +1,23 @@
-name: Build README
+name: Check and build
+
+# On pull requests: validate data/ and make sure the build works.
+# On pushes to main: also regenerate README.md, docs/data.json, exports/ and
+# reports/data-quality.md, and commit them if they changed.
 
 on:
-  push:
+  pull_request:
     paths:
       - "data/**"
-      - "scripts/generate_readme.py"
+      - "scripts/**"
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "scripts/**"
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -15,16 +27,21 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - name: Generate README
-        run: python scripts/generate_readme.py
-      - name: Commit if changed
+      - name: Install dependencies
+        run: pip install pyyaml
+      - name: Check data
+        run: python scripts/check.py
+      - name: Build
+        run: python scripts/build.py
+      - name: Commit generated files
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet README.md; then
-            git add README.md
-            git commit -m "chore: regenerate README from data/"
-            git push
+          git add README.md docs/data.json exports reports/data-quality.md
+          if git diff --cached --quiet; then
+            echo "Generated files already up to date."
           else
-            echo "README already up to date."
+            git commit -m "chore: regenerate README and data exports"
+            git push
           fi

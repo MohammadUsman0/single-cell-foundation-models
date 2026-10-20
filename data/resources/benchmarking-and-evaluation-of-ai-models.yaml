@@ -1,0 +1,12 @@
+id: benchmarking-and-evaluation-of-ai-models
+kind: resource
+type: benchmark
+title: 'Benchmarking and Evaluation of AI Models in Biology: Outcomes and Recommendations from the CZI
+  Virtual Cells Workshop'
+year: 2025
+venue: arXiv
+tags:
+- virtual-cell
+links:
+  paper: https://arxiv.org/abs/2507.10502
+reviewed: false

@@ -1,0 +1,11 @@
+id: towards-multimodal-foundation-models-in-molecular
+kind: resource
+type: perspective
+title: Towards multimodal foundation models in molecular cell biology
+year: 2025
+venue: Nature
+tags:
+- multi-omics
+links:
+  paper: https://www.nature.com/articles/s41586-025-08710-y
+reviewed: false

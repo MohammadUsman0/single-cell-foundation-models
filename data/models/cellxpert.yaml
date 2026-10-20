@@ -1,0 +1,14 @@
+id: cellxpert
+kind: model
+name: CellxPert
+title: 'CellxPert: Inference-Time MCMC Steering of a Multi-Omics Single-Cell Foundation Model for In-Silico
+  Perturbation'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- multi-omics
+links:
+  paper: https://arxiv.org/abs/2605.00930
+reviewed: false

@@ -1,0 +1,13 @@
+id: scpoli
+kind: model
+name: scPoli
+title: Population-level integration of single-cell datasets enables multi-scale analysis across samples
+year: 2023
+venue: Nature Methods
+category: atlas
+modality: Single-cell datasets
+key: Population-level integration, multi-scale analysis
+citation: 'De Donno, Carlo, Soroor Hediyeh-Zadeh, Amir Ali Moinfar, Marco Wagenstetter, Luke Zappia, Mohammad
+  Lotfollahi, and Fabian J. Theis. "Population-level integration of single-cell datasets enables multi-scale
+  analysis across samples." Nature Methods 20, no. 11 (2023): 1683-1692.'
+reviewed: false

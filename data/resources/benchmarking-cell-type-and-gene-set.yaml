@@ -1,0 +1,11 @@
+id: benchmarking-cell-type-and-gene-set
+kind: resource
+type: benchmark
+title: Benchmarking cell type and gene set annotation by large language models with AnnDictionary
+year: 2025
+venue: Nature Communications
+tags:
+- text
+links:
+  paper: https://www.nature.com/articles/s41467-025-64511-x
+reviewed: false

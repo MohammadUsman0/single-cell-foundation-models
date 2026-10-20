@@ -1,0 +1,18 @@
+id: perturbgen
+kind: model
+name: PerturbGen
+title: Predicting how perturbations reshape cellular trajectories with PerturbGen
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+modality: Single-cell
+architecture: Transformer
+key: cell state transition prediction, gene program dicovery, in silico perturbations
+links:
+  code: https://github.com/Lotfollahi-lab/Perturbgen/
+citation: 'Chi Hao Ly, Kevin, Adib Miraki Feriz, Tomoya Isobe, Amirhossein Vahidi, Delshad Vaghari, Anthony
+  Rostron, Mariana Quiroga Londono et al. "Predicting how perturbations reshape cellular trajectories
+  with PerturbGen." bioRxiv (2026): 2026-03.'
+reviewed: false

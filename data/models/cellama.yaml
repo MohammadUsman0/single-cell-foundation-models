@@ -1,0 +1,19 @@
+id: cellama
+kind: model
+name: CELLama
+title: 'CELLama: Foundation Model for Single Cell and Spatial Transcriptomics by Cell Embedding Leveraging
+  Language Model Abilities'
+year: 2024
+venue: bioRxiv
+category: llm
+tags:
+- llm
+- spatial
+- text
+- scrna-seq
+modality: scRNA-seq + spatial
+architecture: Language-model embedding
+key: Cell embeddings for sc + spatial transcriptomics via LLM abilities.
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2024.05.08.593094v1
+reviewed: false

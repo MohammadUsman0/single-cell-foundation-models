@@ -1,0 +1,17 @@
+id: sclinguist
+kind: model
+name: scLinguist
+title: 'scLinguist: A pre-trained hyena-based foundation model for cross-modality translation in single-cell
+  multi-omics'
+year: 2025
+venue: bioRxiv
+category: multimodal
+tags:
+- multi-omics
+modality: Single-cell Multi-omics
+architecture: Hyena-based
+key: Cross-modality translation
+citation: 'Fang, Zhaoyu, Ziyang Miao, Jianhui Lin, Yuying Xie, Jiliang Tang, Jiayuan Ding, and Min Li.
+  "scLinguist: A pre-trained hyena-based foundation model for cross-modality translation in single-cell
+  multi-omics." bioRxiv (2025): 2025-09.'
+reviewed: false

@@ -1,0 +1,11 @@
+id: from-virtual-cell-challenge-to-virtual
+kind: resource
+type: benchmark
+title: 'From Virtual Cell Challenge to Virtual Organs: Navigating the Deep Waters of Medical AI Models'
+year: 2025
+venue: iCell
+tags:
+- virtual-cell
+links:
+  paper: https://doi.org/10.71373/IQHA9494
+reviewed: false

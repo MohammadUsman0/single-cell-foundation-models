@@ -1,0 +1,12 @@
+id: a-survey-on-foundation-language-models
+kind: resource
+type: survey
+title: A survey on foundation language models for single-cell biology
+year: 2025
+tags:
+- text
+citation: 'Zhang, Fan, Hao Chen, Zhihong Zhu, Ziheng Zhang, Zhenxi Lin, Ziyue Qiao, Yefeng Zheng, and
+  Xian Wu. "A survey on foundation language models for single-cell biology." In Proceedings of the 63rd
+  Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 528-549.
+  2025.'
+reviewed: false

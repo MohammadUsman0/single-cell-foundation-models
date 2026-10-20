@@ -1,0 +1,18 @@
+id: scchat
+kind: model
+name: scChat
+title: 'scChat: A Large Language Model-Powered Co-Pilot for Contextualized Single-Cell RNA Sequencing
+  Analysis'
+year: 2024
+venue: bioRxiv
+category: llm
+tags:
+- llm
+- text
+- scrna-seq
+modality: scRNA-seq
+architecture: LLM copilot
+key: LLM-powered copilot for contextualized scRNA-seq analysis.
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2024.10.01.616063v1
+reviewed: false

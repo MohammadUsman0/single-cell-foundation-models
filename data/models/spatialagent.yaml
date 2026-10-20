@@ -1,0 +1,14 @@
+id: spatialagent
+kind: model
+name: SpatialAgent
+title: 'SpatialAgent: An Autonomous AI Agent for Spatial Biology'
+year: 2025
+venue: bioRxiv
+category: agents
+tags:
+- agent
+- spatial
+links:
+  paper: https://doi.org/10.1101/2025.04.03.646459
+  code: https://github.com/Genentech/SpatialAgent
+reviewed: false

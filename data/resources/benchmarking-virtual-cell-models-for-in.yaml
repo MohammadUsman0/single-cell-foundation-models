@@ -1,0 +1,18 @@
+id: benchmarking-virtual-cell-models-for-in
+kind: resource
+type: benchmark
+title: Benchmarking virtual cell models for in-the-wild perturbation response
+year: 2026
+venue: arXiv
+tags:
+- perturbation
+- virtual-cell
+key: Standardized, modular benchmark for virtual cell perturbation prediction under unseen cell contexts,
+  unseen perturbations, and cross-dataset generalization; finds performance is highly context-dependent
+  and often overestimated in standard setups.
+links:
+  paper: https://arxiv.org/abs/2604.27646
+citation: Mao, Xinjie, Songming Zhang, Qianhong Wen, Xiangyu Wen, Kedu Jin, Hao Wu, Shuizhou Chen, Yuqiang
+  Li, Lei Bai, Qi Liu, Ning Ding, Siqi Sun, and Zhangyang Gao. "Benchmarking virtual cell models for in-the-wild
+  perturbation response." arXiv preprint arXiv:2604.27646 (2026).
+reviewed: false

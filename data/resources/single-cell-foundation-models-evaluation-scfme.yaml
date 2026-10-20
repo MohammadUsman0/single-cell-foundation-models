@@ -1,0 +1,11 @@
+id: single-cell-foundation-models-evaluation-scfme
+kind: resource
+type: benchmark
+title: Single Cell Foundation Models Evaluation (scFME) for In-Silico Perturbation
+year: 2025
+venue: bioRxiv
+tags:
+- perturbation
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2025.09.22.677811v1
+reviewed: false

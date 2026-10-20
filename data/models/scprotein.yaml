@@ -1,0 +1,17 @@
+id: scprotein
+kind: model
+name: scPROTEIN
+title: 'scPROTEIN: a versatile deep graph contrastive learning framework for single-cell proteomics embedding'
+year: 2024
+venue: Nature Methods
+category: proteomics
+tags:
+- proteomics
+- graph
+modality: Single-cell Proteomics
+architecture: Deep Graph Contrastive Learning
+key: Single-cell proteomics embedding
+citation: 'Li, Wei, Fan Yang, Fang Wang, Yu Rong, Linjing Liu, Bingzhe Wu, Han Zhang, and Jianhua Yao.
+  "scPROTEIN: a versatile deep graph contrastive learning framework for single-cell proteomics embedding."
+  Nature Methods 21, no. 4 (2024): 623-634.'
+reviewed: false

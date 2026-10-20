@@ -1,0 +1,27 @@
+id: omiclip-loki
+kind: model
+name: OmiCLIP / Loki
+aliases:
+- OmiCLIP
+title: A visual–omics foundation model to bridge histopathology with spatial transcriptomics
+year: 2025
+venue: Nature Methods
+category: spatial
+tags:
+- spatial
+- histology
+- imaging
+- scrna-seq
+modality: Histopathology Image + Spatial Transcriptomics
+architecture: Visual-Omics (Contrastive Learning)
+key: 'Cell-type decomposition, ST gene expression prediction, image–transcriptomics retrieval. Key Finding:
+  Bridges visual and molecular data by converting transcriptomics to "sentences."'
+links:
+  paper: https://doi.org/10.1038/s41592-025-02707-1
+  code: https://github.com/GuangyuWangLab2021/Loki
+citation: 'Chen, Weiqing, Pengzhi Zhang, Tu N. Tran, Yiwei Xiao, Shengyu Li, Vrutant V. Shah, Hao Cheng
+  et al. "A visual–omics foundation model to bridge histopathology with spatial transcriptomics." Nature
+  Methods (2025): 1-15.'
+reviewed: false
+review_notes:
+- merged duplicate row 'OmiCLIP' with the same title

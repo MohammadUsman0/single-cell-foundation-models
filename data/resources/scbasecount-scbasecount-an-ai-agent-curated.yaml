@@ -1,0 +1,11 @@
+id: scbasecount-scbasecount-an-ai-agent-curated
+kind: resource
+type: dataset
+title: 'scBaseCount: scBaseCount: An AI Agent-Curated, Uniformly Processed, and Continually Expanding
+  Single Cell Data Repository'
+year: 2025
+tags:
+- agent
+links:
+  paper: https://doi.org/10.1101/2025.02.27.640494
+reviewed: false

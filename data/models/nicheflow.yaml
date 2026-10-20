@@ -1,0 +1,14 @@
+id: nicheflow
+kind: model
+name: NicheFlow
+title: Modeling Microenvironment Trajectories on Spatial Transcriptomics with NicheFlow
+year: 2025
+venue: NeurIPS
+category: spatial
+tags:
+- spatial
+- scrna-seq
+links:
+  paper: https://openreview.net/forum?id=5ofJyjgrth
+  code: https://github.com/kristiyansakalyan/nicheflow
+reviewed: false

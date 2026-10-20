@@ -1,0 +1,17 @@
+id: cellplm
+kind: model
+name: CellPLM
+title: 'CellPLM: Pre-training of cell language model beyond single cells'
+year: 2023
+venue: bioRxiv
+category: llm
+tags:
+- llm
+- text
+modality: Single-cell (Cells as tokens, tissues as sentences)
+architecture: Pre-trained Transformer
+key: 'Diverse downstream tasks. Key Finding: First sc-pre-trained transformer to encode cell-cell relations;
+  100x faster inference.'
+citation: 'Wen, Hongzhi, Wenzhuo Tang, Xinnan Dai, Jiayuan Ding, Wei Jin, Yuying Xie, and Jiliang Tang.
+  "CellPLM: Pre-training of cell language model beyond single cells." BioRxiv (2023): 2023-10.'
+reviewed: false

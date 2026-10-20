@@ -1,0 +1,9 @@
+id: cz-cellxgene-discover-a-single-cell
+kind: resource
+type: dataset
+title: 'CZ CELLxGENE Discover: A single-cell data platform for scalable exploration, analysis, and modeling
+  of aggregated data'
+year: 2025
+links:
+  paper: https://academic.oup.com/nar/article/53/D1/D886/7912032
+reviewed: false

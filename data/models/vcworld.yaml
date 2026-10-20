@@ -1,0 +1,24 @@
+id: vcworld
+kind: model
+name: VCWorld
+title: 'VCWorld: A Biological World Model for Virtual Cell Simulation'
+year: 2025
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- text
+- virtual-cell
+architecture: LLM based
+key: 'present VCWorld, a cell-level white-box simulator that integrates structured biological knowledge
+  with the iterative reasoning capabilities of large language models to instantiate a biological world
+  model. powered by a Large Language Model (LLM). It consists of three key stages: (1) generating rich,
+  symbolic representations for all biological entities; (2) retrieving a support set of causal evidence
+  guided by open-world biological knowledge; and (3) synthesizing all information through a Chain-of-Thought
+  process to produce an interpretable prediction.'
+links:
+  paper: https://arxiv.org/abs/2512.00306
+  code: https://github.com/GENTEL-lab/VCWorld
+citation: 'Wei, Zhijian, Runze Ma, Zichen Wang, Zhongmin Li, Shuotong Song, and Shuangjia Zheng. "VCWorld:
+  A Biological World Model for Virtual Cell Simulation." arXiv preprint arXiv:2512.00306 (2025).'
+reviewed: false

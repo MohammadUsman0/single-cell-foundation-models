@@ -1,0 +1,13 @@
+id: perturbdiff
+kind: model
+name: PerturbDiff
+title: 'PerturbDiff: Functional Diffusion for Single-Cell Perturbation Modeling'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- generative
+links:
+  paper: https://arxiv.org/abs/2602.19685
+reviewed: false

@@ -1,0 +1,18 @@
+id: geneformer
+kind: model
+name: GeneFormer
+title: Transfer learning enables predictions in network biology
+year: 2023
+venue: Nature
+category: grn
+tags:
+- gene-regulation
+- scrna-seq
+modality: Single-Cell Transcriptomics
+architecture: Transformer (Ordinal Positions)
+key: 'Predictions in network biology. Key Finding: Uses ordinal positions of tokenized genes, trained
+  on 30 million cells.'
+citation: 'Theodoris, Christina V., Ling Xiao, Anant Chopra, Mark D. Chaffin, Zeina R. Al Sayed, Matthew
+  C. Hill, Helene Mantineo et al. "Transfer learning enables predictions in network biology." Nature 618,
+  no. 7965 (2023): 616-624.'
+reviewed: false

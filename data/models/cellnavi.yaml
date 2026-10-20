@@ -1,0 +1,15 @@
+id: cellnavi
+kind: model
+name: CellNavi
+title: CellNavi Predicts Genes Directing Cellular Transitions by Learning a Gene Graph-Enhanced Cell State
+  Manifold
+year: 2025
+venue: Nature Cell Biology
+category: perturbation
+tags:
+- perturbation
+- graph
+links:
+  paper: https://doi.org/10.1038/s41556-025-01755-1
+  code: https://github.com/DLS5-Omics/CellNavi
+reviewed: false

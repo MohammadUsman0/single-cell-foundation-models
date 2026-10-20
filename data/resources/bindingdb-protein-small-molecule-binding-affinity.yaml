@@ -1,0 +1,10 @@
+id: bindingdb-protein-small-molecule-binding-affinity
+kind: resource
+type: dataset
+title: 'BindingDB: Protein-small molecule binding affinity knowledgebase [[resource](https://www.bindingdb.org/)]
+  [[paper](https://academic'
+tags:
+- proteomics
+links:
+  paper: https://www.bindingdb.org/
+reviewed: false

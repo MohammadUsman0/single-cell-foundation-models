@@ -4,12 +4,17 @@ Read this fully before acting. Claude Code reads this file automatically.
 
 ## What this project is
 
-An **awesome-list** of single-cell foundation models and AI virtual-cell /
-world models, plus the benchmarks, datasets, tools, surveys, perspectives and
-venues around them. It is published as a GitHub README, but the README is
-**generated**, not hand-written.
+An **awesome-list and model catalogue** of single-cell foundation models and AI
+virtual-cell / world models, plus the benchmarks, datasets, tools, surveys,
+perspectives and venues around them.
 
-Current size: ~178 models, ~118 resources, 19 venues.
+Everything is **generated** from YAML in `data/`:
+- `README.md` — a simple tagged one-line-per-entry list.
+- `docs/data.json` — the full catalogue for the GitHub Pages site (phase 3).
+- `exports/*.csv` — flat exports.
+- `reports/data-quality.md` — what `check.py` found.
+
+Current size: ~182 models, ~121 resources, 19 venues.
 
 ## Repository layout
 
@@ -20,99 +25,102 @@ Current size: ~178 models, ~118 resources, 19 venues.
 ├── CONTRIBUTING.md               # human-facing contribution guide
 ├── LICENSE                       # CC0-1.0
 ├── data/                         # <-- SOURCE OF TRUTH
-│   ├── models.csv
-│   ├── resources.csv
-│   └── venues.csv
+│   ├── models/<id>.yaml          # one file per model
+│   ├── resources/<id>.yaml       # one file per benchmark/dataset/tool/survey/perspective/reference
+│   ├── venues.yaml
+│   └── vocab.yaml                # allowed categories, resource types, tags, model-card fields
+├── docs/data.json                # GENERATED
+├── exports/                      # GENERATED
+├── reports/                      # GENERATED (data-quality.md) + migration-log.md
 ├── scripts/
-│   ├── generate_readme.py        # builds README.md from data/*.csv
-│   └── add_paper.py              # appends one model row, then regenerates
+│   ├── catalog.py                # shared loaders/helpers
+│   ├── check.py                  # validates data/, writes reports/data-quality.md
+│   ├── build.py                  # writes README.md, docs/data.json, exports/
+│   ├── new_entry.py              # creates one YAML entry, refuses duplicates
+│   └── legacy/migrate_csv.py     # one-off CSV → YAML migration (CSVs are in git history)
 └── .github/workflows/build-readme.yml
 ```
 
 ## Golden rules
 
-1. **`data/*.csv` is the single source of truth.** All content lives there.
-2. **Never edit the tables in `README.md` directly.** Edit the CSV, regenerate.
-3. After any change to `data/`, run `python scripts/generate_readme.py`.
-4. **Always de-duplicate before adding** (see workflow below).
-5. One model = one row = one primary category.
-6. **Never invent metadata or links.** Leave a field blank rather than guessing.
+1. **`data/` is the single source of truth.** Never edit generated files.
+2. After any change to `data/`, run `python scripts/check.py` then `python scripts/build.py`.
+3. **Always de-duplicate before adding.** `new_entry.py` checks title, DOI and
+   model name/aliases; `check.py` also reports likely duplicates.
+4. One model = one file = one primary `category`; any number of `tags`.
+5. **Never invent metadata or links.** Leave a field out rather than guess.
+6. Set `reviewed: true` only after checking the entry against the paper itself.
+7. Write `key` in your own words; never paste abstract sentences.
 
 ## Commands
 
 ```bash
-python scripts/generate_readme.py        # rebuild README.md from the CSVs
-python scripts/add_paper.py --model "X" --title "..." --year 2026 \
-  --venue "bioRxiv" --category "<one category below>" \
-  --modality "scRNA-seq" --arch "Transformer" --key "one line" \
-  --paper "https://..." --code "https://github.com/..."
+pip install pyyaml
+python scripts/check.py                 # validate; exit 1 on errors
+python scripts/build.py                 # regenerate README, data.json, exports
+python scripts/new_entry.py model --name X --title "..." --year 2026 \
+  --venue bioRxiv --category scrna --tags scrna-seq --paper https://... --code https://github.com/...
+python scripts/new_entry.py resource --type benchmark --title "..." --evaluates scgpt,geneformer
 ```
 
-## Data schemas
+## Schema
 
-`models.csv`: `model, title, year, venue, category, modality, arch, task, key, paper, code, citation`
-`resources.csv`: `title, year, type, venue, key, paper, links, citation`
-  - `type` ∈ {`Evaluation`, `Dataset`, `Tool`, `Perspective`, `Survey`, `Reference`}
-`venues.csv`: `name, type, desc, link`
+Model file fields: `id` (= file name), `kind: model`, `name`, `aliases`, `title`,
+`year` (int), `venue`, `venue_detail`, `category`, `tags`, `modality`,
+`architecture`, `task`, `key`, `links`, `model_card`, `citation`, `reviewed`,
+`review_notes`.
 
-## Model category taxonomy (use the exact string)
+Resource file fields: `id`, `kind: resource`, `type`, `title`, `aliases`, `year`,
+`venue`, `venue_detail`, `tags`, `key`, `links`, `evaluates` (model ids),
+`citation`, `reviewed`, `review_notes`.
 
-Defined in `CATEGORY_ORDER` in `scripts/generate_readme.py`; edit there to
-add/rename/reorder. Assign by the model's PRIMARY purpose, not an incidental task.
+`links` keys: `paper` (published version if any), `preprint`, `code`, `weights`,
+`project`, `dataset`, `docs`, `video`.
 
-- `scRNA-seq / Transcriptomics Foundation Models` — general transcriptome FMs.
-- `Spatial & Spatial Multi-omics` — spatial transcriptomics / niches / tissue context.
-- `Epigenomics & Chromatin Accessibility (scATAC)` — ATAC / chromatin.
-- `Multimodal & Multi-omics Integration` — joins modalities.
-- `Proteomics & Protein-level Models` — proteomics / spatial proteomics.
-- `Sequence-to-Expression & Regulatory Genomics` — DNA→expression.
-- `Gene Regulatory Networks & Graph-based Models` — GRN / graph priors.
-- `Generative Models (Diffusion / Flow / VAE)` — generative count/expression models.
-- `Cell Morphology & Imaging Models` — Cell Painting / morphology / microscopy models.
-- `LLM-based & Language-Cell Models` — LLM/text-coupled, or Hyena/Mamba sequence models.
-- `Agentic & Autonomous Cell Models` — agents / autonomous experiment & analysis systems.
-- `Cross-species & Cell Atlas / Similarity Models` — atlas / cross-species / cell search.
-- `Perturbation Prediction & Virtual Cell / World Models` — perturbation response & virtual-cell/world models.
-- `Other Single-cell Foundation Models` — fallback only.
+`model_card` keys and resource types, categories and tags are defined in
+`data/vocab.yaml`; `check.py` rejects anything else. Edit `vocab.yaml` to
+add or rename values (its category order = README section order).
+
+## Category ids (models)
+
+`scrna`, `spatial`, `epigenomics`, `multimodal`, `proteomics`, `seq2exp`, `grn`,
+`generative`, `morphology`, `llm`, `agents`, `atlas`, `perturbation`, `other`
+(fallback only). Labels and descriptions are in `vocab.yaml`. Assign by the
+model's PRIMARY purpose, not an incidental task.
+
+Non-models go to resources: benchmarks → `benchmark`; datasets/assays/atlases →
+`dataset`; software → `tool`; reviews → `survey`; comments/perspectives/theses →
+`perspective`.
 
 ## Workflow: "find new papers and add them"
 
-1. **Baseline.** Read `data/models.csv` + `data/resources.csv`; collect existing
-   `model` names and `title`s.
+1. **Baseline.** Load `data/models/` + `data/resources/` (titles, names, aliases, DOIs).
 2. **Search** for new single-cell FMs and virtual-cell / world models in the
    user's time window (default: anything not already listed). Sources: arXiv
    (q-bio.GN, cs.LG), bioRxiv, Nature Methods/Communications/Cell/Genome Biology,
-   NeurIPS/ICLR/ICML, and the reference lists this repo drew from
-   (OmicsML/awesome-foundation-model-single-cell-papers,
-   Boom5426/Awesome-Virtual-Cell).
-3. **De-duplicate** (case-insensitive on name and title). Prefer updating an
-   existing row over adding a preprint-vs-published duplicate.
-4. **Extract** model, title, year, venue, modality, architecture, a one-line
-   `key`, paper URL, code URL. Don't invent links.
-5. **Categorise** with the taxonomy above. Benchmarks → resources `Evaluation`;
-   datasets → `Dataset`; software → `Tool`; reviews → `Survey`/`Perspective`.
-6. **Add** rows (edit CSV directly for batches, or use `add_paper.py`).
-7. **Regenerate**: `python scripts/generate_readme.py`.
+   NeurIPS/ICLR/ICML, and the reference lists
+   (OmicsML/awesome-foundation-model-single-cell-papers — MIT, can import with credit;
+   Boom5426/Awesome-Virtual-Cell — no license, use for discovery only, don't copy text).
+3. **De-duplicate.** Prefer updating an existing file over adding a preprint-vs-published duplicate.
+4. **Extract** name, title, year, venue, modality, architecture, a one-line `key`,
+   paper/preprint/code links. Don't invent links.
+5. **Categorise** with the ids above; add tags from `vocab.yaml`.
+6. **Add** with `new_entry.py` (or write YAML directly for batches).
+7. **Check and build**: `python scripts/check.py && python scripts/build.py`.
 8. **Report** what you added by category; flag uncertain classifications;
    show the diff before committing.
 9. **Commit only after the user confirms.** Message style: `add: <Model> (<year>)`
    or `add: N papers (<categories>)`.
 
-## Known starter tasks (good first jobs)
+## Open work (see reports/data-quality.md)
 
-- Many recently-added rows have blank `modality`, `arch`, and `key`. Fill them in
-  from the paper links, a batch at a time, then regenerate.
-- A few entries tagged as models are really datasets/assays (e.g. "Spatial
-  Perturb-seq", "CRISPRi Map", "Perturb-FISH") — consider moving them to
-  `resources.csv` as `Dataset`.
-- A few `resources.csv` rows have a wrong `venue` because their title contains
-  the word "Cell"; fix opportunistically.
-
-## First-time GitHub setup (if not pushed yet)
-
-```bash
-git init && git add -A && git commit -m "initial: single-cell foundation models list"
-git branch -M main
-git remote add origin https://github.com/<your-username>/single-cell-foundation-models.git
-git push -u origin main
-```
+- Phase 2: verify every entry against OpenAlex/Crossref/arXiv/bioRxiv (script to run
+  in GitHub Actions — this workspace can't reach those APIs), fix venues, add
+  preprint → published links, then set `reviewed: true`.
+- Entries flagged "possibly not a model" (e.g. Spatial Perturb-seq, CRISPRi Map,
+  Perturb-FISH, Comment, Stanford PhD Thesis) — move to resources; several
+  already have a duplicate resource entry.
+- Auto-derived tags from the migration need human review.
+- Phase 3: GitHub Pages site reading `docs/data.json`.
+- Phase 4: model cards for flagship models, `evaluates` links on benchmarks,
+  weekly paper-finding workflow that opens PRs.

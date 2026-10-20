@@ -1,0 +1,13 @@
+id: reusability-report-transferability-of-self-supervised
+kind: resource
+type: benchmark
+title: 'Reusability report: transferability of self-supervised learning models from single-cell to spatial
+  transcriptomics'
+year: 2025
+venue: Nature Machine Intelligence
+tags:
+- spatial
+- scrna-seq
+links:
+  paper: https://www.nature.com/articles/s42256-025-01097-5
+reviewed: false

@@ -1,0 +1,24 @@
+id: foundation-models-improve-perturbation-response-prediction
+kind: resource
+type: reference
+title: Foundation models improve perturbation response prediction
+aliases:
+- Foundation Models Improve Perturbation Response Prediction
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- drug-response
+key: Performed a comprehensive analysis of over 600 different models for embedding-based perturbation
+  response prediction for both genetic and small molecule interventions. As we showed, while some FMs
+  fail to improve over simpler methods for this task, others provide significant gains. Interactome based
+  FMs, which are based on the underlying networks activated in the cell, performed particularly well.
+links:
+  paper: https://www.biorxiv.org/content/10.64898/2026.02.18.706454v1
+  code: https://github.com/genbio-ai/foundation-models-perturbation
+citation: 'Cole, Elijah, Geert-Jan Huizing, Sohan Addagudi, Nicholas Ho, Euxhen Hasanaj, Merel Kuijs,
+  Toby Johnstone et al. "Foundation models improve perturbation response prediction." BioRxiv (2026):
+  2026-02.'
+reviewed: false
+review_notes:
+- merged duplicate row 'Foundation Models Improve Perturbation Response Prediction' with the same title

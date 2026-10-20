@@ -1,0 +1,21 @@
+id: switch
+kind: model
+name: SWITCH
+title: Integrative deep learning of spatial multi-omics with SWITCH
+year: 2025
+venue: Nature Computational Science
+category: spatial
+tags:
+- spatial
+- multi-omics
+- generative
+modality: Spatial Multi-omics
+architecture: generative model
+task: Integrative deep learning, facilitate Various downstream analyses such differential analysis, trajectory
+  inference and gene regulatory network inference
+key: Introduce SWITCH (Spatially Weighted Multi-omics Integration and Cross-modal Translation with Cycle-mapping
+  Harmonization), a deep generative model for spatial multi-omics integration
+citation: 'Li, Zhongzhan, Sanqing Qu, Haixin Liang, Ruohui Tang, Xudong Zhang, Fan Lu, Jiani Yang et al.
+  "Integrative deep learning of spatial multi-omics with SWITCH." Nature Computational Science (2025):
+  1-13.'
+reviewed: false

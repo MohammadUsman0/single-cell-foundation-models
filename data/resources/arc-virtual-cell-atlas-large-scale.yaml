@@ -1,0 +1,10 @@
+id: arc-virtual-cell-atlas-large-scale
+kind: resource
+type: dataset
+title: 'Arc Virtual Cell Atlas: Large-scale perturbation atlas and codebase from Arc Institute [[resource](https://arcinstitute.org/tools/virtualcellatl'
+tags:
+- perturbation
+- virtual-cell
+links:
+  paper: https://arcinstitute.org/tools/virtualcellatlas
+reviewed: false

@@ -1,0 +1,22 @@
+id: scldm
+kind: model
+name: scLDM
+title: Scalable Single-Cell Gene Expression Generation with Latent Diffusion Models
+year: 2025
+venue: arXiv
+category: generative
+tags:
+- generative
+- scrna-seq
+modality: Single-Cell Gene Expression
+architecture: Diffusion Model
+task: Scalable gene expression generation
+key: introduce a scalable latent diffusion model (scLDM) for single-cell gene expression data. authors
+  shows superior performance in a variety of experiments for both observational and perturbational single-cell
+  data, as well as downstream tasks like cell-level classification.
+links:
+  paper: https://arxiv.org/abs/2511.02986
+citation: Palla, Giovanni, Sudarshan Babu, Payam Dibaeinia, James D. Pearce, Donghui Li, Aly A. Khan,
+  Theofanis Karaletsos, and Jakub M. Tomczak. "Scalable Single-Cell Gene Expression Generation with Latent
+  Diffusion Models." arXiv preprint arXiv:2511.02986 (2025).
+reviewed: false

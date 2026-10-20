@@ -1,0 +1,103 @@
+# Controlled vocabulary for the catalogue.
+# scripts/check.py rejects any category, resource type or tag not listed here.
+# To add or rename one, edit this file and run `python scripts/build.py`.
+
+# Primary category for models: exactly one per model; decides its README section.
+# Listed in README order.
+categories:
+  - id: scrna
+    label: scRNA-seq / Transcriptomics Foundation Models
+    desc: General-purpose transcriptome foundation models.
+  - id: spatial
+    label: Spatial & Spatial Multi-omics
+    desc: Spatial transcriptomics, niches and tissue context.
+  - id: epigenomics
+    label: Epigenomics & Chromatin Accessibility (scATAC)
+    desc: ATAC-seq and chromatin models.
+  - id: multimodal
+    label: Multimodal & Multi-omics Integration
+    desc: Models that jointly encode several modalities.
+  - id: proteomics
+    label: Proteomics & Protein-level Models
+    desc: Single-cell and spatial proteomics.
+  - id: seq2exp
+    label: Sequence-to-Expression & Regulatory Genomics
+    desc: Models that predict expression from DNA sequence.
+  - id: grn
+    label: Gene Regulatory Networks & Graph-based Models
+    desc: GRN inference and graph priors.
+  - id: generative
+    label: Generative Models (Diffusion / Flow / VAE)
+    desc: Generative models of counts or expression.
+  - id: morphology
+    label: Cell Morphology & Imaging Models
+    desc: Cell Painting, morphology and microscopy models.
+  - id: llm
+    label: LLM-based & Language-Cell Models
+    desc: Models coupled to LLMs or text, and long-sequence (Hyena/Mamba) models.
+  - id: agents
+    label: Agentic & Autonomous Cell Models
+    desc: Agents and autonomous analysis or experiment systems.
+  - id: atlas
+    label: Cross-species & Cell Atlas / Similarity Models
+    desc: Atlas-scale, cross-species and cell-search models.
+  - id: perturbation
+    label: Perturbation Prediction & Virtual Cell / World Models
+    desc: Perturbation response prediction and virtual-cell / world models.
+  - id: other
+    label: Other Single-cell Foundation Models
+    desc: Fallback only.
+
+# Resource types, listed in README order.
+resource_types:
+  - id: benchmark
+    label: Benchmarks & Evaluation
+  - id: dataset
+    label: Datasets & Atlases
+  - id: tool
+    label: Tools & Software
+  - id: survey
+    label: Surveys
+  - id: perspective
+    label: Perspectives & Commentary
+  - id: reference
+    label: Other References
+
+# Tags: any number per entry. Used for README badges and site filters.
+tags:
+  # modality
+  - {id: scrna-seq, label: scRNA-seq, group: modality}
+  - {id: scatac-seq, label: scATAC-seq, group: modality}
+  - {id: spatial, label: Spatial, group: modality}
+  - {id: proteomics, label: Proteomics, group: modality}
+  - {id: multi-omics, label: Multi-omics, group: modality}
+  - {id: imaging, label: Imaging, group: modality}
+  - {id: histology, label: Histology, group: modality}
+  - {id: text, label: Text, group: modality}
+  - {id: dna-sequence, label: DNA sequence, group: modality}
+  # task
+  - {id: perturbation, label: Perturbation, group: task}
+  - {id: gene-regulation, label: Gene regulation, group: task}
+  - {id: cross-species, label: Cross-species, group: task}
+  - {id: drug-response, label: Drug response, group: task}
+  - {id: virtual-cell, label: Virtual cell, group: task}
+  # approach
+  - {id: llm, label: LLM, group: approach}
+  - {id: agent, label: Agent, group: approach}
+  - {id: generative, label: Generative, group: approach}
+  - {id: graph, label: Graph, group: approach}
+  - {id: foundation-model, label: Foundation model, group: approach}
+
+# Allowed keys inside a model's `model_card` block (all optional).
+model_card_fields:
+  params: Parameter count as written by the authors, e.g. "51M" or "3B".
+  pretraining_cells: Number of cells in the pretraining corpus, e.g. "33M".
+  pretraining_data: Corpus name and version, e.g. "CELLxGENE Census 2023-05-15".
+  species: List, e.g. [human, mouse].
+  tokenization: e.g. rank, binning, value-projection, protein-embedding, text.
+  objective: e.g. masked-gene, autoregressive, contrastive, diffusion.
+  context_length: Max genes/tokens per cell.
+  weights: one of [released, on-request, api-only, not-released].
+  weights_url: Where the weights are hosted.
+  license: Licence of code/weights, e.g. MIT, Apache-2.0, CC-BY-NC-4.0.
+  package: pip/conda package name.

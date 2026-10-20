@@ -1,0 +1,13 @@
+id: clip-n
+kind: model
+name: CLIP^n
+title: Transitive Prediction of Small-Molecule Function through Alignment of High-Content Screening Resources
+year: 2025
+venue: Nature Biotechnology
+category: morphology
+tags:
+- imaging
+links:
+  paper: https://doi.org/10.1038/s41587-025-02729-2
+  code: https://github.com/AltschulerWu-Lab/CLIPn
+reviewed: false

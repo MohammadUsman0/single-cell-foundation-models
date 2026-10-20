@@ -1,0 +1,18 @@
+id: scclip
+kind: model
+name: scCLIP
+title: 'scCLIP: Multi-modal single-cell contrastive learning integration pre-training'
+year: 2023
+venue: NeurIPS
+category: scrna
+tags:
+- scrna-seq
+- multi-omics
+modality: Multi-modal Single-cell
+architecture: Contrastive Learning
+key: Integration Pre-training
+links:
+  code: https://github.com/jsxlei/scCLIP
+citation: 'Xiong, Lei, Tianlong Chen, and Manolis Kellis. "scCLIP: Multi-modal single-cell contrastive
+  learning integration pre-training." In NeurIPS 2023 AI for Science Workshop. 2023.'
+reviewed: false

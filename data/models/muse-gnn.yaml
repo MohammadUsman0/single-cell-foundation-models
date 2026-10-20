@@ -1,0 +1,17 @@
+id: muse-gnn
+kind: model
+name: MuSe-GNN
+title: 'Muse-gnn: Learning unified gene representation from multimodal biological graph data'
+year: 2023
+category: grn
+tags:
+- gene-regulation
+- multi-omics
+- graph
+modality: Multimodal Biological Graph Data
+architecture: GNN
+key: Learning unified gene representation
+citation: 'Liu, Tianyu, Yuge Wang, Rex Ying, and Hongyu Zhao. "Muse-gnn: Learning unified gene representation
+  from multimodal biological graph data." Advances in neural information processing systems 36 (2023):
+  24661-24677.'
+reviewed: false

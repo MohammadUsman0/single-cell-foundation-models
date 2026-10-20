@@ -1,0 +1,19 @@
+id: cell-graphcompass
+kind: model
+name: Cell-GraphCompass
+title: 'Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model'
+year: 2025
+venue: National Science Review
+category: grn
+tags:
+- gene-regulation
+- graph
+- scrna-seq
+modality: Single-cell Transcriptomics
+architecture: Graph Pre-training
+key: 'Batch integration, cell type annotation, gene perturbation, in silico gene knockout. Key Finding:
+  Pioneer in using graph pre-training to model genes and cells (over 50 million cells).'
+citation: 'Fang, Chen, Wentao Cui, Zhilong Hu, Wenhao Liu, Shubai Chen, Shaole Chang, Qingqing Long et
+  al. "Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model." National Science
+  Review (2025): nwaf255.'
+reviewed: false

@@ -1,0 +1,19 @@
+id: nichecompass
+kind: model
+name: nichecompass
+title: Large-scale characterization of cell niches in spatial atlases using bio-inspired graph learning
+year: 2024
+venue: bioRxiv
+category: spatial
+tags:
+- spatial
+- cross-species
+- graph
+architecture: Knowledge-Informed Cross-Species Foundation Model
+key: Deciphering universal gene regulatory mechanisms
+links:
+  code: https://github.com/Lotfollahi-lab/nichecompass
+citation: 'Birk, Sebastian, Irene Bonafonte-Pardàs, Adib Miraki Feriz, Adam Boxall, Eneritz Agirre, Fani
+  Memi, Anna Maguza et al. "Large-scale characterization of cell niches in spatial atlases using bio-inspired
+  graph learning." bioRxiv (2024): 2024-02.'
+reviewed: false

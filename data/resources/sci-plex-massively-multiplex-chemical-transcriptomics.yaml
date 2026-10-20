@@ -1,0 +1,10 @@
+id: sci-plex-massively-multiplex-chemical-transcriptomics
+kind: resource
+type: dataset
+title: 'Sci-Plex: Massively Multiplex Chemical Transcriptomics at Single-Cell Resolution'
+year: 2019
+tags:
+- scrna-seq
+links:
+  paper: https://doi.org/10.1126/science.aax6234
+reviewed: false

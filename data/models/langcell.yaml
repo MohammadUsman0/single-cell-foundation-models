@@ -1,0 +1,18 @@
+id: langcell
+kind: model
+name: LangCell
+title: 'Langcell: Language-cell pre-training for cell identity understanding'
+year: 2024
+venue: arXiv
+category: llm
+tags:
+- llm
+architecture: Language-Cell Pre-training
+task: Cell Identity Understanding
+key: introduce , the first uage- pre-training framework. LangCell utilizes texts enriched with cell identity
+  information to gain a profound comprehension of cross-modal knowledge
+links:
+  paper: https://arxiv.org/abs/2405.06708
+citation: 'Zhao, Suyuan, Jiahuan Zhang, Yushuai Wu, Yizhen Luo, and Zaiqing Nie. "Langcell: Language-cell
+  pre-training for cell identity understanding." arXiv preprint arXiv:2405.06708 (2024).'
+reviewed: false

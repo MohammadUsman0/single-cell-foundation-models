@@ -1,0 +1,17 @@
+id: genept
+kind: model
+name: GenePT
+title: Simple and effective embedding model for single-cell biology built from ChatGPT
+year: 2025
+venue: Nature Biomedical Engineering
+category: llm
+tags:
+- llm
+- text
+- scrna-seq
+modality: scRNA-seq
+architecture: LLM text embeddings
+key: Builds single-cell embeddings from ChatGPT gene/text descriptions.
+links:
+  paper: https://www.nature.com/articles/s41551-024-01284-6
+reviewed: false

@@ -1,0 +1,13 @@
+id: periscope
+kind: model
+name: PERISCOPE
+title: A genome-wide atlas of human cell morphology
+year: 2025
+venue: Nature Methods
+category: morphology
+tags:
+- imaging
+links:
+  paper: https://www.nature.com/articles/s41592-024-02537-7
+  code: https://github.com/broadinstitute/2022_PERISCOPE
+reviewed: false

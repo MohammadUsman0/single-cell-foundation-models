@@ -1,0 +1,12 @@
+id: strand
+kind: model
+name: STRAND
+title: 'STRAND: Sequence-Conditioned Transport for Single-Cell Perturbations'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+links:
+  paper: https://arxiv.org/abs/2602.10156
+reviewed: false

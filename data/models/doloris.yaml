@@ -1,0 +1,16 @@
+id: doloris
+kind: model
+name: Doloris
+title: 'Doloris: Dual Conditional Diffusion Implicit Bridges with Sparsity Masking Strategy for Unpaired
+  Single-Cell Perturbation Estimation'
+year: 2026
+venue: ICLR
+venue_detail: poster
+category: perturbation
+tags:
+- perturbation
+- generative
+links:
+  paper: https://openreview.net/forum?id=rvpDHfoTd2
+  code: https://github.com/ChangxiChi/Doloris
+reviewed: false

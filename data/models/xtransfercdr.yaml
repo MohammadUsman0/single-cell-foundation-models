@@ -1,0 +1,15 @@
+id: xtransfercdr
+kind: model
+name: XTransferCDR
+title: Learning Cross-Domain Representations for Transferable Drug Perturbations on Single-Cell Transcriptional
+  Responses
+year: 2025
+venue: AAAI
+category: perturbation
+tags:
+- perturbation
+- drug-response
+links:
+  paper: https://ojs.aaai.org/index.php/AAAI/article/view/34073
+  code: https://github.com/hliulab/XTransferCDR
+reviewed: false

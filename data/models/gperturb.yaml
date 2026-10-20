@@ -1,0 +1,13 @@
+id: gperturb
+kind: model
+name: GPerturb
+title: 'GPerturb: Gaussian process modelling of single-cell perturbation data'
+year: 2025
+venue: Nature Communications
+category: perturbation
+tags:
+- perturbation
+links:
+  paper: https://www.nature.com/articles/s41467-025-61165-7
+  code: https://github.com/hwxing3259/GPerturb
+reviewed: false

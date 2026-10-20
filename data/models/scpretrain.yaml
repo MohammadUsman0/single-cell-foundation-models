@@ -1,0 +1,14 @@
+id: scpretrain
+kind: model
+name: scPretrain
+title: 'scPretrain: multi-task self-supervised learning for cell-type classification'
+year: 2022
+venue: Bioinformatics
+category: scrna
+tags:
+- scrna-seq
+architecture: Multi-task Self-Supervised Learning
+key: Cell-type classification
+citation: 'Zhang, Ruiyi, Yunan Luo, Jianzhu Ma, Ming Zhang, and Sheng Wang. "scPretrain: multi-task self-supervised
+  learning for cell-type classification." Bioinformatics 38, no. 6 (2022): 1607-1614.'
+reviewed: false

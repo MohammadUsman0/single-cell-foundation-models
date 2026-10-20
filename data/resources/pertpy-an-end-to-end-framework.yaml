@@ -1,0 +1,10 @@
+id: pertpy-an-end-to-end-framework
+kind: resource
+type: tool
+title: 'Pertpy: an End-to-end Framework for Perturbation Analysis'
+venue: Nature Methods
+tags:
+- perturbation
+links:
+  paper: https://www.nature.com/articles/s41592-025-02909-7
+reviewed: false

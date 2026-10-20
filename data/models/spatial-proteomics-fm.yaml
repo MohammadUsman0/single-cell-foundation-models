@@ -1,0 +1,16 @@
+id: spatial-proteomics-fm
+kind: model
+name: Spatial Proteomics FM
+title: A Foundation Model for Spatial Proteomics
+year: 2025
+venue: arXiv
+category: proteomics
+tags:
+- proteomics
+- spatial
+modality: Spatial proteomics
+architecture: Foundation model
+key: A foundation model for spatial proteomics.
+links:
+  paper: https://arxiv.org/abs/2506.03373
+reviewed: false

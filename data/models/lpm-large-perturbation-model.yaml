@@ -1,0 +1,16 @@
+id: lpm-large-perturbation-model
+kind: model
+name: LPM (Large Perturbation Model)
+title: In silico biological discovery with large perturbation models
+year: 2025
+venue: Nature Computational Science
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: scRNA-seq (perturbation)
+architecture: Large perturbation model
+key: Large perturbation models for in-silico biological discovery.
+links:
+  paper: https://www.nature.com/articles/s43588-025-00870-1
+reviewed: false

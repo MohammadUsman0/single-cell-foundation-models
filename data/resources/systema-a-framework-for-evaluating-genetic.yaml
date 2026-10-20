@@ -1,0 +1,12 @@
+id: systema-a-framework-for-evaluating-genetic
+kind: resource
+type: benchmark
+title: 'Systema: a framework for evaluating genetic perturbation response prediction beyond systematic
+  variation'
+year: 2025
+venue: Nature Biotechnology
+tags:
+- perturbation
+links:
+  paper: https://www.nature.com/articles/s41587-025-02777-8
+reviewed: false

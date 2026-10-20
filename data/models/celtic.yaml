@@ -1,0 +1,13 @@
+id: celtic
+kind: model
+name: CELTIC
+title: Cell context-dependent in silico organelle localization in label-free microscopy images
+year: 2025
+venue: Nature Methods
+category: morphology
+tags:
+- imaging
+links:
+  paper: https://www.nature.com/articles/s41592-025-02960-4
+  code: https://github.com/zaritskylab/CELTIC
+reviewed: false

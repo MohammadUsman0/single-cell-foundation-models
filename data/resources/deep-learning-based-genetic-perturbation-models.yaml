@@ -1,0 +1,12 @@
+id: deep-learning-based-genetic-perturbation-models
+kind: resource
+type: benchmark
+title: Deep Learning-Based Genetic Perturbation Models Do Outperform Uninformative Baselines on Well-Calibrated
+  Metrics
+year: 2025
+venue: bioRxiv
+tags:
+- perturbation
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1
+reviewed: false

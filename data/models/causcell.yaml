@@ -1,0 +1,13 @@
+id: causcell
+kind: model
+name: CausCell
+title: Causal Disentanglement for Single-Cell Representations and Controllable Counterfactual Generation
+year: 2025
+venue: Nature Communications
+category: perturbation
+tags:
+- perturbation
+links:
+  paper: https://doi.org/10.1038/s41467-025-62008-1
+  code: https://github.com/bm2-lab/CausCell
+reviewed: false

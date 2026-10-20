@@ -1,0 +1,13 @@
+id: benchmarking-transcriptomics-foundation-models-for-perturbation
+kind: resource
+type: benchmark
+title: 'Benchmarking Transcriptomics Foundation Models for Perturbation Analysis: one PCA still rules
+  them all'
+year: 2024
+venue: arXiv
+tags:
+- perturbation
+- scrna-seq
+links:
+  paper: https://arxiv.org/abs/2410.13956
+reviewed: false

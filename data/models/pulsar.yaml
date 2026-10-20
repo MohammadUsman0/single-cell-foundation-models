@@ -1,0 +1,14 @@
+id: pulsar
+kind: model
+name: PULSAR
+title: 'PULSAR: a Foundation Model for Multi-scale and Multicellular Biology'
+year: 2025
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+modality: Multi-scale and Multicellular Biology
+citation: 'Pang, Kuan, Yanay Rosen, Kasia Kedzierska, Ziyuan He, Abhe Rajagopal, Claire E. Gustafson,
+  Grace Huynh, and Jure Leskovec. "PULSAR: a Foundation Model for Multi-scale and Multicellular Biology."
+  bioRxiv (2025): 2025-11.'
+reviewed: false

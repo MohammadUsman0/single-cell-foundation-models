@@ -1,0 +1,11 @@
+id: uce
+kind: model
+name: UCE
+title: 'Universal Cell Embeddings: A Foundation Model for Cell Biology'
+year: 2024
+venue: bioRxiv
+category: atlas
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2
+  code: https://github.com/snap-stanford/UCE
+reviewed: false

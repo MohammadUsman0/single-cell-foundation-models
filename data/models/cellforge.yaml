@@ -1,0 +1,18 @@
+id: cellforge
+kind: model
+name: CellForge
+title: 'CellForge: agentic design of virtual cell models'
+year: 2025
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- virtual-cell
+- agent
+architecture: Agentic
+links:
+  paper: https://arxiv.org/abs/2508.02276
+  code: https://github.com/gersteinlab/CellForge
+citation: 'Tang, Xiangru, Zhuoyun Yu, Jiapeng Chen, Yan Cui, Daniel Shao, Weixu Wang, Fang Wu et al. "CellForge:
+  agentic design of virtual cell models." arXiv preprint arXiv:2508.02276 (2025).'
+reviewed: false

@@ -1,0 +1,15 @@
+id: aethercell
+kind: model
+name: AetherCell
+title: 'AetherCell: A generative engine for virtual cell perturbation and in vivo drug discovery'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- drug-response
+- virtual-cell
+- generative
+citation: 'Xie, Zhi, Wenyuan Li, Yang Chen, Zhaoyi Peng, Lei Xiang, and Dong Wang. "AetherCell: A generative
+  engine for virtual cell perturbation and in vivo drug discovery." bioRxiv (2026): 2026-03.'
+reviewed: false

@@ -1,0 +1,13 @@
+id: stack
+kind: model
+name: STACK
+title: 'Stack: In-Context Learning of Single-Cell Biology'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+citation: 'Dong, Mingze, Abhinav Adduri, Dhruv Gautam, Christopher Carpenter, Rohan Shah, Chiara Ricci-Tam,
+  Yuval Kluger, Dave P. Burke, and Yusuf Husein Roohani. "Stack: In-Context Learning of Single-Cell Biology."
+  bioRxiv (2026): 2026-01.'
+reviewed: false

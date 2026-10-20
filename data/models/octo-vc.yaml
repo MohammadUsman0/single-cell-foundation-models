@@ -1,0 +1,12 @@
+id: octo-vc
+kind: model
+name: OCTO-vc
+title: 'OCTO-vc: Virtual Cells in Real Tissue'
+year: 2025
+category: perturbation
+tags:
+- perturbation
+- virtual-cell
+reviewed: false
+review_notes:
+- venue field said '© by Noetik', which is not a venue; left blank

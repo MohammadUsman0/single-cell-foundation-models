@@ -1,0 +1,12 @@
+id: bmfm-rna-an-open-framework-for
+kind: resource
+type: benchmark
+title: 'BMFM-RNA: An Open Framework for Building and Evaluating Transcriptomic Foundation Models'
+year: 2025
+venue: arXiv
+tags:
+- scrna-seq
+key: Open framework for building/evaluating transcriptomic FMs.
+links:
+  paper: https://arxiv.org/abs/2506.14861
+reviewed: false

@@ -1,0 +1,11 @@
+id: tahoe-100m-tahoe-100m-a-giga
+kind: resource
+type: dataset
+title: 'Tahoe-100M: Tahoe-100M: A Giga-Scale Single-Cell Perturbation Atlas for Context-Dependent Gene
+  Function and Cellular Modeling'
+year: 2025
+tags:
+- perturbation
+links:
+  paper: https://www.biorxiv.org/content/10.1101/2025.02.20.639398v1
+reviewed: false
