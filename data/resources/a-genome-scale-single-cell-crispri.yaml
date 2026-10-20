@@ -1,0 +1,13 @@
+id: a-genome-scale-single-cell-crispri
+kind: resource
+type: dataset
+title: A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent stem cell
+  lines
+year: 2026
+venue: Cell Genomics
+tags:
+- perturbation
+- gene-regulation
+links:
+  paper: https://doi.org/10.1016/j.xgen.2025.101076
+reviewed: false

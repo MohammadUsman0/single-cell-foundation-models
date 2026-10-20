@@ -4,9 +4,8 @@ name: SubCell
 title: 'SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology'
 year: 2025
 venue: bioRxiv
-category: scrna
+category: morphology
 tags:
-- scrna-seq
 - proteomics
 - imaging
 links:

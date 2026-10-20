@@ -1,15 +1,12 @@
-id: cell-maps
-kind: model
-name: Cell Maps
+id: multimodal-cell-maps-as-a-foundation
+kind: resource
+type: dataset
 title: Multimodal cell maps as a foundation for structural and functional genomics
 year: 2025
 venue: Nature
-category: perturbation
 tags:
 - perturbation
 - multi-omics
 links:
   paper: https://doi.org/10.1038/s41586-025-08878-3
 reviewed: false
-review_notes:
-- 'possibly not a model: may be a dataset / resource rather than a model'

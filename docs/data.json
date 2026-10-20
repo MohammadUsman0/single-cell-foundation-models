@@ -2,8 +2,8 @@
  "generated": "2026-10-20",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
-  "models": 182,
-  "resources": 120,
+  "models": 175,
+  "resources": 123,
   "venues": 19
  },
  "vocab": {
@@ -465,21 +465,6 @@
    "github": "Gartner-Lab/Concord"
   },
   {
-   "id": "crispri-map",
-   "kind": "model",
-   "name": "CRISPRi Map",
-   "title": "A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent stem cell lines",
-   "year": 2026,
-   "venue": "Cell Genomics",
-   "category": "perturbation",
-   "tags": [
-    "perturbation",
-    "gene-regulation"
-   ],
-   "reviewed": false,
-   "status": "published"
-  },
-  {
    "id": "departures",
    "kind": "model",
    "name": "Departures",
@@ -742,7 +727,7 @@
    "title": "Generative machine learning unlocks the first proteome-wide image of human cells",
    "year": 2026,
    "venue": "bioRxiv",
-   "category": "perturbation",
+   "category": "morphology",
    "tags": [
     "perturbation",
     "proteomics",
@@ -902,26 +887,6 @@
    "citation": "Bai, Ding, Shentong Mo, Ruiyi Zhang, Yingtao Luo, Jiahao Gao, Jeremy Parker Yang, Qiuyang Wu et al. \"scLong: A billion-parameter foundation model for capturing long-range gene context in single-cell transcriptomics.\" bioRxiv (2024): 2024-11.",
    "reviewed": false,
    "status": "published"
-  },
-  {
-   "id": "spatial-perturb-seq",
-   "kind": "model",
-   "name": "Spatial Perturb-seq",
-   "title": "Spatial perturb-seq: single-cell functional genomics within intact tissue architecture",
-   "year": 2026,
-   "venue": "Nature Communications",
-   "category": "spatial",
-   "tags": [
-    "spatial",
-    "perturbation"
-   ],
-   "links": {
-    "paper": "https://www.nature.com/articles/s41467-026-69677-6",
-    "code": "https://github.com/kimberle9/spatialperturbseq"
-   },
-   "reviewed": false,
-   "status": "published",
-   "github": "kimberle9/spatialperturbseq"
   },
   {
    "id": "spemo",
@@ -1313,24 +1278,6 @@
    "github": "bm2-lab/CausCell"
   },
   {
-   "id": "cell-maps",
-   "kind": "model",
-   "name": "Cell Maps",
-   "title": "Multimodal cell maps as a foundation for structural and functional genomics",
-   "year": 2025,
-   "venue": "Nature",
-   "category": "perturbation",
-   "tags": [
-    "perturbation",
-    "multi-omics"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1038/s41586-025-08878-3"
-   },
-   "reviewed": false,
-   "status": "published"
-  },
-  {
    "id": "cell-graphcompass",
    "kind": "model",
    "name": "Cell-GraphCompass",
@@ -1652,25 +1599,6 @@
    "reviewed": false,
    "status": "published",
    "github": "AltschulerWu-Lab/CLIPn"
-  },
-  {
-   "id": "comment",
-   "kind": "model",
-   "name": "Comment",
-   "title": "Virtual Cells for Predictive Immunotherapy",
-   "year": 2025,
-   "venue": "Nature Biotechnology",
-   "venue_detail": "Comment",
-   "category": "perturbation",
-   "tags": [
-    "perturbation",
-    "virtual-cell"
-   ],
-   "links": {
-    "paper": "https://www.nature.com/articles/s41587-025-02583-2"
-   },
-   "reviewed": false,
-   "status": "published"
   },
   {
    "id": "cradle-vae",
@@ -2206,25 +2134,6 @@
    "reviewed": false,
    "status": "published",
    "github": "broadinstitute/2022_PERISCOPE"
-  },
-  {
-   "id": "perturb-fish",
-   "kind": "model",
-   "name": "Perturb-FISH",
-   "title": "Simultaneous CRISPR screening and spatial transcriptomics reveal intracellular, intercellular, and functional transcriptional circuits",
-   "year": 2025,
-   "venue": "Cell",
-   "category": "spatial",
-   "tags": [
-    "spatial",
-    "perturbation",
-    "scrna-seq"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1016/j.cell.2025.02.012"
-   },
-   "reviewed": false,
-   "status": "published"
   },
   {
    "id": "phenoprofiler",
@@ -2836,9 +2745,8 @@
    "title": "SubCell: Proteome-aware vision foundation models for microscopy capture single-cell biology",
    "year": 2025,
    "venue": "bioRxiv",
-   "category": "scrna",
+   "category": "morphology",
    "tags": [
-    "scrna-seq",
     "proteomics",
     "imaging"
    ],
@@ -2933,26 +2841,6 @@
    },
    "reviewed": false,
    "status": "published"
-  },
-  {
-   "id": "theory",
-   "kind": "model",
-   "name": "Theory",
-   "title": "Human Interpretable Grammar Encodes Multicellular Systems Biology Models to Democratize Virtual Cell Laboratories",
-   "year": 2025,
-   "venue": "Cell",
-   "category": "perturbation",
-   "tags": [
-    "perturbation",
-    "virtual-cell"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1016/j.cell.2025.06.048",
-    "code": "https://github.com/physicell-models/grammar_samples"
-   },
-   "reviewed": false,
-   "status": "published",
-   "github": "physicell-models/grammar_samples"
   },
   {
    "id": "tissuenarrator",
@@ -3559,22 +3447,6 @@
    "github": "theislab/scTab"
   },
   {
-   "id": "stanford-phd-thesis",
-   "kind": "model",
-   "name": "Stanford PhD Thesis",
-   "title": "Engineering Cells Using Artificial Intelligence",
-   "year": 2024,
-   "category": "perturbation",
-   "tags": [
-    "perturbation"
-   ],
-   "links": {
-    "paper": "https://stacks.stanford.edu/file/jw766pz3938/PhD_Thesis_Roohani_Yusuf_2024-augmented.pdf"
-   },
-   "reviewed": false,
-   "status": "unknown"
-  },
-  {
    "id": "stformer-a-framework-for",
    "kind": "model",
    "name": "stFormer A framework for gene representation",
@@ -4019,6 +3891,23 @@
  ],
  "resources": [
   {
+   "id": "a-genome-scale-single-cell-crispri",
+   "kind": "resource",
+   "title": "A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent stem cell lines",
+   "year": 2026,
+   "venue": "Cell Genomics",
+   "type": "dataset",
+   "tags": [
+    "perturbation",
+    "gene-regulation"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1016/j.xgen.2025.101076"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "a-systematic-comparison-of-single-cell",
    "kind": "resource",
    "title": "A Systematic Comparison of Single-Cell Perturbation Response Prediction Models",
@@ -4236,22 +4125,6 @@
    "status": "published"
   },
   {
-   "id": "proticelli-proteome-wide-image-generation-resources",
-   "kind": "resource",
-   "title": "ProtiCelli: Proteome-wide image generation resources for human cell protein localization",
-   "year": 2026,
-   "type": "dataset",
-   "tags": [
-    "proteomics",
-    "imaging"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.64898/2026.03.31.715748"
-   },
-   "reviewed": false,
-   "status": "unknown"
-  },
-  {
    "id": "scclubench-comprehensive-benchmarking-of-clustering-algorithms",
    "kind": "resource",
    "title": "scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing",
@@ -4288,18 +4161,24 @@
   {
    "id": "spatial-perturb-seq-spatial-perturb-seq",
    "kind": "resource",
-   "title": "Spatial Perturb-seq: Spatial perturb-seq data for functional genomics within intact tissue architecture",
+   "aliases": [
+    "Spatial Perturb-seq"
+   ],
+   "title": "Spatial perturb-seq: single-cell functional genomics within intact tissue architecture",
    "year": 2026,
+   "venue": "Nature Communications",
    "type": "dataset",
    "tags": [
     "spatial",
     "perturbation"
    ],
    "links": {
-    "paper": "https://www.nature.com/articles/s41467-026-69677-6"
+    "paper": "https://www.nature.com/articles/s41467-026-69677-6",
+    "code": "https://github.com/kimberle9/spatialperturbseq"
    },
    "reviewed": false,
-   "status": "unknown"
+   "status": "published",
+   "github": "kimberle9/spatialperturbseq"
   },
   {
    "id": "towards-autonomous-mechanistic-reasoning-in-virtual",
@@ -4778,6 +4657,25 @@
    "status": "preprint"
   },
   {
+   "id": "human-interpretable-grammar-encodes-multicellular-systems",
+   "kind": "resource",
+   "title": "Human Interpretable Grammar Encodes Multicellular Systems Biology Models to Democratize Virtual Cell Laboratories",
+   "year": 2025,
+   "venue": "Cell",
+   "type": "tool",
+   "tags": [
+    "perturbation",
+    "virtual-cell"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2025.06.048",
+    "code": "https://github.com/physicell-models/grammar_samples"
+   },
+   "reviewed": false,
+   "status": "published",
+   "github": "physicell-models/grammar_samples"
+  },
+  {
    "id": "large-language-models-meet-virtual-cell",
    "kind": "resource",
    "title": "Large Language Models Meet Virtual Cell: A Survey",
@@ -4808,6 +4706,23 @@
    "links": {
     "paper": "https://doi.org/10.1038/s41587-025-02702-z",
     "preprint": "https://www.biorxiv.org/content/10.1101/2024.04.02.587824v1"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
+   "id": "multimodal-cell-maps-as-a-foundation",
+   "kind": "resource",
+   "title": "Multimodal cell maps as a foundation for structural and functional genomics",
+   "year": 2025,
+   "venue": "Nature",
+   "type": "dataset",
+   "tags": [
+    "perturbation",
+    "multi-omics"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1038/s41586-025-08878-3"
    },
    "reviewed": false,
    "status": "published"
@@ -4875,24 +4790,6 @@
    },
    "reviewed": false,
    "status": "published"
-  },
-  {
-   "id": "perturb-fish-crispr-screening-with-imaging",
-   "kind": "resource",
-   "title": "Perturb-FISH: CRISPR screening with imaging-based spatial transcriptomics",
-   "year": 2025,
-   "type": "dataset",
-   "tags": [
-    "spatial",
-    "imaging",
-    "perturbation",
-    "scrna-seq"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1016/j.cell.2025.02.012"
-   },
-   "reviewed": false,
-   "status": "unknown"
   },
   {
    "id": "perturbench-benchmarking-machine-learning-models-for",
@@ -4993,6 +4890,28 @@
    "status": "published"
   },
   {
+   "id": "perturb-fish-crispr-screening-with-imaging",
+   "kind": "resource",
+   "aliases": [
+    "Perturb-FISH"
+   ],
+   "title": "Simultaneous CRISPR screening and spatial transcriptomics reveal intracellular, intercellular, and functional transcriptional circuits",
+   "year": 2025,
+   "venue": "Cell",
+   "type": "dataset",
+   "tags": [
+    "spatial",
+    "imaging",
+    "perturbation",
+    "scrna-seq"
+   ],
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2025.02.012"
+   },
+   "reviewed": false,
+   "status": "published"
+  },
+  {
    "id": "single-cell-foundation-models-evaluation-scfme",
    "kind": "resource",
    "title": "Single Cell Foundation Models Evaluation (scFME) for In-Silico Perturbation",
@@ -5053,22 +4972,6 @@
    },
    "reviewed": false,
    "status": "published"
-  },
-  {
-   "id": "subcell-proteome-aware-microscopy-foundation-model",
-   "kind": "resource",
-   "title": "SubCell: Proteome-aware microscopy foundation model resources based on HPA images",
-   "year": 2025,
-   "type": "dataset",
-   "tags": [
-    "proteomics",
-    "imaging"
-   ],
-   "links": {
-    "paper": "https://doi.org/10.1101/2024.12.06.627299"
-   },
-   "reviewed": false,
-   "status": "unknown"
   },
   {
    "id": "systema-a-framework-for-evaluating-genetic",
@@ -5214,6 +5117,24 @@
    ],
    "key": "ICLR 2026 openreview paper Withdrawal by authors after comments",
    "citation": "Callahan, Tiffany, Zane Beckwith, Thomas Merth, Constantijn van der Poel, Adam Lewis, and Pablo Lemos. \"Virtual Cells as Causal World Models: A Perspective on Evaluation.\" In NeurIPS 2025 Workshop on AI Virtual Cells and Instruments: A New Era in Drug Discovery and Development.",
+   "reviewed": false,
+   "status": "published"
+  },
+  {
+   "id": "virtual-cells-for-predictive-immunotherapy",
+   "kind": "resource",
+   "title": "Virtual Cells for Predictive Immunotherapy",
+   "year": 2025,
+   "venue": "Nature Biotechnology",
+   "venue_detail": "Comment",
+   "type": "perspective",
+   "tags": [
+    "perturbation",
+    "virtual-cell"
+   ],
+   "links": {
+    "paper": "https://www.nature.com/articles/s41587-025-02583-2"
+   },
    "reviewed": false,
    "status": "published"
   },
@@ -5372,6 +5293,22 @@
    },
    "reviewed": false,
    "status": "published"
+  },
+  {
+   "id": "engineering-cells-using-artificial-intelligence",
+   "kind": "resource",
+   "title": "Engineering Cells Using Artificial Intelligence",
+   "year": 2024,
+   "venue_detail": "PhD thesis, Stanford University",
+   "type": "perspective",
+   "tags": [
+    "perturbation"
+   ],
+   "links": {
+    "paper": "https://stacks.stanford.edu/file/jw766pz3938/PhD_Thesis_Roohani_Yusuf_2024-augmented.pdf"
+   },
+   "reviewed": false,
+   "status": "unknown"
   },
   {
    "id": "harnessing-the-deep-learning-power-of",

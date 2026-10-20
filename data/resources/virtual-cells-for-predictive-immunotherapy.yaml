@@ -1,16 +1,13 @@
-id: comment
-kind: model
-name: Comment
+id: virtual-cells-for-predictive-immunotherapy
+kind: resource
+type: perspective
 title: Virtual Cells for Predictive Immunotherapy
 year: 2025
 venue: Nature Biotechnology
 venue_detail: Comment
-category: perturbation
 tags:
 - perturbation
 - virtual-cell
 links:
   paper: https://www.nature.com/articles/s41587-025-02583-2
 reviewed: false
-review_notes:
-- 'possibly not a model: a Nature Biotechnology comment, not a model; the name field is a placeholder'
