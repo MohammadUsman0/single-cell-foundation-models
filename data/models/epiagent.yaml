@@ -23,6 +23,7 @@ links:
   paper: https://doi.org/10.1038/s41592-025-02822-z
   code: https://github.com/xy-chen16/EpiAgent
 model_card:
+  params: 1.45B, mostly the cCRE embedding table (counted from released weights)
   pretraining_data: Human-scATAC-Corpus
   tokenization: TF-IDF-ranked cCREs as cell sentences
   weights: released

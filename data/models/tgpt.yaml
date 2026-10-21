@@ -22,6 +22,7 @@ links:
   paper: https://doi.org/10.1016/j.isci.2023.106536
   code: https://github.com/deeplearningplus/tGPT
 model_card:
+  params: 123.5M (counted from released weights)
   pretraining_cells: 22.3M
   tokenization: gene ranking (top-expressed genes)
   objective: autoregressive

@@ -22,6 +22,7 @@ links:
   paper: https://doi.org/10.1101/2025.02.05.636714
   code: https://github.com/bowang-lab/scGPT-spatial
 model_card:
+  params: 55.0M (counted from released weights)
   pretraining_cells: 30M cells/spots
   pretraining_data: SpatialHuman30M (Visium, Visium HD, Xenium, MERFISH)
   weights: released

@@ -25,6 +25,7 @@ links:
   preprint: https://www.biorxiv.org/content/10.1101/2023.09.11.557287v1
   code: https://github.com/vandijklab/cell2sentence
 model_card:
+  params: 405M, C2S-Pythia-410m checkpoint (counted from released weights)
   pretraining_cells: 57M (2024 models)
   pretraining_data: CELLxGENE and Human Cell Atlas
   species:

@@ -203,7 +203,7 @@
    }
   ],
   "model_card_fields": {
-   "params": "Parameter count as written by the authors, e.g. \"51M\" or \"3B\".",
+   "params": "Parameter count as written by the authors, e.g. \"51M\" or \"3B\"; or counted from the released weights, marked \"(counted from released weights)\".",
    "pretraining_cells": "Number of cells in the pretraining corpus, e.g. \"33M\".",
    "pretraining_data": "Corpus name and version, e.g. \"CELLxGENE Census 2023-05-15\".",
    "species": "List, e.g. [human, mouse].",
@@ -1730,6 +1730,7 @@
     "code": "https://github.com/ArcInstitute/state"
    },
    "model_card": {
+    "params": "715M, SE-600M checkpoint (counted from released weights)",
     "pretraining_cells": "167M (State Embedding model)",
     "weights": "released",
     "license": "Code: CC BY-NC-SA 4.0; weights: Arc Research Institute State Model Non-Commercial License"
@@ -1754,7 +1755,8 @@
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1016/j.cell.2026.07.052",
-    "https://github.com/ArcInstitute/state"
+    "https://github.com/ArcInstitute/state",
+    "https://huggingface.co/arcinstitute/SE-600M"
    ],
    "review_basis": "repo",
    "status": "published",
@@ -2956,6 +2958,7 @@
     "code": "https://github.com/JohnsonKlose/ChromFound"
    },
    "model_card": {
+    "params": "0.48M (counted from released weights)",
     "pretraining_cells": "1.97M (30 tissues)",
     "weights": "released",
     "weights_url": "https://huggingface.co/YifengJiao/ChromFound",
@@ -3177,6 +3180,7 @@
     "code": "https://github.com/xy-chen16/EpiAgent"
    },
    "model_card": {
+    "params": "1.45B, mostly the cCRE embedding table (counted from released weights)",
     "pretraining_data": "Human-scATAC-Corpus",
     "tokenization": "TF-IDF-ranked cCREs as cell sentences",
     "weights": "released",
@@ -3837,6 +3841,7 @@
     "code": "https://github.com/MICS-Lab/novae"
    },
    "model_card": {
+    "params": "32.0M (counted from released weights)",
     "pretraining_cells": "~30M (18 tissues)",
     "weights": "released",
     "weights_url": "https://huggingface.co/prism-oncology/novae-human-0",
@@ -4283,6 +4288,7 @@
     "code": "https://github.com/bowang-lab/scGPT-spatial"
    },
    "model_card": {
+    "params": "55.0M (counted from released weights)",
     "pretraining_cells": "30M cells/spots",
     "pretraining_data": "SpatialHuman30M (Visium, Visium HD, Xenium, MERFISH)",
     "weights": "released",
@@ -5421,6 +5427,7 @@
     "code": "https://github.com/vandijklab/cell2sentence"
    },
    "model_card": {
+    "params": "405M, C2S-Pythia-410m checkpoint (counted from released weights)",
     "pretraining_cells": "57M (2024 models)",
     "pretraining_data": "CELLxGENE and Human Cell Atlas",
     "species": [
@@ -5592,6 +5599,7 @@
     "code": "https://github.com/PharMolix/LangCell"
    },
    "model_card": {
+    "params": "172.8M: cell encoder 39.3M + text encoder 133.1M (counted from released weights)",
     "pretraining_cells": "27.5M",
     "pretraining_data": "scLibrary",
     "weights": "released",
@@ -5958,6 +5966,7 @@
     "code": "https://github.com/bowang-lab/scGPT"
    },
    "model_card": {
+    "params": "51.3M, whole-human checkpoint (counted from released weights)",
     "pretraining_cells": "33M",
     "species": [
      "human"
@@ -6722,6 +6731,7 @@
     "code": "https://github.com/deeplearningplus/tGPT"
    },
    "model_card": {
+    "params": "123.5M (counted from released weights)",
     "pretraining_cells": "22.3M",
     "tokenization": "gene ranking (top-expressed genes)",
     "objective": "autoregressive",

@@ -90,7 +90,7 @@ tags:
 
 # Allowed keys inside a model's `model_card` block (all optional).
 model_card_fields:
-  params: Parameter count as written by the authors, e.g. "51M" or "3B".
+  params: Parameter count as written by the authors, e.g. "51M" or "3B"; or counted from the released weights, marked "(counted from released weights)".
   pretraining_cells: Number of cells in the pretraining corpus, e.g. "33M".
   pretraining_data: Corpus name and version, e.g. "CELLxGENE Census 2023-05-15".
   species: List, e.g. [human, mouse].
