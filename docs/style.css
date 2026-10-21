@@ -282,3 +282,4 @@ dl.facts dd { margin: 0; overflow-wrap: anywhere; }
 .viz-tip b { font-weight: 600; }
 ul.rel li { margin-bottom: 8px; }
 .finding { color: var(--muted); font-size: 13.5px; margin-top: 2px; }
+.chart .dot { stroke: var(--surface); stroke-width: 2; }
