@@ -631,6 +631,53 @@
     el.innerHTML = `<svg width="${W}" height="${H}" role="img">${g}</svg>`;
   }
 
+  // "650M (33 layers)", "V1: 10M; V2: 104M, 316M", "110M (57M + 53M)" -> numbers. Names like "SE-600M" are
+  // skipped; after a "+" only the first number (the total) counts.
+  const sizes = (s) => {
+    s = String(s || "");
+    if (s.includes("+")) s = s.split(/[:(]/)[0];
+    return [...s.matchAll(/(?<![\w.-])(\d+(?:\.\d+)?)\s*([KMB])\b/g)]
+      .map(([, n, u]) => Number(n) * { K: 1e3, M: 1e6, B: 1e9 }[u]);
+  };
+  const fmtN = (v) => (v >= 1e9 ? `${+(v / 1e9).toFixed(2)}B` : v >= 1e6 ? `${+(v / 1e6).toFixed(1)}M` : `${+(v / 1e3).toFixed(0)}K`);
+
+  function logScatter(el, { points, xLabel, yLabel }) {   // points: {x, y, y0, label, color, href, tip}
+    const W = Math.max(el.clientWidth, 640), H = 420, m = { l: 56, r: 16, t: 14, b: 44 };
+    const decs = (vals) => [Math.floor(Math.log10(Math.min(...vals))), Math.ceil(Math.log10(Math.max(...vals)))];
+    const [x0, x1] = decs(points.map((p) => p.x)), [y0, y1] = decs(points.flatMap((p) => [p.y, p.y0]));
+    const X = (v) => m.l + ((Math.log10(v) - x0) / (x1 - x0 || 1)) * (W - m.l - m.r);
+    const Y = (v) => m.t + (1 - (Math.log10(v) - y0) / (y1 - y0 || 1)) * (H - m.t - m.b);
+    let g = "";
+    for (let k = x0; k <= x1; k++) g += `<line class="${k === x0 ? "baseline" : "gridline"}" x1="${X(10 ** k)}" x2="${X(10 ** k)}" y1="${m.t}" y2="${H - m.b}"/>
+      <text class="tick" x="${X(10 ** k)}" y="${H - m.b + 16}" text-anchor="middle">${fmtN(10 ** k)}</text>`;
+    for (let k = y0; k <= y1; k++) g += `<line class="${k === y0 ? "baseline" : "gridline"}" x1="${m.l}" x2="${W - m.r}" y1="${Y(10 ** k)}" y2="${Y(10 ** k)}"/>
+      <text class="tick" x="${m.l - 6}" y="${Y(10 ** k) + 4}" text-anchor="end">${fmtN(10 ** k)}</text>`;
+    g += `<text x="${(m.l + W - m.r) / 2}" y="${H - 6}" text-anchor="middle">${esc(xLabel)}</text>
+      <text transform="rotate(-90)" x="${-(m.t + H - m.b) / 2}" y="14" text-anchor="middle">${esc(yLabel)}</text>`;
+    // Labels: first spot around the dot that clears other labels and dots (right, left, then above/below).
+    const placed = [], dots = points.map((p) => [X(p.x), Y(p.y)]);
+    const clear = (b) => b.x0 >= 0 && b.x1 <= W && !placed.some((o) => b.x0 < o.x1 && b.x1 > o.x0 && b.y0 < o.y1 && b.y1 > o.y0)
+      && !dots.some(([dx, dy]) => dx > b.x0 - 4 && dx < b.x1 + 4 && dy > b.y0 - 4 && dy < b.y1 + 4);
+    const spot = (cx, cy, text) => {
+      const w = text.length * 6.4 + 2;
+      for (const [dx, dy, anchor] of [[9, 4, "start"], [-9, 4, "end"], [8, -9, "start"], [8, 17, "start"],
+        [-8, -9, "end"], [-8, 17, "end"], [8, -21, "start"], [8, 29, "start"]]) {
+        const x0 = anchor === "start" ? cx + dx : cx + dx - w, b = { x0, x1: x0 + w, y0: cy + dy - 10, y1: cy + dy + 2 };
+        if (clear(b)) { placed.push(b); return [cx + dx, cy + dy, anchor]; }
+      }
+      return [cx + 9, cy + 4, "start"];
+    };
+    for (const p of points) {
+      const cx = X(p.x), cy = Y(p.y), [lx, ly, anchor] = spot(cx, cy, p.label);
+      g += hit(p.href, p.tip, `${p.y0 < p.y ? `<line x1="${cx}" x2="${cx}" y1="${Y(p.y0)}" y2="${cy}" style="stroke:${p.color};stroke-width:2;opacity:.5"/>
+          <circle cx="${cx}" cy="${Y(p.y0)}" r="3" style="fill:${p.color};opacity:.6"/>` : ""}
+        <circle cx="${cx}" cy="${cy}" r="5.5" class="dot" style="fill:${p.color}"/>
+        <circle cx="${cx}" cy="${cy}" r="12" fill="transparent"/>
+        <text x="${lx}" y="${ly}" text-anchor="${anchor}" style="font-size:11.5px">${esc(p.label)}</text>`);
+    }
+    el.innerHTML = `<svg width="${W}" height="${H}" role="img">${g}</svg>`;
+  }
+
   function presenceGrid(el, { rows, cols, has, href, tip, colHref, colTip }) {   // rows/cols: [[id, label]]
     const cell = 26, labelW = 280, headH = 104;
     const W = labelW + cols.length * cell + 70, H = headH + rows.length * cell + 4;
@@ -689,7 +736,14 @@
     const noStatus = ms.filter((m) => m.status !== "published" && m.status !== "preprint").length;
     const ioMax = Math.max(...ins.flatMap(([a]) => outs.map(([b]) => io(a, b))));
     const pgMax = Math.max(...pts.flatMap(([a]) => gens.map(([b]) => pg(a, b))));
-    // 5. which models the benchmarks test
+    // 5. model size against pretraining data
+    const famOf = (m) => fam.find((f) => f.cats.includes(m.category)) || fam[fam.length - 1];
+    const sized = ms.map((m) => {
+      const c = m.model_card || {}, p = sizes(c.params), n = sizes(c.pretraining_cells);
+      return p.length && n.length ? { m, c, x: Math.max(...n), y: Math.max(...p), y0: Math.min(...p) } : null;
+    }).filter(Boolean).sort((a, b) => a.x - b.x);
+    const counted = sized.filter((s) => /counted from released weights/.test(s.c.params)).length;
+    // 6. which models the benchmarks test
     const short = (r) => (r.aliases || [])[0] || (r.title.length > 32 ? r.title.slice(0, 30).trim() + "…" : r.title);
     const benches = DATA.resources.filter((r) => asList(r.evaluates).length)
       .sort((a, b) => (b.year || 0) - (a.year || 0) || asList(b.evaluates).length - asList(a.evaluates).length);
@@ -734,6 +788,12 @@
             ${seriesLegend(pub)}<div class="chart" id="c-pub"></div>
             ${chartTable(["Year", "Published", "Preprint"], years.map((y, i) => [yLabel(y), pub[0].values[i], pub[1].values[i]]))}</section>
         </div>
+        ${sized.length > 4 ? `<section class="chart-card"><h2>Model size and pretraining data</h2>
+          <p class="sub">Parameters against pretraining cells, both on log scales, for the ${sized.length} models whose
+            authors state both numbers or whose released weights we counted (${counted} counted). Where a model comes in
+            several sizes, the line runs from the smallest to the largest.</p>
+          ${seriesLegend(fam.filter((f) => sized.some((s) => famOf(s.m) === f)))}<div class="chart" id="c-size"></div>
+          ${chartTable(["Model", "Parameters", "Pretraining cells"], sized.map((s) => [label(s.m), s.c.params, s.c.pretraining_cells]))}</section>` : ""}
         ${benches.length ? `<section class="chart-card"><h2>Which models get benchmarked</h2>
           <p class="sub">${benches.length} benchmarks (rows, newest first) and the ${tested.length} catalogued models they test
             (columns, most tested first). ${esc(label(tested[0]))} appears in ${testedIn(tested[0].id).length} of them, while
@@ -763,6 +823,10 @@
       stackedColumns($("#c-pub"), { cats: years.map(yLabel), series: pub,
         href: (i, s) => `#/models?st=${s.status}&y0=${years[i]}&y1=${years[i]}`,
         tip: (i, s) => `<b>${s.name}</b><br>${yLabel(years[i])}: ${s.values[i]} models` });
+      if ($("#c-size")) logScatter($("#c-size"), { xLabel: "Pretraining cells", yLabel: "Parameters",
+        points: sized.map((s) => ({ x: s.x, y: s.y, y0: s.y0, label: label(s.m), color: famOf(s.m).color,
+          href: `#/model/${encodeURIComponent(s.m.id)}`,
+          tip: `<b>${esc(label(s.m))}</b><br>Parameters: ${esc(s.c.params)}<br>Pretraining cells: ${esc(s.c.pretraining_cells)}` })) });
       if ($("#c-bench")) presenceGrid($("#c-bench"), {
         rows: benches.map((r) => [r.id, `${short(r)} (${r.year})`]), cols: tested.map((m) => [m.id, label(m)]),
         has: (r, m) => asList(byId[r].evaluates).includes(m), href: (r) => `#/resource/${encodeURIComponent(r)}`,
