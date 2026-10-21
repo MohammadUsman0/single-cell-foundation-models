@@ -23,6 +23,7 @@ links:
   preprint: https://doi.org/10.1101/2024.09.09.612009
   code: https://github.com/MICS-Lab/novae
 model_card:
+  params: 32.0M (counted from released weights)
   pretraining_cells: ~30M (18 tissues)
   weights: released
   weights_url: https://huggingface.co/prism-oncology/novae-human-0

@@ -23,6 +23,7 @@ links:
   preprint: https://arxiv.org/abs/2505.12638
   code: https://github.com/JohnsonKlose/ChromFound
 model_card:
+  params: 0.48M (counted from released weights)
   pretraining_cells: 1.97M (30 tissues)
   weights: released
   weights_url: https://huggingface.co/YifengJiao/ChromFound

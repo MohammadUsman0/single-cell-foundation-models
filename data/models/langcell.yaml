@@ -20,6 +20,7 @@ links:
   paper: https://arxiv.org/abs/2405.06708
   code: https://github.com/PharMolix/LangCell
 model_card:
+  params: '172.8M: cell encoder 39.3M + text encoder 133.1M (counted from released weights)'
   pretraining_cells: 27.5M
   pretraining_data: scLibrary
   weights: released

@@ -23,6 +23,7 @@ links:
   preprint: https://doi.org/10.1101/2023.04.30.538439
   code: https://github.com/bowang-lab/scGPT
 model_card:
+  params: 51.3M, whole-human checkpoint (counted from released weights)
   pretraining_cells: 33M
   species:
   - human

@@ -22,6 +22,7 @@ links:
   paper: https://doi.org/10.1016/j.cell.2026.07.052
   code: https://github.com/ArcInstitute/state
 model_card:
+  params: 715M, SE-600M checkpoint (counted from released weights)
   pretraining_cells: 167M (State Embedding model)
   weights: released
   license: 'Code: CC BY-NC-SA 4.0; weights: Arc Research Institute State Model Non-Commercial License'
@@ -32,5 +33,6 @@ added: '2026-06-02'
 sources:
 - https://doi.org/10.1016/j.cell.2026.07.052
 - https://github.com/ArcInstitute/state
+- https://huggingface.co/arcinstitute/SE-600M
 review_basis: repo
 reviewed: false
