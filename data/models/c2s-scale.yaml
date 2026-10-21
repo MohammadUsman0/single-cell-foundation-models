@@ -23,7 +23,8 @@ links:
   paper: https://www.biorxiv.org/content/10.1101/2025.04.14.648850v1
   code: https://github.com/vandijklab/cell2sentence
 model_card:
-  params: up to 27B
+  params: 410M to 27B
+  pretraining_cells: '>50M'
   pretraining_data: 1B+ tokens of transcriptomic data, biological text and metadata
   weights: released
   weights_url: https://huggingface.co/vandijklab/C2S-Scale-Pythia-1b-pt

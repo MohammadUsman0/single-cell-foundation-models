@@ -23,11 +23,13 @@ key: Contrastive transformer pre-trained on 30M+ cells that learns cell embeddin
 links:
   paper: https://doi.org/10.1101/2025.10.14.682419
   code: https://github.com/theislab/scConcept
+model_card:
+  pretraining_cells: '>30M'
 citation: 'Bahrami, Mojtaba, Alejandro Tejada-Lapuerta, Sören Becker, Fatemeh S. Hashemi G, and Fabian
   J. Theis. "scConcept: Contrastive pretraining for technology-agnostic single-cell representations beyond
   reconstruction." bioRxiv (2025): 2025-10.'
 added: '2026-06-02'
 sources:
 - https://doi.org/10.1101/2025.10.14.682419
-review_basis: abstract
+review_basis: paper
 reviewed: false

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20",
+ "generated": "2026-10-21",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
   "models": 170,
@@ -2072,6 +2072,7 @@
     "code": "https://github.com/snap-stanford/UCE"
    },
    "model_card": {
+    "params": "650M (33 layers)",
     "pretraining_cells": "36M",
     "license": "MIT"
    },
@@ -2359,7 +2360,8 @@
     "code": "https://github.com/vandijklab/cell2sentence"
    },
    "model_card": {
-    "params": "up to 27B",
+    "params": "410M to 27B",
+    "pretraining_cells": ">50M",
     "pretraining_data": "1B+ tokens of transcriptomic data, biological text and metadata",
     "weights": "released",
     "weights_url": "https://huggingface.co/vandijklab/C2S-Scale-Pythia-1b-pt",
@@ -3783,6 +3785,7 @@
     "code": "https://github.com/theislab/nicheformer"
    },
    "model_card": {
+    "params": "49.3M",
     "pretraining_cells": "110M (57M dissociated + 53M spatial)",
     "pretraining_data": "SpatialCorpus-110M",
     "species": [
@@ -4238,6 +4241,9 @@
     "paper": "https://doi.org/10.1101/2025.10.14.682419",
     "code": "https://github.com/theislab/scConcept"
    },
+   "model_card": {
+    "pretraining_cells": ">30M"
+   },
    "citation": "Bahrami, Mojtaba, Alejandro Tejada-Lapuerta, Sören Becker, Fatemeh S. Hashemi G, and Fabian J. Theis. \"scConcept: Contrastive pretraining for technology-agnostic single-cell representations beyond reconstruction.\" bioRxiv (2025): 2025-10.",
    "reviewed": false,
    "inputs": [
@@ -4252,7 +4258,7 @@
    "sources": [
     "https://doi.org/10.1101/2025.10.14.682419"
    ],
-   "review_basis": "abstract",
+   "review_basis": "paper",
    "status": "preprint",
    "github": "theislab/scConcept"
   },
@@ -4569,6 +4575,7 @@
     "code": "https://github.com/cantinilab/scPRINT"
    },
    "model_card": {
+    "params": "2M to 100M (several sizes)",
     "pretraining_cells": "50M",
     "pretraining_data": "CELLxGENE",
     "weights": "released",
@@ -5585,6 +5592,7 @@
     "code": "https://github.com/PharMolix/LangCell"
    },
    "model_card": {
+    "pretraining_cells": "27.5M",
     "pretraining_data": "scLibrary",
     "weights": "released",
     "weights_url": "https://drive.google.com/drive/folders/1cuhVG9v0YoAnjW-t_WMpQQguajumCBTp",
@@ -5818,6 +5826,9 @@
     "paper": "https://doi.org/10.52202/079017-0204",
     "code": "https://github.com/DeepGraphLearning/scCello"
    },
+   "model_card": {
+    "pretraining_cells": "22M"
+   },
    "citation": "Yuan, Xinyu, Zhihao Zhan, Zuobai Zhang, Manqi Zhou, Jianan Zhao, Boyu Han, Yue Li, and Jian Tang. \"Cell ontology guided transcriptome foundation model.\" Advances in Neural Information Processing Systems 37 (2024): 6323-6366.",
    "reviewed": false,
    "inputs": [
@@ -5830,9 +5841,10 @@
    ],
    "added": "2026-06-02",
    "sources": [
-    "https://doi.org/10.52202/079017-0204"
+    "https://doi.org/10.52202/079017-0204",
+    "https://arxiv.org/abs/2408.12373"
    ],
-   "review_basis": "abstract",
+   "review_basis": "paper",
    "status": "published",
    "github": "DeepGraphLearning/scCello"
   },
@@ -6331,6 +6343,10 @@
    "links": {
     "paper": "https://arxiv.org/abs/2306.04371"
    },
+   "model_card": {
+    "params": ">50M",
+    "pretraining_cells": "2M"
+   },
    "citation": "Zhao, Suyuan, Jiahuan Zhang, and Zaiqing Nie. \"Large-scale cell representation learning via divide-and-conquer contrastive learning.\" arXiv preprint arXiv:2306.04371 (2023).",
    "reviewed": false,
    "inputs": [
@@ -6344,7 +6360,7 @@
    "sources": [
     "https://arxiv.org/abs/2306.04371"
    ],
-   "review_basis": "abstract",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {

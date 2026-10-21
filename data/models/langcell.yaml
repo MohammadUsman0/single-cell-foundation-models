@@ -20,6 +20,7 @@ links:
   paper: https://arxiv.org/abs/2405.06708
   code: https://github.com/PharMolix/LangCell
 model_card:
+  pretraining_cells: 27.5M
   pretraining_data: scLibrary
   weights: released
   weights_url: https://drive.google.com/drive/folders/1cuhVG9v0YoAnjW-t_WMpQQguajumCBTp

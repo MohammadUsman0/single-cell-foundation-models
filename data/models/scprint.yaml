@@ -19,6 +19,7 @@ links:
   paper: https://doi.org/10.1038/s41467-025-58699-1
   code: https://github.com/cantinilab/scPRINT
 model_card:
+  params: 2M to 100M (several sizes)
   pretraining_cells: 50M
   pretraining_data: CELLxGENE
   weights: released

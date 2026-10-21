@@ -18,10 +18,13 @@ key: 50M-parameter cell language model trained on 2M normal and cancer cells, us
   contrastive learning to allow large batches.
 links:
   paper: https://arxiv.org/abs/2306.04371
+model_card:
+  params: '>50M'
+  pretraining_cells: 2M
 citation: Zhao, Suyuan, Jiahuan Zhang, and Zaiqing Nie. "Large-scale cell representation learning via
   divide-and-conquer contrastive learning." arXiv preprint arXiv:2306.04371 (2023).
 added: '2026-06-02'
 sources:
 - https://arxiv.org/abs/2306.04371
-review_basis: abstract
+review_basis: paper
 reviewed: false
