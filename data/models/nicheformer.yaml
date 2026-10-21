@@ -19,6 +19,7 @@ links:
   preprint: https://doi.org/10.1101/2024.04.15.589472
   code: https://github.com/theislab/nicheformer
 model_card:
+  params: 49.3M
   pretraining_cells: 110M (57M dissociated + 53M spatial)
   pretraining_data: SpatialCorpus-110M
   species:

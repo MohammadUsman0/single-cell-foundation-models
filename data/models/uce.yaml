@@ -17,6 +17,7 @@ links:
   preprint: https://www.biorxiv.org/content/10.1101/2023.11.28.568918v2
   code: https://github.com/snap-stanford/UCE
 model_card:
+  params: 650M (33 layers)
   pretraining_cells: 36M
   license: MIT
 citation: 'Rosen, Yanay, Yusuf Roohani, Ayush Agrawal, Leon Samotorčan, Tabula Sapiens Consortium, Stephen
