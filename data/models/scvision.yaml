@@ -1,0 +1,32 @@
+id: scvision
+kind: model
+name: scVision
+title: A vision foundation model for single-cell biology via spatial gene cartography
+year: 2026
+venue: arXiv
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+modality: scRNA-seq rendered as images
+architecture: Vision transformer (masked image modelling)
+inputs:
+- expression
+outputs:
+- cell-embedding
+- cell-type-label
+architecture_family: transformer-encoder
+key: Renders each cell as an image on a shared gene layout and pretrains a vision transformer on it.
+links:
+  preprint: https://arxiv.org/abs/2607.14163
+code_status: none-found
+model_card:
+  pretraining_cells: 72M
+citation: Yesiloglu, Ridvan, Sakib Mostafa, James Zou, Ash Alizadeh, Jiajun Wu, Lei Xing, Ehsan Adeli
+  et al. "A vision foundation model for single-cell biology via spatial gene cartography." arXiv preprint
+  arXiv:2607.14163 (2026).
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2607.14163
+review_basis: abstract
+reviewed: false

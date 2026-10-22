@@ -1,0 +1,31 @@
+id: scdynomics
+kind: model
+name: scDynOmics
+title: 'scDynOmics: An Optimized Transformer Model for Representation Learning from Single-Cell Multiomics'
+year: 2026
+venue: bioRxiv
+category: multimodal
+tags:
+- multi-omics
+- foundation-model
+modality: scRNA-seq + scATAC-seq
+architecture: Linformer-style transformer
+inputs:
+- expression
+- chromatin-accessibility
+outputs:
+- cell-embedding
+architecture_family: transformer-encoder
+key: Pretrainable multi-omics transformer with efficient attention for genome-wide paired RNA and ATAC
+  inputs.
+links:
+  preprint: https://doi.org/10.64898/2026.02.28.708160
+  code: https://github.com/KlughammerLab/scDynOmics
+citation: 'Yu, Gang, Timothy J.S. Ramnarine, Johanna Klughammer, and Simon W. Mages. "scDynOmics: An Optimized
+  Transformer Model for Representation Learning from Single-Cell Multiomics." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.02.28.708160
+- https://github.com/KlughammerLab/scDynOmics
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,37 @@
+id: eva-immunology
+kind: model
+name: EVA
+aliases:
+- 'EVA: Towards a universal model of the immune system'
+title: 'EVA: a Foundation Model Advancing Translational Drug Development in Immuno-Inflammation'
+year: 2025
+venue: bioRxiv
+category: multimodal
+tags:
+- foundation-model
+- cross-species
+- histology
+- drug-response
+modality: Transcriptomics (single-cell and bulk) + histology
+architecture: Multimodal patient-level foundation model
+inputs:
+- expression
+- histology-image
+outputs:
+- disease-state
+- cell-embedding
+key: Cross-species multimodal foundation model for immunology and inflammation, built for drug-development
+  tasks.
+links:
+  preprint: https://doi.org/10.1101/2025.05.02.651839
+  paper: https://arxiv.org/abs/2602.10168
+code_status: none-found
+citation: 'Fouché, Aziz, Apolline Bruley, Matthew Corney, Pierre Marschall, Vincent Bouget, and Julien
+  Duquesne. "EVA: a Foundation Model Advancing Translational Drug Development in Immuno-Inflammation."
+  bioRxiv (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1101/2025.05.02.651839
+- https://arxiv.org/abs/2602.10168
+review_basis: abstract
+reviewed: false

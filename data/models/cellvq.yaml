@@ -1,0 +1,35 @@
+id: cellvq
+kind: model
+name: CellVQ
+title: Illuminating cell states by a comprehensive and interpretable single cell foundation model
+year: 2026
+venue: Nature Communications
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+- interpretability
+modality: scRNA-seq
+architecture: Transformer with single-cell discretization (vector quantisation)
+inputs:
+- expression
+outputs:
+- cell-embedding
+- cell-type-label
+key: Foundation model that turns cells into discrete 'cell codes' for interpretability, with a plug-in
+  graph tool for multimodal analysis.
+links:
+  paper: https://doi.org/10.1038/s41467-026-70071-5
+  code: https://github.com/A4Bio/CellVQ
+model_card:
+  pretraining_cells: 68M
+  params: 500M
+citation: Wang, Jue, Cheng Tan, Zhangyang Gao, Sida Shao, Shiping Liu, and Stan. Z. Li. "Illuminating
+  cell states by a comprehensive and interpretable single cell foundation model." Nature Communications
+  17, no. 1 (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1038/s41467-026-70071-5
+- https://github.com/A4Bio/CellVQ
+review_basis: abstract
+reviewed: false

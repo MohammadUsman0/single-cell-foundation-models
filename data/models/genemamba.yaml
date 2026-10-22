@@ -2,8 +2,8 @@ id: genemamba
 kind: model
 name: GeneMamba
 title: 'GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data'
-year: 2025
-venue: arXiv
+year: 2026
+venue: IJCAI
 category: llm
 tags:
 - llm
@@ -17,12 +17,16 @@ outputs:
 architecture_family: state-space
 key: Efficient long-context single-cell modeling with bidirectional Mamba.
 links:
-  paper: https://arxiv.org/abs/2504.16956
+  paper: https://doi.org/10.1109/ijcnn69854.2026.11728763
+  preprint: https://arxiv.org/abs/2504.16956
   code: https://github.com/MineSelf2016/GeneMamba
+  weights: https://huggingface.co/mineself2016/GeneMamba
 citation: 'Qi, Cong, Hanzhang Fang, Siqi Jiang, Xun Song, Tianxing Hu, and Wei Zhi. "GeneMamba: An Efficient
   and Effective Foundation Model on Single Cell Data." arXiv preprint arXiv:2504.16956 (2025).'
 added: '2026-06-02'
 sources:
+- https://doi.org/10.1109/ijcnn69854.2026.11728763
 - https://arxiv.org/abs/2504.16956
+- https://github.com/MineSelf2016/GeneMamba
 review_basis: abstract
 reviewed: false

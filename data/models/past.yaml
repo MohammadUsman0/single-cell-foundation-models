@@ -1,0 +1,35 @@
+id: past
+kind: model
+name: PAST
+title: 'PAST: A multimodal single-cell foundation model for histopathology and spatial transcriptomics
+  in cancer'
+year: 2025
+venue: arXiv
+category: multimodal
+tags:
+- histology
+- spatial
+- foundation-model
+modality: Histopathology + single-cell transcriptomics (cancer)
+architecture: Multimodal image-expression foundation model
+inputs:
+- histology-image
+- expression
+outputs:
+- expression-prediction
+- cell-embedding
+key: Pan-cancer model jointly encoding cell morphology and expression to predict single-cell expression
+  and virtual staining from routine slides.
+links:
+  preprint: https://arxiv.org/abs/2507.06418
+code_status: none-found
+model_card:
+  pretraining_cells: 20M paired image-transcriptome cells
+citation: 'Yang, Changchun, Haoyang Li, Yushuai Wu, Yilan Zhang, Yifeng Jiao, Yu Zhang, Rihan Huang et
+  al. "PAST: A multimodal single-cell foundation model for histopathology and spatial transcriptomics
+  in cancer." arXiv preprint arXiv:2507.06418 (2025).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2507.06418
+review_basis: abstract
+reviewed: false

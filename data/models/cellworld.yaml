@@ -1,0 +1,35 @@
+id: cellworld
+kind: model
+name: CellWorld
+title: 'CellWorld: From Gene-Level Reconstruction to Latent Cell Prediction in Spatial Transcriptomics
+  Foundation Models'
+year: 2026
+venue: arXiv
+category: spatial
+tags:
+- spatial
+- foundation-model
+modality: Spatial transcriptomics
+architecture: Latent cell prediction from spatial context
+inputs:
+- expression
+- spatial-coordinates
+outputs:
+- cell-embedding
+key: Predicts latent representations of masked cells from their spatial context rather than reconstructing
+  genes.
+links:
+  preprint: https://arxiv.org/abs/2608.06659
+  code: https://github.com/UoM-HealthAI/CellWorld
+model_card:
+  pretraining_cells: 46M
+  params: 5.74M to 94.56M
+citation: 'Liu, Haiping, Qian Zhao, Lijing Lin, Jingyuan Sun, and Hongpeng Zhou. "CellWorld: From Gene-Level
+  Reconstruction to Latent Cell Prediction in Spatial Transcriptomics Foundation Models." arXiv preprint
+  arXiv:2608.06659 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2608.06659
+- https://github.com/UoM-HealthAI/CellWorld
+review_basis: abstract
+reviewed: false

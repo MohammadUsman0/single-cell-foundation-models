@@ -1,0 +1,36 @@
+id: holocell
+kind: model
+name: HoloCell
+title: 'HoloCell: A Generative Foundation Model for Holistic Cellular Modeling'
+year: 2026
+venue: bioRxiv
+category: multimodal
+tags:
+- multi-omics
+- generative
+- foundation-model
+- proteomics
+modality: Single-cell epigenomics, transcriptomics, proteomics
+architecture: Generative multi-omics foundation model
+inputs:
+- chromatin-accessibility
+- expression
+- protein-abundance
+outputs:
+- cell-embedding
+- generated-cells
+key: Generative foundation model across chromatin accessibility, RNA and protein that tolerates missing
+  modalities.
+links:
+  preprint: https://doi.org/10.64898/2026.06.07.730684
+  code: https://github.com/bjzgcai/HoloCell
+model_card:
+  params: '>860M'
+citation: 'Jiang, Qun, Zhen Li, Bowen Hu, Yunlong Bie, Keyi Li, Qiuyi Li, Peiran Jin et al. "HoloCell:
+  A Generative Foundation Model for Holistic Cellular Modeling." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.06.07.730684
+- https://github.com/bjzgcai/HoloCell
+review_basis: abstract
+reviewed: false

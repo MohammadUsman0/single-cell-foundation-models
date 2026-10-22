@@ -1,0 +1,29 @@
+id: scmir
+kind: model
+name: scMIR
+title: 'scMIR: a vision-language foundation model for single-cell light microscopy image representation'
+year: 2026
+venue: arXiv
+category: morphology
+tags:
+- imaging
+- text
+- foundation-model
+modality: Single-cell light microscopy
+architecture: Vision-language foundation model
+inputs:
+- cell-image
+- text
+outputs:
+- cell-embedding
+key: Vision-language foundation model for single-cell microscopy images that uses experimental context.
+links:
+  preprint: https://arxiv.org/abs/2607.22712
+code_status: none-found
+citation: 'Shang, Yifan, Jiahui Tan, Xiangxiang Zeng, and Renjie Zhou. "scMIR: a vision-language foundation
+  model for single-cell light microscopy image representation." arXiv preprint arXiv:2607.22712 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2607.22712
+review_basis: abstract
+reviewed: false

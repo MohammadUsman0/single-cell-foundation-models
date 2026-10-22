@@ -1,0 +1,31 @@
+id: spatium
+kind: model
+name: Spatium
+title: 'Spatium: A Protein Language Foundation Model for Spatial Proteomics'
+year: 2026
+venue: bioRxiv
+category: proteomics
+tags:
+- proteomics
+- spatial
+- foundation-model
+modality: Spatial proteomics
+architecture: Protein language foundation model
+inputs:
+- protein-abundance
+outputs:
+- cell-embedding
+key: Protein-language foundation model for spatial proteomics that copes with varying antibody panels.
+links:
+  preprint: https://doi.org/10.64898/2026.07.23.740264
+  code: https://github.com/ploughhh/Spatium
+model_card:
+  pretraining_cells: '>51M'
+citation: 'Wang, Tiangang, Sijia Wu, Liyu Huang, Jiajia Liu, Kexin Huang, and Xiaobo Zhou. "Spatium: A
+  Protein Language Foundation Model for Spatial Proteomics." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.07.23.740264
+- https://github.com/ploughhh/Spatium
+review_basis: abstract
+reviewed: false

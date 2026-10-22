@@ -1,0 +1,28 @@
+id: hicfoundation
+kind: model
+name: HiCFoundation
+title: A generalizable Hi-C foundation model for chromatin architecture, single-cell and multiomics analysis
+  across species
+year: 2026
+venue: Nature Methods
+category: epigenomics
+tags:
+- foundation-model
+- multi-omics
+- cross-species
+modality: Hi-C (bulk and single-cell)
+architecture: Foundation model on Hi-C contact maps
+key: Foundation model trained on large-scale Hi-C data that links 3D chromatin structure to regulatory
+  function across species.
+links:
+  paper: https://doi.org/10.1038/s41592-026-03097-8
+  code: https://github.com/Noble-Lab/HiCFoundation
+citation: 'Wang, Xiao, Yuanyuan Zhang, Suhita Ray, Anupama Jha, Tangqi Fang, Shengqi Hang, Sergei Doulatov
+  et al. "A generalizable Hi-C foundation model for chromatin architecture, single-cell and multiomics
+  analysis across species." Nature Methods 23, no. 7 (2026): 1334-1348.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1038/s41592-026-03097-8
+- https://github.com/Noble-Lab/HiCFoundation
+review_basis: abstract
+reviewed: false

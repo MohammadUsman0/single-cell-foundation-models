@@ -1,0 +1,31 @@
+id: biomod
+kind: model
+name: BioMod
+title: 'BioMod: Biological Module Tokenization for Single-Cell Foundation Modeling'
+year: 2026
+venue: bioRxiv
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+modality: scRNA-seq
+architecture: Transformer over biological-module tokens
+inputs:
+- expression
+- prior-network
+outputs:
+- cell-embedding
+key: Represents cells with 660 pathway and gene-program modules instead of individual genes.
+links:
+  preprint: https://doi.org/10.64898/2026.10.12.758490
+code_status: none-found
+model_card:
+  pretraining_cells: ~73M
+  params: 50M
+citation: 'Meng, Lingbei, Jianqing Zhu, Bowen Han, Yupeng Zang, Wenlin Li, Kewei Zong, Jian Zhong et al.
+  "BioMod: Biological Module Tokenization for Single-Cell Foundation Modeling." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.10.12.758490
+review_basis: abstract
+reviewed: false

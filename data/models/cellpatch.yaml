@@ -1,0 +1,31 @@
+id: cellpatch
+kind: model
+name: CellPatch
+title: 'CellPatch: A Flexible and Efficient Framework for Single-Cell Foundation Model Empowered by Heuristic
+  Gene Patching'
+year: 2025
+venue: Research Square
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+modality: scRNA-seq
+architecture: Cross-attention with gene patch tokens
+inputs:
+- expression
+outputs:
+- cell-embedding
+- cell-type-label
+key: Lightweight foundation model that groups genes into patches to cut pretraining and fine-tuning cost.
+links:
+  preprint: https://doi.org/10.21203/rs.3.rs-7138411/v1
+  code: https://github.com/HanwenZhu98/CellPatch
+citation: 'Zhu, Hanwen, Yushun Yuan, Jiyuan Yang, Kangwen Cai, Nana Wei, Senxin Zhang, Lu Wang et al.
+  "CellPatch: A Flexible and Efficient Framework for Single-Cell Foundation Model Empowered by Heuristic
+  Gene Patching." Research Square (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.21203/rs.3.rs-7138411/v1
+- https://github.com/HanwenZhu98/CellPatch
+review_basis: abstract
+reviewed: false

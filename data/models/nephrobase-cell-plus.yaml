@@ -1,0 +1,36 @@
+id: nephrobase-cell-plus
+kind: model
+name: Nephrobase Cell+
+title: 'Nephrobase Cell+: Multimodal Single-Cell Foundation Model for Decoding Kidney Biology'
+year: 2025
+venue: bioRxiv
+category: multimodal
+tags:
+- multi-omics
+- spatial
+- foundation-model
+- cross-species
+modality: scRNA-seq, snRNA-seq, snATAC-seq, spatial (kidney)
+architecture: Transformer foundation model
+inputs:
+- expression
+- chromatin-accessibility
+- spatial-coordinates
+outputs:
+- cell-embedding
+- cell-type-label
+key: Kidney-focused multimodal foundation model trained on single-cell, single-nucleus, ATAC and spatial
+  profiles from four species.
+links:
+  preprint: https://doi.org/10.1101/2025.09.30.679471
+code_status: none-found
+model_card:
+  pretraining_cells: ~39.5M (four mammalian species)
+citation: 'Li, Chenyu, Elias Ziyadeh, Yash Sharma, Bernhard Dumoulin, Jonathan Levinsohn, Eunji Ha, Siyu
+  Pan et al. "Nephrobase Cell+: Multimodal Single-Cell Foundation Model for Decoding Kidney Biology."
+  bioRxiv (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1101/2025.09.30.679471
+review_basis: abstract
+reviewed: false

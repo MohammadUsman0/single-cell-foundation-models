@@ -1,0 +1,32 @@
+id: spatialfusion
+kind: model
+name: SpatialFusion
+title: 'SpatialFusion: A lightweight multimodal foundation model for pathway-informed spatial niche mapping'
+year: 2026
+venue: bioRxiv
+category: spatial
+tags:
+- spatial
+- histology
+- foundation-model
+modality: Spatial transcriptomics + histology
+architecture: Lightweight multimodal foundation model
+inputs:
+- histology-image
+- expression
+outputs:
+- spatial-domain
+key: Lightweight multimodal model that fuses histology, expression and inferred pathway activity to map
+  spatial niches.
+links:
+  preprint: https://doi.org/10.64898/2026.03.16.712056
+  code: https://github.com/uhlerlab/spatialfusion
+citation: 'Yates, Josephine, Mitra Shavakhi, Toni K. Choueiri, Eliezer M. Van Allen, and Caroline Uhler.
+  "SpatialFusion: A lightweight multimodal foundation model for pathway-informed spatial niche mapping."
+  bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.03.16.712056
+- https://github.com/uhlerlab/spatialfusion
+review_basis: abstract
+reviewed: false
