@@ -1,16 +1,23 @@
 id: sparse-autoencoders-reveal-organized-biological-knowledge
 kind: resource
-type: reference
+type: interpretability
 title: 'Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell
   foundation models: a comparative atlas of Geneformer and scGPT'
 year: 2026
 venue: arXiv
 tags:
+- interpretability
 - gene-regulation
 key: Trains TopK sparse autoencoders on Geneformer V2 and scGPT activations and releases interactive atlases
   of 107,000+ interpretable features; finds organized biological knowledge but minimal regulatory logic.
 links:
   paper: https://arxiv.org/abs/2603.02952
+evaluates:
+- geneformer
+- scgpt
+findings: The models encode organized pathway and module knowledge but almost no causal regulatory logic.
+interp_method:
+- sparse-autoencoder
 citation: 'Kendiukhov, Ihor. "Sparse autoencoders reveal organized biological knowledge but minimal regulatory
   logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT." arXiv preprint
   arXiv:2603.02952 (2026).'

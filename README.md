@@ -11,7 +11,7 @@
 
 For each model, the catalogue aims to record what it is, whether you can use it (code, weights, license) and what benchmarks found about it. Titles, years, venues and links are verified against Crossref, OpenAlex, arXiv and bioRxiv with [`scripts/verify.py`](scripts/verify.py).
 
-**186 models** (154 with code) · **126 resources** · **19 venues** · updated 2026-10-22
+**186 models** (154 with code) · **137 resources** · **19 venues** · updated 2026-10-22
 
 Each entry: **name** · title (**venue year**) · tags · links. Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).
 
@@ -38,12 +38,13 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 **Resources**
 
-- [Benchmarks & Evaluation](#benchmarks--evaluation) (44)
+- [Benchmarks & Evaluation](#benchmarks--evaluation) (42)
+- [Interpretability & Mechanistic Analysis](#interpretability--mechanistic-analysis) (15)
 - [Datasets & Atlases](#datasets--atlases) (39)
 - [Tools & Software](#tools--software) (7)
 - [Surveys](#surveys) (9)
 - [Perspectives & Commentary](#perspectives--commentary) (18)
-- [Other References](#other-references) (9)
+- [Other References](#other-references) (7)
 - [Where to Publish & Track New Work](#where-to-publish--track-new-work)
 - [Related Lists](#related-lists)
 
@@ -336,16 +337,32 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - Reusability report: transferability of self-supervised learning models from single-cell to spatial transcriptomics (**Nature Machine Intelligence 2025**) · `Spatial` `scRNA-seq` · [[paper](https://www.nature.com/articles/s42256-025-01097-5)]
 - scDrugMap: benchmarking large foundation models for drug response prediction (**Nature Communications 2025**) · `Perturbation` `Drug response` · [[paper](https://www.nature.com/articles/s41467-025-67481-2)]
 - Single Cell Foundation Models Evaluation (scFME) for In-Silico Perturbation (**bioRxiv 2025**) · `Perturbation` · [[paper](https://www.biorxiv.org/content/10.1101/2025.09.22.677811v1)]
-- Sparse Autoencoders Reveal Interpretable Features in Single-Cell Foundation Models (**bioRxiv 2025**) · `scRNA-seq` `Foundation model` · [[paper](https://www.biorxiv.org/content/10.1101/2025.10.22.681631v1)]
 - Systema: a framework for evaluating genetic perturbation response prediction beyond systematic variation (**Nature Biotechnology 2025**) · `Perturbation` · [[paper](https://www.nature.com/articles/s41587-025-02777-8)]
 - Virtual Cell Challenge: Toward a Turing test for the virtual cell (**Cell 2025**) · `Virtual cell` · [[paper](https://doi.org/10.1016/j.cell.2025.06.008)]
-- What do single-cell models already know about perturbations? (**Genes 2025**) · `Perturbation` `Generative` `scRNA-seq` · [[paper](https://doi.org/10.3390/genes16121439)] [[code](https://github.com/yhsure/perturbations)] ![stars](https://img.shields.io/github/stars/yhsure/perturbations?style=flat-square&label=%E2%98%85)
 - Zero-shot evaluation reveals limitations of single-cell foundation models (**Genome Biology 2025**) · `scRNA-seq` `Foundation model` · [[paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x)]
 - Benchmarking AI Models for in Silico Gene Perturbation of Cells (**bioRxiv 2024**) · `Perturbation` · [[paper](https://doi.org/10.1101/2024.12.20.629581)]
 - Benchmarking Transcriptomics Foundation Models for Perturbation Analysis: one PCA still rules them all (**arXiv 2024**) · `Perturbation` `scRNA-seq` · [[paper](https://arxiv.org/abs/2410.13956)]
 - Delineating the effective use of self-supervised learning in single-cell genomics (**Nature Machine Intelligence 2024**) · `scRNA-seq` · [[paper](https://www.nature.com/articles/s42256-024-00934-3)]
 - A Deep Dive into Single-Cell RNA Sequencing Foundation Models (**bioRxiv 2023**) · `scRNA-seq` · [[paper](https://www.biorxiv.org/content/10.1101/2023.10.19.563100v1)]
 - Foundation Models Meet Imbalanced Single-Cell Data When Learning Cell Type Annotations (**bioRxiv 2023**) · `scRNA-seq` `Foundation model` · [[paper](https://www.biorxiv.org/content/10.1101/2023.10.24.563625v1)]
+
+## Interpretability & Mechanistic Analysis
+
+- Causal circuit tracing reveals distinct computational architectures in single-cell foundation models: inhibitory dominance, biological coherence, and cross-model convergence (**Bioinformatics 2026**) · `Interpretability` `Foundation model` `Gene regulation` `scRNA-seq` · [[paper](https://doi.org/10.1093/bioinformatics/btag379)] [[code](https://github.com/Biodyn-AI/bio-sae-circuits)] ![stars](https://img.shields.io/github/stars/Biodyn-AI/bio-sae-circuits?style=flat-square&label=%E2%98%85)
+- CLAMP: Steady-State ODE Inference of Gene Regulatory Networks from Single-Cell Perturbations (**ICML 2026**, Workshop on Generative and Agentic AI for Biology) · `Interpretability` `Foundation model` `Gene regulation` `Perturbation` · [[paper](https://openreview.net/forum?id=C0DTxoMuYO)] [[code](https://github.com/AmayaGS/CLAMP-Perturbseq)] [[dataset](https://huggingface.co/datasets/AmayaGS/clamp-perturbseq)] ![stars](https://img.shields.io/github/stars/AmayaGS/CLAMP-Perturbseq?style=flat-square&label=%E2%98%85)
+- Do Geometric Outliers Identify Important Genes in Single-Cell Foundation Models? (**bioRxiv 2026**) · `Interpretability` `Foundation model` `scRNA-seq`
+- Exhaustive Circuit Mapping of a Single-Cell Foundation Model Reveals Massive Redundancy, Heavy-Tailed Hub Architecture, and Layer-Dependent Differentiation Control (**arXiv 2026**) · `Interpretability` `Foundation model` `scRNA-seq`
+- Scoring gene importance by interpreting single-cell foundation models (**Nature Biotechnology 2026**) · `Interpretability` `Foundation model` `scRNA-seq` · [[paper](https://doi.org/10.1038/s41587-026-03112-5)] [[code](https://github.com/Genentech/SIGnature)] ![stars](https://img.shields.io/github/stars/Genentech/SIGnature?style=flat-square&label=%E2%98%85)
+- Sparse autoencoders reveal interpretable cell-type programs in single-cell foundation model representations (**Journal of Biomedical Informatics 2026**) · `Interpretability` `Foundation model` `scRNA-seq` · [[paper](https://doi.org/10.1016/j.jbi.2026.105056)]
+- Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT (**arXiv 2026**) · `Interpretability` `Gene regulation` · [[paper](https://arxiv.org/abs/2603.02952)]
+- Spectral universality in single-cell foundation models: a low-dimensional shared core carries the biology (**Research Square 2026**) · `Interpretability` `Foundation model` `scRNA-seq`
+- Systematic evaluation of single-cell foundation model interpretability: attention-derived edge scores add no incremental value over gene-level features for perturbation-target prediction (**BMC Genomics 2026**) · `Interpretability` `Foundation model` `Gene regulation` `scRNA-seq` · [[paper](https://doi.org/10.1186/s12864-026-12965-8)]
+- Virtual-cell models compress unseen intervention geometry through a target-specific generalization bottleneck (**bioRxiv 2026**) · `Interpretability` `Perturbation` `Virtual cell`
+- What topological and geometric structure do biological foundation models learn? Evidence from 141 hypotheses (**PLOS One 2026**) · `Interpretability` `Foundation model` `scRNA-seq` · [[paper](https://doi.org/10.1371/journal.pone.0344826)] [[code](https://github.com/Biodyn-AI/hypotheses)] ![stars](https://img.shields.io/github/stars/Biodyn-AI/hypotheses?style=flat-square&label=%E2%98%85)
+- Sparse Autoencoders Reveal Interpretable Features in Single-Cell Foundation Models (**bioRxiv 2025**) · `Interpretability` `scRNA-seq` `Foundation model` · [[paper](https://www.biorxiv.org/content/10.1101/2025.10.22.681631v1)]
+- Toward a Coherent Virtual Cell Model: Probing Biological World-Model Coherence in Transcriptomic Foundation Models (**NeurIPS 2025**, AI4D3 Workshop) · `Interpretability` `Foundation model` `Virtual cell` `scRNA-seq` · [[paper](https://ai4d3.github.io/2025/papers/26_Toward_a_Coherent_Virtual_C.pdf)]
+- Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models (**arXiv 2025**) · `Interpretability` `scRNA-seq` `Foundation model` · [[paper](https://arxiv.org/abs/2509.14723)]
+- What do single-cell models already know about perturbations? (**Genes 2025**) · `Interpretability` `Perturbation` `Generative` `scRNA-seq` · [[paper](https://doi.org/10.3390/genes16121439)] [[code](https://github.com/yhsure/perturbations)] ![stars](https://img.shields.io/github/stars/yhsure/perturbations?style=flat-square&label=%E2%98%85)
 
 ## Datasets & Atlases
 
@@ -436,12 +453,10 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 - Artificial intelligence-enabled multi-scale virtual cell: perspective, challenges, and opportunities (**Briefings in Bioinformatics 2026**) · `Virtual cell` · [[paper](https://doi.org/10.1093/bib/bbag104)]
 - Foundation models improve perturbation response prediction (**bioRxiv 2026**) · `Perturbation` `Drug response` · [[paper](https://www.biorxiv.org/content/10.64898/2026.02.18.706454v1)] [[code](https://github.com/genbio-ai/foundation-models-perturbation)] ![stars](https://img.shields.io/github/stars/genbio-ai/foundation-models-perturbation?style=flat-square&label=%E2%98%85)
-- Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT (**arXiv 2026**) · `Gene regulation` · [[paper](https://arxiv.org/abs/2603.02952)]
 - Towards predictive virtual embryos with genomics and AI (**Nature Methods 2026**) · `Virtual cell` · [[paper](https://doi.org/10.1038/s41592-026-03055-4)]
 - Virtual Cells Need Context, Not Just Scale (**bioRxiv 2026**) · `Virtual cell` · [[paper](https://doi.org/10.64898/2026.02.04.703804)]
 - What Makes a Representation Good for Single-Cell Perturbation Prediction? (**arXiv 2026**) · `Perturbation` · [[paper](https://arxiv.org/abs/2605.19343)]
 - Batch Effects Remain a Fundamental Barrier to Universal Embeddings in Single-Cell Foundation Models (**bioRxiv 2025**) · `scRNA-seq` `Foundation model` · [[paper](https://doi.org/10.64898/2025.12.19.695371)]
-- Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models (**arXiv 2025**) · `scRNA-seq` `Foundation model` · [[paper](https://arxiv.org/abs/2509.14723)]
 - Toward ai-driven digital organism: Multiscale foundation models for predicting, simulating and programming biology at all levels (**arXiv 2024**) · `Virtual cell` · [[paper](https://arxiv.org/abs/2412.06993)]
 
 ## Where to Publish & Track New Work

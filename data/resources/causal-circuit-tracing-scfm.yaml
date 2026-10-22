@@ -1,0 +1,34 @@
+id: causal-circuit-tracing-scfm
+kind: resource
+type: interpretability
+title: 'Causal circuit tracing reveals distinct computational architectures in single-cell foundation
+  models: inhibitory dominance, biological coherence, and cross-model convergence'
+year: 2026
+venue: Bioinformatics
+tags:
+- interpretability
+- foundation-model
+- gene-regulation
+- scrna-seq
+key: Ablates sparse-autoencoder features one at a time in Geneformer and scGPT to map model-internal causal
+  circuits and compares them with known regulation.
+links:
+  paper: https://doi.org/10.1093/bioinformatics/btag379
+  code: https://github.com/Biodyn-AI/bio-sae-circuits
+evaluates:
+- geneformer
+- scgpt
+findings: The circuits are reproducible and enriched for known biology and ChIP-seq-supported TF targets,
+  but largely mirror co-expression.
+interp_method:
+- sparse-autoencoder
+- circuit-tracing
+citation: 'Kendiukhov, Ihor. "Causal circuit tracing reveals distinct computational architectures in single-cell
+  foundation models: inhibitory dominance, biological coherence, and cross-model convergence." Bioinformatics
+  42, no. 7 (2026): btag379.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1093/bioinformatics/btag379
+- https://github.com/Biodyn-AI/bio-sae-circuits
+review_basis: abstract
+reviewed: false

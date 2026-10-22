@@ -1,0 +1,31 @@
+id: topology-geometry-biological-fms
+kind: resource
+type: interpretability
+title: What topological and geometric structure do biological foundation models learn? Evidence from 141
+  hypotheses
+year: 2026
+venue: PLOS One
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: Uses an AI-driven hypothesis loop to test 141 topological and geometric hypotheses about scGPT and
+  Geneformer gene embeddings, with null controls.
+links:
+  paper: https://doi.org/10.1371/journal.pone.0344826
+  code: https://github.com/Biodyn-AI/hypotheses
+evaluates:
+- scgpt
+- geneformer
+findings: Both models learn real, shared structure in gene space, but agree on its shape rather than on
+  gene placement, and much of the signal is tissue-specific.
+interp_method:
+- geometry
+citation: 'Kendiukhov, Ihor. "What topological and geometric structure do biological foundation models
+  learn? Evidence from 141 hypotheses." PLOS One 21, no. 7 (2026): e0344826.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1371/journal.pone.0344826
+- https://github.com/Biodyn-AI/hypotheses
+review_basis: paper
+reviewed: false

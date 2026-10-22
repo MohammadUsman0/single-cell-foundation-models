@@ -3,7 +3,7 @@
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
   "models": 186,
-  "resources": 126,
+  "resources": 137,
   "venues": 19
  },
  "vocab": {
@@ -83,6 +83,10 @@
    {
     "id": "benchmark",
     "label": "Benchmarks & Evaluation"
+   },
+   {
+    "id": "interpretability",
+    "label": "Interpretability & Mechanistic Analysis"
    },
    {
     "id": "dataset",
@@ -416,6 +420,38 @@
     "id": "not-public",
     "label": "Not public",
     "desc": "Proprietary or company model."
+   }
+  ],
+  "interp_methods": [
+   {
+    "id": "sparse-autoencoder",
+    "label": "Sparse autoencoder",
+    "desc": "Decomposes activations into sparse, interpretable features."
+   },
+   {
+    "id": "circuit-tracing",
+    "label": "Circuit tracing",
+    "desc": "Ablates or patches features to map causal paths inside the model (incl. transcoders)."
+   },
+   {
+    "id": "attention-analysis",
+    "label": "Attention analysis",
+    "desc": "Reads or ablates attention weights and heads."
+   },
+   {
+    "id": "probing",
+    "label": "Probing",
+    "desc": "Trains simple read-outs on frozen representations."
+   },
+   {
+    "id": "attribution",
+    "label": "Attribution",
+    "desc": "Gradient or perturbation scores of input-gene importance."
+   },
+   {
+    "id": "geometry",
+    "label": "Representation geometry",
+    "desc": "Spectral, topological or subspace analysis of embeddings."
    }
   ],
   "review_basis": [
@@ -7824,6 +7860,44 @@
    "status": "preprint"
   },
   {
+   "id": "causal-circuit-tracing-scfm",
+   "kind": "resource",
+   "title": "Causal circuit tracing reveals distinct computational architectures in single-cell foundation models: inhibitory dominance, biological coherence, and cross-model convergence",
+   "year": 2026,
+   "venue": "Bioinformatics",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "gene-regulation",
+    "scrna-seq"
+   ],
+   "key": "Ablates sparse-autoencoder features one at a time in Geneformer and scGPT to map model-internal causal circuits and compares them with known regulation.",
+   "links": {
+    "paper": "https://doi.org/10.1093/bioinformatics/btag379",
+    "code": "https://github.com/Biodyn-AI/bio-sae-circuits"
+   },
+   "evaluates": [
+    "geneformer",
+    "scgpt"
+   ],
+   "findings": "The circuits are reproducible and enriched for known biology and ChIP-seq-supported TF targets, but largely mirror co-expression.",
+   "interp_method": [
+    "sparse-autoencoder",
+    "circuit-tracing"
+   ],
+   "citation": "Kendiukhov, Ihor. \"Causal circuit tracing reveals distinct computational architectures in single-cell foundation models: inhibitory dominance, biological coherence, and cross-model convergence.\" Bioinformatics 42, no. 7 (2026): btag379.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1093/bioinformatics/btag379",
+    "https://github.com/Biodyn-AI/bio-sae-circuits"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "Biodyn-AI/bio-sae-circuits"
+  },
+  {
    "id": "cell-shapes",
    "kind": "resource",
    "title": "Cell shapes decode molecular phenotypes in image-based spatial proteomics",
@@ -7848,6 +7922,87 @@
    ],
    "review_basis": "metadata",
    "status": "published"
+  },
+  {
+   "id": "clamp",
+   "kind": "resource",
+   "aliases": [
+    "CLAMP"
+   ],
+   "title": "CLAMP: Steady-State ODE Inference of Gene Regulatory Networks from Single-Cell Perturbations",
+   "year": 2026,
+   "venue": "ICML",
+   "venue_detail": "Workshop on Generative and Agentic AI for Biology",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "gene-regulation",
+    "perturbation"
+   ],
+   "key": "Fits one shared steady-state ODE to Perturb-seq data through a frozen foundation-model encoder, so recovery of the regulatory network measures how much regulatory structure the encoder keeps.",
+   "links": {
+    "paper": "https://openreview.net/forum?id=C0DTxoMuYO",
+    "code": "https://github.com/AmayaGS/CLAMP-Perturbseq",
+    "dataset": "https://huggingface.co/datasets/AmayaGS/clamp-perturbseq"
+   },
+   "evaluates": [
+    "scgpt",
+    "scprint",
+    "stack",
+    "tahoe-x1"
+   ],
+   "findings": "Each foundation-model encoder loses regulatory structure in its own way: some cannot keep regulatory directions separable, others keep them only non-linearly.",
+   "interp_method": [
+    "probing"
+   ],
+   "citation": "Gallagher-Syed, Amaya, Aaron Wenteler, Santiago A. Martinez, and Gregory Slabaugh. \"CLAMP: Steady-State ODE Inference of Gene Regulatory Networks from Single-Cell Perturbations.\" In Workshop on Generative and Agentic AI for Biology at ICML (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://openreview.net/forum?id=C0DTxoMuYO",
+    "https://github.com/AmayaGS/CLAMP-Perturbseq"
+   ],
+   "review_basis": "repo",
+   "status": "published",
+   "github": "AmayaGS/CLAMP-Perturbseq"
+  },
+  {
+   "id": "geometric-outliers-scfm-genes",
+   "kind": "resource",
+   "aliases": [
+    "Glitch genes"
+   ],
+   "title": "Do Geometric Outliers Identify Important Genes in Single-Cell Foundation Models?",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Screens Geneformer, scGPT and scFoundation gene embeddings for geometric outliers and tests whether those genes matter for annotation or disease.",
+   "links": {
+    "preprint": "https://www.biorxiv.org/content/10.64898/2026.06.22.733850v2"
+   },
+   "evaluates": [
+    "geneformer",
+    "scgpt",
+    "scfoundation"
+   ],
+   "findings": "The models agree only weakly on outlier genes, and outliers neither drive cell-type annotation nor mark disease genes; embedding geometry is mostly model-specific.",
+   "interp_method": [
+    "geometry"
+   ],
+   "citation": "Whalley, Justin P. \"Do Geometric Outliers Identify Important Genes in Single-Cell Foundation Models?\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://www.biorxiv.org/content/10.64898/2026.06.22.733850v2"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "evaluating-the-role-of-pre-training",
@@ -7905,6 +8060,39 @@
    ],
    "review_basis": "abstract",
    "status": "published"
+  },
+  {
+   "id": "exhaustive-circuit-mapping-scfm",
+   "kind": "resource",
+   "title": "Exhaustive Circuit Mapping of a Single-Cell Foundation Model Reveals Massive Redundancy, Heavy-Tailed Hub Architecture, and Layer-Dependent Differentiation Control",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Traces every active sparse-autoencoder feature in one Geneformer layer, tests higher-order ablations and steers cell trajectories with features.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2603.11940"
+   },
+   "evaluates": [
+    "geneformer"
+   ],
+   "findings": "Exhaustive tracing reveals a heavy-tailed hub structure missed by selective sampling and strong redundancy; late-layer features push cells toward maturity.",
+   "interp_method": [
+    "sparse-autoencoder",
+    "circuit-tracing"
+   ],
+   "citation": "Kendiukhov, Ihor. \"Exhaustive Circuit Mapping of a Single-Cell Foundation Model Reveals Massive Redundancy, Heavy-Tailed Hub Architecture, and Layer-Dependent Differentiation Control.\" arXiv preprint arXiv:2603.11940 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2603.11940"
+   ],
+   "review_basis": "paper",
+   "status": "preprint"
   },
   {
    "id": "foundation-models-improve-perturbation-response-prediction",
@@ -8088,19 +8276,104 @@
    "status": "published"
   },
   {
+   "id": "signature-gene-importance",
+   "kind": "resource",
+   "aliases": [
+    "SIGnature"
+   ],
+   "title": "Scoring gene importance by interpreting single-cell foundation models",
+   "year": 2026,
+   "venue": "Nature Biotechnology",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "SIGnature: scores each gene's importance in a cell from foundation-model attributions and searches large atlases with those scores.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41587-026-03112-5",
+    "preprint": "https://doi.org/10.1101/2025.06.14.659567",
+    "code": "https://github.com/Genentech/SIGnature"
+   },
+   "evaluates": [
+    "scimilarity",
+    "scgpt",
+    "scfoundation"
+   ],
+   "findings": "Attribution scores are a cleaner, comparable measure of gene importance than expression; an atlas search linked the MS1 monocyte program to Kawasaki disease.",
+   "interp_method": [
+    "attribution"
+   ],
+   "citation": "Gold, Maxwell P., Miguel Reyes, Nathaniel Diamant, Tony Kuo, Ehsan Hajiramezanali, Jane W. Newburger, Mary Beth F. Son et al. \"Scoring gene importance by interpreting single-cell foundation models.\" Nature Biotechnology (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1038/s41587-026-03112-5",
+    "https://doi.org/10.1101/2025.06.14.659567",
+    "https://github.com/Genentech/SIGnature"
+   ],
+   "review_basis": "paper",
+   "status": "published",
+   "github": "Genentech/SIGnature"
+  },
+  {
+   "id": "sae-cell-type-programs-scgpt",
+   "kind": "resource",
+   "title": "Sparse autoencoders reveal interpretable cell-type programs in single-cell foundation model representations",
+   "year": 2026,
+   "venue": "Journal of Biomedical Informatics",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Trains sparse autoencoders on every scGPT layer for immune cells and checks the features against cell types, gene sets and PCA.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.jbi.2026.105056",
+    "preprint": "https://doi.org/10.2139/ssrn.6304512"
+   },
+   "evaluates": [
+    "scgpt"
+   ],
+   "findings": "Later-layer features recover coherent cell-type programs, but sparsity needs calibrating to avoid many dead features.",
+   "interp_method": [
+    "sparse-autoencoder"
+   ],
+   "citation": "Kendiukhov, Ihor. \"Sparse autoencoders reveal interpretable cell-type programs in single-cell foundation model representations.\" Journal of Biomedical Informatics 180 (2026): 105056.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1016/j.jbi.2026.105056",
+    "https://doi.org/10.2139/ssrn.6304512"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "sparse-autoencoders-reveal-organized-biological-knowledge",
    "kind": "resource",
    "title": "Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT",
    "year": 2026,
    "venue": "arXiv",
-   "type": "reference",
+   "type": "interpretability",
    "tags": [
+    "interpretability",
     "gene-regulation"
    ],
    "key": "Trains TopK sparse autoencoders on Geneformer V2 and scGPT activations and releases interactive atlases of 107,000+ interpretable features; finds organized biological knowledge but minimal regulatory logic.",
    "links": {
     "paper": "https://arxiv.org/abs/2603.02952"
    },
+   "evaluates": [
+    "geneformer",
+    "scgpt"
+   ],
+   "findings": "The models encode organized pathway and module knowledge but almost no causal regulatory logic.",
+   "interp_method": [
+    "sparse-autoencoder"
+   ],
    "citation": "Kendiukhov, Ihor. \"Sparse autoencoders reveal organized biological knowledge but minimal regulatory logic in single-cell foundation models: a comparative atlas of Geneformer and scGPT.\" arXiv preprint arXiv:2603.02952 (2026).",
    "reviewed": false,
    "added": "2026-06-02",
@@ -8134,6 +8407,72 @@
    "review_basis": "metadata",
    "status": "published",
    "github": "kimberle9/spatialperturbseq"
+  },
+  {
+   "id": "spectral-universality-scfm",
+   "kind": "resource",
+   "title": "Spectral universality in single-cell foundation models: a low-dimensional shared core carries the biology",
+   "year": 2026,
+   "venue": "Research Square",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Compares the gene-embedding subspaces of seven transcriptome models and a protein language model to find what they share.",
+   "links": {
+    "preprint": "https://doi.org/10.21203/rs.3.rs-10595552/v1"
+   },
+   "evaluates": [
+    "geneformer"
+   ],
+   "findings": "The models agree little overall, but share a small core subspace that carries nearly all the biology; the rest is model-specific.",
+   "interp_method": [
+    "geometry"
+   ],
+   "citation": "Chen, Liu. \"Spectral universality in single-cell foundation models: a low-dimensional shared core carries the biology.\" Research Square (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.21203/rs.3.rs-10595552/v1"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "attention-edge-scores-scfm-interpretability",
+   "kind": "resource",
+   "title": "Systematic evaluation of single-cell foundation model interpretability: attention-derived edge scores add no incremental value over gene-level features for perturbation-target prediction",
+   "year": 2026,
+   "venue": "BMC Genomics",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "gene-regulation",
+    "scrna-seq"
+   ],
+   "key": "Tests whether attention-derived gene-gene edges in scGPT and Geneformer carry regulatory information, with ablations and trivial baselines across cell types and CRISPR modalities.",
+   "links": {
+    "paper": "https://doi.org/10.1186/s12864-026-12965-8"
+   },
+   "evaluates": [
+    "scgpt",
+    "geneformer"
+   ],
+   "findings": "Attention maps carry layer-specific biological structure, but add nothing beyond simple gene-level statistics for predicting perturbation targets.",
+   "interp_method": [
+    "attention-analysis"
+   ],
+   "citation": "Kendiukhov, Ihor. \"Systematic evaluation of single-cell foundation model interpretability: attention-derived edge scores add no incremental value over gene-level features for perturbation-target prediction.\" BMC Genomics (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1186/s12864-026-12965-8"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
   },
   {
    "id": "cellbench-ls",
@@ -8240,6 +8579,35 @@
    "status": "preprint"
   },
   {
+   "id": "intervention-geometry-virtual-cell-models",
+   "kind": "resource",
+   "title": "Virtual-cell models compress unseen intervention geometry through a target-specific generalization bottleneck",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "perturbation",
+    "virtual-cell"
+   ],
+   "key": "Analyses the geometry of perturbation-model outputs to explain why accurate-looking predictions for unseen interventions lose what distinguishes them.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.08.21.746243"
+   },
+   "findings": "Models reconstruct cell states for unseen interventions yet collapse the geometry that separates them; anchoring each intervention with a little real data helps most.",
+   "interp_method": [
+    "geometry"
+   ],
+   "citation": "Huang, Yongqi, Hanzhi Wang, and Parker C. Wilson. \"Virtual-cell models compress unseen intervention geometry through a target-specific generalization bottleneck.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.08.21.746243"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "what-makes-a-representation-good-for",
    "kind": "resource",
    "title": "What Makes a Representation Good for Single-Cell Perturbation Prediction?",
@@ -8260,6 +8628,42 @@
    ],
    "review_basis": "metadata",
    "status": "preprint"
+  },
+  {
+   "id": "topology-geometry-biological-fms",
+   "kind": "resource",
+   "title": "What topological and geometric structure do biological foundation models learn? Evidence from 141 hypotheses",
+   "year": 2026,
+   "venue": "PLOS One",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Uses an AI-driven hypothesis loop to test 141 topological and geometric hypotheses about scGPT and Geneformer gene embeddings, with null controls.",
+   "links": {
+    "paper": "https://doi.org/10.1371/journal.pone.0344826",
+    "code": "https://github.com/Biodyn-AI/hypotheses"
+   },
+   "evaluates": [
+    "scgpt",
+    "geneformer"
+   ],
+   "findings": "Both models learn real, shared structure in gene space, but agree on its shape rather than on gene placement, and much of the signal is tissue-specific.",
+   "interp_method": [
+    "geometry"
+   ],
+   "citation": "Kendiukhov, Ihor. \"What topological and geometric structure do biological foundation models learn? Evidence from 141 hypotheses.\" PLOS One 21, no. 7 (2026): e0344826.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1371/journal.pone.0344826",
+    "https://github.com/Biodyn-AI/hypotheses"
+   ],
+   "review_basis": "paper",
+   "status": "published",
+   "github": "Biodyn-AI/hypotheses"
   },
   {
    "id": "periscope",
@@ -9346,8 +9750,9 @@
    "title": "Sparse Autoencoders Reveal Interpretable Features in Single-Cell Foundation Models",
    "year": 2025,
    "venue": "bioRxiv",
-   "type": "benchmark",
+   "type": "interpretability",
    "tags": [
+    "interpretability",
     "scrna-seq",
     "foundation-model"
    ],
@@ -9361,6 +9766,9 @@
     "geneformer"
    ],
    "findings": "The models encode interpretable biological and technical features; steering them can reduce batch effects or mimic drug responses.",
+   "interp_method": [
+    "sparse-autoencoder"
+   ],
    "citation": "Pedrocchi, Flavia, Florian Barkmann, Amir Joudaki, and Valentina Boeva. \"Sparse Autoencoders Reveal Interpretable Features in Single-Cell Foundation Models.\" bioRxiv (2025).",
    "reviewed": false,
    "added": "2026-06-02",
@@ -9469,6 +9877,40 @@
    "status": "preprint"
   },
   {
+   "id": "world-model-coherence-tfms",
+   "kind": "resource",
+   "title": "Toward a Coherent Virtual Cell Model: Probing Biological World-Model Coherence in Transcriptomic Foundation Models",
+   "year": 2025,
+   "venue": "NeurIPS",
+   "venue_detail": "AI4D3 Workshop",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "virtual-cell",
+    "scrna-seq"
+   ],
+   "key": "Probes whether a transcriptomic foundation model has an internal world model by comparing its pretraining loss on real, shuffled and interpolated cells, without labels.",
+   "links": {
+    "paper": "https://ai4d3.github.io/2025/papers/26_Toward_a_Coherent_Virtual_C.pdf"
+   },
+   "evaluates": [
+    "scgpt"
+   ],
+   "findings": "scGPT usually tells real from shuffled cells and shows loss barriers between distant cell types, yet much embedding structure survives shuffling expression values.",
+   "interp_method": [
+    "probing"
+   ],
+   "citation": "Moriel, Noa, Yishai Shimoni, Michal Rosen-Zvi, and Michael Morris Danziger. \"Toward a Coherent Virtual Cell Model: Probing Biological World-Model Coherence in Transcriptomic Foundation Models.\" AI4D3 Workshop at NeurIPS (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://ai4d3.github.io/2025/papers/26_Toward_a_Coherent_Virtual_C.pdf"
+   ],
+   "review_basis": "paper",
+   "status": "published"
+  },
+  {
    "id": "towards-multimodal-foundation-models-in-molecular",
    "kind": "resource",
    "title": "Towards multimodal foundation models in molecular cell biology",
@@ -9493,14 +9935,22 @@
    "title": "Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models",
    "year": 2025,
    "venue": "arXiv",
-   "type": "reference",
+   "type": "interpretability",
    "tags": [
+    "interpretability",
     "scrna-seq",
     "foundation-model"
    ],
    "links": {
     "paper": "https://arxiv.org/abs/2509.14723"
    },
+   "evaluates": [
+    "cell2sentence"
+   ],
+   "findings": "Transcoder circuits extracted from Cell2Sentence correspond to known biological mechanisms.",
+   "interp_method": [
+    "circuit-tracing"
+   ],
    "citation": "Hosokawa, Sosuke, Toshiharu Kawakami, Satoshi Kodera, Masamichi Ito, and Norihiko Takeda. \"Transcoder-based Circuit Analysis for Interpretable Single-Cell Foundation Models.\" arXiv preprint arXiv:2509.14723 (2025).",
    "reviewed": false,
    "added": "2026-06-02",
@@ -9683,8 +10133,9 @@
    "title": "What do single-cell models already know about perturbations?",
    "year": 2025,
    "venue": "Genes",
-   "type": "benchmark",
+   "type": "interpretability",
    "tags": [
+    "interpretability",
     "perturbation",
     "generative",
     "scrna-seq"
@@ -9694,6 +10145,9 @@
     "paper": "https://doi.org/10.3390/genes16121439",
     "code": "https://github.com/yhsure/perturbations"
    },
+   "interp_method": [
+    "attribution"
+   ],
    "citation": "Bjerregaard, Andreas, Iñigo Prada-Luengo, Vivek Das, and Anders Krogh. \"What do single-cell models already know about perturbations?.\" Genes 16, no. 12 (2025): 1439.",
    "reviewed": false,
    "added": "2026-06-02",

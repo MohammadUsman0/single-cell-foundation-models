@@ -1,0 +1,41 @@
+id: clamp
+kind: resource
+type: interpretability
+title: 'CLAMP: Steady-State ODE Inference of Gene Regulatory Networks from Single-Cell Perturbations'
+aliases:
+- CLAMP
+year: 2026
+venue: ICML
+venue_detail: Workshop on Generative and Agentic AI for Biology
+tags:
+- interpretability
+- foundation-model
+- gene-regulation
+- perturbation
+key: Fits one shared steady-state ODE to Perturb-seq data through a frozen foundation-model encoder, so
+  recovery of the regulatory network measures how much regulatory structure the encoder keeps.
+links:
+  paper: https://openreview.net/forum?id=C0DTxoMuYO
+  code: https://github.com/AmayaGS/CLAMP-Perturbseq
+  dataset: https://huggingface.co/datasets/AmayaGS/clamp-perturbseq
+evaluates:
+- scgpt
+- scprint
+- stack
+- tahoe-x1
+findings: 'Each foundation-model encoder loses regulatory structure in its own way: some cannot keep regulatory
+  directions separable, others keep them only non-linearly.'
+interp_method:
+- probing
+citation: 'Gallagher-Syed, Amaya, Aaron Wenteler, Santiago A. Martinez, and Gregory Slabaugh. "CLAMP:
+  Steady-State ODE Inference of Gene Regulatory Networks from Single-Cell Perturbations." In Workshop
+  on Generative and Agentic AI for Biology at ICML (2026).'
+added: '2026-10-22'
+sources:
+- https://openreview.net/forum?id=C0DTxoMuYO
+- https://github.com/AmayaGS/CLAMP-Perturbseq
+review_basis: repo
+reviewed: false
+review_notes:
+- 'The README gives the title ''CLAMP: A Mechanistic Probe of Regulatory Structure in Foundation Models
+  under Single-Cell Perturbations''; the OpenReview page could not be read automatically.'

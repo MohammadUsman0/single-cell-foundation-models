@@ -27,8 +27,9 @@ MODEL_FIELDS = COMMON | {"name", "category", "modality", "architecture", "task",
 # field -> vocab list it must come from (list fields may hold several values)
 VOCAB_FIELDS = {"inputs": "inputs", "outputs": "outputs", "architecture_family": "architecture_families",
                 "code_status": "code_status", "review_basis": "review_basis",
-                "perturbation_type": "perturbation_types", "generalization": "generalization"}
-RESOURCE_FIELDS = COMMON | {"type", "evaluates", "findings"}
+                "perturbation_type": "perturbation_types", "generalization": "generalization",
+                "interp_method": "interp_methods"}
+RESOURCE_FIELDS = COMMON | {"type", "evaluates", "findings", "interp_method"}
 URL = re.compile(r"^https?://[^\s<>\"]+$")
 MAX_YEAR = datetime.date.today().year + 1
 

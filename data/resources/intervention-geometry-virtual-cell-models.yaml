@@ -1,0 +1,26 @@
+id: intervention-geometry-virtual-cell-models
+kind: resource
+type: interpretability
+title: Virtual-cell models compress unseen intervention geometry through a target-specific generalization
+  bottleneck
+year: 2026
+venue: bioRxiv
+tags:
+- interpretability
+- perturbation
+- virtual-cell
+key: Analyses the geometry of perturbation-model outputs to explain why accurate-looking predictions for
+  unseen interventions lose what distinguishes them.
+links:
+  preprint: https://doi.org/10.64898/2026.08.21.746243
+findings: Models reconstruct cell states for unseen interventions yet collapse the geometry that separates
+  them; anchoring each intervention with a little real data helps most.
+interp_method:
+- geometry
+citation: Huang, Yongqi, Hanzhi Wang, and Parker C. Wilson. "Virtual-cell models compress unseen intervention
+  geometry through a target-specific generalization bottleneck." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.08.21.746243
+review_basis: abstract
+reviewed: false

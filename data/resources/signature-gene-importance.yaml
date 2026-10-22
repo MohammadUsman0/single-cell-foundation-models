@@ -1,0 +1,36 @@
+id: signature-gene-importance
+kind: resource
+type: interpretability
+title: Scoring gene importance by interpreting single-cell foundation models
+aliases:
+- SIGnature
+year: 2026
+venue: Nature Biotechnology
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: 'SIGnature: scores each gene''s importance in a cell from foundation-model attributions and searches
+  large atlases with those scores.'
+links:
+  paper: https://doi.org/10.1038/s41587-026-03112-5
+  preprint: https://doi.org/10.1101/2025.06.14.659567
+  code: https://github.com/Genentech/SIGnature
+evaluates:
+- scimilarity
+- scgpt
+- scfoundation
+findings: Attribution scores are a cleaner, comparable measure of gene importance than expression; an
+  atlas search linked the MS1 monocyte program to Kawasaki disease.
+interp_method:
+- attribution
+citation: Gold, Maxwell P., Miguel Reyes, Nathaniel Diamant, Tony Kuo, Ehsan Hajiramezanali, Jane W. Newburger,
+  Mary Beth F. Son et al. "Scoring gene importance by interpreting single-cell foundation models." Nature
+  Biotechnology (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1038/s41587-026-03112-5
+- https://doi.org/10.1101/2025.06.14.659567
+- https://github.com/Genentech/SIGnature
+review_basis: paper
+reviewed: false
