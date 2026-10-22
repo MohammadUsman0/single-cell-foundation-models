@@ -1,0 +1,29 @@
+id: scgenelens-how-models-understand-cells
+kind: resource
+type: interpretability
+title: How different AI models understand cells differently
+year: 2026
+venue: bioRxiv
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: 'scGeneLens: sparsifies attention, propagates it across layers and applies integrated gradients to
+  see which gene relations scFoundation and scGPT rely on.'
+links:
+  preprint: https://doi.org/10.64898/2026.01.29.702682
+evaluates:
+- scfoundation
+- scgpt
+findings: scFoundation leans on cell-type marker relations (sharper cell-type separation), while scGPT
+  leans on shared pathway genes (better transfer across conditions).
+interp_method:
+- attention-analysis
+- attribution
+citation: Zhao, Yubo, Duozhi Sun, Minsheng Hao, Yifan Xiong, Chen Li, Tieliang Gong, Lei Wei et al. "How
+  different AI models understand cells differently." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.01.29.702682
+review_basis: abstract
+reviewed: false

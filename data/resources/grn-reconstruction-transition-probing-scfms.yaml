@@ -1,0 +1,32 @@
+id: grn-reconstruction-transition-probing-scfms
+kind: resource
+type: interpretability
+title: Benchmarking Static Gene Regulatory Network Reconstruction and Dynamic Transition Probing in Single-Cell
+  Foundation Models
+year: 2026
+venue: bioRxiv
+tags:
+- interpretability
+- foundation-model
+- gene-regulation
+- scrna-seq
+key: Benchmarks regulatory networks recovered from token embeddings, hidden states and attention of six
+  foundation models, and adds dynamic transition probing.
+links:
+  preprint: https://doi.org/10.64898/2026.05.17.725083
+evaluates:
+- scgpt
+- scfoundation
+findings: scGPT token embeddings beat classical GRN baselines and scFoundation best reproduces developmental
+  transitions; what can be recovered depends on architecture and extraction.
+interp_method:
+- probing
+- attention-analysis
+citation: Ye, Zhongni, Ning Yang, Xiaojing Yang, Xiaowei Mao, and Chao Tang. "Benchmarking Static Gene
+  Regulatory Network Reconstruction and Dynamic Transition Probing in Single-Cell Foundation Models."
+  bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.05.17.725083
+review_basis: abstract
+reviewed: false

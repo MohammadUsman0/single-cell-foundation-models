@@ -1,0 +1,31 @@
+id: saffron-spatial-fm-sae
+kind: resource
+type: interpretability
+title: Evaluating the ability of spatial transcriptomics foundation models to learn multi-scale spatial
+  variation
+year: 2026
+venue: bioRxiv
+tags:
+- interpretability
+- foundation-model
+- spatial
+key: 'SAFFRON: uses Matryoshka sparse autoencoders on spatial foundation-model embeddings to test whether
+  they capture local and global spatial variation.'
+links:
+  preprint: https://doi.org/10.64898/2026.08.01.742217
+  code: https://github.com/chitra-lab/SAFFRON
+evaluates:
+- novae
+findings: Novae captures global spatial gradients better than simple baselines, but no spatial model beats
+  baselines on local microenvironment patterns.
+interp_method:
+- sparse-autoencoder
+citation: Handa, Dhanav, Cristina Martin-Linares, Genevieve Stein-O’Brien, Jonathan Ling, and Uthsav Chitra.
+  "Evaluating the ability of spatial transcriptomics foundation models to learn multi-scale spatial variation."
+  bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.08.01.742217
+- https://github.com/chitra-lab/SAFFRON
+review_basis: abstract
+reviewed: false

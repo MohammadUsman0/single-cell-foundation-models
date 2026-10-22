@@ -1,0 +1,29 @@
+id: hematopoietic-manifold-scgpt
+kind: resource
+type: interpretability
+title: Discovery of a Hematopoietic Manifold in scGPT Yields a Method for Extracting Performant Algorithms
+  from Biological Foundation Model Internals
+year: 2026
+venue: arXiv
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: Finds a hematopoietic manifold inside scGPT and exports it from frozen attention weights as a compact
+  standalone algorithm.
+links:
+  preprint: https://arxiv.org/abs/2603.10261
+evaluates:
+- scgpt
+findings: The extracted algorithm orders pseudotime best against scVI, Palantir and others, with about
+  1000-fold fewer trainable parameters than probing.
+interp_method:
+- geometry
+- attention-analysis
+citation: Kendiukhov, Ihor. "Discovery of a Hematopoietic Manifold in scGPT Yields a Method for Extracting
+  Performant Algorithms from Biological Foundation Model Internals." arXiv preprint arXiv:2603.10261 (2026).
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2603.10261
+review_basis: paper
+reviewed: false

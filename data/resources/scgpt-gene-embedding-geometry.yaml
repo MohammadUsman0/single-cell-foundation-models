@@ -1,0 +1,27 @@
+id: scgpt-gene-embedding-geometry
+kind: resource
+type: interpretability
+title: 'Mechanistic Interpretability of Biological Foundation Models: An Empirical Analysis of scGPT Gene-Embedding
+  Geometry'
+year: 2026
+venue: Research Square
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: Empirical analysis of the geometry of scGPT gene embeddings.
+links:
+  preprint: https://doi.org/10.21203/rs.3.rs-10461111/v1
+evaluates:
+- scgpt
+interp_method:
+- geometry
+citation: 'Chen, Liu. "Mechanistic Interpretability of Biological Foundation Models: An Empirical Analysis
+  of scGPT Gene-Embedding Geometry." Research Square (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.21203/rs.3.rs-10461111/v1
+review_basis: metadata
+reviewed: false
+review_notes:
+- Single-author preprint, not peer reviewed.

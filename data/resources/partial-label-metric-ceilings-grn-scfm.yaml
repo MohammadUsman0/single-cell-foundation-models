@@ -1,0 +1,29 @@
+id: partial-label-metric-ceilings-grn-scfm
+kind: resource
+type: interpretability
+title: Partial-label metric ceilings for evaluating gene regulatory networks inferred from single-cell
+  foundation models
+year: 2026
+venue: Biosystems
+tags:
+- interpretability
+- foundation-model
+- gene-regulation
+key: Derives the best achievable GRN scores given incomplete reference networks and re-reads benchmark
+  results, including attention and gradient edges from scGPT.
+links:
+  paper: https://doi.org/10.1016/j.biosystems.2026.105864
+evaluates:
+- scgpt
+findings: 'Incomplete references explain only part of the gap: even the leading scGPT probes stay far
+  below the achievable ceiling.'
+interp_method:
+- attention-analysis
+- attribution
+citation: 'Kendiukhov, Ihor. "Partial-label metric ceilings for evaluating gene regulatory networks inferred
+  from single-cell foundation models." Biosystems 266 (2026): 105864.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1016/j.biosystems.2026.105864
+review_basis: abstract
+reviewed: false
