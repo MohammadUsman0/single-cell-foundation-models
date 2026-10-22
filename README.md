@@ -11,7 +11,7 @@
 
 For each model, the catalogue aims to record what it is, whether you can use it (code, weights, license) and what benchmarks found about it. Titles, years, venues and links are verified against Crossref, OpenAlex, arXiv and bioRxiv with [`scripts/verify.py`](scripts/verify.py).
 
-**261 models** (211 with code) · **225 resources** · **19 venues** · updated 2026-10-22
+**272 models** (222 with code) · **226 resources** · **19 venues** · updated 2026-10-22
 
 Each entry: **name** · title (**venue year**) · tags · links. Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).
 
@@ -32,13 +32,13 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - [Generative Models (Diffusion / Flow / VAE)](#generative-models-diffusion--flow--vae) (6)
 - [Cell Morphology & Imaging Models](#cell-morphology--imaging-models) (11)
 - [LLM-based & Language-Cell Models](#llm-based--language-cell-models) (21)
-- [Agentic & Autonomous Cell Models](#agentic--autonomous-cell-models) (9)
+- [Agentic & Autonomous Cell Models](#agentic--autonomous-cell-models) (20)
 - [Cross-species & Cell Atlas / Similarity Models](#cross-species--cell-atlas--similarity-models) (4)
 - [Perturbation Prediction & Virtual Cell / World Models](#perturbation-prediction--virtual-cell--world-models) (102)
 
 **Resources**
 
-- [Benchmarks & Evaluation](#benchmarks--evaluation) (95)
+- [Benchmarks & Evaluation](#benchmarks--evaluation) (96)
 - [Interpretability & Mechanistic Analysis](#interpretability--mechanistic-analysis) (28)
 - [Datasets & Atlases](#datasets--atlases) (39)
 - [Tools & Software](#tools--software) (9)
@@ -253,10 +253,21 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - **Cell-o1** · Cell-o1: Training LLMs to Solve Single-Cell Reasoning Puzzles with Reinforcement Learning (**Bioinformatics 2026**) · `Agent` `Text` · [[paper](https://doi.org/10.1093/bioinformatics/btag208)] [[code](https://github.com/ncbi-nlp/cell-o1)] ![stars](https://img.shields.io/github/stars/ncbi-nlp/cell-o1?style=flat-square&label=%E2%98%85)
 - **CellAtria** · An Agentic AI Framework for Ingestion and Standardization of Single-Cell RNA-Seq Data Analysis (**npj Artificial Intelligence 2026**) · `Agent` `scRNA-seq` · [[paper](https://doi.org/10.1038/s44387-025-00064-0)] [[code](https://github.com/AstraZeneca/cellatria)] ![stars](https://img.shields.io/github/stars/AstraZeneca/cellatria?style=flat-square&label=%E2%98%85)
 - **CellVoyager** · CellVoyager: AI CompBio Agent Generates New Insights by Autonomously Analyzing Biological Data (**Nature Methods 2026**) · `Agent` · [[paper](https://doi.org/10.1038/s41592-026-03029-6)] [[code](https://github.com/zou-group/CellVoyager)] ![stars](https://img.shields.io/github/stars/zou-group/CellVoyager?style=flat-square&label=%E2%98%85)
+- **ELISA** · ELISA: An Interpretable Hybrid Generative AI Agent for Expression-Grounded Discovery in Single-Cell Genomics (**arXiv 2026**) · `Agent` `scRNA-seq` `LLM` `Interpretability` · [[code](https://github.com/omaruno/ELISA-An-AI-Agent-for-Expression-Grounded-Discovery-in-Single-Cell-Genomics)] ![stars](https://img.shields.io/github/stars/omaruno/ELISA-An-AI-Agent-for-Expression-Grounded-Discovery-in-Single-Cell-Genomics?style=flat-square&label=%E2%98%85)
+- **Gardener** · Gardener: An Agentic AI System for Single-Cell RNA Sequence Analysis (**ACL 2026**, Talk (Underline)) · `Agent` `scRNA-seq` · [[code](https://github.com/CrossOmics/Gardener-Agent)] ![stars](https://img.shields.io/github/stars/CrossOmics/Gardener-Agent?style=flat-square&label=%E2%98%85)
+- **OmicClaw** · OmicClaw: executable and reproducible natural-language multi-omics analysis over the unified OmicVerse ecosystem (**bioRxiv 2026**) · `Agent` `scRNA-seq` `Spatial` `Multi-omics` · [[code](https://github.com/omicverse/omicclaw)] ![stars](https://img.shields.io/github/stars/omicverse/omicclaw?style=flat-square&label=%E2%98%85)
+- **OmicOS** · OmicOS: A Comprehensive Omics Ecosystem Infrastructure and Agent System for the AI Era (**bioRxiv 2026**) · `Agent` `scRNA-seq` `Spatial` `Multi-omics` · [[code](https://github.com/omicverse/dsh-omicos)] ![stars](https://img.shields.io/github/stars/omicverse/dsh-omicos?style=flat-square&label=%E2%98%85)
+- **PerturbAgent** · PerturbAgent: An Agentic AI system for Analysis and Prediction of Genetic Perturbations (**AAAI 2026**, Talk (Underline)) · `Agent` `Perturbation` `scRNA-seq` · [[code](https://github.com/Jiawei-Xing/PerturbAgent)] ![stars](https://img.shields.io/github/stars/Jiawei-Xing/PerturbAgent?style=flat-square&label=%E2%98%85)
+- **PRAXIS-VirtualCell** · PRAXIS-VirtualCell: A Programmable and Trustworthy Framework for Agentic Virtual Cell Experiments (**arXiv 2026**) · `Agent` `Virtual cell` · [[code](https://github.com/NHNQNHNQ/PRAXIS-Virtualcell)] ![stars](https://img.shields.io/github/stars/NHNQNHNQ/PRAXIS-Virtualcell?style=flat-square&label=%E2%98%85)
+- **scACORN** · scACORN: Context-engineered agent orchestration of specialized small language models for single-cell transcriptomic interpretation (**bioRxiv 2026**) · `Agent` `LLM` `scRNA-seq` · [[code](https://github.com/arashrasti96/scACORN)] ![stars](https://img.shields.io/github/stars/arashrasti96/scACORN?style=flat-square&label=%E2%98%85)
+- **scPilot** · scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery (**arXiv 2026**) · `Agent` `LLM` `scRNA-seq` · [[code](https://github.com/maitrix-org/scPilot)] ![stars](https://img.shields.io/github/stars/maitrix-org/scPilot?style=flat-square&label=%E2%98%85)
+- **SpaCellAgent** · SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis (**arXiv 2026**) · `Agent` `Spatial` `scRNA-seq` · [[code](https://github.com/LittleXH-shw/SpaCellAgent)] ![stars](https://img.shields.io/github/stars/LittleXH-shw/SpaCellAgent?style=flat-square&label=%E2%98%85)
+- **VCAgent** · VCAgent: A Mutation-Guided Self-Reflective Agent Framework for Virtual Cell Modeling (**KDD 2026**) · `Agent` `Virtual cell` `LLM` · [[paper](https://doi.org/10.1145/3770855.3818989)] [[code](https://github.com/LZYBUPT/VCAgent)] ![stars](https://img.shields.io/github/stars/LZYBUPT/VCAgent?style=flat-square&label=%E2%98%85)
 - **VCHarness** · Harnessing AI to Build Virtual Cells (**bioRxiv 2026**) · `Agent` `Perturbation` `Virtual cell` · [[code](https://github.com/genbio-ai/VCHarness)] ![stars](https://img.shields.io/github/stars/genbio-ai/VCHarness?style=flat-square&label=%E2%98%85)
 - **Biomni** · Biomni: A General-Purpose Biomedical AI Agent (**bioRxiv 2025**) · `Agent` · [[paper](https://doi.org/10.1101/2025.05.30.656746)] [[code](https://github.com/snap-stanford/biomni)] ![stars](https://img.shields.io/github/stars/snap-stanford/biomni?style=flat-square&label=%E2%98%85)
 - **CRISPR-GPT** · CRISPR-GPT for Agentic Automation of Gene-Editing Experiments (**Nature Biomedical Engineering 2025**) · `Agent` `Perturbation` · [[paper](https://doi.org/10.1038/s41551-025-01463-z)] [[code](https://github.com/cong-lab/crispr-gpt-pub)] ![stars](https://img.shields.io/github/stars/cong-lab/crispr-gpt-pub?style=flat-square&label=%E2%98%85)
 - **GeneAgent** · GeneAgent: Self-Verification Language Agent for Gene-Set Analysis Using Domain Databases (**Nature Methods 2025**) · `Agent` · [[paper](https://doi.org/10.1038/s41592-025-02748-6)] [[code](https://github.com/ncbi-nlp/GeneAgent)] ![stars](https://img.shields.io/github/stars/ncbi-nlp/GeneAgent?style=flat-square&label=%E2%98%85)
+- **OLAF** · OLAF: An Open Life Science Analysis Framework for Conversational Bioinformatics Powered by Large Language Models (**arXiv 2025**) · `Agent` `LLM` `scRNA-seq` · [[code](https://github.com/OpenTechBio/Olaf)] ![stars](https://img.shields.io/github/stars/OpenTechBio/Olaf?style=flat-square&label=%E2%98%85)
 - **rBio-1** · rBio1-Training Scientific Reasoning LLMs with Biological World Models as Soft Verifiers (**bioRxiv 2025**) · `Agent` `Text` `Virtual cell` · [[paper](https://doi.org/10.1101/2025.08.18.670981)] [[code](https://github.com/czi-ai/rbio)] ![stars](https://img.shields.io/github/stars/czi-ai/rbio?style=flat-square&label=%E2%98%85)
 - **SpatialAgent** · SpatialAgent: An Autonomous AI Agent for Spatial Biology (**bioRxiv 2025**) · `Agent` `Spatial` · [[paper](https://doi.org/10.1101/2025.04.03.646459)] [[code](https://github.com/Genentech/SpatialAgent)] ![stars](https://img.shields.io/github/stars/Genentech/SpatialAgent?style=flat-square&label=%E2%98%85)
 
@@ -444,6 +455,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - BioLLM: A standardized framework for integrating and benchmarking single-cell foundation models (**Patterns 2025**) · `scRNA-seq` `Foundation model` · [[paper](https://doi.org/10.1016/j.patter.2025.101326)]
 - Biology-driven insights into the power of single-cell foundation models (**Genome Biology 2025**) · `scRNA-seq` `Foundation model` · [[paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03781-6)]
 - BMFM-RNA: whole-cell expression decoding improves transcriptomic foundation models (**arXiv 2025**) · `scRNA-seq` · [[paper](https://arxiv.org/abs/2506.14861)]
+- CellVerse: Do Large Language Models Really Understand Cell Biology? (**arXiv 2025**) · `LLM` `scRNA-seq` `Drug response` `Perturbation` · [[code](https://github.com/zfkarl/CellVerse)] ![stars](https://img.shields.io/github/stars/zfkarl/CellVerse?style=flat-square&label=%E2%98%85)
 - Deep Learning-Based Genetic Perturbation Models Do Outperform Uninformative Baselines on Well-Calibrated Metrics (**bioRxiv 2025**) · `Perturbation` · [[paper](https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1)]
 - Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines (**Nature Methods 2025**) · `Perturbation` · [[paper](https://www.nature.com/articles/s41592-025-02772-6)]
 - Defining and benchmarking open problems in single-cell analysis (**Nature Biotechnology 2025**) · `scRNA-seq` · [[paper](https://www.nature.com/articles/s41587-025-02694-w)]

@@ -1,0 +1,35 @@
+id: olaf
+kind: model
+name: OLAF
+aliases:
+- Open Life Science Analysis Framework
+title: 'OLAF: An Open Life Science Analysis Framework for Conversational Bioinformatics Powered by Large
+  Language Models'
+year: 2025
+venue: arXiv
+category: agents
+tags:
+- agent
+- llm
+- scrna-seq
+modality: scRNA-seq and general bioinformatics
+inputs:
+- expression
+- text
+outputs:
+- text
+architecture_family: agent
+key: Open-source web platform where an LLM agent writes and runs bioinformatics code, including single-cell
+  workflows, from natural language.
+links:
+  preprint: https://arxiv.org/abs/2504.03976
+  code: https://github.com/OpenTechBio/Olaf
+citation: 'Riffle, Dylan, Nima Shirooni, Cody He, Manush Murali, Sovit Nayak, Rishikumar Gopalan, and
+  Diego Gonzalez Lopez. "OLAF: An Open Life Science Analysis Framework for Conversational Bioinformatics
+  Powered by Large Language Models." arXiv preprint arXiv:2504.03976 (2025).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2504.03976
+- https://github.com/OpenTechBio/Olaf
+review_basis: abstract
+reviewed: false

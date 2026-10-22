@@ -1,0 +1,31 @@
+id: omicos
+kind: model
+name: OmicOS
+title: 'OmicOS: A Comprehensive Omics Ecosystem Infrastructure and Agent System for the AI Era'
+year: 2026
+venue: bioRxiv
+category: agents
+tags:
+- agent
+- scrna-seq
+- spatial
+- multi-omics
+modality: Single-cell, spatial, bulk and multi-omics
+inputs:
+- expression
+- text
+outputs:
+- text
+architecture_family: agent
+key: Turns the OmicVerse V2 ecosystem into executable infrastructure and an agent system for omics analysis.
+links:
+  preprint: https://doi.org/10.64898/2026.06.11.731775
+  code: https://github.com/omicverse/dsh-omicos
+citation: 'Zeng, Zehua, Xu Meng, Lei Hu, Chen Li, Peng Liu, Yu Shi, Xuejiao Ma et al. "OmicOS: A Comprehensive
+  Omics Ecosystem Infrastructure and Agent System for the AI Era." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.06.11.731775
+- https://github.com/omicverse/dsh-omicos
+review_basis: abstract
+reviewed: false

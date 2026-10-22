@@ -1,0 +1,33 @@
+id: omicclaw
+kind: model
+name: OmicClaw
+title: 'OmicClaw: executable and reproducible natural-language multi-omics analysis over the unified OmicVerse
+  ecosystem'
+year: 2026
+venue: bioRxiv
+category: agents
+tags:
+- agent
+- scrna-seq
+- spatial
+- multi-omics
+modality: Bulk, single-cell and spatial omics
+inputs:
+- expression
+- text
+outputs:
+- text
+architecture_family: agent
+key: Natural-language multi-omics analysis over OmicVerse with a state-aware, recoverable execution layer.
+links:
+  preprint: https://doi.org/10.64898/2026.03.13.711464
+  code: https://github.com/omicverse/omicclaw
+citation: 'Zeng, Zehua, Xuehai Wang, Zhi Luo, Yawen Zheng, Lei Hu, Cencan Xing, and Hongwu Du. "OmicClaw:
+  executable and reproducible natural-language multi-omics analysis over the unified OmicVerse ecosystem."
+  bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.03.13.711464
+- https://github.com/omicverse/omicclaw
+review_basis: abstract
+reviewed: false

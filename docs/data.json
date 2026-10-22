@@ -2,8 +2,8 @@
  "generated": "2026-10-22",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
-  "models": 261,
-  "resources": 225,
+  "models": 272,
+  "resources": 226,
   "venues": 19
  },
  "vocab": {
@@ -1637,6 +1637,49 @@
    "github": "MustaphaBounoua/drift"
   },
   {
+   "id": "elisa",
+   "kind": "model",
+   "name": "ELISA",
+   "aliases": [
+    "Embedding-Linked Interactive Single-cell Agent"
+   ],
+   "title": "ELISA: An Interpretable Hybrid Generative AI Agent for Expression-Grounded Discovery in Single-Cell Genomics",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "scrna-seq",
+    "llm",
+    "interpretability"
+   ],
+   "modality": "scRNA-seq",
+   "key": "Agent that links scGPT embeddings with semantic retrieval and LLM interpretation for interactive single-cell discovery.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2603.11872",
+    "code": "https://github.com/omaruno/ELISA-An-AI-Agent-for-Expression-Grounded-Discovery-in-Single-Cell-Genomics"
+   },
+   "citation": "Coser, Omar. \"ELISA: An Interpretable Hybrid Generative AI Agent for Expression-Grounded Discovery in Single-Cell Genomics.\" arXiv preprint arXiv:2603.11872 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "text",
+    "gene-prioritization"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2603.11872",
+    "https://github.com/omaruno/ELISA-An-AI-Agent-for-Expression-Grounded-Discovery-in-Single-Cell-Genomics"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "omaruno/ELISA-An-AI-Agent-for-Expression-Grounded-Discovery-in-Single-Cell-Genomics"
+  },
+  {
    "id": "epizoo",
    "kind": "model",
    "name": "EpiZoo",
@@ -1762,6 +1805,44 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "sanjukta7/sc-evae"
+  },
+  {
+   "id": "gardener",
+   "kind": "model",
+   "name": "Gardener",
+   "title": "Gardener: An Agentic AI System for Single-Cell RNA Sequence Analysis",
+   "year": 2026,
+   "venue": "ACL",
+   "venue_detail": "Talk (Underline)",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq",
+   "key": "Interactive scRNA-seq agent with on-device data, immutable analysis snapshots and expert-steered branching.",
+   "links": {
+    "video": "https://doi.org/10.48448/f5yh-xy67",
+    "code": "https://github.com/CrossOmics/Gardener-Agent"
+   },
+   "citation": "Liu, Junhan, Zhenke Liu, Yongcheng Shi, Peilin Yu, Minxing Zhang, and Jiapeng Zhang. \"Gardener: An Agentic AI System for Single-Cell RNA Sequence Analysis.\" ACL 2026 (talk, Underline) (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.48448/f5yh-xy67",
+    "https://github.com/CrossOmics/Gardener-Agent"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "CrossOmics/Gardener-Agent"
   },
   {
    "id": "geneformer-v2",
@@ -2419,6 +2500,84 @@
    "status": "preprint"
   },
   {
+   "id": "omicclaw",
+   "kind": "model",
+   "name": "OmicClaw",
+   "title": "OmicClaw: executable and reproducible natural-language multi-omics analysis over the unified OmicVerse ecosystem",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "scrna-seq",
+    "spatial",
+    "multi-omics"
+   ],
+   "modality": "Bulk, single-cell and spatial omics",
+   "key": "Natural-language multi-omics analysis over OmicVerse with a state-aware, recoverable execution layer.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.03.13.711464",
+    "code": "https://github.com/omicverse/omicclaw"
+   },
+   "citation": "Zeng, Zehua, Xuehai Wang, Zhi Luo, Yawen Zheng, Lei Hu, Cencan Xing, and Hongwu Du. \"OmicClaw: executable and reproducible natural-language multi-omics analysis over the unified OmicVerse ecosystem.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.03.13.711464",
+    "https://github.com/omicverse/omicclaw"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "omicverse/omicclaw"
+  },
+  {
+   "id": "omicos",
+   "kind": "model",
+   "name": "OmicOS",
+   "title": "OmicOS: A Comprehensive Omics Ecosystem Infrastructure and Agent System for the AI Era",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "scrna-seq",
+    "spatial",
+    "multi-omics"
+   ],
+   "modality": "Single-cell, spatial, bulk and multi-omics",
+   "key": "Turns the OmicVerse V2 ecosystem into executable infrastructure and an agent system for omics analysis.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.11.731775",
+    "code": "https://github.com/omicverse/dsh-omicos"
+   },
+   "citation": "Zeng, Zehua, Xu Meng, Lei Hu, Chen Li, Peng Liu, Yu Shi, Xuejiao Ma et al. \"OmicOS: A Comprehensive Omics Ecosystem Infrastructure and Agent System for the AI Era.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.11.731775",
+    "https://github.com/omicverse/dsh-omicos"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "omicverse/dsh-omicos"
+  },
+  {
    "id": "pascient",
    "kind": "model",
    "name": "PaSCient",
@@ -2543,6 +2702,47 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "davidliwei/pertTF"
+  },
+  {
+   "id": "perturbagent",
+   "kind": "model",
+   "name": "PerturbAgent",
+   "title": "PerturbAgent: An Agentic AI system for Analysis and Prediction of Genetic Perturbations",
+   "year": 2026,
+   "venue": "AAAI",
+   "venue_detail": "Talk (Underline)",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "perturbation",
+    "scrna-seq"
+   ],
+   "modality": "Single-cell genetic perturbation data",
+   "key": "LLM multi-agent system for analysing and predicting single-cell genetic perturbations with mechanism-grounded interpretation.",
+   "links": {
+    "video": "https://doi.org/10.48448/h9db-eg88",
+    "code": "https://github.com/Jiawei-Xing/PerturbAgent"
+   },
+   "citation": "\"PerturbAgent: An Agentic AI system for Analysis and Prediction of Genetic Perturbations.\" AAAI 2026 (talk, Underline) (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation",
+    "text"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.48448/h9db-eg88",
+    "https://github.com/Jiawei-Xing/PerturbAgent"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "Jiawei-Xing/PerturbAgent"
   },
   {
    "id": "perturbbridge",
@@ -2806,6 +3006,44 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "whd1125/PopPert"
+  },
+  {
+   "id": "praxis-virtualcell",
+   "kind": "model",
+   "name": "PRAXIS-VirtualCell",
+   "title": "PRAXIS-VirtualCell: A Programmable and Trustworthy Framework for Agentic Virtual Cell Experiments",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "virtual-cell"
+   ],
+   "modality": "Virtual experiments across E. coli, yeast and K562",
+   "key": "Modular, auditable runtime that turns natural-language questions into traceable virtual-cell experiments and separates supported predictions from extrapolation.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2609.29221",
+    "code": "https://github.com/NHNQNHNQ/PRAXIS-Virtualcell"
+   },
+   "citation": "Ma, Zhenyu, and Xukai Jiang. \"PRAXIS-VirtualCell: A Programmable and Trustworthy Framework for Agentic Virtual Cell Experiments.\" arXiv preprint arXiv:2609.29221 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "text",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2609.29221",
+    "https://github.com/NHNQNHNQ/PRAXIS-Virtualcell"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "NHNQNHNQ/PRAXIS-Virtualcell"
   },
   {
    "id": "primeflow",
@@ -3177,6 +3415,45 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "hanwenlv-cmd/sc2Flow"
+  },
+  {
+   "id": "scacorn",
+   "kind": "model",
+   "name": "scACORN",
+   "title": "scACORN: Context-engineered agent orchestration of specialized small language models for single-cell transcriptomic interpretation",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "llm",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq",
+   "key": "Orchestrates specialised small cell-to-text language models per dataset instead of one large single-cell LM.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.09.10.750801",
+    "code": "https://github.com/arashrasti96/scACORN"
+   },
+   "citation": "Rasti-Meymandi, Arash, Sepideh Nahali, Eustache Paramithiotis, Angela M. Cheung, and Elham Dolatabadi. \"scACORN: Context-engineered agent orchestration of specialized small language models for single-cell transcriptomic interpretation.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "text",
+    "cell-type-label"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.09.10.750801",
+    "https://github.com/arashrasti96/scACORN"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "arashrasti96/scACORN"
   },
   {
    "id": "scale",
@@ -3842,6 +4119,46 @@
    "github": "qfchou/scpFormer"
   },
   {
+   "id": "scpilot",
+   "kind": "model",
+   "name": "scPilot",
+   "title": "scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "llm",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq",
+   "key": "LLM that reasons step by step while inspecting single-cell data and tools, with scBench to grade annotation, trajectory and TF-target tasks.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2602.11609",
+    "code": "https://github.com/maitrix-org/scPilot"
+   },
+   "citation": "Gao, Yiming, Zhen Wang, Jefferson Chen, Mark Antkowiak, Mengzhou Hu, JungHo Kong, Dexter Pratt et al. \"scPilot: Large Language Model Reasoning Toward Automated Single-Cell Analysis and Discovery.\" arXiv preprint arXiv:2602.11609 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "gene-regulatory-network",
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2602.11609",
+    "https://github.com/maitrix-org/scPilot"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "maitrix-org/scPilot"
+  },
+  {
    "id": "screp",
    "kind": "model",
    "name": "scRep",
@@ -4079,6 +4396,45 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "RasmussenLab/SLIM"
+  },
+  {
+   "id": "spacellagent",
+   "kind": "model",
+   "name": "SpaCellAgent",
+   "title": "SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "spatial",
+    "scrna-seq"
+   ],
+   "modality": "Single-cell and spatial transcriptomics",
+   "key": "Self-evolving multi-agent system that automates trajectory inference and writes up the analysis.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2607.07467",
+    "code": "https://github.com/LittleXH-shw/SpaCellAgent"
+   },
+   "citation": "Wang, Songhan, Haoang Chi, He Li, Zhiheng Zhang, Jiayan Yuan, Cheems Wang, Hao Peng et al. \"SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis.\" arXiv preprint arXiv:2607.07467 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates",
+    "text"
+   ],
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2607.07467",
+    "https://github.com/LittleXH-shw/SpaCellAgent"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "LittleXH-shw/SpaCellAgent"
   },
   {
    "id": "spagfm",
@@ -4902,6 +5258,44 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "Laineyoulu/V3Cell"
+  },
+  {
+   "id": "vcagent",
+   "kind": "model",
+   "name": "VCAgent",
+   "title": "VCAgent: A Mutation-Guided Self-Reflective Agent Framework for Virtual Cell Modeling",
+   "year": 2026,
+   "venue": "KDD",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "virtual-cell",
+    "llm"
+   ],
+   "modality": "Virtual cell modelling via external biological APIs",
+   "key": "Self-evolving LLM agent that structures biological API results into typed slots and searches instructions with mutation-guided tree search.",
+   "links": {
+    "paper": "https://doi.org/10.1145/3770855.3818989",
+    "code": "https://github.com/LZYBUPT/VCAgent"
+   },
+   "citation": "Li, Zhiyun, Rong Han, Xiaoyu Wang, Guofeng Zhang, Weixi Gao, Yusheng Su, Zihan Tian et al. \"VCAgent: A Mutation-Guided Self-Reflective Agent Framework for Virtual Cell Modeling.\" In Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (2026): 11375-11386.",
+   "reviewed": false,
+   "inputs": [
+    "text"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1145/3770855.3818989",
+    "https://github.com/LZYBUPT/VCAgent"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "LZYBUPT/VCAgent"
   },
   {
    "id": "vcharness",
@@ -7190,6 +7584,47 @@
    "reviewed": false,
    "added": "2026-06-02",
    "status": "unknown"
+  },
+  {
+   "id": "olaf",
+   "kind": "model",
+   "name": "OLAF",
+   "aliases": [
+    "Open Life Science Analysis Framework"
+   ],
+   "title": "OLAF: An Open Life Science Analysis Framework for Conversational Bioinformatics Powered by Large Language Models",
+   "year": 2025,
+   "venue": "arXiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "llm",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq and general bioinformatics",
+   "key": "Open-source web platform where an LLM agent writes and runs bioinformatics code, including single-cell workflows, from natural language.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2504.03976",
+    "code": "https://github.com/OpenTechBio/Olaf"
+   },
+   "citation": "Riffle, Dylan, Nima Shirooni, Cody He, Manush Murali, Sovit Nayak, Rishikumar Gopalan, and Diego Gonzalez Lopez. \"OLAF: An Open Life Science Analysis Framework for Conversational Bioinformatics Powered by Large Language Models.\" arXiv preprint arXiv:2504.03976 (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2504.03976",
+    "https://github.com/OpenTechBio/Olaf"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "OpenTechBio/Olaf"
   },
   {
    "id": "omiclip-loki",
@@ -14268,6 +14703,42 @@
    ],
    "review_basis": "metadata",
    "status": "published"
+  },
+  {
+   "id": "cellverse",
+   "kind": "resource",
+   "aliases": [
+    "CellVerse"
+   ],
+   "title": "CellVerse: Do Large Language Models Really Understand Cell Biology?",
+   "year": 2025,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "llm",
+    "scrna-seq",
+    "drug-response",
+    "perturbation"
+   ],
+   "key": "CellVerse: language-based question-answering benchmark over single-cell multi-omics data for annotation, drug response and perturbation analysis.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2505.07865",
+    "code": "https://github.com/zfkarl/CellVerse"
+   },
+   "evaluates": [
+    "cell2sentence"
+   ],
+   "findings": "The specialist model C2S-Pythia fails across tasks, general LLMs show only preliminary understanding, and none beats random guessing on drug-response prediction.",
+   "citation": "Zhang, Fan, Tianyu Liu, Zhihong Zhu, Hao Wu, Haixin Wang, Donghao Zhou, Yefeng Zheng et al. \"CellVerse: Do Large Language Models Really Understand Cell Biology?\" arXiv preprint arXiv:2505.07865 (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2505.07865",
+    "https://github.com/zfkarl/CellVerse"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "zfkarl/CellVerse"
   },
   {
    "id": "cigs",
