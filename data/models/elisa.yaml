@@ -1,0 +1,36 @@
+id: elisa
+kind: model
+name: ELISA
+aliases:
+- Embedding-Linked Interactive Single-cell Agent
+title: 'ELISA: An Interpretable Hybrid Generative AI Agent for Expression-Grounded Discovery in Single-Cell
+  Genomics'
+year: 2026
+venue: arXiv
+category: agents
+tags:
+- agent
+- scrna-seq
+- llm
+- interpretability
+modality: scRNA-seq
+inputs:
+- expression
+- text
+outputs:
+- text
+- gene-prioritization
+architecture_family: agent
+key: Agent that links scGPT embeddings with semantic retrieval and LLM interpretation for interactive
+  single-cell discovery.
+links:
+  preprint: https://arxiv.org/abs/2603.11872
+  code: https://github.com/omaruno/ELISA-An-AI-Agent-for-Expression-Grounded-Discovery-in-Single-Cell-Genomics
+citation: 'Coser, Omar. "ELISA: An Interpretable Hybrid Generative AI Agent for Expression-Grounded Discovery
+  in Single-Cell Genomics." arXiv preprint arXiv:2603.11872 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2603.11872
+- https://github.com/omaruno/ELISA-An-AI-Agent-for-Expression-Grounded-Discovery-in-Single-Cell-Genomics
+review_basis: abstract
+reviewed: false

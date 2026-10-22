@@ -1,0 +1,31 @@
+id: cellverse
+kind: resource
+type: benchmark
+title: 'CellVerse: Do Large Language Models Really Understand Cell Biology?'
+aliases:
+- CellVerse
+year: 2025
+venue: arXiv
+tags:
+- llm
+- scrna-seq
+- drug-response
+- perturbation
+key: 'CellVerse: language-based question-answering benchmark over single-cell multi-omics data for annotation,
+  drug response and perturbation analysis.'
+links:
+  preprint: https://arxiv.org/abs/2505.07865
+  code: https://github.com/zfkarl/CellVerse
+evaluates:
+- cell2sentence
+findings: The specialist model C2S-Pythia fails across tasks, general LLMs show only preliminary understanding,
+  and none beats random guessing on drug-response prediction.
+citation: 'Zhang, Fan, Tianyu Liu, Zhihong Zhu, Hao Wu, Haixin Wang, Donghao Zhou, Yefeng Zheng et al.
+  "CellVerse: Do Large Language Models Really Understand Cell Biology?" arXiv preprint arXiv:2505.07865
+  (2025).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2505.07865
+- https://github.com/zfkarl/CellVerse
+review_basis: abstract
+reviewed: false

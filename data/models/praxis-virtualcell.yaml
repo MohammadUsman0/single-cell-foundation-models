@@ -1,0 +1,31 @@
+id: praxis-virtualcell
+kind: model
+name: PRAXIS-VirtualCell
+title: 'PRAXIS-VirtualCell: A Programmable and Trustworthy Framework for Agentic Virtual Cell Experiments'
+year: 2026
+venue: arXiv
+category: agents
+tags:
+- agent
+- virtual-cell
+modality: Virtual experiments across E. coli, yeast and K562
+inputs:
+- text
+- perturbation
+outputs:
+- perturbation-response
+- text
+architecture_family: agent
+key: Modular, auditable runtime that turns natural-language questions into traceable virtual-cell experiments
+  and separates supported predictions from extrapolation.
+links:
+  preprint: https://arxiv.org/abs/2609.29221
+  code: https://github.com/NHNQNHNQ/PRAXIS-Virtualcell
+citation: 'Ma, Zhenyu, and Xukai Jiang. "PRAXIS-VirtualCell: A Programmable and Trustworthy Framework
+  for Agentic Virtual Cell Experiments." arXiv preprint arXiv:2609.29221 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2609.29221
+- https://github.com/NHNQNHNQ/PRAXIS-Virtualcell
+review_basis: abstract
+reviewed: false

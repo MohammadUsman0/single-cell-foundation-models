@@ -1,0 +1,33 @@
+id: gardener
+kind: model
+name: Gardener
+title: 'Gardener: An Agentic AI System for Single-Cell RNA Sequence Analysis'
+year: 2026
+venue: ACL
+venue_detail: Talk (Underline)
+category: agents
+tags:
+- agent
+- scrna-seq
+modality: scRNA-seq
+inputs:
+- expression
+- text
+outputs:
+- text
+architecture_family: agent
+key: Interactive scRNA-seq agent with on-device data, immutable analysis snapshots and expert-steered
+  branching.
+links:
+  video: https://doi.org/10.48448/f5yh-xy67
+  code: https://github.com/CrossOmics/Gardener-Agent
+citation: 'Liu, Junhan, Zhenke Liu, Yongcheng Shi, Peilin Yu, Minxing Zhang, and Jiapeng Zhang. "Gardener:
+  An Agentic AI System for Single-Cell RNA Sequence Analysis." ACL 2026 (talk, Underline) (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.48448/f5yh-xy67
+- https://github.com/CrossOmics/Gardener-Agent
+review_basis: abstract
+reviewed: false
+review_notes:
+- Conference talk on Underline; no full paper found yet. Author order from DataCite may be alphabetical.

@@ -1,0 +1,32 @@
+id: vcagent
+kind: model
+name: VCAgent
+title: 'VCAgent: A Mutation-Guided Self-Reflective Agent Framework for Virtual Cell Modeling'
+year: 2026
+venue: KDD
+category: agents
+tags:
+- agent
+- virtual-cell
+- llm
+modality: Virtual cell modelling via external biological APIs
+inputs:
+- text
+outputs:
+- perturbation-response
+- text
+architecture_family: agent
+key: Self-evolving LLM agent that structures biological API results into typed slots and searches instructions
+  with mutation-guided tree search.
+links:
+  paper: https://doi.org/10.1145/3770855.3818989
+  code: https://github.com/LZYBUPT/VCAgent
+citation: 'Li, Zhiyun, Rong Han, Xiaoyu Wang, Guofeng Zhang, Weixi Gao, Yusheng Su, Zihan Tian et al.
+  "VCAgent: A Mutation-Guided Self-Reflective Agent Framework for Virtual Cell Modeling." In Proceedings
+  of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2 (2026): 11375-11386.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1145/3770855.3818989
+- https://github.com/LZYBUPT/VCAgent
+review_basis: abstract
+reviewed: false

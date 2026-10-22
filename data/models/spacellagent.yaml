@@ -1,0 +1,32 @@
+id: spacellagent
+kind: model
+name: SpaCellAgent
+title: 'SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis'
+year: 2026
+venue: arXiv
+category: agents
+tags:
+- agent
+- spatial
+- scrna-seq
+modality: Single-cell and spatial transcriptomics
+inputs:
+- expression
+- spatial-coordinates
+- text
+outputs:
+- text
+architecture_family: agent
+key: Self-evolving multi-agent system that automates trajectory inference and writes up the analysis.
+links:
+  preprint: https://arxiv.org/abs/2607.07467
+  code: https://github.com/LittleXH-shw/SpaCellAgent
+citation: 'Wang, Songhan, Haoang Chi, He Li, Zhiheng Zhang, Jiayan Yuan, Cheems Wang, Hao Peng et al.
+  "SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis." arXiv preprint
+  arXiv:2607.07467 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2607.07467
+- https://github.com/LittleXH-shw/SpaCellAgent
+review_basis: abstract
+reviewed: false
