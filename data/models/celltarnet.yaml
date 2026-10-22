@@ -1,0 +1,32 @@
+id: celltarnet
+kind: model
+name: CellTarNet
+title: 'CellTarNet: Robust Single-Cell Perturbation Prediction using Transformer Generative Model'
+year: 2026
+venue: ACM-BCB
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: scRNA-seq (perturbation)
+architecture: Transformer normalising flow
+inputs:
+- expression
+- perturbation
+- prior-network
+outputs:
+- perturbation-response
+key: Transformer normalising flow that learns a transport map from control to perturbed cells, guided
+  by gene-interaction priors.
+links:
+  paper: https://doi.org/10.1145/3807503.3819992
+code_status: none-found
+citation: 'Shankar, Shiv. "CellTarNet: Robust Single-Cell Perturbation Prediction using Transformer Generative
+  Model." In Proceedings of the 17th ACM International Conference on Bioinformatics, Computational Biology
+  and Health Informatics (2026): 1-6.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1145/3807503.3819992
+review_basis: abstract
+reviewed: false

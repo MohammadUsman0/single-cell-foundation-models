@@ -1,0 +1,38 @@
+id: multiflow
+kind: model
+name: MultiFlow
+title: 'MultiFlow: coupled flow matching for predicting single-cell multiomic perturbation responses in
+  unseen cellular contexts'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- multi-omics
+- scatac-seq
+modality: Paired scRNA-seq + scATAC-seq (perturbation)
+architecture: Coupled RNA-ATAC flow matching
+inputs:
+- expression
+- chromatin-accessibility
+- perturbation
+outputs:
+- perturbation-response
+- generated-cells
+architecture_family: flow-matching
+generalization:
+- unseen-cell-context
+key: Coupled flow matching that predicts paired RNA and chromatin-accessibility responses in unseen contexts.
+links:
+  preprint: https://doi.org/10.64898/2026.08.20.746112
+  code: https://github.com/liuq-lab/MultiFlow
+citation: 'Wang, Haochen, Charming Zhang, Mengran Zhang, Xiaoming Nie, and Qiao Liu. "MultiFlow: coupled
+  flow matching for predicting single-cell multiomic perturbation responses in unseen cellular contexts."
+  bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.08.20.746112
+- https://github.com/liuq-lab/MultiFlow
+review_basis: abstract
+reviewed: false

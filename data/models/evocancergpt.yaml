@@ -1,0 +1,32 @@
+id: evocancergpt
+kind: model
+name: evoCancerGPT
+title: 'evoCancerGPT: Generating Zero-Shot Single-Cell and Single-Sample Cancer Progression Through Transfer
+  Learning'
+year: 2026
+venue: bioRxiv
+category: generative
+tags:
+- generative
+- scrna-seq
+- foundation-model
+modality: scRNA-seq (cancer, pseudotime)
+architecture: Decoder-only generative transformer
+inputs:
+- expression
+outputs:
+- generated-cells
+architecture_family: transformer-decoder
+key: Decoder-only model that generates single-cell cancer progression along pseudotime, zero-shot per
+  patient.
+links:
+  preprint: https://doi.org/10.64898/2026.02.12.705621
+  code: https://github.com/cristea-lab/evoCancerGPT_main
+citation: 'Wang, Xi, Runzi Tan, and Simona Cristea. "evoCancerGPT: Generating Zero-Shot Single-Cell and
+  Single-Sample Cancer Progression Through Transfer Learning." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.02.12.705621
+- https://github.com/cristea-lab/evoCancerGPT_main
+review_basis: abstract
+reviewed: false

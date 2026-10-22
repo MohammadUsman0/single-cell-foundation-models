@@ -1,0 +1,38 @@
+id: presage
+kind: model
+name: PRESAGE
+aliases:
+- Perturbation Response EStimation with Aggregated Gene Embeddings
+title: Gene-embedding-based prediction and functional evaluation of perturbation expression responses
+  with PRESAGE
+year: 2025
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: Perturb-seq
+architecture: Attention over aggregated gene embeddings
+inputs:
+- expression
+- perturbation
+- prior-network
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+generalization:
+- unseen-perturbation
+key: Predicts perturbation effects by combining many gene-embedding knowledge sources through attention.
+links:
+  preprint: https://doi.org/10.1101/2025.06.03.657653
+  code: https://github.com/genentech/PRESAGE
+citation: Littman, Russell, Jacob Levine, Sepideh Maleki, Yongju Lee, Vladimir Ermakov, Lin Qiu, Alexander
+  Wu et al. "Gene-embedding-based prediction and functional evaluation of perturbation expression responses
+  with PRESAGE." bioRxiv (2025).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1101/2025.06.03.657653
+- https://github.com/genentech/PRESAGE
+review_basis: abstract
+reviewed: false

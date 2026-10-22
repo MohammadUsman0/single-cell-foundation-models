@@ -1,0 +1,35 @@
+id: lazynet
+kind: model
+name: LazyNet
+title: 'LazyNet: Interpretable ODE Modeling of Sparse CRISPR Single-Cell Screens Reveals New Biological
+  Insights'
+year: 2025
+venue: Biology
+category: perturbation
+tags:
+- perturbation
+- gene-regulation
+- interpretability
+modality: CRISPRa/i Perturb-seq
+architecture: One-step neural ODE with log-linear-exp residual blocks
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- gene-regulatory-network
+perturbation_type:
+- genetic
+- combination
+key: Compact neural ODE on before/after snapshots whose parameters read as multiplicative gene effects,
+  aimed at low-data CRISPR screens.
+links:
+  paper: https://doi.org/10.3390/biology15010062
+code_status: none-found
+citation: 'Yi, Ziyue, Nao Ma, and Yuanbo Ao. "LazyNet: Interpretable ODE Modeling of Sparse CRISPR Single-Cell
+  Screens Reveals New Biological Insights." Biology 15, no. 1 (2025): 62.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.3390/biology15010062
+review_basis: abstract
+reviewed: false

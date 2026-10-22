@@ -30,3 +30,5 @@ sources:
 - https://arxiv.org/abs/2511.02986
 review_basis: abstract
 reviewed: false
+review_notes:
+- Not the same model as `scldm-perturbation` (a perturbation-prediction model with the same name).

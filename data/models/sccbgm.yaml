@@ -1,0 +1,31 @@
+id: sccbgm
+kind: model
+name: scCBGM
+title: 'scCBGM: Interpretable Single-Cell Counterfactual Editing'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- interpretability
+modality: scRNA-seq
+architecture: Concept bottleneck generative model (incl. flow matching)
+inputs:
+- expression
+outputs:
+- generated-cells
+- perturbation-response
+key: Concept-bottleneck generative models for interpretable counterfactual editing of single cells.
+links:
+  preprint: https://arxiv.org/abs/2606.07760
+  code: https://github.com/almaan/scCBGM
+citation: 'Andersson, Alma, Aya Abdelsalam Ismail, Edward De Brouwer, Doron Haviv, Tommaso Biancalani,
+  Kyunghyun Cho, Gabriele Scalia et al. "scCBGM: Interpretable Single-Cell Counterfactual Editing." arXiv
+  preprint arXiv:2606.07760 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2606.07760
+- https://github.com/almaan/scCBGM
+review_basis: abstract
+reviewed: false

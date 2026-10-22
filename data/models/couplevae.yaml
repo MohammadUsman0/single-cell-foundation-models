@@ -1,0 +1,34 @@
+id: couplevae
+kind: model
+name: CoupleVAE
+title: 'CoupleVAE: coupled variational autoencoders for predicting perturbational single-cell RNA sequencing
+  data'
+year: 2025
+venue: Briefings in Bioinformatics
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: scRNA-seq (perturbation)
+architecture: Coupled VAEs with a latent coupler
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: vae
+key: Two coupled VAEs translate control-cell latents into perturbed-cell latents to generate perturbed
+  profiles.
+links:
+  paper: https://doi.org/10.1093/bib/bbaf126
+  code: https://github.com/LiminLi-xjtu/CoupleVAE
+citation: 'Wu, Yahao, Jing Liu, Yanni Xiao, Shuqin Zhang, and Limin Li. "CoupleVAE: coupled variational
+  autoencoders for predicting perturbational single-cell RNA sequencing data." Briefings in Bioinformatics
+  26, no. 2 (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1093/bib/bbaf126
+- https://github.com/LiminLi-xjtu/CoupleVAE
+review_basis: abstract
+reviewed: false

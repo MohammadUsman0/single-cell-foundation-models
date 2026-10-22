@@ -1,0 +1,35 @@
+id: sc2flow
+kind: model
+name: sc2Flow
+title: 'sc2Flow: Mitigating Mean Prediction Bias in Single-Cell Perturbation with Dual-Stage Flow Matching'
+year: 2026
+venue: IJCAI
+category: perturbation
+tags:
+- perturbation
+- generative
+- drug-response
+modality: scRNA-seq (chemical perturbation)
+architecture: Dual-stage discrete + continuous flow matching with a transformer
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: flow-matching
+perturbation_type:
+- chemical
+key: First predicts which genes are expressed, then their levels, to avoid mean-prediction bias in drug
+  perturbation.
+links:
+  paper: https://doi.org/10.24963/ijcai.2026/757
+  code: https://github.com/hanwenlv-cmd/sc2Flow
+citation: 'Lyu, Hanwen, and Jiawei Luo. "sc2Flow: Mitigating Mean Prediction Bias in Single-Cell Perturbation
+  with Dual-Stage Flow Matching." In Proceedings of the Thirty-Fifth International Joint Conference on
+  Artificial Intelligence (2026): 6807-6814.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.24963/ijcai.2026/757
+- https://github.com/hanwenlv-cmd/sc2Flow
+review_basis: abstract
+reviewed: false

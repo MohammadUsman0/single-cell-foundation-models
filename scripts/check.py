@@ -65,6 +65,7 @@ def citation_journal(cit, title=""):
     """Journal named in a citation string, ignoring the quoted paper title."""
     low = re.sub(r'"[^"]*"|“[^”]*”', " ", cit or "").lower()
     low = low.replace("springer nature", " ")  # the publisher, not the journal Nature
+    low = re.sub(r"conference on [^.]*", " ", low)  # conference names such as "...Conference on Bioinformatics, ..."
     if title:
         low = low.replace(title.lower(), " ")
     for j in JOURNALS:

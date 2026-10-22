@@ -1,0 +1,26 @@
+id: pharos
+kind: resource
+type: tool
+title: 'PHAROS: turning single-cell perturbation models into target-directed drug-combination screens'
+aliases:
+- PHAROS
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- drug-response
+- virtual-cell
+key: Turns a pretrained single-cell perturbation model into a target-directed search engine for drug combinations,
+  chaining single-drug predictions.
+links:
+  preprint: https://doi.org/10.64898/2026.09.08.749477
+  code: https://github.com/jbezney61/PHAROS
+citation: 'Bezney, Jon, Carlo Ruggeri, Federico Borra, Lei S. Qi, Francesca Buffa, and Lars M. Steinmetz.
+  "PHAROS: turning single-cell perturbation models into target-directed drug-combination screens." bioRxiv
+  (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.09.08.749477
+- https://github.com/jbezney61/PHAROS
+review_basis: abstract
+reviewed: false

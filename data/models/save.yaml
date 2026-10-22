@@ -1,0 +1,32 @@
+id: save
+kind: model
+name: SAVE
+title: 'SAVE: A Generalizable Framework for Multi-Condition Single-Cell Generation with Gene Block Attention'
+year: 2026
+venue: arXiv
+category: generative
+tags:
+- generative
+- scrna-seq
+- perturbation
+modality: scRNA-seq (multi-condition)
+architecture: Conditional transformer with gene-block attention
+inputs:
+- expression
+outputs:
+- generated-cells
+- perturbation-response
+key: Conditional transformer that groups genes into blocks for multi-condition generation, batch correction
+  and perturbation prediction.
+links:
+  preprint: https://arxiv.org/abs/2604.16776
+  code: https://github.com/fdu-wangfeilab/sc-save
+citation: 'Li, Jiahao, Jiayi Dong, Peng Ye, Xiaochi Zhou, Haohai Lu, and Fei Wang. "SAVE: A Generalizable
+  Framework for Multi-Condition Single-Cell Generation with Gene Block Attention." arXiv preprint arXiv:2604.16776
+  (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2604.16776
+- https://github.com/fdu-wangfeilab/sc-save
+review_basis: abstract
+reviewed: false

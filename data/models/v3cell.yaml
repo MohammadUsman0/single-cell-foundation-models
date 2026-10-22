@@ -1,0 +1,35 @@
+id: v3cell
+kind: model
+name: V3Cell
+title: 'V3Cell: A Vision-Guided Virtual 3D Cell Framework for Phenotypic Modeling and Perturbation Prediction'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- imaging
+- virtual-cell
+modality: Brightfield organoid imaging
+architecture: Vision-guided virtual 3D organoid model
+inputs:
+- cell-image
+- perturbation
+outputs:
+- image
+- perturbation-response
+perturbation_type:
+- chemical
+key: Builds virtual 3D organoids from brightfield images to predict morphology and fate under chemical
+  perturbation, without omics.
+links:
+  preprint: https://doi.org/10.64898/2026.06.23.734130
+  code: https://github.com/Laineyoulu/V3Cell
+citation: 'You, Lu, Xun Deng, Chenke Xu, Xiaobo Zhu, Zhigang Zhang, Pengyu Chen, Xiwen Yang et al. "V3Cell:
+  A Vision-Guided Virtual 3D Cell Framework for Phenotypic Modeling and Perturbation Prediction." bioRxiv
+  (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.06.23.734130
+- https://github.com/Laineyoulu/V3Cell
+review_basis: abstract
+reviewed: false

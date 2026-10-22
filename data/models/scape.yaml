@@ -1,0 +1,34 @@
+id: scape
+kind: model
+name: ScAPE
+title: 'ScAPE: A lightweight multitask learning baseline method to predict transcriptomic responses to
+  perturbations'
+year: 2025
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- drug-response
+modality: Transcriptomic perturbation responses
+architecture: Lightweight multitask network
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- chemical
+key: Lightweight multitask baseline for predicting expression responses to perturbations, with a software
+  API.
+links:
+  preprint: https://doi.org/10.1101/2025.09.08.674873
+  code: https://github.com/scapeML/scape
+citation: 'Romero-Tapiador, Sergio, Pablo Rodriguez-Mier, Martin Garrido-Rodriguez, Ruben Tolosana, Aythami
+  Morales, and Julio Saez-Rodriguez. "ScAPE: A lightweight multitask learning baseline method to predict
+  transcriptomic responses to perturbations." bioRxiv (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1101/2025.09.08.674873
+- https://github.com/scapeML/scape
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,30 @@
+id: cstate
+kind: model
+name: CSTATE
+title: 'CSTATE: Predicting cellular responses to perturbations'
+year: 2026
+venue: ACM-BCB
+category: perturbation
+tags:
+- perturbation
+- foundation-model
+modality: Single-cell (perturbation)
+architecture: Single-cell model with an SCM layer over learned gene modules
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+key: Extends single-cell models to estimate interventional treatment effects by reading learned gene modules
+  as a structural causal model.
+links:
+  paper: https://doi.org/10.1145/3807503.3819991
+code_status: none-found
+citation: 'Shankar, Shiv. "CSTATE: Predicting cellular responses to perturbations." In Proceedings of
+  the 17th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics
+  (2026): 1-6.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1145/3807503.3819991
+review_basis: abstract
+reviewed: false

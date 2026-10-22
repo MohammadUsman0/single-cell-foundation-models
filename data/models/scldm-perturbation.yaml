@@ -1,0 +1,37 @@
+id: scldm-perturbation
+kind: model
+name: scLDM
+title: 'scLDM: a conditional diffusion framework for single-cell perturbation prediction'
+year: 2026
+venue: Bioinformatics
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: scRNA-seq (perturbation)
+architecture: Conditional latent diffusion
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: diffusion
+generalization:
+- cross-species
+key: Latent-diffusion model that compresses expression and generates perturbed cells conditioned on cell
+  state and stimulus.
+links:
+  paper: https://doi.org/10.1093/bioinformatics/btag727
+  code: https://github.com/samrogers1233/scLDM
+citation: 'Wu, Boyang, Yuhang Liu, Yue Cheng, Xiangrong Liu, Quan Zou, Leyi Wei, and Lei Xu. "scLDM: a
+  conditional diffusion framework for single-cell perturbation prediction." Bioinformatics 42, no. 10
+  (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1093/bioinformatics/btag727
+- https://github.com/samrogers1233/scLDM
+review_basis: abstract
+reviewed: false
+review_notes:
+- Not the same model as `scldm` (CZI's latent-diffusion expression generator with the same name).

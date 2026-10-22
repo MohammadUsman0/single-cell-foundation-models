@@ -1,0 +1,43 @@
+id: aroma
+kind: model
+name: AROMA
+title: 'AROMA: Augmented Reasoning Over a Multimodal Architecture for Virtual Cell Genetic Perturbation
+  Modeling'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- virtual-cell
+- llm
+- text
+modality: Genetic perturbation (multimodal evidence)
+architecture: Reasoning model over text, graph and retrieval
+inputs:
+- expression
+- perturbation
+- text
+- prior-network
+outputs:
+- perturbation-response
+- text
+architecture_family: llm
+perturbation_type:
+- genetic
+generalization:
+- unseen-cell-context
+key: Combines textual evidence, regulatory graphs and retrieval with reasoning for interpretable genetic
+  perturbation prediction.
+links:
+  preprint: https://arxiv.org/abs/2604.20263
+  code: https://github.com/blazerye/AROMA
+  weights: https://huggingface.co/blazerye/AROMA
+citation: 'Wang, Zhenyu, Geyan Ye, Wei Liu, and Man Tat Alexander Ng. "AROMA: Augmented Reasoning Over
+  a Multimodal Architecture for Virtual Cell Genetic Perturbation Modeling." arXiv preprint arXiv:2604.20263
+  (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2604.20263
+- https://github.com/blazerye/AROMA
+review_basis: abstract
+reviewed: false

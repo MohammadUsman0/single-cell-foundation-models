@@ -1,0 +1,39 @@
+id: scotm
+kind: model
+name: scOTM
+title: 'scOTM: A Deep Learning Framework for Predicting Single-Cell Perturbation Responses with Large
+  Language Models'
+year: 2025
+venue: Bioengineering
+category: perturbation
+tags:
+- perturbation
+- drug-response
+- llm
+- scrna-seq
+modality: scRNA-seq (drug perturbation)
+architecture: Latent model with LLM-derived embeddings and optimal transport
+inputs:
+- expression
+- perturbation
+- text
+outputs:
+- perturbation-response
+perturbation_type:
+- chemical
+generalization:
+- unseen-cell-context
+key: Maps control to drug-perturbed cells with optimal transport in a latent space informed by language-model
+  embeddings.
+links:
+  paper: https://doi.org/10.3390/bioengineering12080884
+  code: https://github.com/WangyuchenCS/scOTM
+citation: 'Wang, Yuchen, Tianchi Lu, Xingjian Chen, Zhongyu Yao, and Ka-Chun Wong. "scOTM: A Deep Learning
+  Framework for Predicting Single-Cell Perturbation Responses with Large Language Models." Bioengineering
+  12, no. 8 (2025): 884.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.3390/bioengineering12080884
+- https://github.com/WangyuchenCS/scOTM
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,33 @@
+id: poppert
+kind: model
+name: PopPert
+title: 'PopPert: Population-level Joint-Distribution Modeling for Single-Cell Perturbation Prediction'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- generative
+modality: scRNA-seq (genetic and chemical perturbation)
+architecture: Population-level joint-distribution model
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- generated-cells
+perturbation_type:
+- genetic
+- chemical
+key: Models control and perturbed populations jointly instead of assuming cell-to-cell correspondence.
+links:
+  preprint: https://arxiv.org/abs/2609.01357
+  code: https://github.com/whd1125/PopPert
+citation: 'Wang, Handong, Jiaxin Qi, Haochen Feng, and Baisheng Lai. "PopPert: Population-level Joint-Distribution
+  Modeling for Single-Cell Perturbation Prediction." arXiv preprint arXiv:2609.01357 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2609.01357
+- https://github.com/whd1125/PopPert
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,36 @@
+id: perturbldm
+kind: model
+name: PerturbLDM
+title: 'PerturbLDM: conditional latent diffusion for modelling single-cell perturbation responses'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- drug-response
+modality: scRNA-seq (drug and other perturbations)
+architecture: Conditional latent diffusion pretrained on Tahoe-100M
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- generated-cells
+architecture_family: diffusion
+perturbation_type:
+- chemical
+key: Latent-diffusion model pretrained on Tahoe-100M that generates responses for unseen drug, dose and
+  cell-line combinations.
+links:
+  preprint: https://doi.org/10.64898/2026.08.07.743610
+  code: https://github.com/davidroad/PerturbLDM
+citation: 'Yu, Lishan, Kang-Lin Hsieh, Yan Chu, Qizhen Lan, Xingzhong Zhao, Yu-Chun Hsu, Cassidy S. Wood
+  et al. "PerturbLDM: conditional latent diffusion for modelling single-cell perturbation responses."
+  bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.08.07.743610
+- https://github.com/davidroad/PerturbLDM
+review_basis: abstract
+reviewed: false
