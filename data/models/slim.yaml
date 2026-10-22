@@ -1,0 +1,33 @@
+id: slim
+kind: model
+name: SLIM
+title: 'SLIM: A small linear model with STRING embeddings for single-cell genetic perturbation prediction'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: Perturb-seq
+architecture: Bilinear predictor with STRING embeddings
+inputs:
+- expression
+- perturbation
+- prior-network
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+key: Tiny linear model (640 parameters) with STRING-derived perturbation embeddings that builds realistic
+  cell populations.
+links:
+  preprint: https://doi.org/10.64898/2026.08.07.743481
+  code: https://github.com/RasmussenLab/SLIM
+citation: 'Hu, Dewei, Marc Pielies Avellí, Lars Juhl Jensen, and Simon Rasmussen. "SLIM: A small linear
+  model with STRING embeddings for single-cell genetic perturbation prediction." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.08.07.743481
+- https://github.com/RasmussenLab/SLIM
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,35 @@
+id: primeflow
+kind: model
+name: PRiMeFlow
+title: 'PRiMeFlow: Capturing Complex Expression Heterogeneity in Perturbation Response Modelling'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- virtual-cell
+modality: scRNA-seq (genetic and small-molecule perturbation)
+architecture: Flow matching in gene space with a U-Net velocity field
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: flow-matching
+perturbation_type:
+- genetic
+- chemical
+key: End-to-end flow matching in expression space, scaled with pretraining on a perturbation atlas.
+links:
+  preprint: https://arxiv.org/abs/2604.13986
+  code: https://github.com/altoslabs/primeflow
+citation: 'Yan, Zichao, Yan Wu, Mica Xu Ji, Chaitra Agrahar, Esther Wershof, Marcel Nassar, Mehrshad Sadria
+  et al. "PRiMeFlow: Capturing Complex Expression Heterogeneity in Perturbation Response Modelling." arXiv
+  preprint arXiv:2604.13986 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2604.13986
+- https://github.com/altoslabs/primeflow
+review_basis: abstract
+reviewed: false

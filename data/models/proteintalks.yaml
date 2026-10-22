@@ -1,9 +1,11 @@
 id: proteintalks
 kind: model
 name: ProteinTalks
-title: A Perturbation Proteomics-Based Foundation Model for Virtual Cell Construction
-year: 2025
-venue: bioRxiv
+aliases:
+- A Perturbation Proteomics-Based Foundation Model for Virtual Cell Construction
+title: An operational perturbation proteomics-based virtual cell model
+year: 2026
+venue: Nature
 category: proteomics
 tags:
 - proteomics
@@ -19,12 +21,14 @@ perturbation_type:
 - chemical
 - combination
 links:
-  paper: https://doi.org/10.1101/2025.02.07.637070
+  paper: https://doi.org/10.1038/s41586-026-11001-9
+  preprint: https://doi.org/10.1101/2025.02.07.637070
   code: https://github.com/guomics-lab/PTV-1/tree/main/ProteinTalks
-citation: Sun, Rui, Liujia Qian, Yongge Li, Honghan Cheng, Zhangzhi Xue, Xuedong Zhang, Lingling Tan et
-  al. "A perturbation proteomics-based foundation model for virtual cell construction." bioRxiv (2025).
+citation: Sun, Rui, Liujia Qian, Yongge Li, Tong Liu, Honghan Cheng, Xuedong Zhang, Xueya Zhou et al.
+  "An operational perturbation proteomics-based virtual cell model." Nature (2026).
 added: '2026-06-02'
 sources:
+- https://doi.org/10.1038/s41586-026-11001-9
 - https://doi.org/10.1101/2025.02.07.637070
 review_basis: abstract
 reviewed: false

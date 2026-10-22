@@ -1,0 +1,35 @@
+id: scdifformer
+kind: model
+name: scDifformer
+title: 'scDifformer: diffusion-based post-training for virtual cell modeling across large-scale single-cell
+  data'
+year: 2026
+venue: Nucleic Acids Research
+category: generative
+tags:
+- generative
+- virtual-cell
+- scrna-seq
+- foundation-model
+modality: Large-scale scRNA-seq
+architecture: Transformer with diffusion post-training
+inputs:
+- expression
+outputs:
+- cell-embedding
+- generated-cells
+architecture_family: diffusion
+key: Adds a denoising-diffusion module to a context-aware transformer as post-training for virtual cell
+  modelling across noisy, heterogeneous data.
+links:
+  paper: https://doi.org/10.1093/nar/gkag706
+  code: https://github.com/yaoqiqi17732/scDifformer
+citation: 'Xiao, Zhan, Wuke Wang, Xin Long, Wenbo Zhang, Weiqiang Zhang, Duoyuan Chen, Sujie Xu et al.
+  "scDifformer: diffusion-based post-training for virtual cell modeling across large-scale single-cell
+  data." Nucleic Acids Research 54, no. 13 (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1093/nar/gkag706
+- https://github.com/yaoqiqi17732/scDifformer
+review_basis: abstract
+reviewed: false

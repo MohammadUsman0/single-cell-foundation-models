@@ -1,0 +1,34 @@
+id: screpa
+kind: model
+name: scREPA
+title: 'scREPA: Predicting single-cell perturbation responses with cycle-consistent representation alignment'
+year: 2026
+venue: Computational Biology and Chemistry
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+- foundation-model
+modality: scRNA-seq (perturbation)
+architecture: Cycle-consistent representation alignment with optimal transport
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+generalization:
+- unseen-perturbation
+key: Aligns foundation-model representations with cycle consistency and uses optimal transport to map
+  control to perturbed cells.
+links:
+  paper: https://doi.org/10.1016/j.compbiolchem.2025.108712
+  code: https://github.com/WangyuchenCS/scREPA
+citation: 'Wang, Yuchen, Xingjian Chen, Xiangtao Li, and Ka-Chun Wong. "scREPA: Predicting single-cell
+  perturbation responses with cycle-consistent representation alignment." Computational Biology and Chemistry
+  120 (2026): 108712.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1016/j.compbiolchem.2025.108712
+- https://github.com/WangyuchenCS/scREPA
+review_basis: abstract
+reviewed: false

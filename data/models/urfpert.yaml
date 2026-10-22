@@ -1,0 +1,36 @@
+id: urfpert
+kind: model
+name: URFPert
+title: 'URFPert: Unrolled Regulatory Flow Networks for Out-of-Distribution Single-Cell Perturbation Prediction'
+year: 2026
+venue: IJCAI
+category: perturbation
+tags:
+- perturbation
+- gene-regulation
+modality: scRNA-seq (perturbation screens)
+architecture: Unrolled regulatory flow network
+inputs:
+- expression
+- perturbation
+- prior-network
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+generalization:
+- unseen-perturbation
+key: Unrolls state-dependent regulatory flows for out-of-distribution perturbation prediction.
+links:
+  paper: https://doi.org/10.24963/ijcai.2026/534
+  code: https://github.com/Jiniretttt/URFPert
+citation: 'Sheng, Xiaoqi, Jiawen Liu, Yutong Li, Sankar Mondal, Jiaming Liang, Tinghe Zhang, and Hongmin
+  Cai. "URFPert: Unrolled Regulatory Flow Networks for Out-of-Distribution Single-Cell Perturbation Prediction."
+  In Proceedings of the Thirty-Fifth International Joint Conference on Artificial Intelligence (2026):
+  4795-4803.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.24963/ijcai.2026/534
+- https://github.com/Jiniretttt/URFPert
+review_basis: abstract
+reviewed: false

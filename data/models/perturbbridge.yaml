@@ -1,0 +1,34 @@
+id: perturbbridge
+kind: model
+name: PerturbBridge
+title: 'PerturbBridge: Direct Phenotypic Supervision for Cellular Perturbation Generation'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- imaging
+- generative
+- virtual-cell
+modality: Cell imaging (perturbation)
+architecture: Diffusion bridge with direct phenotypic supervision
+inputs:
+- cell-image
+- perturbation
+outputs:
+- image
+architecture_family: diffusion
+key: Image-based virtual cell model that supervises perturbation responses directly during diffusion-bridge
+  training.
+links:
+  preprint: https://arxiv.org/abs/2610.17066
+  code: https://github.com/yyc1215lll-creator/PerturbBridge
+citation: 'Yang, Yucheng, Xiaoxiao Sun, Huangqingbo Sun, Elaine Sui, Emma Lundberg, and Serena Yeung-Levy.
+  "PerturbBridge: Direct Phenotypic Supervision for Cellular Perturbation Generation." arXiv preprint
+  arXiv:2610.17066 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2610.17066
+- https://github.com/yyc1215lll-creator/PerturbBridge
+review_basis: abstract
+reviewed: false

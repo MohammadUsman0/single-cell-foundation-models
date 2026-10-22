@@ -1,0 +1,37 @@
+id: sherlock
+kind: model
+name: SHERLOCK
+title: 'SHERLOCK: Structured representation learning and causal inference of downstream perturbation effects'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- interpretability
+- scrna-seq
+modality: Single-cell CRISPR, chemical and spatial perturbation data
+architecture: Structured representation learning with causal inference
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- gene-embedding
+perturbation_type:
+- genetic
+- chemical
+- combination
+key: Unified framework learning interpretable perturbation representations, downstream effects and combination
+  predictions.
+links:
+  preprint: https://doi.org/10.64898/2026.09.25.754573
+  code: https://github.com/Computational-Immunogenomics/SherlockCell
+citation: 'Zhang, Mingxuan, Joshua D. Myers, Lingting Shi, Ross M. Giglio, Sharanya Chatterjee, José L.
+  McFaline-Figueroa, and Elham Azizi. "SHERLOCK: Structured representation learning and causal inference
+  of downstream perturbation effects." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.09.25.754573
+- https://github.com/Computational-Immunogenomics/SherlockCell
+review_basis: abstract
+reviewed: false

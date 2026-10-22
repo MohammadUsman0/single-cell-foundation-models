@@ -1,0 +1,36 @@
+id: scrgp
+kind: model
+name: scRGP
+title: 'scRGP: Prediction of Single-cell Genetic Perturbation Transcriptional Responses based on Rank
+  in Multiple Scenarios'
+year: 2025
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: Perturb-seq / CROP-seq
+architecture: Rank-based perturbation model
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- combination
+generalization:
+- unseen-cell-context
+key: Rank-based model for single, double and triple gene perturbations and cross-cell-line prediction.
+links:
+  preprint: https://doi.org/10.1101/2025.09.30.679477
+  code: https://github.com/yuf-Liu/scRGP
+citation: 'Liu, Yufeng, Hao Zhang, Mingmin Xu, Duowei Wang, Weiwei Hu, Liangyun Zhang, Yong Yang et al.
+  "scRGP: Prediction of Single-cell Genetic Perturbation Transcriptional Responses based on Rank in Multiple
+  Scenarios." bioRxiv (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1101/2025.09.30.679477
+- https://github.com/yuf-Liu/scRGP
+review_basis: abstract
+reviewed: false

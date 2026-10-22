@@ -1,0 +1,36 @@
+id: cycseq
+kind: model
+name: CycSeq
+title: 'CycSeq: Leveraging Cyclic Data Generation for Accurate Perturbation Prediction in Single-Cell
+  RNA-Seq'
+year: 2025
+venue: IJCAI
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: scRNA-seq (perturbation, multiple cell lines)
+architecture: Cyclic data generation with pseudo-pairs
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- generated-cells
+generalization:
+- unseen-cell-context
+key: Builds pseudo-pairs from unpaired data by cyclic generation and shares one model across cell lines,
+  helping rare ones.
+links:
+  paper: https://doi.org/10.24963/ijcai.2025/1031
+  code: https://github.com/yczju/cycseq
+citation: 'Liu, Yicheng, Sai Wu, Tianyun Zhang, Chang Yao, and Ning Shen. "CycSeq: Leveraging Cyclic Data
+  Generation for Accurate Perturbation Prediction in Single-Cell RNA-Seq." In Proceedings of the Thirty-Fourth
+  International Joint Conference on Artificial Intelligence (2025): 9277-9285.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.24963/ijcai.2025/1031
+- https://github.com/yczju/cycseq
+review_basis: abstract
+reviewed: false

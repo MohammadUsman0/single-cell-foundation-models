@@ -1,0 +1,34 @@
+id: decant
+kind: model
+name: DECANT
+title: 'DECANT: decoupling mechanism from context in single-cell drug perturbation representation'
+year: 2026
+venue: Bioinformatics
+category: perturbation
+tags:
+- perturbation
+- drug-response
+- scrna-seq
+modality: scRNA-seq (chemical perturbation)
+architecture: Representation learning separating mechanism from context
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- cell-embedding
+perturbation_type:
+- chemical
+key: Learns drug representations that separate mechanism-associated signal from cell identity, dose and
+  time.
+links:
+  paper: https://doi.org/10.1093/bioinformatics/btag662
+  code: https://github.com/bliulab/DECANT
+citation: 'Qi, Ren, Wenjie Teng, Xin Yang, Yue Cheng, Alexey K Shaytan, and Bin Liu. "DECANT: decoupling
+  mechanism from context in single-cell drug perturbation representation." Bioinformatics 42, no. 9 (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1093/bioinformatics/btag662
+- https://github.com/bliulab/DECANT
+review_basis: abstract
+reviewed: false

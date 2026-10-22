@@ -1,0 +1,24 @@
+id: cellens
+kind: resource
+type: tool
+title: Human-Guided Causal Knowledge Injection for Virtual Cells
+aliases:
+- CELLens
+year: 2026
+venue: arXiv
+tags:
+- virtual-cell
+- interpretability
+key: Visual-analytics tool for exploring, validating and refining causal graphs injected into virtual
+  cell models.
+links:
+  preprint: https://arxiv.org/abs/2608.08430
+  code: https://github.com/hnu-vis/CELLens
+citation: Wang, Pengcheng, Changjian Chen, Zhuo Tang, You Wu, Long Wang, Feng Yu, and Kenli Li. "Human-Guided
+  Causal Knowledge Injection for Virtual Cells." arXiv preprint arXiv:2608.08430 (2026).
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2608.08430
+- https://github.com/hnu-vis/CELLens
+review_basis: abstract
+reviewed: false

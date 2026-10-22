@@ -1,0 +1,37 @@
+id: perttf
+kind: model
+name: pertTF
+title: 'pertTF: context-aware AI modeling for genome-scale and cross-system perturbation prediction'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+- foundation-model
+modality: Genome-scale single-cell CRISPR screens
+architecture: Transformer perturbation model
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: transformer-encoder
+perturbation_type:
+- genetic
+generalization:
+- unseen-cell-context
+key: Transformer trained on genome-scale perturbation data that predicts phenotypes beyond expression
+  and transfers to primary human islets.
+links:
+  preprint: https://doi.org/10.64898/2026.03.12.711379
+  code: https://github.com/davidliwei/pertTF
+citation: 'Su, Yangqi, Dingyu Liu, Vipin Menon, Bicna Song, Samuel Boccara, Nan Zhang, Huan Zhao et al.
+  "pertTF: context-aware AI modeling for genome-scale and cross-system perturbation prediction." bioRxiv
+  (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.03.12.711379
+- https://github.com/davidliwei/pertTF
+review_basis: abstract
+reviewed: false

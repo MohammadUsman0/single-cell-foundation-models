@@ -1,0 +1,35 @@
+id: drift
+kind: model
+name: DRIFT
+title: 'DRIFT: Disentangled Responsive-Invariant Flow Transport for Single-Cell Perturbation Prediction'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- generative
+modality: scRNA-seq (perturbation)
+architecture: Disentangled flow matching (invariant + responsive blocks)
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: flow-matching
+perturbation_type:
+- combination
+generalization:
+- unseen-perturbation
+key: Separates perturbation-invariant from responsive cell state and transports only the responsive part
+  with flow matching.
+links:
+  preprint: https://arxiv.org/abs/2609.35106
+  code: https://github.com/MustaphaBounoua/drift
+citation: 'Bounoua, Mustapha, Giulio Franzese, and Pietro Michiardi. "DRIFT: Disentangled Responsive-Invariant
+  Flow Transport for Single-Cell Perturbation Prediction." arXiv preprint arXiv:2609.35106 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2609.35106
+- https://github.com/MustaphaBounoua/drift
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,35 @@
+id: multipert
+kind: model
+name: MultiPert
+title: 'MultiPert: An adversarial alignment and dual attention framework for single-cell multi-omics perturbation
+  prediction'
+year: 2026
+venue: PLOS Computational Biology
+category: perturbation
+tags:
+- perturbation
+- multi-omics
+- proteomics
+modality: Single-cell multi-omics (RNA + protein) perturbation
+architecture: Adversarial alignment with dual attention
+inputs:
+- expression
+- protein-abundance
+- perturbation
+outputs:
+- perturbation-response
+generalization:
+- unseen-perturbation
+key: Predicts perturbation responses jointly at the RNA and protein level by aligning modalities adversarially.
+links:
+  paper: https://doi.org/10.1371/journal.pcbi.1014054
+  code: https://github.com/MengyuanZhaoo/MultiPert
+citation: 'Zhao, Mengyuan, Xinyue Tang, Jiawei Li, Cheng Liang, Jijun Tang, and Fei Guo. "MultiPert: An
+  adversarial alignment and dual attention framework for single-cell multi-omics perturbation prediction."
+  PLOS Computational Biology 22, no. 3 (2026): e1014054.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1371/journal.pcbi.1014054
+- https://github.com/MengyuanZhaoo/MultiPert
+review_basis: abstract
+reviewed: false

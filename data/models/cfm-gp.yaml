@@ -1,0 +1,37 @@
+id: cfm-gp
+kind: model
+name: CFM-GP
+title: 'CFM-GP: unified conditional flow matching to learn gene perturbation across cell types'
+year: 2026
+venue: NAR Genomics and Bioinformatics
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: scRNA-seq (genetic perturbation)
+architecture: Conditional flow matching
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: flow-matching
+perturbation_type:
+- genetic
+generalization:
+- unseen-cell-context
+- cross-species
+key: One conditional flow-matching model that learns gene-perturbation effects across cell types instead
+  of per-type mappings.
+links:
+  paper: https://doi.org/10.1093/nargab/lqag087
+  code: https://github.com/abrarrahmanabir/CFM-GP
+citation: 'Abir, Abrar Rahman, Sajib Acharjee Dip, and Liqing Zhang. "CFM-GP: unified conditional flow
+  matching to learn gene perturbation across cell types." NAR Genomics and Bioinformatics 8, no. 3 (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1093/nargab/lqag087
+- https://github.com/abrarrahmanabir/CFM-GP
+review_basis: abstract
+reviewed: false
