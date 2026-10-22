@@ -1,0 +1,26 @@
+id: learnability-single-cell-llms
+kind: resource
+type: benchmark
+title: Evaluating the learnability of single-cell large language models on multiple tasks
+year: 2026
+venue: BMC Genomics
+tags:
+- foundation-model
+- scrna-seq
+- perturbation
+key: Tests whether larger models and more data help Geneformer and scGPT on perturbation prediction and
+  annotation, using real and synthetic data.
+links:
+  paper: https://doi.org/10.1186/s12864-026-12975-6
+evaluates:
+- geneformer
+- scgpt
+findings: Scaling gives little or even hurts; for perturbation prediction the models seem to capture little
+  beyond summary statistics.
+citation: Yan, Yu, Xutao Wang, and Dongyuan Song. "Evaluating the learnability of single-cell large language
+  models on multiple tasks." BMC Genomics 27, no. 1 (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1186/s12864-026-12975-6
+review_basis: abstract
+reviewed: false

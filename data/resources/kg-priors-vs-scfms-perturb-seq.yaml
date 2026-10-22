@@ -1,0 +1,21 @@
+id: kg-priors-vs-scfms-perturb-seq
+kind: resource
+type: benchmark
+title: Benchmarking biological knowledge-graph priors against single-cell foundation models for Perturb-seq
+  prediction
+year: 2026
+venue: Computational Biology and Chemistry
+tags:
+- perturbation
+- foundation-model
+key: Compares biological knowledge-graph priors with single-cell foundation models for Perturb-seq prediction.
+links:
+  paper: https://doi.org/10.1016/j.compbiolchem.2026.109480
+citation: 'Ni, Jie, Xinting Zhang, Mingyang Li, Yuhan Cai, Zhuoying Xie, and Yun Liu. "Benchmarking biological
+  knowledge-graph priors against single-cell foundation models for Perturb-seq prediction." Computational
+  Biology and Chemistry 126 (2026): 109480.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1016/j.compbiolchem.2026.109480
+review_basis: metadata
+reviewed: false

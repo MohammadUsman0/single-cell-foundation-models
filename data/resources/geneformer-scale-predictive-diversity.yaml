@@ -1,0 +1,24 @@
+id: geneformer-scale-predictive-diversity
+kind: resource
+type: benchmark
+title: Assessing scale and predictive diversity in models for single-cell transcriptomics based on Geneformer
+year: 2026
+venue: PLOS Computational Biology
+tags:
+- foundation-model
+- scrna-seq
+key: Studies architecture and pretraining scale for Geneformer-style rank-based models (GF-CAB).
+links:
+  paper: https://doi.org/10.1371/journal.pcbi.1013701
+evaluates:
+- geneformer
+findings: More pretraining data does not uniformly help; models trained on much less data can match or
+  beat larger ones.
+citation: 'Chen, Junfan, Fabian Schmidt, and Ricardo Henao. "Assessing scale and predictive diversity
+  in models for single-cell transcriptomics based on Geneformer." PLOS Computational Biology 22, no. 7
+  (2026): e1013701.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1371/journal.pcbi.1013701
+review_basis: abstract
+reviewed: false

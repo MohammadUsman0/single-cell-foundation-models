@@ -1,0 +1,21 @@
+id: reference-cell-design-perturbation-evaluation
+kind: resource
+type: benchmark
+title: Reference-cell design shapes model evaluation in single-cell perturbation prediction
+year: 2026
+venue: Research Square
+tags:
+- perturbation
+- scrna-seq
+key: Shows how the choice and allocation of control (reference) cells changes perturbation benchmark results.
+links:
+  preprint: https://doi.org/10.21203/rs.3.rs-11119348/v1
+findings: Reassigning control cells can reverse model rankings without changing any model or metric.
+citation: Zhou, Hao, Luying Su, Minghao Liu, Assina Abdussaitova, Barbara Tarantino, Paolo Giudici, Antonello
+  Maruotti et al. "Reference-cell design shapes model evaluation in single-cell perturbation prediction."
+  Research Square (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.21203/rs.3.rs-11119348/v1
+review_basis: abstract
+reviewed: false

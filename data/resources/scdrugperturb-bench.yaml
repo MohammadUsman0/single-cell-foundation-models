@@ -1,0 +1,25 @@
+id: scdrugperturb-bench
+kind: resource
+type: benchmark
+title: A mechanism-annotated benchmark reveals limited fidelity to drug-response signatures in single-cell
+  perturbation models
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- drug-response
+- scrna-seq
+key: 'scDrugPerturb-Bench: links drug perturbation profiles to curated drug-response signatures to test
+  mechanism fidelity, not just reconstruction.'
+links:
+  preprint: https://doi.org/10.64898/2026.08.19.745729
+findings: Models show limited fidelity to drug-response signatures; good reconstruction is a poor proxy,
+  and frozen FM embeddings give only local gains.
+citation: Li, Lehang, Shaoming Duan, Xinyu Zha, Ye Fang, Yuhao Zhang, Xinyi Zhang, Yang Cao et al. "A
+  mechanism-annotated benchmark reveals limited fidelity to drug-response signatures in single-cell perturbation
+  models." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.08.19.745729
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,24 @@
+id: el-perturb
+kind: resource
+type: benchmark
+title: 'Genetic Perturbation Prediction Models Fail Out-of-Distribution: A Rigorous Benchmark and Systematic
+  Evaluation'
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- scrna-seq
+key: 'EL-PERTURB: stress-tests 20 perturbation models under stratified out-of-distribution splits on essential-gene
+  and genome-wide screens.'
+links:
+  preprint: https://doi.org/10.64898/2026.10.16.759604
+findings: Performance drops sharply out of distribution, and complexity, including foundation-model embeddings,
+  gives no reliable advantage.
+citation: 'Tiwari, Kanupriya, Gaurang Mahajan, Renuka Prakash Bellad, Nobal Kishor Dhruw, and Abhishek
+  K Jha. "Genetic Perturbation Prediction Models Fail Out-of-Distribution: A Rigorous Benchmark and Systematic
+  Evaluation." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.10.16.759604
+review_basis: abstract
+reviewed: false

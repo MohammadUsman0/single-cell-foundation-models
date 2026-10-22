@@ -1,0 +1,22 @@
+id: benchmarking-llms-cell-typing
+kind: resource
+type: benchmark
+title: Benchmarking large language models for cell typing in single-cell RNA-Seq
+year: 2025
+venue: Briefings in Bioinformatics
+tags:
+- llm
+- scrna-seq
+key: Benchmarks seven LLMs and three classical tools for cell-type annotation on 34 human and mouse datasets
+  (DeepCellSeek).
+links:
+  paper: https://doi.org/10.1093/bib/bbaf677
+findings: LLMs clearly beat traditional methods, especially for fine subtypes, and an ensemble of the
+  top models does best.
+citation: Xiao, Tianxiang, Dezhi Hua, Yanan Wang, Xuemei Lu, and Chao Zhang. "Benchmarking large language
+  models for cell typing in single-cell RNA-Seq." Briefings in Bioinformatics 26, no. 6 (2025).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1093/bib/bbaf677
+review_basis: abstract
+reviewed: false

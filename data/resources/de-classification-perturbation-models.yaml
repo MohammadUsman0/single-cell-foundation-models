@@ -1,0 +1,23 @@
+id: de-classification-perturbation-models
+kind: resource
+type: benchmark
+title: 'Beyond Expression Prediction: Benchmarking Differential Expression Classification in Single-Cell
+  Perturbation Models'
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- scrna-seq
+key: Evaluates perturbation models on predicting differential-expression outcomes for unseen perturbations
+  and unseen cell lines.
+links:
+  preprint: https://doi.org/10.64898/2026.07.20.739620
+findings: Simple baselines like embedding nearest neighbours are competitive or better; sparsity calibration
+  helps deep models.
+citation: 'Sun, Junwei, Yuxun He, Ouyang Zhu, and Yiqun T. Chen. "Beyond Expression Prediction: Benchmarking
+  Differential Expression Classification in Single-Cell Perturbation Models." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.07.20.739620
+review_basis: abstract
+reviewed: false

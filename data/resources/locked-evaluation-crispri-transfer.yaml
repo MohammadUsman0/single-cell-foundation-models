@@ -1,0 +1,26 @@
+id: locked-evaluation-crispri-transfer
+kind: resource
+type: benchmark
+title: Can We Trust In-Distribution Success? Locked Evaluation Reveals Transfer Failure and Sampling-Depth
+  Entanglement in CRISPRi Perturbation Prediction
+year: 2026
+venue: arXiv
+tags:
+- perturbation
+- foundation-model
+key: Pre-registered, locked evaluation of a frozen Geneformer representation for CRISPRi perturbation-effect
+  prediction.
+links:
+  preprint: https://arxiv.org/abs/2608.00152
+evaluates:
+- geneformer
+findings: In-distribution success does not transfer, and the challenge endpoint is strongly tied to cell
+  count.
+citation: Shoeibi, Mehrdad, and Niloofar Yousefi. "Can We Trust In-Distribution Success? Locked Evaluation
+  Reveals Transfer Failure and Sampling-Depth Entanglement in CRISPRi Perturbation Prediction." arXiv
+  preprint arXiv:2608.00152 (2026).
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2608.00152
+review_basis: abstract
+reviewed: false

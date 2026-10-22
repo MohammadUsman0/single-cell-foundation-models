@@ -1,0 +1,23 @@
+id: pertreason
+kind: resource
+type: benchmark
+title: 'PertReason: A Knowledge-Grounded Benchmark and Framework for Cell-State-Conditioned Mechanistic
+  Reasoning of Perturbation Effects'
+year: 2026
+venue: arXiv
+tags:
+- perturbation
+- llm
+key: 'PertReason: benchmark of mechanistically faithful, cell-state-conditioned reasoning about perturbation
+  effects, with a reference model.'
+links:
+  preprint: https://arxiv.org/abs/2607.18777
+findings: Models often get correct answers through flawed logic or ignore cellular context.
+citation: 'Kim, Dongkwan, Yiming Gao, Yining Yang, and Yang Shen. "PertReason: A Knowledge-Grounded Benchmark
+  and Framework for Cell-State-Conditioned Mechanistic Reasoning of Perturbation Effects." arXiv preprint
+  arXiv:2607.18777 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2607.18777
+review_basis: abstract
+reviewed: false

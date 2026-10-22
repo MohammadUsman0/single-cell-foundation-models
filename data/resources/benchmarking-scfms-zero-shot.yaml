@@ -1,0 +1,26 @@
+id: benchmarking-scfms-zero-shot
+kind: resource
+type: benchmark
+title: Benchmarking single-cell foundation models in a zero-shot setting
+year: 2026
+venue: bioRxiv
+tags:
+- foundation-model
+- scrna-seq
+key: Zero-shot evaluation of four foundation models on annotation, protein-expression prediction and integration.
+links:
+  preprint: https://doi.org/10.64898/2026.08.03.739553
+evaluates:
+- transcriptformer
+- scimilarity
+- scgpt
+- uce
+findings: Baselines win most annotation and integration tasks; foundation embeddings help for protein
+  prediction (SCimilarity, TranscriptFormer).
+citation: Gaballa, Yasmine, Somaia Ahmed, and Tamim Abdelaal. "Benchmarking single-cell foundation models
+  in a zero-shot setting." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.08.03.739553
+review_basis: abstract
+reviewed: false

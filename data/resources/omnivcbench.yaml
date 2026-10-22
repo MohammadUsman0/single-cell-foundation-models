@@ -1,0 +1,20 @@
+id: omnivcbench
+kind: resource
+type: benchmark
+title: 'OmniVCBench: Benchmarking Evidence-Grounded Multimodal Reasoning Towards AI Virtual Cells'
+year: 2026
+venue: arXiv
+tags:
+- virtual-cell
+- llm
+key: 'OmniVCBench: figure-centred benchmark of how multimodal models interpret experimental evidence and
+  form hypotheses toward AI virtual cells.'
+links:
+  preprint: https://arxiv.org/abs/2609.37773
+citation: 'Li, Manyu, Xunkai Li, Yongfu Xiong, Yi Liu, Rong-Hua Li, and Guoren Wang. "OmniVCBench: Benchmarking
+  Evidence-Grounded Multimodal Reasoning Towards AI Virtual Cells." arXiv preprint arXiv:2609.37773 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2609.37773
+review_basis: abstract
+reviewed: false

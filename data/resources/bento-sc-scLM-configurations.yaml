@@ -1,0 +1,22 @@
+id: bento-sc-scLM-configurations
+kind: resource
+type: benchmark
+title: A systematic assessment of single-cell language model configurations
+year: 2026
+venue: NAR Genomics and Bioinformatics
+tags:
+- foundation-model
+- scrna-seq
+key: 'bento-sc: isolates pretraining choices of single-cell language models one at a time to find which
+  design decisions matter.'
+links:
+  paper: https://doi.org/10.1093/nargab/lqag095
+findings: scLMs do not yet beat baselines by much; best results come from minimally processed counts,
+  count-distribution losses, high masking rates and combined objectives.
+citation: Waele, Gaetan De, Gerben Menschaert, and Willem Waegeman. "A systematic assessment of single-cell
+  language model configurations." NAR Genomics and Bioinformatics 8, no. 3 (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1093/nargab/lqag095
+review_basis: abstract
+reviewed: false

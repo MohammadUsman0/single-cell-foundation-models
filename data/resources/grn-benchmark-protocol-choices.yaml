@@ -1,0 +1,27 @@
+id: grn-benchmark-protocol-choices
+kind: resource
+type: benchmark
+title: Evaluation protocol choices dominate reported performance in gene regulatory network benchmarks
+  for single-cell foundation models
+year: 2026
+venue: Research Square
+tags:
+- gene-regulation
+- foundation-model
+key: Decomposes GRN evaluation for scGPT attention networks into symbol mapping, gold standard, candidate
+  set and label noise.
+links:
+  preprint: https://doi.org/10.21203/rs.3.rs-9283852/v1
+evaluates:
+- scgpt
+findings: Protocol choices shift AUPR by orders of magnitude; under universe-aware scoring scGPT attention
+  falls below random, while GENIE3 and GRNBoost2 do better.
+citation: Kendiukhov, Ihor. "Evaluation protocol choices dominate reported performance in gene regulatory
+  network benchmarks for single-cell foundation models." Research Square (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.21203/rs.3.rs-9283852/v1
+review_basis: abstract
+reviewed: false
+review_notes:
+- Single-author preprint, not peer reviewed.

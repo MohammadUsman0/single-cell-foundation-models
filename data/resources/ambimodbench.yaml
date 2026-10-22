@@ -1,0 +1,22 @@
+id: ambimodbench
+kind: resource
+type: benchmark
+title: 'AmbiModBench: Benchmarking Gene Perturbation Prediction Beyond Shared Responses'
+year: 2026
+venue: arXiv
+tags:
+- perturbation
+- scrna-seq
+key: 'AmbiModBench: specificity-aware perturbation benchmark that separates target-specific predictions
+  from shared background responses.'
+links:
+  preprint: https://arxiv.org/abs/2609.32527
+findings: Strong absolute scores mostly reflect the shared background response rather than target-specific
+  learning.
+citation: 'Huang, Sikai, Zhiwen Yang, Kai Yu, Jiayuan Chen, and Stan Z. Li. "AmbiModBench: Benchmarking
+  Gene Perturbation Prediction Beyond Shared Responses." arXiv preprint arXiv:2609.32527 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2609.32527
+review_basis: abstract
+reviewed: false

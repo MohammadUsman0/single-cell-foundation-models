@@ -1,0 +1,27 @@
+id: post-perturbation-foundation-cell-models
+kind: resource
+type: benchmark
+title: Benchmarking foundation cell models for post-perturbation RNA-seq prediction
+year: 2025
+venue: BMC Genomics
+tags:
+- perturbation
+- foundation-model
+- scrna-seq
+key: Benchmarks scGPT and scFoundation against simple baselines for predicting post-perturbation expression
+  on Perturb-seq data.
+links:
+  paper: https://doi.org/10.1186/s12864-025-11600-2
+evaluates:
+- scgpt
+- scfoundation
+findings: Even predicting the training mean beat both foundation models, and simple models with biological
+  features beat scGPT by a wide margin; common Perturb-seq benchmarks have little perturbation-specific
+  variance.
+citation: Csendes, Gerold, Gema Sanz, Kristóf Z. Szalay, and Bence Szalai. "Benchmarking foundation cell
+  models for post-perturbation RNA-seq prediction." BMC Genomics 26, no. 1 (2025).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1186/s12864-025-11600-2
+review_basis: abstract
+reviewed: false

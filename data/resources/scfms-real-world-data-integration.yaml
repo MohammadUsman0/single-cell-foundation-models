@@ -1,0 +1,27 @@
+id: scfms-real-world-data-integration
+kind: resource
+type: benchmark
+title: Benchmarking single-cell foundation models for real-world RNA-seq data integration
+year: 2026
+venue: bioRxiv
+tags:
+- foundation-model
+- scrna-seq
+key: Benchmarks foundation models against scVI and Harmony for integrating 1.5M clinical and preclinical
+  cells, with robustness rankings.
+links:
+  preprint: https://doi.org/10.64898/2026.04.17.719314
+evaluates:
+- scgpt
+- scfoundation
+- scmulan
+- cellfm
+findings: Fine-tuning helps, but scVI is the best overall integrator.
+citation: Han, Siyu, Tamas Sztanka-Toth, Enes Senel, Ahmed Elnaggar, Jaymala Patel, Tommaso Mansi, Denis
+  Smirnov et al. "Benchmarking single-cell foundation models for real-world RNA-seq data integration."
+  bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.04.17.719314
+review_basis: abstract
+reviewed: false

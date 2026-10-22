@@ -1,0 +1,22 @@
+id: multimodal-fm-representations-perturbation
+kind: resource
+type: benchmark
+title: Multimodal Benchmarking of Foundation Model Representations for Cellular Perturbation Response
+  Prediction
+year: 2025
+venue: bioRxiv
+tags:
+- perturbation
+- foundation-model
+key: Pan-modal benchmark of perturbation embeddings, including those from biological foundation models,
+  for perturbation response prediction.
+links:
+  preprint: https://doi.org/10.1101/2025.06.26.661186
+citation: Hasanaj, Euxhen, Elijah Cole, Shahin Mohammadi, Sohan Addagudi, Xingyi Zhang, Le Song, and Eric
+  P. Xing. "Multimodal Benchmarking of Foundation Model Representations for Cellular Perturbation Response
+  Prediction." bioRxiv (2025).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1101/2025.06.26.661186
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,24 @@
+id: scmbench
+kind: resource
+type: benchmark
+title: 'SCMBench: benchmarking domain-specific and foundation models for single-cell multi-omics data
+  integration'
+year: 2026
+venue: Nature Communications
+tags:
+- foundation-model
+- multi-omics
+key: 'SCMBench: benchmarks domain-specific and foundation models for single-cell multi-omics integration,
+  beyond accuracy to biomarkers, regulatory elements and trajectories.'
+links:
+  paper: https://doi.org/10.1038/s41467-026-72570-x
+findings: Foundation models generally fall short of the best domain-specific models; a lightweight adaptation
+  narrows the gap.
+citation: 'Wang, Yixuan, Yimin Fan, Xuesong Wang, Tingyang Yu, Yongshuo Zong, Xinyuan Liu, Gaoyang Zhong
+  et al. "SCMBench: benchmarking domain-specific and foundation models for single-cell multi-omics data
+  integration." Nature Communications 17, no. 1 (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1038/s41467-026-72570-x
+review_basis: abstract
+reviewed: false

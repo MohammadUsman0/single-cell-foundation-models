@@ -1,0 +1,21 @@
+id: simple-comprehensive-benchmark-scrna
+kind: resource
+type: benchmark
+title: A Simple and Comprehensive Benchmark for Single-Cell Transcriptomics
+year: 2025
+venue: AAAI
+tags:
+- scrna-seq
+key: Benchmark addressing long-tailed data, model choice and evaluation for transcriptomic models, with
+  fair downstream tasks.
+links:
+  paper: https://doi.org/10.1609/aaai.v39i1.32049
+findings: Weighted sampling helps consistently, and transformers are not the only competitive architecture.
+citation: 'Qi, Jiaxin, Yan Cui, Kailei Guo, Xiaomin Zhang, Jianqiang Huang, and Gaogang Xie. "A Simple
+  and Comprehensive Benchmark for Single-Cell Transcriptomics." In Proceedings of the AAAI Conference
+  on Artificial Intelligence 39, no. 1 (2025): 676-684.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1609/aaai.v39i1.32049
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,23 @@
+id: leakage-aware-perturbation-benchmark
+kind: resource
+type: benchmark
+title: A leakage-aware benchmark for evaluating chemical and cellular generalization in single-cell perturbation-response
+  prediction
+year: 2026
+venue: Research Square
+tags:
+- perturbation
+- drug-response
+key: Leakage-aware splits that separate chemical-analogue, new-scaffold, new-context and new-mechanism
+  generalisation for perturbation models.
+links:
+  preprint: https://doi.org/10.21203/rs.3.rs-10446347/v1
+findings: Reported performance depends strongly on the split; scaffold splits still leave many same-mechanism
+  neighbours.
+citation: Lin, Da, Ying Chen, Yue Liu, and Yu Zhang. "A leakage-aware benchmark for evaluating chemical
+  and cellular generalization in single-cell perturbation-response prediction." Research Square (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.21203/rs.3.rs-10446347/v1
+review_basis: abstract
+reviewed: false
