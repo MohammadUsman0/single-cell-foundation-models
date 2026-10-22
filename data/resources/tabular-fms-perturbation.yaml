@@ -1,0 +1,28 @@
+id: tabular-fms-perturbation
+kind: resource
+type: benchmark
+title: Tabular Foundation Models Are Competitive Cellular Perturbation Predictors Across Biological Scales
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- foundation-model
+- scrna-seq
+key: Compares general-purpose tabular foundation models (TabPFN, TabICL) with specialised single-cell
+  perturbation models across cell lines, primary T cells and zebrafish embryos.
+links:
+  preprint: https://doi.org/10.64898/2026.06.28.735106
+evaluates:
+- scgpt
+- sclambda
+- stack
+- prophet
+findings: Off-the-shelf tabular foundation models match or beat specialised single-cell models, most clearly
+  on pseudobulk perturbation prediction.
+citation: Palla, Giovanni, Alexander Hillsley, Yang-Joon Kim, and Loic Alain Royer. "Tabular Foundation
+  Models Are Competitive Cellular Perturbation Predictors Across Biological Scales." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.06.28.735106
+review_basis: abstract
+reviewed: false

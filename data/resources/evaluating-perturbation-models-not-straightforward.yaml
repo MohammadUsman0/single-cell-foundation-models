@@ -1,0 +1,23 @@
+id: evaluating-perturbation-models-not-straightforward
+kind: resource
+type: benchmark
+title: Evaluating Single-Cell Perturbation Response Models Is Far from Straightforward
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- virtual-cell
+- scrna-seq
+key: Stress-tests perturbation models and their metrics with cross-splitting, controlled noise and synthetic
+  data.
+links:
+  preprint: https://doi.org/10.64898/2026.02.14.705879
+findings: Common correlation and distribution metrics are swayed by scale, sparsity and dimension; complex
+  models often trail simple baselines on chemical perturbation data.
+citation: Heidari, Mahshid, Mina Karimpour, Sumana Srivatsa, and Hesam Montazeri. "Evaluating Single-Cell
+  Perturbation Response Models Is Far from Straightforward." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.02.14.705879
+review_basis: abstract
+reviewed: false

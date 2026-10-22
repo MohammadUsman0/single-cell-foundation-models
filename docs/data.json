@@ -3,7 +3,7 @@
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
   "models": 186,
-  "resources": 137,
+  "resources": 147,
   "venues": 19
  },
  "vocab": {
@@ -7826,6 +7826,35 @@
    "status": "preprint"
   },
   {
+   "id": "reconeval",
+   "kind": "resource",
+   "aliases": [
+    "ReconEval"
+   ],
+   "title": "Benchmarking gene expression reconstruction from single-cell latent representations",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq",
+    "perturbation"
+   ],
+   "key": "ReconEval: benchmarks how well gene expression can be decoded back from latent spaces, from PCA and autoencoders to frozen foundation-model embeddings.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.15.731445"
+   },
+   "findings": "Autoencoders reconstruct best at low dimension; frozen foundation-model embeddings keep recoverable gene information, but high-dimensional PCA matches them for latent perturbation modelling.",
+   "citation": "Fu, Xiaotong, Dominik Klein, Egor Antipov, Alessandro Palma, Alejandro Tejada-Lapuerta, Mojtaba Bahrami, Louis B. Kummerle et al. \"Benchmarking gene expression reconstruction from single-cell latent representations.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.15.731445"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "benchmarking-virtual-cell-models-for-in",
    "kind": "resource",
    "title": "Benchmarking virtual cell models for in-the-wild perturbation response",
@@ -7968,6 +7997,31 @@
    "github": "AmayaGS/CLAMP-Perturbseq"
   },
   {
+   "id": "context-dependent-utility-scfm",
+   "kind": "resource",
+   "title": "Context-dependent utility and robustness of pretrained single-cell foundation model representations across analytical tasks",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Zero-shot evaluation of 20 representation methods on 6 tasks and 1,607 datasets, testing both utility and robustness to changes in dataset structure.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.18.733285"
+   },
+   "findings": "No method wins across tasks, top performers are often fragile to dataset changes, and simple statistical methods stay competitive.",
+   "citation": "Liu, Tianyuan, Tingze Feng, Xianrun Pan, Yangyang Chen, Liping Ren, Xiucai Ye, Hao Lin, and Yang Zhang. \"Context-dependent utility and robustness of pretrained single-cell foundation model representations across analytical tasks.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.18.733285"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "geometric-outliers-scfm-genes",
    "kind": "resource",
    "aliases": [
@@ -8000,6 +8054,32 @@
    "added": "2026-10-22",
    "sources": [
     "https://www.biorxiv.org/content/10.64898/2026.06.22.733850v2"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "evaluating-perturbation-models-not-straightforward",
+   "kind": "resource",
+   "title": "Evaluating Single-Cell Perturbation Response Models Is Far from Straightforward",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "virtual-cell",
+    "scrna-seq"
+   ],
+   "key": "Stress-tests perturbation models and their metrics with cross-splitting, controlled noise and synthetic data.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.02.14.705879"
+   },
+   "findings": "Common correlation and distribution metrics are swayed by scale, sparsity and dimension; complex models often trail simple baselines on chemical perturbation data.",
+   "citation": "Heidari, Mahshid, Mina Karimpour, Sumana Srivatsa, and Hesam Montazeri. \"Evaluating Single-Cell Perturbation Response Models Is Far from Straightforward.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.02.14.705879"
    ],
    "review_basis": "abstract",
    "status": "preprint"
@@ -8247,6 +8327,31 @@
    "status": "preprint"
   },
   {
+   "id": "scaling-recipes-scrna-fms",
+   "kind": "resource",
+   "title": "Scaling recipes for single-cell RNA sequencing foundation models: when do scaling laws hold?",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Trains families of single-cell foundation models to measure how pretraining loss scales with size and compute, and how to set learning rate and depth.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.08.31.747783"
+   },
+   "findings": "Pretraining loss follows a power law in model size and compute, with strength depending on the model formulation; optimal learning rate and depth-to-width ratio scale predictably.",
+   "citation": "Borra, Federico, Giacomo Ciro', Arianna Castellini, Giovanni Gatti, Andrea Tangherloni, and Francesca Meteora Buffa. \"Scaling recipes for single-cell RNA sequencing foundation models: when do scaling laws hold?\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.08.31.747783"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "scclubench",
    "kind": "resource",
    "title": "scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing",
@@ -8316,6 +8421,35 @@
    "review_basis": "paper",
    "status": "published",
    "github": "Genentech/SIGnature"
+  },
+  {
+   "id": "signal-bounds-baselines",
+   "kind": "resource",
+   "aliases": [
+    "SBB principles"
+   ],
+   "title": "Signal, Bounds, and Baselines: Principles for Evaluating Virtual Cell Perturbation Models",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "virtual-cell",
+    "scrna-seq"
+   ],
+   "key": "Proposes three evaluation principles: DEG-aware signal checks, calibration against empirical bounds, and a ladder of linear baselines.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.04.20.719650"
+   },
+   "findings": "Deep models, including foundation models, often fail to meaningfully beat simple linear baselines, and leave much room for improvement even where they do.",
+   "citation": "Vollenweider, Michael, and Peter Bühlmann. \"Signal, Bounds, and Baselines: Principles for Evaluating Virtual Cell Perturbation Models.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.04.20.719650"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "sae-cell-type-programs-scgpt",
@@ -8475,6 +8609,38 @@
    "status": "published"
   },
   {
+   "id": "tabular-fms-perturbation",
+   "kind": "resource",
+   "title": "Tabular Foundation Models Are Competitive Cellular Perturbation Predictors Across Biological Scales",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Compares general-purpose tabular foundation models (TabPFN, TabICL) with specialised single-cell perturbation models across cell lines, primary T cells and zebrafish embryos.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.28.735106"
+   },
+   "evaluates": [
+    "scgpt",
+    "sclambda",
+    "stack",
+    "prophet"
+   ],
+   "findings": "Off-the-shelf tabular foundation models match or beat specialised single-cell models, most clearly on pseudobulk perturbation prediction.",
+   "citation": "Palla, Giovanni, Alexander Hillsley, Yang-Joon Kim, and Loic Alain Royer. \"Tabular Foundation Models Are Competitive Cellular Perturbation Predictors Across Biological Scales.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.28.735106"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "cellbench-ls",
    "kind": "resource",
    "aliases": [
@@ -8552,6 +8718,112 @@
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1038/s41592-026-03055-4"
+   ],
+   "review_basis": "metadata",
+   "status": "published"
+  },
+  {
+   "id": "scperteval",
+   "kind": "resource",
+   "aliases": [
+    "scPertEval"
+   ],
+   "title": "Towards principled evaluation of single-cell perturbation prediction models",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "scrna-seq",
+    "virtual-cell"
+   ],
+   "key": "Taxonomy of perturbation-prediction evaluation (representation, metric, score transformation, reporting) with scPertEval, a package of reference protocols.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.07.23.740433",
+    "code": "https://github.com/Virtual-Cell-Research-Community/scPertEval",
+    "docs": "https://scperteval.readthedocs.io/en/latest/index.html"
+   },
+   "findings": "Benchmarks disagree largely because their evaluation choices differ; making those choices explicit is a precondition for comparable results.",
+   "citation": "Schäfer, Philipp S. L., Kendall A. Reid, Zach Boldyga, Ekin D. Aksu, Hugo Hakem, and Julio Saez-Rodriguez. \"Towards principled evaluation of single-cell perturbation prediction models.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.07.23.740433",
+    "https://github.com/Virtual-Cell-Research-Community/scPertEval"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "Virtual-Cell-Research-Community/scPertEval"
+  },
+  {
+   "id": "vcbench",
+   "kind": "resource",
+   "aliases": [
+    "VCBench"
+   ],
+   "title": "VCBench: A Multi-Dimensional Benchmark for Single-Cell Foundation Models",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "virtual-cell",
+    "scrna-seq"
+   ],
+   "key": "Scores foundation models on five testable virtual-cell capabilities (perturbation, cross-species, GRN, modality integration, temporal order) against pre-registered baselines.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.18.733146"
+   },
+   "evaluates": [
+    "geneformer",
+    "scgpt",
+    "uce",
+    "transcriptformer",
+    "state"
+   ],
+   "findings": "Linear and nearest-neighbour baselines match or beat every model on four of five dimensions; TranscriptFormer leads RNA-to-protein prediction but loses temporal ordering.",
+   "citation": "Weidener, Lukas S., Marko Brkic, Mihailo Jovanovic, Emre Ulgac, and Aakaash Meduri. \"VCBench: A Multi-Dimensional Benchmark for Single-Cell Foundation Models.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.18.733146"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "virtual-cell-models-inflate-effect-sizes",
+   "kind": "resource",
+   "aliases": [
+    "PerturbCausal"
+   ],
+   "title": "Virtual Cell Models Inflate Perturbation Effect Sizes and Undermine Causal Gene Regulatory Network Recovery",
+   "year": 2026,
+   "venue": "ICML",
+   "venue_detail": "3rd Workshop on Multi-Modal Foundation Models and Large Language Models for Life Sciences",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "gene-regulation",
+    "virtual-cell",
+    "scrna-seq"
+   ],
+   "key": "PerturbCausal: runs causal network discovery on virtual-cell model predictions to test whether they preserve regulatory structure, against a sparse linear baseline.",
+   "links": {
+    "paper": "https://openreview.net/forum?id=Nfc6WxZG2x"
+   },
+   "evaluates": [
+    "gears",
+    "cpa",
+    "geneformer",
+    "state"
+   ],
+   "findings": "No deep virtual-cell model beat a sparse linear baseline at recovering causal networks; predicted effects were inflated and nearly uniform across perturbations, and calibration did not fix it.",
+   "citation": "Alwani, Aayan, and Ethan Y. Wang. \"Virtual Cell Models Inflate Perturbation Effect Sizes and Undermine Causal Gene Regulatory Network Recovery.\" In 3rd Workshop on Multi-Modal Foundation Models and Large Language Models for Life Sciences at ICML (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://openreview.net/forum?id=Nfc6WxZG2x"
    ],
    "review_basis": "metadata",
    "status": "published"
@@ -8664,6 +8936,31 @@
    "review_basis": "paper",
    "status": "published",
    "github": "Biodyn-AI/hypotheses"
+  },
+  {
+   "id": "when-does-grn-inference-break",
+   "kind": "resource",
+   "title": "When Does Gene Regulatory Network Inference Break? A Controlled Diagnostic Study of Causal and Correlational Methods on Single-Cell Data",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "gene-regulation",
+    "scrna-seq"
+   ],
+   "key": "Controlled simulation study that turns up one pathology at a time (dropout, confounders, feedback, density and more) to see where causal and correlational GRN inference fail.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2605.04930"
+   },
+   "findings": "Causal methods win in clean, structurally favourable settings, but dropout and latent confounders erase their advantage.",
+   "citation": "Fernandez-de-Retana, Miguel, Ruben Sanchez-Corcuera, Unai Zulaika, Aritz Bilbao-Jayo, and Aitor Almeida. \"When Does Gene Regulatory Network Inference Break? A Controlled Diagnostic Study of Causal and Correlational Methods on Single-Cell Data.\" arXiv preprint arXiv:2605.04930 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2605.04930"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "periscope",
@@ -9132,6 +9429,9 @@
   {
    "id": "diversity-by-design",
    "kind": "resource",
+   "aliases": [
+    "Needles in the Haystack: Addressing Signal Dilution Improves scRNA-seq Perturbation Response Modeling and Evaluation"
+   ],
    "title": "Diversity by Design: Addressing Mode Collapse Improves scRNA-seq Perturbation Modeling on Well-Calibrated Metrics",
    "year": 2025,
    "venue": "arXiv",
@@ -9141,7 +9441,8 @@
     "scrna-seq"
    ],
    "links": {
-    "paper": "https://arxiv.org/abs/2506.22641"
+    "paper": "https://arxiv.org/abs/2506.22641",
+    "code": "https://github.com/shiftbioscience/Needles-In-The-Haystack"
    },
    "evaluates": [
     "gears"
@@ -9154,7 +9455,8 @@
     "https://arxiv.org/abs/2506.22641"
    ],
    "review_basis": "paper",
-   "status": "preprint"
+   "status": "preprint",
+   "github": "shiftbioscience/Needles-In-The-Haystack"
   },
   {
    "id": "effects-of-distance-metrics-and-scaling",

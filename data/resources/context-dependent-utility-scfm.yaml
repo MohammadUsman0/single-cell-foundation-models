@@ -1,0 +1,24 @@
+id: context-dependent-utility-scfm
+kind: resource
+type: benchmark
+title: Context-dependent utility and robustness of pretrained single-cell foundation model representations
+  across analytical tasks
+year: 2026
+venue: bioRxiv
+tags:
+- foundation-model
+- scrna-seq
+key: Zero-shot evaluation of 20 representation methods on 6 tasks and 1,607 datasets, testing both utility
+  and robustness to changes in dataset structure.
+links:
+  preprint: https://doi.org/10.64898/2026.06.18.733285
+findings: No method wins across tasks, top performers are often fragile to dataset changes, and simple
+  statistical methods stay competitive.
+citation: Liu, Tianyuan, Tingze Feng, Xianrun Pan, Yangyang Chen, Liping Ren, Xiucai Ye, Hao Lin, and
+  Yang Zhang. "Context-dependent utility and robustness of pretrained single-cell foundation model representations
+  across analytical tasks." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.06.18.733285
+review_basis: abstract
+reviewed: false

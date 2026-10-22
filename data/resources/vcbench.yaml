@@ -1,0 +1,31 @@
+id: vcbench
+kind: resource
+type: benchmark
+title: 'VCBench: A Multi-Dimensional Benchmark for Single-Cell Foundation Models'
+aliases:
+- VCBench
+year: 2026
+venue: bioRxiv
+tags:
+- foundation-model
+- virtual-cell
+- scrna-seq
+key: Scores foundation models on five testable virtual-cell capabilities (perturbation, cross-species,
+  GRN, modality integration, temporal order) against pre-registered baselines.
+links:
+  preprint: https://doi.org/10.64898/2026.06.18.733146
+evaluates:
+- geneformer
+- scgpt
+- uce
+- transcriptformer
+- state
+findings: Linear and nearest-neighbour baselines match or beat every model on four of five dimensions;
+  TranscriptFormer leads RNA-to-protein prediction but loses temporal ordering.
+citation: 'Weidener, Lukas S., Marko Brkic, Mihailo Jovanovic, Emre Ulgac, and Aakaash Meduri. "VCBench:
+  A Multi-Dimensional Benchmark for Single-Cell Foundation Models." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.06.18.733146
+review_basis: abstract
+reviewed: false

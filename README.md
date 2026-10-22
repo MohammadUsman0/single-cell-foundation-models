@@ -11,7 +11,7 @@
 
 For each model, the catalogue aims to record what it is, whether you can use it (code, weights, license) and what benchmarks found about it. Titles, years, venues and links are verified against Crossref, OpenAlex, arXiv and bioRxiv with [`scripts/verify.py`](scripts/verify.py).
 
-**186 models** (154 with code) · **137 resources** · **19 venues** · updated 2026-10-22
+**186 models** (154 with code) · **147 resources** · **19 venues** · updated 2026-10-22
 
 Each entry: **name** · title (**venue year**) · tags · links. Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).
 
@@ -38,7 +38,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 **Resources**
 
-- [Benchmarks & Evaluation](#benchmarks--evaluation) (42)
+- [Benchmarks & Evaluation](#benchmarks--evaluation) (52)
 - [Interpretability & Mechanistic Analysis](#interpretability--mechanistic-analysis) (15)
 - [Datasets & Atlases](#datasets--atlases) (39)
 - [Tools & Software](#tools--software) (7)
@@ -306,13 +306,23 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - A Systematic Comparison of Single-Cell Perturbation Response Prediction Models (**Science Advances 2026**) · `Perturbation` · [[paper](https://doi.org/10.1126/sciadv.aed3414)]
 - Accessible and reproducible deployment reveals the practical boundaries of single-cell foundation models (**bioRxiv 2026**) · `scRNA-seq` `Foundation model` · [[paper](https://www.biorxiv.org/content/10.64898/2026.01.06.698060v1)]
 - AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents (**arXiv 2026**) · `Text` `Virtual cell` `Agent` · [[paper](https://arxiv.org/abs/2605.10876)]
+- Benchmarking gene expression reconstruction from single-cell latent representations (**bioRxiv 2026**) · `Foundation model` `scRNA-seq` `Perturbation`
 - Benchmarking virtual cell models for in-the-wild perturbation response (**arXiv 2026**) · `Perturbation` `Virtual cell` · [[paper](https://arxiv.org/abs/2604.27646)]
+- Context-dependent utility and robustness of pretrained single-cell foundation model representations across analytical tasks (**bioRxiv 2026**) · `Foundation model` `scRNA-seq`
+- Evaluating Single-Cell Perturbation Response Models Is Far from Straightforward (**bioRxiv 2026**) · `Perturbation` `Virtual cell` `scRNA-seq`
 - Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance (**Nature Methods 2026**) · `scRNA-seq` `Foundation model` · [[paper](https://doi.org/10.1038/s41592-026-03120-y)]
 - Evaluating the utilities of foundation models in single-cell data analysis (**Advanced Science 2026**) · `scRNA-seq` `Foundation model` · [[paper](https://doi.org/10.1002/advs.202514490)]
 - MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes (**bioRxiv 2026**) · `Multi-omics` `Drug response` `Virtual cell` · [[paper](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)]
+- Scaling recipes for single-cell RNA sequencing foundation models: when do scaling laws hold? (**bioRxiv 2026**) · `Foundation model` `scRNA-seq`
 - scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing (**AAAI 2026**) · `scRNA-seq` · [[paper](https://doi.org/10.1609/aaai.v40i2.37110)]
+- Signal, Bounds, and Baselines: Principles for Evaluating Virtual Cell Perturbation Models (**bioRxiv 2026**) · `Perturbation` `Virtual cell` `scRNA-seq`
+- Tabular Foundation Models Are Competitive Cellular Perturbation Predictors Across Biological Scales (**bioRxiv 2026**) · `Perturbation` `Foundation model` `scRNA-seq`
 - Task-dependent Performance of Single-cell Foundation Models under Low Supervision (**bioRxiv 2026**) · `scRNA-seq` `Foundation model` · [[paper](https://www.biorxiv.org/content/10.64898/2026.04.01.714123v1)]
 - Towards Autonomous Mechanistic Reasoning in Virtual Cells (**arXiv 2026**) · `Virtual cell` `Agent` · [[paper](https://arxiv.org/abs/2604.11661)]
+- Towards principled evaluation of single-cell perturbation prediction models (**bioRxiv 2026**) · `Perturbation` `scRNA-seq` `Virtual cell` · [[code](https://github.com/Virtual-Cell-Research-Community/scPertEval)] ![stars](https://img.shields.io/github/stars/Virtual-Cell-Research-Community/scPertEval?style=flat-square&label=%E2%98%85)
+- VCBench: A Multi-Dimensional Benchmark for Single-Cell Foundation Models (**bioRxiv 2026**) · `Foundation model` `Virtual cell` `scRNA-seq`
+- Virtual Cell Models Inflate Perturbation Effect Sizes and Undermine Causal Gene Regulatory Network Recovery (**ICML 2026**, 3rd Workshop on Multi-Modal Foundation Models and Large Language Models for Life Sciences) · `Perturbation` `Gene regulation` `Virtual cell` `scRNA-seq` · [[paper](https://openreview.net/forum?id=Nfc6WxZG2x)]
+- When Does Gene Regulatory Network Inference Break? A Controlled Diagnostic Study of Causal and Correlational Methods on Single-Cell Data (**arXiv 2026**) · `Gene regulation` `scRNA-seq`
 - A Systematic Evaluation of Single-Cell Foundation Models on Cell-Type Classification Task (**WSDM 2025**) · `scRNA-seq` `Foundation model` · [[paper](https://dl.acm.org/doi/10.1145/3701551.3708811)]
 - Benchmarking algorithms for generalizable single-cell perturbation response prediction (**Nature Methods 2025**) · `Perturbation` · [[paper](https://www.nature.com/articles/s41592-025-02980-0)]
 - Benchmarking and Evaluation of AI Models in Biology: Outcomes and Recommendations from the CZI Virtual Cells Workshop (**arXiv 2025**) · `Virtual cell` · [[paper](https://arxiv.org/abs/2507.10502)]
@@ -325,7 +335,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - Deep Learning-Based Genetic Perturbation Models Do Outperform Uninformative Baselines on Well-Calibrated Metrics (**bioRxiv 2025**) · `Perturbation` · [[paper](https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1)]
 - Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines (**Nature Methods 2025**) · `Perturbation` · [[paper](https://www.nature.com/articles/s41592-025-02772-6)]
 - Defining and benchmarking open problems in single-cell analysis (**Nature Biotechnology 2025**) · `scRNA-seq` · [[paper](https://www.nature.com/articles/s41587-025-02694-w)]
-- Diversity by Design: Addressing Mode Collapse Improves scRNA-seq Perturbation Modeling on Well-Calibrated Metrics (**arXiv 2025**) · `Perturbation` `scRNA-seq` · [[paper](https://arxiv.org/abs/2506.22641)]
+- Diversity by Design: Addressing Mode Collapse Improves scRNA-seq Perturbation Modeling on Well-Calibrated Metrics (**arXiv 2025**) · `Perturbation` `scRNA-seq` · [[paper](https://arxiv.org/abs/2506.22641)] [[code](https://github.com/shiftbioscience/Needles-In-The-Haystack)] ![stars](https://img.shields.io/github/stars/shiftbioscience/Needles-In-The-Haystack?style=flat-square&label=%E2%98%85)
 - Effects of Distance Metrics and Scaling on the Perturbation Discrimination Score (**arXiv 2025**) · `Perturbation` `Virtual cell` · [[paper](https://arxiv.org/abs/2511.16954)]
 - Empirical Evaluation of Single-Cell Foundation Models for Predicting Cancer Outcomes (**bioRxiv 2025**) · `scRNA-seq` `Foundation model` · [[paper](https://www.biorxiv.org/content/10.1101/2025.10.31.685892v1)]
 - From Virtual Cell Challenge to Virtual Organs: Navigating the Deep Waters of Medical AI Models (**iCell 2025**) · `Virtual cell` · [[paper](https://doi.org/10.71373/IQHA9494)]
