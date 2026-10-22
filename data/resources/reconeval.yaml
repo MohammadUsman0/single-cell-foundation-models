@@ -1,0 +1,26 @@
+id: reconeval
+kind: resource
+type: benchmark
+title: Benchmarking gene expression reconstruction from single-cell latent representations
+aliases:
+- ReconEval
+year: 2026
+venue: bioRxiv
+tags:
+- foundation-model
+- scrna-seq
+- perturbation
+key: 'ReconEval: benchmarks how well gene expression can be decoded back from latent spaces, from PCA
+  and autoencoders to frozen foundation-model embeddings.'
+links:
+  preprint: https://doi.org/10.64898/2026.06.15.731445
+findings: Autoencoders reconstruct best at low dimension; frozen foundation-model embeddings keep recoverable
+  gene information, but high-dimensional PCA matches them for latent perturbation modelling.
+citation: Fu, Xiaotong, Dominik Klein, Egor Antipov, Alessandro Palma, Alejandro Tejada-Lapuerta, Mojtaba
+  Bahrami, Louis B. Kummerle et al. "Benchmarking gene expression reconstruction from single-cell latent
+  representations." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.06.15.731445
+review_basis: abstract
+reviewed: false

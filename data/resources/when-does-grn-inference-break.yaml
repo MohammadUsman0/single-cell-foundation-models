@@ -1,0 +1,24 @@
+id: when-does-grn-inference-break
+kind: resource
+type: benchmark
+title: When Does Gene Regulatory Network Inference Break? A Controlled Diagnostic Study of Causal and
+  Correlational Methods on Single-Cell Data
+year: 2026
+venue: arXiv
+tags:
+- gene-regulation
+- scrna-seq
+key: Controlled simulation study that turns up one pathology at a time (dropout, confounders, feedback,
+  density and more) to see where causal and correlational GRN inference fail.
+links:
+  preprint: https://arxiv.org/abs/2605.04930
+findings: Causal methods win in clean, structurally favourable settings, but dropout and latent confounders
+  erase their advantage.
+citation: Fernandez-de-Retana, Miguel, Ruben Sanchez-Corcuera, Unai Zulaika, Aritz Bilbao-Jayo, and Aitor
+  Almeida. "When Does Gene Regulatory Network Inference Break? A Controlled Diagnostic Study of Causal
+  and Correlational Methods on Single-Cell Data." arXiv preprint arXiv:2605.04930 (2026).
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2605.04930
+review_basis: abstract
+reviewed: false

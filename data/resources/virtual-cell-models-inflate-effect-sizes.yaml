@@ -1,0 +1,37 @@
+id: virtual-cell-models-inflate-effect-sizes
+kind: resource
+type: benchmark
+title: Virtual Cell Models Inflate Perturbation Effect Sizes and Undermine Causal Gene Regulatory Network
+  Recovery
+aliases:
+- PerturbCausal
+year: 2026
+venue: ICML
+venue_detail: 3rd Workshop on Multi-Modal Foundation Models and Large Language Models for Life Sciences
+tags:
+- perturbation
+- gene-regulation
+- virtual-cell
+- scrna-seq
+key: 'PerturbCausal: runs causal network discovery on virtual-cell model predictions to test whether they
+  preserve regulatory structure, against a sparse linear baseline.'
+links:
+  paper: https://openreview.net/forum?id=Nfc6WxZG2x
+evaluates:
+- gears
+- cpa
+- geneformer
+- state
+findings: No deep virtual-cell model beat a sparse linear baseline at recovering causal networks; predicted
+  effects were inflated and nearly uniform across perturbations, and calibration did not fix it.
+citation: Alwani, Aayan, and Ethan Y. Wang. "Virtual Cell Models Inflate Perturbation Effect Sizes and
+  Undermine Causal Gene Regulatory Network Recovery." In 3rd Workshop on Multi-Modal Foundation Models
+  and Large Language Models for Life Sciences at ICML (2026).
+added: '2026-10-22'
+sources:
+- https://openreview.net/forum?id=Nfc6WxZG2x
+review_basis: metadata
+reviewed: false
+review_notes:
+- OpenReview could not be read automatically; models and result come from the maintainer's own reading
+  of the paper.

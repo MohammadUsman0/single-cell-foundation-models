@@ -1,0 +1,28 @@
+id: scperteval
+kind: resource
+type: benchmark
+title: Towards principled evaluation of single-cell perturbation prediction models
+aliases:
+- scPertEval
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- scrna-seq
+- virtual-cell
+key: Taxonomy of perturbation-prediction evaluation (representation, metric, score transformation, reporting)
+  with scPertEval, a package of reference protocols.
+links:
+  preprint: https://doi.org/10.64898/2026.07.23.740433
+  code: https://github.com/Virtual-Cell-Research-Community/scPertEval
+  docs: https://scperteval.readthedocs.io/en/latest/index.html
+findings: Benchmarks disagree largely because their evaluation choices differ; making those choices explicit
+  is a precondition for comparable results.
+citation: Schäfer, Philipp S. L., Kendall A. Reid, Zach Boldyga, Ekin D. Aksu, Hugo Hakem, and Julio Saez-Rodriguez.
+  "Towards principled evaluation of single-cell perturbation prediction models." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.07.23.740433
+- https://github.com/Virtual-Cell-Research-Community/scPertEval
+review_basis: abstract
+reviewed: false

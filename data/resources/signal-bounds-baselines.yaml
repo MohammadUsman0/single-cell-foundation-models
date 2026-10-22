@@ -1,0 +1,25 @@
+id: signal-bounds-baselines
+kind: resource
+type: benchmark
+title: 'Signal, Bounds, and Baselines: Principles for Evaluating Virtual Cell Perturbation Models'
+aliases:
+- SBB principles
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- virtual-cell
+- scrna-seq
+key: 'Proposes three evaluation principles: DEG-aware signal checks, calibration against empirical bounds,
+  and a ladder of linear baselines.'
+links:
+  preprint: https://doi.org/10.64898/2026.04.20.719650
+findings: Deep models, including foundation models, often fail to meaningfully beat simple linear baselines,
+  and leave much room for improvement even where they do.
+citation: 'Vollenweider, Michael, and Peter Bühlmann. "Signal, Bounds, and Baselines: Principles for Evaluating
+  Virtual Cell Perturbation Models." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.04.20.719650
+review_basis: abstract
+reviewed: false
