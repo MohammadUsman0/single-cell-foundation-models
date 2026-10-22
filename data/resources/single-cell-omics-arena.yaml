@@ -1,0 +1,22 @@
+id: single-cell-omics-arena
+kind: resource
+type: benchmark
+title: 'Single-cell omics arena: evaluation of large language models for automatic cell-type annotations
+  on single-cell omics data via RNA-seq bridging'
+year: 2025
+venue: Briefings in Bioinformatics
+tags:
+- llm
+- scrna-seq
+key: Benchmarks LLMs for automatic cell-type annotation and adds chain-of-thought prompting and cross-modality
+  translation for non-RNA data.
+links:
+  paper: https://doi.org/10.1093/bib/bbaf622
+citation: 'Liu, Junhao, Siwei Xu, Yongxian Wu, and Jing Zhang. "Single-cell omics arena: evaluation of
+  large language models for automatic cell-type annotations on single-cell omics data via RNA-seq bridging."
+  Briefings in Bioinformatics 26, no. 6 (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1093/bib/bbaf622
+review_basis: abstract
+reviewed: false

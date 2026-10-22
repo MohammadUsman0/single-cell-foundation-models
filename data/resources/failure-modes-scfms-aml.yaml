@@ -1,0 +1,24 @@
+id: failure-modes-scfms-aml
+kind: resource
+type: benchmark
+title: 'From Bias to Breakdown: Benchmarking Failure Mode Analysis of Single-cell RNA Sequencing Foundation
+  Models in Acute Myeloid Leukemia'
+year: 2025
+venue: AAAI
+venue_detail: Symposium Series
+tags:
+- foundation-model
+- scrna-seq
+key: Subgroup failure analysis of scRNA-seq foundation models for cell-type classification in acute myeloid
+  leukaemia.
+links:
+  paper: https://doi.org/10.1609/aaaiss.v7i1.36931
+findings: High overall F1 hides drops in disease conditions and in some cell types.
+citation: 'Naziri, Amirreza, Arash Asgari, Aijun An, Eleftherios Sachlos, and Laleh Seyyed-Kalantari.
+  "From Bias to Breakdown: Benchmarking Failure Mode Analysis of Single-cell RNA Sequencing Foundation
+  Models in Acute Myeloid Leukemia." In Proceedings of the AAAI Symposium Series 7, no. 1 (2025): 553-557.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1609/aaaiss.v7i1.36931
+review_basis: abstract
+reviewed: false

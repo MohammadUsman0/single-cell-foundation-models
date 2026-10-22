@@ -1,0 +1,23 @@
+id: benchmarking-llm-agents-single-cell
+kind: resource
+type: benchmark
+title: Benchmarking LLM-based agents for single-cell omics analysis
+year: 2026
+venue: Genome Biology
+tags:
+- agent
+- llm
+- scrna-seq
+key: Benchmark of LLM-based agent frameworks on single-cell omics analysis tasks across omics types, species
+  and technologies.
+links:
+  paper: https://doi.org/10.1186/s13059-026-03998-z
+findings: Multi-agent frameworks beat single agents; code quality matters most, and self-reflection helps
+  more than retrieval or planning.
+citation: Liu, Yang, Lu Zhou, Xiawei Du, Ruikun He, Xuguang Zhang, Rongbo Shen, and Yixue Li. "Benchmarking
+  LLM-based agents for single-cell omics analysis." Genome Biology 27, no. 1 (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1186/s13059-026-03998-z
+review_basis: abstract
+reviewed: false

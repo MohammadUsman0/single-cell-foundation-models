@@ -1,0 +1,24 @@
+id: calibrated-perturbation-benchmark-audit
+kind: resource
+type: benchmark
+title: Auditing Confidence-Calibrated Benchmarking of Single-Cell Perturbation Models
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- scrna-seq
+key: Audits uncertainty-calibrated benchmarking of perturbation models (scVI, CPA, ridge) and documents
+  six failure modes.
+links:
+  preprint: https://doi.org/10.64898/2026.10.12.758706
+evaluates:
+- cpa
+findings: Marginal coverage can look fine while covering few DE-gene intervals; conformal prediction should
+  be recalibrated per context.
+citation: Gallone, Manuel, Shyam Ravidath, and Srihith Madireddy. "Auditing Confidence-Calibrated Benchmarking
+  of Single-Cell Perturbation Models." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.10.12.758706
+review_basis: abstract
+reviewed: false

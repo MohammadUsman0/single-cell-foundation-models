@@ -1,0 +1,28 @@
+id: auprc-in-silico-perturbation-metric
+kind: resource
+type: benchmark
+title: 'AUPRC: a metric for evaluating the performance of in-silico perturbation methods in identifying
+  differentially expressed genes'
+aliases:
+- AUC-PR is a More Informative Metric for Assessing the Biological Relevance of In Silico Cellular Perturbation
+  Prediction Models
+year: 2025
+venue: Briefings in Bioinformatics
+tags:
+- perturbation
+- scrna-seq
+key: Proposes AUPRC on differentially expressed genes as an evaluation metric for in-silico perturbation
+  models.
+links:
+  paper: https://doi.org/10.1093/bib/bbaf426
+  preprint: https://doi.org/10.1101/2025.03.06.641935
+findings: Models with high R² often fail to identify DE genes, so R² alone overstates performance.
+citation: 'Zhu, Hongxu, Amir Asiaee, Leila Azinfar, Jun Li, Han Liang, Ehsan Irajizad, Kim-Anh Do et al.
+  "AUPRC: a metric for evaluating the performance of in-silico perturbation methods in identifying differentially
+  expressed genes." Briefings in Bioinformatics 26, no. 5 (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1093/bib/bbaf426
+- https://doi.org/10.1101/2025.03.06.641935
+review_basis: abstract
+reviewed: false

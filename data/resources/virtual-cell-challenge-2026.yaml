@@ -1,21 +1,26 @@
 id: virtual-cell-challenge-2026
 kind: resource
-type: perspective
+type: benchmark
+aliases:
+- 'Virtual Cell Challenge 2026: Benchmarking zero-shot generalization across cellular contexts'
 title: 'The 2026 Virtual Cell Challenge: predicting perturbation responses in cell contexts a model has
   never seen'
 year: 2026
-venue: Arc Institute
+venue: Cell
 tags:
 - virtual-cell
 - perturbation
 key: 'Announces the 2026 Virtual Cell Challenge: a zero-shot task predicting CRISPRi knockdown responses
   in six cell lines never seen perturbed, with no training set released.'
 links:
+  paper: https://doi.org/10.1016/j.cell.2026.08.004
   project: https://arcinstitute.org/news/virtual-cell-challenge-2026
-citation: 'Arc Institute. "The 2026 Virtual Cell Challenge: predicting perturbation responses in cell
-  contexts a model has never seen." Arc Institute News (August 20, 2026).'
+citation: 'Adduri, Abhinav, Dave Burke, Joseph Caputo, Paul Datlinger, Alexander Dobin, Basak Eraslan,
+  Luke Gilbert et al. "Virtual Cell Challenge 2026: Benchmarking zero-shot generalization across cellular
+  contexts." Cell 189, no. 19 (2026): 5827-5830.'
 added: '2026-10-22'
 sources:
+- https://doi.org/10.1016/j.cell.2026.08.004
 - https://arcinstitute.org/news/virtual-cell-challenge-2026
 review_basis: paper
 reviewed: false

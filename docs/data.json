@@ -3,7 +3,7 @@
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
   "models": 186,
-  "resources": 181,
+  "resources": 223,
   "venues": 19
  },
  "vocab": {
@@ -7703,6 +7703,108 @@
    "status": "published"
   },
   {
+   "id": "leakage-aware-perturbation-benchmark",
+   "kind": "resource",
+   "title": "A leakage-aware benchmark for evaluating chemical and cellular generalization in single-cell perturbation-response prediction",
+   "year": 2026,
+   "venue": "Research Square",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "drug-response"
+   ],
+   "key": "Leakage-aware splits that separate chemical-analogue, new-scaffold, new-context and new-mechanism generalisation for perturbation models.",
+   "links": {
+    "preprint": "https://doi.org/10.21203/rs.3.rs-10446347/v1"
+   },
+   "findings": "Reported performance depends strongly on the split; scaffold splits still leave many same-mechanism neighbours.",
+   "citation": "Lin, Da, Ying Chen, Yue Liu, and Yu Zhang. \"A leakage-aware benchmark for evaluating chemical and cellular generalization in single-cell perturbation-response prediction.\" Research Square (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.21203/rs.3.rs-10446347/v1"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "scdrugperturb-bench",
+   "kind": "resource",
+   "title": "A mechanism-annotated benchmark reveals limited fidelity to drug-response signatures in single-cell perturbation models",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "drug-response",
+    "scrna-seq"
+   ],
+   "key": "scDrugPerturb-Bench: links drug perturbation profiles to curated drug-response signatures to test mechanism fidelity, not just reconstruction.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.08.19.745729"
+   },
+   "findings": "Models show limited fidelity to drug-response signatures; good reconstruction is a poor proxy, and frozen FM embeddings give only local gains.",
+   "citation": "Li, Lehang, Shaoming Duan, Xinyu Zha, Ye Fang, Yuhao Zhang, Xinyi Zhang, Yang Cao et al. \"A mechanism-annotated benchmark reveals limited fidelity to drug-response signatures in single-cell perturbation models.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.08.19.745729"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "gge-generative-expression-evaluator",
+   "kind": "resource",
+   "title": "A Standardized Framework For Evaluating Gene Expression Generative Models",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "generative",
+    "scrna-seq",
+    "perturbation"
+   ],
+   "key": "GGE: open-source framework of standardised distributional and DEG-focused metrics for single-cell generative models.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2603.11244"
+   },
+   "findings": "Metric values vary substantially with implementation choices, so standardised reporting is needed.",
+   "citation": "Rubbi, Andrea, Andrea Giuseppe Di Francesco, Mohammad Lotfollahi, and Pietro Liò. \"A Standardized Framework For Evaluating Gene Expression Generative Models.\" arXiv preprint arXiv:2603.11244 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2603.11244"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "bento-sc-scLM-configurations",
+   "kind": "resource",
+   "title": "A systematic assessment of single-cell language model configurations",
+   "year": 2026,
+   "venue": "NAR Genomics and Bioinformatics",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "bento-sc: isolates pretraining choices of single-cell language models one at a time to find which design decisions matter.",
+   "links": {
+    "paper": "https://doi.org/10.1093/nargab/lqag095"
+   },
+   "findings": "scLMs do not yet beat baselines by much; best results come from minimally processed counts, count-distribution losses, high masking rates and combined objectives.",
+   "citation": "Waele, Gaetan De, Gerben Menschaert, and Willem Waegeman. \"A systematic assessment of single-cell language model configurations.\" NAR Genomics and Bioinformatics 8, no. 3 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1093/nargab/lqag095"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "a-systematic-comparison-of-single-cell",
    "kind": "resource",
    "title": "A Systematic Comparison of Single-Cell Perturbation Response Prediction Models",
@@ -7799,6 +7901,66 @@
    "status": "preprint"
   },
   {
+   "id": "ambimodbench",
+   "kind": "resource",
+   "title": "AmbiModBench: Benchmarking Gene Perturbation Prediction Beyond Shared Responses",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "scrna-seq"
+   ],
+   "key": "AmbiModBench: specificity-aware perturbation benchmark that separates target-specific predictions from shared background responses.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2609.32527"
+   },
+   "findings": "Strong absolute scores mostly reflect the shared background response rather than target-specific learning.",
+   "citation": "Huang, Sikai, Zhiwen Yang, Kai Yu, Jiayuan Chen, and Stan Z. Li. \"AmbiModBench: Benchmarking Gene Perturbation Prediction Beyond Shared Responses.\" arXiv preprint arXiv:2609.32527 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2609.32527"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "empirical-comparison-virtual-cell-models",
+   "kind": "resource",
+   "title": "An Empirical Comparison of Virtual Cell Models: Perturbation Prediction, Representation, and the Baseline Gap",
+   "year": 2026,
+   "venue": "Research Square",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "virtual-cell",
+    "foundation-model"
+   ],
+   "key": "Compares perturbation predictors, foundation-model embeddings and STATE on prediction and representation tasks against linear baselines.",
+   "links": {
+    "preprint": "https://doi.org/10.21203/rs.3.rs-10434123/v1"
+   },
+   "evaluates": [
+    "gears",
+    "cpa",
+    "geneformer",
+    "scgpt",
+    "scfoundation",
+    "uce",
+    "state"
+   ],
+   "findings": "Deep models gain on combinatorial perturbations, unseen cell types and especially representation tasks, but rarely beat baselines on perturbation prediction.",
+   "citation": "Denvis, Olivia. \"An Empirical Comparison of Virtual Cell Models: Perturbation Prediction, Representation, and the Baseline Gap.\" Research Square (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.21203/rs.3.rs-10434123/v1"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "artificial-intelligence-virtual-organoids",
    "kind": "resource",
    "title": "Artificial Intelligence Virtual Organoids (AIVOs)",
@@ -7873,6 +8035,116 @@
    "status": "preprint"
   },
   {
+   "id": "geneformer-scale-predictive-diversity",
+   "kind": "resource",
+   "title": "Assessing scale and predictive diversity in models for single-cell transcriptomics based on Geneformer",
+   "year": 2026,
+   "venue": "PLOS Computational Biology",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Studies architecture and pretraining scale for Geneformer-style rank-based models (GF-CAB).",
+   "links": {
+    "paper": "https://doi.org/10.1371/journal.pcbi.1013701"
+   },
+   "evaluates": [
+    "geneformer"
+   ],
+   "findings": "More pretraining data does not uniformly help; models trained on much less data can match or beat larger ones.",
+   "citation": "Chen, Junfan, Fabian Schmidt, and Ricardo Henao. \"Assessing scale and predictive diversity in models for single-cell transcriptomics based on Geneformer.\" PLOS Computational Biology 22, no. 7 (2026): e1013701.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1371/journal.pcbi.1013701"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
+   "id": "calibrated-perturbation-benchmark-audit",
+   "kind": "resource",
+   "title": "Auditing Confidence-Calibrated Benchmarking of Single-Cell Perturbation Models",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "scrna-seq"
+   ],
+   "key": "Audits uncertainty-calibrated benchmarking of perturbation models (scVI, CPA, ridge) and documents six failure modes.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.10.12.758706"
+   },
+   "evaluates": [
+    "cpa"
+   ],
+   "findings": "Marginal coverage can look fine while covering few DE-gene intervals; conformal prediction should be recalibrated per context.",
+   "citation": "Gallone, Manuel, Shyam Ravidath, and Srihith Madireddy. \"Auditing Confidence-Calibrated Benchmarking of Single-Cell Perturbation Models.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.10.12.758706"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "sccontam-pretraining-contamination",
+   "kind": "resource",
+   "title": "Auditing pretraining contamination in single-cell foundation model benchmarks",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "scContam: audits whether benchmark cells were in foundation-model pretraining data, at the cell level.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2607.20572"
+   },
+   "evaluates": [
+    "geneformer",
+    "scgpt",
+    "uce"
+   ],
+   "findings": "Models resist memorising individual cells, but contaminated cells embed measurably more tightly, so pretraining audits should accompany benchmarks.",
+   "citation": "Ali, Sarwan. \"Auditing pretraining contamination in single-cell foundation model benchmarks.\" arXiv preprint arXiv:2607.20572 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2607.20572"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "kg-priors-vs-scfms-perturb-seq",
+   "kind": "resource",
+   "title": "Benchmarking biological knowledge-graph priors against single-cell foundation models for Perturb-seq prediction",
+   "year": 2026,
+   "venue": "Computational Biology and Chemistry",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "foundation-model"
+   ],
+   "key": "Compares biological knowledge-graph priors with single-cell foundation models for Perturb-seq prediction.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.compbiolchem.2026.109480"
+   },
+   "citation": "Ni, Jie, Xinting Zhang, Mingyang Li, Yuhan Cai, Zhuoying Xie, and Yun Liu. \"Benchmarking biological knowledge-graph priors against single-cell foundation models for Perturb-seq prediction.\" Computational Biology and Chemistry 126 (2026): 109480.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1016/j.compbiolchem.2026.109480"
+   ],
+   "review_basis": "metadata",
+   "status": "published"
+  },
+  {
    "id": "reconeval",
    "kind": "resource",
    "aliases": [
@@ -7897,6 +8169,122 @@
    "added": "2026-10-22",
    "sources": [
     "https://doi.org/10.64898/2026.06.15.731445"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "benchmarking-llm-agents-single-cell",
+   "kind": "resource",
+   "title": "Benchmarking LLM-based agents for single-cell omics analysis",
+   "year": 2026,
+   "venue": "Genome Biology",
+   "type": "benchmark",
+   "tags": [
+    "agent",
+    "llm",
+    "scrna-seq"
+   ],
+   "key": "Benchmark of LLM-based agent frameworks on single-cell omics analysis tasks across omics types, species and technologies.",
+   "links": {
+    "paper": "https://doi.org/10.1186/s13059-026-03998-z"
+   },
+   "findings": "Multi-agent frameworks beat single agents; code quality matters most, and self-reflection helps more than retrieval or planning.",
+   "citation": "Liu, Yang, Lu Zhou, Xiawei Du, Ruikun He, Xuguang Zhang, Rongbo Shen, and Yixue Li. \"Benchmarking LLM-based agents for single-cell omics analysis.\" Genome Biology 27, no. 1 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1186/s13059-026-03998-z"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
+   "id": "scfms-real-world-data-integration",
+   "kind": "resource",
+   "title": "Benchmarking single-cell foundation models for real-world RNA-seq data integration",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Benchmarks foundation models against scVI and Harmony for integrating 1.5M clinical and preclinical cells, with robustness rankings.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.04.17.719314"
+   },
+   "evaluates": [
+    "scgpt",
+    "scfoundation",
+    "scmulan",
+    "cellfm"
+   ],
+   "findings": "Fine-tuning helps, but scVI is the best overall integrator.",
+   "citation": "Han, Siyu, Tamas Sztanka-Toth, Enes Senel, Ahmed Elnaggar, Jaymala Patel, Tommaso Mansi, Denis Smirnov et al. \"Benchmarking single-cell foundation models for real-world RNA-seq data integration.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.04.17.719314"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "benchmarking-scfms-zero-shot",
+   "kind": "resource",
+   "title": "Benchmarking single-cell foundation models in a zero-shot setting",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Zero-shot evaluation of four foundation models on annotation, protein-expression prediction and integration.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.08.03.739553"
+   },
+   "evaluates": [
+    "transcriptformer",
+    "scimilarity",
+    "scgpt",
+    "uce"
+   ],
+   "findings": "Baselines win most annotation and integration tasks; foundation embeddings help for protein prediction (SCimilarity, TranscriptFormer).",
+   "citation": "Gaballa, Yasmine, Somaia Ahmed, and Tamim Abdelaal. \"Benchmarking single-cell foundation models in a zero-shot setting.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.08.03.739553"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "scfms-low-data-regime-advantage",
+   "kind": "resource",
+   "title": "Benchmarking single-cell foundation models reveals an advantage in the low-data regime for cell-type and disease-state prediction",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Benchmarks four foundation-model representations on 868 disease-prediction and 65 cell-type tasks from CELLxGENE.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.10.12.758421"
+   },
+   "evaluates": [
+    "transcriptformer"
+   ],
+   "findings": "With full data, log-normalised counts match or beat the best model; with about 100 labelled cells per class or fewer, TranscriptFormer wins.",
+   "citation": "Benhayon, Haya, Michael M. Danziger, Danny Ben-Zvi, and Michal Rosen-Zvi. \"Benchmarking single-cell foundation models reveals an advantage in the low-data regime for cell-type and disease-state prediction.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.10.12.758421"
    ],
    "review_basis": "abstract",
    "status": "preprint"
@@ -7971,6 +8359,56 @@
    "status": "preprint"
   },
   {
+   "id": "scfm-embeddings-cellular-dynamics",
+   "kind": "resource",
+   "title": "Benchmarking zero-shot single-cell foundation model embeddings for cellular dynamics reconstruction",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Benchmarks zero-shot foundation-model embeddings for reconstructing trajectories from time-resolved single-cell data.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.03.10.710748"
+   },
+   "findings": "The HVG baseline beats foundation embeddings; the models over-compress temporal signal and flatten branches.",
+   "citation": "Zhou, Xueya, Zihan Wang, Yue Ling, Qinxue Tian, Zhenyi Zhang, Yongge Li, Luonan Chen et al. \"Benchmarking zero-shot single-cell foundation model embeddings for cellular dynamics reconstruction.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.03.10.710748"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "de-classification-perturbation-models",
+   "kind": "resource",
+   "title": "Beyond Expression Prediction: Benchmarking Differential Expression Classification in Single-Cell Perturbation Models",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "scrna-seq"
+   ],
+   "key": "Evaluates perturbation models on predicting differential-expression outcomes for unseen perturbations and unseen cell lines.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.07.20.739620"
+   },
+   "findings": "Simple baselines like embedding nearest neighbours are competitive or better; sparsity calibration helps deep models.",
+   "citation": "Sun, Junwei, Yuxun He, Ouyang Zhu, and Yiqun T. Chen. \"Beyond Expression Prediction: Benchmarking Differential Expression Classification in Single-Cell Perturbation Models.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.07.20.739620"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "beyond-the-final-layer-scfm-representations",
    "kind": "resource",
    "title": "Beyond the Final Layer: Evaluating Single-Cell Foundation Model Representations for Molecular Prediction",
@@ -8001,6 +8439,34 @@
    "added": "2026-10-22",
    "sources": [
     "https://doi.org/10.64898/2026.10.05.756880"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "locked-evaluation-crispri-transfer",
+   "kind": "resource",
+   "title": "Can We Trust In-Distribution Success? Locked Evaluation Reveals Transfer Failure and Sampling-Depth Entanglement in CRISPRi Perturbation Prediction",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "foundation-model"
+   ],
+   "key": "Pre-registered, locked evaluation of a frozen Geneformer representation for CRISPRi perturbation-effect prediction.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2608.00152"
+   },
+   "evaluates": [
+    "geneformer"
+   ],
+   "findings": "In-distribution success does not transfer, and the challenge endpoint is strongly tied to cell count.",
+   "citation": "Shoeibi, Mehrdad, and Niloofar Yousefi. \"Can We Trust In-Distribution Success? Locked Evaluation Reveals Transfer Failure and Sampling-Depth Entanglement in CRISPRi Perturbation Prediction.\" arXiv preprint arXiv:2608.00152 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2608.00152"
    ],
    "review_basis": "abstract",
    "status": "preprint"
@@ -8357,6 +8823,36 @@
    "github": "chitra-lab/SAFFRON"
   },
   {
+   "id": "learnability-single-cell-llms",
+   "kind": "resource",
+   "title": "Evaluating the learnability of single-cell large language models on multiple tasks",
+   "year": 2026,
+   "venue": "BMC Genomics",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq",
+    "perturbation"
+   ],
+   "key": "Tests whether larger models and more data help Geneformer and scGPT on perturbation prediction and annotation, using real and synthetic data.",
+   "links": {
+    "paper": "https://doi.org/10.1186/s12864-026-12975-6"
+   },
+   "evaluates": [
+    "geneformer",
+    "scgpt"
+   ],
+   "findings": "Scaling gives little or even hurts; for perturbation prediction the models seem to capture little beyond summary statistics.",
+   "citation": "Yan, Yu, Xutao Wang, and Dongyuan Song. \"Evaluating the learnability of single-cell large language models on multiple tasks.\" BMC Genomics 27, no. 1 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1186/s12864-026-12975-6"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "evaluating-the-role-of-pre-training",
    "kind": "resource",
    "title": "Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance",
@@ -8412,6 +8908,34 @@
    ],
    "review_basis": "abstract",
    "status": "published"
+  },
+  {
+   "id": "grn-benchmark-protocol-choices",
+   "kind": "resource",
+   "title": "Evaluation protocol choices dominate reported performance in gene regulatory network benchmarks for single-cell foundation models",
+   "year": 2026,
+   "venue": "Research Square",
+   "type": "benchmark",
+   "tags": [
+    "gene-regulation",
+    "foundation-model"
+   ],
+   "key": "Decomposes GRN evaluation for scGPT attention networks into symbol mapping, gold standard, candidate set and label noise.",
+   "links": {
+    "preprint": "https://doi.org/10.21203/rs.3.rs-9283852/v1"
+   },
+   "evaluates": [
+    "scgpt"
+   ],
+   "findings": "Protocol choices shift AUPR by orders of magnitude; under universe-aware scoring scGPT attention falls below random, while GENIE3 and GRNBoost2 do better.",
+   "citation": "Kendiukhov, Ihor. \"Evaluation protocol choices dominate reported performance in gene regulatory network benchmarks for single-cell foundation models.\" Research Square (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.21203/rs.3.rs-9283852/v1"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "exhaustive-circuit-mapping-scfm",
@@ -8571,6 +9095,65 @@
    ],
    "review_basis": "abstract",
    "status": "published"
+  },
+  {
+   "id": "el-perturb",
+   "kind": "resource",
+   "title": "Genetic Perturbation Prediction Models Fail Out-of-Distribution: A Rigorous Benchmark and Systematic Evaluation",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "scrna-seq"
+   ],
+   "key": "EL-PERTURB: stress-tests 20 perturbation models under stratified out-of-distribution splits on essential-gene and genome-wide screens.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.10.16.759604"
+   },
+   "findings": "Performance drops sharply out of distribution, and complexity, including foundation-model embeddings, gives no reliable advantage.",
+   "citation": "Tiwari, Kanupriya, Gaurang Mahajan, Renuka Prakash Bellad, Nobal Kishor Dhruw, and Abhishek K Jha. \"Genetic Perturbation Prediction Models Fail Out-of-Distribution: A Rigorous Benchmark and Systematic Evaluation.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.10.16.759604"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "harmonised-benchmark-single-cell-spatial-fms",
+   "kind": "resource",
+   "title": "Harmonised benchmarking of foundation models for single-cell and spatial transcriptomics reveals context-dependent generalisation",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq",
+    "spatial"
+   ],
+   "key": "Harmonised benchmark of six single-cell and spatial foundation models across scRNA-seq, spatial and Perturb-seq tasks.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2607.17227"
+   },
+   "evaluates": [
+    "nicheformer",
+    "cellplm",
+    "scgpt-spatial",
+    "genept",
+    "scelmo",
+    "novae"
+   ],
+   "findings": "No model dominates: cell-level transformers lead identity tasks, spatial models preserve tissue structure, and language-derived gene embeddings compete on some perturbation metrics.",
+   "citation": "Chen, Sally, Roxana Zahedi, Lucy Chhuo, Ricky Nguyen, Marjan BaghGolshani, Amin Beheshti, Mark Grosser et al. \"Harmonised benchmarking of foundation models for single-cell and spatial transcriptomics reveals context-dependent generalisation.\" arXiv preprint arXiv:2607.17227 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2607.17227"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "scgenelens-how-models-understand-cells",
@@ -8828,6 +9411,58 @@
    "status": "preprint"
   },
   {
+   "id": "omnivcbench",
+   "kind": "resource",
+   "title": "OmniVCBench: Benchmarking Evidence-Grounded Multimodal Reasoning Towards AI Virtual Cells",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "virtual-cell",
+    "llm"
+   ],
+   "key": "OmniVCBench: figure-centred benchmark of how multimodal models interpret experimental evidence and form hypotheses toward AI virtual cells.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2609.37773"
+   },
+   "citation": "Li, Manyu, Xunkai Li, Yongfu Xiong, Yi Liu, Rong-Hua Li, and Guoren Wang. \"OmniVCBench: Benchmarking Evidence-Grounded Multimodal Reasoning Towards AI Virtual Cells.\" arXiv preprint arXiv:2609.37773 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2609.37773"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "parameter-free-representations-outperform-scfms",
+   "kind": "resource",
+   "title": "Parameter-free representations outperform single-cell foundation models on downstream benchmarks",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Asks whether careful normalisation plus linear methods can match foundation models on their own benchmarks.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.02.11.705358"
+   },
+   "evaluates": [
+    "transcriptformer"
+   ],
+   "findings": "Simple linear pipelines reach state-of-the-art or near it, and beat foundation models on out-of-distribution cell types and species.",
+   "citation": "Souza, Huan, and Pankaj Mehta. \"Parameter-free representations outperform single-cell foundation models on downstream benchmarks.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.02.11.705358"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "partial-label-metric-ceilings-grn-scfm",
    "kind": "resource",
    "title": "Partial-label metric ceilings for evaluating gene regulatory networks inferred from single-cell foundation models",
@@ -8859,6 +9494,110 @@
    ],
    "review_basis": "abstract",
    "status": "published"
+  },
+  {
+   "id": "pertdiffbench",
+   "kind": "resource",
+   "title": "PertDiffBench: Benchmarking Diffusion Models for Single-Cell Perturbation Response Prediction",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "generative",
+    "scrna-seq"
+   ],
+   "key": "PertDiffBench: benchmarks diffusion models for perturbation response under varied tasks, representations and stress tests.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.13.732013"
+   },
+   "evaluates": [
+    "state"
+   ],
+   "findings": "Results depend heavily on task and representation; pretrained encoders don't consistently help, with scVI slightly ahead of STATE.",
+   "citation": "Song, Zijun, Yujia Xiang, Zhi Song, Wenyi Jin, Jiangmeng Li, Chuxiong Sun, and Linhai Xie. \"PertDiffBench: Benchmarking Diffusion Models for Single-Cell Perturbation Response Prediction.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.13.732013"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "pertreason",
+   "kind": "resource",
+   "title": "PertReason: A Knowledge-Grounded Benchmark and Framework for Cell-State-Conditioned Mechanistic Reasoning of Perturbation Effects",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "llm"
+   ],
+   "key": "PertReason: benchmark of mechanistically faithful, cell-state-conditioned reasoning about perturbation effects, with a reference model.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2607.18777"
+   },
+   "findings": "Models often get correct answers through flawed logic or ignore cellular context.",
+   "citation": "Kim, Dongkwan, Yiming Gao, Yining Yang, and Yang Shen. \"PertReason: A Knowledge-Grounded Benchmark and Framework for Cell-State-Conditioned Mechanistic Reasoning of Perturbation Effects.\" arXiv preprint arXiv:2607.18777 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2607.18777"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "re-evaluating-pretraining-scale",
+   "kind": "resource",
+   "title": "Re-evaluating the benefit of pretraining scale in cell foundation models",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Re-tests data scaling for first- and second-generation cell foundation models with standard and fully frozen fine-tuning.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.04.730272"
+   },
+   "findings": "Scaling benefits appear once evaluation is fully frozen, so fine-tuning saturation does not mean the representations saturate.",
+   "citation": "Shakeel, Haroon M, Mengyuan Shen, and Stefano Mangiola. \"Re-evaluating the benefit of pretraining scale in cell foundation models.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.04.730272"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "reference-cell-design-perturbation-evaluation",
+   "kind": "resource",
+   "title": "Reference-cell design shapes model evaluation in single-cell perturbation prediction",
+   "year": 2026,
+   "venue": "Research Square",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "scrna-seq"
+   ],
+   "key": "Shows how the choice and allocation of control (reference) cells changes perturbation benchmark results.",
+   "links": {
+    "preprint": "https://doi.org/10.21203/rs.3.rs-11119348/v1"
+   },
+   "findings": "Reassigning control cells can reverse model rankings without changing any model or metric.",
+   "citation": "Zhou, Hao, Luying Su, Minghao Liu, Assina Abdussaitova, Barbara Tarantino, Paolo Giudici, Antonello Maruotti et al. \"Reference-cell design shapes model evaluation in single-cell perturbation prediction.\" Research Square (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.21203/rs.3.rs-11119348/v1"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "sae-scfoundation-vs-geneformer",
@@ -8923,6 +9662,36 @@
    "status": "preprint"
   },
   {
+   "id": "class-imbalance-scfms",
+   "kind": "resource",
+   "title": "Rethinking Class Imbalance for Single-Cell Foundation Models: A Systematic Benchmark Across Architectures and Long-Tail Loss Functions",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Benchmarks six long-tail loss functions across three foundation models for rare cell types.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2609.23325"
+   },
+   "evaluates": [
+    "scgpt",
+    "scbert",
+    "geneformer"
+   ],
+   "findings": "Some rare classes are recoverable with the right loss, others are absorbed under every loss; class-balanced loss and LDAM are the most consistent.",
+   "citation": "Dong, Zeyu, and Jiahui Zhong. \"Rethinking Class Imbalance for Single-Cell Foundation Models: A Systematic Benchmark Across Architectures and Long-Tail Loss Functions.\" arXiv preprint arXiv:2609.23325 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2609.23325"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "revisiting-the-blueprint-interpretable-virtual-cell",
    "kind": "resource",
    "title": "Revisiting the blueprint for an interpretable virtual cell",
@@ -8945,6 +9714,57 @@
    ],
    "review_basis": "metadata",
    "status": "published"
+  },
+  {
+   "id": "nuisance-robustness-unsupervised-evaluation",
+   "kind": "resource",
+   "title": "Robustness to nuisance perturbations enables unsupervised evaluation of single-cell foundation models",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Unsupervised evaluation: checks whether embeddings keep their neighbourhood structure under small technical and sampling perturbations.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.08.22.746357"
+   },
+   "findings": "Models that tie on standard benchmarks differ almost twofold in stability after dropping 5% of counts.",
+   "citation": "Sallam, Ahmed, and Jesse Gillis. \"Robustness to nuisance perturbations enables unsupervised evaluation of single-cell foundation models.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.08.22.746357"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "sc-arena",
+   "kind": "resource",
+   "title": "SC-Arena: A Natural Language Benchmark for Single-Cell Reasoning with Knowledge-Augmented Evaluation",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "llm",
+    "scrna-seq",
+    "virtual-cell"
+   ],
+   "key": "SC-Arena: natural-language benchmark of single-cell reasoning with knowledge-augmented evaluation.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2602.23199"
+   },
+   "findings": "LLMs perform unevenly on tasks needing mechanistic or causal understanding.",
+   "citation": "Zhao, Jiahao, Feng Jiang, Shaowei Qin, Zhonghui Zhang, Junhao Liu, Guibing Guo, Hamid Alinejad-Rokny et al. \"SC-Arena: A Natural Language Benchmark for Single-Cell Reasoning with Knowledge-Augmented Evaluation.\" arXiv preprint arXiv:2602.23199 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2602.23199"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "scaling-recipes-scrna-fms",
@@ -8970,6 +9790,39 @@
    ],
    "review_basis": "abstract",
    "status": "preprint"
+  },
+  {
+   "id": "scarchon",
+   "kind": "resource",
+   "aliases": [
+    "Tracking biological hallucinations in single-cell perturbation predictions using scArchon, a comprehensive benchmarking platform"
+   ],
+   "title": "scArchon: a scalable benchmarking framework for assessing single-cell perturbation models",
+   "year": 2026,
+   "venue": "Genome Biology",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "scrna-seq"
+   ],
+   "key": "scArchon: a reproducible Snakemake platform for benchmarking single-cell perturbation-prediction tools with statistical and biological metrics.",
+   "links": {
+    "paper": "https://doi.org/10.1186/s13059-026-04104-z",
+    "preprint": "https://doi.org/10.1101/2025.06.23.661046"
+   },
+   "evaluates": [
+    "cpa"
+   ],
+   "findings": "trVAE, scGen, scPRAM and scVIDR are robust across datasets, others sometimes trail linear or control baselines, and good scores can still miss key perturbation signatures.",
+   "citation": "Radig, Jean, Robin Droit, Daria Doncevic, Albert Li, Duc Thien Bui, Luis Herfurth, Thaddeus Kühn et al. \"scArchon: a scalable benchmarking framework for assessing single-cell perturbation models.\" Genome Biology 27, no. 1 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1186/s13059-026-04104-z",
+    "https://doi.org/10.1101/2025.06.23.661046"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
   },
   {
    "id": "scclubench",
@@ -8998,6 +9851,31 @@
     "https://arxiv.org/abs/2512.02471"
    ],
    "review_basis": "paper",
+   "status": "published"
+  },
+  {
+   "id": "scmbench",
+   "kind": "resource",
+   "title": "SCMBench: benchmarking domain-specific and foundation models for single-cell multi-omics data integration",
+   "year": 2026,
+   "venue": "Nature Communications",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "multi-omics"
+   ],
+   "key": "SCMBench: benchmarks domain-specific and foundation models for single-cell multi-omics integration, beyond accuracy to biomarkers, regulatory elements and trajectories.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41467-026-72570-x"
+   },
+   "findings": "Foundation models generally fall short of the best domain-specific models; a lightweight adaptation narrows the gap.",
+   "citation": "Wang, Yixuan, Yimin Fan, Xuesong Wang, Tingyang Yu, Yongshuo Zong, Xinyuan Liu, Gaoyang Zhong et al. \"SCMBench: benchmarking domain-specific and foundation models for single-cell multi-omics data integration.\" Nature Communications 17, no. 1 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1038/s41467-026-72570-x"
+   ],
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -9307,22 +10185,27 @@
   {
    "id": "virtual-cell-challenge-2026",
    "kind": "resource",
+   "aliases": [
+    "Virtual Cell Challenge 2026: Benchmarking zero-shot generalization across cellular contexts"
+   ],
    "title": "The 2026 Virtual Cell Challenge: predicting perturbation responses in cell contexts a model has never seen",
    "year": 2026,
-   "venue": "Arc Institute",
-   "type": "perspective",
+   "venue": "Cell",
+   "type": "benchmark",
    "tags": [
     "virtual-cell",
     "perturbation"
    ],
    "key": "Announces the 2026 Virtual Cell Challenge: a zero-shot task predicting CRISPRi knockdown responses in six cell lines never seen perturbed, with no training set released.",
    "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2026.08.004",
     "project": "https://arcinstitute.org/news/virtual-cell-challenge-2026"
    },
-   "citation": "Arc Institute. \"The 2026 Virtual Cell Challenge: predicting perturbation responses in cell contexts a model has never seen.\" Arc Institute News (August 20, 2026).",
+   "citation": "Adduri, Abhinav, Dave Burke, Joseph Caputo, Paul Datlinger, Alexander Dobin, Basak Eraslan, Luke Gilbert et al. \"Virtual Cell Challenge 2026: Benchmarking zero-shot generalization across cellular contexts.\" Cell 189, no. 19 (2026): 5827-5830.",
    "reviewed": false,
    "added": "2026-10-22",
    "sources": [
+    "https://doi.org/10.1016/j.cell.2026.08.004",
     "https://arcinstitute.org/news/virtual-cell-challenge-2026"
    ],
    "review_basis": "paper",
@@ -9829,6 +10712,30 @@
    "github": "broadinstitute/2022_PERISCOPE"
   },
   {
+   "id": "simple-comprehensive-benchmark-scrna",
+   "kind": "resource",
+   "title": "A Simple and Comprehensive Benchmark for Single-Cell Transcriptomics",
+   "year": 2025,
+   "venue": "AAAI",
+   "type": "benchmark",
+   "tags": [
+    "scrna-seq"
+   ],
+   "key": "Benchmark addressing long-tailed data, model choice and evaluation for transcriptomic models, with fair downstream tasks.",
+   "links": {
+    "paper": "https://doi.org/10.1609/aaai.v39i1.32049"
+   },
+   "findings": "Weighted sampling helps consistently, and transformers are not the only competitive architecture.",
+   "citation": "Qi, Jiaxin, Yan Cui, Kailei Guo, Xiaomin Zhang, Jianqiang Huang, and Gaogang Xie. \"A Simple and Comprehensive Benchmark for Single-Cell Transcriptomics.\" In Proceedings of the AAAI Conference on Artificial Intelligence 39, no. 1 (2025): 676-684.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1609/aaai.v39i1.32049"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "a-survey-on-foundation-language-models",
    "kind": "resource",
    "title": "A survey on foundation language models for single-cell biology",
@@ -9926,6 +10833,36 @@
    "status": "preprint"
   },
   {
+   "id": "auprc-in-silico-perturbation-metric",
+   "kind": "resource",
+   "aliases": [
+    "AUC-PR is a More Informative Metric for Assessing the Biological Relevance of In Silico Cellular Perturbation Prediction Models"
+   ],
+   "title": "AUPRC: a metric for evaluating the performance of in-silico perturbation methods in identifying differentially expressed genes",
+   "year": 2025,
+   "venue": "Briefings in Bioinformatics",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "scrna-seq"
+   ],
+   "key": "Proposes AUPRC on differentially expressed genes as an evaluation metric for in-silico perturbation models.",
+   "links": {
+    "paper": "https://doi.org/10.1093/bib/bbaf426",
+    "preprint": "https://doi.org/10.1101/2025.03.06.641935"
+   },
+   "findings": "Models with high R² often fail to identify DE genes, so R² alone overstates performance.",
+   "citation": "Zhu, Hongxu, Amir Asiaee, Leila Azinfar, Jun Li, Han Liang, Ehsan Irajizad, Kim-Anh Do et al. \"AUPRC: a metric for evaluating the performance of in-silico perturbation methods in identifying differentially expressed genes.\" Briefings in Bioinformatics 26, no. 5 (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1093/bib/bbaf426",
+    "https://doi.org/10.1101/2025.03.06.641935"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "batch-effects-remain-a-fundamental-barrier",
    "kind": "resource",
    "title": "Batch Effects Remain a Fundamental Barrier to Universal Embeddings in Single-Cell Foundation Models",
@@ -10018,6 +10955,36 @@
    "status": "published"
   },
   {
+   "id": "post-perturbation-foundation-cell-models",
+   "kind": "resource",
+   "title": "Benchmarking foundation cell models for post-perturbation RNA-seq prediction",
+   "year": 2025,
+   "venue": "BMC Genomics",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Benchmarks scGPT and scFoundation against simple baselines for predicting post-perturbation expression on Perturb-seq data.",
+   "links": {
+    "paper": "https://doi.org/10.1186/s12864-025-11600-2"
+   },
+   "evaluates": [
+    "scgpt",
+    "scfoundation"
+   ],
+   "findings": "Even predicting the training mean beat both foundation models, and simple models with biological features beat scGPT by a wide margin; common Perturb-seq benchmarks have little perturbation-specific variance.",
+   "citation": "Csendes, Gerold, Gema Sanz, Kristóf Z. Szalay, and Bence Szalai. \"Benchmarking foundation cell models for post-perturbation RNA-seq prediction.\" BMC Genomics 26, no. 1 (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1186/s12864-025-11600-2"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "benchmarking-gene-embeddings-from-sequence-expression",
    "kind": "resource",
    "title": "Benchmarking gene embeddings from sequence, expression, network, and text models for functional prediction tasks",
@@ -10045,6 +11012,31 @@
    ],
    "review_basis": "paper",
    "status": "preprint"
+  },
+  {
+   "id": "benchmarking-llms-cell-typing",
+   "kind": "resource",
+   "title": "Benchmarking large language models for cell typing in single-cell RNA-Seq",
+   "year": 2025,
+   "venue": "Briefings in Bioinformatics",
+   "type": "benchmark",
+   "tags": [
+    "llm",
+    "scrna-seq"
+   ],
+   "key": "Benchmarks seven LLMs and three classical tools for cell-type annotation on 34 human and mouse datasets (DeepCellSeek).",
+   "links": {
+    "paper": "https://doi.org/10.1093/bib/bbaf677"
+   },
+   "findings": "LLMs clearly beat traditional methods, especially for fine subtypes, and an ensemble of the top models does best.",
+   "citation": "Xiao, Tianxiang, Dezhi Hua, Yanan Wang, Xuemei Lu, and Chao Zhang. \"Benchmarking large language models for cell typing in single-cell RNA-Seq.\" Briefings in Bioinformatics 26, no. 6 (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1093/bib/bbaf677"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
   },
   {
    "id": "benchmarking-machine-learning-models-for-cellular",
@@ -10420,6 +11412,37 @@
    "status": "preprint"
   },
   {
+   "id": "scisp-evaluating-fms-in-silico-perturbation",
+   "kind": "resource",
+   "title": "Evaluating Foundation Models for In-Silico Perturbation",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "scISP: evaluates in-silico perturbation by foundation models against in-vitro data with cell-state separation, ISP accuracy and gene-rank metrics.",
+   "links": {
+    "preprint": "https://doi.org/10.1101/2025.05.11.653338"
+   },
+   "evaluates": [
+    "geneformer",
+    "scgpt",
+    "gears"
+   ],
+   "findings": "Geneformer, scGPT and GEARS show distinct strengths and limits across gene categories.",
+   "citation": "Liu, Xiong, James Boylan, Theophile Bouiller, Elizaveta Solovyeva, Bulent Ataman, Sebastian Hoersch, Jeremy Jenkins et al. \"Evaluating Foundation Models for In-Silico Perturbation.\" bioRxiv (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1101/2025.05.11.653338"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "foundation-models-in-bioinformatics",
    "kind": "resource",
    "title": "Foundation models in bioinformatics",
@@ -10442,6 +11465,32 @@
    "status": "published"
   },
   {
+   "id": "failure-modes-scfms-aml",
+   "kind": "resource",
+   "title": "From Bias to Breakdown: Benchmarking Failure Mode Analysis of Single-cell RNA Sequencing Foundation Models in Acute Myeloid Leukemia",
+   "year": 2025,
+   "venue": "AAAI",
+   "venue_detail": "Symposium Series",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Subgroup failure analysis of scRNA-seq foundation models for cell-type classification in acute myeloid leukaemia.",
+   "links": {
+    "paper": "https://doi.org/10.1609/aaaiss.v7i1.36931"
+   },
+   "findings": "High overall F1 hides drops in disease conditions and in some cell types.",
+   "citation": "Naziri, Amirreza, Arash Asgari, Aijun An, Eleftherios Sachlos, and Laleh Seyyed-Kalantari. \"From Bias to Breakdown: Benchmarking Failure Mode Analysis of Single-cell RNA Sequencing Foundation Models in Acute Myeloid Leukemia.\" In Proceedings of the AAAI Symposium Series 7, no. 1 (2025): 553-557.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1609/aaaiss.v7i1.36931"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "from-virtual-cell-challenge-to-virtual",
    "kind": "resource",
    "title": "From Virtual Cell Challenge to Virtual Organs: Navigating the Deep Waters of Medical AI Models",
@@ -10458,6 +11507,35 @@
    "reviewed": false,
    "added": "2026-06-02",
    "status": "published"
+  },
+  {
+   "id": "fundamental-limitations-fms-scrna",
+   "kind": "resource",
+   "title": "Fundamental Limitations of Foundation Models in Single-Cell Transcriptomics",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Tests scGPT, SCMAMBA-2 and Geneformer against a Seurat baseline for cell-type classification under added noise.",
+   "links": {
+    "preprint": "https://doi.org/10.1101/2025.06.26.661767"
+   },
+   "evaluates": [
+    "scgpt",
+    "geneformer"
+   ],
+   "findings": "The foundation models trailed the statistical baseline; the authors attribute this to context lost in bin-based tokenisation.",
+   "citation": "Atti, Srijan, and Shankar Subramaniam. \"Fundamental Limitations of Foundation Models in Single-Cell Transcriptomics.\" bioRxiv (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1101/2025.06.26.661767"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "grow-ai-virtual-cells-three-data",
@@ -10607,6 +11685,30 @@
    "review_basis": "metadata",
    "status": "published",
    "github": "jump-cellpainting/2025_Chandrasekaran_NatureMethods_Morphmap"
+  },
+  {
+   "id": "multimodal-fm-representations-perturbation",
+   "kind": "resource",
+   "title": "Multimodal Benchmarking of Foundation Model Representations for Cellular Perturbation Response Prediction",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "foundation-model"
+   ],
+   "key": "Pan-modal benchmark of perturbation embeddings, including those from biological foundation models, for perturbation response prediction.",
+   "links": {
+    "preprint": "https://doi.org/10.1101/2025.06.26.661186"
+   },
+   "citation": "Hasanaj, Euxhen, Elijah Cole, Shahin Mohammadi, Sohan Addagudi, Xingyi Zhang, Le Song, and Eric P. Xing. \"Multimodal Benchmarking of Foundation Model Representations for Cellular Perturbation Response Prediction.\" bioRxiv (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1101/2025.06.26.661186"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "multimodal-cell-maps-as-a-foundation",
@@ -10946,6 +12048,30 @@
     "https://doi.org/10.1038/s12276-025-01547-5"
    ],
    "review_basis": "metadata",
+   "status": "published"
+  },
+  {
+   "id": "single-cell-omics-arena",
+   "kind": "resource",
+   "title": "Single-cell omics arena: evaluation of large language models for automatic cell-type annotations on single-cell omics data via RNA-seq bridging",
+   "year": 2025,
+   "venue": "Briefings in Bioinformatics",
+   "type": "benchmark",
+   "tags": [
+    "llm",
+    "scrna-seq"
+   ],
+   "key": "Benchmarks LLMs for automatic cell-type annotation and adds chain-of-thought prompting and cross-modality translation for non-RNA data.",
+   "links": {
+    "paper": "https://doi.org/10.1093/bib/bbaf622"
+   },
+   "citation": "Liu, Junhao, Siwei Xu, Yongxian Wu, and Jing Zhang. \"Single-cell omics arena: evaluation of large language models for automatic cell-type annotations on single-cell omics data via RNA-seq bridging.\" Briefings in Bioinformatics 26, no. 6 (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1093/bib/bbaf622"
+   ],
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -11413,6 +12539,31 @@
    "review_basis": "metadata",
    "status": "published",
    "github": "yhsure/perturbations"
+  },
+  {
+   "id": "task-specific-vs-transfer-encoding",
+   "kind": "resource",
+   "title": "When Task-Specific Learning Outperforms Transfer Learning: A Benchmark of Gene and Expression Encoding Strategies",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "type": "benchmark",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Trains models from scratch on 10M cells to compare gene and expression encoding strategies under controlled conditions.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2025.12.05.690830"
+   },
+   "findings": "Pretrained protein embeddings such as ESM-2 consistently underperform task-specific learned gene embeddings.",
+   "citation": "Sadalski, Igor. \"When Task-Specific Learning Outperforms Transfer Learning: A Benchmark of Gene and Expression Encoding Strategies.\" bioRxiv (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2025.12.05.690830"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "x-atlas-orion",

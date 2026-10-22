@@ -1,0 +1,26 @@
+id: pertdiffbench
+kind: resource
+type: benchmark
+title: 'PertDiffBench: Benchmarking Diffusion Models for Single-Cell Perturbation Response Prediction'
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- generative
+- scrna-seq
+key: 'PertDiffBench: benchmarks diffusion models for perturbation response under varied tasks, representations
+  and stress tests.'
+links:
+  preprint: https://doi.org/10.64898/2026.06.13.732013
+evaluates:
+- state
+findings: Results depend heavily on task and representation; pretrained encoders don't consistently help,
+  with scVI slightly ahead of STATE.
+citation: 'Song, Zijun, Yujia Xiang, Zhi Song, Wenyi Jin, Jiangmeng Li, Chuxiong Sun, and Linhai Xie.
+  "PertDiffBench: Benchmarking Diffusion Models for Single-Cell Perturbation Response Prediction." bioRxiv
+  (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.06.13.732013
+review_basis: abstract
+reviewed: false

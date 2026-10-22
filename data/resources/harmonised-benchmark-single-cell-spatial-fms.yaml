@@ -1,0 +1,32 @@
+id: harmonised-benchmark-single-cell-spatial-fms
+kind: resource
+type: benchmark
+title: Harmonised benchmarking of foundation models for single-cell and spatial transcriptomics reveals
+  context-dependent generalisation
+year: 2026
+venue: arXiv
+tags:
+- foundation-model
+- scrna-seq
+- spatial
+key: Harmonised benchmark of six single-cell and spatial foundation models across scRNA-seq, spatial and
+  Perturb-seq tasks.
+links:
+  preprint: https://arxiv.org/abs/2607.17227
+evaluates:
+- nicheformer
+- cellplm
+- scgpt-spatial
+- genept
+- scelmo
+- novae
+findings: 'No model dominates: cell-level transformers lead identity tasks, spatial models preserve tissue
+  structure, and language-derived gene embeddings compete on some perturbation metrics.'
+citation: Chen, Sally, Roxana Zahedi, Lucy Chhuo, Ricky Nguyen, Marjan BaghGolshani, Amin Beheshti, Mark
+  Grosser et al. "Harmonised benchmarking of foundation models for single-cell and spatial transcriptomics
+  reveals context-dependent generalisation." arXiv preprint arXiv:2607.17227 (2026).
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2607.17227
+review_basis: abstract
+reviewed: false

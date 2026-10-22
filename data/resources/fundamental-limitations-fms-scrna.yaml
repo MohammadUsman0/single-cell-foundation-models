@@ -1,0 +1,25 @@
+id: fundamental-limitations-fms-scrna
+kind: resource
+type: benchmark
+title: Fundamental Limitations of Foundation Models in Single-Cell Transcriptomics
+year: 2025
+venue: bioRxiv
+tags:
+- foundation-model
+- scrna-seq
+key: Tests scGPT, SCMAMBA-2 and Geneformer against a Seurat baseline for cell-type classification under
+  added noise.
+links:
+  preprint: https://doi.org/10.1101/2025.06.26.661767
+evaluates:
+- scgpt
+- geneformer
+findings: The foundation models trailed the statistical baseline; the authors attribute this to context
+  lost in bin-based tokenisation.
+citation: Atti, Srijan, and Shankar Subramaniam. "Fundamental Limitations of Foundation Models in Single-Cell
+  Transcriptomics." bioRxiv (2025).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1101/2025.06.26.661767
+review_basis: abstract
+reviewed: false

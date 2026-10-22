@@ -1,0 +1,23 @@
+id: nuisance-robustness-unsupervised-evaluation
+kind: resource
+type: benchmark
+title: Robustness to nuisance perturbations enables unsupervised evaluation of single-cell foundation
+  models
+year: 2026
+venue: bioRxiv
+tags:
+- foundation-model
+- scrna-seq
+key: 'Unsupervised evaluation: checks whether embeddings keep their neighbourhood structure under small
+  technical and sampling perturbations.'
+links:
+  preprint: https://doi.org/10.64898/2026.08.22.746357
+findings: Models that tie on standard benchmarks differ almost twofold in stability after dropping 5%
+  of counts.
+citation: Sallam, Ahmed, and Jesse Gillis. "Robustness to nuisance perturbations enables unsupervised
+  evaluation of single-cell foundation models." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.08.22.746357
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,27 @@
+id: class-imbalance-scfms
+kind: resource
+type: benchmark
+title: 'Rethinking Class Imbalance for Single-Cell Foundation Models: A Systematic Benchmark Across Architectures
+  and Long-Tail Loss Functions'
+year: 2026
+venue: arXiv
+tags:
+- foundation-model
+- scrna-seq
+key: Benchmarks six long-tail loss functions across three foundation models for rare cell types.
+links:
+  preprint: https://arxiv.org/abs/2609.23325
+evaluates:
+- scgpt
+- scbert
+- geneformer
+findings: Some rare classes are recoverable with the right loss, others are absorbed under every loss;
+  class-balanced loss and LDAM are the most consistent.
+citation: 'Dong, Zeyu, and Jiahui Zhong. "Rethinking Class Imbalance for Single-Cell Foundation Models:
+  A Systematic Benchmark Across Architectures and Long-Tail Loss Functions." arXiv preprint arXiv:2609.23325
+  (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2609.23325
+review_basis: abstract
+reviewed: false

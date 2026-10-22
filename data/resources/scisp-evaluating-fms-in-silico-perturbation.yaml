@@ -1,0 +1,26 @@
+id: scisp-evaluating-fms-in-silico-perturbation
+kind: resource
+type: benchmark
+title: Evaluating Foundation Models for In-Silico Perturbation
+year: 2025
+venue: bioRxiv
+tags:
+- perturbation
+- foundation-model
+- scrna-seq
+key: 'scISP: evaluates in-silico perturbation by foundation models against in-vitro data with cell-state
+  separation, ISP accuracy and gene-rank metrics.'
+links:
+  preprint: https://doi.org/10.1101/2025.05.11.653338
+evaluates:
+- geneformer
+- scgpt
+- gears
+findings: Geneformer, scGPT and GEARS show distinct strengths and limits across gene categories.
+citation: Liu, Xiong, James Boylan, Theophile Bouiller, Elizaveta Solovyeva, Bulent Ataman, Sebastian
+  Hoersch, Jeremy Jenkins et al. "Evaluating Foundation Models for In-Silico Perturbation." bioRxiv (2025).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1101/2025.05.11.653338
+review_basis: abstract
+reviewed: false

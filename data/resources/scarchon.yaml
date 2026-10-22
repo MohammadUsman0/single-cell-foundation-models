@@ -1,0 +1,30 @@
+id: scarchon
+kind: resource
+type: benchmark
+title: 'scArchon: a scalable benchmarking framework for assessing single-cell perturbation models'
+aliases:
+- Tracking biological hallucinations in single-cell perturbation predictions using scArchon, a comprehensive
+  benchmarking platform
+year: 2026
+venue: Genome Biology
+tags:
+- perturbation
+- scrna-seq
+key: 'scArchon: a reproducible Snakemake platform for benchmarking single-cell perturbation-prediction
+  tools with statistical and biological metrics.'
+links:
+  paper: https://doi.org/10.1186/s13059-026-04104-z
+  preprint: https://doi.org/10.1101/2025.06.23.661046
+evaluates:
+- cpa
+findings: trVAE, scGen, scPRAM and scVIDR are robust across datasets, others sometimes trail linear or
+  control baselines, and good scores can still miss key perturbation signatures.
+citation: 'Radig, Jean, Robin Droit, Daria Doncevic, Albert Li, Duc Thien Bui, Luis Herfurth, Thaddeus
+  Kühn et al. "scArchon: a scalable benchmarking framework for assessing single-cell perturbation models."
+  Genome Biology 27, no. 1 (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1186/s13059-026-04104-z
+- https://doi.org/10.1101/2025.06.23.661046
+review_basis: abstract
+reviewed: false

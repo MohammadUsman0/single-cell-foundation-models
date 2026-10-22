@@ -1,0 +1,26 @@
+id: scfms-low-data-regime-advantage
+kind: resource
+type: benchmark
+title: Benchmarking single-cell foundation models reveals an advantage in the low-data regime for cell-type
+  and disease-state prediction
+year: 2026
+venue: bioRxiv
+tags:
+- foundation-model
+- scrna-seq
+key: Benchmarks four foundation-model representations on 868 disease-prediction and 65 cell-type tasks
+  from CELLxGENE.
+links:
+  preprint: https://doi.org/10.64898/2026.10.12.758421
+evaluates:
+- transcriptformer
+findings: With full data, log-normalised counts match or beat the best model; with about 100 labelled
+  cells per class or fewer, TranscriptFormer wins.
+citation: Benhayon, Haya, Michael M. Danziger, Danny Ben-Zvi, and Michal Rosen-Zvi. "Benchmarking single-cell
+  foundation models reveals an advantage in the low-data regime for cell-type and disease-state prediction."
+  bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.10.12.758421
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,23 @@
+id: parameter-free-representations-outperform-scfms
+kind: resource
+type: benchmark
+title: Parameter-free representations outperform single-cell foundation models on downstream benchmarks
+year: 2026
+venue: bioRxiv
+tags:
+- foundation-model
+- scrna-seq
+key: Asks whether careful normalisation plus linear methods can match foundation models on their own benchmarks.
+links:
+  preprint: https://doi.org/10.64898/2026.02.11.705358
+evaluates:
+- transcriptformer
+findings: Simple linear pipelines reach state-of-the-art or near it, and beat foundation models on out-of-distribution
+  cell types and species.
+citation: Souza, Huan, and Pankaj Mehta. "Parameter-free representations outperform single-cell foundation
+  models on downstream benchmarks." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.02.11.705358
+review_basis: abstract
+reviewed: false

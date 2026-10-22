@@ -1,0 +1,22 @@
+id: re-evaluating-pretraining-scale
+kind: resource
+type: benchmark
+title: Re-evaluating the benefit of pretraining scale in cell foundation models
+year: 2026
+venue: bioRxiv
+tags:
+- foundation-model
+- scrna-seq
+key: Re-tests data scaling for first- and second-generation cell foundation models with standard and fully
+  frozen fine-tuning.
+links:
+  preprint: https://doi.org/10.64898/2026.06.04.730272
+findings: Scaling benefits appear once evaluation is fully frozen, so fine-tuning saturation does not
+  mean the representations saturate.
+citation: Shakeel, Haroon M, Mengyuan Shen, and Stefano Mangiola. "Re-evaluating the benefit of pretraining
+  scale in cell foundation models." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.06.04.730272
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,23 @@
+id: scfm-embeddings-cellular-dynamics
+kind: resource
+type: benchmark
+title: Benchmarking zero-shot single-cell foundation model embeddings for cellular dynamics reconstruction
+year: 2026
+venue: bioRxiv
+tags:
+- foundation-model
+- scrna-seq
+key: Benchmarks zero-shot foundation-model embeddings for reconstructing trajectories from time-resolved
+  single-cell data.
+links:
+  preprint: https://doi.org/10.64898/2026.03.10.710748
+findings: The HVG baseline beats foundation embeddings; the models over-compress temporal signal and flatten
+  branches.
+citation: Zhou, Xueya, Zihan Wang, Yue Ling, Qinxue Tian, Zhenyi Zhang, Yongge Li, Luonan Chen et al.
+  "Benchmarking zero-shot single-cell foundation model embeddings for cellular dynamics reconstruction."
+  bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.03.10.710748
+review_basis: abstract
+reviewed: false
