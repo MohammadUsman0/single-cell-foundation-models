@@ -1,0 +1,29 @@
+id: sae-cell-type-programs-scgpt
+kind: resource
+type: interpretability
+title: Sparse autoencoders reveal interpretable cell-type programs in single-cell foundation model representations
+year: 2026
+venue: Journal of Biomedical Informatics
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: Trains sparse autoencoders on every scGPT layer for immune cells and checks the features against
+  cell types, gene sets and PCA.
+links:
+  paper: https://doi.org/10.1016/j.jbi.2026.105056
+  preprint: https://doi.org/10.2139/ssrn.6304512
+evaluates:
+- scgpt
+findings: Later-layer features recover coherent cell-type programs, but sparsity needs calibrating to
+  avoid many dead features.
+interp_method:
+- sparse-autoencoder
+citation: 'Kendiukhov, Ihor. "Sparse autoencoders reveal interpretable cell-type programs in single-cell
+  foundation model representations." Journal of Biomedical Informatics 180 (2026): 105056.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1016/j.jbi.2026.105056
+- https://doi.org/10.2139/ssrn.6304512
+review_basis: abstract
+reviewed: false

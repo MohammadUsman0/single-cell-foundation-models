@@ -52,6 +52,8 @@ categories:
 resource_types:
   - id: benchmark
     label: Benchmarks & Evaluation
+  - id: interpretability
+    label: Interpretability & Mechanistic Analysis
   - id: dataset
     label: Datasets & Atlases
   - id: tool
@@ -149,6 +151,15 @@ code_status:
   - {id: none-found, label: No code found, desc: "Searched the paper, GitHub and Hugging Face; nothing public."}
   - {id: release-pending, label: Release pending, desc: "The authors say code will be released."}
   - {id: not-public, label: Not public, desc: "Proprietary or company model."}
+
+# ---- Interpretability studies only (`interp_method`, a list): how the study looks inside a model.
+interp_methods:
+  - {id: sparse-autoencoder, label: Sparse autoencoder, desc: "Decomposes activations into sparse, interpretable features."}
+  - {id: circuit-tracing, label: Circuit tracing, desc: "Ablates or patches features to map causal paths inside the model (incl. transcoders)."}
+  - {id: attention-analysis, label: Attention analysis, desc: "Reads or ablates attention weights and heads."}
+  - {id: probing, label: Probing, desc: "Trains simple read-outs on frozen representations."}
+  - {id: attribution, label: Attribution, desc: "Gradient or perturbation scores of input-gene importance."}
+  - {id: geometry, label: Representation geometry, desc: "Spectral, topological or subspace analysis of embeddings."}
 
 # ---- How an entry was checked (`review_basis`); `sources` lists the URLs.
 review_basis:

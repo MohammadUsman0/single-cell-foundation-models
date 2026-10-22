@@ -1,0 +1,28 @@
+id: spectral-universality-scfm
+kind: resource
+type: interpretability
+title: 'Spectral universality in single-cell foundation models: a low-dimensional shared core carries
+  the biology'
+year: 2026
+venue: Research Square
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: Compares the gene-embedding subspaces of seven transcriptome models and a protein language model
+  to find what they share.
+links:
+  preprint: https://doi.org/10.21203/rs.3.rs-10595552/v1
+evaluates:
+- geneformer
+findings: The models agree little overall, but share a small core subspace that carries nearly all the
+  biology; the rest is model-specific.
+interp_method:
+- geometry
+citation: 'Chen, Liu. "Spectral universality in single-cell foundation models: a low-dimensional shared
+  core carries the biology." Research Square (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.21203/rs.3.rs-10595552/v1
+review_basis: abstract
+reviewed: false

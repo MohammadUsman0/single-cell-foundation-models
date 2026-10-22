@@ -1,10 +1,11 @@
 id: sparse-autoencoders-reveal-interpretable-features-in
 kind: resource
-type: benchmark
+type: interpretability
 title: Sparse Autoencoders Reveal Interpretable Features in Single-Cell Foundation Models
 year: 2025
 venue: bioRxiv
 tags:
+- interpretability
 - scrna-seq
 - foundation-model
 key: Interpretability via sparse autoencoders.
@@ -16,6 +17,8 @@ evaluates:
 - geneformer
 findings: The models encode interpretable biological and technical features; steering them can reduce
   batch effects or mimic drug responses.
+interp_method:
+- sparse-autoencoder
 citation: Pedrocchi, Flavia, Florian Barkmann, Amir Joudaki, and Valentina Boeva. "Sparse Autoencoders
   Reveal Interpretable Features in Single-Cell Foundation Models." bioRxiv (2025).
 added: '2026-06-02'

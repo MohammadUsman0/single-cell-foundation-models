@@ -1,10 +1,11 @@
 id: what-do-single-cell-models-already
 kind: resource
-type: benchmark
+type: interpretability
 title: What do single-cell models already know about perturbations?
 year: 2025
 venue: Genes
 tags:
+- interpretability
 - perturbation
 - generative
 - scrna-seq
@@ -13,6 +14,8 @@ key: Shows that trained single-cell VAE decoders already encode perturbation inf
 links:
   paper: https://doi.org/10.3390/genes16121439
   code: https://github.com/yhsure/perturbations
+interp_method:
+- attribution
 citation: 'Bjerregaard, Andreas, Iñigo Prada-Luengo, Vivek Das, and Anders Krogh. "What do single-cell
   models already know about perturbations?." Genes 16, no. 12 (2025): 1439.'
 added: '2026-06-02'

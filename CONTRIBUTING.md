@@ -58,11 +58,13 @@ citation: '...'
 reviewed: false               # set to true once someone has checked it against the paper
 ```
 
-Resource files use `type` (`benchmark`, `dataset`, `tool`, `survey`,
+Resource files use `type` (`benchmark`, `interpretability`, `dataset`, `tool`, `survey`,
 `perspective`, `reference`) instead of `name`/`category`, and a benchmark can
 list the models it tested with `evaluates: [scgpt, geneformer]` (only models the paper
 actually runs, not ones it cites) and its main result in one line of your own words
-with `findings`.
+with `findings`. An interpretability study (`type: interpretability`) uses the
+same `evaluates` and `findings` fields for the models it analyses, plus `interp_method`
+(see `interp_methods` in `vocab.yaml`).
 
 Allowed `links` keys: `paper`, `preprint`, `code`, `weights`, `project`,
 `dataset`, `docs`, `video`.

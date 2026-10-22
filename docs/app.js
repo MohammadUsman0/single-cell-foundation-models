@@ -19,7 +19,7 @@
   const V = { cat: {}, tag: {}, type: {}, card: [], cardFilters: [] };   // vocabulary lookups
   // field -> {id: label}, filled from data.json's vocab (inputs, outputs, architecture family, ...)
   const L = { inputs: {}, outputs: {}, architecture_family: {}, code_status: {}, review_basis: {},
-              perturbation_type: {}, generalization: {} };
+              perturbation_type: {}, generalization: {}, interp_method: {} };
   // model filters for "what it takes / gives / is": [url param, field, heading]
   const IO = [["in", "inputs", "Takes"], ["out", "outputs", "Gives"], ["fam", "architecture_family", "Architecture"],
               ["pt", "perturbation_type", "Perturbation type"], ["gen", "generalization", "Generalization"]];
@@ -453,6 +453,7 @@
     if (e.architecture_family) add("Architecture family", esc(lab("architecture_family", e.architecture_family)));
     add("Perturbation type", esc(asList(e.perturbation_type).map((v) => lab("perturbation_type", v)).join(", ")));
     add("Generalization", esc(asList(e.generalization).map((v) => lab("generalization", v)).join(", ")));
+    add("Interpretability method", esc(asList(e.interp_method).map((v) => lab("interp_method", v)).join(", ")));
     if (!links.code && e.code_status) add("Code", esc(lab("code_status", e.code_status)));
     if (e.added) add("Added to catalogue", esc(e.added));
     if (e.review_basis) add("Checked against", esc(lab("review_basis", e.review_basis)) + (asList(e.sources).length
@@ -465,12 +466,15 @@
         <div class="row"><a class="btn" href="${esc(links.paper)}" target="_blank" rel="noopener">Published version</a>
         <a class="btn" href="${esc(links.preprint)}" target="_blank" rel="noopener">Preprint</a></div></div>` : "";
 
-    const evaluatedBy = kind === "model"
+    const testedBy = kind === "model"
       ? DATA.resources.filter((r) => (r.evaluates || []).includes(e.id)) : [];
+    const evaluatedBy = testedBy.filter((r) => r.type !== "interpretability");
+    const studiedBy = testedBy.filter((r) => r.type === "interpretability");
     const evaluates = kind === "resource"
       ? (e.evaluates || []).map((mid) => DATA.models.find((m) => m.id === mid)).filter(Boolean) : [];
     const relList = (arr, k) => arr.map((x) =>
       `<li><a href="#/${k}/${encodeURIComponent(x.id)}">${esc(label(x))}</a>${x.year ? ` <span class="note">(${esc(x.year)})</span>` : ""}${
+        asList(x.interp_method).length ? ` <span class="note">· ${esc(asList(x.interp_method).map((v) => lab("interp_method", v)).join(", "))}</span>` : ""}${
         x.findings ? `<div class="finding">${esc(x.findings)}</div>` : ""}</li>`).join("");
 
     const q = encodeURIComponent(e.title);
@@ -498,7 +502,10 @@
         ${evaluatedBy.length ? `<div class="section"><h2>Evaluated by</h2>
           <p class="note" style="margin:0 0 6px">Benchmarks that tested this model, with each benchmark's headline result.</p>
           <ul class="rel">${relList(evaluatedBy, "resource")}</ul></div>` : ""}
-        ${evaluates.length ? `<div class="section"><h2>Models evaluated</h2><ul>${relList(evaluates, "model")}</ul></div>` : ""}
+        ${studiedBy.length ? `<div class="section"><h2>Interpretability studies</h2>
+          <p class="note" style="margin:0 0 6px">Papers that look inside this model, with the method used and what they found.</p>
+          <ul class="rel">${relList(studiedBy, "resource")}</ul></div>` : ""}
+        ${evaluates.length ? `<div class="section"><h2>${e.type === "interpretability" ? "Models analysed" : "Models evaluated"}</h2><ul>${relList(evaluates, "model")}</ul></div>` : ""}
         <div class="section"><h2>Explore related work</h2><div class="row">${explore}</div></div>
         ${e.citation ? `<div class="section"><h2>Citation</h2><p class="cite" id="cite">${esc(e.citation)}</p>
           <div class="row" style="margin-top:8px"><button type="button" class="btn small" id="copy-cite">Copy citation</button></div></div>` : ""}
@@ -745,12 +752,19 @@
     const counted = sized.filter((s) => /counted from released weights/.test(s.c.params)).length;
     // 6. which models the benchmarks test
     const short = (r) => (r.aliases || [])[0] || (r.title.length > 32 ? r.title.slice(0, 30).trim() + "…" : r.title);
-    const benches = DATA.resources.filter((r) => asList(r.evaluates).length)
+    const benches = DATA.resources.filter((r) => r.type !== "interpretability" && asList(r.evaluates).length)
       .sort((a, b) => (b.year || 0) - (a.year || 0) || asList(b.evaluates).length - asList(a.evaluates).length);
     const testedIn = (mid) => benches.filter((r) => asList(r.evaluates).includes(mid));
     const tested = ms.filter((m) => testedIn(m.id).length)
       .sort((a, b) => testedIn(b.id).length - testedIn(a.id).length || label(a).localeCompare(label(b)));
     const byId = Object.fromEntries(benches.map((r) => [r.id, r]));
+    // 7. which models get opened up, and how
+    const studies = DATA.resources.filter((r) => r.type === "interpretability");
+    const imeths = DATA.vocab.interp_methods.map((x) => [x.id, x.label]);
+    const studiesOf = (mid, meth) => studies.filter((r) => asList(r.evaluates).includes(mid) && (!meth || asList(r.interp_method).includes(meth)));
+    const probed = ms.filter((m) => studiesOf(m.id).length)
+      .sort((a, b) => studiesOf(b.id).length - studiesOf(a.id).length || label(a).localeCompare(label(b)));
+    const imMax = Math.max(1, ...probed.flatMap((m) => imeths.map(([k]) => studiesOf(m.id, k).length)));
 
     app.innerHTML = `
       <div class="insights">
@@ -802,6 +816,13 @@
           <div class="chart" id="c-bench"></div>
           ${chartTable(["Model", "Benchmarks", "Tested in"], tested.map((m) => [label(m), testedIn(m.id).length,
             testedIn(m.id).map(short).join("; ")]))}</section>` : ""}
+        ${probed.length ? `<section class="chart-card"><h2>Which models get opened up</h2>
+          <p class="sub">Interpretability studies by the model they analyse (rows) and the method they use (columns).
+            ${studies.length} studies cover ${probed.length} of ${ms.length} catalogued models; ${esc(label(probed[0]))} is studied most.
+            A study using several methods counts in several cells.</p>
+          ${scaleLegend(imMax)}<div class="chart" id="c-interp"></div>
+          ${chartTable(["Model", ...imeths.map((x) => x[1]), "Studies"], probed.map((m) => [label(m),
+            ...imeths.map(([k]) => studiesOf(m.id, k).length), studiesOf(m.id).map((r) => short(r)).join("; ")]))}</section>` : ""}
       </div>`;
 
     insightsRedraw = () => {
@@ -827,6 +848,10 @@
         points: sized.map((s) => ({ x: s.x, y: s.y, y0: s.y0, label: label(s.m), color: famOf(s.m).color,
           href: `#/model/${encodeURIComponent(s.m.id)}`,
           tip: `<b>${esc(label(s.m))}</b><br>Parameters: ${esc(s.c.params)}<br>Pretraining cells: ${esc(s.c.pretraining_cells)}` })) });
+      if ($("#c-interp")) heatmap($("#c-interp"), { rows: probed.map((m) => [m.id, label(m)]), cols: imeths,
+        value: (m, k) => studiesOf(m, k).length, href: (m) => `#/model/${encodeURIComponent(m)}`,
+        tip: (m, k, v) => `<b>${esc(label(ms.find((x) => x.id === m)))}</b> · ${esc(lab("interp_method", k))}<br>${v} stud${v > 1 ? "ies" : "y"}:<br>${
+          studiesOf(m, k).map((r) => esc(short(r))).join("<br>")}` });
       if ($("#c-bench")) presenceGrid($("#c-bench"), {
         rows: benches.map((r) => [r.id, `${short(r)} (${r.year})`]), cols: tested.map((m) => [m.id, label(m)]),
         has: (r, m) => asList(byId[r].evaluates).includes(m), href: (r) => `#/resource/${encodeURIComponent(r)}`,
@@ -918,7 +943,8 @@
       for (const t of d.vocab.resource_types) V.type[t.id] = t.label;
       const VOCAB = { inputs: "inputs", outputs: "outputs", architecture_family: "architecture_families",
                       code_status: "code_status", review_basis: "review_basis",
-                      perturbation_type: "perturbation_types", generalization: "generalization" };
+                      perturbation_type: "perturbation_types", generalization: "generalization",
+                      interp_method: "interp_methods" };
       for (const [field, list_] of Object.entries(VOCAB)) for (const x of d.vocab[list_] || []) L[field][x.id] = x.label;
       // Model-card fields get filters/columns only once some model has data for them.
       V.card = Object.keys(d.vocab.model_card_fields || {}).filter((f) => d.models.some((m) => (m.model_card || {})[f] != null));

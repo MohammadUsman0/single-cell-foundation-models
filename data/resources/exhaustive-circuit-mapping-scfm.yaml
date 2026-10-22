@@ -1,0 +1,30 @@
+id: exhaustive-circuit-mapping-scfm
+kind: resource
+type: interpretability
+title: Exhaustive Circuit Mapping of a Single-Cell Foundation Model Reveals Massive Redundancy, Heavy-Tailed
+  Hub Architecture, and Layer-Dependent Differentiation Control
+year: 2026
+venue: arXiv
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: Traces every active sparse-autoencoder feature in one Geneformer layer, tests higher-order ablations
+  and steers cell trajectories with features.
+links:
+  preprint: https://arxiv.org/abs/2603.11940
+evaluates:
+- geneformer
+findings: Exhaustive tracing reveals a heavy-tailed hub structure missed by selective sampling and strong
+  redundancy; late-layer features push cells toward maturity.
+interp_method:
+- sparse-autoencoder
+- circuit-tracing
+citation: Kendiukhov, Ihor. "Exhaustive Circuit Mapping of a Single-Cell Foundation Model Reveals Massive
+  Redundancy, Heavy-Tailed Hub Architecture, and Layer-Dependent Differentiation Control." arXiv preprint
+  arXiv:2603.11940 (2026).
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2603.11940
+review_basis: paper
+reviewed: false

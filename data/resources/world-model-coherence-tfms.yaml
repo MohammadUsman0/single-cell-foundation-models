@@ -1,0 +1,31 @@
+id: world-model-coherence-tfms
+kind: resource
+type: interpretability
+title: 'Toward a Coherent Virtual Cell Model: Probing Biological World-Model Coherence in Transcriptomic
+  Foundation Models'
+year: 2025
+venue: NeurIPS
+venue_detail: AI4D3 Workshop
+tags:
+- interpretability
+- foundation-model
+- virtual-cell
+- scrna-seq
+key: Probes whether a transcriptomic foundation model has an internal world model by comparing its pretraining
+  loss on real, shuffled and interpolated cells, without labels.
+links:
+  paper: https://ai4d3.github.io/2025/papers/26_Toward_a_Coherent_Virtual_C.pdf
+evaluates:
+- scgpt
+findings: scGPT usually tells real from shuffled cells and shows loss barriers between distant cell types,
+  yet much embedding structure survives shuffling expression values.
+interp_method:
+- probing
+citation: 'Moriel, Noa, Yishai Shimoni, Michal Rosen-Zvi, and Michael Morris Danziger. "Toward a Coherent
+  Virtual Cell Model: Probing Biological World-Model Coherence in Transcriptomic Foundation Models." AI4D3
+  Workshop at NeurIPS (2025).'
+added: '2026-10-22'
+sources:
+- https://ai4d3.github.io/2025/papers/26_Toward_a_Coherent_Virtual_C.pdf
+review_basis: paper
+reviewed: false
