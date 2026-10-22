@@ -1,0 +1,21 @@
+id: what-makes-a-virtual-cell-a-world-model
+kind: resource
+type: perspective
+title: What Makes a Virtual Cell a World Model? Three Gaps, Three Experiments, and a Roadmap
+year: 2026
+venue: Research Square
+tags:
+- virtual-cell
+- foundation-model
+key: Defines virtual cell world models through three gaps (dynamics, intervention, scale), backs them
+  with three experiments and gives a capability ladder.
+links:
+  preprint: https://doi.org/10.21203/rs.3.rs-10404367/v1
+citation: Yu, Chang, Jingbo Zhou, Cheng Tan, Stan Z. Li, Xiaodong Liu, Xiaoming Zhang, Zhaoxiang Zhang
+  et al. "What Makes a Virtual Cell a World Model? Three Gaps, Three Experiments, and a Roadmap." Research
+  Square (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.21203/rs.3.rs-10404367/v1
+review_basis: abstract
+reviewed: false

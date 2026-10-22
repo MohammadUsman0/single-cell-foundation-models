@@ -1,0 +1,22 @@
+id: foundation-models-single-cell-biology-review
+kind: resource
+type: survey
+title: 'Foundation Models for Single-cell Biology: A Review of Architectures, Benchmarks, and the Push
+  toward Mechanistic Understanding'
+year: 2026
+venue: SSRN
+tags:
+- foundation-model
+- scrna-seq
+- interpretability
+key: Review of single-cell foundation model architectures and benchmarks, and of the move toward mechanistic
+  understanding.
+links:
+  preprint: https://doi.org/10.2139/ssrn.6847538
+citation: 'Denvis, Olivia. "Foundation Models for Single-cell Biology: A Review of Architectures, Benchmarks,
+  and the Push toward Mechanistic Understanding." SSRN (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.2139/ssrn.6847538
+review_basis: metadata
+reviewed: false

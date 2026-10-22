@@ -1,0 +1,27 @@
+id: llm4cell
+kind: resource
+type: survey
+title: 'LLM4Cell: Taxonomy and Evaluation of LLM and Agentic Models for Single-Cell Biology'
+aliases:
+- 'LLM4Cell: A Survey of Large Language and Agentic Models for Single-Cell Biology'
+year: 2026
+venue: ACL
+tags:
+- llm
+- agent
+- scrna-seq
+key: 'LLM4Cell: survey and taxonomy of 58 language-model and agentic systems for single-cell biology,
+  mapped to tasks, datasets and ten evaluation dimensions.'
+links:
+  paper: https://doi.org/10.18653/v1/2026.acl-long.1942
+  preprint: https://arxiv.org/abs/2510.07793
+citation: 'Dip, Sajib Acharjee, Adrika Zafor, Bikash Kumar Paul, Uddip Acharjee Shuvo, Muhit Islam Emon,
+  Xuan Wang, and Liqing Zhang. "LLM4Cell: Taxonomy and Evaluation of LLM and Agentic Models for Single-Cell
+  Biology." In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics
+  (Volume 1: Long Papers) (2026): 41913-41954.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.18653/v1/2026.acl-long.1942
+- https://arxiv.org/abs/2510.07793
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,22 @@
+id: sparse-autoencoders-biological-fms-review
+kind: resource
+type: survey
+title: What Do Biological Foundation Models Compute? Sparse Autoencoders from Feature Recovery to Mechanistic
+  Interpretability
+year: 2026
+venue: bioRxiv
+tags:
+- interpretability
+- foundation-model
+key: Systematic review of sparse autoencoders across protein, genomic, pathology and single-cell foundation
+  models, and how their features are validated.
+links:
+  preprint: https://doi.org/10.64898/2026.03.04.709491
+citation: Orlov, Alexey V., Yulia V. Makus, German A. Ashniev, Natalia N. Orlova, and Petr I. Nikitin.
+  "What Do Biological Foundation Models Compute? Sparse Autoencoders from Feature Recovery to Mechanistic
+  Interpretability." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.03.04.709491
+review_basis: abstract
+reviewed: false

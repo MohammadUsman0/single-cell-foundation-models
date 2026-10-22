@@ -1,0 +1,22 @@
+id: virtual-cell-construction-drug-discovery
+kind: resource
+type: survey
+title: Virtual cell construction for artificial intelligence‐driven drug discovery
+year: 2026
+venue: British Journal of Pharmacology
+tags:
+- virtual-cell
+- drug-response
+- perturbation
+key: Review of virtual-cell modelling paradigms and how they support target prioritisation, drug response
+  and combination design.
+links:
+  paper: https://doi.org/10.1111/bph.70585
+citation: Jia, Yuran, Xiao Xing, Haoyang Han, Yuansong Zhao, Shiyao Zhou, and Jingjing Chen. "Virtual
+  cell construction for artificial intelligence‐driven drug discovery." British Journal of Pharmacology
+  (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1111/bph.70585
+review_basis: abstract
+reviewed: false

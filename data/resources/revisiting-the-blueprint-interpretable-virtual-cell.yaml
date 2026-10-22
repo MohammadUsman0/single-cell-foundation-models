@@ -1,0 +1,19 @@
+id: revisiting-the-blueprint-interpretable-virtual-cell
+kind: resource
+type: perspective
+title: Revisiting the blueprint for an interpretable virtual cell
+year: 2026
+venue: Nature Reviews Genetics
+tags:
+- virtual-cell
+- interpretability
+key: Short piece revisiting systems biology as a blueprint for an interpretable virtual cell.
+links:
+  paper: https://doi.org/10.1038/s41576-026-00940-8
+citation: 'Wu, Angela Ruohao. "Revisiting the blueprint for an interpretable virtual cell." Nature Reviews
+  Genetics 27, no. 5 (2026): 347-347.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1038/s41576-026-00940-8
+review_basis: metadata
+reviewed: false

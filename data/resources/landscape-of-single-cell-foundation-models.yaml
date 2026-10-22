@@ -1,0 +1,21 @@
+id: landscape-of-single-cell-foundation-models
+kind: resource
+type: survey
+title: 'The Landscape of Single-Cell Foundation Models: Design Principles, Applications, and Open Challenges'
+year: 2026
+venue: Preprints.org
+tags:
+- foundation-model
+- scrna-seq
+key: Review of single-cell foundation models by data representation, architecture and objective, with
+  applications and open challenges.
+links:
+  preprint: https://doi.org/10.20944/preprints202608.1166.v1
+citation: 'Jiang, Shiyu, Zhaoyu Fang, Yujie Zhang, Xuting Zhang, Jérémie Kalfon, Weixu Wang, Xi Fu et
+  al.. "The Landscape of Single-Cell Foundation Models: Design Principles, Applications, and Open Challenges."
+  Preprints.org (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.20944/preprints202608.1166.v1
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,19 @@
+id: artificial-intelligence-virtual-organoids
+kind: resource
+type: survey
+title: Artificial Intelligence Virtual Organoids (AIVOs)
+year: 2026
+venue: Bioactive Materials
+tags:
+- virtual-cell
+key: 'Review defining AI virtual organoids: organoid-scale digital twins built from virtual cells, with
+  architecture, construction, evaluation and applications.'
+links:
+  paper: https://doi.org/10.1016/j.bioactmat.2025.12.030
+citation: 'Bai, Long, and Jiacan Su. "Artificial Intelligence Virtual Organoids (AIVOs)." Bioactive Materials
+  59 (2026): 45-68.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1016/j.bioactmat.2025.12.030
+review_basis: abstract
+reviewed: false
