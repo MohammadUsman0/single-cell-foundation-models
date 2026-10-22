@@ -87,6 +87,7 @@ tags:
   - {id: generative, label: Generative, group: approach}
   - {id: graph, label: Graph, group: approach}
   - {id: foundation-model, label: Foundation model, group: approach}
+  - {id: interpretability, label: Interpretability, group: approach}
 
 # Allowed keys inside a model's `model_card` block (all optional).
 model_card_fields:

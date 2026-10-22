@@ -17,7 +17,7 @@ architecture_family: transformer-encoder-decoder
 key: Efficient and Scalable Representation Learner
 links:
   paper: https://doi.org/10.52202/075280-3039
-  code: https://github.com/biomap-research/scFoundation
+code_status: none-found
 citation: 'Gong, Jing, Minsheng Hao, Xingyi Cheng, Xin Zeng, Chiming Liu, Jianzhu Ma, Xuegong Zhang, Taifeng
   Wang, and Le Song. "xTrimoGene: an efficient and scalable representation learner for single-cell RNA-seq
   data." Advances in Neural Information Processing Systems 36 (2023): 69391-69403.'
@@ -26,3 +26,5 @@ sources:
 - https://doi.org/10.52202/075280-3039
 review_basis: abstract
 reviewed: false
+review_notes:
+- 'Code link removed: the scFoundation repo builds on xTrimoGene but is not its own release.'

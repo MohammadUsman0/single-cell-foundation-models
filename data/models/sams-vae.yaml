@@ -1,0 +1,39 @@
+id: sams-vae
+kind: model
+name: SAMS-VAE
+title: Modelling Cellular Perturbations with the Sparse Additive Mechanism Shift Variational Autoencoder
+year: 2023
+venue: NeurIPS
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+- interpretability
+modality: scRNA-seq (perturbation)
+architecture: Variational autoencoder with sparse additive latent shifts
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: vae
+perturbation_type:
+- genetic
+- combination
+key: VAE whose perturbation effects are sparse, composable latent shifts, giving interpretable perturbation-specific
+  subspaces.
+links:
+  paper: https://doi.org/10.52202/075280-0001
+  preprint: https://arxiv.org/abs/2311.02794
+  code: https://github.com/insitro/sams-vae
+citation: Bereket, Michael, and Theofanis Karaletsos. "Modelling cellular perturbations with the sparse
+  additive mechanism shift variational autoencoder." Advances in Neural Information Processing Systems
+  36 (2023).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.52202/075280-0001
+- https://arxiv.org/abs/2311.02794
+- https://github.com/insitro/sams-vae
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,36 @@
+id: ocoo-t
+kind: model
+name: OCOO-T
+title: 'OCOO-T: A Simple and Scalable Virtual Cell Model for Transcriptional Perturbation Response Prediction'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- virtual-cell
+- scrna-seq
+modality: scRNA-seq (perturbation)
+architecture: Flow-matching Transformer
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: flow-matching
+perturbation_type:
+- genetic
+- chemical
+- cytokine
+key: Minimalist flow-matching Transformer that denoises full expression profiles conditioned on perturbation,
+  dose and cell context.
+links:
+  preprint: https://doi.org/10.64898/2026.06.08.731000
+code_status: none-found
+citation: 'Zhao, Yalong, Lipeng Lai, Danning Jiang, and Zheming An. "OCOO-T: A Simple and Scalable Virtual
+  Cell Model for Transcriptional Perturbation Response Prediction." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.06.08.731000
+review_basis: abstract
+reviewed: false

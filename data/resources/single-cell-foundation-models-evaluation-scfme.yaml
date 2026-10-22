@@ -11,6 +11,7 @@ links:
 evaluates:
 - geneformer
 - scgpt
+- gears
 citation: Boylan, James, Elizaveta Solovyeva, Theophile Bouiller, Xiong Liu, Sebastian Hoersch, Bulent
   Ataman, Jeremy Jenkins et al. "Single Cell Foundation Models Evaluation (scFME) for In-Silico Perturbation."
   bioRxiv (2025).

@@ -1,0 +1,32 @@
+id: vcharness
+kind: model
+name: VCHarness
+title: Harnessing AI to Build Virtual Cells
+year: 2026
+venue: bioRxiv
+category: agents
+tags:
+- agent
+- perturbation
+- virtual-cell
+modality: scRNA-seq (perturbation)
+architecture: AI coding agent + biological foundation models
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: agent
+key: Autonomous coding agent that searches architectures and training pipelines to build perturbation-response
+  models, cutting development from months to days.
+links:
+  preprint: https://doi.org/10.64898/2026.04.11.717183
+  code: https://github.com/genbio-ai/VCHarness
+citation: Cheng, Xingyi, Pan Li, Han Guo, Youwei Liang, Jing Gong, William de Vazelhes, Changjiang Gou,
+  Pengtao Xie, Le Song, and Eric Xing. "Harnessing AI to Build Virtual Cells." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.04.11.717183
+- https://github.com/genbio-ai/VCHarness
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,38 @@
+id: gears
+kind: model
+name: GEARS
+title: Predicting transcriptional outcomes of novel multigene perturbations with GEARS
+year: 2023
+venue: Nature Biotechnology
+category: perturbation
+tags:
+- perturbation
+- graph
+- scrna-seq
+modality: scRNA-seq (Perturb-seq)
+architecture: Graph neural network over a gene-gene knowledge graph
+inputs:
+- expression
+- perturbation
+- prior-network
+outputs:
+- perturbation-response
+architecture_family: graph-neural-network
+perturbation_type:
+- genetic
+- combination
+generalization:
+- unseen-perturbation
+key: Uses a gene-gene knowledge graph to predict responses to single and multigene perturbations, including
+  genes never perturbed in training.
+links:
+  paper: https://doi.org/10.1038/s41587-023-01905-6
+  code: https://github.com/snap-stanford/GEARS
+citation: 'Roohani, Yusuf, Kexin Huang, and Jure Leskovec. "Predicting transcriptional outcomes of novel
+  multigene perturbations with GEARS." Nature Biotechnology 42, no. 6 (2024): 927-935.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1038/s41587-023-01905-6
+- https://github.com/snap-stanford/GEARS
+review_basis: abstract
+reviewed: false

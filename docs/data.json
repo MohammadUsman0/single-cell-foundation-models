@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-21",
+ "generated": "2026-10-22",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
-  "models": 170,
+  "models": 186,
   "resources": 126,
   "venues": 19
  },
@@ -199,6 +199,11 @@
    {
     "id": "foundation-model",
     "label": "Foundation model",
+    "group": "approach"
+   },
+   {
+    "id": "interpretability",
+    "label": "Interpretability",
     "group": "approach"
    }
   ],
@@ -814,6 +819,96 @@
    "status": "preprint"
   },
   {
+   "id": "chreode",
+   "kind": "model",
+   "name": "Chreode",
+   "title": "Chreode: A Cell World Model for One-Step Temporal Dynamics and Perturbation Prediction",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "generative",
+    "virtual-cell",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq (time series, perturbation)",
+   "architecture": "scVI encoder + DiT dynamics backbone",
+   "key": "One-step cell world model that predicts action-conditioned state transitions, pretrained on developmental trajectories and transferable to perturbation prediction.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2605.28111",
+    "code": "https://github.com/MufanQiu/Chreode"
+   },
+   "model_card": {
+    "pretraining_cells": "2.4M (mouse embryonic atlas)"
+   },
+   "citation": "Qiu, Mufan, Genhui Zheng, Yinuo Xu, Ruichen Zhang, Ying Ding, Qi Long, and Tianlong Chen. \"Chreode: A Cell World Model for One-Step Temporal Dynamics and Perturbation Prediction.\" arXiv preprint arXiv:2605.28111 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "expression-prediction",
+    "perturbation-response"
+   ],
+   "architecture_family": "diffusion",
+   "perturbation_type": [
+    "genetic"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2605.28111",
+    "https://github.com/MufanQiu/Chreode"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "MufanQiu/Chreode"
+  },
+  {
+   "id": "cite-vae",
+   "kind": "model",
+   "name": "CITE-VAE",
+   "title": "Learning Latent Dynamical Causal Processes for Single-Cell Perturbation Prediction",
+   "year": 2026,
+   "venue": "KDD",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "generative",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq (CRISPR perturbation)",
+   "architecture": "Latent dynamical causal VAE",
+   "key": "Latent causal generative model of cellular programs and their evolution over time, with identifiability guarantees, for out-of-distribution perturbation prediction.",
+   "links": {
+    "paper": "https://doi.org/10.1145/3770855.3818868"
+   },
+   "citation": "Jiang, Wenkang, Yuhang Liu, Erdun Gao, Ehsan Abbasnejad, Lina Yao, and Javen Qinfeng Shi. \"Learning Latent Dynamical Causal Processes for Single-Cell Perturbation Prediction.\" In Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "architecture_family": "vae",
+   "code_status": "none-found",
+   "perturbation_type": [
+    "genetic"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1145/3770855.3818868"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "clm-x",
    "kind": "model",
    "name": "CLM-X",
@@ -1021,6 +1116,100 @@
    "github": "ChangxiChi/Doloris"
   },
   {
+   "id": "evae",
+   "kind": "model",
+   "name": "ExpressionVAE",
+   "aliases": [
+    "eVAE"
+   ],
+   "title": "Elucidating the Design Space of Generative Models for Single-Cell Perturbation Prediction",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "generative",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq (perturbation)",
+   "architecture": "Discrete-latent VAE (FSQ) with perturbation-conditioned prior",
+   "key": "Compresses each cell into a short sequence of discrete codes and learns a perturbation-conditioned prior over them, isolating the gain to the discrete latent.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.15.732063",
+    "code": "https://github.com/sanjukta7/sc-evae"
+   },
+   "citation": "Bhattacharya, Sanjukta, Christian Gensbigler, Shaamil Karim, and Jon Lees. \"Elucidating the Design Space of Generative Models for Single-Cell Perturbation Prediction.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "generated-cells",
+    "perturbation-response"
+   ],
+   "architecture_family": "vae",
+   "perturbation_type": [
+    "genetic",
+    "cytokine"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.15.732063",
+    "https://github.com/sanjukta7/sc-evae"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "sanjukta7/sc-evae"
+  },
+  {
+   "id": "genegeoflow",
+   "kind": "model",
+   "name": "GeneGeoFlow",
+   "title": "Control-Anchored Residual Flow Matching Conditioned on Gene Geometry for Virtual Cell Perturbation Modeling",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "generative",
+    "virtual-cell",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq (perturbation)",
+   "architecture": "Control-anchored residual flow matching with network-derived gene geometry",
+   "key": "Flow-matching model conditioned on gene geometry from GO and co-expression networks, without propagating perturbation signals along the graph.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2608.06824"
+   },
+   "citation": "Li, Quanquan, Yihe Chi, Liuyang Song, Hongbo Zhang, Jingyu Li, Xidong Xi, Conghua Wei et al. \"Control-Anchored Residual Flow Matching Conditioned on Gene Geometry for Virtual Cell Perturbation Modeling.\" arXiv preprint arXiv:2608.06824 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation",
+    "prior-network"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "architecture_family": "flow-matching",
+   "code_status": "none-found",
+   "perturbation_type": [
+    "genetic",
+    "chemical",
+    "combination"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2608.06824"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "harmonycell",
    "kind": "model",
    "name": "HarmonyCell",
@@ -1086,6 +1275,59 @@
    "github": "donghaifang/HINGE"
   },
   {
+   "id": "latent-causal-diffusions",
+   "kind": "model",
+   "name": "LCD",
+   "aliases": [
+    "Latent causal diffusion",
+    "LCD-CLIPR"
+   ],
+   "title": "Latent causal diffusions for single-cell perturbation modeling",
+   "year": 2026,
+   "venue": "PNAS",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "gene-regulation",
+    "scrna-seq",
+    "interpretability"
+   ],
+   "modality": "scRNA-seq (Perturb-seq)",
+   "architecture": "Stationary diffusion process with causal linearization (CLIPR)",
+   "key": "Models expression as a noisy stationary diffusion to predict unseen perturbation combinations, and reads approximate gene-gene causal effects out of the learned dynamics.",
+   "links": {
+    "paper": "https://doi.org/10.1073/pnas.2602630123",
+    "preprint": "https://arxiv.org/abs/2601.15341",
+    "code": "https://github.com/larslorch/lcd-clipr"
+   },
+   "citation": "Lorch, Lars, Jiaqi Zhang, Charlotte Bunne, Andreas Krause, Bernhard Schölkopf, and Caroline Uhler. \"Latent causal diffusions for single-cell perturbation modeling.\" Proceedings of the National Academy of Sciences (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "gene-regulatory-network"
+   ],
+   "perturbation_type": [
+    "genetic",
+    "combination"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1073/pnas.2602630123",
+    "https://arxiv.org/abs/2601.15341",
+    "https://github.com/larslorch/lcd-clipr"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "larslorch/lcd-clipr"
+  },
+  {
    "id": "lingshu-cell",
    "kind": "model",
    "name": "Lingshu-Cell",
@@ -1129,6 +1371,49 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "alibaba-damo-academy/Lingshu-Cell"
+  },
+  {
+   "id": "ocoo-t",
+   "kind": "model",
+   "name": "OCOO-T",
+   "title": "OCOO-T: A Simple and Scalable Virtual Cell Model for Transcriptional Perturbation Response Prediction",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "generative",
+    "virtual-cell",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq (perturbation)",
+   "architecture": "Flow-matching Transformer",
+   "key": "Minimalist flow-matching Transformer that denoises full expression profiles conditioned on perturbation, dose and cell context.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.08.731000"
+   },
+   "citation": "Zhao, Yalong, Lipeng Lai, Danning Jiang, and Zheming An. \"OCOO-T: A Simple and Scalable Virtual Cell Model for Transcriptional Perturbation Response Prediction.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "architecture_family": "flow-matching",
+   "code_status": "none-found",
+   "perturbation_type": [
+    "genetic",
+    "chemical",
+    "cytokine"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.08.731000"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "okr-cell",
@@ -1296,7 +1581,8 @@
    "key": "cell state transition prediction, gene program dicovery, in silico perturbations",
    "links": {
     "paper": "https://doi.org/10.64898/2026.03.04.709254",
-    "code": "https://github.com/Lotfollahi-lab/Perturbgen/"
+    "code": "https://github.com/Lotfollahi-lab/Perturbgen/",
+    "project": "https://cellatlas.io/perturbgen"
    },
    "citation": "Chi Hao Ly, Kevin, Adib Miraki Feriz, Tomoya Isobe, Amirhossein Vahidi, Delshad Vaghari, Anthony Rostron, Mariana Quiroga Londono et al. \"Predicting how perturbations reshape cellular trajectories with PerturbGen.\" bioRxiv (2026): 2026-03.",
    "reviewed": false,
@@ -1317,6 +1603,49 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "Lotfollahi-lab/Perturbgen"
+  },
+  {
+   "id": "perturbpfn",
+   "kind": "model",
+   "name": "PerturbPFN",
+   "title": "PerturbPFN: Probing the Limits of Synthetic Priors in Drug Perturbation Modelling",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "drug-response",
+    "interpretability"
+   ],
+   "modality": "scRNA-seq (chemical perturbation)",
+   "architecture": "Prior-fitted network with SCM decoder",
+   "key": "Prior-fitted network trained only on synthetic episodes; infers latent targets, strengths and system graph to predict unknown-target drug effects in context.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2607.23447"
+   },
+   "citation": "Gao, Yuche, José Miguel Hernández-Lobato, and Siyuan Guo. \"PerturbPFN: Probing the Limits of Synthetic Priors in Drug Perturbation Modelling.\" arXiv preprint arXiv:2607.23447 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "gene-regulatory-network"
+   ],
+   "code_status": "none-found",
+   "perturbation_type": [
+    "chemical"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2607.23447"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "petri",
@@ -1408,6 +1737,52 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "theislab/regvelo"
+  },
+  {
+   "id": "perturbation-response-decomposition",
+   "kind": "model",
+   "name": "Response decomposition",
+   "title": "Perturbation response decomposition enables biologically aligned generalization to unseen perturbations and cellular contexts",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq (CRISPRi Perturb-seq)",
+   "architecture": "Response decomposition with linear / MLP predictors",
+   "key": "Splits responses into global, perturbation, cell-line and interaction components; aligning priors to each lets simple linear or MLP models beat complex ones.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.07.24.740459",
+    "code": "https://github.com/xinyizhanglab/perturbation-decomposition"
+   },
+   "citation": "Molina, Alexis, and Xinyi Zhang. \"Perturbation response decomposition enables biologically aligned generalization to unseen perturbations and cellular contexts.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation",
+    "prior-network"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "genetic",
+    "combination"
+   ],
+   "generalization": [
+    "unseen-perturbation",
+    "unseen-cell-context"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.07.24.740459",
+    "https://github.com/xinyizhanglab/perturbation-decomposition"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "xinyizhanglab/perturbation-decomposition"
   },
   {
    "id": "scale",
@@ -2133,6 +2508,91 @@
    "github": "TencentAILabHealthcare/UniPert"
   },
   {
+   "id": "vcharness",
+   "kind": "model",
+   "name": "VCHarness",
+   "title": "Harnessing AI to Build Virtual Cells",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "perturbation",
+    "virtual-cell"
+   ],
+   "modality": "scRNA-seq (perturbation)",
+   "architecture": "AI coding agent + biological foundation models",
+   "key": "Autonomous coding agent that searches architectures and training pipelines to build perturbation-response models, cutting development from months to days.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.04.11.717183",
+    "code": "https://github.com/genbio-ai/VCHarness"
+   },
+   "citation": "Cheng, Xingyi, Pan Li, Han Guo, Youwei Liang, Jing Gong, William de Vazelhes, Changjiang Gou, Pengtao Xie, Le Song, and Eric Xing. \"Harnessing AI to Build Virtual Cells.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.04.11.717183",
+    "https://github.com/genbio-ai/VCHarness"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "genbio-ai/VCHarness"
+  },
+  {
+   "id": "vclmu",
+   "kind": "model",
+   "name": "VCLMU",
+   "title": "VCLMU: Mechanism-Centric Virtual Cell World Modeling for Perturbation Response",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "virtual-cell",
+    "scrna-seq",
+    "interpretability"
+   ],
+   "modality": "Bulk and single-cell perturbation profiles",
+   "architecture": "Latent Mechanism Units with stochastic transitions",
+   "key": "Virtual cell world model that represents cell state as latent mechanism units and treats a perturbation as an action on them before decoding the response.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2610.04475"
+   },
+   "model_card": {
+    "pretraining_data": "~200K pseudo-bulk perturbation profiles, then single-cell perturbation data"
+   },
+   "citation": "Miao, Yuwei, Azim Dehghani Amirabad, Scott Oloff, Junzhou Huang, Tianyu Cui, and Rui Liao. \"VCLMU: Mechanism-Centric Virtual Cell World Modeling for Perturbation Response.\" arXiv preprint arXiv:2610.04475 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "code_status": "none-found",
+   "perturbation_type": [
+    "genetic"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2610.04475"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "x-cell",
    "kind": "model",
    "name": "X-Cell",
@@ -2540,6 +3000,49 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "portrai-io/CELLama"
+  },
+  {
+   "id": "cellcap",
+   "kind": "model",
+   "name": "CellCap",
+   "title": "Explainable modeling of single-cell perturbation data using attention and sparse dictionary learning",
+   "year": 2025,
+   "venue": "Cell Systems",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "generative",
+    "scrna-seq",
+    "interpretability"
+   ],
+   "modality": "scRNA-seq (perturbation)",
+   "architecture": "Deep generative model with sparse dictionary learning and attention",
+   "key": "Explains cell-state-specific perturbation responses as a small set of transcriptional response programs linked to cell state by attention.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cels.2025.101245",
+    "code": "https://github.com/broadinstitute/CellCap"
+   },
+   "citation": "Xu, Yang, Stephen Fleming, Matthew Tegtmeyer, Steven A. McCarroll, and Mehrtash Babadi. \"Explainable modeling of single-cell perturbation data using attention and sparse dictionary learning.\" Cell Systems 16, no. 4 (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "genetic",
+    "chemical"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1016/j.cels.2025.101245",
+    "https://github.com/broadinstitute/CellCap"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "broadinstitute/CellCap"
   },
   {
    "id": "cellclip",
@@ -3010,6 +3513,49 @@
    "review_basis": "metadata",
    "status": "published",
    "github": "AltschulerWu-Lab/CLIPn"
+  },
+  {
+   "id": "closed-loop-scfm",
+   "kind": "model",
+   "name": "Closed-loop scFM",
+   "title": "Closing the loop: Teaching single-cell foundation models to learn from perturbations",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq (perturbation)",
+   "architecture": "Geneformer fine-tuned with perturbation data",
+   "key": "Fine-tunes a single-cell foundation model on experimental perturbation data so its in-silico predictions improve each round; used to find targets in a rare blood disorder.",
+   "links": {
+    "preprint": "https://doi.org/10.1101/2025.07.08.663754",
+    "code": "https://github.com/bicklab/geneformer"
+   },
+   "citation": "Pershad, Yash, Tarak N. Nandi, Joseph C. Van Amburg, Alyssa C. Parker, Luiza Ostrowski, Hannah K. Giannini, David Ong et al. \"Closing the loop: Teaching single-cell foundation models to learn from perturbations.\" bioRxiv (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "gene-prioritization"
+   ],
+   "architecture_family": "transformer-encoder",
+   "perturbation_type": [
+    "genetic"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1101/2025.07.08.663754",
+    "https://github.com/bicklab/geneformer"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "bicklab/geneformer"
   },
   {
    "id": "cradle-vae",
@@ -5370,6 +5916,51 @@
    "github": "genbio-ai/AIDO"
   },
   {
+   "id": "biolord",
+   "kind": "model",
+   "name": "biolord",
+   "title": "Disentanglement of single-cell data with biolord",
+   "year": 2024,
+   "venue": "Nature Biotechnology",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "generative",
+    "multi-omics"
+   ],
+   "modality": "Single-cell multi-omics",
+   "architecture": "Deep generative disentanglement model",
+   "key": "Disentangles single-cell data into known and unknown attributes and shifts cells between states to generate unmeasured conditions, including unseen drugs and genetic perturbations.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41587-023-02079-x",
+    "code": "https://github.com/nitzanlab/biolord"
+   },
+   "citation": "Piran, Zoe, Niv Cohen, Yedid Hoshen, and Mor Nitzan. \"Disentanglement of single-cell data with biolord.\" Nature Biotechnology 42, no. 11 (2024): 1678-1683.",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "generated-cells",
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "genetic",
+    "chemical"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1038/s41587-023-02079-x",
+    "https://github.com/nitzanlab/biolord"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "nitzanlab/biolord"
+  },
+  {
    "id": "cancerfoundation",
    "kind": "model",
    "name": "CancerFoundation",
@@ -6498,6 +7089,104 @@
    "github": "vandijklab/CINEMA-OT"
   },
   {
+   "id": "cpa",
+   "kind": "model",
+   "name": "CPA",
+   "aliases": [
+    "Compositional Perturbation Autoencoder"
+   ],
+   "title": "Predicting cellular responses to complex perturbations in high-throughput screens",
+   "year": 2023,
+   "venue": "Molecular Systems Biology",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "drug-response",
+    "scrna-seq",
+    "interpretability"
+   ],
+   "modality": "scRNA-seq (perturbation)",
+   "architecture": "Compositional autoencoder",
+   "key": "Autoencoder that composes drug, dose and cell-type effects additively in latent space to predict unseen combinations and dosages.",
+   "links": {
+    "paper": "https://doi.org/10.15252/msb.202211517",
+    "code": "https://github.com/theislab/cpa"
+   },
+   "citation": "Lotfollahi, Mohammad, Anna Klimovskaia Susmelj, Carlo De Donno, Leon Hetzel, Yuge Ji, Ignacio L. Ibarra, Sanjay R. Srivatsan et al. \"Predicting cellular responses to complex perturbations in high-throughput screens.\" Molecular Systems Biology 19, no. 6 (2023): e11517.",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "chemical",
+    "genetic",
+    "combination"
+   ],
+   "generalization": [
+    "unseen-perturbation",
+    "unseen-cell-context"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.15252/msb.202211517",
+    "https://github.com/theislab/cpa"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "theislab/cpa"
+  },
+  {
+   "id": "gears",
+   "kind": "model",
+   "name": "GEARS",
+   "title": "Predicting transcriptional outcomes of novel multigene perturbations with GEARS",
+   "year": 2023,
+   "venue": "Nature Biotechnology",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "graph",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq (Perturb-seq)",
+   "architecture": "Graph neural network over a gene-gene knowledge graph",
+   "key": "Uses a gene-gene knowledge graph to predict responses to single and multigene perturbations, including genes never perturbed in training.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41587-023-01905-6",
+    "code": "https://github.com/snap-stanford/GEARS"
+   },
+   "citation": "Roohani, Yusuf, Kexin Huang, and Jure Leskovec. \"Predicting transcriptional outcomes of novel multigene perturbations with GEARS.\" Nature Biotechnology 42, no. 6 (2024): 927-935.",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation",
+    "prior-network"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "architecture_family": "graph-neural-network",
+   "perturbation_type": [
+    "genetic",
+    "combination"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1038/s41587-023-01905-6",
+    "https://github.com/snap-stanford/GEARS"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "snap-stanford/GEARS"
+  },
+  {
    "id": "geneformer",
    "kind": "model",
    "name": "Geneformer",
@@ -6581,6 +7270,52 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "HelloWorldLTY/MuSe-GNN"
+  },
+  {
+   "id": "sams-vae",
+   "kind": "model",
+   "name": "SAMS-VAE",
+   "title": "Modelling Cellular Perturbations with the Sparse Additive Mechanism Shift Variational Autoencoder",
+   "year": 2023,
+   "venue": "NeurIPS",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "generative",
+    "scrna-seq",
+    "interpretability"
+   ],
+   "modality": "scRNA-seq (perturbation)",
+   "architecture": "Variational autoencoder with sparse additive latent shifts",
+   "key": "VAE whose perturbation effects are sparse, composable latent shifts, giving interpretable perturbation-specific subspaces.",
+   "links": {
+    "paper": "https://doi.org/10.52202/075280-0001",
+    "preprint": "https://arxiv.org/abs/2311.02794",
+    "code": "https://github.com/insitro/sams-vae"
+   },
+   "citation": "Bereket, Michael, and Theofanis Karaletsos. \"Modelling cellular perturbations with the sparse additive mechanism shift variational autoencoder.\" Advances in Neural Information Processing Systems 36 (2023).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "architecture_family": "vae",
+   "perturbation_type": [
+    "genetic",
+    "combination"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.52202/075280-0001",
+    "https://arxiv.org/abs/2311.02794",
+    "https://github.com/insitro/sams-vae"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "insitro/sams-vae"
   },
   {
    "id": "scclip",
@@ -6773,8 +7508,7 @@
    "modality": "Single-Cell RNA-Seq",
    "key": "Efficient and Scalable Representation Learner",
    "links": {
-    "paper": "https://doi.org/10.52202/075280-3039",
-    "code": "https://github.com/biomap-research/scFoundation"
+    "paper": "https://doi.org/10.52202/075280-3039"
    },
    "citation": "Gong, Jing, Minsheng Hao, Xingyi Cheng, Xin Zeng, Chiming Liu, Jianzhu Ma, Xuegong Zhang, Taifeng Wang, and Le Song. \"xTrimoGene: an efficient and scalable representation learner for single-cell RNA-seq data.\" Advances in Neural Information Processing Systems 36 (2023): 69391-69403.",
    "reviewed": false,
@@ -6786,13 +7520,13 @@
     "perturbation-response"
    ],
    "architecture_family": "transformer-encoder-decoder",
+   "code_status": "none-found",
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.52202/075280-3039"
    ],
    "review_basis": "abstract",
-   "status": "published",
-   "github": "biomap-research/scFoundation"
+   "status": "published"
   },
   {
    "id": "exceiver",
@@ -6949,7 +7683,10 @@
    "evaluates": [
     "scgpt",
     "scfoundation",
-    "squidiff"
+    "squidiff",
+    "gears",
+    "biolord",
+    "cpa"
    ],
    "findings": "PerturbNet best recovers DE signatures, but no method generalises across cell types; fine-tuned foundation models underestimate synergy.",
    "citation": "Li, Lanxiang, Yue You, Yunlin Fu, Wenyu Liao, Xueying Fan, Shihong Lu, Ye Cao et al. \"A systematic comparison of single-cell perturbation response prediction models.\" Science Advances 12, no. 37 (2026): eaed3414.",
@@ -7070,7 +7807,11 @@
    "evaluates": [
     "state",
     "sclambda",
-    "prnet"
+    "prnet",
+    "biolord",
+    "cpa",
+    "sams-vae",
+    "gears"
    ],
    "findings": "Performance is often overestimated and drops sharply under stricter context shifts; models capture global trends but miss perturbation-specific effects.",
    "citation": "Mao, Xinjie, Songming Zhang, Qianhong Wen, Xiangyu Wen, Kedu Jin, Hao Wu, Shuizhou Chen, Yuqiang Li, Lei Bai, Qi Liu, Ning Ding, Siqi Sun, and Zhangyang Gao. \"Benchmarking virtual cell models for in-the-wild perturbation response.\" arXiv preprint arXiv:2604.27646 (2026).",
@@ -7677,13 +8418,16 @@
    "links": {
     "paper": "https://www.nature.com/articles/s41592-025-02980-0"
    },
+   "evaluates": [
+    "biolord"
+   ],
    "findings": "Across 27 methods and 29 datasets, generalising to unseen contexts calls for better cell-context embeddings.",
    "reviewed": false,
    "added": "2026-06-02",
    "sources": [
     "https://www.nature.com/articles/s41592-025-02980-0"
    ],
-   "review_basis": "abstract",
+   "review_basis": "paper",
    "status": "published"
   },
   {
@@ -7917,7 +8661,9 @@
     "paper": "https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1"
    },
    "evaluates": [
-    "scgpt"
+    "scgpt",
+    "gears",
+    "sclambda"
    ],
    "findings": "Under well-calibrated metrics deep models do beat mean and linear baselines; earlier reports of underperformance came from poorly calibrated metrics such as MSE.",
    "citation": "Miller, Henry E., Gabriel M. Mejia, Francis J. A. Leblanc, Bo Wang, Brendan Swain, and Lucas Paulo de Lima Camillo. \"Deep Learning-Based Genetic Perturbation Models Do Outperform Uninformative Baselines on Well-Calibrated Metrics.\" bioRxiv (2025).",
@@ -7947,7 +8693,9 @@
     "scgpt",
     "uce",
     "scbert",
-    "geneformer"
+    "geneformer",
+    "gears",
+    "cpa"
    ],
    "findings": "None of the five foundation models beat simple linear baselines at predicting perturbation effects.",
    "reviewed": false,
@@ -7991,6 +8739,9 @@
    "links": {
     "paper": "https://arxiv.org/abs/2506.22641"
    },
+   "evaluates": [
+    "gears"
+   ],
    "findings": "The mean baseline looks strong because of metric artefacts; DEG-aware metrics remove the effect.",
    "citation": "Mejia, Gabriel M., Henry E. Miller, Francis J. A. Leblanc, Bo Wang, Brendan Swain, and Lucas Paulo de Lima Camillo. \"Diversity by Design: Addressing Mode Collapse Improves scRNA-seq Perturbation Modeling on Well-Calibrated Metrics.\" arXiv preprint arXiv:2506.22641 (2025).",
    "reviewed": false,
@@ -7998,7 +8749,7 @@
    "sources": [
     "https://arxiv.org/abs/2506.22641"
    ],
-   "review_basis": "abstract",
+   "review_basis": "paper",
    "status": "preprint"
   },
   {
@@ -8554,7 +9305,8 @@
    },
    "evaluates": [
     "geneformer",
-    "scgpt"
+    "scgpt",
+    "gears"
    ],
    "citation": "Boylan, James, Elizaveta Solovyeva, Theophile Bouiller, Xiong Liu, Sebastian Hoersch, Bulent Ataman, Jeremy Jenkins et al. \"Single Cell Foundation Models Evaluation (scFME) for In-Silico Perturbation.\" bioRxiv (2025).",
    "reviewed": false,
@@ -8680,7 +9432,9 @@
     "paper": "https://www.nature.com/articles/s41587-025-02777-8"
    },
    "evaluates": [
-    "scgpt"
+    "scgpt",
+    "gears",
+    "cpa"
    ],
    "findings": "Predicting unseen perturbations is harder than standard metrics suggest.",
    "reviewed": false,

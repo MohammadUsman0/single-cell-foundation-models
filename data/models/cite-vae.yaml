@@ -1,0 +1,36 @@
+id: cite-vae
+kind: model
+name: CITE-VAE
+title: Learning Latent Dynamical Causal Processes for Single-Cell Perturbation Prediction
+year: 2026
+venue: KDD
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: scRNA-seq (CRISPR perturbation)
+architecture: Latent dynamical causal VAE
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: vae
+perturbation_type:
+- genetic
+generalization:
+- unseen-perturbation
+key: Latent causal generative model of cellular programs and their evolution over time, with identifiability
+  guarantees, for out-of-distribution perturbation prediction.
+links:
+  paper: https://doi.org/10.1145/3770855.3818868
+code_status: none-found
+citation: Jiang, Wenkang, Yuhang Liu, Erdun Gao, Ehsan Abbasnejad, Lina Yao, and Javen Qinfeng Shi. "Learning
+  Latent Dynamical Causal Processes for Single-Cell Perturbation Prediction." In Proceedings of the 32nd
+  ACM SIGKDD Conference on Knowledge Discovery and Data Mining (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1145/3770855.3818868
+review_basis: abstract
+reviewed: false

@@ -14,6 +14,8 @@ evaluates:
 - uce
 - scbert
 - geneformer
+- gears
+- cpa
 findings: None of the five foundation models beat simple linear baselines at predicting perturbation effects.
 added: '2026-06-02'
 sources:

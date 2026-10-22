@@ -1,0 +1,36 @@
+id: cellcap
+kind: model
+name: CellCap
+title: Explainable modeling of single-cell perturbation data using attention and sparse dictionary learning
+year: 2025
+venue: Cell Systems
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+- interpretability
+modality: scRNA-seq (perturbation)
+architecture: Deep generative model with sparse dictionary learning and attention
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- chemical
+key: Explains cell-state-specific perturbation responses as a small set of transcriptional response programs
+  linked to cell state by attention.
+links:
+  paper: https://doi.org/10.1016/j.cels.2025.101245
+  code: https://github.com/broadinstitute/CellCap
+citation: Xu, Yang, Stephen Fleming, Matthew Tegtmeyer, Steven A. McCarroll, and Mehrtash Babadi. "Explainable
+  modeling of single-cell perturbation data using attention and sparse dictionary learning." Cell Systems
+  16, no. 4 (2025).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1016/j.cels.2025.101245
+- https://github.com/broadinstitute/CellCap
+review_basis: abstract
+reviewed: false
