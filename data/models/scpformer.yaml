@@ -1,0 +1,34 @@
+id: scpformer
+kind: model
+name: scpFormer
+title: 'scpFormer: A Foundation Model for Unified Representation and Integration of the Single-Cell Proteomics'
+year: 2026
+venue: arXiv
+category: proteomics
+tags:
+- proteomics
+- foundation-model
+modality: Single-cell proteomics (antibody panels)
+architecture: Transformer with ESM-anchored protein tokens
+inputs:
+- protein-abundance
+- protein-sequence
+outputs:
+- cell-embedding
+architecture_family: transformer-encoder
+key: Maps variable antibody panels into a shared space using protein-sequence embeddings, enabling in-silico
+  panel expansion.
+links:
+  preprint: https://arxiv.org/abs/2604.20003
+  code: https://github.com/qfchou/scpFormer
+model_card:
+  pretraining_cells: '>390M'
+citation: 'Zhou, Qifeng, Lei Yu, Yuzhi Guo, Yuwei Miao, Hehuan Ma, Wenliang Zhong, Lin Xu et al. "scpFormer:
+  A Foundation Model for Unified Representation and Integration of the Single-Cell Proteomics." arXiv
+  preprint arXiv:2604.20003 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2604.20003
+- https://github.com/qfchou/scpFormer
+review_basis: abstract
+reviewed: false

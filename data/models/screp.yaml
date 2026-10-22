@@ -1,0 +1,28 @@
+id: screp
+kind: model
+name: scRep
+title: 'scRep: A Latent-Space Self-Distilled Foundation Model for Single-Cell Representation Learning'
+year: 2026
+venue: bioRxiv
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+modality: scRNA-seq
+architecture: Latent-space self-distillation (teacher-student)
+inputs:
+- expression
+outputs:
+- cell-embedding
+key: Learns representations by aligning perturbed views of a cell in latent space instead of reconstructing
+  expression.
+links:
+  preprint: https://doi.org/10.64898/2026.08.31.747784
+code_status: none-found
+citation: 'Wang, Shengjie, Zongyong Hu, Yunlong Bie, Qijin Yin, Hechang Chen, and Qiuyi Li. "scRep: A
+  Latent-Space Self-Distilled Foundation Model for Single-Cell Representation Learning." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.08.31.747784
+review_basis: abstract
+reviewed: false

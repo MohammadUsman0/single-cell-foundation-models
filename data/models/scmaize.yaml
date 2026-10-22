@@ -1,0 +1,33 @@
+id: scmaize
+kind: model
+name: scMaize
+title: 'scMaize: A Single-Cell Foundation Model and Integrated Atlas for Maize'
+year: 2026
+venue: bioRxiv
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+modality: Maize scRNA-seq
+architecture: Transformer (expression-only and GO-informed variants)
+inputs:
+- expression
+outputs:
+- cell-type-label
+- cell-embedding
+architecture_family: transformer-encoder
+key: Maize single-cell atlas plus two transformer foundation models, one using Gene Ontology embeddings
+  as a prior.
+links:
+  preprint: https://doi.org/10.64898/2026.08.01.742180
+  code: https://github.com/yjthu/scMaize
+model_card:
+  pretraining_cells: 385,675
+citation: 'Cheng, Qian, Ying Zhang, Tianhao Wu, Anwen Zhao, Meiqi Shang, Xiangfeng Wang, and Jun Yan.
+  "scMaize: A Single-Cell Foundation Model and Integrated Atlas for Maize." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.08.01.742180
+- https://github.com/yjthu/scMaize
+review_basis: abstract
+reviewed: false

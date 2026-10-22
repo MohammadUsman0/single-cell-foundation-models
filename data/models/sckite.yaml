@@ -1,0 +1,30 @@
+id: sckite
+kind: model
+name: scKITE
+title: Towards a knowledge-enhanced single-cell foundation model
+year: 2026
+venue: arXiv
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+- text
+modality: scRNA-seq
+architecture: Transformer encoder with auxiliary knowledge decoders
+inputs:
+- expression
+outputs:
+- cell-embedding
+architecture_family: transformer-encoder
+key: Adds cell-annotation and gene-regulatory supervision during pretraining to get more from less data.
+links:
+  preprint: https://arxiv.org/abs/2609.14970
+  code: https://github.com/BaoJiee/scKITE
+citation: Zhang, Hanqing, Jie Bao, Mei Ma, Shuai Liu, Jiaying Ma, Jiaguan Liu, Jiaxiao Li et al. "Towards
+  a knowledge-enhanced single-cell foundation model." arXiv preprint arXiv:2609.14970 (2026).
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2609.14970
+- https://github.com/BaoJiee/scKITE
+review_basis: abstract
+reviewed: false

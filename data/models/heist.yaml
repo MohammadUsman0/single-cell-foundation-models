@@ -1,0 +1,35 @@
+id: heist
+kind: model
+name: HEIST
+title: 'HEIST: A Graph Foundation Model for Spatial Transcriptomics and Proteomics Data'
+year: 2025
+venue: arXiv
+category: spatial
+tags:
+- spatial
+- proteomics
+- graph
+- foundation-model
+modality: Spatial transcriptomics and proteomics
+architecture: Hierarchical graph foundation model
+inputs:
+- expression
+- protein-abundance
+- spatial-coordinates
+outputs:
+- cell-embedding
+architecture_family: graph-neural-network
+key: Graph foundation model linking intracellular programs to the tissue microenvironment for spatial
+  RNA and protein data.
+links:
+  preprint: https://arxiv.org/abs/2506.11152
+  code: https://github.com/Graph-and-Geometric-Learning/HEIST
+citation: 'Madhu, Hiren, João Felipe Rocha, Tinglin Huang, Siddharth Viswanath, Smita Krishnaswamy, and
+  Rex Ying. "HEIST: A Graph Foundation Model for Spatial Transcriptomics and Proteomics Data." arXiv preprint
+  arXiv:2506.11152 (2025).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2506.11152
+- https://github.com/Graph-and-Geometric-Learning/HEIST
+review_basis: abstract
+reviewed: false

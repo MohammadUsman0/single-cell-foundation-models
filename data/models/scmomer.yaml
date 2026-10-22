@@ -1,0 +1,31 @@
+id: scmomer
+kind: model
+name: scMomer
+title: 'scMomer: A modality-aware pretraining framework for single-cell multi-omics modeling under missing
+  modality conditions'
+year: 2025
+venue: bioRxiv
+category: multimodal
+tags:
+- multi-omics
+- foundation-model
+modality: Single-cell multi-omics
+architecture: Modality-aware three-stage pretraining
+inputs:
+- expression
+- chromatin-accessibility
+outputs:
+- cell-embedding
+key: Three-stage pretraining that distils multi-omics knowledge so unimodal inputs give multi-omics-like
+  representations.
+links:
+  preprint: https://doi.org/10.1101/2025.08.04.668374
+  code: https://github.com/nobody927/scMomer
+citation: 'Liu, Yuhang, Quan Zou, Ran Su, and Leyi Wei. "scMomer: A modality-aware pretraining framework
+  for single-cell multi-omics modeling under missing modality conditions." bioRxiv (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1101/2025.08.04.668374
+- https://github.com/nobody927/scMomer
+review_basis: abstract
+reviewed: false

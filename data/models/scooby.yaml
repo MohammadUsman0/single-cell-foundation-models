@@ -1,0 +1,31 @@
+id: scooby
+kind: model
+name: scooby
+title: 'scooby: modeling multimodal genomic profiles from DNA sequence at single-cell resolution'
+year: 2025
+venue: Nature Methods
+category: seq2exp
+tags:
+- multi-omics
+- dna-sequence
+- scatac-seq
+modality: scRNA-seq + scATAC-seq from DNA sequence
+architecture: Borzoi with a cell-specific decoder
+inputs:
+- dna-sequence
+outputs:
+- expression-prediction
+key: Predicts single-cell RNA coverage and ATAC insertions from DNA sequence by adding a cell-specific
+  decoder to the pretrained Borzoi model.
+links:
+  paper: https://doi.org/10.1038/s41592-025-02854-5
+  code: https://github.com/gagneurlab/scooby
+citation: 'Hingerl, Johannes C., Laura D. Martens, Alexander Karollus, Trevor Manz, Jason D. Buenrostro,
+  Fabian J. Theis, and Julien Gagneur. "scooby: modeling multimodal genomic profiles from DNA sequence
+  at single-cell resolution." Nature Methods 22, no. 11 (2025): 2275-2285.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1038/s41592-025-02854-5
+- https://github.com/gagneurlab/scooby
+review_basis: abstract
+reviewed: false

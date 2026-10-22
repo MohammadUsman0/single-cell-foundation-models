@@ -1,0 +1,30 @@
+id: lemur
+kind: model
+name: Lemur
+title: 'Lemur: A Single-Cell Foundation Model with Fine-Tuning-Free Hierarchical Cell-Type Generation
+  for Drosophila melanogaster'
+year: 2025
+venue: bioRxiv
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+modality: Drosophila scRNA-seq
+architecture: Foundation model with hierarchical cell-type decoder
+inputs:
+- expression
+outputs:
+- cell-type-label
+key: Drosophila foundation model that annotates cell types hierarchically without fine-tuning.
+links:
+  preprint: https://doi.org/10.1101/2025.02.04.636468
+  weights: https://huggingface.co/jorgebotas/lemur
+citation: 'Botas, Jorge, Johnathan Jia, Sasidhar Pasupuleti, Hu Chen, Xia Hu, Zhaozhuo Xu, and Zhandong
+  Liu. "Lemur: A Single-Cell Foundation Model with Fine-Tuning-Free Hierarchical Cell-Type Generation
+  for Drosophila melanogaster." bioRxiv (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1101/2025.02.04.636468
+review_basis: abstract
+reviewed: false
+code_status: none-found

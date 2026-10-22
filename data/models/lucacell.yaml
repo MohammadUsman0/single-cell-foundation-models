@@ -1,0 +1,36 @@
+id: lucacell
+kind: model
+name: LucaCell
+title: 'LucaCell: a sequence-centric foundation model for cross-species single-cell analysis'
+year: 2026
+venue: Research Square
+category: scrna
+tags:
+- scrna-seq
+- cross-species
+- foundation-model
+modality: scRNA-seq (human, mouse)
+architecture: Transformer encoder with mRNA-sequence gene embeddings
+inputs:
+- expression
+- dna-sequence
+outputs:
+- cell-embedding
+- cell-type-label
+architecture_family: transformer-encoder
+key: Represents genes by pretrained mRNA-sequence embeddings so cell models transfer across species and
+  data types.
+links:
+  preprint: https://doi.org/10.21203/rs.3.rs-11151765/v1
+  code: https://github.com/LucaOne/LucaCell
+  weights: https://huggingface.co/LucaGroup/LucaCell-v1.0-step6.4M
+model_card:
+  pretraining_cells: 85M
+citation: 'Sun, Yan, Yong He, Minsi Ren, Yanhui Wang, Penghao Xu, Yong Hou, Yu Kang et al. "LucaCell:
+  a sequence-centric foundation model for cross-species single-cell analysis." Research Square (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.21203/rs.3.rs-11151765/v1
+- https://github.com/LucaOne/LucaCell
+review_basis: abstract
+reviewed: false

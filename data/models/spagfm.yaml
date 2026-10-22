@@ -1,0 +1,35 @@
+id: spagfm
+kind: model
+name: spaGFM
+title: spaGFM is a scalable graph foundation model for spatial transcriptomics analyses
+year: 2026
+venue: Research Square
+category: spatial
+tags:
+- spatial
+- graph
+- foundation-model
+modality: Imaging-based spatial transcriptomics
+architecture: Graph foundation model with random-walk serialisation
+inputs:
+- expression
+- spatial-coordinates
+outputs:
+- cell-embedding
+- spatial-domain
+key: Turns cellular neighbourhoods into random-walk sequences so a transformer can learn tissue context
+  at atlas scale.
+links:
+  preprint: https://doi.org/10.21203/rs.3.rs-11012643/v1
+  code: https://github.com/yzhong36/spaGFM
+model_card:
+  pretraining_cells: 43.9M
+citation: Wang, Juexin, Yu Zhong, Fei He, Xiaojie Jin, Yang Yu, Ricardo Melo Ferreira, Andrew Gunderson
+  et al. "spaGFM is a scalable graph foundation model for spatial transcriptomics analyses." Research
+  Square (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.21203/rs.3.rs-11012643/v1
+- https://github.com/yzhong36/spaGFM
+review_basis: abstract
+reviewed: false

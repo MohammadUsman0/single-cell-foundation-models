@@ -1,0 +1,33 @@
+id: speciesformer
+kind: model
+name: Speciesformer
+title: Speciesformer learns conserved cellular states for cross-species generative virtual cell modeling
+year: 2026
+venue: bioRxiv
+category: scrna
+tags:
+- scrna-seq
+- cross-species
+- generative
+- virtual-cell
+modality: Multi-species scRNA-seq
+architecture: Cross-species generative foundation model
+inputs:
+- expression
+outputs:
+- cell-embedding
+- generated-cells
+key: Cross-species generative model that separates conserved cell states from species context for virtual
+  cell generation.
+links:
+  preprint: https://doi.org/10.64898/2026.09.22.752128
+code_status: none-found
+model_card:
+  pretraining_cells: 131M (11 species)
+citation: Wang, Jiacheng, Jiaqi Dong, Guowei Li, Chao Fang, Liwei Liu, and Xin Gao. "Speciesformer learns
+  conserved cellular states for cross-species generative virtual cell modeling." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.09.22.752128
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,30 @@
+id: clm-access
+kind: model
+name: CLM-Access
+title: 'CLM-Access: A Specialized Foundation Model for High-Dimensional Single-Cell ATAC-Seq Analysis'
+year: 2026
+venue: AAAI
+category: epigenomics
+tags:
+- scatac-seq
+- foundation-model
+modality: scATAC-seq
+architecture: Cell language model for chromatin accessibility
+inputs:
+- chromatin-accessibility
+outputs:
+- cell-embedding
+- cell-type-label
+key: Cell language model built specifically for sparse, near-binary scATAC-seq data.
+links:
+  paper: https://doi.org/10.1609/aaai.v40i1.37046
+  code: https://github.com/HIM-AIM/CLM-Access
+citation: 'Liu, Ziqiang, Bowen Li, Zhenyu Xu, Yantao Li, Junwei Zhang, Chulin Sha, and Xiaolin Li. "CLM-Access:
+  A Specialized Foundation Model for High-Dimensional Single-Cell ATAC-Seq Analysis." In Proceedings of
+  the AAAI Conference on Artificial Intelligence 40, no. 1 (2026): 791-799.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1609/aaai.v40i1.37046
+- https://github.com/HIM-AIM/CLM-Access
+review_basis: abstract
+reviewed: false

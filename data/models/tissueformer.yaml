@@ -1,0 +1,27 @@
+id: tissueformer
+kind: model
+name: TissueFormer
+title: 'Tissueformer: extending single-cell foundation models to predict population-level phenotypes'
+year: 2026
+venue: BMC Bioinformatics
+category: scrna
+tags:
+- scrna-seq
+modality: scRNA-seq / spatial
+architecture: Transformer over groups of cells
+inputs:
+- expression
+outputs:
+- disease-state
+key: Predicts sample-level phenotypes such as COVID-19 severity from groups of single-cell profiles.
+links:
+  paper: https://doi.org/10.1186/s12859-026-06490-4
+  code: https://github.com/ZadorLaboratory/TissueFormer
+citation: 'Benjamin, Ari S., and Anthony Zador. "Tissueformer: extending single-cell foundation models
+  to predict population-level phenotypes." BMC Bioinformatics 27, no. 1 (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1186/s12859-026-06490-4
+- https://github.com/ZadorLaboratory/TissueFormer
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,42 @@
+id: geneformer-v2
+kind: model
+name: Geneformer V2
+aliases:
+- Geneformer-V2
+title: Scaling and quantization of large-scale foundation model enables resource-efficient predictions
+  in network biology
+year: 2026
+venue: Nature Computational Science
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+modality: scRNA-seq
+architecture: Transformer encoder (masked learning), with quantisation
+inputs:
+- expression
+outputs:
+- cell-embedding
+- gene-embedding
+architecture_family: transformer-encoder
+key: Scales Geneformer pretraining to ~104M cells, defines scaling laws for masked transcriptional learning,
+  and shows quantised models keep performance at a fraction of the compute.
+links:
+  paper: https://doi.org/10.1038/s43588-026-00972-4
+  code: https://huggingface.co/ctheodoris/Geneformer/tree/main/geneformer
+  weights: https://huggingface.co/ctheodoris/Geneformer/tree/main/Geneformer-V2-316M
+model_card:
+  pretraining_cells: ~104M
+  params: 104M, 316M (Geneformer-V2-104M, -316M checkpoints)
+  weights: released
+citation: 'Chen, Han, Madhavan S. Venkatesh, Javier Gόmez Ortega, Siddharth V. Mahesh, Tarak N. Nandi,
+  Ravi K. Madduri, Karin Pelka et al. "Scaling and quantization of large-scale foundation model enables
+  resource-efficient predictions in network biology." Nature Computational Science 6, no. 5 (2026): 450-463.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1038/s43588-026-00972-4
+- https://huggingface.co/ctheodoris/Geneformer/tree/main/Geneformer-V2-316M
+review_basis: abstract
+reviewed: false
+review_notes:
+- Second-generation Geneformer; the original model is the `geneformer` entry.

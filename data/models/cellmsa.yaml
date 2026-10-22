@@ -1,0 +1,28 @@
+id: cellmsa
+kind: model
+name: CellMSA
+title: 'CellMSA: Context Modeling for Single-Cell Representation Learning'
+year: 2026
+venue: arXiv
+category: scrna
+tags:
+- scrna-seq
+modality: scRNA-seq
+architecture: Cell-context modelling inspired by MSAs
+inputs:
+- expression
+outputs:
+- cell-embedding
+key: Learns cell representations from related cells across batches and types, inspired by multiple-sequence
+  alignments.
+links:
+  preprint: https://arxiv.org/abs/2609.38908
+  code: https://github.com/PharMolix/CellMSA
+citation: 'Zhao, Suyuan, Minghao Liu, Yizhen Luo, and Zaiqing Nie. "CellMSA: Context Modeling for Single-Cell
+  Representation Learning." arXiv preprint arXiv:2609.38908 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2609.38908
+- https://github.com/PharMolix/CellMSA
+review_basis: abstract
+reviewed: false

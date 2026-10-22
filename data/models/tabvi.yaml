@@ -1,0 +1,30 @@
+id: tabvi
+kind: model
+name: TabVI
+title: 'TabVI: Leveraging Lightweight Transformer Architectures to Learn Biologically Meaningful Cellular
+  Representations'
+year: 2025
+venue: bioRxiv
+category: scrna
+tags:
+- scrna-seq
+- generative
+modality: scRNA-seq
+architecture: Probabilistic generative model with tabular transformer
+inputs:
+- expression
+outputs:
+- cell-embedding
+architecture_family: vae
+key: Lightweight probabilistic generative model using tabular-transformer layers to learn cell representations.
+links:
+  preprint: https://doi.org/10.1101/2025.02.13.637984
+code_status: none-found
+citation: 'Chandrashekar, Aditi, Rohan Gala, Andreas Tjärnberg, Saniya Khullar, Grace Huynh, and Mariano
+  Gabitto. "TabVI: Leveraging Lightweight Transformer Architectures to Learn Biologically Meaningful Cellular
+  Representations." bioRxiv (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1101/2025.02.13.637984
+review_basis: abstract
+reviewed: false

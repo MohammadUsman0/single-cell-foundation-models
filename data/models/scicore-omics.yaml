@@ -1,0 +1,36 @@
+id: scicore-omics
+kind: model
+name: SciCore-Omics
+title: 'SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language
+  for spatial biology'
+year: 2026
+venue: bioRxiv
+category: multimodal
+tags:
+- histology
+- spatial
+- text
+- foundation-model
+modality: Histology + spatial transcriptomics + text
+architecture: Tri-modal foundation model
+inputs:
+- histology-image
+- expression
+- text
+outputs:
+- expression-prediction
+- spatial-domain
+- text
+key: Links histology images, spatial transcriptomics and biological language in one model.
+links:
+  preprint: https://doi.org/10.64898/2026.05.30.728937
+  code: https://github.com/OpenBMB/Scicore-Omics
+citation: 'Xiao, Xinyu, Yunfei Li, Zheni Zeng, Yukun Yan, Zhiyuan Liu, Zhenghao Liu, Yujia Xiang et al.
+  "SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language
+  for spatial biology." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.05.30.728937
+- https://github.com/OpenBMB/Scicore-Omics
+review_basis: abstract
+reviewed: false

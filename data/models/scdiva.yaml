@@ -1,0 +1,34 @@
+id: scdiva
+kind: model
+name: scDiVa
+title: 'ScDiVa: Masked Discrete Diffusion for Joint Modeling of Single-Cell Identity and Expression'
+year: 2026
+venue: arXiv
+category: generative
+tags:
+- scrna-seq
+- generative
+- foundation-model
+modality: scRNA-seq
+architecture: Masked discrete diffusion
+inputs:
+- expression
+outputs:
+- generated-cells
+- cell-embedding
+architecture_family: diffusion
+key: Masked discrete-diffusion foundation model that jointly models gene identities and values.
+links:
+  preprint: https://arxiv.org/abs/2602.03477
+  code: https://github.com/wangmingxuan666/ScDiVa
+model_card:
+  pretraining_cells: 59M
+citation: 'Wang, Mingxuan, Cheng Chen, Gaoyang Jiang, Zijia Ren, Chuangxin Zhao, Lu Shi, and Yanbiao Ma.
+  "ScDiVa: Masked Discrete Diffusion for Joint Modeling of Single-Cell Identity and Expression." arXiv
+  preprint arXiv:2602.03477 (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2602.03477
+- https://github.com/wangmingxuan666/ScDiVa
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,31 @@
+id: nexust
+kind: model
+name: NexuST
+title: 'NexuST: A Hierarchical Foundation Model for Spatial Transcriptomics'
+year: 2026
+venue: bioRxiv
+category: spatial
+tags:
+- spatial
+- foundation-model
+modality: Imaging-based spatial transcriptomics
+architecture: Hierarchical gene- and cell-level transformer
+inputs:
+- expression
+- spatial-coordinates
+outputs:
+- cell-type-label
+- expression-prediction
+key: Interleaves gene-level and cell-level spatial modelling during pretraining.
+links:
+  preprint: https://doi.org/10.64898/2026.09.22.753590
+code_status: none-found
+model_card:
+  pretraining_cells: 45.7M
+citation: 'Liu, Haiping, Qian Zhao, Lijing Lin, Zhiyong Zou, Wenhao Cai, Jingyuan Sun, Yuxi Zhou et al.
+  "NexuST: A Hierarchical Foundation Model for Spatial Transcriptomics." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.09.22.753590
+review_basis: abstract
+reviewed: false

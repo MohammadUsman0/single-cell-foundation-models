@@ -1,0 +1,36 @@
+id: regformer
+kind: model
+name: RegFormer
+title: 'RegFormer: a single-cell foundation model powered by gene regulatory hierarchies'
+year: 2026
+venue: Nature Communications
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+- gene-regulation
+modality: scRNA-seq
+architecture: Mamba state-space model with GRN-guided gene order
+inputs:
+- expression
+- prior-network
+outputs:
+- cell-embedding
+- cell-type-label
+- gene-regulatory-network
+architecture_family: state-space
+key: State-space foundation model that orders genes by regulatory hierarchy and embeds both expression
+  value and regulatory identity.
+links:
+  paper: https://doi.org/10.1038/s41467-026-72198-x
+  code: https://github.com/BGIResearch/RegFormer
+model_card:
+  pretraining_cells: 25M
+citation: 'Hu, Luni, Hua Qin, Yilin Zhang, Yi Lu, Ping Qiu, Zhihan Guo, Lei Cao et al. "RegFormer: a single-cell
+  foundation model powered by gene regulatory hierarchies." Nature Communications 17, no. 1 (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1038/s41467-026-72198-x
+- https://github.com/BGIResearch/RegFormer
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,33 @@
+id: microsc
+kind: model
+name: MicroSC
+title: 'MicroSC: A Tiny, Performant Single-Cell Foundation Model'
+year: 2026
+venue: Research Square
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+modality: scRNA-seq
+architecture: Tiny transformer distilled from scGPT
+inputs:
+- expression
+outputs:
+- cell-embedding
+architecture_family: transformer-encoder
+key: Family of tiny single-cell transformers distilled from a scGPT teacher.
+links:
+  preprint: https://doi.org/10.21203/rs.3.rs-10410549/v1
+code_status: none-found
+model_card:
+  pretraining_cells: 20M
+  params: 1.5M to 7.7M
+citation: 'Denvis, Olivia. "MicroSC: A Tiny, Performant Single-Cell Foundation Model." Research Square
+  (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.21203/rs.3.rs-10410549/v1
+review_basis: abstract
+reviewed: false
+review_notes:
+- Single-author preprint, not peer reviewed.

@@ -1,0 +1,31 @@
+id: scmamba
+kind: model
+name: scMamba
+title: 'scMamba: A Scalable Foundation Model for Single-Cell Multi-Omics Integration Beyond Highly Variable
+  Feature Selection'
+year: 2025
+venue: arXiv
+category: multimodal
+tags:
+- multi-omics
+- foundation-model
+modality: Single-cell multi-omics
+architecture: Mamba state-space model with patch tokenisation
+inputs:
+- expression
+- chromatin-accessibility
+outputs:
+- cell-embedding
+architecture_family: state-space
+key: Integrates single-cell multi-omics without feature selection, treating genomic regions as tokens.
+links:
+  preprint: https://arxiv.org/abs/2506.20697
+code_status: none-found
+citation: 'Yuan, Zhen, Shaoqing Jiao, Yihang Xiao, and Jiajie Peng. "scMamba: A Scalable Foundation Model
+  for Single-Cell Multi-Omics Integration Beyond Highly Variable Feature Selection." arXiv preprint arXiv:2506.20697
+  (2025).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2506.20697
+review_basis: abstract
+reviewed: false

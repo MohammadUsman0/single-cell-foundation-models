@@ -1,0 +1,35 @@
+id: brainbeacon
+kind: model
+name: BrainBeacon
+title: 'BrainBeacon: A Cross-Species Foundation Model for Single-cell Resolved Brain Spatial Transcriptomics'
+year: 2025
+venue: bioRxiv
+category: spatial
+tags:
+- spatial
+- foundation-model
+- cross-species
+modality: Single-cell spatial transcriptomics (brain)
+architecture: Transformer over ranked expression with spatial context
+inputs:
+- expression
+- spatial-coordinates
+outputs:
+- cell-embedding
+- cell-type-label
+key: Cross-species foundation model for whole-brain spatial transcriptomics, trained on four species and
+  five platforms.
+links:
+  preprint: https://doi.org/10.1101/2025.07.08.663729
+  code: https://github.com/ChengmingZhang-CAS/BrainBeacon
+model_card:
+  pretraining_cells: 133M spatially resolved cells (human, macaque, marmoset, mouse)
+citation: 'Zhang, Chengming, Yiwen Yang, Yifeng Jiao, Qianqian Yang, Xin Guo, Jing Xu, Jiyang Li et al.
+  "BrainBeacon: A Cross-Species Foundation Model for Single-cell Resolved Brain Spatial Transcriptomics."
+  bioRxiv (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1101/2025.07.08.663729
+- https://github.com/ChengmingZhang-CAS/BrainBeacon
+review_basis: abstract
+reviewed: false

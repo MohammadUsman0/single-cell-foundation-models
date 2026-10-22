@@ -2,7 +2,7 @@
  "generated": "2026-10-22",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
-  "models": 186,
+  "models": 229,
   "resources": 223,
   "venues": 19
  },
@@ -602,6 +602,45 @@
    "status": "preprint"
   },
   {
+   "id": "biomod",
+   "kind": "model",
+   "name": "BioMod",
+   "title": "BioMod: Biological Module Tokenization for Single-Cell Foundation Modeling",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Transformer over biological-module tokens",
+   "key": "Represents cells with 660 pathway and gene-program modules instead of individual genes.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.10.12.758490"
+   },
+   "model_card": {
+    "pretraining_cells": "~73M",
+    "params": "50M"
+   },
+   "citation": "Meng, Lingbei, Jianqing Zhu, Bowen Han, Yupeng Zang, Wenlin Li, Kewei Zong, Jian Zhong et al. \"BioMod: Biological Module Tokenization for Single-Cell Foundation Modeling.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "prior-network"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.10.12.758490"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "captain",
    "kind": "model",
    "name": "CAPTAIN",
@@ -783,6 +822,41 @@
    "github": "AstraZeneca/cellatria"
   },
   {
+   "id": "cellmsa",
+   "kind": "model",
+   "name": "CellMSA",
+   "title": "CellMSA: Context Modeling for Single-Cell Representation Learning",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Cell-context modelling inspired by MSAs",
+   "key": "Learns cell representations from related cells across batches and types, inspired by multiple-sequence alignments.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2609.38908",
+    "code": "https://github.com/PharMolix/CellMSA"
+   },
+   "citation": "Zhao, Suyuan, Minghao Liu, Yizhen Luo, and Zaiqing Nie. \"CellMSA: Context Modeling for Single-Cell Representation Learning.\" arXiv preprint arXiv:2609.38908 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2609.38908",
+    "https://github.com/PharMolix/CellMSA"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "PharMolix/CellMSA"
+  },
+  {
    "id": "cellvoyager",
    "kind": "model",
    "name": "CellVoyager",
@@ -816,6 +890,89 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "zou-group/CellVoyager"
+  },
+  {
+   "id": "cellvq",
+   "kind": "model",
+   "name": "CellVQ",
+   "title": "Illuminating cell states by a comprehensive and interpretable single cell foundation model",
+   "year": 2026,
+   "venue": "Nature Communications",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model",
+    "interpretability"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Transformer with single-cell discretization (vector quantisation)",
+   "key": "Foundation model that turns cells into discrete 'cell codes' for interpretability, with a plug-in graph tool for multimodal analysis.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41467-026-70071-5",
+    "code": "https://github.com/A4Bio/CellVQ"
+   },
+   "model_card": {
+    "pretraining_cells": "68M",
+    "params": "500M"
+   },
+   "citation": "Wang, Jue, Cheng Tan, Zhangyang Gao, Sida Shao, Shiping Liu, and Stan. Z. Li. \"Illuminating cell states by a comprehensive and interpretable single cell foundation model.\" Nature Communications 17, no. 1 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1038/s41467-026-70071-5",
+    "https://github.com/A4Bio/CellVQ"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "A4Bio/CellVQ"
+  },
+  {
+   "id": "cellworld",
+   "kind": "model",
+   "name": "CellWorld",
+   "title": "CellWorld: From Gene-Level Reconstruction to Latent Cell Prediction in Spatial Transcriptomics Foundation Models",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "spatial",
+   "tags": [
+    "spatial",
+    "foundation-model"
+   ],
+   "modality": "Spatial transcriptomics",
+   "architecture": "Latent cell prediction from spatial context",
+   "key": "Predicts latent representations of masked cells from their spatial context rather than reconstructing genes.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2608.06659",
+    "code": "https://github.com/UoM-HealthAI/CellWorld"
+   },
+   "model_card": {
+    "pretraining_cells": "46M",
+    "params": "5.74M to 94.56M"
+   },
+   "citation": "Liu, Haiping, Qian Zhao, Lijing Lin, Jingyuan Sun, and Hongpeng Zhou. \"CellWorld: From Gene-Level Reconstruction to Latent Cell Prediction in Spatial Transcriptomics Foundation Models.\" arXiv preprint arXiv:2608.06659 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2608.06659",
+    "https://github.com/UoM-HealthAI/CellWorld"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "UoM-HealthAI/CellWorld"
   },
   {
    "id": "cellxpert",
@@ -945,6 +1102,43 @@
    "status": "published"
   },
   {
+   "id": "clm-access",
+   "kind": "model",
+   "name": "CLM-Access",
+   "title": "CLM-Access: A Specialized Foundation Model for High-Dimensional Single-Cell ATAC-Seq Analysis",
+   "year": 2026,
+   "venue": "AAAI",
+   "category": "epigenomics",
+   "tags": [
+    "scatac-seq",
+    "foundation-model"
+   ],
+   "modality": "scATAC-seq",
+   "architecture": "Cell language model for chromatin accessibility",
+   "key": "Cell language model built specifically for sparse, near-binary scATAC-seq data.",
+   "links": {
+    "paper": "https://doi.org/10.1609/aaai.v40i1.37046",
+    "code": "https://github.com/HIM-AIM/CLM-Access"
+   },
+   "citation": "Liu, Ziqiang, Bowen Li, Zhenyu Xu, Yantao Li, Junwei Zhang, Chulin Sha, and Xiaolin Li. \"CLM-Access: A Specialized Foundation Model for High-Dimensional Single-Cell ATAC-Seq Analysis.\" In Proceedings of the AAAI Conference on Artificial Intelligence 40, no. 1 (2026): 791-799.",
+   "reviewed": false,
+   "inputs": [
+    "chromatin-accessibility"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1609/aaai.v40i1.37046",
+    "https://github.com/HIM-AIM/CLM-Access"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "HIM-AIM/CLM-Access"
+  },
+  {
    "id": "clm-x",
    "kind": "model",
    "name": "CLM-X",
@@ -1009,6 +1203,43 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "Gartner-Lab/Concord"
+  },
+  {
+   "id": "cytobert",
+   "kind": "model",
+   "name": "CytoBERT",
+   "title": "CytoBERT: A Foundation Model for Cytometry Data",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "proteomics",
+   "tags": [
+    "proteomics",
+    "foundation-model"
+   ],
+   "modality": "Cytometry",
+   "architecture": "BERT-style transformer for variable marker panels",
+   "key": "Open-weight foundation model for cytometry data with variable marker panels.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2608.14414",
+    "code": "https://github.com/bckrlab/cytobert"
+   },
+   "citation": "Qadri, Syed Abdul Haseeb, Bjarne C. Hiller, Felix Blanke, Vanja Sophie Cangalovic, Kutalmış Coşkun, Amin Mirzaei, Tom Siegl et al. \"CytoBERT: A Foundation Model for Cytometry Data.\" arXiv preprint arXiv:2608.14414 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "protein-abundance"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "architecture_family": "transformer-encoder",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2608.14414",
+    "https://github.com/bckrlab/cytobert"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "bckrlab/cytobert"
   },
   {
    "id": "dcm",
@@ -1152,6 +1383,48 @@
    "github": "ChangxiChi/Doloris"
   },
   {
+   "id": "epizoo",
+   "kind": "model",
+   "name": "EpiZoo",
+   "title": "EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "epigenomics",
+   "tags": [
+    "scatac-seq",
+    "dna-sequence",
+    "cross-species",
+    "foundation-model"
+   ],
+   "modality": "Single-cell epigenomics (multi-species)",
+   "architecture": "Mixture-of-experts transformer",
+   "key": "Cross-species single-cell epigenomics model that encodes cells as sentences combining DNA-sequence and accessibility information.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.09.24.754017",
+    "code": "https://github.com/likeyi19/EpiZoo"
+   },
+   "model_card": {
+    "params": "2.6B total"
+   },
+   "citation": "Li, Keyi, Xiaoyang Chen, Qun Jiang, Zian Wang, Hairong Lv, and Rui Jiang. \"EpiZoo: a DNA sequence-aware foundation model for cross-species single-cell epigenomics.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "chromatin-accessibility",
+    "dna-sequence"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.09.24.754017",
+    "https://github.com/likeyi19/EpiZoo"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "likeyi19/EpiZoo"
+  },
+  {
    "id": "evae",
    "kind": "model",
    "name": "ExpressionVAE",
@@ -1197,6 +1470,52 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "sanjukta7/sc-evae"
+  },
+  {
+   "id": "geneformer-v2",
+   "kind": "model",
+   "name": "Geneformer V2",
+   "aliases": [
+    "Geneformer-V2"
+   ],
+   "title": "Scaling and quantization of large-scale foundation model enables resource-efficient predictions in network biology",
+   "year": 2026,
+   "venue": "Nature Computational Science",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Transformer encoder (masked learning), with quantisation",
+   "key": "Scales Geneformer pretraining to ~104M cells, defines scaling laws for masked transcriptional learning, and shows quantised models keep performance at a fraction of the compute.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s43588-026-00972-4",
+    "code": "https://huggingface.co/ctheodoris/Geneformer/tree/main/geneformer",
+    "weights": "https://huggingface.co/ctheodoris/Geneformer/tree/main/Geneformer-V2-316M"
+   },
+   "model_card": {
+    "pretraining_cells": "~104M",
+    "params": "104M, 316M (Geneformer-V2-104M, -316M checkpoints)",
+    "weights": "released"
+   },
+   "citation": "Chen, Han, Madhavan S. Venkatesh, Javier Gόmez Ortega, Siddharth V. Mahesh, Tarak N. Nandi, Ravi K. Madduri, Karin Pelka et al. \"Scaling and quantization of large-scale foundation model enables resource-efficient predictions in network biology.\" Nature Computational Science 6, no. 5 (2026): 450-463.",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "gene-embedding"
+   ],
+   "architecture_family": "transformer-encoder",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1038/s43588-026-00972-4",
+    "https://huggingface.co/ctheodoris/Geneformer/tree/main/Geneformer-V2-316M"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
   },
   {
    "id": "genegeoflow",
@@ -1246,6 +1565,46 @@
    "status": "preprint"
   },
   {
+   "id": "genemamba",
+   "kind": "model",
+   "name": "GeneMamba",
+   "title": "GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data",
+   "year": 2026,
+   "venue": "IJCAI",
+   "category": "llm",
+   "tags": [
+    "llm",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Bidirectional Mamba",
+   "key": "Efficient long-context single-cell modeling with bidirectional Mamba.",
+   "links": {
+    "paper": "https://doi.org/10.1109/ijcnn69854.2026.11728763",
+    "preprint": "https://arxiv.org/abs/2504.16956",
+    "code": "https://github.com/MineSelf2016/GeneMamba",
+    "weights": "https://huggingface.co/mineself2016/GeneMamba"
+   },
+   "citation": "Qi, Cong, Hanzhang Fang, Siqi Jiang, Xun Song, Tianxing Hu, and Wei Zhi. \"GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data.\" arXiv preprint arXiv:2504.16956 (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-type-label"
+   ],
+   "architecture_family": "state-space",
+   "added": "2026-06-02",
+   "sources": [
+    "https://doi.org/10.1109/ijcnn69854.2026.11728763",
+    "https://arxiv.org/abs/2504.16956",
+    "https://github.com/MineSelf2016/GeneMamba"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "MineSelf2016/GeneMamba"
+  },
+  {
    "id": "harmonycell",
    "kind": "model",
    "name": "HarmonyCell",
@@ -1268,6 +1627,37 @@
    ],
    "review_basis": "abstract",
    "status": "preprint"
+  },
+  {
+   "id": "hicfoundation",
+   "kind": "model",
+   "name": "HiCFoundation",
+   "title": "A generalizable Hi-C foundation model for chromatin architecture, single-cell and multiomics analysis across species",
+   "year": 2026,
+   "venue": "Nature Methods",
+   "category": "epigenomics",
+   "tags": [
+    "foundation-model",
+    "multi-omics",
+    "cross-species"
+   ],
+   "modality": "Hi-C (bulk and single-cell)",
+   "architecture": "Foundation model on Hi-C contact maps",
+   "key": "Foundation model trained on large-scale Hi-C data that links 3D chromatin structure to regulatory function across species.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-026-03097-8",
+    "code": "https://github.com/Noble-Lab/HiCFoundation"
+   },
+   "citation": "Wang, Xiao, Yuanyuan Zhang, Suhita Ray, Anupama Jha, Tangqi Fang, Shengqi Hang, Sergei Doulatov et al. \"A generalizable Hi-C foundation model for chromatin architecture, single-cell and multiomics analysis across species.\" Nature Methods 23, no. 7 (2026): 1334-1348.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1038/s41592-026-03097-8",
+    "https://github.com/Noble-Lab/HiCFoundation"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "Noble-Lab/HiCFoundation"
   },
   {
    "id": "hinge",
@@ -1309,6 +1699,50 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "donghaifang/HINGE"
+  },
+  {
+   "id": "holocell",
+   "kind": "model",
+   "name": "HoloCell",
+   "title": "HoloCell: A Generative Foundation Model for Holistic Cellular Modeling",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "multimodal",
+   "tags": [
+    "multi-omics",
+    "generative",
+    "foundation-model",
+    "proteomics"
+   ],
+   "modality": "Single-cell epigenomics, transcriptomics, proteomics",
+   "architecture": "Generative multi-omics foundation model",
+   "key": "Generative foundation model across chromatin accessibility, RNA and protein that tolerates missing modalities.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.07.730684",
+    "code": "https://github.com/bjzgcai/HoloCell"
+   },
+   "model_card": {
+    "params": ">860M"
+   },
+   "citation": "Jiang, Qun, Zhen Li, Bowen Hu, Yunlong Bie, Keyi Li, Qiuyi Li, Peiran Jin et al. \"HoloCell: A Generative Foundation Model for Holistic Cellular Modeling.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "chromatin-accessibility",
+    "expression",
+    "protein-abundance"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "generated-cells"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.07.730684",
+    "https://github.com/bjzgcai/HoloCell"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "bjzgcai/HoloCell"
   },
   {
    "id": "latent-causal-diffusions",
@@ -1407,6 +1841,128 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "alibaba-damo-academy/Lingshu-Cell"
+  },
+  {
+   "id": "lucacell",
+   "kind": "model",
+   "name": "LucaCell",
+   "title": "LucaCell: a sequence-centric foundation model for cross-species single-cell analysis",
+   "year": 2026,
+   "venue": "Research Square",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "cross-species",
+    "foundation-model"
+   ],
+   "modality": "scRNA-seq (human, mouse)",
+   "architecture": "Transformer encoder with mRNA-sequence gene embeddings",
+   "key": "Represents genes by pretrained mRNA-sequence embeddings so cell models transfer across species and data types.",
+   "links": {
+    "preprint": "https://doi.org/10.21203/rs.3.rs-11151765/v1",
+    "code": "https://github.com/LucaOne/LucaCell",
+    "weights": "https://huggingface.co/LucaGroup/LucaCell-v1.0-step6.4M"
+   },
+   "model_card": {
+    "pretraining_cells": "85M"
+   },
+   "citation": "Sun, Yan, Yong He, Minsi Ren, Yanhui Wang, Penghao Xu, Yong Hou, Yu Kang et al. \"LucaCell: a sequence-centric foundation model for cross-species single-cell analysis.\" Research Square (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "dna-sequence"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "architecture_family": "transformer-encoder",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.21203/rs.3.rs-11151765/v1",
+    "https://github.com/LucaOne/LucaCell"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "LucaOne/LucaCell"
+  },
+  {
+   "id": "microsc",
+   "kind": "model",
+   "name": "MicroSC",
+   "title": "MicroSC: A Tiny, Performant Single-Cell Foundation Model",
+   "year": 2026,
+   "venue": "Research Square",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Tiny transformer distilled from scGPT",
+   "key": "Family of tiny single-cell transformers distilled from a scGPT teacher.",
+   "links": {
+    "preprint": "https://doi.org/10.21203/rs.3.rs-10410549/v1"
+   },
+   "model_card": {
+    "pretraining_cells": "20M",
+    "params": "1.5M to 7.7M"
+   },
+   "citation": "Denvis, Olivia. \"MicroSC: A Tiny, Performant Single-Cell Foundation Model.\" Research Square (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "architecture_family": "transformer-encoder",
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.21203/rs.3.rs-10410549/v1"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "nexust",
+   "kind": "model",
+   "name": "NexuST",
+   "title": "NexuST: A Hierarchical Foundation Model for Spatial Transcriptomics",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "spatial",
+   "tags": [
+    "spatial",
+    "foundation-model"
+   ],
+   "modality": "Imaging-based spatial transcriptomics",
+   "architecture": "Hierarchical gene- and cell-level transformer",
+   "key": "Interleaves gene-level and cell-level spatial modelling during pretraining.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.09.22.753590"
+   },
+   "model_card": {
+    "pretraining_cells": "45.7M"
+   },
+   "citation": "Liu, Haiping, Qian Zhao, Lijing Lin, Zhiyong Zou, Wenhao Cai, Jingyuan Sun, Yuxi Zhou et al. \"NexuST: A Hierarchical Foundation Model for Spatial Transcriptomics.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "expression-prediction"
+   ],
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.09.22.753590"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "ocoo-t",
@@ -1737,6 +2293,50 @@
    "github": "CellProfiling/ProtiCelli"
   },
   {
+   "id": "regformer",
+   "kind": "model",
+   "name": "RegFormer",
+   "title": "RegFormer: a single-cell foundation model powered by gene regulatory hierarchies",
+   "year": 2026,
+   "venue": "Nature Communications",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model",
+    "gene-regulation"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Mamba state-space model with GRN-guided gene order",
+   "key": "State-space foundation model that orders genes by regulatory hierarchy and embeds both expression value and regulatory identity.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41467-026-72198-x",
+    "code": "https://github.com/BGIResearch/RegFormer"
+   },
+   "model_card": {
+    "pretraining_cells": "25M"
+   },
+   "citation": "Hu, Luni, Hua Qin, Yilin Zhang, Yi Lu, Ping Qiu, Zhihan Guo, Lei Cao et al. \"RegFormer: a single-cell foundation model powered by gene regulatory hierarchies.\" Nature Communications 17, no. 1 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "prior-network"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label",
+    "gene-regulatory-network"
+   ],
+   "architecture_family": "state-space",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1038/s41467-026-72198-x",
+    "https://github.com/BGIResearch/RegFormer"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "BGIResearch/RegFormer"
+  },
+  {
    "id": "regvelo",
    "kind": "model",
    "name": "RegVelo",
@@ -1819,6 +2419,48 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "xinyizhanglab/perturbation-decomposition"
+  },
+  {
+   "id": "sage-fm",
+   "kind": "model",
+   "name": "SAGE-FM",
+   "title": "SAGE-FM: A lightweight and interpretable spatial transcriptomics foundation model",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "spatial",
+   "tags": [
+    "spatial",
+    "graph",
+    "foundation-model",
+    "interpretability"
+   ],
+   "modality": "Visium spatial transcriptomics",
+   "architecture": "Graph convolutional network (masked spot prediction)",
+   "key": "Lightweight GCN foundation model trained by predicting masked central spots.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2601.15504"
+   },
+   "model_card": {
+    "pretraining_data": "416 human Visium samples (15 organs)"
+   },
+   "citation": "Zhan, Xianghao, Jingyu Xu, Yuanning Zheng, Zinaida Good, and Olivier Gevaert. \"SAGE-FM: A lightweight and interpretable spatial transcriptomics foundation model.\" arXiv preprint arXiv:2601.15504 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "spatial-domain"
+   ],
+   "architecture_family": "graph-neural-network",
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2601.15504"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "scale",
@@ -1959,6 +2601,86 @@
    "github": "AI4Science-WestlakeU/scDFM"
   },
   {
+   "id": "scdiva",
+   "kind": "model",
+   "name": "scDiVa",
+   "title": "ScDiVa: Masked Discrete Diffusion for Joint Modeling of Single-Cell Identity and Expression",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "generative",
+   "tags": [
+    "scrna-seq",
+    "generative",
+    "foundation-model"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Masked discrete diffusion",
+   "key": "Masked discrete-diffusion foundation model that jointly models gene identities and values.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2602.03477",
+    "code": "https://github.com/wangmingxuan666/ScDiVa"
+   },
+   "model_card": {
+    "pretraining_cells": "59M"
+   },
+   "citation": "Wang, Mingxuan, Cheng Chen, Gaoyang Jiang, Zijia Ren, Chuangxin Zhao, Lu Shi, and Yanbiao Ma. \"ScDiVa: Masked Discrete Diffusion for Joint Modeling of Single-Cell Identity and Expression.\" arXiv preprint arXiv:2602.03477 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "generated-cells",
+    "cell-embedding"
+   ],
+   "architecture_family": "diffusion",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2602.03477",
+    "https://github.com/wangmingxuan666/ScDiVa"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "wangmingxuan666/ScDiVa"
+  },
+  {
+   "id": "scdynomics",
+   "kind": "model",
+   "name": "scDynOmics",
+   "title": "scDynOmics: An Optimized Transformer Model for Representation Learning from Single-Cell Multiomics",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "multimodal",
+   "tags": [
+    "multi-omics",
+    "foundation-model"
+   ],
+   "modality": "scRNA-seq + scATAC-seq",
+   "architecture": "Linformer-style transformer",
+   "key": "Pretrainable multi-omics transformer with efficient attention for genome-wide paired RNA and ATAC inputs.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.02.28.708160",
+    "code": "https://github.com/KlughammerLab/scDynOmics"
+   },
+   "citation": "Yu, Gang, Timothy J.S. Ramnarine, Johanna Klughammer, and Simon W. Mages. \"scDynOmics: An Optimized Transformer Model for Representation Learning from Single-Cell Multiomics.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "chromatin-accessibility"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "architecture_family": "transformer-encoder",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.02.28.708160",
+    "https://github.com/KlughammerLab/scDynOmics"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "KlughammerLab/scDynOmics"
+  },
+  {
    "id": "scelmo",
    "kind": "model",
    "name": "scELMo",
@@ -1996,6 +2718,86 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "HelloWorldLTY/scELMo"
+  },
+  {
+   "id": "scicore-omics",
+   "kind": "model",
+   "name": "SciCore-Omics",
+   "title": "SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language for spatial biology",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "multimodal",
+   "tags": [
+    "histology",
+    "spatial",
+    "text",
+    "foundation-model"
+   ],
+   "modality": "Histology + spatial transcriptomics + text",
+   "architecture": "Tri-modal foundation model",
+   "key": "Links histology images, spatial transcriptomics and biological language in one model.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.05.30.728937",
+    "code": "https://github.com/OpenBMB/Scicore-Omics"
+   },
+   "citation": "Xiao, Xinyu, Yunfei Li, Zheni Zeng, Yukun Yan, Zhiyuan Liu, Zhenghao Liu, Yujia Xiang et al. \"SciCore-Omics: a tri-modal foundation model unifying histology, spatial transcriptomics and language for spatial biology.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "histology-image",
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "expression-prediction",
+    "spatial-domain",
+    "text"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.05.30.728937",
+    "https://github.com/OpenBMB/Scicore-Omics"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "OpenBMB/Scicore-Omics"
+  },
+  {
+   "id": "sckite",
+   "kind": "model",
+   "name": "scKITE",
+   "title": "Towards a knowledge-enhanced single-cell foundation model",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model",
+    "text"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Transformer encoder with auxiliary knowledge decoders",
+   "key": "Adds cell-annotation and gene-regulatory supervision during pretraining to get more from less data.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2609.14970",
+    "code": "https://github.com/BaoJiee/scKITE"
+   },
+   "citation": "Zhang, Hanqing, Jie Bao, Mei Ma, Shuai Liu, Jiaying Ma, Jiaguan Liu, Jiaxiao Li et al. \"Towards a knowledge-enhanced single-cell foundation model.\" arXiv preprint arXiv:2609.14970 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "architecture_family": "transformer-encoder",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2609.14970",
+    "https://github.com/BaoJiee/scKITE"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "BaoJiee/scKITE"
   },
   {
    "id": "sclong",
@@ -2044,6 +2846,397 @@
    "github": "BaiDing1234/scLong"
   },
   {
+   "id": "scmaize",
+   "kind": "model",
+   "name": "scMaize",
+   "title": "scMaize: A Single-Cell Foundation Model and Integrated Atlas for Maize",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
+   "modality": "Maize scRNA-seq",
+   "architecture": "Transformer (expression-only and GO-informed variants)",
+   "key": "Maize single-cell atlas plus two transformer foundation models, one using Gene Ontology embeddings as a prior.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.08.01.742180",
+    "code": "https://github.com/yjthu/scMaize"
+   },
+   "model_card": {
+    "pretraining_cells": "385,675"
+   },
+   "citation": "Cheng, Qian, Ying Zhang, Tianhao Wu, Anwen Zhao, Meiqi Shang, Xiangfeng Wang, and Jun Yan. \"scMaize: A Single-Cell Foundation Model and Integrated Atlas for Maize.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "cell-embedding"
+   ],
+   "architecture_family": "transformer-encoder",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.08.01.742180",
+    "https://github.com/yjthu/scMaize"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "yjthu/scMaize"
+  },
+  {
+   "id": "scmir",
+   "kind": "model",
+   "name": "scMIR",
+   "title": "scMIR: a vision-language foundation model for single-cell light microscopy image representation",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "morphology",
+   "tags": [
+    "imaging",
+    "text",
+    "foundation-model"
+   ],
+   "modality": "Single-cell light microscopy",
+   "architecture": "Vision-language foundation model",
+   "key": "Vision-language foundation model for single-cell microscopy images that uses experimental context.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2607.22712"
+   },
+   "citation": "Shang, Yifan, Jiahui Tan, Xiangxiang Zeng, and Renjie Zhou. \"scMIR: a vision-language foundation model for single-cell light microscopy image representation.\" arXiv preprint arXiv:2607.22712 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "cell-image",
+    "text"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2607.22712"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "scpformer",
+   "kind": "model",
+   "name": "scpFormer",
+   "title": "scpFormer: A Foundation Model for Unified Representation and Integration of the Single-Cell Proteomics",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "proteomics",
+   "tags": [
+    "proteomics",
+    "foundation-model"
+   ],
+   "modality": "Single-cell proteomics (antibody panels)",
+   "architecture": "Transformer with ESM-anchored protein tokens",
+   "key": "Maps variable antibody panels into a shared space using protein-sequence embeddings, enabling in-silico panel expansion.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2604.20003",
+    "code": "https://github.com/qfchou/scpFormer"
+   },
+   "model_card": {
+    "pretraining_cells": ">390M"
+   },
+   "citation": "Zhou, Qifeng, Lei Yu, Yuzhi Guo, Yuwei Miao, Hehuan Ma, Wenliang Zhong, Lin Xu et al. \"scpFormer: A Foundation Model for Unified Representation and Integration of the Single-Cell Proteomics.\" arXiv preprint arXiv:2604.20003 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "protein-abundance",
+    "protein-sequence"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "architecture_family": "transformer-encoder",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2604.20003",
+    "https://github.com/qfchou/scpFormer"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "qfchou/scpFormer"
+  },
+  {
+   "id": "screp",
+   "kind": "model",
+   "name": "scRep",
+   "title": "scRep: A Latent-Space Self-Distilled Foundation Model for Single-Cell Representation Learning",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Latent-space self-distillation (teacher-student)",
+   "key": "Learns representations by aligning perturbed views of a cell in latent space instead of reconstructing expression.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.08.31.747784"
+   },
+   "citation": "Wang, Shengjie, Zongyong Hu, Yunlong Bie, Qijin Yin, Hechang Chen, and Qiuyi Li. \"scRep: A Latent-Space Self-Distilled Foundation Model for Single-Cell Representation Learning.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.08.31.747784"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "scvision",
+   "kind": "model",
+   "name": "scVision",
+   "title": "A vision foundation model for single-cell biology via spatial gene cartography",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
+   "modality": "scRNA-seq rendered as images",
+   "architecture": "Vision transformer (masked image modelling)",
+   "key": "Renders each cell as an image on a shared gene layout and pretrains a vision transformer on it.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2607.14163"
+   },
+   "model_card": {
+    "pretraining_cells": "72M"
+   },
+   "citation": "Yesiloglu, Ridvan, Sakib Mostafa, James Zou, Ash Alizadeh, Jiajun Wu, Lei Xing, Ehsan Adeli et al. \"A vision foundation model for single-cell biology via spatial gene cartography.\" arXiv preprint arXiv:2607.14163 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "architecture_family": "transformer-encoder",
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2607.14163"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "scyeast",
+   "kind": "model",
+   "name": "scYeast",
+   "title": "scYeast: a biological-knowledge-guided foundation model on yeast single-cell transcriptomics",
+   "year": 2026,
+   "venue": "Synthetic and Systems Biotechnology",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model",
+    "gene-regulation"
+   ],
+   "modality": "Yeast scRNA-seq",
+   "architecture": "Transformer with regulatory priors in attention",
+   "key": "Yeast single-cell foundation model that injects transcriptional regulatory knowledge into attention.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.synbio.2026.05.014",
+    "code": "https://github.com/hongzhonglu/scYeast"
+   },
+   "citation": "Fan, Xingcun, Wenbin Liao, Luchi Xiao, Xuefeng Yan, and Hongzhong Lu. \"scYeast: a biological-knowledge-guided foundation model on yeast single-cell transcriptomics.\" Synthetic and Systems Biotechnology 16 (2026): 75-87.",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "prior-network"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "gene-regulatory-network"
+   ],
+   "architecture_family": "transformer-encoder",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1016/j.synbio.2026.05.014",
+    "https://github.com/hongzhonglu/scYeast"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "hongzhonglu/scYeast"
+  },
+  {
+   "id": "spagfm",
+   "kind": "model",
+   "name": "spaGFM",
+   "title": "spaGFM is a scalable graph foundation model for spatial transcriptomics analyses",
+   "year": 2026,
+   "venue": "Research Square",
+   "category": "spatial",
+   "tags": [
+    "spatial",
+    "graph",
+    "foundation-model"
+   ],
+   "modality": "Imaging-based spatial transcriptomics",
+   "architecture": "Graph foundation model with random-walk serialisation",
+   "key": "Turns cellular neighbourhoods into random-walk sequences so a transformer can learn tissue context at atlas scale.",
+   "links": {
+    "preprint": "https://doi.org/10.21203/rs.3.rs-11012643/v1",
+    "code": "https://github.com/yzhong36/spaGFM"
+   },
+   "model_card": {
+    "pretraining_cells": "43.9M"
+   },
+   "citation": "Wang, Juexin, Yu Zhong, Fei He, Xiaojie Jin, Yang Yu, Ricardo Melo Ferreira, Andrew Gunderson et al. \"spaGFM is a scalable graph foundation model for spatial transcriptomics analyses.\" Research Square (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "spatial-domain"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.21203/rs.3.rs-11012643/v1",
+    "https://github.com/yzhong36/spaGFM"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "yzhong36/spaGFM"
+  },
+  {
+   "id": "spatialfusion",
+   "kind": "model",
+   "name": "SpatialFusion",
+   "title": "SpatialFusion: A lightweight multimodal foundation model for pathway-informed spatial niche mapping",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "spatial",
+   "tags": [
+    "spatial",
+    "histology",
+    "foundation-model"
+   ],
+   "modality": "Spatial transcriptomics + histology",
+   "architecture": "Lightweight multimodal foundation model",
+   "key": "Lightweight multimodal model that fuses histology, expression and inferred pathway activity to map spatial niches.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.03.16.712056",
+    "code": "https://github.com/uhlerlab/spatialfusion"
+   },
+   "citation": "Yates, Josephine, Mitra Shavakhi, Toni K. Choueiri, Eliezer M. Van Allen, and Caroline Uhler. \"SpatialFusion: A lightweight multimodal foundation model for pathway-informed spatial niche mapping.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "histology-image",
+    "expression"
+   ],
+   "outputs": [
+    "spatial-domain"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.03.16.712056",
+    "https://github.com/uhlerlab/spatialfusion"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "uhlerlab/spatialfusion"
+  },
+  {
+   "id": "spatium",
+   "kind": "model",
+   "name": "Spatium",
+   "title": "Spatium: A Protein Language Foundation Model for Spatial Proteomics",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "proteomics",
+   "tags": [
+    "proteomics",
+    "spatial",
+    "foundation-model"
+   ],
+   "modality": "Spatial proteomics",
+   "architecture": "Protein language foundation model",
+   "key": "Protein-language foundation model for spatial proteomics that copes with varying antibody panels.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.07.23.740264",
+    "code": "https://github.com/ploughhh/Spatium"
+   },
+   "model_card": {
+    "pretraining_cells": ">51M"
+   },
+   "citation": "Wang, Tiangang, Sijia Wu, Liyu Huang, Jiajia Liu, Kexin Huang, and Xiaobo Zhou. \"Spatium: A Protein Language Foundation Model for Spatial Proteomics.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "protein-abundance"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.07.23.740264",
+    "https://github.com/ploughhh/Spatium"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "ploughhh/Spatium"
+  },
+  {
+   "id": "speciesformer",
+   "kind": "model",
+   "name": "Speciesformer",
+   "title": "Speciesformer learns conserved cellular states for cross-species generative virtual cell modeling",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "cross-species",
+    "generative",
+    "virtual-cell"
+   ],
+   "modality": "Multi-species scRNA-seq",
+   "architecture": "Cross-species generative foundation model",
+   "key": "Cross-species generative model that separates conserved cell states from species context for virtual cell generation.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.09.22.752128"
+   },
+   "model_card": {
+    "pretraining_cells": "131M (11 species)"
+   },
+   "citation": "Wang, Jiacheng, Jiaqi Dong, Guowei Li, Chao Fang, Liwei Liu, and Xin Gao. \"Speciesformer learns conserved cellular states for cross-species generative virtual cell modeling.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "generated-cells"
+   ],
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.09.22.752128"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "spemo",
    "kind": "model",
    "name": "spEMO",
@@ -2085,6 +3278,48 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "HelloWorldLTY/spEMO"
+  },
+  {
+   "id": "squall",
+   "kind": "model",
+   "name": "SQUALL",
+   "title": "A multimodal foundation model to integrate histology with spatial molecular programs",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "multimodal",
+   "tags": [
+    "histology",
+    "spatial",
+    "foundation-model"
+   ],
+   "modality": "Histology + spatial transcriptomics",
+   "architecture": "Multimodal histology-transcriptomics foundation model",
+   "key": "Learns morphology-molecular correspondence from 1.93 billion aligned spots for virtual spatial transcriptomics and tumour microenvironment analysis.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.01.729028",
+    "code": "https://github.com/OswaldZhang/SQUALL-release"
+   },
+   "model_card": {
+    "pretraining_data": "histMol: 1.93B aligned histology-transcriptomics spots/bins"
+   },
+   "citation": "Zhang, Zongxu, Bowen Qin, Yahui Zhao, Zekun Qi, Hanlin Xu, Yunfeng Wang, Wenjin Zheng et al. \"A multimodal foundation model to integrate histology with spatial molecular programs.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "histology-image",
+    "expression"
+   ],
+   "outputs": [
+    "expression-prediction",
+    "spatial-domain"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.01.729028",
+    "https://github.com/OswaldZhang/SQUALL-release"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "OswaldZhang/SQUALL-release"
   },
   {
    "id": "stack",
@@ -2328,6 +3563,41 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "QiangweiPeng/stVCR"
+  },
+  {
+   "id": "tissueformer",
+   "kind": "model",
+   "name": "TissueFormer",
+   "title": "Tissueformer: extending single-cell foundation models to predict population-level phenotypes",
+   "year": 2026,
+   "venue": "BMC Bioinformatics",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq / spatial",
+   "architecture": "Transformer over groups of cells",
+   "key": "Predicts sample-level phenotypes such as COVID-19 severity from groups of single-cell profiles.",
+   "links": {
+    "paper": "https://doi.org/10.1186/s12859-026-06490-4",
+    "code": "https://github.com/ZadorLaboratory/TissueFormer"
+   },
+   "citation": "Benjamin, Ari S., and Anthony Zador. \"Tissueformer: extending single-cell foundation models to predict population-level phenotypes.\" BMC Bioinformatics 27, no. 1 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "disease-state"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1186/s12859-026-06490-4",
+    "https://github.com/ZadorLaboratory/TissueFormer"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "ZadorLaboratory/TissueFormer"
   },
   {
    "id": "transcriptformer",
@@ -2739,6 +4009,43 @@
    "status": "published"
   },
   {
+   "id": "aido-tissue",
+   "kind": "model",
+   "name": "AIDO.Tissue",
+   "title": "AIDO.Tissue: Spatial Cell-Guided Pretraining for Scalable Spatial Transcriptomics Foundation Model",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "category": "spatial",
+   "tags": [
+    "spatial",
+    "foundation-model"
+   ],
+   "modality": "Single-cell spatial transcriptomics",
+   "architecture": "Asymmetric encoder-decoder over neighbouring cells",
+   "key": "Spatial pretraining that takes multiple neighbouring cells as input; performance grows with neighbourhood size.",
+   "links": {
+    "preprint": "https://doi.org/10.1101/2025.07.04.663102"
+   },
+   "citation": "Gong, Jing, Yixuan Wang, Nichloas Ho, Xingyi Cheng, Le Song, and Eric Xing. \"AIDO.Tissue: Spatial Cell-Guided Pretraining for Scalable Spatial Transcriptomics Foundation Model.\" bioRxiv (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-type-label",
+    "cell-embedding"
+   ],
+   "architecture_family": "transformer-encoder-decoder",
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1101/2025.07.04.663102"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "atacformer",
    "kind": "model",
    "name": "Atacformer",
@@ -2836,6 +4143,48 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "calico/borzoi"
+  },
+  {
+   "id": "brainbeacon",
+   "kind": "model",
+   "name": "BrainBeacon",
+   "title": "BrainBeacon: A Cross-Species Foundation Model for Single-cell Resolved Brain Spatial Transcriptomics",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "category": "spatial",
+   "tags": [
+    "spatial",
+    "foundation-model",
+    "cross-species"
+   ],
+   "modality": "Single-cell spatial transcriptomics (brain)",
+   "architecture": "Transformer over ranked expression with spatial context",
+   "key": "Cross-species foundation model for whole-brain spatial transcriptomics, trained on four species and five platforms.",
+   "links": {
+    "preprint": "https://doi.org/10.1101/2025.07.08.663729",
+    "code": "https://github.com/ChengmingZhang-CAS/BrainBeacon"
+   },
+   "model_card": {
+    "pretraining_cells": "133M spatially resolved cells (human, macaque, marmoset, mouse)"
+   },
+   "citation": "Zhang, Chengming, Yiwen Yang, Yifeng Jiao, Qianqian Yang, Xin Guo, Jing Xu, Jiyang Li et al. \"BrainBeacon: A Cross-Species Foundation Model for Single-cell Resolved Brain Spatial Transcriptomics.\" bioRxiv (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1101/2025.07.08.663729",
+    "https://github.com/ChengmingZhang-CAS/BrainBeacon"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "ChengmingZhang-CAS/BrainBeacon"
   },
   {
    "id": "c2s-scale",
@@ -3335,6 +4684,43 @@
    "github": "DLS5-Omics/CellNavi"
   },
   {
+   "id": "cellpatch",
+   "kind": "model",
+   "name": "CellPatch",
+   "title": "CellPatch: A Flexible and Efficient Framework for Single-Cell Foundation Model Empowered by Heuristic Gene Patching",
+   "year": 2025,
+   "venue": "Research Square",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Cross-attention with gene patch tokens",
+   "key": "Lightweight foundation model that groups genes into patches to cut pretraining and fine-tuning cost.",
+   "links": {
+    "preprint": "https://doi.org/10.21203/rs.3.rs-7138411/v1",
+    "code": "https://github.com/HanwenZhu98/CellPatch"
+   },
+   "citation": "Zhu, Hanwen, Yushun Yuan, Jiyuan Yang, Kangwen Cai, Nana Wei, Senxin Zhang, Lu Wang et al. \"CellPatch: A Flexible and Efficient Framework for Single-Cell Foundation Model Empowered by Heuristic Gene Patching.\" Research Square (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.21203/rs.3.rs-7138411/v1",
+    "https://github.com/HanwenZhu98/CellPatch"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "HanwenZhu98/CellPatch"
+  },
+  {
    "id": "cellprophet",
    "kind": "model",
    "name": "CellProphet",
@@ -3827,6 +5213,49 @@
    "github": "UCSC-VLAA/EpiFoundation"
   },
   {
+   "id": "eva-immunology",
+   "kind": "model",
+   "name": "EVA",
+   "aliases": [
+    "EVA: Towards a universal model of the immune system"
+   ],
+   "title": "EVA: a Foundation Model Advancing Translational Drug Development in Immuno-Inflammation",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "category": "multimodal",
+   "tags": [
+    "foundation-model",
+    "cross-species",
+    "histology",
+    "drug-response"
+   ],
+   "modality": "Transcriptomics (single-cell and bulk) + histology",
+   "architecture": "Multimodal patient-level foundation model",
+   "key": "Cross-species multimodal foundation model for immunology and inflammation, built for drug-development tasks.",
+   "links": {
+    "preprint": "https://doi.org/10.1101/2025.05.02.651839",
+    "paper": "https://arxiv.org/abs/2602.10168"
+   },
+   "citation": "Fouché, Aziz, Apolline Bruley, Matthew Corney, Pierre Marschall, Vincent Bouget, and Julien Duquesne. \"EVA: a Foundation Model Advancing Translational Drug Development in Immuno-Inflammation.\" bioRxiv (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "histology-image"
+   ],
+   "outputs": [
+    "disease-state",
+    "cell-embedding"
+   ],
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1101/2025.05.02.651839",
+    "https://arxiv.org/abs/2602.10168"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "geneagent",
    "kind": "model",
    "name": "GeneAgent",
@@ -3892,42 +5321,6 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "BiostateAI/GeneJEPA"
-  },
-  {
-   "id": "genemamba",
-   "kind": "model",
-   "name": "GeneMamba",
-   "title": "GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data",
-   "year": 2025,
-   "venue": "arXiv",
-   "category": "llm",
-   "tags": [
-    "llm",
-    "scrna-seq"
-   ],
-   "modality": "scRNA-seq",
-   "architecture": "Bidirectional Mamba",
-   "key": "Efficient long-context single-cell modeling with bidirectional Mamba.",
-   "links": {
-    "paper": "https://arxiv.org/abs/2504.16956",
-    "code": "https://github.com/MineSelf2016/GeneMamba"
-   },
-   "citation": "Qi, Cong, Hanzhang Fang, Siqi Jiang, Xun Song, Tianxing Hu, and Wei Zhi. \"GeneMamba: An Efficient and Effective Foundation Model on Single Cell Data.\" arXiv preprint arXiv:2504.16956 (2025).",
-   "reviewed": false,
-   "inputs": [
-    "expression"
-   ],
-   "outputs": [
-    "cell-type-label"
-   ],
-   "architecture_family": "state-space",
-   "added": "2026-06-02",
-   "sources": [
-    "https://arxiv.org/abs/2504.16956"
-   ],
-   "review_basis": "abstract",
-   "status": "preprint",
-   "github": "MineSelf2016/GeneMamba"
   },
   {
    "id": "get",
@@ -4068,6 +5461,47 @@
    "github": "czi-ai/GREmLN"
   },
   {
+   "id": "heist",
+   "kind": "model",
+   "name": "HEIST",
+   "title": "HEIST: A Graph Foundation Model for Spatial Transcriptomics and Proteomics Data",
+   "year": 2025,
+   "venue": "arXiv",
+   "category": "spatial",
+   "tags": [
+    "spatial",
+    "proteomics",
+    "graph",
+    "foundation-model"
+   ],
+   "modality": "Spatial transcriptomics and proteomics",
+   "architecture": "Hierarchical graph foundation model",
+   "key": "Graph foundation model linking intracellular programs to the tissue microenvironment for spatial RNA and protein data.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2506.11152",
+    "code": "https://github.com/Graph-and-Geometric-Learning/HEIST"
+   },
+   "citation": "Madhu, Hiren, João Felipe Rocha, Tinglin Huang, Siddharth Viswanath, Smita Krishnaswamy, and Rex Ying. \"HEIST: A Graph Foundation Model for Spatial Transcriptomics and Proteomics Data.\" arXiv preprint arXiv:2506.11152 (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "protein-abundance",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "architecture_family": "graph-neural-network",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2506.11152",
+    "https://github.com/Graph-and-Geometric-Learning/HEIST"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "Graph-and-Geometric-Learning/HEIST"
+  },
+  {
    "id": "impa",
    "kind": "model",
    "name": "IMPA",
@@ -4143,6 +5577,41 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "mahmoodlab/KRONOS"
+  },
+  {
+   "id": "lemur",
+   "kind": "model",
+   "name": "Lemur",
+   "title": "Lemur: A Single-Cell Foundation Model with Fine-Tuning-Free Hierarchical Cell-Type Generation for Drosophila melanogaster",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
+   "modality": "Drosophila scRNA-seq",
+   "architecture": "Foundation model with hierarchical cell-type decoder",
+   "key": "Drosophila foundation model that annotates cell types hierarchically without fine-tuning.",
+   "links": {
+    "preprint": "https://doi.org/10.1101/2025.02.04.636468",
+    "weights": "https://huggingface.co/jorgebotas/lemur"
+   },
+   "citation": "Botas, Jorge, Johnathan Jia, Sasidhar Pasupuleti, Hu Chen, Xia Hu, Zhaozhuo Xu, and Zhandong Liu. \"Lemur: A Single-Cell Foundation Model with Fine-Tuning-Free Hierarchical Cell-Type Generation for Drosophila melanogaster.\" bioRxiv (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-type-label"
+   ],
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1101/2025.02.04.636468"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "lpm",
@@ -4291,6 +5760,48 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "bowang-lab/MorphoDiff"
+  },
+  {
+   "id": "nephrobase-cell-plus",
+   "kind": "model",
+   "name": "Nephrobase Cell+",
+   "title": "Nephrobase Cell+: Multimodal Single-Cell Foundation Model for Decoding Kidney Biology",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "category": "multimodal",
+   "tags": [
+    "multi-omics",
+    "spatial",
+    "foundation-model",
+    "cross-species"
+   ],
+   "modality": "scRNA-seq, snRNA-seq, snATAC-seq, spatial (kidney)",
+   "architecture": "Transformer foundation model",
+   "key": "Kidney-focused multimodal foundation model trained on single-cell, single-nucleus, ATAC and spatial profiles from four species.",
+   "links": {
+    "preprint": "https://doi.org/10.1101/2025.09.30.679471"
+   },
+   "model_card": {
+    "pretraining_cells": "~39.5M (four mammalian species)"
+   },
+   "citation": "Li, Chenyu, Elias Ziyadeh, Yash Sharma, Bernhard Dumoulin, Jonathan Levinsohn, Eunji Ha, Siyu Pan et al. \"Nephrobase Cell+: Multimodal Single-Cell Foundation Model for Decoding Kidney Biology.\" bioRxiv (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "chromatin-accessibility",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1101/2025.09.30.679471"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "nichecompass",
@@ -4574,6 +6085,46 @@
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.1101/2025.07.02.662744"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "past",
+   "kind": "model",
+   "name": "PAST",
+   "title": "PAST: A multimodal single-cell foundation model for histopathology and spatial transcriptomics in cancer",
+   "year": 2025,
+   "venue": "arXiv",
+   "category": "multimodal",
+   "tags": [
+    "histology",
+    "spatial",
+    "foundation-model"
+   ],
+   "modality": "Histopathology + single-cell transcriptomics (cancer)",
+   "architecture": "Multimodal image-expression foundation model",
+   "key": "Pan-cancer model jointly encoding cell morphology and expression to predict single-cell expression and virtual staining from routine slides.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2507.06418"
+   },
+   "model_card": {
+    "pretraining_cells": "20M paired image-transcriptome cells"
+   },
+   "citation": "Yang, Changchun, Haoyang Li, Yushuai Wu, Yilan Zhang, Yifeng Jiao, Yu Zhang, Rihan Huang et al. \"PAST: A multimodal single-cell foundation model for histopathology and spatial transcriptomics in cancer.\" arXiv preprint arXiv:2507.06418 (2025).",
+   "reviewed": false,
+   "inputs": [
+    "histology-image",
+    "expression"
+   ],
+   "outputs": [
+    "expression-prediction",
+    "cell-embedding"
+   ],
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2507.06418"
    ],
    "review_basis": "abstract",
    "status": "preprint"
@@ -5041,6 +6592,79 @@
    "github": "OmicsML/scLinguist"
   },
   {
+   "id": "scmamba",
+   "kind": "model",
+   "name": "scMamba",
+   "title": "scMamba: A Scalable Foundation Model for Single-Cell Multi-Omics Integration Beyond Highly Variable Feature Selection",
+   "year": 2025,
+   "venue": "arXiv",
+   "category": "multimodal",
+   "tags": [
+    "multi-omics",
+    "foundation-model"
+   ],
+   "modality": "Single-cell multi-omics",
+   "architecture": "Mamba state-space model with patch tokenisation",
+   "key": "Integrates single-cell multi-omics without feature selection, treating genomic regions as tokens.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2506.20697"
+   },
+   "citation": "Yuan, Zhen, Shaoqing Jiao, Yihang Xiao, and Jiajie Peng. \"scMamba: A Scalable Foundation Model for Single-Cell Multi-Omics Integration Beyond Highly Variable Feature Selection.\" arXiv preprint arXiv:2506.20697 (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "chromatin-accessibility"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "architecture_family": "state-space",
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2506.20697"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "scmomer",
+   "kind": "model",
+   "name": "scMomer",
+   "title": "scMomer: A modality-aware pretraining framework for single-cell multi-omics modeling under missing modality conditions",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "category": "multimodal",
+   "tags": [
+    "multi-omics",
+    "foundation-model"
+   ],
+   "modality": "Single-cell multi-omics",
+   "architecture": "Modality-aware three-stage pretraining",
+   "key": "Three-stage pretraining that distils multi-omics knowledge so unimodal inputs give multi-omics-like representations.",
+   "links": {
+    "preprint": "https://doi.org/10.1101/2025.08.04.668374",
+    "code": "https://github.com/nobody927/scMomer"
+   },
+   "citation": "Liu, Yuhang, Quan Zou, Ran Su, and Leyi Wei. \"scMomer: A modality-aware pretraining framework for single-cell multi-omics modeling under missing modality conditions.\" bioRxiv (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "chromatin-accessibility"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1101/2025.08.04.668374",
+    "https://github.com/nobody927/scMomer"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "nobody927/scMomer"
+  },
+  {
    "id": "scnet",
    "kind": "model",
    "name": "scNET",
@@ -5072,6 +6696,43 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "madilabcode/scNET"
+  },
+  {
+   "id": "scooby",
+   "kind": "model",
+   "name": "scooby",
+   "title": "scooby: modeling multimodal genomic profiles from DNA sequence at single-cell resolution",
+   "year": 2025,
+   "venue": "Nature Methods",
+   "category": "seq2exp",
+   "tags": [
+    "multi-omics",
+    "dna-sequence",
+    "scatac-seq"
+   ],
+   "modality": "scRNA-seq + scATAC-seq from DNA sequence",
+   "architecture": "Borzoi with a cell-specific decoder",
+   "key": "Predicts single-cell RNA coverage and ATAC insertions from DNA sequence by adding a cell-specific decoder to the pretrained Borzoi model.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-025-02854-5",
+    "code": "https://github.com/gagneurlab/scooby"
+   },
+   "citation": "Hingerl, Johannes C., Laura D. Martens, Alexander Karollus, Trevor Manz, Jason D. Buenrostro, Fabian J. Theis, and Julien Gagneur. \"scooby: modeling multimodal genomic profiles from DNA sequence at single-cell resolution.\" Nature Methods 22, no. 11 (2025): 2275-2285.",
+   "reviewed": false,
+   "inputs": [
+    "dna-sequence"
+   ],
+   "outputs": [
+    "expression-prediction"
+   ],
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1038/s41592-025-02854-5",
+    "https://github.com/gagneurlab/scooby"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "gagneurlab/scooby"
   },
   {
    "id": "scouter",
@@ -5571,6 +7232,41 @@
    ],
    "review_basis": "abstract",
    "status": "published"
+  },
+  {
+   "id": "tabvi",
+   "kind": "model",
+   "name": "TabVI",
+   "title": "TabVI: Leveraging Lightweight Transformer Architectures to Learn Biologically Meaningful Cellular Representations",
+   "year": 2025,
+   "venue": "bioRxiv",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "generative"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Probabilistic generative model with tabular transformer",
+   "key": "Lightweight probabilistic generative model using tabular-transformer layers to learn cell representations.",
+   "links": {
+    "preprint": "https://doi.org/10.1101/2025.02.13.637984"
+   },
+   "citation": "Chandrashekar, Aditi, Rohan Gala, Andreas Tjärnberg, Saniya Khullar, Grace Huynh, and Mariano Gabitto. \"TabVI: Leveraging Lightweight Transformer Architectures to Learn Biologically Meaningful Cellular Representations.\" bioRxiv (2025).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "architecture_family": "vae",
+   "code_status": "none-found",
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1101/2025.02.13.637984"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
   },
   {
    "id": "tahoe-x1",
