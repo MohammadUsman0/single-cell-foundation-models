@@ -3,7 +3,7 @@
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
   "models": 186,
-  "resources": 165,
+  "resources": 181,
   "venues": 19
  },
  "vocab": {
@@ -7902,6 +7902,41 @@
    "status": "preprint"
   },
   {
+   "id": "grn-reconstruction-transition-probing-scfms",
+   "kind": "resource",
+   "title": "Benchmarking Static Gene Regulatory Network Reconstruction and Dynamic Transition Probing in Single-Cell Foundation Models",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "gene-regulation",
+    "scrna-seq"
+   ],
+   "key": "Benchmarks regulatory networks recovered from token embeddings, hidden states and attention of six foundation models, and adds dynamic transition probing.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.05.17.725083"
+   },
+   "evaluates": [
+    "scgpt",
+    "scfoundation"
+   ],
+   "findings": "scGPT token embeddings beat classical GRN baselines and scFoundation best reproduces developmental transitions; what can be recovered depends on architecture and extraction.",
+   "interp_method": [
+    "probing",
+    "attention-analysis"
+   ],
+   "citation": "Ye, Zhongni, Ning Yang, Xiaojing Yang, Xiaowei Mao, and Chao Tang. \"Benchmarking Static Gene Regulatory Network Reconstruction and Dynamic Transition Probing in Single-Cell Foundation Models.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.05.17.725083"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "benchmarking-virtual-cell-models-for-in",
    "kind": "resource",
    "title": "Benchmarking virtual cell models for in-the-wild perturbation response",
@@ -7933,6 +7968,41 @@
     "https://arxiv.org/abs/2604.27646"
    ],
    "review_basis": "paper",
+   "status": "preprint"
+  },
+  {
+   "id": "beyond-the-final-layer-scfm-representations",
+   "kind": "resource",
+   "title": "Beyond the Final Layer: Evaluating Single-Cell Foundation Model Representations for Molecular Prediction",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Layer-wise probing of four foundation models as frozen feature extractors for cell-type and perturbation prediction, with readout and geometry diagnostics.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.10.05.756880"
+   },
+   "evaluates": [
+    "geneformer",
+    "scbert",
+    "scgpt",
+    "scfoundation"
+   ],
+   "findings": "Intermediate layers often beat the final layer for scGPT and scBERT cell-type tasks; the best depth depends on model, task and readout.",
+   "interp_method": [
+    "probing"
+   ],
+   "citation": "Wen, Ming-Ching Crystal, YiWei Lyu, and Andrew Robbins. \"Beyond the Final Layer: Evaluating Single-Cell Foundation Model Representations for Molecular Prediction.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.10.05.756880"
+   ],
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -7972,6 +8042,39 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "Biodyn-AI/bio-sae-circuits"
+  },
+  {
+   "id": "causal-intervention-validation-scgpt",
+   "kind": "resource",
+   "title": "Causal intervention validation of gene regulatory signals in scGPT",
+   "year": 2026,
+   "venue": "Journal of Biomedical Informatics",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "gene-regulation",
+    "scrna-seq"
+   ],
+   "key": "Ablates or swaps transcription-factor tokens inside scGPT, traces circuits with activation patching, and checks the resulting edges against curated references and CRISPR data.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.jbi.2026.105080"
+   },
+   "evaluates": [
+    "scgpt"
+   ],
+   "interp_method": [
+    "attribution",
+    "circuit-tracing"
+   ],
+   "citation": "Kendiukhov, Ihor. \"Causal intervention validation of gene regulatory signals in scGPT.\" Journal of Biomedical Informatics 180 (2026): 105080.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1016/j.jbi.2026.105080"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
   },
   {
    "id": "cell-shapes",
@@ -8069,6 +8172,93 @@
    "status": "preprint"
   },
   {
+   "id": "cellular-stress-programs-scfm-sae",
+   "kind": "resource",
+   "title": "Decoding Conserved and Tissue-Specific Cellular Stress Programs from Single-Cell Foundation Models Using Sparse Autoencoders",
+   "year": 2026,
+   "venue": "ScienceOpen Preprints",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Uses sparse autoencoders on foundation-model embeddings of a multi-organ ageing atlas to extract cellular stress programs.",
+   "links": {
+    "preprint": "https://doi.org/10.14293/pr2199.003483.v1"
+   },
+   "findings": "The features recover known and new stress programs, some conserved across tissues and increasingly co-active with age, others tissue-specific.",
+   "interp_method": [
+    "sparse-autoencoder"
+   ],
+   "citation": "Bashir, Abdul. \"Decoding Conserved and Tissue-Specific Cellular Stress Programs from Single-Cell Foundation Models Using Sparse Autoencoders.\" ScienceOpen Preprints (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.14293/pr2199.003483.v1"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
+   "id": "hematopoietic-manifold-scgpt",
+   "kind": "resource",
+   "title": "Discovery of a Hematopoietic Manifold in scGPT Yields a Method for Extracting Performant Algorithms from Biological Foundation Model Internals",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Finds a hematopoietic manifold inside scGPT and exports it from frozen attention weights as a compact standalone algorithm.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2603.10261"
+   },
+   "evaluates": [
+    "scgpt"
+   ],
+   "findings": "The extracted algorithm orders pseudotime best against scVI, Palantir and others, with about 1000-fold fewer trainable parameters than probing.",
+   "interp_method": [
+    "geometry",
+    "attention-analysis"
+   ],
+   "citation": "Kendiukhov, Ihor. \"Discovery of a Hematopoietic Manifold in scGPT Yields a Method for Extracting Performant Algorithms from Biological Foundation Model Internals.\" arXiv preprint arXiv:2603.10261 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2603.10261"
+   ],
+   "review_basis": "paper",
+   "status": "preprint"
+  },
+  {
+   "id": "dissecting-the-virtual-cell-mi-review",
+   "kind": "resource",
+   "title": "Dissecting the Virtual Cell: A Review of Mechanistic Interpretability for Single-cell Biological Foundation Models",
+   "year": 2026,
+   "venue": "SSRN",
+   "type": "survey",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Review of mechanistic interpretability methods applied to single-cell foundation models.",
+   "links": {
+    "preprint": "https://doi.org/10.2139/ssrn.6847421"
+   },
+   "citation": "Denvis, Olivia. \"Dissecting the Virtual Cell: A Review of Mechanistic Interpretability for Single-cell Biological Foundation Models.\" SSRN (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.2139/ssrn.6847421"
+   ],
+   "review_basis": "metadata",
+   "status": "preprint"
+  },
+  {
    "id": "geometric-outliers-scfm-genes",
    "kind": "resource",
    "aliases": [
@@ -8130,6 +8320,41 @@
    ],
    "review_basis": "abstract",
    "status": "preprint"
+  },
+  {
+   "id": "saffron-spatial-fm-sae",
+   "kind": "resource",
+   "title": "Evaluating the ability of spatial transcriptomics foundation models to learn multi-scale spatial variation",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "spatial"
+   ],
+   "key": "SAFFRON: uses Matryoshka sparse autoencoders on spatial foundation-model embeddings to test whether they capture local and global spatial variation.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.08.01.742217",
+    "code": "https://github.com/chitra-lab/SAFFRON"
+   },
+   "evaluates": [
+    "novae"
+   ],
+   "findings": "Novae captures global spatial gradients better than simple baselines, but no spatial model beats baselines on local microenvironment patterns.",
+   "interp_method": [
+    "sparse-autoencoder"
+   ],
+   "citation": "Handa, Dhanav, Cristina Martin-Linares, Genevieve Stein-O’Brien, Jonathan Ling, and Uthsav Chitra. \"Evaluating the ability of spatial transcriptomics foundation models to learn multi-scale spatial variation.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.08.01.742217",
+    "https://github.com/chitra-lab/SAFFRON"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "chitra-lab/SAFFRON"
   },
   {
    "id": "evaluating-the-role-of-pre-training",
@@ -8348,6 +8573,65 @@
    "status": "published"
   },
   {
+   "id": "scgenelens-how-models-understand-cells",
+   "kind": "resource",
+   "title": "How different AI models understand cells differently",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "scGeneLens: sparsifies attention, propagates it across layers and applies integrated gradients to see which gene relations scFoundation and scGPT rely on.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.01.29.702682"
+   },
+   "evaluates": [
+    "scfoundation",
+    "scgpt"
+   ],
+   "findings": "scFoundation leans on cell-type marker relations (sharper cell-type separation), while scGPT leans on shared pathway genes (better transfer across conditions).",
+   "interp_method": [
+    "attention-analysis",
+    "attribution"
+   ],
+   "citation": "Zhao, Yubo, Duozhi Sun, Minsheng Hao, Yifan Xiong, Chen Li, Tieliang Gong, Lei Wei et al. \"How different AI models understand cells differently.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.01.29.702682"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "probing-limits-of-representation-readout-review",
+   "kind": "resource",
+   "title": "How Much Information Is Stored in Single-Cell Foundation Models, and How Much Can Be Extracted? A Review of Probing, Interpretability, and the Limits of Representation Readout",
+   "year": 2026,
+   "venue": "SSRN",
+   "type": "survey",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Review of probing and interpretability for single-cell foundation models and of how much stored information can actually be read out.",
+   "links": {
+    "preprint": "https://doi.org/10.2139/ssrn.7009198"
+   },
+   "citation": "Chen, Liu. \"How Much Information Is Stored in Single-Cell Foundation Models, and How Much Can Be Extracted? A Review of Probing, Interpretability, and the Limits of Representation Readout.\" SSRN (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.2139/ssrn.7009198"
+   ],
+   "review_basis": "metadata",
+   "status": "preprint"
+  },
+  {
    "id": "interpretation-extrapolation-and-perturbation-of-single",
    "kind": "resource",
    "title": "Interpretation, extrapolation and perturbation of single cells",
@@ -8419,6 +8703,37 @@
    "status": "published"
   },
   {
+   "id": "scgpt-gene-embedding-geometry",
+   "kind": "resource",
+   "title": "Mechanistic Interpretability of Biological Foundation Models: An Empirical Analysis of scGPT Gene-Embedding Geometry",
+   "year": 2026,
+   "venue": "Research Square",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Empirical analysis of the geometry of scGPT gene embeddings.",
+   "links": {
+    "preprint": "https://doi.org/10.21203/rs.3.rs-10461111/v1"
+   },
+   "evaluates": [
+    "scgpt"
+   ],
+   "interp_method": [
+    "geometry"
+   ],
+   "citation": "Chen, Liu. \"Mechanistic Interpretability of Biological Foundation Models: An Empirical Analysis of scGPT Gene-Embedding Geometry.\" Research Square (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.21203/rs.3.rs-10461111/v1"
+   ],
+   "review_basis": "metadata",
+   "status": "preprint"
+  },
+  {
    "id": "minimal-life-by-computer",
    "kind": "resource",
    "title": "Minimal life by computer",
@@ -8439,6 +8754,41 @@
    ],
    "review_basis": "metadata",
    "status": "published"
+  },
+  {
+   "id": "spectral-geometry-biological-knowledge-scgpt",
+   "kind": "resource",
+   "title": "Multi-Dimensional Spectral Geometry of Biological Knowledge in Single-Cell Transformer Representations",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Automated hypothesis screening of the spectral geometry of scGPT gene representations across layers.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2602.22247",
+    "code": "https://github.com/Biodyn-AI/topology-biomechinterp1"
+   },
+   "evaluates": [
+    "scgpt"
+   ],
+   "findings": "scGPT arranges genes along interpretable axes (subcellular location, protein interactions, regulator versus target), with detail that changes across depth.",
+   "interp_method": [
+    "geometry"
+   ],
+   "citation": "Kendiukhov, Ihor. \"Multi-Dimensional Spectral Geometry of Biological Knowledge in Single-Cell Transformer Representations.\" arXiv preprint arXiv:2602.22247 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2602.22247",
+    "https://github.com/Biodyn-AI/topology-biomechinterp1"
+   ],
+   "review_basis": "paper",
+   "status": "preprint",
+   "github": "Biodyn-AI/topology-biomechinterp1"
   },
   {
    "id": "mvcbench",
@@ -8475,6 +8825,101 @@
     "https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1"
    ],
    "review_basis": "paper",
+   "status": "preprint"
+  },
+  {
+   "id": "partial-label-metric-ceilings-grn-scfm",
+   "kind": "resource",
+   "title": "Partial-label metric ceilings for evaluating gene regulatory networks inferred from single-cell foundation models",
+   "year": 2026,
+   "venue": "Biosystems",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "gene-regulation"
+   ],
+   "key": "Derives the best achievable GRN scores given incomplete reference networks and re-reads benchmark results, including attention and gradient edges from scGPT.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.biosystems.2026.105864"
+   },
+   "evaluates": [
+    "scgpt"
+   ],
+   "findings": "Incomplete references explain only part of the gap: even the leading scGPT probes stay far below the achievable ceiling.",
+   "interp_method": [
+    "attention-analysis",
+    "attribution"
+   ],
+   "citation": "Kendiukhov, Ihor. \"Partial-label metric ceilings for evaluating gene regulatory networks inferred from single-cell foundation models.\" Biosystems 266 (2026): 105864.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1016/j.biosystems.2026.105864"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
+   "id": "sae-scfoundation-vs-geneformer",
+   "kind": "resource",
+   "title": "Regulatory Logic in Larger Single-Cell Foundation Models: A Sparse Autoencoder Comparison of scFoundation and Geneformer",
+   "year": 2026,
+   "venue": "ScienceOpen Preprints",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "gene-regulation",
+    "scrna-seq"
+   ],
+   "key": "Compares sparse-autoencoder features of scFoundation and Geneformer for pathway alignment, sparsity and response to transcription-factor perturbation.",
+   "links": {
+    "preprint": "https://doi.org/10.14293/pr2199.003544.v1"
+   },
+   "evaluates": [
+    "scfoundation",
+    "geneformer"
+   ],
+   "findings": "scFoundation's features align more often with known regulatory modules and are less polysemantic than Geneformer's.",
+   "interp_method": [
+    "sparse-autoencoder"
+   ],
+   "citation": "James, Carter. \"Regulatory Logic in Larger Single-Cell Foundation Models: A Sparse Autoencoder Comparison of scFoundation and Geneformer.\" ScienceOpen Preprints (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.14293/pr2199.003544.v1"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
+   "id": "biological-concepts-as-directions-fm-embeddings",
+   "kind": "resource",
+   "title": "Representing biological concepts as directions in foundation model embeddings",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model"
+   ],
+   "key": "Concept activation vectors: linear directions in protein and single-cell foundation-model embeddings that represent biological properties.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.10.10.758204"
+   },
+   "findings": "Linear concept directions recover functional annotations in protein embeddings and cancer-associated transitions in single-cell embeddings.",
+   "interp_method": [
+    "probing"
+   ],
+   "citation": "Shamail, Ahmad, and Claire D. McWhite. \"Representing biological concepts as directions in foundation model embeddings.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.10.10.758204"
+   ],
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -8752,6 +9197,9 @@
   {
    "id": "attention-edge-scores-scfm-interpretability",
    "kind": "resource",
+   "aliases": [
+    "Systematic Evaluation of Single-Cell Foundation Model Interpretability Reveals Attention Captures Co-Expression Rather Than Unique Regulatory Signal"
+   ],
    "title": "Systematic evaluation of single-cell foundation model interpretability: attention-derived edge scores add no incremental value over gene-level features for perturbation-target prediction",
    "year": 2026,
    "venue": "BMC Genomics",
@@ -8764,7 +9212,9 @@
    ],
    "key": "Tests whether attention-derived gene-gene edges in scGPT and Geneformer carry regulatory information, with ablations and trivial baselines across cell types and CRISPR modalities.",
    "links": {
-    "paper": "https://doi.org/10.1186/s12864-026-12965-8"
+    "paper": "https://doi.org/10.1186/s12864-026-12965-8",
+    "preprint": "https://arxiv.org/abs/2602.17532",
+    "code": "https://github.com/Biodyn-AI/biomechinterp-framework"
    },
    "evaluates": [
     "scgpt",
@@ -8778,10 +9228,12 @@
    "reviewed": false,
    "added": "2026-10-22",
    "sources": [
-    "https://doi.org/10.1186/s12864-026-12965-8"
+    "https://doi.org/10.1186/s12864-026-12965-8",
+    "https://arxiv.org/abs/2602.17532"
    ],
    "review_basis": "abstract",
-   "status": "published"
+   "status": "published",
+   "github": "Biodyn-AI/biomechinterp-framework"
   },
   {
    "id": "tabular-fms-perturbation",
@@ -9844,6 +10296,39 @@
    "status": "published"
   },
   {
+   "id": "interpretable-biological-concepts-scrna-fms",
+   "kind": "resource",
+   "title": "Discovering Interpretable Biological Concepts in Single-cell RNA-seq Foundation Models",
+   "year": 2025,
+   "venue": "arXiv",
+   "type": "interpretability",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Concept-based framework: extracts concepts with Top-K sparse autoencoders, attributes them to genes with counterfactual perturbations, and interprets them with experts and ontologies.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2510.25807"
+   },
+   "evaluates": [
+    "scgpt"
+   ],
+   "findings": "Concepts are more interpretable than individual neurons while keeping the representations informative.",
+   "interp_method": [
+    "sparse-autoencoder",
+    "attribution"
+   ],
+   "citation": "Claye, Charlotte, Pierre Marschall, Wassila Ouerdane, Céline Hudelot, and Julien Duquesne. \"Discovering Interpretable Biological Concepts in Single-cell RNA-seq Foundation Models.\" arXiv preprint arXiv:2510.25807 (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arxiv.org/abs/2510.25807"
+   ],
+   "review_basis": "paper",
+   "status": "preprint"
+  },
+  {
    "id": "diversity-by-design",
    "kind": "resource",
    "aliases": [
@@ -10594,6 +11079,34 @@
    ],
    "review_basis": "metadata",
    "status": "preprint"
+  },
+  {
+   "id": "the-cell-as-a-token",
+   "kind": "resource",
+   "title": "The cell as a token: high-dimensional geometry in language models and cell embeddings",
+   "year": 2025,
+   "venue": "Bioinformatics",
+   "type": "survey",
+   "tags": [
+    "interpretability",
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Review of what the geometry of language-model embeddings teaches about cell embeddings from virtual cell models.",
+   "links": {
+    "paper": "https://doi.org/10.1093/bioinformatics/btaf595",
+    "code": "https://github.com/williamgilpin/celltoken"
+   },
+   "citation": "Gilpin, William. \"The cell as a token: high-dimensional geometry in language models and cell embeddings.\" Bioinformatics 41, no. 11 (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1093/bioinformatics/btaf595",
+    "https://github.com/williamgilpin/celltoken"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "williamgilpin/celltoken"
   },
   {
    "id": "world-model-coherence-tfms",

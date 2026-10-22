@@ -1,0 +1,23 @@
+id: dissecting-the-virtual-cell-mi-review
+kind: resource
+type: survey
+title: 'Dissecting the Virtual Cell: A Review of Mechanistic Interpretability for Single-cell Biological
+  Foundation Models'
+year: 2026
+venue: SSRN
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: Review of mechanistic interpretability methods applied to single-cell foundation models.
+links:
+  preprint: https://doi.org/10.2139/ssrn.6847421
+citation: 'Denvis, Olivia. "Dissecting the Virtual Cell: A Review of Mechanistic Interpretability for
+  Single-cell Biological Foundation Models." SSRN (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.2139/ssrn.6847421
+review_basis: metadata
+reviewed: false
+review_notes:
+- Single-author preprint, not peer reviewed.

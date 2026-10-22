@@ -1,0 +1,31 @@
+id: beyond-the-final-layer-scfm-representations
+kind: resource
+type: interpretability
+title: 'Beyond the Final Layer: Evaluating Single-Cell Foundation Model Representations for Molecular
+  Prediction'
+year: 2026
+venue: bioRxiv
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: Layer-wise probing of four foundation models as frozen feature extractors for cell-type and perturbation
+  prediction, with readout and geometry diagnostics.
+links:
+  preprint: https://doi.org/10.64898/2026.10.05.756880
+evaluates:
+- geneformer
+- scbert
+- scgpt
+- scfoundation
+findings: Intermediate layers often beat the final layer for scGPT and scBERT cell-type tasks; the best
+  depth depends on model, task and readout.
+interp_method:
+- probing
+citation: 'Wen, Ming-Ching Crystal, YiWei Lyu, and Andrew Robbins. "Beyond the Final Layer: Evaluating
+  Single-Cell Foundation Model Representations for Molecular Prediction." bioRxiv (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.10.05.756880
+review_basis: abstract
+reviewed: false

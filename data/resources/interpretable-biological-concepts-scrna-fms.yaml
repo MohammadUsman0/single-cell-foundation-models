@@ -1,0 +1,28 @@
+id: interpretable-biological-concepts-scrna-fms
+kind: resource
+type: interpretability
+title: Discovering Interpretable Biological Concepts in Single-cell RNA-seq Foundation Models
+year: 2025
+venue: arXiv
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: 'Concept-based framework: extracts concepts with Top-K sparse autoencoders, attributes them to genes
+  with counterfactual perturbations, and interprets them with experts and ontologies.'
+links:
+  preprint: https://arxiv.org/abs/2510.25807
+evaluates:
+- scgpt
+findings: Concepts are more interpretable than individual neurons while keeping the representations informative.
+interp_method:
+- sparse-autoencoder
+- attribution
+citation: Claye, Charlotte, Pierre Marschall, Wassila Ouerdane, Céline Hudelot, and Julien Duquesne. "Discovering
+  Interpretable Biological Concepts in Single-cell RNA-seq Foundation Models." arXiv preprint arXiv:2510.25807
+  (2025).
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2510.25807
+review_basis: paper
+reviewed: false

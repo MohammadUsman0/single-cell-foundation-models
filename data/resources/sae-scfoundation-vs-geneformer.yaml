@@ -1,0 +1,32 @@
+id: sae-scfoundation-vs-geneformer
+kind: resource
+type: interpretability
+title: 'Regulatory Logic in Larger Single-Cell Foundation Models: A Sparse Autoencoder Comparison of scFoundation
+  and Geneformer'
+year: 2026
+venue: ScienceOpen Preprints
+tags:
+- interpretability
+- foundation-model
+- gene-regulation
+- scrna-seq
+key: Compares sparse-autoencoder features of scFoundation and Geneformer for pathway alignment, sparsity
+  and response to transcription-factor perturbation.
+links:
+  preprint: https://doi.org/10.14293/pr2199.003544.v1
+evaluates:
+- scfoundation
+- geneformer
+findings: scFoundation's features align more often with known regulatory modules and are less polysemantic
+  than Geneformer's.
+interp_method:
+- sparse-autoencoder
+citation: 'James, Carter. "Regulatory Logic in Larger Single-Cell Foundation Models: A Sparse Autoencoder
+  Comparison of scFoundation and Geneformer." ScienceOpen Preprints (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.14293/pr2199.003544.v1
+review_basis: abstract
+reviewed: false
+review_notes:
+- Single-author preprint, not peer reviewed.

@@ -1,0 +1,27 @@
+id: causal-intervention-validation-scgpt
+kind: resource
+type: interpretability
+title: Causal intervention validation of gene regulatory signals in scGPT
+year: 2026
+venue: Journal of Biomedical Informatics
+tags:
+- interpretability
+- foundation-model
+- gene-regulation
+- scrna-seq
+key: Ablates or swaps transcription-factor tokens inside scGPT, traces circuits with activation patching,
+  and checks the resulting edges against curated references and CRISPR data.
+links:
+  paper: https://doi.org/10.1016/j.jbi.2026.105080
+evaluates:
+- scgpt
+interp_method:
+- attribution
+- circuit-tracing
+citation: 'Kendiukhov, Ihor. "Causal intervention validation of gene regulatory signals in scGPT." Journal
+  of Biomedical Informatics 180 (2026): 105080.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1016/j.jbi.2026.105080
+review_basis: abstract
+reviewed: false

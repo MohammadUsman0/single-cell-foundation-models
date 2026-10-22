@@ -1,0 +1,28 @@
+id: cellular-stress-programs-scfm-sae
+kind: resource
+type: interpretability
+title: Decoding Conserved and Tissue-Specific Cellular Stress Programs from Single-Cell Foundation Models
+  Using Sparse Autoencoders
+year: 2026
+venue: ScienceOpen Preprints
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: Uses sparse autoencoders on foundation-model embeddings of a multi-organ ageing atlas to extract
+  cellular stress programs.
+links:
+  preprint: https://doi.org/10.14293/pr2199.003483.v1
+findings: The features recover known and new stress programs, some conserved across tissues and increasingly
+  co-active with age, others tissue-specific.
+interp_method:
+- sparse-autoencoder
+citation: Bashir, Abdul. "Decoding Conserved and Tissue-Specific Cellular Stress Programs from Single-Cell
+  Foundation Models Using Sparse Autoencoders." ScienceOpen Preprints (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.14293/pr2199.003483.v1
+review_basis: abstract
+reviewed: false
+review_notes:
+- Single-author preprint, not peer reviewed.

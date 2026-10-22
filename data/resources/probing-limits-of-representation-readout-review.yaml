@@ -1,0 +1,25 @@
+id: probing-limits-of-representation-readout-review
+kind: resource
+type: survey
+title: How Much Information Is Stored in Single-Cell Foundation Models, and How Much Can Be Extracted?
+  A Review of Probing, Interpretability, and the Limits of Representation Readout
+year: 2026
+venue: SSRN
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: Review of probing and interpretability for single-cell foundation models and of how much stored information
+  can actually be read out.
+links:
+  preprint: https://doi.org/10.2139/ssrn.7009198
+citation: Chen, Liu. "How Much Information Is Stored in Single-Cell Foundation Models, and How Much Can
+  Be Extracted? A Review of Probing, Interpretability, and the Limits of Representation Readout." SSRN
+  (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.2139/ssrn.7009198
+review_basis: metadata
+reviewed: false
+review_notes:
+- Single-author preprint, not peer reviewed.

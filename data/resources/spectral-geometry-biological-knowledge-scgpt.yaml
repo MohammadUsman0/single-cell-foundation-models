@@ -1,0 +1,28 @@
+id: spectral-geometry-biological-knowledge-scgpt
+kind: resource
+type: interpretability
+title: Multi-Dimensional Spectral Geometry of Biological Knowledge in Single-Cell Transformer Representations
+year: 2026
+venue: arXiv
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: Automated hypothesis screening of the spectral geometry of scGPT gene representations across layers.
+links:
+  preprint: https://arxiv.org/abs/2602.22247
+  code: https://github.com/Biodyn-AI/topology-biomechinterp1
+evaluates:
+- scgpt
+findings: scGPT arranges genes along interpretable axes (subcellular location, protein interactions, regulator
+  versus target), with detail that changes across depth.
+interp_method:
+- geometry
+citation: Kendiukhov, Ihor. "Multi-Dimensional Spectral Geometry of Biological Knowledge in Single-Cell
+  Transformer Representations." arXiv preprint arXiv:2602.22247 (2026).
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2602.22247
+- https://github.com/Biodyn-AI/topology-biomechinterp1
+review_basis: paper
+reviewed: false

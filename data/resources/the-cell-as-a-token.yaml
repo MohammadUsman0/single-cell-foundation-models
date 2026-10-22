@@ -1,0 +1,23 @@
+id: the-cell-as-a-token
+kind: resource
+type: survey
+title: 'The cell as a token: high-dimensional geometry in language models and cell embeddings'
+year: 2025
+venue: Bioinformatics
+tags:
+- interpretability
+- foundation-model
+- scrna-seq
+key: Review of what the geometry of language-model embeddings teaches about cell embeddings from virtual
+  cell models.
+links:
+  paper: https://doi.org/10.1093/bioinformatics/btaf595
+  code: https://github.com/williamgilpin/celltoken
+citation: 'Gilpin, William. "The cell as a token: high-dimensional geometry in language models and cell
+  embeddings." Bioinformatics 41, no. 11 (2025).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1093/bioinformatics/btaf595
+- https://github.com/williamgilpin/celltoken
+review_basis: abstract
+reviewed: false
