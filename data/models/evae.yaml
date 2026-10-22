@@ -1,0 +1,38 @@
+id: evae
+kind: model
+name: ExpressionVAE
+aliases:
+- eVAE
+title: Elucidating the Design Space of Generative Models for Single-Cell Perturbation Prediction
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: scRNA-seq (perturbation)
+architecture: Discrete-latent VAE (FSQ) with perturbation-conditioned prior
+inputs:
+- expression
+- perturbation
+outputs:
+- generated-cells
+- perturbation-response
+architecture_family: vae
+perturbation_type:
+- genetic
+- cytokine
+key: Compresses each cell into a short sequence of discrete codes and learns a perturbation-conditioned
+  prior over them, isolating the gain to the discrete latent.
+links:
+  preprint: https://doi.org/10.64898/2026.06.15.732063
+  code: https://github.com/sanjukta7/sc-evae
+citation: Bhattacharya, Sanjukta, Christian Gensbigler, Shaamil Karim, and Jon Lees. "Elucidating the
+  Design Space of Generative Models for Single-Cell Perturbation Prediction." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.06.15.732063
+- https://github.com/sanjukta7/sc-evae
+review_basis: abstract
+reviewed: false

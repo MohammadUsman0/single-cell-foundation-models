@@ -1,0 +1,38 @@
+id: perturbation-response-decomposition
+kind: model
+name: Response decomposition
+title: Perturbation response decomposition enables biologically aligned generalization to unseen perturbations
+  and cellular contexts
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: scRNA-seq (CRISPRi Perturb-seq)
+architecture: Response decomposition with linear / MLP predictors
+inputs:
+- expression
+- perturbation
+- prior-network
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- combination
+generalization:
+- unseen-perturbation
+- unseen-cell-context
+key: Splits responses into global, perturbation, cell-line and interaction components; aligning priors
+  to each lets simple linear or MLP models beat complex ones.
+links:
+  preprint: https://doi.org/10.64898/2026.07.24.740459
+  code: https://github.com/xinyizhanglab/perturbation-decomposition
+citation: Molina, Alexis, and Xinyi Zhang. "Perturbation response decomposition enables biologically aligned
+  generalization to unseen perturbations and cellular contexts." bioRxiv (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.64898/2026.07.24.740459
+- https://github.com/xinyizhanglab/perturbation-decomposition
+review_basis: abstract
+reviewed: false

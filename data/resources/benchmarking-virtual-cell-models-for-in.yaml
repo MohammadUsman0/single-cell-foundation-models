@@ -16,6 +16,10 @@ evaluates:
 - state
 - sclambda
 - prnet
+- biolord
+- cpa
+- sams-vae
+- gears
 findings: Performance is often overestimated and drops sharply under stricter context shifts; models capture
   global trends but miss perturbation-specific effects.
 citation: Mao, Xinjie, Songming Zhang, Qianhong Wen, Xiangyu Wen, Kedu Jin, Hao Wu, Shuizhou Chen, Yuqiang

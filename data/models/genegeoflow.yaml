@@ -1,0 +1,41 @@
+id: genegeoflow
+kind: model
+name: GeneGeoFlow
+title: Control-Anchored Residual Flow Matching Conditioned on Gene Geometry for Virtual Cell Perturbation
+  Modeling
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- virtual-cell
+- scrna-seq
+modality: scRNA-seq (perturbation)
+architecture: Control-anchored residual flow matching with network-derived gene geometry
+inputs:
+- expression
+- perturbation
+- prior-network
+outputs:
+- perturbation-response
+architecture_family: flow-matching
+perturbation_type:
+- genetic
+- chemical
+- combination
+generalization:
+- unseen-perturbation
+key: Flow-matching model conditioned on gene geometry from GO and co-expression networks, without propagating
+  perturbation signals along the graph.
+links:
+  preprint: https://arxiv.org/abs/2608.06824
+code_status: none-found
+citation: Li, Quanquan, Yihe Chi, Liuyang Song, Hongbo Zhang, Jingyu Li, Xidong Xi, Conghua Wei et al.
+  "Control-Anchored Residual Flow Matching Conditioned on Gene Geometry for Virtual Cell Perturbation
+  Modeling." arXiv preprint arXiv:2608.06824 (2026).
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2608.06824
+review_basis: abstract
+reviewed: false

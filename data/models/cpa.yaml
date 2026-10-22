@@ -1,0 +1,42 @@
+id: cpa
+kind: model
+name: CPA
+aliases:
+- Compositional Perturbation Autoencoder
+title: Predicting cellular responses to complex perturbations in high-throughput screens
+year: 2023
+venue: Molecular Systems Biology
+category: perturbation
+tags:
+- perturbation
+- drug-response
+- scrna-seq
+- interpretability
+modality: scRNA-seq (perturbation)
+architecture: Compositional autoencoder
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- chemical
+- genetic
+- combination
+generalization:
+- unseen-perturbation
+- unseen-cell-context
+key: Autoencoder that composes drug, dose and cell-type effects additively in latent space to predict
+  unseen combinations and dosages.
+links:
+  paper: https://doi.org/10.15252/msb.202211517
+  code: https://github.com/theislab/cpa
+citation: 'Lotfollahi, Mohammad, Anna Klimovskaia Susmelj, Carlo De Donno, Leon Hetzel, Yuge Ji, Ignacio
+  L. Ibarra, Sanjay R. Srivatsan et al. "Predicting cellular responses to complex perturbations in high-throughput
+  screens." Molecular Systems Biology 19, no. 6 (2023): e11517.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.15252/msb.202211517
+- https://github.com/theislab/cpa
+review_basis: abstract
+reviewed: false

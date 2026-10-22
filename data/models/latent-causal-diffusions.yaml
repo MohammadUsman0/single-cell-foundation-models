@@ -1,0 +1,44 @@
+id: latent-causal-diffusions
+kind: model
+name: LCD
+aliases:
+- Latent causal diffusion
+- LCD-CLIPR
+title: Latent causal diffusions for single-cell perturbation modeling
+year: 2026
+venue: PNAS
+category: perturbation
+tags:
+- perturbation
+- gene-regulation
+- scrna-seq
+- interpretability
+modality: scRNA-seq (Perturb-seq)
+architecture: Stationary diffusion process with causal linearization (CLIPR)
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- gene-regulatory-network
+perturbation_type:
+- genetic
+- combination
+generalization:
+- unseen-perturbation
+key: Models expression as a noisy stationary diffusion to predict unseen perturbation combinations, and
+  reads approximate gene-gene causal effects out of the learned dynamics.
+links:
+  paper: https://doi.org/10.1073/pnas.2602630123
+  preprint: https://arxiv.org/abs/2601.15341
+  code: https://github.com/larslorch/lcd-clipr
+citation: Lorch, Lars, Jiaqi Zhang, Charlotte Bunne, Andreas Krause, Bernhard Schölkopf, and Caroline
+  Uhler. "Latent causal diffusions for single-cell perturbation modeling." Proceedings of the National
+  Academy of Sciences (2026).
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1073/pnas.2602630123
+- https://arxiv.org/abs/2601.15341
+- https://github.com/larslorch/lcd-clipr
+review_basis: abstract
+reviewed: false

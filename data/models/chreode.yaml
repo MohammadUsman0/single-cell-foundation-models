@@ -1,0 +1,39 @@
+id: chreode
+kind: model
+name: Chreode
+title: 'Chreode: A Cell World Model for One-Step Temporal Dynamics and Perturbation Prediction'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- virtual-cell
+- scrna-seq
+modality: scRNA-seq (time series, perturbation)
+architecture: scVI encoder + DiT dynamics backbone
+inputs:
+- expression
+- perturbation
+outputs:
+- expression-prediction
+- perturbation-response
+architecture_family: diffusion
+perturbation_type:
+- genetic
+key: One-step cell world model that predicts action-conditioned state transitions, pretrained on developmental
+  trajectories and transferable to perturbation prediction.
+links:
+  preprint: https://arxiv.org/abs/2605.28111
+  code: https://github.com/MufanQiu/Chreode
+model_card:
+  pretraining_cells: 2.4M (mouse embryonic atlas)
+citation: 'Qiu, Mufan, Genhui Zheng, Yinuo Xu, Ruichen Zhang, Ying Ding, Qi Long, and Tianlong Chen. "Chreode:
+  A Cell World Model for One-Step Temporal Dynamics and Perturbation Prediction." arXiv preprint arXiv:2605.28111
+  (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2605.28111
+- https://github.com/MufanQiu/Chreode
+review_basis: abstract
+reviewed: false

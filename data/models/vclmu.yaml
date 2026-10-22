@@ -1,0 +1,38 @@
+id: vclmu
+kind: model
+name: VCLMU
+title: 'VCLMU: Mechanism-Centric Virtual Cell World Modeling for Perturbation Response'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- virtual-cell
+- scrna-seq
+- interpretability
+modality: Bulk and single-cell perturbation profiles
+architecture: Latent Mechanism Units with stochastic transitions
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+generalization:
+- unseen-perturbation
+key: Virtual cell world model that represents cell state as latent mechanism units and treats a perturbation
+  as an action on them before decoding the response.
+links:
+  preprint: https://arxiv.org/abs/2610.04475
+code_status: none-found
+model_card:
+  pretraining_data: ~200K pseudo-bulk perturbation profiles, then single-cell perturbation data
+citation: 'Miao, Yuwei, Azim Dehghani Amirabad, Scott Oloff, Junzhou Huang, Tianyu Cui, and Rui Liao.
+  "VCLMU: Mechanism-Centric Virtual Cell World Modeling for Perturbation Response." arXiv preprint arXiv:2610.04475
+  (2026).'
+added: '2026-10-22'
+sources:
+- https://arxiv.org/abs/2610.04475
+review_basis: abstract
+reviewed: false
