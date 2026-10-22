@@ -1,0 +1,20 @@
+id: virtual-cell-current-perspectives-future-prospects
+kind: resource
+type: survey
+title: 'Virtual cell: Current perspectives and future prospects'
+year: 2026
+venue: Journal of International Medical Research
+tags:
+- virtual-cell
+key: Overview of virtual-cell technology, from classic simulation platforms to AI models, with applications
+  and challenges.
+links:
+  paper: https://doi.org/10.1177/03000605261425080
+citation: 'Li, Jinming, Hengheng Zhang, Weiwei Zhang, Na Li, Fuxing Zhao, and Guoshuang Shen. "Virtual
+  cell: Current perspectives and future prospects." Journal of International Medical Research 54, no.
+  5 (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1177/03000605261425080
+review_basis: abstract
+reviewed: false

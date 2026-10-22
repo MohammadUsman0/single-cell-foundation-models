@@ -1,0 +1,22 @@
+id: compositional-foundation-models-cell-biology
+kind: resource
+type: perspective
+title: From modality-specific to compositional foundation models for cell biology
+year: 2026
+venue: Cell Systems
+tags:
+- multi-omics
+- foundation-model
+- virtual-cell
+key: Argues for compositional, modular foundation models that join chromatin, protein, spatial, imaging
+  and text modalities on the way to agentic virtual cells.
+links:
+  paper: https://doi.org/10.1016/j.cels.2026.101534
+citation: 'Bahrami, Mojtaba, Till Richter, Niklas A. Schmacke, Aitana Egea Lavandera, and Fabian J. Theis.
+  "From modality-specific to compositional foundation models for cell biology." Cell Systems 17, no. 2
+  (2026): 101534.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1016/j.cels.2026.101534
+review_basis: abstract
+reviewed: false

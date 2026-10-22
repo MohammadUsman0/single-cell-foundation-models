@@ -1,0 +1,19 @@
+id: virtual-cells-raw-data-predictive-models
+kind: resource
+type: perspective
+title: ‘Virtual cells’ aim to turn raw data into predictive models of biology
+year: 2026
+venue: Nature
+tags:
+- virtual-cell
+key: Nature news feature on the push to build virtual cells that turn raw data into predictive models
+  of biology.
+links:
+  paper: https://doi.org/10.1038/d41586-026-01731-1
+citation: 'Eisenstein, Michael. "‘Virtual cells’ aim to turn raw data into predictive models of biology."
+  Nature 654, no. 8117 (2026): 286-288.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1038/d41586-026-01731-1
+review_basis: metadata
+reviewed: false

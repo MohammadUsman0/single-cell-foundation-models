@@ -1,0 +1,20 @@
+id: world-models-for-biomedicine
+kind: resource
+type: perspective
+title: World models for biomedicine
+year: 2026
+venue: Cell
+tags:
+- virtual-cell
+- perturbation
+key: Proposes world models for biomedicine that simulate biological trajectories under alternative interventions,
+  from molecules to patients.
+links:
+  paper: https://doi.org/10.1016/j.cell.2026.08.032
+citation: 'Noori, Ayush, Nic Fishman, Ada Fang, Lukas Fesser, and Marinka Zitnik. "World models for biomedicine."
+  Cell 189, no. 19 (2026): 5845-5869.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1016/j.cell.2026.08.032
+review_basis: abstract
+reviewed: false

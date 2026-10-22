@@ -3,7 +3,7 @@
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
   "models": 186,
-  "resources": 147,
+  "resources": 165,
   "venues": 19
  },
  "vocab": {
@@ -7736,6 +7736,30 @@
    "status": "published"
   },
   {
+   "id": "a-world-model-of-the-virtual-cell",
+   "kind": "resource",
+   "title": "A world model of the virtual cell",
+   "year": 2026,
+   "venue": "Cell",
+   "type": "perspective",
+   "tags": [
+    "virtual-cell",
+    "foundation-model"
+   ],
+   "key": "Proposes the virtual cell world model: a stateful system that simulates a cell's evolution under interventions, with an architecture, data and evaluation plan.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2026.08.042"
+   },
+   "citation": "Xing, Eric P., and Le Song. \"A world model of the virtual cell.\" Cell 189, no. 19 (2026): 5831-5844.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1016/j.cell.2026.08.042"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "a-unified-framework-enables-accessible-deployment",
    "kind": "resource",
    "title": "Accessible and reproducible deployment reveals the practical boundaries of single-cell foundation models",
@@ -7773,6 +7797,29 @@
    ],
    "review_basis": "paper",
    "status": "preprint"
+  },
+  {
+   "id": "artificial-intelligence-virtual-organoids",
+   "kind": "resource",
+   "title": "Artificial Intelligence Virtual Organoids (AIVOs)",
+   "year": 2026,
+   "venue": "Bioactive Materials",
+   "type": "survey",
+   "tags": [
+    "virtual-cell"
+   ],
+   "key": "Review defining AI virtual organoids: organoid-scale digital twins built from virtual cells, with architecture, construction, evaluation and applications.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.bioactmat.2025.12.030"
+   },
+   "citation": "Bai, Long, and Jiacan Su. \"Artificial Intelligence Virtual Organoids (AIVOs).\" Bioactive Materials 59 (2026): 45-68.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1016/j.bioactmat.2025.12.030"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
   },
   {
    "id": "artificial-intelligence-enabled-multi-scale-virtual",
@@ -8175,6 +8222,55 @@
    "status": "preprint"
   },
   {
+   "id": "fifteen-challenges-generative-ai-cell-biology",
+   "kind": "resource",
+   "title": "Fifteen challenges for generative AI applications to cell biology",
+   "year": 2026,
+   "venue": "Cell",
+   "type": "perspective",
+   "tags": [
+    "virtual-cell",
+    "generative"
+   ],
+   "key": "Fifteen grand challenges, modelled on Hilbert's problems, for generative AI in cell biology.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2026.07.004"
+   },
+   "citation": "Dupire, Leo, Aly A. Khan, Theofanis Karaletsos, Shana Kelley, Emma Lundberg, Jian Ma, Evan Paull et al. \"Fifteen challenges for generative AI applications to cell biology.\" Cell 189, no. 19 (2026): 5870-5892.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1016/j.cell.2026.07.004"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
+   "id": "foundation-models-single-cell-biology-review",
+   "kind": "resource",
+   "title": "Foundation Models for Single-cell Biology: A Review of Architectures, Benchmarks, and the Push toward Mechanistic Understanding",
+   "year": 2026,
+   "venue": "SSRN",
+   "type": "survey",
+   "tags": [
+    "foundation-model",
+    "scrna-seq",
+    "interpretability"
+   ],
+   "key": "Review of single-cell foundation model architectures and benchmarks, and of the move toward mechanistic understanding.",
+   "links": {
+    "preprint": "https://doi.org/10.2139/ssrn.6847538"
+   },
+   "citation": "Denvis, Olivia. \"Foundation Models for Single-cell Biology: A Review of Architectures, Benchmarks, and the Push toward Mechanistic Understanding.\" SSRN (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.2139/ssrn.6847538"
+   ],
+   "review_basis": "metadata",
+   "status": "preprint"
+  },
+  {
    "id": "foundation-models-improve-perturbation-response-prediction",
    "kind": "resource",
    "aliases": [
@@ -8227,6 +8323,31 @@
    "status": "published"
   },
   {
+   "id": "compositional-foundation-models-cell-biology",
+   "kind": "resource",
+   "title": "From modality-specific to compositional foundation models for cell biology",
+   "year": 2026,
+   "venue": "Cell Systems",
+   "type": "perspective",
+   "tags": [
+    "multi-omics",
+    "foundation-model",
+    "virtual-cell"
+   ],
+   "key": "Argues for compositional, modular foundation models that join chromatin, protein, spatial, imaging and text modalities on the way to agentic virtual cells.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cels.2026.101534"
+   },
+   "citation": "Bahrami, Mojtaba, Till Richter, Niklas A. Schmacke, Aitana Egea Lavandera, and Fabian J. Theis. \"From modality-specific to compositional foundation models for cell biology.\" Cell Systems 17, no. 2 (2026): 101534.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1016/j.cels.2026.101534"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "interpretation-extrapolation-and-perturbation-of-single",
    "kind": "resource",
    "title": "Interpretation, extrapolation and perturbation of single cells",
@@ -8266,6 +8387,36 @@
    ],
    "review_basis": "metadata",
    "status": "preprint"
+  },
+  {
+   "id": "llm4cell",
+   "kind": "resource",
+   "aliases": [
+    "LLM4Cell: A Survey of Large Language and Agentic Models for Single-Cell Biology"
+   ],
+   "title": "LLM4Cell: Taxonomy and Evaluation of LLM and Agentic Models for Single-Cell Biology",
+   "year": 2026,
+   "venue": "ACL",
+   "type": "survey",
+   "tags": [
+    "llm",
+    "agent",
+    "scrna-seq"
+   ],
+   "key": "LLM4Cell: survey and taxonomy of 58 language-model and agentic systems for single-cell biology, mapped to tasks, datasets and ten evaluation dimensions.",
+   "links": {
+    "paper": "https://doi.org/10.18653/v1/2026.acl-long.1942",
+    "preprint": "https://arxiv.org/abs/2510.07793"
+   },
+   "citation": "Dip, Sajib Acharjee, Adrika Zafor, Bikash Kumar Paul, Uddip Acharjee Shuvo, Muhit Islam Emon, Xuan Wang, and Liqing Zhang. \"LLM4Cell: Taxonomy and Evaluation of LLM and Agentic Models for Single-Cell Biology.\" In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (2026): 41913-41954.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.18653/v1/2026.acl-long.1942",
+    "https://arxiv.org/abs/2510.07793"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
   },
   {
    "id": "minimal-life-by-computer",
@@ -8325,6 +8476,30 @@
    ],
    "review_basis": "paper",
    "status": "preprint"
+  },
+  {
+   "id": "revisiting-the-blueprint-interpretable-virtual-cell",
+   "kind": "resource",
+   "title": "Revisiting the blueprint for an interpretable virtual cell",
+   "year": 2026,
+   "venue": "Nature Reviews Genetics",
+   "type": "perspective",
+   "tags": [
+    "virtual-cell",
+    "interpretability"
+   ],
+   "key": "Short piece revisiting systems biology as a blueprint for an interpretable virtual cell.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41576-026-00940-8"
+   },
+   "citation": "Wu, Angela Ruohao. \"Revisiting the blueprint for an interpretable virtual cell.\" Nature Reviews Genetics 27, no. 5 (2026): 347-347.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1038/s41576-026-00940-8"
+   ],
+   "review_basis": "metadata",
+   "status": "published"
   },
   {
    "id": "scaling-recipes-scrna-fms",
@@ -8678,6 +8853,78 @@
    "status": "preprint"
   },
   {
+   "id": "virtual-cell-challenge-2026",
+   "kind": "resource",
+   "title": "The 2026 Virtual Cell Challenge: predicting perturbation responses in cell contexts a model has never seen",
+   "year": 2026,
+   "venue": "Arc Institute",
+   "type": "perspective",
+   "tags": [
+    "virtual-cell",
+    "perturbation"
+   ],
+   "key": "Announces the 2026 Virtual Cell Challenge: a zero-shot task predicting CRISPRi knockdown responses in six cell lines never seen perturbed, with no training set released.",
+   "links": {
+    "project": "https://arcinstitute.org/news/virtual-cell-challenge-2026"
+   },
+   "citation": "Arc Institute. \"The 2026 Virtual Cell Challenge: predicting perturbation responses in cell contexts a model has never seen.\" Arc Institute News (August 20, 2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arcinstitute.org/news/virtual-cell-challenge-2026"
+   ],
+   "review_basis": "paper",
+   "status": "published"
+  },
+  {
+   "id": "landscape-of-single-cell-foundation-models",
+   "kind": "resource",
+   "title": "The Landscape of Single-Cell Foundation Models: Design Principles, Applications, and Open Challenges",
+   "year": 2026,
+   "venue": "Preprints.org",
+   "type": "survey",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Review of single-cell foundation models by data representation, architecture and objective, with applications and open challenges.",
+   "links": {
+    "preprint": "https://doi.org/10.20944/preprints202608.1166.v1"
+   },
+   "citation": "Jiang, Shiyu, Zhaoyu Fang, Yujie Zhang, Xuting Zhang, Jérémie Kalfon, Weixu Wang, Xi Fu et al.. \"The Landscape of Single-Cell Foundation Models: Design Principles, Applications, and Open Challenges.\" Preprints.org (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.20944/preprints202608.1166.v1"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
+   "id": "toward-trustworthy-virtual-cells",
+   "kind": "resource",
+   "title": "Toward trustworthy virtual cells: a roadmap for perturbation-resolved, context-aware, and experimentally validated cell models",
+   "year": 2026,
+   "venue": "Frontiers in Cell and Developmental Biology",
+   "type": "perspective",
+   "tags": [
+    "virtual-cell",
+    "perturbation"
+   ],
+   "key": "Roadmap for trustworthy virtual cells that are perturbation-resolved, context-aware and experimentally validated, with evaluation beyond held-out reconstruction.",
+   "links": {
+    "paper": "https://doi.org/10.3389/fcell.2026.1900624"
+   },
+   "citation": "Li, Wangshu, Aziz Ur Rehman Aziz, Bowen Xu, Jingshan Xu, Xiaohui Yu, Daqing Wang, and Chunfang Ha. \"Toward trustworthy virtual cells: a roadmap for perturbation-resolved, context-aware, and experimentally validated cell models.\" Frontiers in Cell and Developmental Biology 14 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.3389/fcell.2026.1900624"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "towards-autonomous-mechanistic-reasoning-in-virtual",
    "kind": "resource",
    "title": "Towards Autonomous Mechanistic Reasoning in Virtual Cells",
@@ -8792,6 +9039,31 @@
    "status": "preprint"
   },
   {
+   "id": "virtual-cell-construction-drug-discovery",
+   "kind": "resource",
+   "title": "Virtual cell construction for artificial intelligence‐driven drug discovery",
+   "year": 2026,
+   "venue": "British Journal of Pharmacology",
+   "type": "survey",
+   "tags": [
+    "virtual-cell",
+    "drug-response",
+    "perturbation"
+   ],
+   "key": "Review of virtual-cell modelling paradigms and how they support target prioritisation, drug response and combination design.",
+   "links": {
+    "paper": "https://doi.org/10.1111/bph.70585"
+   },
+   "citation": "Jia, Yuran, Xiao Xing, Haoyang Han, Yuansong Zhao, Shiyao Zhou, and Jingjing Chen. \"Virtual cell construction for artificial intelligence‐driven drug discovery.\" British Journal of Pharmacology (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1111/bph.70585"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "virtual-cell-models-inflate-effect-sizes",
    "kind": "resource",
    "aliases": [
@@ -8826,6 +9098,29 @@
     "https://openreview.net/forum?id=Nfc6WxZG2x"
    ],
    "review_basis": "metadata",
+   "status": "published"
+  },
+  {
+   "id": "virtual-cell-current-perspectives-future-prospects",
+   "kind": "resource",
+   "title": "Virtual cell: Current perspectives and future prospects",
+   "year": 2026,
+   "venue": "Journal of International Medical Research",
+   "type": "survey",
+   "tags": [
+    "virtual-cell"
+   ],
+   "key": "Overview of virtual-cell technology, from classic simulation platforms to AI models, with applications and challenges.",
+   "links": {
+    "paper": "https://doi.org/10.1177/03000605261425080"
+   },
+   "citation": "Li, Jinming, Hengheng Zhang, Weiwei Zhang, Na Li, Fuxing Zhao, and Guoshuang Shen. \"Virtual cell: Current perspectives and future prospects.\" Journal of International Medical Research 54, no. 5 (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1177/03000605261425080"
+   ],
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -8880,6 +9175,30 @@
    "status": "preprint"
   },
   {
+   "id": "sparse-autoencoders-biological-fms-review",
+   "kind": "resource",
+   "title": "What Do Biological Foundation Models Compute? Sparse Autoencoders from Feature Recovery to Mechanistic Interpretability",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "type": "survey",
+   "tags": [
+    "interpretability",
+    "foundation-model"
+   ],
+   "key": "Systematic review of sparse autoencoders across protein, genomic, pathology and single-cell foundation models, and how their features are validated.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.03.04.709491"
+   },
+   "citation": "Orlov, Alexey V., Yulia V. Makus, German A. Ashniev, Natalia N. Orlova, and Petr I. Nikitin. \"What Do Biological Foundation Models Compute? Sparse Autoencoders from Feature Recovery to Mechanistic Interpretability.\" bioRxiv (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.64898/2026.03.04.709491"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint"
+  },
+  {
    "id": "what-makes-a-representation-good-for",
    "kind": "resource",
    "title": "What Makes a Representation Good for Single-Cell Perturbation Prediction?",
@@ -8899,6 +9218,30 @@
     "https://arxiv.org/abs/2605.19343"
    ],
    "review_basis": "metadata",
+   "status": "preprint"
+  },
+  {
+   "id": "what-makes-a-virtual-cell-a-world-model",
+   "kind": "resource",
+   "title": "What Makes a Virtual Cell a World Model? Three Gaps, Three Experiments, and a Roadmap",
+   "year": 2026,
+   "venue": "Research Square",
+   "type": "perspective",
+   "tags": [
+    "virtual-cell",
+    "foundation-model"
+   ],
+   "key": "Defines virtual cell world models through three gaps (dynamics, intervention, scale), backs them with three experiments and gives a capability ladder.",
+   "links": {
+    "preprint": "https://doi.org/10.21203/rs.3.rs-10404367/v1"
+   },
+   "citation": "Yu, Chang, Jingbo Zhou, Cheng Tan, Stan Z. Li, Xiaodong Liu, Xiaoming Zhang, Zhaoxiang Zhang et al. \"What Makes a Virtual Cell a World Model? Three Gaps, Three Experiments, and a Roadmap.\" Research Square (2026).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.21203/rs.3.rs-10404367/v1"
+   ],
+   "review_basis": "abstract",
    "status": "preprint"
   },
   {
@@ -8961,6 +9304,53 @@
    ],
    "review_basis": "abstract",
    "status": "preprint"
+  },
+  {
+   "id": "world-models-for-biomedicine",
+   "kind": "resource",
+   "title": "World models for biomedicine",
+   "year": 2026,
+   "venue": "Cell",
+   "type": "perspective",
+   "tags": [
+    "virtual-cell",
+    "perturbation"
+   ],
+   "key": "Proposes world models for biomedicine that simulate biological trajectories under alternative interventions, from molecules to patients.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2026.08.032"
+   },
+   "citation": "Noori, Ayush, Nic Fishman, Ada Fang, Lukas Fesser, and Marinka Zitnik. \"World models for biomedicine.\" Cell 189, no. 19 (2026): 5845-5869.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1016/j.cell.2026.08.032"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
+   "id": "virtual-cells-raw-data-predictive-models",
+   "kind": "resource",
+   "title": "‘Virtual cells’ aim to turn raw data into predictive models of biology",
+   "year": 2026,
+   "venue": "Nature",
+   "type": "perspective",
+   "tags": [
+    "virtual-cell"
+   ],
+   "key": "Nature news feature on the push to build virtual cells that turn raw data into predictive models of biology.",
+   "links": {
+    "paper": "https://doi.org/10.1038/d41586-026-01731-1"
+   },
+   "citation": "Eisenstein, Michael. \"‘Virtual cells’ aim to turn raw data into predictive models of biology.\" Nature 654, no. 8117 (2026): 286-288.",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://doi.org/10.1038/d41586-026-01731-1"
+   ],
+   "review_basis": "metadata",
+   "status": "published"
   },
   {
    "id": "periscope",
@@ -9424,6 +9814,33 @@
    "added": "2026-06-02",
    "sources": [],
    "review_basis": "metadata",
+   "status": "published"
+  },
+  {
+   "id": "six-recommendations-usable-scfms",
+   "kind": "resource",
+   "title": "Deploying User-Friendly Software: Six Recommendations to Make Single-Cell Foundation Models More Usable For Scientific Discovery",
+   "year": 2025,
+   "venue": "ICML",
+   "venue_detail": "CODEML Workshop",
+   "type": "perspective",
+   "tags": [
+    "foundation-model",
+    "scrna-seq"
+   ],
+   "key": "Finds single-cell foundation models hard to install, run and understand, and gives six recommendations for packaging, documentation and maintenance.",
+   "links": {
+    "paper": "https://openreview.net/forum?id=m6AUiyAWr0",
+    "project": "https://icml.cc/virtual/2025/48160"
+   },
+   "citation": "Ando, Izumi, Hassaan Maan, and Kieran R. Campbell. \"Deploying User-Friendly Software: Six Recommendations to Make Single-Cell Foundation Models More Usable For Scientific Discovery.\" In Championing Open-source DEvelopment in ML Workshop at ICML (2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://icml.cc/virtual/2025/48160",
+    "https://openreview.net/forum?id=m6AUiyAWr0"
+   ],
+   "review_basis": "abstract",
    "status": "published"
   },
   {
@@ -10324,6 +10741,30 @@
     "https://doi.org/10.1186/s40779-025-00608-0"
    ],
    "review_basis": "metadata",
+   "status": "published"
+  },
+  {
+   "id": "virtual-cell-challenge-2025-wrap-up",
+   "kind": "resource",
+   "title": "Virtual Cell Challenge 2025 Wrap-Up: Winners and Reflections",
+   "year": 2025,
+   "venue": "Arc Institute",
+   "type": "perspective",
+   "tags": [
+    "virtual-cell",
+    "perturbation"
+   ],
+   "key": "Arc Institute's report on the first Virtual Cell Challenge: participation, the winning models, a generalist prize and lessons for the next round.",
+   "links": {
+    "project": "https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up"
+   },
+   "citation": "Arc Institute. \"Virtual Cell Challenge 2025 Wrap-Up: Winners and Reflections.\" Arc Institute News (December 6, 2025).",
+   "reviewed": false,
+   "added": "2026-10-22",
+   "sources": [
+    "https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up"
+   ],
+   "review_basis": "paper",
    "status": "published"
   },
   {

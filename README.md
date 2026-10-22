@@ -11,7 +11,7 @@
 
 For each model, the catalogue aims to record what it is, whether you can use it (code, weights, license) and what benchmarks found about it. Titles, years, venues and links are verified against Crossref, OpenAlex, arXiv and bioRxiv with [`scripts/verify.py`](scripts/verify.py).
 
-**186 models** (154 with code) · **147 resources** · **19 venues** · updated 2026-10-22
+**186 models** (154 with code) · **165 resources** · **19 venues** · updated 2026-10-22
 
 Each entry: **name** · title (**venue year**) · tags · links. Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).
 
@@ -42,8 +42,8 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 - [Interpretability & Mechanistic Analysis](#interpretability--mechanistic-analysis) (15)
 - [Datasets & Atlases](#datasets--atlases) (39)
 - [Tools & Software](#tools--software) (7)
-- [Surveys](#surveys) (9)
-- [Perspectives & Commentary](#perspectives--commentary) (18)
+- [Surveys](#surveys) (16)
+- [Perspectives & Commentary](#perspectives--commentary) (29)
 - [Other References](#other-references) (7)
 - [Where to Publish & Track New Work](#where-to-publish--track-new-work)
 - [Related Lists](#related-lists)
@@ -428,6 +428,13 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 ## Surveys
 
+- Artificial Intelligence Virtual Organoids (AIVOs) (**Bioactive Materials 2026**) · `Virtual cell` · [[paper](https://doi.org/10.1016/j.bioactmat.2025.12.030)]
+- Foundation Models for Single-cell Biology: A Review of Architectures, Benchmarks, and the Push toward Mechanistic Understanding (**SSRN 2026**) · `Foundation model` `scRNA-seq` `Interpretability`
+- LLM4Cell: Taxonomy and Evaluation of LLM and Agentic Models for Single-Cell Biology (**ACL 2026**) · `LLM` `Agent` `scRNA-seq` · [[paper](https://doi.org/10.18653/v1/2026.acl-long.1942)]
+- The Landscape of Single-Cell Foundation Models: Design Principles, Applications, and Open Challenges (**Preprints.org 2026**) · `Foundation model` `scRNA-seq`
+- Virtual cell construction for artificial intelligence‐driven drug discovery (**British Journal of Pharmacology 2026**) · `Virtual cell` `Drug response` `Perturbation` · [[paper](https://doi.org/10.1111/bph.70585)]
+- Virtual cell: Current perspectives and future prospects (**Journal of International Medical Research 2026**) · `Virtual cell` · [[paper](https://doi.org/10.1177/03000605261425080)]
+- What Do Biological Foundation Models Compute? Sparse Autoencoders from Feature Recovery to Mechanistic Interpretability (**bioRxiv 2026**) · `Interpretability` `Foundation model`
 - A survey on foundation language models for single-cell biology (**ACL 2025**) · `Text` · [[paper](https://doi.org/10.18653/v1/2025.acl-long.26)]
 - AI-driven virtual cell models in preclinical research: technical pathways, validation mechanisms, and clinical translation potential (**npj Digital Medicine 2025**) · `Perturbation` `Virtual cell` · [[paper](https://doi.org/10.1038/s41746-025-02198-6)]
 - Foundation models in bioinformatics (**National Science Review 2025**) · `Foundation model` · [[paper](https://doi.org/10.1093/nsr/nwaf028)]
@@ -440,15 +447,26 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 ## Perspectives & Commentary
 
+- A world model of the virtual cell (**Cell 2026**) · `Virtual cell` `Foundation model` · [[paper](https://doi.org/10.1016/j.cell.2026.08.042)]
+- Fifteen challenges for generative AI applications to cell biology (**Cell 2026**) · `Virtual cell` `Generative` · [[paper](https://doi.org/10.1016/j.cell.2026.07.004)]
 - From Equations to Agents: The Artificial Intelligence Virtual Cell Reshaping Precision Oncology (**The Innovation Oncology 2026**) · `Virtual cell` `Agent` · [[paper](https://doi.org/10.59717/j.xinn-oncol.2026.100002)]
+- From modality-specific to compositional foundation models for cell biology (**Cell Systems 2026**) · `Multi-omics` `Foundation model` `Virtual cell` · [[paper](https://doi.org/10.1016/j.cels.2026.101534)]
 - Interpretation, extrapolation and perturbation of single cells (**Nature Reviews Genetics 2026**) · `Perturbation` · [[paper](https://www.nature.com/articles/s41576-025-00920-4)]
 - Minimal life by computer (**Nature Biotechnology 2026**) · `Virtual cell` · [[paper](https://doi.org/10.1038/s41587-026-03110-7)]
+- Revisiting the blueprint for an interpretable virtual cell (**Nature Reviews Genetics 2026**) · `Virtual cell` `Interpretability` · [[paper](https://doi.org/10.1038/s41576-026-00940-8)]
+- The 2026 Virtual Cell Challenge: predicting perturbation responses in cell contexts a model has never seen (**Arc Institute 2026**) · `Virtual cell` `Perturbation` · [[project](https://arcinstitute.org/news/virtual-cell-challenge-2026)]
+- Toward trustworthy virtual cells: a roadmap for perturbation-resolved, context-aware, and experimentally validated cell models (**Frontiers in Cell and Developmental Biology 2026**) · `Virtual cell` `Perturbation` · [[paper](https://doi.org/10.3389/fcell.2026.1900624)]
+- What Makes a Virtual Cell a World Model? Three Gaps, Three Experiments, and a Roadmap (**Research Square 2026**) · `Virtual cell` `Foundation model`
+- World models for biomedicine (**Cell 2026**) · `Virtual cell` `Perturbation` · [[paper](https://doi.org/10.1016/j.cell.2026.08.032)]
+- ‘Virtual cells’ aim to turn raw data into predictive models of biology (**Nature 2026**) · `Virtual cell` · [[paper](https://doi.org/10.1038/d41586-026-01731-1)]
 - Artificial Intelligence Virtual Cells: From Measurements to Decisions across Modality, Scale, Dynamics, and Evaluation (**arXiv 2025**) · `Virtual cell` · [[paper](https://arxiv.org/abs/2510.12498)]
 - Build the virtual cell with artificial intelligence: a perspective for cancer research (**Military Medical Research 2025**) · `Virtual cell` · [[paper](https://doi.org/10.1186/s40779-025-00591-6)]
+- Deploying User-Friendly Software: Six Recommendations to Make Single-Cell Foundation Models More Usable For Scientific Discovery (**ICML 2025**, CODEML Workshop) · `Foundation model` `scRNA-seq` · [[paper](https://openreview.net/forum?id=m6AUiyAWr0)] [[project](https://icml.cc/virtual/2025/48160)]
 - Grow AI virtual cells: three data pillars and closed-loop learning (**Cell Research 2025**) · `Cross-species` `Virtual cell` · [[paper](https://doi.org/10.1038/s41422-025-01101-y)]
 - Overcoming barriers to the wide adoption of single-cell large language models in biomedical research (**Nature Biotechnology 2025**) · `Text` · [[paper](https://www.nature.com/articles/s41587-025-02846-y)]
 - Towards multimodal foundation models in molecular cell biology (**Nature 2025**) · `Multi-omics` · [[paper](https://www.nature.com/articles/s41586-025-08710-y)]
 - Unresolved questions in the application of artificial intelligence virtual cells for cancer research (**Military Medical Research 2025**) · `Virtual cell` · [[paper](https://doi.org/10.1186/s40779-025-00608-0)]
+- Virtual Cell Challenge 2025 Wrap-Up: Winners and Reflections (**Arc Institute 2025**) · `Virtual cell` `Perturbation` · [[project](https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up)]
 - Virtual Cells as Causal World Models: A Perspective on Evaluation (**Cell 2025**) · `Virtual cell`
 - Virtual Cells for Predictive Immunotherapy (**Nature Biotechnology 2025**, Comment) · `Perturbation` `Virtual cell` · [[paper](https://www.nature.com/articles/s41587-025-02583-2)]
 - Virtual Cells: From Conceptual Frameworks to Biomedical Applications (**arXiv 2025**) · `Virtual cell` · [[paper](https://arxiv.org/abs/2509.18220)]

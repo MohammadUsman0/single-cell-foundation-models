@@ -1,0 +1,20 @@
+id: a-world-model-of-the-virtual-cell
+kind: resource
+type: perspective
+title: A world model of the virtual cell
+year: 2026
+venue: Cell
+tags:
+- virtual-cell
+- foundation-model
+key: 'Proposes the virtual cell world model: a stateful system that simulates a cell''s evolution under
+  interventions, with an architecture, data and evaluation plan.'
+links:
+  paper: https://doi.org/10.1016/j.cell.2026.08.042
+citation: 'Xing, Eric P., and Le Song. "A world model of the virtual cell." Cell 189, no. 19 (2026):
+  5831-5844.'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.1016/j.cell.2026.08.042
+review_basis: abstract
+reviewed: false

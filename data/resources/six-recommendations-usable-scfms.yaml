@@ -1,0 +1,25 @@
+id: six-recommendations-usable-scfms
+kind: resource
+type: perspective
+title: 'Deploying User-Friendly Software: Six Recommendations to Make Single-Cell Foundation Models More
+  Usable For Scientific Discovery'
+year: 2025
+venue: ICML
+venue_detail: CODEML Workshop
+tags:
+- foundation-model
+- scrna-seq
+key: Finds single-cell foundation models hard to install, run and understand, and gives six recommendations
+  for packaging, documentation and maintenance.
+links:
+  paper: https://openreview.net/forum?id=m6AUiyAWr0
+  project: https://icml.cc/virtual/2025/48160
+citation: 'Ando, Izumi, Hassaan Maan, and Kieran R. Campbell. "Deploying User-Friendly Software: Six Recommendations
+  to Make Single-Cell Foundation Models More Usable For Scientific Discovery." In Championing Open-source
+  DEvelopment in ML Workshop at ICML (2025).'
+added: '2026-10-22'
+sources:
+- https://icml.cc/virtual/2025/48160
+- https://openreview.net/forum?id=m6AUiyAWr0
+review_basis: abstract
+reviewed: false

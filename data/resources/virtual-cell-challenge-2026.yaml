@@ -1,0 +1,21 @@
+id: virtual-cell-challenge-2026
+kind: resource
+type: perspective
+title: 'The 2026 Virtual Cell Challenge: predicting perturbation responses in cell contexts a model has
+  never seen'
+year: 2026
+venue: Arc Institute
+tags:
+- virtual-cell
+- perturbation
+key: 'Announces the 2026 Virtual Cell Challenge: a zero-shot task predicting CRISPRi knockdown responses
+  in six cell lines never seen perturbed, with no training set released.'
+links:
+  project: https://arcinstitute.org/news/virtual-cell-challenge-2026
+citation: 'Arc Institute. "The 2026 Virtual Cell Challenge: predicting perturbation responses in cell
+  contexts a model has never seen." Arc Institute News (August 20, 2026).'
+added: '2026-10-22'
+sources:
+- https://arcinstitute.org/news/virtual-cell-challenge-2026
+review_basis: paper
+reviewed: false

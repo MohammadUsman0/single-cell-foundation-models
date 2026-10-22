@@ -1,0 +1,22 @@
+id: toward-trustworthy-virtual-cells
+kind: resource
+type: perspective
+title: 'Toward trustworthy virtual cells: a roadmap for perturbation-resolved, context-aware, and experimentally
+  validated cell models'
+year: 2026
+venue: Frontiers in Cell and Developmental Biology
+tags:
+- virtual-cell
+- perturbation
+key: Roadmap for trustworthy virtual cells that are perturbation-resolved, context-aware and experimentally
+  validated, with evaluation beyond held-out reconstruction.
+links:
+  paper: https://doi.org/10.3389/fcell.2026.1900624
+citation: 'Li, Wangshu, Aziz Ur Rehman Aziz, Bowen Xu, Jingshan Xu, Xiaohui Yu, Daqing Wang, and Chunfang
+  Ha. "Toward trustworthy virtual cells: a roadmap for perturbation-resolved, context-aware, and experimentally
+  validated cell models." Frontiers in Cell and Developmental Biology 14 (2026).'
+added: '2026-10-22'
+sources:
+- https://doi.org/10.3389/fcell.2026.1900624
+review_basis: abstract
+reviewed: false
