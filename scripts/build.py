@@ -74,6 +74,21 @@ def entry_line(e, tag_labels):
     return "- " + " · ".join(parts)
 
 
+def latest_additions(models, resources, dates=5):
+    """README lines: how many entries were added on each recent date (from each entry's `added` field)."""
+    by_date = defaultdict(list)
+    for e in models + resources:
+        if e.get("added"):
+            by_date[str(e["added"])].append(e)
+    if not by_date:
+        return []
+    L = ["## Latest Additions", "", "| Added | Models | Resources |", "|---|---|---|"]
+    for d in sorted(by_date, reverse=True)[:dates]:
+        es = by_date[d]
+        L.append(f"| {d} | {sum(e['kind'] == 'model' for e in es)} | {sum(e['kind'] == 'resource' for e in es)} |")
+    return L + ["", "Every entry records the date it was added (`added`), also in [`exports/`](exports/).", ""]
+
+
 def build_readme(models, resources, venues, vocab):
     tag_labels = {t["id"]: t["label"] for t in vocab["tags"]}
     by_cat = defaultdict(list)
@@ -96,6 +111,12 @@ def build_readme(models, resources, venues, vocab):
         "# Awesome Single-Cell Foundation Models & Virtual Cell Modelling "
         "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
         "",
+        f"[![Catalogue](https://img.shields.io/badge/catalogue-browse-0B6E99?style=flat-square)]({site_url()}) "
+        f"[![Last commit](https://img.shields.io/github/last-commit/{REPO}?style=flat-square&label=updated)]"
+        f"(https://github.com/{REPO}/commits/main) "
+        f"[![Stars](https://img.shields.io/github/stars/{REPO}?style=flat-square)](https://github.com/{REPO}/stargazers) "
+        "[![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)](LICENSE)",
+        "",
         "> A curated list of foundation models for single-cell biology and AI virtual-cell / world models, "
         "plus the benchmarks, datasets, tools and reviews around them.",
         "",
@@ -117,6 +138,7 @@ def build_readme(models, resources, venues, vocab):
         "> This README is generated from [`data/`](data/). Don't edit it by hand — see "
         "[CONTRIBUTING.md](CONTRIBUTING.md).",
         "",
+        *latest_additions(models, resources),
         "## Contents",
         "",
         "**Models**",

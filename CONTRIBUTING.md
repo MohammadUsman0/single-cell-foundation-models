@@ -4,15 +4,42 @@ This is a **generated** awesome-list. The source of truth is the YAML files in
 [`data/`](data/). `README.md`, `docs/data.json` and `exports/` are built from
 them, so never edit those by hand — your change would be overwritten.
 
-Not comfortable with YAML? Just [open an issue](../../issues/new) with the paper
-link and we'll add it.
+Not comfortable with YAML? Use the [**Suggest a paper**](../../issues/new/choose) form
+with the paper link and we'll add it.
+
+## What belongs here
+
+**In scope**
+
+- **Foundation models** pretrained at scale on single-cell, spatial, multi-omic, epigenomic,
+  proteomic or cell-imaging data, and sequence-to-expression models at single-cell resolution.
+- **Virtual-cell, world and perturbation-response models**, including established perturbation
+  baselines (e.g. GEARS, CPA) that benchmarks routinely compare against.
+- **Agents and LLM systems** built for single-cell or virtual-cell analysis.
+- **Benchmarks and evaluations** of these models, and **interpretability studies** that analyse
+  what they learn.
+- **Datasets, tools, surveys and perspectives** that the above build on.
+
+**Bar for inclusion**
+
+- Peer-reviewed (journal or conference), **or** a preprint with public code. Preprints without
+  code are tracked and added once code or a published version appears.
+- A verifiable source: a DOI, arXiv/bioRxiv id or an official page. Metadata is checked against
+  Crossref, OpenAlex, arXiv or bioRxiv before an entry is merged.
+- Code links must be the paper's own repository (checked against the repository README).
+
+**Out of scope**
+
+- Tools whose only purpose is LLM-based cell-type annotation.
+- Models that predict spatial expression from histology without being foundation models.
+- Application papers that use an existing model without changing it.
 
 ## Layout
 
 ```
 data/
 ├── models/<id>.yaml       one file per model
-├── resources/<id>.yaml    one file per benchmark, dataset, tool, survey, perspective
+├── resources/<id>.yaml    one file per benchmark, interpretability study, dataset, tool, survey, perspective
 ├── venues.yaml            conferences, journals and workshops
 └── vocab.yaml             allowed categories, resource types, tags and model-card fields
 ```

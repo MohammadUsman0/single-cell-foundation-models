@@ -5,6 +5,8 @@
 
 # Awesome Single-Cell Foundation Models & Virtual Cell Modelling [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+[![Catalogue](https://img.shields.io/badge/catalogue-browse-0B6E99?style=flat-square)](https://mohammadusman0.github.io/single-cell-foundation-models/) [![Last commit](https://img.shields.io/github/last-commit/MohammadUsman0/single-cell-foundation-models?style=flat-square&label=updated)](https://github.com/MohammadUsman0/single-cell-foundation-models/commits/main) [![Stars](https://img.shields.io/github/stars/MohammadUsman0/single-cell-foundation-models?style=flat-square)](https://github.com/MohammadUsman0/single-cell-foundation-models/stargazers) [![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)](LICENSE)
+
 > A curated list of foundation models for single-cell biology and AI virtual-cell / world models, plus the benchmarks, datasets, tools and reviews around them.
 
 **[Browse the catalogue →](https://mohammadusman0.github.io/single-cell-foundation-models/)** search, filter and compare models; every model has its own page.
@@ -17,6 +19,15 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 > [!NOTE]
 > This README is generated from [`data/`](data/). Don't edit it by hand — see [CONTRIBUTING.md](CONTRIBUTING.md).
+
+## Latest Additions
+
+| Added | Models | Resources |
+|---|---|---|
+| 2026-10-22 | 102 | 100 |
+| 2026-06-02 | 170 | 126 |
+
+Every entry records the date it was added (`added`), also in [`exports/`](exports/).
 
 ## Contents
 
