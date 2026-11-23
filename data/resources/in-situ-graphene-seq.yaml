@@ -1,0 +1,23 @@
+id: in-situ-graphene-seq
+kind: resource
+type: dataset
+title: 'In situ graphene-seq: spatial transcriptomics and chronic electrophysiological characterization
+  of tissue microenvironments'
+year: 2026
+venue: Nature Communications
+tags:
+- spatial
+key: 'In situ graphene-seq: assay combining chronic electrophysiology with spatial transcriptomics in
+  the same tissue.'
+links:
+  paper: https://doi.org/10.1038/s41467-026-73883-7
+  code: https://github.com/LiuLab-Bioelectronics-Harvard/Graphene_seq
+citation: 'Lee, Jaeyong, Wenbo Wang, Qiang Li, Zuwan Lin, Ren Liu, Zefang Tang, Junya Aoyama et al. "In
+  situ graphene-seq: spatial transcriptomics and chronic electrophysiological characterization of tissue
+  microenvironments." Nature Communications 17, no. 1 (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41467-026-73883-7
+- https://github.com/LiuLab-Bioelectronics-Harvard/Graphene_seq
+review_basis: abstract
+reviewed: false

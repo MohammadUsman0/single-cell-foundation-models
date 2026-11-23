@@ -1,0 +1,21 @@
+id: emerging-frontiers-ai-single-cell-genomics
+kind: resource
+type: survey
+title: Emerging frontiers for AI in single-cell genomics
+year: 2026
+venue: Molecular Cell
+tags:
+- scrna-seq
+- foundation-model
+- virtual-cell
+key: Review of single-cell embedding and foundation models, multiome regulatory genomics and virtual-cell
+  models learned from Perturb-seq.
+links:
+  paper: https://doi.org/10.1016/j.molcel.2026.09.014
+citation: 'Mitra, Sneha, Jiaxin Li, and Christina S. Leslie. "Emerging frontiers for AI in single-cell
+  genomics." Molecular Cell 86, no. 20 (2026): 4131-4148.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.molcel.2026.09.014
+review_basis: abstract
+reviewed: false

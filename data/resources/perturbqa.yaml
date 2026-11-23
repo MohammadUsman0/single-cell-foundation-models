@@ -1,0 +1,27 @@
+id: perturbqa
+kind: resource
+type: benchmark
+title: Contextualizing biological perturbation experiments through language
+aliases:
+- PerturbQA
+year: 2025
+venue: arXiv
+tags:
+- perturbation
+- llm
+key: 'PerturbQA: language benchmark of perturbation-experiment questions, with a simple retrieve-and-answer
+  LLM baseline (Summer).'
+links:
+  preprint: https://arxiv.org/abs/2502.21290
+  code: https://github.com/Genentech/PerturbQA
+findings: Current perturbation models and standard LLM reasoning perform poorly; the simple domain-informed
+  baseline matches or beats them.
+citation: Wu, Menghua, Russell Littman, Jacob Levine, Lin Qiu, Tommaso Biancalani, David Richmond, and
+  Jan-Christian Huetter. "Contextualizing biological perturbation experiments through language." arXiv
+  preprint arXiv:2502.21290 (2025).
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2502.21290
+- https://github.com/Genentech/PerturbQA
+review_basis: abstract
+reviewed: false

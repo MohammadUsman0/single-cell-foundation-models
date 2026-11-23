@@ -1,0 +1,23 @@
+id: users-roadmap-fms-single-cell-spatial
+kind: resource
+type: survey
+title: A User’s Roadmap to Foundation Models on Single-Cell and Spatial-Omics – Cell Type and Lineage
+  applications
+year: 2026
+venue: National Science Review
+tags:
+- scrna-seq
+- spatial
+- foundation-model
+key: User-oriented roadmap to foundation models for single-cell and spatial omics, focused on cell type
+  and lineage applications.
+links:
+  paper: https://doi.org/10.1093/nsr/nwag371
+citation: Yang, Qixing, Yijin Zhou, Huanlin Zhang, Mingyu Cai, Jie Hong, Kai Li, Xuping Xie et al. "A
+  User’s Roadmap to Foundation Models on Single-Cell and Spatial-Omics – Cell Type and Lineage applications."
+  National Science Review (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1093/nsr/nwag371
+review_basis: metadata
+reviewed: false

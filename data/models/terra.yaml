@@ -1,0 +1,36 @@
+id: terra
+kind: model
+name: TERRA
+title: Multi-scale modeling of human tissues from spatial transcriptomics with TERRA
+year: 2026
+venue: bioRxiv
+category: spatial
+tags:
+- spatial
+- foundation-model
+- perturbation
+modality: Spatial transcriptomics (human)
+architecture: Multi-scale spatial foundation model
+inputs:
+- expression
+- spatial-coordinates
+outputs:
+- cell-embedding
+- spatial-domain
+- perturbation-response
+key: Spatial foundation model pretrained on 112 million human cells that gives cell-, niche- and tissue-level
+  embeddings and predicts tissue responses in silico.
+links:
+  preprint: https://doi.org/10.64898/2026.07.29.741565
+  code: https://github.com/Lotfollahi-lab/terra
+model_card:
+  pretraining_cells: 112M
+citation: Birk, Sebastian, Mohammad Vali Sanian, Amirhossein Vahidi, Samuel Ogden, Daniyal J. Jafree,
+  Adib Miraki Feriz, Carlo Leonardi et al. "Multi-scale modeling of human tissues from spatial transcriptomics
+  with TERRA." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.07.29.741565
+- https://github.com/Lotfollahi-lab/terra
+review_basis: abstract
+reviewed: false

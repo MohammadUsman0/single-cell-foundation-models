@@ -1,0 +1,37 @@
+id: crisp
+kind: model
+name: CRISP
+title: Predicting drug responses of unseen cell types through transfer learning with foundation models
+year: 2025
+venue: Nature Computational Science
+category: perturbation
+tags:
+- perturbation
+- drug-response
+- foundation-model
+modality: scRNA-seq (drug perturbation)
+architecture: Transfer learning on foundation-model embeddings
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- chemical
+generalization:
+- unseen-cell-context
+- zero-shot
+key: Predicts drug responses in cell types never seen during training by transferring foundation-model
+  representations.
+links:
+  paper: https://doi.org/10.1038/s43588-025-00887-6
+  code: https://github.com/ml4bio/CRISP
+citation: 'Wang, Yixuan, Xinyuan Liu, Yimin Fan, Binghui Xie, James Cheng, Kam Chung Wong, Peter Cheung
+  et al. "Predicting drug responses of unseen cell types through transfer learning with foundation models."
+  Nature Computational Science 6, no. 1 (2025): 39-52.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s43588-025-00887-6
+- https://github.com/ml4bio/CRISP
+review_basis: abstract
+reviewed: false

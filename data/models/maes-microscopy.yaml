@@ -1,0 +1,38 @@
+id: maes-microscopy
+kind: model
+name: MAEs for microscopy
+aliases:
+- Phenom-1
+title: Masked Autoencoders for Microscopy are Scalable Learners of Cellular Biology
+year: 2024
+venue: CVPR
+category: morphology
+tags:
+- imaging
+- foundation-model
+- perturbation
+modality: Cell microscopy (Cell Painting, perturbation screens)
+architecture: Masked autoencoder vision transformers
+inputs:
+- cell-image
+outputs:
+- cell-embedding
+architecture_family: transformer-encoder
+key: Shows that masked-autoencoder vision transformers scale better than weakly supervised classifiers
+  for featurising large microscopy perturbation screens.
+links:
+  paper: https://doi.org/10.1109/CVPR52733.2024.01117
+  preprint: https://arxiv.org/abs/2404.10242
+  code: https://github.com/recursionpharma/maes_microscopy
+model_card:
+  pretraining_data: RPI-93M microscopy images
+citation: 'Kraus, Oren, Kian Kenyon-Dean, Saber Saberian, Maryam Fallah, Peter McLean, Jess Leung, Vasudev
+  Sharma et al. "Masked Autoencoders for Microscopy are Scalable Learners of Cellular Biology." In Proceedings
+  of 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024): 11757-11768.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1109/CVPR52733.2024.01117
+- https://arxiv.org/abs/2404.10242
+- https://github.com/recursionpharma/maes_microscopy
+review_basis: abstract
+reviewed: false

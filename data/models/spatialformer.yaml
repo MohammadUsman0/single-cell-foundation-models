@@ -1,0 +1,32 @@
+id: spatialformer
+kind: model
+name: SpatialFormer
+title: 'SpatialFormer: universal spatial representation learning from subcellular molecular to multicellular
+  landscapes'
+year: 2026
+venue: Nature Computational Science
+category: spatial
+tags:
+- spatial
+- foundation-model
+modality: Spatial transcriptomics (subcellular to niche)
+architecture: Hybrid CNN-transformer
+inputs:
+- expression
+- spatial-coordinates
+outputs:
+- cell-embedding
+- cell-type-label
+key: Hybrid convolution-transformer model learning multiscale niche representations from expression and
+  subcellular gene positions.
+links:
+  paper: https://doi.org/10.1038/s43588-026-01016-7
+code_status: none-found
+citation: 'Wang, Jun, Yuanhua Huang, and Ole Winther. "SpatialFormer: universal spatial representation
+  learning from subcellular molecular to multicellular landscapes." Nature Computational Science 6, no.
+  9 (2026): 971-987.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s43588-026-01016-7
+review_basis: abstract
+reviewed: false

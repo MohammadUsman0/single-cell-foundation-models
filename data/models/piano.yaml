@@ -1,0 +1,37 @@
+id: piano
+kind: model
+name: PIANO
+title: PIANO enables generative modeling of gene expression and scales multi-omics integration to 100
+  million cells
+year: 2026
+venue: Cell Reports Methods
+category: multimodal
+tags:
+- multi-omics
+- scrna-seq
+- spatial
+- generative
+modality: scRNA-seq, multi-omics, spatial
+architecture: Probabilistic inference autoencoder networks
+inputs:
+- expression
+outputs:
+- cell-embedding
+- generated-cells
+architecture_family: vae
+key: Probabilistic autoencoder framework for batch correction and generative modelling of covariate effects,
+  scaling integration to over 100 million cells.
+links:
+  paper: https://doi.org/10.1016/j.crmeth.2026.101661
+  code: https://github.com/NingWang1729/piano
+model_card:
+  pretraining_cells: '>100M (cancer cells, integration)'
+citation: 'Wang, Ning, Christopher Cardenas, Victor E. Nieto-Caballero, David Turner, Hannah Feinberg,
+  Dan Yuan, Nathaniel Scott et al. "PIANO enables generative modeling of gene expression and scales multi-omics
+  integration to 100 million cells." Cell Reports Methods (2026): 101661.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.crmeth.2026.101661
+- https://github.com/NingWang1729/piano
+review_basis: abstract
+reviewed: false

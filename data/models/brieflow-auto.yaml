@@ -1,0 +1,30 @@
+id: brieflow-auto
+kind: model
+name: Brieflow-auto
+title: Harness-Driven Agentic Operation of Optical Pooled Screen Analysis
+year: 2026
+venue: arXiv
+category: agents
+tags:
+- agent
+- imaging
+- perturbation
+modality: Optical pooled screens (microscopy)
+inputs:
+- cell-image
+- perturbation
+outputs:
+- text
+architecture_family: agent
+key: Harness that lets a coding LLM run and repair an optical pooled screen analysis pipeline end to end.
+links:
+  preprint: https://arxiv.org/abs/2610.22617
+  code: https://github.com/cheeseman-lab/brieflow-auto
+citation: Bernardo, Matteo Di, Claire Peterson, Ege Topkoc, Matt Might, and Iain M. Cheeseman. "Harness-Driven
+  Agentic Operation of Optical Pooled Screen Analysis." arXiv preprint arXiv:2610.22617 (2026).
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2610.22617
+- https://github.com/cheeseman-lab/brieflow-auto
+review_basis: abstract
+reviewed: false

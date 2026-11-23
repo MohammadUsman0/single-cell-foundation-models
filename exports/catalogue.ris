@@ -179,6 +179,25 @@ AB  - review outlines the technical pathways and validation mechanisms of virtua
 ID  - ai-driven-virtual-cell-models-in
 ER  - 
 
+TY  - JOUR
+TI  - AI-empowered perturbation proteomics for complex biological systems
+AU  - Qian, Liujia
+AU  - Sun, Rui
+AU  - Aebersold, Ruedi
+AU  - Bühlmann, Peter
+AU  - Sander, Chris
+AU  - Guo, Tiannan
+PY  - 2024
+T2  - Cell Genomics
+DO  - 10.1016/j.xgen.2024.100691
+UR  - https://doi.org/10.1016/j.xgen.2024.100691
+KW  - perturbation
+KW  - proteomics
+KW  - virtual-cell
+AB  - Perspective on perturbation proteomics and a perturbation-measurement-modelling pipeline for building predictive models.
+ID  - ai-empowered-perturbation-proteomics
+ER  - 
+
 TY  - UNPB
 TI  - Scaling dense representations for single cell with transcriptome-scale context
 AU  - Ho, Nicholas
@@ -596,6 +615,25 @@ KW  - proteomics
 ID  - bindingdb
 ER  - 
 
+TY  - UNPB
+TI  - BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments
+AU  - Roohani, Yusuf
+AU  - Lee, Andrew
+AU  - Huang, Qian
+AU  - Vora, Jian
+AU  - Steinhart, Zachary
+AU  - Huang, Kexin
+AU  - Marson, Alexander
+PY  - 2024
+T2  - arXiv
+UR  - https://arxiv.org/abs/2405.17631
+KW  - agent
+KW  - perturbation
+KW  - llm
+AB  - LLM agent that designs genetic perturbation experiments, reasons about outcomes and searches literature to find genes with a target effect.
+ID  - biodiscoveryagent
+ER  - 
+
 TY  - JOUR
 TI  - BioLLM: A standardized framework for integrating and benchmarking single-cell foundation models
 AU  - Qiu, Ping
@@ -626,6 +664,23 @@ KW  - interpretability
 KW  - foundation-model
 AB  - Concept activation vectors: linear directions in protein and single-cell foundation-model embeddings that represent biological properties.
 ID  - biological-concepts-as-directions-fm-embeddings
+ER  - 
+
+TY  - UNPB
+TI  - When Do Biological Reasoning Models Use Their Biological Inputs?
+AU  - Fang, Ada
+AU  - Thoduguli, Nikitha
+AU  - Fesser, Lukas
+AU  - Zhang, Hanlin
+AU  - Kakade, Sham M.
+AU  - Zitnik, Marinka
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2610.00898
+KW  - llm
+KW  - foundation-model
+AB  - Perturbs one biological input of reasoning models at a time to test whether their answers actually depend on foundation-model representations.
+ID  - biological-input-use
 ER  - 
 
 TY  - JOUR
@@ -700,6 +755,25 @@ ID  - biomod
 ER  - 
 
 TY  - UNPB
+TI  - Coding agents author interpretable single-cell embedding models from the literature
+AU  - Brunn, Niklas
+AU  - Krißmer, Sonia Maria
+AU  - Frosch, Maximilian
+AU  - Frick, Markus
+AU  - Prinz, Marco
+AU  - Binder, Harald
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.07.07.737048
+UR  - https://doi.org/10.64898/2026.07.07.737048
+KW  - agent
+KW  - scrna-seq
+KW  - interpretability
+AB  - Coding agents write interpretable single-cell embedding models from literature gene programs; each dimension is a named, cited program.
+ID  - blueprint-embedding
+ER  - 
+
+TY  - UNPB
 TI  - BMFM-RNA: whole-cell expression decoding improves transcriptomic foundation models
 AU  - Danziger, Michael M.
 AU  - Dandala, Bharath
@@ -751,6 +825,23 @@ KW  - foundation-model
 KW  - cross-species
 AB  - Cross-species foundation model for whole-brain spatial transcriptomics, trained on four species and five platforms.
 ID  - brainbeacon
+ER  - 
+
+TY  - UNPB
+TI  - Harness-Driven Agentic Operation of Optical Pooled Screen Analysis
+AU  - Bernardo, Matteo Di
+AU  - Peterson, Claire
+AU  - Topkoc, Ege
+AU  - Might, Matt
+AU  - Cheeseman, Iain M.
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2610.22617
+KW  - agent
+KW  - imaging
+KW  - perturbation
+AB  - Harness that lets a coding LLM run and repair an optical pooled screen analysis pipeline end to end.
+ID  - brieflow-auto
 ER  - 
 
 TY  - JOUR
@@ -908,6 +999,25 @@ ID  - celcomen
 ER  - 
 
 TY  - JOUR
+TI  - Cell-DINO: Self-supervised image-based embeddings for cell fluorescent microscopy
+AU  - Moutakanni, Théo
+AU  - Couprie, Camille
+AU  - Yi, Seungeun
+AU  - Doron, Michael
+AU  - Chen, Zitong S.
+AU  - Moshkov, Nikita
+AU  - Gardes, Elouan
+PY  - 2025
+T2  - PLOS Computational Biology
+DO  - 10.1371/journal.pcbi.1013828
+UR  - https://doi.org/10.1371/journal.pcbi.1013828
+KW  - imaging
+KW  - foundation-model
+AB  - Applies self-supervised DINOv2 to fluorescence microscopy to learn single-cell morphology embeddings without annotations.
+ID  - cell-dino
+ER  - 
+
+TY  - JOUR
 TI  - Cell-GraphCompass: Modeling Single Cells with Graph Structure Foundation Model
 AU  - Fang, Chen
 AU  - Cui, Wentao
@@ -966,6 +1076,23 @@ TY  - GEN
 TI  - Cell Painting Gallery: Public high-content cell painting datasets from Broad and partners
 KW  - imaging
 ID  - cell-painting-gallery
+ER  - 
+
+TY  - CPAPER
+TI  - Auditing Retrieval-Augmented LLM Hypotheses for Longitudinal Cell Painting Morphology
+AU  - Park, Gilchan
+AU  - Zhao, Guang
+AU  - Yoon, Byung-Jun
+AU  - Yoo, Shinjae
+PY  - 2026
+T2  - ACM-BCB
+DO  - 10.1145/3807503.3819448
+UR  - https://doi.org/10.1145/3807503.3819448
+KW  - imaging
+KW  - llm
+KW  - perturbation
+AB  - Audits retrieval-augmented LLM hypotheses about longitudinal Cell Painting morphology against measured data.
+ID  - cell-painting-rag-audit
 ER  - 
 
 TY  - JOUR
@@ -1036,6 +1163,24 @@ ID  - cellatria
 ER  - 
 
 TY  - UNPB
+TI  - Discover, Falsify, Revise: Auditing Input-Use Claims from Source Code to Predictive Contribution in Agent-Discovered Cell Models
+AU  - Li, Mengran
+AU  - Li, Bo
+AU  - Zhang, Chengyang
+AU  - Yan, Yang
+AU  - Xu, Jinfeng
+AU  - Tang, Zhenchao
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2609.27234
+KW  - virtual-cell
+KW  - perturbation
+KW  - agent
+AB  - CellAudit: checks whether agent-discovered virtual-cell predictors actually use the perturbation inputs they claim to use.
+ID  - cellaudit
+ER  - 
+
+TY  - UNPB
 TI  - Task-dependent Performance of Single-cell Foundation Models under Low Supervision
 AU  - Xu, Yongjie
 AU  - Li, Yiyun
@@ -1051,6 +1196,23 @@ KW  - scrna-seq
 KW  - foundation-model
 AB  - Benchmark evaluating single-cell foundation models under low-supervision (limited-label) scenarios.
 ID  - cellbench-ls
+ER  - 
+
+TY  - UNPB
+TI  - CellCanon: An Agentic Cellular World Model for Prediction, Explanation, and Observation-Driven Updating
+AU  - Liang, Zhaokang
+AU  - Zhuang, Shuyang
+AU  - Jiao, Xiaoran
+AU  - Chen, Hao
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2611.05890
+KW  - agent
+KW  - virtual-cell
+KW  - perturbation
+KW  - llm
+AB  - Agentic cellular world model that predicts single-cell expression, explains it with evidence and updates from new observations without retraining.
+ID  - cellcanon
 ER  - 
 
 TY  - JOUR
@@ -1226,6 +1388,25 @@ UR  - https://doi.org/10.1038/s41556-025-01755-1
 KW  - perturbation
 KW  - graph
 ID  - cellnavi
+ER  - 
+
+TY  - UNPB
+TI  - Panoramic modelling of single-cell transcriptomes at scale with CellNet
+AU  - Lian, Xiaoqing
+AU  - Liu, Pei
+AU  - Tan, Jiahui
+AU  - Tan, Luoda
+AU  - Li, Chaoyi
+AU  - Ren, Zhonghao
+AU  - Xiang, Hongxin
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2610.21943
+KW  - scrna-seq
+KW  - foundation-model
+KW  - dna-sequence
+AB  - Single-cell foundation model that uses DNA-derived gene representations to model whole transcriptomes, including non-coding RNAs beyond measured panels.
+ID  - cellnet
 ER  - 
 
 TY  - UNPB
@@ -1506,6 +1687,26 @@ KW  - virtual-cell
 KW  - scrna-seq
 AB  - One-step cell world model that predicts action-conditioned state transitions, pretrained on developmental trajectories and transferable to perturbation prediction.
 ID  - chreode
+ER  - 
+
+TY  - JOUR
+TI  - ChromBERT: A foundation model for learning interpretable representations for context-specific transcriptional regulatory networks
+AU  - Yu, Zhaowei
+AU  - Yang, Dongxu
+AU  - Chen, Qianqian
+AU  - Zhang, Yuxuan
+AU  - Li, Zhanhao
+AU  - Wang, Yucheng
+AU  - Wang, Chenfei
+PY  - 2026
+T2  - Cell Genomics
+DO  - 10.1016/j.xgen.2025.101130
+UR  - https://doi.org/10.1016/j.xgen.2025.101130
+KW  - gene-regulation
+KW  - foundation-model
+KW  - interpretability
+AB  - Foundation model pretrained on large-scale human ChIP-seq that learns context-specific transcriptional regulatory networks without new ChIP-seq experiments.
+ID  - chrombert
 ER  - 
 
 TY  - CPAPER
@@ -1799,6 +2000,26 @@ UR  - https://doi.org/10.1609/aaai.v39i15.33695
 KW  - perturbation
 KW  - generative
 ID  - cradle-vae
+ER  - 
+
+TY  - JOUR
+TI  - Predicting drug responses of unseen cell types through transfer learning with foundation models
+AU  - Wang, Yixuan
+AU  - Liu, Xinyuan
+AU  - Fan, Yimin
+AU  - Xie, Binghui
+AU  - Cheng, James
+AU  - Wong, Kam Chung
+AU  - Cheung, Peter
+PY  - 2025
+T2  - Nature Computational Science
+DO  - 10.1038/s43588-025-00887-6
+UR  - https://doi.org/10.1038/s43588-025-00887-6
+KW  - perturbation
+KW  - drug-response
+KW  - foundation-model
+AB  - Predicts drug responses in cell types never seen during training by transferring foundation-model representations.
+ID  - crisp
 ER  - 
 
 TY  - JOUR
@@ -2160,6 +2381,22 @@ KW  - llm
 KW  - interpretability
 AB  - Agent that links scGPT embeddings with semantic retrieval and LLM interpretation for interactive single-cell discovery.
 ID  - elisa
+ER  - 
+
+TY  - JOUR
+TI  - Emerging frontiers for AI in single-cell genomics
+AU  - Mitra, Sneha
+AU  - Li, Jiaxin
+AU  - Leslie, Christina S.
+PY  - 2026
+T2  - Molecular Cell
+DO  - 10.1016/j.molcel.2026.09.014
+UR  - https://doi.org/10.1016/j.molcel.2026.09.014
+KW  - scrna-seq
+KW  - foundation-model
+KW  - virtual-cell
+AB  - Review of single-cell embedding and foundation models, multiome regulatory genomics and virtual-cell models learned from Perturb-seq.
+ID  - emerging-frontiers-ai-single-cell-genomics
 ER  - 
 
 TY  - UNPB
@@ -2782,6 +3019,24 @@ ID  - gge-generative-expression-evaluator
 ER  - 
 
 TY  - JOUR
+TI  - GLM-Prior: a genomic language model for transferable sequence-derived priors in gene regulatory network inference
+AU  - Gibbs, Claudia Skok
+AU  - Chen, Angelica
+AU  - Bonneau, Richard
+AU  - Cho, Kyunghyun
+PY  - 2026
+T2  - Nature Communications
+DO  - 10.1038/s41467-026-77381-8
+UR  - https://doi.org/10.1038/s41467-026-77381-8
+KW  - gene-regulation
+KW  - dna-sequence
+KW  - foundation-model
+KW  - cross-species
+AB  - Genomic language model fine-tuned to predict transcription factor-target interactions from sequence, used as a transferable prior for GRN inference.
+ID  - glm-prior
+ER  - 
+
+TY  - JOUR
 TI  - GPerturb: Gaussian process modelling of single-cell perturbation data
 PY  - 2025
 T2  - Nature Communications
@@ -3116,6 +3371,24 @@ KW  - generative
 ID  - impa
 ER  - 
 
+TY  - JOUR
+TI  - In situ graphene-seq: spatial transcriptomics and chronic electrophysiological characterization of tissue microenvironments
+AU  - Lee, Jaeyong
+AU  - Wang, Wenbo
+AU  - Li, Qiang
+AU  - Lin, Zuwan
+AU  - Liu, Ren
+AU  - Tang, Zefang
+AU  - Aoyama, Junya
+PY  - 2026
+T2  - Nature Communications
+DO  - 10.1038/s41467-026-73883-7
+UR  - https://doi.org/10.1038/s41467-026-73883-7
+KW  - spatial
+AB  - In situ graphene-seq: assay combining chronic electrophysiology with spatial transcriptomics in the same tissue.
+ID  - in-situ-graphene-seq
+ER  - 
+
 TY  - UNPB
 TI  - Discovering Interpretable Biological Concepts in Single-cell RNA-seq Foundation Models
 AU  - Claye, Charlotte
@@ -3360,6 +3633,21 @@ ID  - limitations-of-cell-embedding-metrics-assessed
 ER  - 
 
 TY  - UNPB
+TI  - Task-adapted biological foundation models uncover perturbation-centric representations
+AU  - Pareja-Lorente, Elena
+AU  - Aloy, Patrick
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.06.30.735584
+UR  - https://doi.org/10.64898/2026.06.30.735584
+KW  - perturbation
+KW  - drug-response
+KW  - foundation-model
+AB  - Fine-tunes scGPT on millions of perturbation profiles so its embedding space captures perturbation effects rather than cell state.
+ID  - lincs-scgpt
+ER  - 
+
+TY  - UNPB
 TI  - Lingshu-Cell: A generative cellular world model for transcriptome modeling toward virtual cells
 AU  - Zhang, Han
 AU  - Yuan, Guo-Hua
@@ -3443,6 +3731,82 @@ KW  - cross-species
 KW  - foundation-model
 AB  - Represents genes by pretrained mRNA-sequence embeddings so cell models transfer across species and data types.
 ID  - lucacell
+ER  - 
+
+TY  - JOUR
+TI  - Masked Autoencoders for Microscopy are Scalable Learners of Cellular Biology
+AU  - Kraus, Oren
+AU  - Kenyon-Dean, Kian
+AU  - Saberian, Saber
+AU  - Fallah, Maryam
+AU  - McLean, Peter
+AU  - Leung, Jess
+AU  - Sharma, Vasudev
+PY  - 2024
+T2  - CVPR
+DO  - 10.1109/CVPR52733.2024.01117
+UR  - https://doi.org/10.1109/CVPR52733.2024.01117
+KW  - imaging
+KW  - foundation-model
+KW  - perturbation
+AB  - Shows that masked-autoencoder vision transformers scale better than weakly supervised classifiers for featurising large microscopy perturbation screens.
+ID  - maes-microscopy
+ER  - 
+
+TY  - JOUR
+TI  - A knowledge-driven framework for predicting single-cell responses for unprofiled drugs
+AU  - Feng, Jinghao
+AU  - Zhao, Ziheng
+AU  - Zhang, Xiaoman
+AU  - Liu, Mingfei
+AU  - Chen, Jingyi
+AU  - Quan, Xingran
+AU  - Fu, Boyang
+PY  - 2026
+T2  - Nature Machine Intelligence
+DO  - 10.1038/s42256-026-01286-w
+UR  - https://doi.org/10.1038/s42256-026-01286-w
+KW  - perturbation
+KW  - drug-response
+KW  - virtual-cell
+AB  - Encodes mechanistic drug knowledge to predict single-cell responses to unprofiled compounds zero-shot.
+ID  - map-unprofiled-drugs
+ER  - 
+
+TY  - UNPB
+TI  - MapPFN: Learning Causal Perturbation Maps in Context
+AU  - Sextro, Marvin
+AU  - Kłos, Weronika
+AU  - Dernbach, Gabriel
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2601.21092
+KW  - perturbation
+KW  - virtual-cell
+KW  - foundation-model
+AB  - Prior-fitted network meta-trained on synthetic causal systems that adapts perturbation-effect estimates to new contexts in context.
+ID  - mappfn
+ER  - 
+
+TY  - UNPB
+TI  - Temporal AI model predicts drivers of cell state trajectories across human aging
+AU  - Ortega, Javier Gόmez
+AU  - Nadadur, Rangarajan D.
+AU  - Kunitomi, Akira
+AU  - Kothen-Hill, Steven
+AU  - Wagner, Julian U. G.
+AU  - Kurtoglu, Sarp D.
+AU  - Kim, Bumjoon
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.03.30.715396
+UR  - https://doi.org/10.64898/2026.03.30.715396
+KW  - generative
+KW  - scrna-seq
+KW  - foundation-model
+KW  - virtual-cell
+AB  - Temporal model that generates cell states across long aging trajectories and nominated age-modulating targets that were verified in vivo.
+ID  - maxtoki
 ER  - 
 
 TY  - UNPB
@@ -3973,6 +4337,25 @@ KW  - text
 ID  - overcoming-barriers-to-the-wide-adoption
 ER  - 
 
+TY  - JOUR
+TI  - PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases
+AU  - Kim, Seongryong
+AU  - Cheong, Sungmin
+AU  - Lee, Suho
+AU  - Kim, Yeju
+AU  - Xie, Ronald
+AU  - Koh, In Gyeong
+AU  - La, Jeongwoo
+PY  - 2026
+T2  - Nature Methods
+DO  - 10.1038/s41592-026-03295-4
+UR  - https://doi.org/10.1038/s41592-026-03295-4
+KW  - scrna-seq
+KW  - foundation-model
+AB  - PANGEA: remapped atlas of 12.6 million human cells with a hierarchical cell classification, used to profile multicellular responses across diseases.
+ID  - pangea
+ER  - 
+
 TY  - UNPB
 TI  - Parameter-free representations outperform single-cell foundation models on downstream benchmarks
 AU  - Souza, Huan
@@ -4315,6 +4698,24 @@ AB  - Prior-fitted network trained only on synthetic episodes; infers latent tar
 ID  - perturbpfn
 ER  - 
 
+TY  - UNPB
+TI  - Contextualizing biological perturbation experiments through language
+AU  - Wu, Menghua
+AU  - Littman, Russell
+AU  - Levine, Jacob
+AU  - Qiu, Lin
+AU  - Biancalani, Tommaso
+AU  - Richmond, David
+AU  - Huetter, Jan-Christian
+PY  - 2025
+T2  - arXiv
+UR  - https://arxiv.org/abs/2502.21290
+KW  - perturbation
+KW  - llm
+AB  - PerturbQA: language benchmark of perturbation-experiment questions, with a simple retrieve-and-answer LLM baseline (Summer).
+ID  - perturbqa
+ER  - 
+
 TY  - CPAPER
 TI  - PETRI: Learning Unified Cell Embeddings from Unpaired Modalities via Early-Fusion Joint Reconstruction
 PY  - 2026
@@ -4343,6 +4744,24 @@ AB  - Turns a pretrained single-cell perturbation model into a target-directed s
 ID  - pharos
 ER  - 
 
+TY  - UNPB
+TI  - From Retrieval to Reasoning: Agentic Mechanism Prediction from Cell Painting Profiles
+AU  - Chen, Jiayuan
+AU  - Yu, Botao
+AU  - Liu, Tianyu
+AU  - Pham, Thai-Hoang
+AU  - Wu, Meng
+AU  - Zhang, Ping
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2609.36406
+KW  - agent
+KW  - imaging
+KW  - llm
+AB  - Agent that reasons over retrieved Cell Painting evidence, weighting it by reliability, to predict compound mechanism of action.
+ID  - phenoair
+ER  - 
+
 TY  - JOUR
 TI  - PhenoProfiler: advancing phenotypic learning for image-based drug discovery
 AU  - Li, Bo
@@ -4359,6 +4778,27 @@ UR  - https://doi.org/10.1038/s41467-025-67479-w
 KW  - imaging
 KW  - drug-response
 ID  - phenoprofiler
+ER  - 
+
+TY  - JOUR
+TI  - PIANO enables generative modeling of gene expression and scales multi-omics integration to 100 million cells
+AU  - Wang, Ning
+AU  - Cardenas, Christopher
+AU  - Nieto-Caballero, Victor E.
+AU  - Turner, David
+AU  - Feinberg, Hannah
+AU  - Yuan, Dan
+AU  - Scott, Nathaniel
+PY  - 2026
+T2  - Cell Reports Methods
+DO  - 10.1016/j.crmeth.2026.101661
+UR  - https://doi.org/10.1016/j.crmeth.2026.101661
+KW  - multi-omics
+KW  - scrna-seq
+KW  - spatial
+KW  - generative
+AB  - Probabilistic autoencoder framework for batch correction and generative modelling of covariate effects, scaling integration to over 100 million cells.
+ID  - piano
 ER  - 
 
 TY  - UNPB
@@ -4586,6 +5026,26 @@ KW  - perturbation
 ID  - pulsar
 ER  - 
 
+TY  - JOUR
+TI  - RAGCell: retrieval-augmented generation as supervision for versatile single-cell analysis
+AU  - Liu, Tianyu
+AU  - Zhang, Fan
+AU  - Chen, Jiayuan
+AU  - Wang, Kun
+AU  - Li, Haoxuan
+AU  - Qian, Shengju
+AU  - Zhu, Zhihong
+PY  - 2026
+T2  - Bioinformatics
+DO  - 10.1093/bioinformatics/btag732
+UR  - https://doi.org/10.1093/bioinformatics/btag732
+KW  - llm
+KW  - text
+KW  - scrna-seq
+AB  - Uses retrieval-augmented LLM text as supervision to build single-cell representations at a fraction of the pretraining cost of foundation models.
+ID  - ragcell
+ER  - 
+
 TY  - UNPB
 TI  - rBio1-Training Scientific Reasoning LLMs with Biological World Models as Soft Verifiers
 AU  - Istrate, Ana-Maria
@@ -4808,6 +5268,21 @@ AB  - VAE whose perturbation effects are sparse, composable latent shifts, givin
 ID  - sams-vae
 ER  - 
 
+TY  - UNPB
+TI  - Scaling an Autoregressive Transformer for Single-Cell Generation
+AU  - Sharipov, Aleksandr
+AU  - Mukhtarov, Yusif
+AU  - Molybog, Igor
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2608.02961
+KW  - generative
+KW  - scrna-seq
+KW  - foundation-model
+AB  - Autoregressive transformer for generating single-cell expression, reporting a joint scaling law and compute-optimal frontier.
+ID  - satscg
+ER  - 
+
 TY  - JOUR
 TI  - Toward universal cell embeddings: integrating single-cell RNA-seq datasets across species with SATURN
 AU  - Rosen, Yanay
@@ -5024,6 +5499,22 @@ KW  - agent
 ID  - scbasecount
 ER  - 
 
+TY  - UNPB
+TI  - scBench-Long: Verifiable Benchmarking of Long-Horizon Single-Cell Biology
+AU  - Diks, Ian
+AU  - Yang, Zhen
+AU  - Banerjee, Arjun
+AU  - Proctor, Tim
+AU  - Workman, Kenny
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2606.26563
+KW  - agent
+KW  - scrna-seq
+AB  - scBench-Long: benchmark where agents must recover published conclusions from raw single-cell data in long, open-ended analyses.
+ID  - scbench-long
+ER  - 
+
 TY  - JOUR
 TI  - scBERT as a large-scale pretrained deep language model for cell type annotation of single-cell RNA-seq data
 AU  - Yang, Fan
@@ -5224,6 +5715,26 @@ KW  - generative
 KW  - foundation-model
 AB  - Masked discrete-diffusion foundation model that jointly models gene identities and values.
 ID  - scdiva
+ER  - 
+
+TY  - JOUR
+TI  - Unlocking biological insight from single-cell data with an interpretable dual-stream foundation model
+AU  - Guo, Honglie
+AU  - Cui, Qinghang
+AU  - Zhang, Xiang
+AU  - Chen, Chaowei
+AU  - Zheng, Weihua
+AU  - Cai, Changfeng
+AU  - Wang, Xinyi
+PY  - 2026
+T2  - Genome Biology
+DO  - 10.1186/s13059-026-04193-w
+UR  - https://doi.org/10.1186/s13059-026-04193-w
+KW  - scrna-seq
+KW  - foundation-model
+KW  - interpretability
+AB  - Dual-stream foundation model that combines relative gene ranking with absolute expression values for more faithful cell representations.
+ID  - scdmc
 ER  - 
 
 TY  - JOUR
@@ -6517,6 +7028,21 @@ KW  - spatial
 ID  - spatialagent
 ER  - 
 
+TY  - JOUR
+TI  - SpatialFormer: universal spatial representation learning from subcellular molecular to multicellular landscapes
+AU  - Wang, Jun
+AU  - Huang, Yuanhua
+AU  - Winther, Ole
+PY  - 2026
+T2  - Nature Computational Science
+DO  - 10.1038/s43588-026-01016-7
+UR  - https://doi.org/10.1038/s43588-026-01016-7
+KW  - spatial
+KW  - foundation-model
+AB  - Hybrid convolution-transformer model learning multiscale niche representations from expression and subcellular gene positions.
+ID  - spatialformer
+ER  - 
+
 TY  - UNPB
 TI  - SpatialFusion: A lightweight multimodal foundation model for pathway-informed spatial niche mapping
 AU  - Yates, Josephine
@@ -6533,6 +7059,40 @@ KW  - histology
 KW  - foundation-model
 AB  - Lightweight multimodal model that fuses histology, expression and inferred pathway activity to map spatial niches.
 ID  - spatialfusion
+ER  - 
+
+TY  - UNPB
+TI  - SpatialJEPA: JEPA-inspired graph-context distillation for spatially aware multiomics integration
+AU  - Mann-Krzisnik, Dylan
+AU  - Li, Yue
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.07.21.739810
+UR  - https://doi.org/10.64898/2026.07.21.739810
+KW  - multi-omics
+KW  - spatial
+KW  - scatac-seq
+AB  - Transfers spatial context from spatial multiomics to dissociated RNA-ATAC data through JEPA-style graph-context distillation.
+ID  - spatialjepa
+ER  - 
+
+TY  - UNPB
+TI  - SpatialOmicsLab: an integrated research environment for AI co-scientists in spatial transcriptomics
+AU  - Jiang, Yi
+AU  - Zhan, Xiaowei
+AU  - Quan, Peiran
+AU  - Wang, Ruheng
+AU  - Wu, Fangjiang
+AU  - Mi, Junhui
+AU  - Yao, Jia
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.10.01.756049
+UR  - https://doi.org/10.64898/2026.10.01.756049
+KW  - agent
+KW  - spatial
+AB  - Research environment and co-scientist agent for reproducible spatial transcriptomics analysis, with procedural memory for adding tools.
+ID  - spatialomicslab
 ER  - 
 
 TY  - UNPB
@@ -7046,6 +7606,26 @@ AB  - A family of foundation models for understanding single-cell biology.
 ID  - teddy
 ER  - 
 
+TY  - UNPB
+TI  - Multi-scale modeling of human tissues from spatial transcriptomics with TERRA
+AU  - Birk, Sebastian
+AU  - Sanian, Mohammad Vali
+AU  - Vahidi, Amirhossein
+AU  - Ogden, Samuel
+AU  - Jafree, Daniyal J.
+AU  - Feriz, Adib Miraki
+AU  - Leonardi, Carlo
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.07.29.741565
+UR  - https://doi.org/10.64898/2026.07.29.741565
+KW  - spatial
+KW  - foundation-model
+KW  - perturbation
+AB  - Spatial foundation model pretrained on 112 million human cells that gives cell-, niche- and tissue-level embeddings and predicts tissue responses in silico.
+ID  - terra
+ER  - 
+
 TY  - JOUR
 TI  - Generative pretraining from large-scale transcriptomes for single-cell deciphering
 AU  - Shen, Hongru
@@ -7439,6 +8019,26 @@ AB  - Unrolls state-dependent regulatory flows for out-of-distribution perturbat
 ID  - urfpert
 ER  - 
 
+TY  - JOUR
+TI  - A User’s Roadmap to Foundation Models on Single-Cell and Spatial-Omics – Cell Type and Lineage applications
+AU  - Yang, Qixing
+AU  - Zhou, Yijin
+AU  - Zhang, Huanlin
+AU  - Cai, Mingyu
+AU  - Hong, Jie
+AU  - Li, Kai
+AU  - Xie, Xuping
+PY  - 2026
+T2  - National Science Review
+DO  - 10.1093/nsr/nwag371
+UR  - https://doi.org/10.1093/nsr/nwag371
+KW  - scrna-seq
+KW  - spatial
+KW  - foundation-model
+AB  - User-oriented roadmap to foundation models for single-cell and spatial omics, focused on cell type and lineage applications.
+ID  - users-roadmap-fms-single-cell-spatial
+ER  - 
+
 TY  - UNPB
 TI  - V3Cell: A Vision-Guided Virtual 3D Cell Framework for Phenotypic Modeling and Perturbation Prediction
 AU  - You, Lu
@@ -7743,6 +8343,26 @@ UR  - https://doi.org/10.1038/d41586-026-01731-1
 KW  - virtual-cell
 AB  - Nature news feature on the push to build virtual cells that turn raw data into predictive models of biology.
 ID  - virtual-cells-raw-data-predictive-models
+ER  - 
+
+TY  - JOUR
+TI  - The Virtual Tissues foundation model resolves spatial proteomics across scales
+AU  - Wenckstern, Johann
+AU  - Jain, Eeshaan
+AU  - Querfurth, Benedikt von
+AU  - Cheng, Yexiang
+AU  - Vasilev, Kiril
+AU  - Pariset, Matteo
+AU  - Cheng, Phil F.
+PY  - 2026
+T2  - Nature
+DO  - 10.1038/s41586-026-10884-y
+UR  - https://doi.org/10.1038/s41586-026-10884-y
+KW  - proteomics
+KW  - spatial
+KW  - foundation-model
+AB  - Virtual Tissues: foundation model for spatial proteomics across panels, from proteins to tissues, with biomarkers that predict immunotherapy response.
+ID  - virtues
 ER  - 
 
 TY  - GEN

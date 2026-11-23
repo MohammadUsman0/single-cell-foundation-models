@@ -1,0 +1,32 @@
+id: spatialjepa
+kind: model
+name: SpatialJEPA
+title: 'SpatialJEPA: JEPA-inspired graph-context distillation for spatially aware multiomics integration'
+year: 2026
+venue: bioRxiv
+category: multimodal
+tags:
+- multi-omics
+- spatial
+- scatac-seq
+modality: Spatial and dissociated RNA-ATAC multiome
+architecture: JEPA-style teacher-student graph distillation
+inputs:
+- expression
+- chromatin-accessibility
+- spatial-coordinates
+outputs:
+- cell-embedding
+key: Transfers spatial context from spatial multiomics to dissociated RNA-ATAC data through JEPA-style
+  graph-context distillation.
+links:
+  preprint: https://doi.org/10.64898/2026.07.21.739810
+  code: https://github.com/li-lab-mcgill/SpatialJEPA
+citation: 'Mann-Krzisnik, Dylan, and Yue Li. "SpatialJEPA: JEPA-inspired graph-context distillation for
+  spatially aware multiomics integration." bioRxiv (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.07.21.739810
+- https://github.com/li-lab-mcgill/SpatialJEPA
+review_basis: abstract
+reviewed: false

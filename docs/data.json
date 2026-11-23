@@ -2,8 +2,8 @@
  "generated": "2026-11-23",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
-  "models": 272,
-  "resources": 226,
+  "models": 296,
+  "resources": 236,
   "venues": 19
  },
  "vocab": {
@@ -691,6 +691,82 @@
    "status": "preprint"
   },
   {
+   "id": "blueprint-embedding",
+   "kind": "model",
+   "name": "Blueprint embedding",
+   "title": "Coding agents author interpretable single-cell embedding models from the literature",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "scrna-seq",
+    "interpretability"
+   ],
+   "modality": "scRNA-seq + literature",
+   "key": "Coding agents write interpretable single-cell embedding models from literature gene programs; each dimension is a named, cited program.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.07.07.737048",
+    "code": "https://github.com/NiklasBrunn/blueprint-embedding"
+   },
+   "citation": "Brunn, Niklas, Sonia Maria Krißmer, Maximilian Frosch, Markus Frick, Marco Prinz, and Harald Binder. \"Coding agents author interpretable single-cell embedding models from the literature.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.64898/2026.07.07.737048",
+    "https://github.com/NiklasBrunn/blueprint-embedding"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "NiklasBrunn/blueprint-embedding"
+  },
+  {
+   "id": "brieflow-auto",
+   "kind": "model",
+   "name": "Brieflow-auto",
+   "title": "Harness-Driven Agentic Operation of Optical Pooled Screen Analysis",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "imaging",
+    "perturbation"
+   ],
+   "modality": "Optical pooled screens (microscopy)",
+   "key": "Harness that lets a coding LLM run and repair an optical pooled screen analysis pipeline end to end.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2610.22617",
+    "code": "https://github.com/cheeseman-lab/brieflow-auto"
+   },
+   "citation": "Bernardo, Matteo Di, Claire Peterson, Ege Topkoc, Matt Might, and Iain M. Cheeseman. \"Harness-Driven Agentic Operation of Optical Pooled Screen Analysis.\" arXiv preprint arXiv:2610.22617 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "cell-image",
+    "perturbation"
+   ],
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-11-23",
+   "sources": [
+    "https://arxiv.org/abs/2610.22617",
+    "https://github.com/cheeseman-lab/brieflow-auto"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "cheeseman-lab/brieflow-auto"
+  },
+  {
    "id": "captain",
    "kind": "model",
    "name": "CAPTAIN",
@@ -872,6 +948,47 @@
    "github": "AstraZeneca/cellatria"
   },
   {
+   "id": "cellcanon",
+   "kind": "model",
+   "name": "CellCanon",
+   "title": "CellCanon: An Agentic Cellular World Model for Prediction, Explanation, and Observation-Driven Updating",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "virtual-cell",
+    "perturbation",
+    "llm"
+   ],
+   "modality": "Single-cell perturbation data + evidence",
+   "key": "Agentic cellular world model that predicts single-cell expression, explains it with evidence and updates from new observations without retraining.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2611.05890",
+    "code": "https://github.com/ZhaokangLiang123/CellCanon"
+   },
+   "citation": "Liang, Zhaokang, Shuyang Zhuang, Xiaoran Jiao, and Hao Chen. \"CellCanon: An Agentic Cellular World Model for Prediction, Explanation, and Observation-Driven Updating.\" arXiv preprint arXiv:2611.05890 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation",
+    "text"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-11-23",
+   "sources": [
+    "https://arxiv.org/abs/2611.05890",
+    "https://github.com/ZhaokangLiang123/CellCanon"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "ZhaokangLiang123/CellCanon"
+  },
+  {
    "id": "cellmsa",
    "kind": "model",
    "name": "CellMSA",
@@ -905,6 +1022,45 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "PharMolix/CellMSA"
+  },
+  {
+   "id": "cellnet",
+   "kind": "model",
+   "name": "CellNet",
+   "title": "Panoramic modelling of single-cell transcriptomes at scale with CellNet",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model",
+    "dna-sequence"
+   ],
+   "modality": "scRNA-seq (whole transcriptome)",
+   "architecture": "Foundation model with DNA-derived gene representations",
+   "key": "Single-cell foundation model that uses DNA-derived gene representations to model whole transcriptomes, including non-coding RNAs beyond measured panels.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2610.21943",
+    "code": "https://github.com/daydayup-xq/CellNet"
+   },
+   "citation": "Lian, Xiaoqing, Pei Liu, Jiahui Tan, Luoda Tan, Chaoyi Li, Zhonghao Ren, Hongxin Xiang et al. \"Panoramic modelling of single-cell transcriptomes at scale with CellNet.\" arXiv preprint arXiv:2610.21943 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "dna-sequence"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://arxiv.org/abs/2610.21943",
+    "https://github.com/daydayup-xq/CellNet"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "daydayup-xq/CellNet"
   },
   {
    "id": "celltarnet",
@@ -1190,6 +1346,46 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "MufanQiu/Chreode"
+  },
+  {
+   "id": "chrombert",
+   "kind": "model",
+   "name": "ChromBERT",
+   "title": "ChromBERT: A foundation model for learning interpretable representations for context-specific transcriptional regulatory networks",
+   "year": 2026,
+   "venue": "Cell Genomics",
+   "category": "epigenomics",
+   "tags": [
+    "gene-regulation",
+    "foundation-model",
+    "interpretability"
+   ],
+   "modality": "ChIP-seq (~1,000 transcription regulators)",
+   "architecture": "BERT-style model over regulator co-association",
+   "key": "Foundation model pretrained on large-scale human ChIP-seq that learns context-specific transcriptional regulatory networks without new ChIP-seq experiments.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.xgen.2025.101130",
+    "preprint": "https://doi.org/10.1101/2025.03.29.646077",
+    "code": "https://github.com/TongjiZhanglab/ChromBERT"
+   },
+   "citation": "Yu, Zhaowei, Dongxu Yang, Qianqian Chen, Yuxuan Zhang, Zhanhao Li, Yucheng Wang, Chenfei Wang et al. \"ChromBERT: A foundation model for learning interpretable representations for context-specific transcriptional regulatory networks.\" Cell Genomics 6, no. 4 (2026): 101130.",
+   "reviewed": false,
+   "inputs": [
+    "chromatin-accessibility"
+   ],
+   "outputs": [
+    "gene-regulatory-network"
+   ],
+   "architecture_family": "transformer-encoder",
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1016/j.xgen.2025.101130",
+    "https://doi.org/10.1101/2025.03.29.646077",
+    "https://github.com/TongjiZhanglab/ChromBERT"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "TongjiZhanglab/ChromBERT"
   },
   {
    "id": "cite-vae",
@@ -1978,6 +2174,47 @@
    "github": "MineSelf2016/GeneMamba"
   },
   {
+   "id": "glm-prior",
+   "kind": "model",
+   "name": "GLM-Prior",
+   "title": "GLM-Prior: a genomic language model for transferable sequence-derived priors in gene regulatory network inference",
+   "year": 2026,
+   "venue": "Nature Communications",
+   "category": "grn",
+   "tags": [
+    "gene-regulation",
+    "dna-sequence",
+    "foundation-model",
+    "cross-species"
+   ],
+   "modality": "DNA sequence + scRNA-seq",
+   "architecture": "Genomic language model fine-tuned for TF-target prediction",
+   "key": "Genomic language model fine-tuned to predict transcription factor-target interactions from sequence, used as a transferable prior for GRN inference.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41467-026-77381-8",
+    "preprint": "https://doi.org/10.1101/2025.06.29.662198",
+    "code": "https://github.com/cskokgibbs/GLM-Prior"
+   },
+   "citation": "Gibbs, Claudia Skok, Angelica Chen, Richard Bonneau, and Kyunghyun Cho. \"GLM-Prior: a genomic language model for transferable sequence-derived priors in gene regulatory network inference.\" Nature Communications 17, no. 1 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "dna-sequence",
+    "expression"
+   ],
+   "outputs": [
+    "gene-regulatory-network"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1038/s41467-026-77381-8",
+    "https://doi.org/10.1101/2025.06.29.662198",
+    "https://github.com/cskokgibbs/GLM-Prior"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "cskokgibbs/GLM-Prior"
+  },
+  {
    "id": "harmonycell",
    "kind": "model",
    "name": "HarmonyCell",
@@ -2171,6 +2408,53 @@
    "github": "larslorch/lcd-clipr"
   },
   {
+   "id": "lincs-scgpt",
+   "kind": "model",
+   "name": "LINCS-scGPT",
+   "title": "Task-adapted biological foundation models uncover perturbation-centric representations",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "drug-response",
+    "foundation-model"
+   ],
+   "modality": "LINCS L1000 perturbation profiles",
+   "architecture": "scGPT fine-tuned with a perturbation objective",
+   "key": "Fine-tunes scGPT on millions of perturbation profiles so its embedding space captures perturbation effects rather than cell state.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.30.735584",
+    "code": "https://github.com/sbnb-irb/LINCS_scGPT_embeddings"
+   },
+   "citation": "Pareja-Lorente, Elena, and Patrick Aloy. \"Task-adapted biological foundation models uncover perturbation-centric representations.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response",
+    "gene-embedding"
+   ],
+   "architecture_family": "transformer-encoder",
+   "perturbation_type": [
+    "chemical",
+    "genetic"
+   ],
+   "generalization": [
+    "unseen-perturbation"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.30.735584",
+    "https://github.com/sbnb-irb/LINCS_scGPT_embeddings"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "sbnb-irb/LINCS_scGPT_embeddings"
+  },
+  {
    "id": "lingshu-cell",
    "kind": "model",
    "name": "Lingshu-Cell",
@@ -2258,6 +2542,140 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "LucaOne/LucaCell"
+  },
+  {
+   "id": "map-unprofiled-drugs",
+   "kind": "model",
+   "name": "MAP",
+   "title": "A knowledge-driven framework for predicting single-cell responses for unprofiled drugs",
+   "year": 2026,
+   "venue": "Nature Machine Intelligence",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "drug-response",
+    "virtual-cell"
+   ],
+   "modality": "scRNA-seq (chemical perturbation)",
+   "architecture": "Knowledge-integrated perturbation model",
+   "key": "Encodes mechanistic drug knowledge to predict single-cell responses to unprofiled compounds zero-shot.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s42256-026-01286-w",
+    "preprint": "https://doi.org/10.64898/2026.02.25.708091",
+    "code": "https://github.com/MAGIC-AI4Med/MAP"
+   },
+   "citation": "Feng, Jinghao, Ziheng Zhao, Xiaoman Zhang, Mingfei Liu, Jingyi Chen, Xingran Quan, Boyang Fu et al. \"A knowledge-driven framework for predicting single-cell responses for unprofiled drugs.\" Nature Machine Intelligence 8, no. 9 (2026): 1478-1491.",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation",
+    "prior-network"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "chemical"
+   ],
+   "generalization": [
+    "unseen-perturbation",
+    "zero-shot"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1038/s42256-026-01286-w",
+    "https://doi.org/10.64898/2026.02.25.708091",
+    "https://github.com/MAGIC-AI4Med/MAP"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "MAGIC-AI4Med/MAP"
+  },
+  {
+   "id": "mappfn",
+   "kind": "model",
+   "name": "MapPFN",
+   "title": "MapPFN: Learning Causal Perturbation Maps in Context",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "virtual-cell",
+    "foundation-model"
+   ],
+   "modality": "scRNA-seq (perturbation)",
+   "architecture": "Prior-data fitted network pretrained on synthetic data",
+   "key": "Prior-fitted network meta-trained on synthetic causal systems that adapts perturbation-effect estimates to new contexts in context.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2601.21092",
+    "code": "https://github.com/marvinsxtr/MapPFN"
+   },
+   "citation": "Sextro, Marvin, Weronika Kłos, and Gabriel Dernbach. \"MapPFN: Learning Causal Perturbation Maps in Context.\" arXiv preprint arXiv:2601.21092 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "genetic"
+   ],
+   "generalization": [
+    "unseen-cell-context"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://arxiv.org/abs/2601.21092",
+    "https://github.com/marvinsxtr/MapPFN"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "marvinsxtr/MapPFN"
+  },
+  {
+   "id": "maxtoki",
+   "kind": "model",
+   "name": "MaxToki",
+   "title": "Temporal AI model predicts drivers of cell state trajectories across human aging",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "generative",
+   "tags": [
+    "generative",
+    "scrna-seq",
+    "foundation-model",
+    "virtual-cell"
+   ],
+   "modality": "scRNA-seq cell-state trajectories (human lifespan)",
+   "architecture": "Temporal transformer with in-context learning",
+   "key": "Temporal model that generates cell states across long aging trajectories and nominated age-modulating targets that were verified in vivo.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.03.30.715396",
+    "code": "https://github.com/NVIDIA/maxToki"
+   },
+   "model_card": {
+    "pretraining_data": "~1 trillion gene tokens incl. lifespan trajectories"
+   },
+   "citation": "Ortega, Javier Gόmez, Rangarajan D. Nadadur, Akira Kunitomi, Steven Kothen-Hill, Julian U. G. Wagner, Sarp D. Kurtoglu, Bumjoon Kim et al. \"Temporal AI model predicts drivers of cell state trajectories across human aging.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "generated-cells",
+    "gene-prioritization"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.64898/2026.03.30.715396",
+    "https://github.com/NVIDIA/maxToki"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "NVIDIA/maxToki"
   },
   {
    "id": "microsc",
@@ -2966,6 +3384,87 @@
    "status": "published"
   },
   {
+   "id": "phenoair",
+   "kind": "model",
+   "name": "PhenoAIR",
+   "title": "From Retrieval to Reasoning: Agentic Mechanism Prediction from Cell Painting Profiles",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "imaging",
+    "llm"
+   ],
+   "modality": "Cell Painting profiles",
+   "key": "Agent that reasons over retrieved Cell Painting evidence, weighting it by reliability, to predict compound mechanism of action.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2609.36406",
+    "code": "https://github.com/The-Real-JerryChen/PhenoAIR_NeurIPS26"
+   },
+   "citation": "Chen, Jiayuan, Botao Yu, Tianyu Liu, Thai-Hoang Pham, Meng Wu, and Ping Zhang. \"From Retrieval to Reasoning: Agentic Mechanism Prediction from Cell Painting Profiles.\" arXiv preprint arXiv:2609.36406 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "cell-image",
+    "text"
+   ],
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-11-23",
+   "sources": [
+    "https://arxiv.org/abs/2609.36406",
+    "https://github.com/The-Real-JerryChen/PhenoAIR_NeurIPS26"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "The-Real-JerryChen/PhenoAIR_NeurIPS26"
+  },
+  {
+   "id": "piano",
+   "kind": "model",
+   "name": "PIANO",
+   "title": "PIANO enables generative modeling of gene expression and scales multi-omics integration to 100 million cells",
+   "year": 2026,
+   "venue": "Cell Reports Methods",
+   "category": "multimodal",
+   "tags": [
+    "multi-omics",
+    "scrna-seq",
+    "spatial",
+    "generative"
+   ],
+   "modality": "scRNA-seq, multi-omics, spatial",
+   "architecture": "Probabilistic inference autoencoder networks",
+   "key": "Probabilistic autoencoder framework for batch correction and generative modelling of covariate effects, scaling integration to over 100 million cells.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.crmeth.2026.101661",
+    "code": "https://github.com/NingWang1729/piano"
+   },
+   "model_card": {
+    "pretraining_cells": ">100M (cancer cells, integration)"
+   },
+   "citation": "Wang, Ning, Christopher Cardenas, Victor E. Nieto-Caballero, David Turner, Hannah Feinberg, Dan Yuan, Nathaniel Scott et al. \"PIANO enables generative modeling of gene expression and scales multi-omics integration to 100 million cells.\" Cell Reports Methods (2026): 101661.",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "generated-cells"
+   ],
+   "architecture_family": "vae",
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1016/j.crmeth.2026.101661",
+    "https://github.com/NingWang1729/piano"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "NingWang1729/piano"
+  },
+  {
    "id": "poppert",
    "kind": "model",
    "name": "PopPert",
@@ -3167,6 +3666,44 @@
    "github": "CellProfiling/ProtiCelli"
   },
   {
+   "id": "ragcell",
+   "kind": "model",
+   "name": "RAGCell",
+   "title": "RAGCell: retrieval-augmented generation as supervision for versatile single-cell analysis",
+   "year": 2026,
+   "venue": "Bioinformatics",
+   "category": "llm",
+   "tags": [
+    "llm",
+    "text",
+    "scrna-seq"
+   ],
+   "modality": "scRNA-seq + text",
+   "architecture": "Retrieval-augmented generation as supervision",
+   "key": "Uses retrieval-augmented LLM text as supervision to build single-cell representations at a fraction of the pretraining cost of foundation models.",
+   "links": {
+    "paper": "https://doi.org/10.1093/bioinformatics/btag732",
+    "preprint": "https://arxiv.org/abs/2609.14147"
+   },
+   "citation": "Liu, Tianyu, Fan Zhang, Jiayuan Chen, Kun Wang, Haoxuan Li, Shengju Qian, Zhihong Zhu et al. \"RAGCell: retrieval-augmented generation as supervision for versatile single-cell analysis.\" Bioinformatics 42, no. 10 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "text"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1093/bioinformatics/btag732",
+    "https://arxiv.org/abs/2609.14147"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "regformer",
    "kind": "model",
    "name": "RegFormer",
@@ -3335,6 +3872,44 @@
    ],
    "review_basis": "abstract",
    "status": "preprint"
+  },
+  {
+   "id": "satscg",
+   "kind": "model",
+   "name": "SATScG",
+   "title": "Scaling an Autoregressive Transformer for Single-Cell Generation",
+   "year": 2026,
+   "venue": "arXiv",
+   "category": "generative",
+   "tags": [
+    "generative",
+    "scrna-seq",
+    "foundation-model"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Causal transformer with quantised-VAE tokenizer",
+   "key": "Autoregressive transformer for generating single-cell expression, reporting a joint scaling law and compute-optimal frontier.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2608.02961",
+    "code": "https://github.com/haw-ai-i/SATScG"
+   },
+   "citation": "Sharipov, Aleksandr, Yusif Mukhtarov, and Igor Molybog. \"Scaling an Autoregressive Transformer for Single-Cell Generation.\" arXiv preprint arXiv:2608.02961 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "generated-cells"
+   ],
+   "architecture_family": "transformer-decoder",
+   "added": "2026-11-23",
+   "sources": [
+    "https://arxiv.org/abs/2608.02961",
+    "https://github.com/haw-ai-i/SATScG"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "haw-ai-i/SATScG"
   },
   {
    "id": "save",
@@ -3754,6 +4329,43 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "wangmingxuan666/ScDiVa"
+  },
+  {
+   "id": "scdmc",
+   "kind": "model",
+   "name": "scDMC",
+   "title": "Unlocking biological insight from single-cell data with an interpretable dual-stream foundation model",
+   "year": 2026,
+   "venue": "Genome Biology",
+   "category": "scrna",
+   "tags": [
+    "scrna-seq",
+    "foundation-model",
+    "interpretability"
+   ],
+   "modality": "scRNA-seq",
+   "architecture": "Dual-stream transformer (rank + expression value)",
+   "key": "Dual-stream foundation model that combines relative gene ranking with absolute expression values for more faithful cell representations.",
+   "links": {
+    "paper": "https://doi.org/10.1186/s13059-026-04193-w"
+   },
+   "citation": "Guo, Honglie, Qinghang Cui, Xiang Zhang, Chaowei Chen, Weihua Zheng, Changfeng Cai, Xinyi Wang et al. \"Unlocking biological insight from single-cell data with an interpretable dual-stream foundation model.\" Genome Biology 27, no. 1 (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "architecture_family": "transformer-encoder",
+   "code_status": "none-found",
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1186/s13059-026-04193-w"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
   },
   {
    "id": "scdynomics",
@@ -4479,6 +5091,42 @@
    "github": "yzhong36/spaGFM"
   },
   {
+   "id": "spatialformer",
+   "kind": "model",
+   "name": "SpatialFormer",
+   "title": "SpatialFormer: universal spatial representation learning from subcellular molecular to multicellular landscapes",
+   "year": 2026,
+   "venue": "Nature Computational Science",
+   "category": "spatial",
+   "tags": [
+    "spatial",
+    "foundation-model"
+   ],
+   "modality": "Spatial transcriptomics (subcellular to niche)",
+   "architecture": "Hybrid CNN-transformer",
+   "key": "Hybrid convolution-transformer model learning multiscale niche representations from expression and subcellular gene positions.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s43588-026-01016-7"
+   },
+   "citation": "Wang, Jun, Yuanhua Huang, and Ole Winther. \"SpatialFormer: universal spatial representation learning from subcellular molecular to multicellular landscapes.\" Nature Computational Science 6, no. 9 (2026): 971-987.",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "code_status": "none-found",
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1038/s43588-026-01016-7"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "spatialfusion",
    "kind": "model",
    "name": "SpatialFusion",
@@ -4515,6 +5163,83 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "uhlerlab/spatialfusion"
+  },
+  {
+   "id": "spatialjepa",
+   "kind": "model",
+   "name": "SpatialJEPA",
+   "title": "SpatialJEPA: JEPA-inspired graph-context distillation for spatially aware multiomics integration",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "multimodal",
+   "tags": [
+    "multi-omics",
+    "spatial",
+    "scatac-seq"
+   ],
+   "modality": "Spatial and dissociated RNA-ATAC multiome",
+   "architecture": "JEPA-style teacher-student graph distillation",
+   "key": "Transfers spatial context from spatial multiomics to dissociated RNA-ATAC data through JEPA-style graph-context distillation.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.07.21.739810",
+    "code": "https://github.com/li-lab-mcgill/SpatialJEPA"
+   },
+   "citation": "Mann-Krzisnik, Dylan, and Yue Li. \"SpatialJEPA: JEPA-inspired graph-context distillation for spatially aware multiomics integration.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "chromatin-accessibility",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.64898/2026.07.21.739810",
+    "https://github.com/li-lab-mcgill/SpatialJEPA"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "li-lab-mcgill/SpatialJEPA"
+  },
+  {
+   "id": "spatialomicslab",
+   "kind": "model",
+   "name": "SpatialOmicsLab",
+   "title": "SpatialOmicsLab: an integrated research environment for AI co-scientists in spatial transcriptomics",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "spatial"
+   ],
+   "modality": "Spatial transcriptomics",
+   "key": "Research environment and co-scientist agent for reproducible spatial transcriptomics analysis, with procedural memory for adding tools.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.10.01.756049",
+    "code": "https://github.com/jiangyi01/SpatialOmicsLab"
+   },
+   "citation": "Jiang, Yi, Xiaowei Zhan, Peiran Quan, Ruheng Wang, Fangjiang Wu, Junhui Mi, Jia Yao et al. \"SpatialOmicsLab: an integrated research environment for AI co-scientists in spatial transcriptomics.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates",
+    "text"
+   ],
+   "outputs": [
+    "text"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.64898/2026.10.01.756049",
+    "https://github.com/jiangyi01/SpatialOmicsLab"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "jiangyi01/SpatialOmicsLab"
   },
   {
    "id": "spatium",
@@ -4923,6 +5648,49 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "QiangweiPeng/stVCR"
+  },
+  {
+   "id": "terra",
+   "kind": "model",
+   "name": "TERRA",
+   "title": "Multi-scale modeling of human tissues from spatial transcriptomics with TERRA",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "spatial",
+   "tags": [
+    "spatial",
+    "foundation-model",
+    "perturbation"
+   ],
+   "modality": "Spatial transcriptomics (human)",
+   "architecture": "Multi-scale spatial foundation model",
+   "key": "Spatial foundation model pretrained on 112 million human cells that gives cell-, niche- and tissue-level embeddings and predicts tissue responses in silico.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.07.29.741565",
+    "code": "https://github.com/Lotfollahi-lab/terra"
+   },
+   "model_card": {
+    "pretraining_cells": "112M"
+   },
+   "citation": "Birk, Sebastian, Mohammad Vali Sanian, Amirhossein Vahidi, Samuel Ogden, Daniyal J. Jafree, Adib Miraki Feriz, Carlo Leonardi et al. \"Multi-scale modeling of human tissues from spatial transcriptomics with TERRA.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "spatial-domain",
+    "perturbation-response"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.64898/2026.07.29.741565",
+    "https://github.com/Lotfollahi-lab/terra"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "Lotfollahi-lab/terra"
   },
   {
    "id": "tissueformer",
@@ -5383,6 +6151,44 @@
    "status": "preprint"
   },
   {
+   "id": "virtues",
+   "kind": "model",
+   "name": "VirTues",
+   "title": "The Virtual Tissues foundation model resolves spatial proteomics across scales",
+   "year": 2026,
+   "venue": "Nature",
+   "category": "proteomics",
+   "tags": [
+    "proteomics",
+    "spatial",
+    "foundation-model"
+   ],
+   "modality": "Spatial proteomics (variable marker panels)",
+   "architecture": "Marker-aware multi-scale foundation model",
+   "key": "Virtual Tissues: foundation model for spatial proteomics across panels, from proteins to tissues, with biomarkers that predict immunotherapy response.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41586-026-10884-y"
+   },
+   "citation": "Wenckstern, Johann, Eeshaan Jain, Benedikt von Querfurth, Yexiang Cheng, Kiril Vasilev, Matteo Pariset, Phil F. Cheng et al. \"The Virtual Tissues foundation model resolves spatial proteomics across scales.\" Nature 657, no. 8132 (2026): 744-754.",
+   "reviewed": false,
+   "inputs": [
+    "protein-abundance",
+    "spatial-coordinates"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label",
+    "disease-state"
+   ],
+   "code_status": "none-found",
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1038/s41586-026-10884-y"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
    "id": "x-cell",
    "kind": "model",
    "name": "X-Cell",
@@ -5787,6 +6593,43 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "bm2-lab/CausCell"
+  },
+  {
+   "id": "cell-dino",
+   "kind": "model",
+   "name": "Cell-DINO",
+   "title": "Cell-DINO: Self-supervised image-based embeddings for cell fluorescent microscopy",
+   "year": 2025,
+   "venue": "PLOS Computational Biology",
+   "category": "morphology",
+   "tags": [
+    "imaging",
+    "foundation-model"
+   ],
+   "modality": "Fluorescence microscopy (single cells)",
+   "architecture": "Self-supervised vision transformer (DINOv2)",
+   "key": "Applies self-supervised DINOv2 to fluorescence microscopy to learn single-cell morphology embeddings without annotations.",
+   "links": {
+    "paper": "https://doi.org/10.1371/journal.pcbi.1013828",
+    "code": "https://github.com/facebookresearch/dinov2"
+   },
+   "citation": "Moutakanni, Théo, Camille Couprie, Seungeun Yi, Michael Doron, Zitong S. Chen, Nikita Moshkov, Elouan Gardes et al. \"Cell-DINO: Self-supervised image-based embeddings for cell fluorescent microscopy.\" PLOS Computational Biology 21, no. 12 (2025): e1013828.",
+   "reviewed": false,
+   "inputs": [
+    "cell-image"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "architecture_family": "transformer-encoder",
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1371/journal.pcbi.1013828",
+    "https://github.com/facebookresearch/dinov2"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "facebookresearch/dinov2"
   },
   {
    "id": "cell-graphcompass",
@@ -6539,6 +7382,51 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "dmis-lab/CRADLE-VAE"
+  },
+  {
+   "id": "crisp",
+   "kind": "model",
+   "name": "CRISP",
+   "title": "Predicting drug responses of unseen cell types through transfer learning with foundation models",
+   "year": 2025,
+   "venue": "Nature Computational Science",
+   "category": "perturbation",
+   "tags": [
+    "perturbation",
+    "drug-response",
+    "foundation-model"
+   ],
+   "modality": "scRNA-seq (drug perturbation)",
+   "architecture": "Transfer learning on foundation-model embeddings",
+   "key": "Predicts drug responses in cell types never seen during training by transferring foundation-model representations.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s43588-025-00887-6",
+    "code": "https://github.com/ml4bio/CRISP"
+   },
+   "citation": "Wang, Yixuan, Xinyuan Liu, Yimin Fan, Binghui Xie, James Cheng, Kam Chung Wong, Peter Cheung et al. \"Predicting drug responses of unseen cell types through transfer learning with foundation models.\" Nature Computational Science 6, no. 1 (2025): 39-52.",
+   "reviewed": false,
+   "inputs": [
+    "expression",
+    "perturbation"
+   ],
+   "outputs": [
+    "perturbation-response"
+   ],
+   "perturbation_type": [
+    "chemical"
+   ],
+   "generalization": [
+    "unseen-cell-context",
+    "zero-shot"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1038/s43588-025-00887-6",
+    "https://github.com/ml4bio/CRISP"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "ml4bio/CRISP"
   },
   {
    "id": "crispr-gpt",
@@ -8998,7 +9886,8 @@
    "key": "Single-cell foundation model with tabular-structure-aware self-supervised pre-training, designed for privacy-preserving federated training.",
    "links": {
     "paper": "https://doi.org/10.52202/085713-3467",
-    "preprint": "https://doi.org/10.1101/2025.01.06.631427"
+    "preprint": "https://doi.org/10.1101/2025.01.06.631427",
+    "code": "https://github.com/aristoteleo/tabula"
    },
    "citation": "Ding, Jiayuan, Jianhui Lin, Shiyu Jiang, Yixin Wang, Ziyang Miao, Zhaoyu Fang, Jiliang Tang, Min Li, and Xiaojie Qiu. \"Tabula: A Tabular Self-Supervised Foundation Model for Single-Cell Transcriptomics.\" In The Thirty-ninth Annual Conference on Neural Information Processing Systems.",
    "reviewed": false,
@@ -9013,10 +9902,12 @@
    "added": "2026-06-02",
    "sources": [
     "https://doi.org/10.52202/085713-3467",
-    "https://doi.org/10.1101/2025.01.06.631427"
+    "https://doi.org/10.1101/2025.01.06.631427",
+    "https://arxiv.org/abs/2607.19400"
    ],
    "review_basis": "abstract",
-   "status": "published"
+   "status": "published",
+   "github": "aristoteleo/tabula"
   },
   {
    "id": "tabvi",
@@ -9433,6 +10324,44 @@
    "github": "genbio-ai/AIDO"
   },
   {
+   "id": "biodiscoveryagent",
+   "kind": "model",
+   "name": "BioDiscoveryAgent",
+   "title": "BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments",
+   "year": 2024,
+   "venue": "arXiv",
+   "category": "agents",
+   "tags": [
+    "agent",
+    "perturbation",
+    "llm"
+   ],
+   "modality": "Genetic perturbation screens",
+   "key": "LLM agent that designs genetic perturbation experiments, reasons about outcomes and searches literature to find genes with a target effect.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2405.17631",
+    "code": "https://github.com/snap-stanford/BioDiscoveryAgent"
+   },
+   "citation": "Roohani, Yusuf, Andrew Lee, Qian Huang, Jian Vora, Zachary Steinhart, Kexin Huang, Alexander Marson et al. \"BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments.\" arXiv preprint arXiv:2405.17631 (2024).",
+   "reviewed": false,
+   "inputs": [
+    "text",
+    "perturbation"
+   ],
+   "outputs": [
+    "gene-prioritization"
+   ],
+   "architecture_family": "agent",
+   "added": "2026-11-23",
+   "sources": [
+    "https://arxiv.org/abs/2405.17631",
+    "https://github.com/snap-stanford/BioDiscoveryAgent"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "snap-stanford/BioDiscoveryAgent"
+  },
+  {
    "id": "biolord",
    "kind": "model",
    "name": "biolord",
@@ -9731,6 +10660,52 @@
    "review_basis": "repo",
    "status": "preprint",
    "github": "PharMolix/LangCell"
+  },
+  {
+   "id": "maes-microscopy",
+   "kind": "model",
+   "name": "MAEs for microscopy",
+   "aliases": [
+    "Phenom-1"
+   ],
+   "title": "Masked Autoencoders for Microscopy are Scalable Learners of Cellular Biology",
+   "year": 2024,
+   "venue": "CVPR",
+   "category": "morphology",
+   "tags": [
+    "imaging",
+    "foundation-model",
+    "perturbation"
+   ],
+   "modality": "Cell microscopy (Cell Painting, perturbation screens)",
+   "architecture": "Masked autoencoder vision transformers",
+   "key": "Shows that masked-autoencoder vision transformers scale better than weakly supervised classifiers for featurising large microscopy perturbation screens.",
+   "links": {
+    "paper": "https://doi.org/10.1109/CVPR52733.2024.01117",
+    "preprint": "https://arxiv.org/abs/2404.10242",
+    "code": "https://github.com/recursionpharma/maes_microscopy"
+   },
+   "model_card": {
+    "pretraining_data": "RPI-93M microscopy images"
+   },
+   "citation": "Kraus, Oren, Kian Kenyon-Dean, Saber Saberian, Maryam Fallah, Peter McLean, Jess Leung, Vasudev Sharma et al. \"Masked Autoencoders for Microscopy are Scalable Learners of Cellular Biology.\" In Proceedings of 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) (2024): 11757-11768.",
+   "reviewed": false,
+   "inputs": [
+    "cell-image"
+   ],
+   "outputs": [
+    "cell-embedding"
+   ],
+   "architecture_family": "transformer-encoder",
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1109/CVPR52733.2024.01117",
+    "https://arxiv.org/abs/2404.10242",
+    "https://github.com/recursionpharma/maes_microscopy"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "recursionpharma/maes_microscopy"
   },
   {
    "id": "pertformer",
@@ -11319,6 +12294,31 @@
    "status": "published"
   },
   {
+   "id": "users-roadmap-fms-single-cell-spatial",
+   "kind": "resource",
+   "title": "A User’s Roadmap to Foundation Models on Single-Cell and Spatial-Omics – Cell Type and Lineage applications",
+   "year": 2026,
+   "venue": "National Science Review",
+   "type": "survey",
+   "tags": [
+    "scrna-seq",
+    "spatial",
+    "foundation-model"
+   ],
+   "key": "User-oriented roadmap to foundation models for single-cell and spatial omics, focused on cell type and lineage applications.",
+   "links": {
+    "paper": "https://doi.org/10.1093/nsr/nwag371"
+   },
+   "citation": "Yang, Qixing, Yijin Zhou, Huanlin Zhang, Mingyu Cai, Jie Hong, Kai Li, Xuping Xie et al. \"A User’s Roadmap to Foundation Models on Single-Cell and Spatial-Omics – Cell Type and Lineage applications.\" National Science Review (2026).",
+   "reviewed": false,
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1093/nsr/nwag371"
+   ],
+   "review_basis": "metadata",
+   "status": "published"
+  },
+  {
    "id": "a-world-model-of-the-virtual-cell",
    "kind": "resource",
    "title": "A world model of the virtual cell",
@@ -11600,6 +12600,33 @@
    ],
    "review_basis": "abstract",
    "status": "preprint"
+  },
+  {
+   "id": "cell-painting-rag-audit",
+   "kind": "resource",
+   "title": "Auditing Retrieval-Augmented LLM Hypotheses for Longitudinal Cell Painting Morphology",
+   "year": 2026,
+   "venue": "ACM-BCB",
+   "type": "benchmark",
+   "tags": [
+    "imaging",
+    "llm",
+    "perturbation"
+   ],
+   "key": "Audits retrieval-augmented LLM hypotheses about longitudinal Cell Painting morphology against measured data.",
+   "links": {
+    "paper": "https://doi.org/10.1145/3807503.3819448",
+    "preprint": "https://arxiv.org/abs/2607.19415"
+   },
+   "citation": "Park, Gilchan, Guang Zhao, Byung-Jun Yoon, and Shinjae Yoo. \"Auditing Retrieval-Augmented LLM Hypotheses for Longitudinal Cell Painting Morphology.\" In Proceedings of Proceedings of the 17th ACM International Conference on Bioinformatics, Computational Biology and Health Informatics (2026): 1-6.",
+   "reviewed": false,
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1145/3807503.3819448",
+    "https://arxiv.org/abs/2607.19415"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
   },
   {
    "id": "kg-priors-vs-scfms-perturb-seq",
@@ -12148,6 +13175,38 @@
    "status": "published"
   },
   {
+   "id": "cellaudit",
+   "kind": "resource",
+   "aliases": [
+    "CellAudit"
+   ],
+   "title": "Discover, Falsify, Revise: Auditing Input-Use Claims from Source Code to Predictive Contribution in Agent-Discovered Cell Models",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "virtual-cell",
+    "perturbation",
+    "agent"
+   ],
+   "key": "CellAudit: checks whether agent-discovered virtual-cell predictors actually use the perturbation inputs they claim to use.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2609.27234",
+    "code": "https://github.com/limengran98/CellAudit"
+   },
+   "findings": "Predictive generalisation need not imply that input-use claims generalise: dose contribution held up, compound identity did not.",
+   "citation": "Li, Mengran, Bo Li, Chengyang Zhang, Yang Yan, Jinfeng Xu, and Zhenchao Tang. \"Discover, Falsify, Revise: Auditing Input-Use Claims from Source Code to Predictive Contribution in Agent-Discovered Cell Models.\" arXiv preprint arXiv:2609.27234 (2026).",
+   "reviewed": false,
+   "added": "2026-11-23",
+   "sources": [
+    "https://arxiv.org/abs/2609.27234",
+    "https://github.com/limengran98/CellAudit"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "limengran98/CellAudit"
+  },
+  {
    "id": "hematopoietic-manifold-scgpt",
    "kind": "resource",
    "title": "Discovery of a Hematopoietic Manifold in scGPT Yields a Method for Extracting Performant Algorithms from Biological Foundation Model Internals",
@@ -12241,6 +13300,31 @@
    ],
    "review_basis": "abstract",
    "status": "preprint"
+  },
+  {
+   "id": "emerging-frontiers-ai-single-cell-genomics",
+   "kind": "resource",
+   "title": "Emerging frontiers for AI in single-cell genomics",
+   "year": 2026,
+   "venue": "Molecular Cell",
+   "type": "survey",
+   "tags": [
+    "scrna-seq",
+    "foundation-model",
+    "virtual-cell"
+   ],
+   "key": "Review of single-cell embedding and foundation models, multiome regulatory genomics and virtual-cell models learned from Perturb-seq.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.molcel.2026.09.014"
+   },
+   "citation": "Mitra, Sneha, Jiaxin Li, and Christina S. Leslie. \"Emerging frontiers for AI in single-cell genomics.\" Molecular Cell 86, no. 20 (2026): 4131-4148.",
+   "reviewed": false,
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1016/j.molcel.2026.09.014"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
   },
   {
    "id": "evaluating-perturbation-models-not-straightforward",
@@ -12726,6 +13810,32 @@
    "github": "hnu-vis/CELLens"
   },
   {
+   "id": "in-situ-graphene-seq",
+   "kind": "resource",
+   "title": "In situ graphene-seq: spatial transcriptomics and chronic electrophysiological characterization of tissue microenvironments",
+   "year": 2026,
+   "venue": "Nature Communications",
+   "type": "dataset",
+   "tags": [
+    "spatial"
+   ],
+   "key": "In situ graphene-seq: assay combining chronic electrophysiology with spatial transcriptomics in the same tissue.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41467-026-73883-7",
+    "code": "https://github.com/LiuLab-Bioelectronics-Harvard/Graphene_seq"
+   },
+   "citation": "Lee, Jaeyong, Wenbo Wang, Qiang Li, Zuwan Lin, Ren Liu, Zefang Tang, Junya Aoyama et al. \"In situ graphene-seq: spatial transcriptomics and chronic electrophysiological characterization of tissue microenvironments.\" Nature Communications 17, no. 1 (2026).",
+   "reviewed": false,
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1038/s41467-026-73883-7",
+    "https://github.com/LiuLab-Bioelectronics-Harvard/Graphene_seq"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "LiuLab-Bioelectronics-Harvard/Graphene_seq"
+  },
+  {
    "id": "interpretation-extrapolation-and-perturbation-of-single",
    "kind": "resource",
    "title": "Interpretation, extrapolation and perturbation of single cells",
@@ -12944,6 +14054,36 @@
    ],
    "review_basis": "abstract",
    "status": "preprint"
+  },
+  {
+   "id": "pangea",
+   "kind": "resource",
+   "aliases": [
+    "PANGEA"
+   ],
+   "title": "PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases",
+   "year": 2026,
+   "venue": "Nature Methods",
+   "type": "dataset",
+   "tags": [
+    "scrna-seq",
+    "foundation-model"
+   ],
+   "key": "PANGEA: remapped atlas of 12.6 million human cells with a hierarchical cell classification, used to profile multicellular responses across diseases.",
+   "links": {
+    "paper": "https://doi.org/10.1038/s41592-026-03295-4",
+    "code": "https://github.com/srkim727/pangeapy"
+   },
+   "citation": "Kim, Seongryong, Sungmin Cheong, Suho Lee, Yeju Kim, Ronald Xie, In Gyeong Koh, Jeongwoo La et al. \"PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases.\" Nature Methods (2026).",
+   "reviewed": false,
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1038/s41592-026-03295-4",
+    "https://github.com/srkim727/pangeapy"
+   ],
+   "review_basis": "abstract",
+   "status": "published",
+   "github": "srkim727/pangeapy"
   },
   {
    "id": "parameter-free-representations-outperform-scfms",
@@ -13365,6 +14505,37 @@
    ],
    "review_basis": "abstract",
    "status": "published"
+  },
+  {
+   "id": "scbench-long",
+   "kind": "resource",
+   "aliases": [
+    "scBench-Long"
+   ],
+   "title": "scBench-Long: Verifiable Benchmarking of Long-Horizon Single-Cell Biology",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "agent",
+    "scrna-seq"
+   ],
+   "key": "scBench-Long: benchmark where agents must recover published conclusions from raw single-cell data in long, open-ended analyses.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2606.26563",
+    "code": "https://github.com/latchbio/scbench-long"
+   },
+   "findings": "The best model-harness pair passed only 16 of 63 runs (25%).",
+   "citation": "Diks, Ian, Zhen Yang, Arjun Banerjee, Tim Proctor, and Kenny Workman. \"scBench-Long: Verifiable Benchmarking of Long-Horizon Single-Cell Biology.\" arXiv preprint arXiv:2606.26563 (2026).",
+   "reviewed": false,
+   "added": "2026-11-23",
+   "sources": [
+    "https://arxiv.org/abs/2606.26563",
+    "https://github.com/latchbio/scbench-long"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "latchbio/scbench-long"
   },
   {
    "id": "scclubench",
@@ -14158,6 +15329,34 @@
    "github": "Biodyn-AI/hypotheses"
   },
   {
+   "id": "biological-input-use",
+   "kind": "resource",
+   "title": "When Do Biological Reasoning Models Use Their Biological Inputs?",
+   "year": 2026,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "llm",
+    "foundation-model"
+   ],
+   "key": "Perturbs one biological input of reasoning models at a time to test whether their answers actually depend on foundation-model representations.",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2610.00898",
+    "code": "https://github.com/mims-harvard/bio-mirage"
+   },
+   "findings": "Higher accuracy does not mean the biological inputs contribute; current post-training does not ensure that foundation-model representations are used.",
+   "citation": "Fang, Ada, Nikitha Thoduguli, Lukas Fesser, Hanlin Zhang, Sham M. Kakade, and Marinka Zitnik. \"When Do Biological Reasoning Models Use Their Biological Inputs?\" arXiv preprint arXiv:2610.00898 (2026).",
+   "reviewed": false,
+   "added": "2026-11-23",
+   "sources": [
+    "https://arxiv.org/abs/2610.00898",
+    "https://github.com/mims-harvard/bio-mirage"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "mims-harvard/bio-mirage"
+  },
+  {
    "id": "when-does-grn-inference-break",
    "kind": "resource",
    "title": "When Does Gene Regulatory Network Inference Break? A Controlled Diagnostic Study of Causal and Correlational Methods on Single-Cell Data",
@@ -14759,6 +15958,37 @@
    "sources": [],
    "review_basis": "metadata",
    "status": "published"
+  },
+  {
+   "id": "perturbqa",
+   "kind": "resource",
+   "aliases": [
+    "PerturbQA"
+   ],
+   "title": "Contextualizing biological perturbation experiments through language",
+   "year": 2025,
+   "venue": "arXiv",
+   "type": "benchmark",
+   "tags": [
+    "perturbation",
+    "llm"
+   ],
+   "key": "PerturbQA: language benchmark of perturbation-experiment questions, with a simple retrieve-and-answer LLM baseline (Summer).",
+   "links": {
+    "preprint": "https://arxiv.org/abs/2502.21290",
+    "code": "https://github.com/Genentech/PerturbQA"
+   },
+   "findings": "Current perturbation models and standard LLM reasoning perform poorly; the simple domain-informed baseline matches or beats them.",
+   "citation": "Wu, Menghua, Russell Littman, Jacob Levine, Lin Qiu, Tommaso Biancalani, David Richmond, and Jan-Christian Huetter. \"Contextualizing biological perturbation experiments through language.\" arXiv preprint arXiv:2502.21290 (2025).",
+   "reviewed": false,
+   "added": "2026-11-23",
+   "sources": [
+    "https://arxiv.org/abs/2502.21290",
+    "https://github.com/Genentech/PerturbQA"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "Genentech/PerturbQA"
   },
   {
    "id": "deep-learning-based-genetic-perturbation-models",
@@ -16189,6 +17419,31 @@
    "added": "2026-06-02",
    "sources": [
     "https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
+   "id": "ai-empowered-perturbation-proteomics",
+   "kind": "resource",
+   "title": "AI-empowered perturbation proteomics for complex biological systems",
+   "year": 2024,
+   "venue": "Cell Genomics",
+   "type": "perspective",
+   "tags": [
+    "perturbation",
+    "proteomics",
+    "virtual-cell"
+   ],
+   "key": "Perspective on perturbation proteomics and a perturbation-measurement-modelling pipeline for building predictive models.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.xgen.2024.100691"
+   },
+   "citation": "Qian, Liujia, Rui Sun, Ruedi Aebersold, Peter Bühlmann, Chris Sander, and Tiannan Guo. \"AI-empowered perturbation proteomics for complex biological systems.\" Cell Genomics 4, no. 11 (2024): 100691.",
+   "reviewed": false,
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1016/j.xgen.2024.100691"
    ],
    "review_basis": "abstract",
    "status": "published"

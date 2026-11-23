@@ -1,0 +1,32 @@
+id: biodiscoveryagent
+kind: model
+name: BioDiscoveryAgent
+title: 'BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments'
+year: 2024
+venue: arXiv
+category: agents
+tags:
+- agent
+- perturbation
+- llm
+modality: Genetic perturbation screens
+inputs:
+- text
+- perturbation
+outputs:
+- gene-prioritization
+architecture_family: agent
+key: LLM agent that designs genetic perturbation experiments, reasons about outcomes and searches literature
+  to find genes with a target effect.
+links:
+  preprint: https://arxiv.org/abs/2405.17631
+  code: https://github.com/snap-stanford/BioDiscoveryAgent
+citation: 'Roohani, Yusuf, Andrew Lee, Qian Huang, Jian Vora, Zachary Steinhart, Kexin Huang, Alexander
+  Marson et al. "BioDiscoveryAgent: An AI Agent for Designing Genetic Perturbation Experiments." arXiv
+  preprint arXiv:2405.17631 (2024).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2405.17631
+- https://github.com/snap-stanford/BioDiscoveryAgent
+review_basis: abstract
+reviewed: false

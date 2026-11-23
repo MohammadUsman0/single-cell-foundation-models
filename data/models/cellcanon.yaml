@@ -1,0 +1,36 @@
+id: cellcanon
+kind: model
+name: CellCanon
+title: 'CellCanon: An Agentic Cellular World Model for Prediction, Explanation, and Observation-Driven
+  Updating'
+year: 2026
+venue: arXiv
+category: agents
+tags:
+- agent
+- virtual-cell
+- perturbation
+- llm
+modality: Single-cell perturbation data + evidence
+inputs:
+- expression
+- perturbation
+- text
+outputs:
+- perturbation-response
+- text
+architecture_family: agent
+key: Agentic cellular world model that predicts single-cell expression, explains it with evidence and
+  updates from new observations without retraining.
+links:
+  preprint: https://arxiv.org/abs/2611.05890
+  code: https://github.com/ZhaokangLiang123/CellCanon
+citation: 'Liang, Zhaokang, Shuyang Zhuang, Xiaoran Jiao, and Hao Chen. "CellCanon: An Agentic Cellular
+  World Model for Prediction, Explanation, and Observation-Driven Updating." arXiv preprint arXiv:2611.05890
+  (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2611.05890
+- https://github.com/ZhaokangLiang123/CellCanon
+review_basis: abstract
+reviewed: false

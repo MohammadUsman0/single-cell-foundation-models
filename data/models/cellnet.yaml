@@ -1,0 +1,33 @@
+id: cellnet
+kind: model
+name: CellNet
+title: Panoramic modelling of single-cell transcriptomes at scale with CellNet
+year: 2026
+venue: arXiv
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+- dna-sequence
+modality: scRNA-seq (whole transcriptome)
+architecture: Foundation model with DNA-derived gene representations
+inputs:
+- expression
+- dna-sequence
+outputs:
+- cell-embedding
+- cell-type-label
+key: Single-cell foundation model that uses DNA-derived gene representations to model whole transcriptomes,
+  including non-coding RNAs beyond measured panels.
+links:
+  preprint: https://arxiv.org/abs/2610.21943
+  code: https://github.com/daydayup-xq/CellNet
+citation: Lian, Xiaoqing, Pei Liu, Jiahui Tan, Luoda Tan, Chaoyi Li, Zhonghao Ren, Hongxin Xiang et al.
+  "Panoramic modelling of single-cell transcriptomes at scale with CellNet." arXiv preprint arXiv:2610.21943
+  (2026).
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2610.21943
+- https://github.com/daydayup-xq/CellNet
+review_basis: abstract
+reviewed: false

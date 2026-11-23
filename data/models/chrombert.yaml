@@ -1,0 +1,35 @@
+id: chrombert
+kind: model
+name: ChromBERT
+title: 'ChromBERT: A foundation model for learning interpretable representations for context-specific
+  transcriptional regulatory networks'
+year: 2026
+venue: Cell Genomics
+category: epigenomics
+tags:
+- gene-regulation
+- foundation-model
+- interpretability
+modality: ChIP-seq (~1,000 transcription regulators)
+architecture: BERT-style model over regulator co-association
+inputs:
+- chromatin-accessibility
+outputs:
+- gene-regulatory-network
+architecture_family: transformer-encoder
+key: Foundation model pretrained on large-scale human ChIP-seq that learns context-specific transcriptional
+  regulatory networks without new ChIP-seq experiments.
+links:
+  paper: https://doi.org/10.1016/j.xgen.2025.101130
+  preprint: https://doi.org/10.1101/2025.03.29.646077
+  code: https://github.com/TongjiZhanglab/ChromBERT
+citation: 'Yu, Zhaowei, Dongxu Yang, Qianqian Chen, Yuxuan Zhang, Zhanhao Li, Yucheng Wang, Chenfei Wang
+  et al. "ChromBERT: A foundation model for learning interpretable representations for context-specific
+  transcriptional regulatory networks." Cell Genomics 6, no. 4 (2026): 101130.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.xgen.2025.101130
+- https://doi.org/10.1101/2025.03.29.646077
+- https://github.com/TongjiZhanglab/ChromBERT
+review_basis: abstract
+reviewed: false
