@@ -31,7 +31,11 @@ with the paper link and we'll add it.
 **Out of scope**
 
 - Tools whose only purpose is LLM-based cell-type annotation.
-- Models that predict spatial expression from histology without being foundation models.
+- Single-task models that predict spatial expression from histology. A histology–molecular model
+  is in scope only if its paper reports **both** pretraining across many tissues, organs or cohorts
+  **and** reusable representations for more than one downstream task.
+- General single-cell or spatial analysis methods (integration, registration, cell–cell signalling,
+  GRN inference, trajectories) unless they are themselves foundation, virtual-cell or perturbation models.
 - Application papers that use an existing model without changing it.
 
 ## Layout

@@ -235,6 +235,26 @@ ID  - aido-tissue
 ER  - 
 
 TY  - UNPB
+TI  - ALHENA, an H&E encoder distilled from transcriptomic foundation models for multi-scale slide analysis
+AU  - Giraud-Sauveur, Félicie
+AU  - Blampey, Quentin
+AU  - Marza, Pierre
+AU  - Benkirane, Hakim
+AU  - Vakalopoulou, Maria
+AU  - Cournède, Paul-Henry
+AU  - Christodoulidis, Stergios
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.10.20.760439
+UR  - https://doi.org/10.64898/2026.10.20.760439
+KW  - histology
+KW  - spatial
+KW  - foundation-model
+AB  - H&E encoder distilled from frozen transcriptomic foundation-model embeddings so that H&E alone yields cell and tile embeddings for cell typing and atlas label transfer.
+ID  - alhena
+ER  - 
+
+TY  - UNPB
 TI  - Towards building a World Model to simulate perturbation-induced cellular dynamics by AlphaCell
 AU  - Chuai, Guohui
 AU  - Chen, Xiaohan
@@ -825,6 +845,25 @@ KW  - foundation-model
 KW  - cross-species
 AB  - Cross-species foundation model for whole-brain spatial transcriptomics, trained on four species and five platforms.
 ID  - brainbeacon
+ER  - 
+
+TY  - UNPB
+TI  - BRIDGE: A Multi-organ Histo-ST Foundation Model Enables Virtual Spatial Transcriptomics for Enhanced Few-shot Cancer Diagnosis
+AU  - Liang, Zhuo
+AU  - Zhao, Weiqin
+AU  - Wang, Fuying
+AU  - Chen, Guangyong
+AU  - Huang, Yuanhua
+AU  - Yu, Lequan
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.05.05.722971
+UR  - https://doi.org/10.64898/2026.05.05.722971
+KW  - histology
+KW  - spatial
+KW  - foundation-model
+AB  - Multi-organ histology-to-spatial-transcriptomics model designed for few-shot settings, whose virtual transcriptomes support diagnosis and prognosis.
+ID  - bridge-histo-st
 ER  - 
 
 TY  - UNPB
@@ -2196,6 +2235,24 @@ DO  - 10.1101/2025.10.20.683304
 UR  - https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1
 KW  - perturbation
 ID  - deep-learning-based-genetic-perturbation-models
+ER  - 
+
+TY  - UNPB
+TI  - DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology
+AU  - Nonchev, Kalin
+AU  - Dawo, Sebastian
+AU  - Silina, Karina
+AU  - Koelzer, Viktor H
+AU  - Rätsch, Gunnar
+PY  - 2026
+T2  - medRxiv
+DO  - 10.64898/2026.06.19.26356060
+UR  - https://doi.org/10.64898/2026.06.19.26356060
+KW  - histology
+KW  - spatial
+KW  - foundation-model
+AB  - Predicts transcriptome-wide spatial expression from histology by representing genes with embeddings from other foundation models; built a virtual atlas of 28,664 slides across 32 cancers.
+ID  - deepspot-m
 ER  - 
 
 TY  - JOUR

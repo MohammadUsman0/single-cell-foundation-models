@@ -2,7 +2,7 @@
  "generated": "2026-11-23",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
-  "models": 296,
+  "models": 299,
   "resources": 236,
   "venues": 19
  },
@@ -570,6 +570,44 @@
    "github": "Wenyuan-AI4science/AetherCell"
   },
   {
+   "id": "alhena",
+   "kind": "model",
+   "name": "ALHENA",
+   "title": "ALHENA, an H&E encoder distilled from transcriptomic foundation models for multi-scale slide analysis",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "multimodal",
+   "tags": [
+    "histology",
+    "spatial",
+    "foundation-model"
+   ],
+   "modality": "H&E histology (trained with paired spatial transcriptomics)",
+   "architecture": "H&E encoder distilled from transcriptomic foundation models",
+   "key": "H&E encoder distilled from frozen transcriptomic foundation-model embeddings so that H&E alone yields cell and tile embeddings for cell typing and atlas label transfer.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.10.20.760439",
+    "code": "https://github.com/prism-oncology/ALHENA"
+   },
+   "citation": "Giraud-Sauveur, Félicie, Quentin Blampey, Pierre Marza, Hakim Benkirane, Maria Vakalopoulou, Paul-Henry Cournède, and Stergios Christodoulidis. \"ALHENA, an H&E encoder distilled from transcriptomic foundation models for multi-scale slide analysis.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "histology-image"
+   ],
+   "outputs": [
+    "cell-embedding",
+    "cell-type-label"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.64898/2026.10.20.760439",
+    "https://github.com/prism-oncology/ALHENA"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "prism-oncology/ALHENA"
+  },
+  {
    "id": "alphacell",
    "kind": "model",
    "name": "AlphaCell",
@@ -727,6 +765,44 @@
    "review_basis": "abstract",
    "status": "preprint",
    "github": "NiklasBrunn/blueprint-embedding"
+  },
+  {
+   "id": "bridge-histo-st",
+   "kind": "model",
+   "name": "BRIDGE",
+   "title": "BRIDGE: A Multi-organ Histo-ST Foundation Model Enables Virtual Spatial Transcriptomics for Enhanced Few-shot Cancer Diagnosis",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "multimodal",
+   "tags": [
+    "histology",
+    "spatial",
+    "foundation-model"
+   ],
+   "modality": "Histology + spatial transcriptomics (multi-organ)",
+   "architecture": "Multi-organ histology-transcriptomics foundation model",
+   "key": "Multi-organ histology-to-spatial-transcriptomics model designed for few-shot settings, whose virtual transcriptomes support diagnosis and prognosis.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.05.05.722971",
+    "code": "https://github.com/tracy666/BRIDGE"
+   },
+   "citation": "Liang, Zhuo, Weiqin Zhao, Fuying Wang, Guangyong Chen, Yuanhua Huang, and Lequan Yu. \"BRIDGE: A Multi-organ Histo-ST Foundation Model Enables Virtual Spatial Transcriptomics for Enhanced Few-shot Cancer Diagnosis.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "histology-image"
+   ],
+   "outputs": [
+    "expression-prediction",
+    "disease-state"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.64898/2026.05.05.722971",
+    "https://github.com/tracy666/BRIDGE"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "tracy666/BRIDGE"
   },
   {
    "id": "brieflow-auto",
@@ -1687,6 +1763,43 @@
    "review_basis": "abstract",
    "status": "published",
    "github": "bliulab/DECANT"
+  },
+  {
+   "id": "deepspot-m",
+   "kind": "model",
+   "name": "DeepSpot-M",
+   "title": "DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology",
+   "year": 2026,
+   "venue": "medRxiv",
+   "category": "multimodal",
+   "tags": [
+    "histology",
+    "spatial",
+    "foundation-model"
+   ],
+   "modality": "Histology + spatial transcriptomics (pan-cancer)",
+   "architecture": "Multimodal model with gene embeddings from DNA, RNA and protein foundation models",
+   "key": "Predicts transcriptome-wide spatial expression from histology by representing genes with embeddings from other foundation models; built a virtual atlas of 28,664 slides across 32 cancers.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.06.19.26356060",
+    "code": "https://github.com/ratschlab/DeepSpotM"
+   },
+   "citation": "Nonchev, Kalin, Sebastian Dawo, Karina Silina, Viktor H Koelzer, and Gunnar Rätsch. \"DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology.\" bioRxiv (2026).",
+   "reviewed": false,
+   "inputs": [
+    "histology-image"
+   ],
+   "outputs": [
+    "expression-prediction"
+   ],
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.64898/2026.06.19.26356060",
+    "https://github.com/ratschlab/DeepSpotM"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "ratschlab/DeepSpotM"
   },
   {
    "id": "departures",

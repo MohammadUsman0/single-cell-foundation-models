@@ -13,7 +13,7 @@
 
 For each model, the catalogue aims to record what it is, whether you can use it (code, weights, license) and what benchmarks found about it. Titles, years, venues and links are verified against Crossref, OpenAlex, arXiv and bioRxiv with [`scripts/verify.py`](scripts/verify.py).
 
-**296 models** (243 with code) · **236 resources** · **19 venues** · updated 2026-11-23
+**299 models** (246 with code) · **236 resources** · **19 venues** · updated 2026-11-23
 
 Each entry: **name** · title (**venue year**) · tags · links. Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).
 
@@ -24,7 +24,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 | Added | Models | Resources |
 |---|---|---|
-| 2026-11-23 | 24 | 10 |
+| 2026-11-23 | 27 | 10 |
 | 2026-10-22 | 102 | 100 |
 | 2026-06-02 | 170 | 126 |
 
@@ -37,7 +37,7 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - [scRNA-seq / Transcriptomics Foundation Models](#scrna-seq--transcriptomics-foundation-models) (42)
 - [Spatial & Spatial Multi-omics](#spatial--spatial-multi-omics) (26)
 - [Epigenomics & Chromatin Accessibility (scATAC)](#epigenomics--chromatin-accessibility-scatac) (9)
-- [Multimodal & Multi-omics Integration](#multimodal--multi-omics-integration) (17)
+- [Multimodal & Multi-omics Integration](#multimodal--multi-omics-integration) (20)
 - [Proteomics & Protein-level Models](#proteomics--protein-level-models) (11)
 - [Sequence-to-Expression & Regulatory Genomics](#sequence-to-expression--regulatory-genomics) (4)
 - [Gene Regulatory Networks & Graph-based Models](#gene-regulatory-networks--graph-based-models) (8)
@@ -158,8 +158,11 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 
 *Models that jointly encode several modalities.*
 
+- **ALHENA** · ALHENA, an H&E encoder distilled from transcriptomic foundation models for multi-scale slide analysis (**bioRxiv 2026**) · `Histology` `Spatial` `Foundation model` · [[code](https://github.com/prism-oncology/ALHENA)] ![stars](https://img.shields.io/github/stars/prism-oncology/ALHENA?style=flat-square&label=%E2%98%85)
+- **BRIDGE** · BRIDGE: A Multi-organ Histo-ST Foundation Model Enables Virtual Spatial Transcriptomics for Enhanced Few-shot Cancer Diagnosis (**bioRxiv 2026**) · `Histology` `Spatial` `Foundation model` · [[code](https://github.com/tracy666/BRIDGE)] ![stars](https://img.shields.io/github/stars/tracy666/BRIDGE?style=flat-square&label=%E2%98%85)
 - **CAPTAIN** · CAPTAIN: a multimodal foundation model pretrained on co-assayed single-cell RNA and protein (**Nature Communications 2026**) · `Multi-omics` `Proteomics` `scRNA-seq` · [[paper](https://doi.org/10.1038/s41467-026-72882-y)] [[code](https://github.com/iamjiboya/CAPTAIN)] ![stars](https://img.shields.io/github/stars/iamjiboya/CAPTAIN?style=flat-square&label=%E2%98%85)
 - **CLM-X** · CLM-X: A multimodal single-cell foundation model with flexible multi-way Transformer for unified scRNA-seq and scATAC-seq analysis (**bioRxiv 2026**) · `Multi-omics` `scRNA-seq` · [[paper](https://www.biorxiv.org/content/10.64898/2026.02.17.704943v1)] [[code](https://github.com/HIM-AIM/CLM-X)] ![stars](https://img.shields.io/github/stars/HIM-AIM/CLM-X?style=flat-square&label=%E2%98%85)
+- **DeepSpot-M** · DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology (**medRxiv 2026**) · `Histology` `Spatial` `Foundation model` · [[code](https://github.com/ratschlab/DeepSpotM)] ![stars](https://img.shields.io/github/stars/ratschlab/DeepSpotM?style=flat-square&label=%E2%98%85)
 - **HoloCell** · HoloCell: A Generative Foundation Model for Holistic Cellular Modeling (**bioRxiv 2026**) · `Multi-omics` `Generative` `Foundation model` `Proteomics` · [[code](https://github.com/bjzgcai/HoloCell)] ![stars](https://img.shields.io/github/stars/bjzgcai/HoloCell?style=flat-square&label=%E2%98%85)
 - **PETRI** · PETRI: Learning Unified Cell Embeddings from Unpaired Modalities via Early-Fusion Joint Reconstruction (**ICLR 2026**, poster) · `Multi-omics` · [[paper](https://openreview.net/forum?id=Vu8YXDooG5)]
 - **PIANO** · PIANO enables generative modeling of gene expression and scales multi-omics integration to 100 million cells (**Cell Reports Methods 2026**) · `Multi-omics` `scRNA-seq` `Spatial` `Generative` · [[paper](https://doi.org/10.1016/j.crmeth.2026.101661)] [[code](https://github.com/NingWang1729/piano)] ![stars](https://img.shields.io/github/stars/NingWang1729/piano?style=flat-square&label=%E2%98%85)
