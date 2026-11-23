@@ -1,0 +1,33 @@
+id: sce2tm
+kind: model
+name: scE2TM
+title: scE2TM improves single-cell embedding interpretability and reveals cellular perturbation signatures
+year: 2026
+venue: Nature Communications
+category: scrna
+tags:
+- scrna-seq
+- interpretability
+- foundation-model
+modality: scRNA-seq
+architecture: Embedded topic model guided by foundation-model knowledge
+inputs:
+- expression
+outputs:
+- cell-embedding
+key: Interpretable embedded topic model that uses single-cell foundation-model knowledge and simulates
+  topic perturbations toward stimulated states.
+links:
+  paper: https://doi.org/10.1038/s41467-026-76825-5
+  preprint: https://arxiv.org/abs/2507.08355
+  code: https://github.com/li-lab-mcgill/scE2TM
+citation: Chen, Hegang, Yuyin Lu, Yifan Zhao, Zhiming Dai, Fu Lee Wang, Qing Li, Yanghui Rao et al. "scE2TM
+  improves single-cell embedding interpretability and reveals cellular perturbation signatures." Nature
+  Communications 17, no. 1 (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41467-026-76825-5
+- https://arxiv.org/abs/2507.08355
+- https://github.com/li-lab-mcgill/scE2TM
+review_basis: abstract
+reviewed: false

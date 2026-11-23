@@ -1,0 +1,25 @@
+id: sparcs
+kind: resource
+type: dataset
+title: SPARCS enables scalable recovery of complex image-based phenotypes for genetic screening
+year: 2026
+venue: Cell
+tags:
+- perturbation
+- imaging
+key: 'SPARCS: microscopy-based forward genetic screening platform for complex image phenotypes with proteome
+  readout of hit cells.'
+links:
+  paper: https://doi.org/10.1016/j.cell.2026.09.021
+  preprint: https://doi.org/10.1101/2023.06.01.542416
+  code: https://github.com/MannLabs/SPARCSpy
+citation: Schmacke, Niklas A., Sophia C. Mädler, Georg Wallmann, Andreas Metousis, Varvara Varlamova,
+  Sophia Steigerwald, Sarah B. Christ et al. "SPARCS enables scalable recovery of complex image-based
+  phenotypes for genetic screening." Cell (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.cell.2026.09.021
+- https://doi.org/10.1101/2023.06.01.542416
+- https://github.com/MannLabs/SPARCSpy
+review_basis: abstract
+reviewed: false

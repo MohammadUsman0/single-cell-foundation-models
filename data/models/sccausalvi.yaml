@@ -1,0 +1,37 @@
+id: sccausalvi
+kind: model
+name: scCausalVI
+title: scCausalVI disentangles single-cell perturbation responses with causality-aware generative model
+year: 2025
+venue: Cell Systems
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: scRNA-seq (treatment vs control)
+architecture: Causality-aware generative model
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- cell-embedding
+architecture_family: vae
+generalization:
+- unseen-cell-context
+key: Separates intrinsic cell state from treatment effects in a causality-aware generative model.
+links:
+  paper: https://doi.org/10.1016/j.cels.2025.101443
+  preprint: https://doi.org/10.1101/2025.02.02.636136
+  code: https://github.com/ShaokunAn/scCausalVI
+citation: 'An, Shaokun, Jae-Won Cho, Kai Cao, Jiankang Xiong, Martin Hemberg, and Lin Wan. "scCausalVI
+  disentangles single-cell perturbation responses with causality-aware generative model." Cell Systems
+  16, no. 11 (2025): 101443.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.cels.2025.101443
+- https://doi.org/10.1101/2025.02.02.636136
+- https://github.com/ShaokunAn/scCausalVI
+review_basis: abstract
+reviewed: false

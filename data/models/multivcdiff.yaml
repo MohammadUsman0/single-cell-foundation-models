@@ -1,0 +1,37 @@
+id: multivcdiff
+kind: model
+name: MultiVCDiff
+title: A generative framework for predicting cellular morphological and transcriptomic perturbation responses
+year: 2026
+venue: Cell Reports Methods
+category: perturbation
+tags:
+- perturbation
+- imaging
+- generative
+- virtual-cell
+modality: Cell morphology + transcriptomics (drug)
+architecture: Multimodal generative diffusion
+inputs:
+- perturbation
+outputs:
+- image
+- perturbation-response
+architecture_family: diffusion
+perturbation_type:
+- chemical
+key: Diffusion model that jointly generates cell-morphology images and expression signatures for de novo
+  virtual drug screening.
+links:
+  paper: https://doi.org/10.1016/j.crmeth.2026.101459
+  code: https://github.com/prsigma/MultiVCDiff
+citation: 'Peng, Rui, Ziru Liu, Yuanxu Gao, and Jinzhuo Wang. "A generative framework for predicting cellular
+  morphological and transcriptomic perturbation responses." Cell Reports Methods 6, no. 7 (2026): 101459.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.crmeth.2026.101459
+- https://github.com/prsigma/MultiVCDiff
+review_basis: abstract
+reviewed: false
+review_notes:
+- Name taken from the abstract (MultiVCDiff).

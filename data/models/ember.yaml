@@ -1,0 +1,36 @@
+id: ember
+kind: model
+name: EMBER
+title: 'EMBER: Contextualized gene representations enable compositional prediction across cellular perturbations'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- foundation-model
+- scrna-seq
+modality: Single-cell and perturbation data
+architecture: Gene-centric foundation model with contextual gene embeddings
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- gene-embedding
+perturbation_type:
+- genetic
+- chemical
+- combination
+key: Gene-centric foundation model whose context-dependent gene embeddings are reused to predict single
+  and combined genetic and drug perturbations.
+links:
+  preprint: https://doi.org/10.64898/2026.10.28.762655
+  code: https://github.com/ma-compbio-lab/EMBER
+citation: 'Ho, Nicholas, Eric P. Xing, and Jian Ma. "EMBER: Contextualized gene representations enable
+  compositional prediction across cellular perturbations." bioRxiv (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.10.28.762655
+- https://github.com/ma-compbio-lab/EMBER
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,36 @@
+id: tfactprofiler
+kind: model
+name: TFActProfiler
+title: A transcription factor regulatory atlas for activity inference and perturbation prediction
+year: 2026
+venue: Nucleic Acids Research
+category: perturbation
+tags:
+- perturbation
+- gene-regulation
+modality: Transcriptomes + TF perturbation data
+architecture: Signed quantitative TF-mRNA regulatory atlas
+inputs:
+- expression
+- prior-network
+outputs:
+- gene-regulatory-network
+- perturbation-response
+perturbation_type:
+- genetic
+key: Signed, quantitative TF-target atlas and framework for inferring TF activity and predicting transcriptome-wide
+  responses to TF perturbations.
+links:
+  paper: https://doi.org/10.1093/nar/gkag897
+  preprint: https://doi.org/10.1101/2025.10.05.680506
+  code: https://github.com/HikaruSugimoto/tfactprofiler
+citation: Sugimoto, Hikaru, Koki Tsuyuzaki, Zhaonan Zou, Shinya Oki, Tazro Ohta, and Eiryo Kawakami. "A
+  transcription factor regulatory atlas for activity inference and perturbation prediction." Nucleic Acids
+  Research 54, no. 17 (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1093/nar/gkag897
+- https://doi.org/10.1101/2025.10.05.680506
+- https://github.com/HikaruSugimoto/tfactprofiler
+review_basis: abstract
+reviewed: false

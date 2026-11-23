@@ -32,3 +32,5 @@ sources:
 - https://github.com/maitrix-org/scPilot
 review_basis: abstract
 reviewed: false
+review_notes:
+- Not the same as `scpilot-perturbation` (scPILOT, a perturbation model with a similar name).

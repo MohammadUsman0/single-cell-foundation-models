@@ -1,0 +1,34 @@
+id: compass-perturbation
+kind: model
+name: COMPASS
+title: 'COMPASS: Component-Wise Inference of Shared and Gene-Specific Perturbation Response'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: CRISPRi Perturb-seq (six cell lines)
+architecture: Component-wise inference of shared and gene-specific responses
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+generalization:
+- unseen-cell-context
+key: Splits responses into shared and gene-specific components, each estimated from its best evidence,
+  beating scGPT, CPA, GEARS and STATE.
+links:
+  preprint: https://doi.org/10.64898/2026.08.03.742643
+  code: https://github.com/rohitsinghlab/compass
+citation: 'Liang, Huan, and Rohit Singh. "COMPASS: Component-Wise Inference of Shared and Gene-Specific
+  Perturbation Response." bioRxiv (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.08.03.742643
+- https://github.com/rohitsinghlab/compass
+review_basis: abstract
+reviewed: false

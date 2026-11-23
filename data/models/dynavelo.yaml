@@ -1,0 +1,37 @@
+id: dynavelo
+kind: model
+name: DynaVelo
+title: Deep dynamical models of single-cell multiomic velocities predict loss-of-function and rescue perturbations
+  in B cells
+year: 2026
+venue: Nature Biotechnology
+category: perturbation
+tags:
+- perturbation
+- multi-omics
+- gene-regulation
+modality: Single-cell multiome (RNA + ATAC)
+architecture: Generative neural ODE of expression and TF-motif activity
+inputs:
+- expression
+- chromatin-accessibility
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+key: Neural ODE of joint expression and TF-motif dynamics that is perturbed in silico; predicted rescue
+  targets were confirmed in mice.
+links:
+  paper: https://doi.org/10.1038/s41587-026-03348-1
+  preprint: https://doi.org/10.1101/2025.04.24.650458
+  code: https://github.com/karbalayghareh/DynaVelo
+citation: Karbalayghareh, Alireza, Benedikt Pelzer, Christopher R. Chin, Ari Melnick, Darko Barisic, and
+  Christina S. Leslie. "Deep dynamical models of single-cell multiomic velocities predict loss-of-function
+  and rescue perturbations in B cells." Nature Biotechnology (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41587-026-03348-1
+- https://doi.org/10.1101/2025.04.24.650458
+- https://github.com/karbalayghareh/DynaVelo
+review_basis: abstract
+reviewed: false

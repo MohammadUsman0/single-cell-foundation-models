@@ -1,0 +1,26 @@
+id: cp-posh
+kind: resource
+type: dataset
+title: A pooled Cell Painting CRISPR screening platform enables de novo inference of gene function by
+  self-supervised deep learning
+year: 2025
+venue: Nature Communications
+tags:
+- perturbation
+- imaging
+key: 'CP-POSH: pooled optical Cell Painting CRISPR screening with self-supervised image models for unbiased
+  gene-function discovery.'
+links:
+  paper: https://doi.org/10.1038/s41467-025-66778-6
+  preprint: https://doi.org/10.1101/2023.08.13.553051
+  code: https://github.com/insitro/cp-posh
+citation: Sivanandan, Srinivasan, Bobby Leitmann, Eric Lubeck, Mohammad Muneeb Sultan, Panagiotis Stanitsas,
+  Navpreet Ranu, Alexis Ewer et al. "A pooled Cell Painting CRISPR screening platform enables de novo
+  inference of gene function by self-supervised deep learning." Nature Communications 17, no. 1 (2025).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41467-025-66778-6
+- https://doi.org/10.1101/2023.08.13.553051
+- https://github.com/insitro/cp-posh
+review_basis: abstract
+reviewed: false

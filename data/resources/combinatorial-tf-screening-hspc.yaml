@@ -1,0 +1,22 @@
+id: combinatorial-tf-screening-hspc
+kind: resource
+type: dataset
+title: Pooled combinatorial screening identifies transcription factor sets that drive hematopoietic progenitor-like
+  cell fate
+year: 2026
+venue: Cell Systems
+tags:
+- perturbation
+- scrna-seq
+key: Pooled combinatorial TF-overexpression screening platform that found TF sets producing hematopoietic
+  progenitor-like cells.
+links:
+  paper: https://doi.org/10.1016/j.cels.2026.101644
+citation: 'Briggs, James A., Janghwan Cho, Daniel Strebinger, Julia Joung, Tatum W. Braun, Rhiannon K.
+  Macrae, Hojun Li et al. "Pooled combinatorial screening identifies transcription factor sets that drive
+  hematopoietic progenitor-like cell fate." Cell Systems 17, no. 9 (2026): 101644.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.cels.2026.101644
+review_basis: abstract
+reviewed: false

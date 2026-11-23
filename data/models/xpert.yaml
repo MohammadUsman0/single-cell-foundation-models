@@ -1,0 +1,38 @@
+id: xpert
+kind: model
+name: XPert
+title: Modelling drug-induced cellular perturbation responses with a biologically informed dual-branch
+  transformer
+year: 2026
+venue: Nature Machine Intelligence
+category: perturbation
+tags:
+- perturbation
+- drug-response
+- interpretability
+modality: Drug perturbation transcriptomics
+architecture: Biologically informed dual-branch transformer
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- chemical
+generalization:
+- unseen-cell-context
+key: Dual-branch transformer that separates cell state from drug-induced shifts and models dose-time dynamics.
+links:
+  paper: https://doi.org/10.1038/s42256-025-01165-w
+  code: https://github.com/GSanShui/XPert
+citation: 'Guo, Yue, Hao Zhang, Haitao Hu, Jialu Wu, Ji Cao, Chang-Yu Hsieh, and Bo Yang. "Modelling drug-induced
+  cellular perturbation responses with a biologically informed dual-branch transformer." Nature Machine
+  Intelligence 8, no. 1 (2026): 96-112.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s42256-025-01165-w
+- https://github.com/GSanShui/XPert
+review_basis: abstract
+reviewed: false
+review_notes:
+- Not the same as `x-pert` (different authors and paper).

@@ -1,0 +1,41 @@
+id: prepr-ct
+kind: model
+name: PrePR-CT
+title: Predicting and interpreting cell-type-specific drug responses in the small-data regime using inductive
+  priors
+year: 2026
+venue: Nature Machine Intelligence
+category: perturbation
+tags:
+- perturbation
+- drug-response
+- graph
+modality: scRNA-seq (chemical perturbation)
+architecture: Graph neural network with inductive biological priors
+inputs:
+- expression
+- perturbation
+- prior-network
+outputs:
+- perturbation-response
+architecture_family: graph-neural-network
+perturbation_type:
+- chemical
+generalization:
+- unseen-cell-context
+key: Graph-based model with biological priors for cell-type-specific drug responses in the small-data
+  regime.
+links:
+  paper: https://doi.org/10.1038/s42256-026-01202-2
+  preprint: https://doi.org/10.1101/2024.07.24.604816
+  code: https://github.com/reem12345/Cell-Type-Specific-Graphs
+citation: 'Alsulami, Reem, Robert Lehmann, Sumeer A. Khan, Vincenzo Lagani, Alberto Maillo, David Gomez-Cabrero,
+  Narsis A. Kiani et al. "Predicting and interpreting cell-type-specific drug responses in the small-data
+  regime using inductive priors." Nature Machine Intelligence 8, no. 3 (2026): 461-473.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s42256-026-01202-2
+- https://doi.org/10.1101/2024.07.24.604816
+- https://github.com/reem12345/Cell-Type-Specific-Graphs
+review_basis: abstract
+reviewed: false

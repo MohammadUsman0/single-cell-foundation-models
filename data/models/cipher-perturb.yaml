@@ -1,0 +1,32 @@
+id: cipher-perturb
+kind: model
+name: CIPHER
+title: Co-fluctuations of genes in single cells predict transcriptome-wide outcomes to perturbations
+year: 2025
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: Pooled single-cell perturbation screens
+architecture: Model built on gene co-fluctuations in single cells
+inputs:
+- expression
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+key: Predicts transcriptome-wide perturbation outcomes from how genes co-fluctuate in unperturbed single
+  cells.
+links:
+  preprint: https://doi.org/10.1101/2025.06.27.661814
+  code: https://github.com/GoyalLab/CIPHER
+citation: Kuznets-Speck, Benjamin, Nitu Kumari, Irish Senthilkumar, Jaekwon Jung, Hector Manuel Lopez
+  Rios, Leon Schwartz, Hanxiao Sun et al. "Co-fluctuations of genes in single cells predict transcriptome-wide
+  outcomes to perturbations." bioRxiv (2025).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1101/2025.06.27.661814
+- https://github.com/GoyalLab/CIPHER
+review_basis: abstract
+reviewed: false

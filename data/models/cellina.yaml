@@ -1,0 +1,31 @@
+id: cellina
+kind: model
+name: Cellina
+title: Querying Counterfactuals on Tissue Graphs with Supervised Disentanglement
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- spatial
+modality: Spatial transcriptomics
+architecture: Supervised disentanglement on tissue graphs
+inputs:
+- expression
+- spatial-coordinates
+outputs:
+- perturbation-response
+key: Answers spatial counterfactuals (rewiring a cell's neighbourhood or changing neighbour expression)
+  for in-silico perturbation of tissues.
+links:
+  preprint: https://arxiv.org/abs/2606.08493
+  code: https://github.com/PMBio/cellina
+citation: Moeed, Abdul, Stefan Schrod, Martin Rohbeck, Marc Jan Bonder, Pavlo Lutsik, Oliver Stegle, and
+  Daniel Dimitrov. "Querying Counterfactuals on Tissue Graphs with Supervised Disentanglement." arXiv
+  preprint arXiv:2606.08493 (2026).
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2606.08493
+- https://github.com/PMBio/cellina
+review_basis: abstract
+reviewed: false

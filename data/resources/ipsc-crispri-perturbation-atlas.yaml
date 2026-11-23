@@ -1,0 +1,23 @@
+id: ipsc-crispri-perturbation-atlas
+kind: resource
+type: dataset
+title: A genome-scale CRISPRi perturbation atlas of human induced pluripotent stem cells
+year: 2026
+venue: Nature Biotechnology
+tags:
+- perturbation
+- scrna-seq
+key: 'Genome-scale CRISPRi perturbation atlas of human iPSCs: 11,692 perturbed genes across more than
+  2.5 million single cells.'
+links:
+  paper: https://doi.org/10.1038/s41587-026-03199-w
+  preprint: https://doi.org/10.1101/2024.11.03.621734
+citation: Nourreddine, Sami, Yesh Doctor, Amir Dailamy, Yi-Hung Lee, Jan N. Hansen, Rebecca Chinn, Antoine
+  Forget et al. "A genome-scale CRISPRi perturbation atlas of human induced pluripotent stem cells." Nature
+  Biotechnology (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41587-026-03199-w
+- https://doi.org/10.1101/2024.11.03.621734
+review_basis: abstract
+reviewed: false

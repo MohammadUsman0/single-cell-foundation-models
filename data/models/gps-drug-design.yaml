@@ -1,0 +1,34 @@
+id: gps-drug-design
+kind: model
+name: GPS
+title: Deep-learning-based de novo discovery and design of therapeutics that reverse disease-associated
+  transcriptional phenotypes
+year: 2026
+venue: Cell
+category: perturbation
+tags:
+- perturbation
+- drug-response
+modality: Transcriptomic disease signatures + chemical structures
+architecture: Expression-profile predictor from chemical structure
+inputs:
+- perturbation
+outputs:
+- perturbation-response
+- gene-prioritization
+perturbation_type:
+- chemical
+key: Predicts expression profiles from chemical structures to screen and optimise compounds that reverse
+  disease signatures; validated in vivo.
+links:
+  paper: https://doi.org/10.1016/j.cell.2026.02.016
+  code: https://github.com/Bin-Chen-Lab/GPS
+citation: 'Xing, Jing, Mingdian Tan, Dmitry Leshchiner, Mengying Sun, Mohamed Abdelgied, Li Huang, Shreya
+  Paithankar et al. "Deep-learning-based de novo discovery and design of therapeutics that reverse disease-associated
+  transcriptional phenotypes." Cell 189, no. 9 (2026): 2556-2572.e19.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.cell.2026.02.016
+- https://github.com/Bin-Chen-Lab/GPS
+review_basis: abstract
+reviewed: false

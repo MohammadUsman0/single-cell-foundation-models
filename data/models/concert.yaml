@@ -1,0 +1,36 @@
+id: concert
+kind: model
+name: CONCERT
+title: Generative modeling of spatially resolved perturbation responses with CONCERT
+year: 2025
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- spatial
+- generative
+modality: Spatial perturbation transcriptomics
+architecture: Niche-aware Gaussian-process VAE
+inputs:
+- expression
+- spatial-coordinates
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: vae
+perturbation_type:
+- genetic
+- chemical
+key: Niche-aware Gaussian-process VAE that predicts counterfactual perturbation responses at unmeasured
+  tissue locations.
+links:
+  preprint: https://doi.org/10.1101/2025.11.08.686890
+  code: https://github.com/mims-harvard/CONCERT
+citation: Lin, Xiang, Zhenglun Kong, Boyang Fu, Soumya Ghosh, Manolis Kellis, and Marinka Zitnik. "Generative
+  modeling of spatially resolved perturbation responses with CONCERT." bioRxiv (2025).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1101/2025.11.08.686890
+- https://github.com/mims-harvard/CONCERT
+review_basis: abstract
+reviewed: false

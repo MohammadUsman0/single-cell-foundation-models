@@ -1,0 +1,32 @@
+id: labcompass
+kind: model
+name: LabCompass
+title: Generative inverse design steers human hematopoietic cell fate in vitro
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- virtual-cell
+modality: scRNA-seq (hematopoiesis, culture conditions)
+architecture: Generative inverse-design model
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+key: Generative inverse design of growth-factor combinations and doses that steer human hematopoietic
+  stem cells toward target states.
+links:
+  preprint: https://doi.org/10.64898/2026.10.07.756550
+  code: https://github.com/theislab/LabCompass
+citation: Paulas-Condori, Licyel, Alessandro Palma, Lorenzo Consoli, Juan Antonio Rubio-Lara, Olivia Hidajat,
+  Weizhong Zheng, Dominik Klein et al. "Generative inverse design steers human hematopoietic cell fate
+  in vitro." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.10.07.756550
+- https://github.com/theislab/LabCompass
+review_basis: abstract
+reviewed: false

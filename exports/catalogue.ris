@@ -739,6 +739,22 @@ ID  - biolord
 ER  - 
 
 TY  - UNPB
+TI  - Intervention-Aware Multiscale Representation Learning from Imaging Phenomics and Perturbation Transcriptomics
+AU  - Chen, Jiayuan
+AU  - Liu, Ruoqi
+AU  - Gu, Zishan
+AU  - Zhang, Ping
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2604.22832
+KW  - perturbation
+KW  - imaging
+KW  - drug-response
+AB  - Aligns microscopy phenomics with perturbation transcriptomics, accounting for cell type and dose, for transfer to unseen interventions.
+ID  - biomicroscopyprofiler
+ER  - 
+
+TY  - UNPB
 TI  - Biomni: A General-Purpose Biomedical AI Agent
 AU  - Huang, Kexin
 AU  - Zhang, Serena
@@ -1028,6 +1044,23 @@ ID  - causcell
 ER  - 
 
 TY  - JOUR
+TI  - CauTrigger: deciphering biological system state transitions by hierarchical causal decomposition
+AU  - Zhang, Chengming
+AU  - Cai, Deyu
+AU  - Aihara, Kazuyuki
+AU  - Chen, Luonan
+PY  - 2026
+T2  - Nature Methods
+DO  - 10.1038/s41592-026-03274-9
+UR  - https://doi.org/10.1038/s41592-026-03274-9
+KW  - perturbation
+KW  - gene-regulation
+KW  - interpretability
+AB  - Hierarchical latent-variable model using do-calculus to find causal triggers of state transitions and predict outcomes of interventions.
+ID  - cautrigger
+ER  - 
+
+TY  - JOUR
 TI  - Celcomen: spatial causal disentanglement for single-cell and tissue perturbation modeling
 PY  - 2026
 T2  - Nature Communications
@@ -1109,6 +1142,25 @@ UR  - https://doi.org/10.1093/bioinformatics/btag208
 KW  - agent
 KW  - text
 ID  - cell-o1
+ER  - 
+
+TY  - JOUR
+TI  - High-content morphological profiling by Cell Painting in 3D spheroids
+AU  - Ringers, Christa
+AU  - Holmberg, David
+AU  - Larsson, Anders
+AU  - Jung, Bomi
+AU  - Jarvius, Malin
+AU  - Luchniak, Anna
+AU  - Rosén, Dan
+PY  - 2026
+T2  - Nature Communications
+DO  - 10.1038/s41467-026-78596-5
+UR  - https://doi.org/10.1038/s41467-026-78596-5
+KW  - perturbation
+KW  - imaging
+AB  - Cell Painting adapted to 3D spheroids for single-cell morphological profiling of drug perturbations.
+ID  - cell-painting-3d-spheroids
 ER  - 
 
 TY  - GEN
@@ -1382,6 +1434,24 @@ KW  - multi-omics
 KW  - text
 AB  - Harmonizes multimodal omics data via language for omics understanding.
 ID  - cellhermes
+ER  - 
+
+TY  - UNPB
+TI  - Querying Counterfactuals on Tissue Graphs with Supervised Disentanglement
+AU  - Moeed, Abdul
+AU  - Schrod, Stefan
+AU  - Rohbeck, Martin
+AU  - Bonder, Marc Jan
+AU  - Lutsik, Pavlo
+AU  - Stegle, Oliver
+AU  - Dimitrov, Daniel
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2606.08493
+KW  - perturbation
+KW  - spatial
+AB  - Answers spatial counterfactuals (rewiring a cell's neighbourhood or changing neighbour expression) for in-silico perturbation of tissues.
+ID  - cellina
 ER  - 
 
 TY  - UNPB
@@ -1787,6 +1857,25 @@ AB  - Causal identification of single-cell perturbation effects via optimal tran
 ID  - cinema-ot
 ER  - 
 
+TY  - UNPB
+TI  - Co-fluctuations of genes in single cells predict transcriptome-wide outcomes to perturbations
+AU  - Kuznets-Speck, Benjamin
+AU  - Kumari, Nitu
+AU  - Senthilkumar, Irish
+AU  - Jung, Jaekwon
+AU  - Rios, Hector Manuel Lopez
+AU  - Schwartz, Leon
+AU  - Sun, Hanxiao
+PY  - 2025
+T2  - bioRxiv
+DO  - 10.1101/2025.06.27.661814
+UR  - https://doi.org/10.1101/2025.06.27.661814
+KW  - perturbation
+KW  - scrna-seq
+AB  - Predicts transcriptome-wide perturbation outcomes from how genes co-fluctuate in unperturbed single cells.
+ID  - cipher-perturb
+ER  - 
+
 TY  - CPAPER
 TI  - Learning Latent Dynamical Causal Processes for Single-Cell Perturbation Prediction
 AU  - Jiang, Wenkang
@@ -1892,6 +1981,21 @@ ID  - clm-x
 ER  - 
 
 TY  - UNPB
+TI  - CloneOT: predicting clone-specific perturbation responses with lineage-supervised neural inverse optimal transport
+AU  - Chen, Yanshuo
+AU  - Chen, Wei
+AU  - Huang, Heng
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2610.16093
+KW  - perturbation
+KW  - drug-response
+KW  - scrna-seq
+AB  - Learns clone-specific transport costs from lineage tracing to predict how each clone responds to treatment, including drug-tolerant persisters.
+ID  - cloneot
+ER  - 
+
+TY  - UNPB
 TI  - Closing the loop: Teaching single-cell foundation models to learn from perturbations
 AU  - Pershad, Yash
 AU  - Nandi, Tarak N.
@@ -1928,6 +2032,60 @@ ID  - cm4ai
 ER  - 
 
 TY  - JOUR
+TI  - Trimodal, uncertainty-guided whole-slide framework for genome-scale spatial expression and image-only virtual perturbation in cancer cohorts
+AU  - Wang, Zijun
+AU  - Yang, Chongyi
+AU  - Tang, Xiaoya
+AU  - Yin, Enzhi
+AU  - Yao, Yuxin
+AU  - Luo, Yuejun
+AU  - He, Jie
+PY  - 2026
+T2  - Genome Medicine
+DO  - 10.1186/s13073-026-01713-y
+UR  - https://doi.org/10.1186/s13073-026-01713-y
+KW  - histology
+KW  - spatial
+KW  - text
+KW  - foundation-model
+AB  - Trimodal model predicting genome-wide spatial expression from H&E with calibrated uncertainty, with image-only virtual perturbation.
+ID  - coladan
+ER  - 
+
+TY  - JOUR
+TI  - Pooled combinatorial screening identifies transcription factor sets that drive hematopoietic progenitor-like cell fate
+AU  - Briggs, James A.
+AU  - Cho, Janghwan
+AU  - Strebinger, Daniel
+AU  - Joung, Julia
+AU  - Braun, Tatum W.
+AU  - Macrae, Rhiannon K.
+AU  - Li, Hojun
+PY  - 2026
+T2  - Cell Systems
+DO  - 10.1016/j.cels.2026.101644
+UR  - https://doi.org/10.1016/j.cels.2026.101644
+KW  - perturbation
+KW  - scrna-seq
+AB  - Pooled combinatorial TF-overexpression screening platform that found TF sets producing hematopoietic progenitor-like cells.
+ID  - combinatorial-tf-screening-hspc
+ER  - 
+
+TY  - UNPB
+TI  - COMPASS: Component-Wise Inference of Shared and Gene-Specific Perturbation Response
+AU  - Liang, Huan
+AU  - Singh, Rohit
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.08.03.742643
+UR  - https://doi.org/10.64898/2026.08.03.742643
+KW  - perturbation
+KW  - scrna-seq
+AB  - Splits responses into shared and gene-specific components, each estimated from its best evidence, beating scGPT, CPA, GEARS and STATE.
+ID  - compass-perturbation
+ER  - 
+
+TY  - JOUR
 TI  - From modality-specific to compositional foundation models for cell biology
 AU  - Bahrami, Mojtaba
 AU  - Richter, Till
@@ -1945,6 +2103,25 @@ AB  - Argues for compositional, modular foundation models that join chromatin, p
 ID  - compositional-foundation-models-cell-biology
 ER  - 
 
+TY  - UNPB
+TI  - Generative modeling of spatially resolved perturbation responses with CONCERT
+AU  - Lin, Xiang
+AU  - Kong, Zhenglun
+AU  - Fu, Boyang
+AU  - Ghosh, Soumya
+AU  - Kellis, Manolis
+AU  - Zitnik, Marinka
+PY  - 2025
+T2  - bioRxiv
+DO  - 10.1101/2025.11.08.686890
+UR  - https://doi.org/10.1101/2025.11.08.686890
+KW  - perturbation
+KW  - spatial
+KW  - generative
+AB  - Niche-aware Gaussian-process VAE that predicts counterfactual perturbation responses at unmeasured tissue locations.
+ID  - concert
+ER  - 
+
 TY  - JOUR
 TI  - Revealing a coherent cell-state landscape across single-cell datasets with CONCORD
 PY  - 2026
@@ -1952,6 +2129,23 @@ T2  - Nature Biotechnology
 UR  - https://www.nature.com/articles/s41587-025-02950-z
 KW  - scrna-seq
 ID  - concord
+ER  - 
+
+TY  - JOUR
+TI  - Conditional Monge Gap enables generalizable single-cell perturbation modelling
+AU  - Driessen, Alice
+AU  - Rajwade, Dhruva Abhijit
+AU  - Harsanyi, Benedek
+AU  - Rapsomaniki, Marianna
+AU  - Born, Jannis
+PY  - 2026
+T2  - Nature Machine Intelligence
+DO  - 10.1038/s42256-026-01242-8
+UR  - https://doi.org/10.1038/s42256-026-01242-8
+KW  - perturbation
+KW  - drug-response
+AB  - Conditional neural optimal transport that generalises to unseen drugs from compound structure.
+ID  - conditional-monge-gap
 ER  - 
 
 TY  - UNPB
@@ -1990,6 +2184,25 @@ KW  - generative
 KW  - scrna-seq
 AB  - Two coupled VAEs translate control-cell latents into perturbed-cell latents to generate perturbed profiles.
 ID  - couplevae
+ER  - 
+
+TY  - JOUR
+TI  - A pooled Cell Painting CRISPR screening platform enables de novo inference of gene function by self-supervised deep learning
+AU  - Sivanandan, Srinivasan
+AU  - Leitmann, Bobby
+AU  - Lubeck, Eric
+AU  - Sultan, Mohammad Muneeb
+AU  - Stanitsas, Panagiotis
+AU  - Ranu, Navpreet
+AU  - Ewer, Alexis
+PY  - 2025
+T2  - Nature Communications
+DO  - 10.1038/s41467-025-66778-6
+UR  - https://doi.org/10.1038/s41467-025-66778-6
+KW  - perturbation
+KW  - imaging
+AB  - CP-POSH: pooled optical Cell Painting CRISPR screening with self-supervised image models for unbiased gene-function discovery.
+ID  - cp-posh
 ER  - 
 
 TY  - JOUR
@@ -2128,6 +2341,19 @@ AB  - Open-weight foundation model for cytometry data with variable marker panel
 ID  - cytobert
 ER  - 
 
+TY  - UNPB
+TI  - A human cytokine response atlas to reconstruct underlying gene regulatory networks
+AU  - O’Connell, Patrick
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.07.27.740961
+UR  - https://doi.org/10.64898/2026.07.27.740961
+KW  - perturbation
+KW  - gene-regulation
+AB  - Turns a single-cell atlas of PBMCs exposed to 90 cytokines into a multiscale cytokine-response and regulatory-network model.
+ID  - cytocarto
+ER  - 
+
 TY  - JOUR
 TI  - CZ CELLxGENE Discover: A single-cell data platform for scalable exploration, analysis, and modeling of aggregated data
 AU  - CZI Cell Science Program, Shibla Abdulla
@@ -2142,6 +2368,27 @@ DO  - 10.1093/nar/gkae1142
 UR  - https://doi.org/10.1093/nar/gkae1142
 KW  - scrna-seq
 ID  - cz-cellxgene-discover
+ER  - 
+
+TY  - JOUR
+TI  - D-SPIN constructs regulatory network models from scRNA-seq that reveal organizing principles of perturbation response
+AU  - Jiang, Jialong
+AU  - Chen, Sisi
+AU  - Tsou, Tiffany
+AU  - McGinnis, Christopher S.
+AU  - Khazaei, Tahmineh
+AU  - Zhu, Qin
+AU  - Park, Jong H.
+PY  - 2026
+T2  - Cell
+DO  - 10.1016/j.cell.2026.04.028
+UR  - https://doi.org/10.1016/j.cell.2026.04.028
+KW  - perturbation
+KW  - gene-regulation
+KW  - scrna-seq
+KW  - drug-response
+AB  - Builds interpretable, generative regulatory-network models from perturbation scRNA-seq and simulates cell populations under unseen drug-dose combinations.
+ID  - d-spin
 ER  - 
 
 TY  - JOUR
@@ -2393,6 +2640,25 @@ KW  - drug-response
 ID  - drugpt
 ER  - 
 
+TY  - JOUR
+TI  - Deep dynamical models of single-cell multiomic velocities predict loss-of-function and rescue perturbations in B cells
+AU  - Karbalayghareh, Alireza
+AU  - Pelzer, Benedikt
+AU  - Chin, Christopher R.
+AU  - Melnick, Ari
+AU  - Barisic, Darko
+AU  - Leslie, Christina S.
+PY  - 2026
+T2  - Nature Biotechnology
+DO  - 10.1038/s41587-026-03348-1
+UR  - https://doi.org/10.1038/s41587-026-03348-1
+KW  - perturbation
+KW  - multi-omics
+KW  - gene-regulation
+AB  - Neural ODE of joint expression and TF-motif dynamics that is perturbed in silico; predicted rescue targets were confirmed in mice.
+ID  - dynavelo
+ER  - 
+
 TY  - UNPB
 TI  - Effects of Distance Metrics and Scaling on the Perturbation Discrimination Score
 AU  - Liu, Qiyuan
@@ -2438,6 +2704,22 @@ KW  - llm
 KW  - interpretability
 AB  - Agent that links scGPT embeddings with semantic retrieval and LLM interpretation for interactive single-cell discovery.
 ID  - elisa
+ER  - 
+
+TY  - UNPB
+TI  - EMBER: Contextualized gene representations enable compositional prediction across cellular perturbations
+AU  - Ho, Nicholas
+AU  - Xing, Eric P.
+AU  - Ma, Jian
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.10.28.762655
+UR  - https://doi.org/10.64898/2026.10.28.762655
+KW  - perturbation
+KW  - foundation-model
+KW  - scrna-seq
+AB  - Gene-centric foundation model whose context-dependent gene embeddings are reused to predict single and combined genetic and drug perturbations.
+ID  - ember
 ER  - 
 
 TY  - JOUR
@@ -2681,6 +2963,26 @@ KW  - foundation-model
 KW  - scrna-seq
 AB  - Traces every active sparse-autoencoder feature in one Geneformer layer, tests higher-order ablations and steers cell trajectories with features.
 ID  - exhaustive-circuit-mapping-scfm
+ER  - 
+
+TY  - UNPB
+TI  - ExPert infers causal perturbations from cell states across biological and clinical contexts
+AU  - Schwartz, Leon
+AU  - Schlamowitz, Jacob L.
+AU  - Kuznets-Speck, Benjamin
+AU  - Johnson, Conor W.
+AU  - Das, Diptatanu
+AU  - Grody, Emanuelle I.
+AU  - Bai, Tao
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.11.02.762549
+UR  - https://doi.org/10.64898/2026.11.02.762549
+KW  - perturbation
+KW  - scrna-seq
+KW  - virtual-cell
+AB  - Inverse model: ranks which perturbation most likely produced an observed cell state, trained on 8,964 perturbations across 12 cellular contexts.
+ID  - expert
 ER  - 
 
 TY  - CPAPER
@@ -3060,6 +3362,26 @@ ID  - get
 ER  - 
 
 TY  - UNPB
+TI  - Graph-guided flow matching enables biologically informed prediction at single-cell resolution
+AU  - Liou, Huai-Yu
+AU  - Sprang, Maximilian
+AU  - Selby, David A.
+AU  - Grossmann, Gerrit
+AU  - Vollmer, Sebastian
+AU  - Riesgo-Ferreiro, Pablo
+AU  - Gerbracht, Jennifer V.
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.11.12.766125
+UR  - https://doi.org/10.64898/2026.11.12.766125
+KW  - perturbation
+KW  - generative
+KW  - scrna-seq
+AB  - Combines biological knowledge graphs with latent flow matching to predict post-perturbation single-cell transcriptomes.
+ID  - gfm-graph-flow-matching
+ER  - 
+
+TY  - UNPB
 TI  - A Standardized Framework For Evaluating Gene Expression Generative Models
 AU  - Rubbi, Andrea
 AU  - Francesco, Andrea Giuseppe Di
@@ -3100,6 +3422,25 @@ T2  - Nature Communications
 UR  - https://www.nature.com/articles/s41467-025-61165-7
 KW  - perturbation
 ID  - gperturb
+ER  - 
+
+TY  - JOUR
+TI  - Deep-learning-based de novo discovery and design of therapeutics that reverse disease-associated transcriptional phenotypes
+AU  - Xing, Jing
+AU  - Tan, Mingdian
+AU  - Leshchiner, Dmitry
+AU  - Sun, Mengying
+AU  - Abdelgied, Mohamed
+AU  - Huang, Li
+AU  - Paithankar, Shreya
+PY  - 2026
+T2  - Cell
+DO  - 10.1016/j.cell.2026.02.016
+UR  - https://doi.org/10.1016/j.cell.2026.02.016
+KW  - perturbation
+KW  - drug-response
+AB  - Predicts expression profiles from chemical structures to screen and optimise compounds that reverse disease signatures; validated in vivo.
+ID  - gps-drug-design
 ER  - 
 
 TY  - JOUR
@@ -3489,6 +3830,43 @@ ID  - intervention-geometry-virtual-cell-models
 ER  - 
 
 TY  - JOUR
+TI  - A genome-scale CRISPRi perturbation atlas of human induced pluripotent stem cells
+AU  - Nourreddine, Sami
+AU  - Doctor, Yesh
+AU  - Dailamy, Amir
+AU  - Lee, Yi-Hung
+AU  - Hansen, Jan N.
+AU  - Chinn, Rebecca
+AU  - Forget, Antoine
+PY  - 2026
+T2  - Nature Biotechnology
+DO  - 10.1038/s41587-026-03199-w
+UR  - https://doi.org/10.1038/s41587-026-03199-w
+KW  - perturbation
+KW  - scrna-seq
+AB  - Genome-scale CRISPRi perturbation atlas of human iPSCs: 11,692 perturbed genes across more than 2.5 million single cells.
+ID  - ipsc-crispri-perturbation-atlas
+ER  - 
+
+TY  - JOUR
+TI  - Reconstructing signaling histories of single cells via perturbation screens and transfer learning
+AU  - Hutchins, Nicholas T.
+AU  - Meziane, Miram
+AU  - Lu, Claire
+AU  - Mitalipova, Maisam
+AU  - Fischer, David S.
+AU  - Li, Pulin
+PY  - 2026
+T2  - Nature Methods
+DO  - 10.1038/s41592-026-03213-8
+UR  - https://doi.org/10.1038/s41592-026-03213-8
+KW  - perturbation
+KW  - scrna-seq
+AB  - Learns signalling-response signatures from in vitro screens and transfers them to reconstruct cells' signalling histories in vivo.
+ID  - iris-signaling
+ER  - 
+
+TY  - JOUR
 TI  - Benchmarking biological knowledge-graph priors against single-cell foundation models for Perturb-seq prediction
 AU  - Ni, Jie
 AU  - Zhang, Xinting
@@ -3522,6 +3900,26 @@ UR  - https://doi.org/10.1016/j.cell.2017.10.049
 KW  - perturbation
 KW  - drug-response
 ID  - l1000-cmap
+ER  - 
+
+TY  - UNPB
+TI  - Generative inverse design steers human hematopoietic cell fate in vitro
+AU  - Paulas-Condori, Licyel
+AU  - Palma, Alessandro
+AU  - Consoli, Lorenzo
+AU  - Rubio-Lara, Juan Antonio
+AU  - Hidajat, Olivia
+AU  - Zheng, Weizhong
+AU  - Klein, Dominik
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.10.07.756550
+UR  - https://doi.org/10.64898/2026.10.07.756550
+KW  - perturbation
+KW  - generative
+KW  - virtual-cell
+AB  - Generative inverse design of growth-factor combinations and doses that steer human hematopoietic stem cells toward target states.
+ID  - labcompass
 ER  - 
 
 TY  - UNPB
@@ -3867,6 +4265,44 @@ ID  - maxtoki
 ER  - 
 
 TY  - UNPB
+TI  - MEGA-ODE: Learning Biologically Structured and Navigable Continuous Perturbation Dynamics from Sparse Omics
+AU  - Xiang, Yujia
+AU  - Li, Yongge
+AU  - Tian, Chunyan
+AU  - Gu, Ruichu
+AU  - He, Fuchu
+AU  - Wen, Han
+AU  - Xie, Linhai
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.08.05.742921
+UR  - https://doi.org/10.64898/2026.08.05.742921
+KW  - perturbation
+KW  - gene-regulation
+AB  - Graph-constrained continuous-time model that reconstructs unmeasured perturbation trajectories and prioritises virtual perturbations.
+ID  - mega-ode
+ER  - 
+
+TY  - UNPB
+TI  - Meta Flow Matching: Integrating Vector Fields on the Wasserstein Manifold
+AU  - Atanackovic, Lazar
+AU  - Zhang, Xi
+AU  - Amos, Brandon
+AU  - Blanchette, Mathieu
+AU  - Lee, Leo J.
+AU  - Bengio, Yoshua
+AU  - Tong, Alexander
+PY  - 2024
+T2  - arXiv
+UR  - https://arxiv.org/abs/2408.14608
+KW  - perturbation
+KW  - generative
+KW  - drug-response
+AB  - Flow matching conditioned on population embeddings to predict treatment responses for unseen patients.
+ID  - meta-flow-matching
+ER  - 
+
+TY  - UNPB
 TI  - MicroSC: A Tiny, Performant Single-Cell Foundation Model
 AU  - Denvis, Olivia
 PY  - 2026
@@ -3904,6 +4340,26 @@ DO  - 10.1038/s41556-025-01622-z
 UR  - https://doi.org/10.1038/s41556-025-01622-z
 KW  - perturbation
 ID  - mixscale
+ER  - 
+
+TY  - CPAPER
+TI  - How Molecules Impact Cells: Unlocking Contrastive PhenoMolecular Retrieval
+AU  - Fradkin, Philip
+AU  - Azadi, Puria
+AU  - Suri, Karush
+AU  - Wenkel, Frederik
+AU  - Bashashati, Ali
+AU  - Sypetkowski, Maciej
+AU  - Beaini, Dominique
+PY  - 2024
+T2  - NeurIPS
+DO  - 10.52202/079017-3513
+UR  - https://doi.org/10.52202/079017-3513
+KW  - perturbation
+KW  - imaging
+KW  - drug-response
+AB  - Contrastively aligns molecular structures with microscopy phenomics for zero-shot molecule retrieval from cell images.
+ID  - molphenix
 ER  - 
 
 TY  - JOUR
@@ -4028,6 +4484,24 @@ T2  - Nature Methods
 UR  - https://www.nature.com/articles/s41592-025-02856-3
 KW  - multi-omics
 ID  - multitask-benchmarking-of-single-cell-multimodal
+ER  - 
+
+TY  - JOUR
+TI  - A generative framework for predicting cellular morphological and transcriptomic perturbation responses
+AU  - Peng, Rui
+AU  - Liu, Ziru
+AU  - Gao, Yuanxu
+AU  - Wang, Jinzhuo
+PY  - 2026
+T2  - Cell Reports Methods
+DO  - 10.1016/j.crmeth.2026.101459
+UR  - https://doi.org/10.1016/j.crmeth.2026.101459
+KW  - perturbation
+KW  - imaging
+KW  - generative
+KW  - virtual-cell
+AB  - Diffusion model that jointly generates cell-morphology images and expression signatures for de novo virtual drug screening.
+ID  - multivcdiff
 ER  - 
 
 TY  - CPAPER
@@ -4395,6 +4869,22 @@ ID  - overcoming-barriers-to-the-wide-adoption
 ER  - 
 
 TY  - JOUR
+TI  - Identifying an optimal perturbation to induce a desired cell state by generative deep learning
+AU  - Han, Younghyun
+AU  - Kim, Hyunjin
+AU  - Lee, Chun-Kyung
+AU  - Cho, Kwang-Hyun
+PY  - 2025
+T2  - Cell Systems
+DO  - 10.1016/j.cels.2025.101405
+UR  - https://doi.org/10.1016/j.cels.2025.101405
+KW  - perturbation
+KW  - generative
+AB  - Identifies the perturbation that would move cells to a desired state by decomposing latent cell states.
+ID  - pairing
+ER  - 
+
+TY  - JOUR
 TI  - PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling of multicellular responses in human diseases
 AU  - Kim, Seongryong
 AU  - Cheong, Sungmin
@@ -4479,6 +4969,25 @@ ID  - past
 ER  - 
 
 TY  - JOUR
+TI  - Combinatorial prediction of therapeutic perturbations using causally inspired neural networks
+AU  - Gonzalez, Guadalupe
+AU  - Lin, Xiang
+AU  - Herath, Isuru
+AU  - Veselkov, Kirill
+AU  - Bronstein, Michael
+AU  - Zitnik, Marinka
+PY  - 2025
+T2  - Nature Biomedical Engineering
+DO  - 10.1038/s41551-025-01481-x
+UR  - https://doi.org/10.1038/s41551-025-01481-x
+KW  - perturbation
+KW  - graph
+KW  - drug-response
+AB  - Inverse model: predicts the combination of therapeutic targets that would reverse a disease phenotype.
+ID  - pdgrapher
+ER  - 
+
+TY  - JOUR
 TI  - A genome-wide atlas of human cell morphology
 PY  - 2025
 T2  - Nature Methods
@@ -4500,6 +5009,24 @@ KW  - perturbation
 KW  - scrna-seq
 AB  - Condition-sensitive adaptation of scFMs for genetic perturbation prediction.
 ID  - pertadapt
+ER  - 
+
+TY  - JOUR
+TI  - Enhancing cross-context generalization in drug perturbation prediction with a multimodal conditional diffusion framework
+AU  - Ma, Yanjie
+AU  - Du, Kang
+AU  - Li, Yan
+AU  - Li, Pengyong
+AU  - Yu, Liang
+PY  - 2026
+T2  - Bioinformatics
+DO  - 10.1093/bioinformatics/btag482
+UR  - https://doi.org/10.1093/bioinformatics/btag482
+KW  - perturbation
+KW  - drug-response
+KW  - generative
+AB  - Conditional diffusion model combining control expression, LLM-derived cell descriptions and molecular graphs for unseen drugs and cell lines.
+ID  - pertdiff
 ER  - 
 
 TY  - UNPB
@@ -4703,6 +5230,19 @@ ID  - perturbench
 ER  - 
 
 TY  - UNPB
+TI  - Learning Perturbation-Specific Representations through Conditional Energy Prior for Cellular Response Prediction
+AU  - Yan, Yuchen
+AU  - Bian, Yatao
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2610.18456
+KW  - perturbation
+KW  - scrna-seq
+AB  - Adds a conditional energy-based prior so perturbation representations stay perturbation-specific, improving top differentially expressed gene prediction.
+ID  - perturbenergy
+ER  - 
+
+TY  - UNPB
 TI  - Predicting how perturbations reshape cellular trajectories with PerturbGen
 AU  - Chi Hao Ly, Kevin
 AU  - Feriz, Adib Miraki
@@ -4738,6 +5278,23 @@ KW  - generative
 KW  - drug-response
 AB  - Latent-diffusion model pretrained on Tahoe-100M that generates responses for unseen drug, dose and cell-line combinations.
 ID  - perturbldm
+ER  - 
+
+TY  - JOUR
+TI  - PerturbNet predicts single-cell responses to unseen chemical and genetic perturbations
+AU  - Yu, Hengshi
+AU  - Qian, Weizhou
+AU  - Song, Yuxuan
+AU  - Welch, Joshua D
+PY  - 2025
+T2  - Molecular Systems Biology
+DO  - 10.1038/s44320-025-00131-3
+UR  - https://doi.org/10.1038/s44320-025-00131-3
+KW  - perturbation
+KW  - generative
+KW  - scrna-seq
+AB  - Predicts cell-state distributions for unseen chemical and genetic perturbations, including the effects of point mutations.
+ID  - perturbnet
 ER  - 
 
 TY  - UNPB
@@ -4859,6 +5416,25 @@ ID  - piano
 ER  - 
 
 TY  - UNPB
+TI  - PIE: Generalizing perturbation effects across unseen perturbations, contexts and datasets
+AU  - Verma, Rishi
+AU  - Adduri, Abhinav
+AU  - Bevilacqua, Beatrice
+AU  - Eraslan, Basak
+AU  - Burke, Dave P.
+AU  - Goodarzi, Hani
+AU  - Roohani, Yusuf H
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.10.02.756297
+UR  - https://doi.org/10.64898/2026.10.02.756297
+KW  - perturbation
+KW  - scrna-seq
+AB  - Generalises perturbation effects across unseen perturbations, contexts and datasets; reports 1.2-3.2x the DE-gene AUPRC of the best baseline.
+ID  - pie
+ER  - 
+
+TY  - UNPB
 TI  - PopPert: Population-level Joint-Distribution Modeling for Single-Cell Perturbation Prediction
 AU  - Wang, Handong
 AU  - Qi, Jiaxin
@@ -4903,6 +5479,26 @@ AB  - Modular, auditable runtime that turns natural-language questions into trac
 ID  - praxis-virtualcell
 ER  - 
 
+TY  - JOUR
+TI  - Predicting and interpreting cell-type-specific drug responses in the small-data regime using inductive priors
+AU  - Alsulami, Reem
+AU  - Lehmann, Robert
+AU  - Khan, Sumeer A.
+AU  - Lagani, Vincenzo
+AU  - Maillo, Alberto
+AU  - Gomez-Cabrero, David
+AU  - Kiani, Narsis A.
+PY  - 2026
+T2  - Nature Machine Intelligence
+DO  - 10.1038/s42256-026-01202-2
+UR  - https://doi.org/10.1038/s42256-026-01202-2
+KW  - perturbation
+KW  - drug-response
+KW  - graph
+AB  - Graph-based model with biological priors for cell-type-specific drug responses in the small-data regime.
+ID  - prepr-ct
+ER  - 
+
 TY  - UNPB
 TI  - Gene-embedding-based prediction and functional evaluation of perturbation expression responses with PRESAGE
 AU  - Littman, Russell
@@ -4929,6 +5525,25 @@ T2  - NeurIPS
 UR  - https://openreview.net/forum?id=A5O41ntKjk
 KW  - perturbation
 ID  - prescribe
+ER  - 
+
+TY  - JOUR
+TI  - Incorporating valuable prior knowledge to improve deep learning prediction of genetic perturbation responses
+AU  - Fu, Xiuhao
+AU  - Yang, Chao
+AU  - Cui, Chunyan
+AU  - Geng, Aoyun
+AU  - Sun, Yidi
+AU  - Zha, Chao
+AU  - Cui, Feifei
+PY  - 2026
+T2  - Genome Research
+DO  - 10.1101/gr.281523.125
+UR  - https://doi.org/10.1101/gr.281523.125
+KW  - perturbation
+KW  - scrna-seq
+AB  - Uses control-cell expression as a prior to predict genetic perturbation responses, including non-additive interactions.
+ID  - prim
 ER  - 
 
 TY  - UNPB
@@ -5057,6 +5672,21 @@ DO  - 10.1038/s41556-025-01626-9
 UR  - https://doi.org/10.1038/s41556-025-01626-9
 KW  - perturbation
 ID  - ps
+ER  - 
+
+TY  - UNPB
+TI  - Differentiable Retrieval-Augmented Generation for Predicting Cellular Responses to Gene Perturbation
+AU  - Francesco, Andrea Giuseppe Di
+AU  - Rubbi, Andrea
+AU  - Jain, Rishabh
+AU  - Liò, Pietro
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2603.07233
+KW  - perturbation
+KW  - scrna-seq
+AB  - Plug-in two-stage retrieval module that lets perturbation models condition on related perturbations, improving models such as scGPT.
+ID  - pt-rag
 ER  - 
 
 TY  - GEN
@@ -5235,6 +5865,25 @@ KW  - virtual-cell
 KW  - interpretability
 AB  - Short piece revisiting systems biology as a blueprint for an interpretable virtual cell.
 ID  - revisiting-the-blueprint-interpretable-virtual-cell
+ER  - 
+
+TY  - JOUR
+TI  - Mapping transcriptional responses to cellular perturbations with RNA fingerprinting
+AU  - Grabski, Isabella N.
+AU  - Lee, Junsuk
+AU  - Blair, John D.
+AU  - Dalgarno, Carol
+AU  - Mascio, Isabella
+AU  - Bradu, Alexandra
+AU  - Knowles, David A.
+PY  - 2026
+T2  - Cell
+DO  - 10.1016/j.cell.2026.09.017
+UR  - https://doi.org/10.1016/j.cell.2026.09.017
+KW  - perturbation
+KW  - scrna-seq
+AB  - Learns perturbation 'fingerprints' from single-cell dictionaries and maps responses in new experiments back to the perturbations that likely caused them.
+ID  - rna-fingerprinting
 ER  - 
 
 TY  - GEN
@@ -5607,6 +6256,25 @@ KW  - perturbation
 ID  - scbig
 ER  - 
 
+TY  - JOUR
+TI  - scCausalVI disentangles single-cell perturbation responses with causality-aware generative model
+AU  - An, Shaokun
+AU  - Cho, Jae-Won
+AU  - Cao, Kai
+AU  - Xiong, Jiankang
+AU  - Hemberg, Martin
+AU  - Wan, Lin
+PY  - 2025
+T2  - Cell Systems
+DO  - 10.1016/j.cels.2025.101443
+UR  - https://doi.org/10.1016/j.cels.2025.101443
+KW  - perturbation
+KW  - generative
+KW  - scrna-seq
+AB  - Separates intrinsic cell state from treatment effects in a causality-aware generative model.
+ID  - sccausalvi
+ER  - 
+
 TY  - UNPB
 TI  - scCBGM: Interpretable Single-Cell Counterfactual Editing
 AU  - Andersson, Alma
@@ -5755,6 +6423,24 @@ AB  - Adds a denoising-diffusion module to a context-aware transformer as post-t
 ID  - scdifformer
 ER  - 
 
+TY  - JOUR
+TI  - A multi-modal diffusion model with dual-cross-attention for multi-omics data generation and translation
+AU  - Luo, Erpai
+AU  - Wei, Lei
+AU  - Hao, Minsheng
+AU  - Zhang, Xuegong
+AU  - Liu, Qiao
+PY  - 2026
+T2  - Nature Communications
+DO  - 10.1038/s41467-026-71744-x
+UR  - https://doi.org/10.1038/s41467-026-71744-x
+KW  - generative
+KW  - multi-omics
+KW  - perturbation
+AB  - Latent diffusion model for integrating, generating and translating single-cell multi-omics data, also used to predict perturbation responses.
+ID  - scdiffusion-x
+ER  - 
+
 TY  - UNPB
 TI  - ScDiVa: Masked Discrete Diffusion for Joint Modeling of Single-Cell Identity and Expression
 AU  - Wang, Mingxuan
@@ -5838,6 +6524,26 @@ KW  - multi-omics
 KW  - foundation-model
 AB  - Pretrainable multi-omics transformer with efficient attention for genome-wide paired RNA and ATAC inputs.
 ID  - scdynomics
+ER  - 
+
+TY  - JOUR
+TI  - scE2TM improves single-cell embedding interpretability and reveals cellular perturbation signatures
+AU  - Chen, Hegang
+AU  - Lu, Yuyin
+AU  - Zhao, Yifan
+AU  - Dai, Zhiming
+AU  - Wang, Fu Lee
+AU  - Li, Qing
+AU  - Rao, Yanghui
+PY  - 2026
+T2  - Nature Communications
+DO  - 10.1038/s41467-026-76825-5
+UR  - https://doi.org/10.1038/s41467-026-76825-5
+KW  - scrna-seq
+KW  - interpretability
+KW  - foundation-model
+AB  - Interpretable embedded topic model that uses single-cell foundation-model knowledge and simulates topic perturbations toward stimulated states.
+ID  - sce2tm
 ER  - 
 
 TY  - JOUR
@@ -6542,6 +7248,26 @@ ID  - scpilot
 ER  - 
 
 TY  - JOUR
+TI  - Predicting Single‐Cell Perturbation Responses Across Biological Contexts With a Deep Generative Model Integrating Optimal Transport
+AU  - Wang, Jialiang
+AU  - Liu, Ziqi
+AU  - Zhang, Zhengqian
+AU  - Cao, Yikun
+AU  - Ren, Junjun
+AU  - Cheng, Peng
+AU  - Tian, Jingjing
+PY  - 2026
+T2  - Advanced Science
+DO  - 10.1002/advs.77461
+UR  - https://doi.org/10.1002/advs.77461
+KW  - perturbation
+KW  - generative
+KW  - scrna-seq
+AB  - Transfers observed perturbation responses to new cell types, patients and species with a deep generative model.
+ID  - scpilot-perturbation
+ER  - 
+
+TY  - JOUR
 TI  - Population-level integration of single-cell datasets enables multi-scale analysis across samples
 AU  - De Donno, Carlo
 AU  - Hediyeh-Zadeh, Soroor
@@ -6954,6 +7680,25 @@ AB  - Tiny linear model (640 parameters) with STRING-derived perturbation embedd
 ID  - slim
 ER  - 
 
+TY  - JOUR
+TI  - Uncovering spatially resolved functional genomics with CRISPR screen sequencing
+AU  - Zhang, Haorui
+AU  - Zhang, Zongxu
+AU  - Wang, Peiyu
+AU  - Xu, Tian
+AU  - Chen, Xiaoyu
+AU  - Zhao, Yanping
+AU  - Lin, Siyu
+PY  - 2026
+T2  - Cell
+DO  - 10.1016/j.cell.2026.04.049
+UR  - https://doi.org/10.1016/j.cell.2026.04.049
+KW  - perturbation
+KW  - spatial
+AB  - SPAC-seq: spatial CRISPR screen sequencing with the TARDIS toolkit for linking perturbations to spatial phenotypes.
+ID  - spac-seq
+ER  - 
+
 TY  - UNPB
 TI  - SpaCellAgent: A Self-Evolving LLM-Based Multi-Agent Framework for Trajectory Analysis
 AU  - Wang, Songhan
@@ -6991,6 +7736,25 @@ KW  - graph
 KW  - foundation-model
 AB  - Turns cellular neighbourhoods into random-walk sequences so a transformer can learn tissue context at atlas scale.
 ID  - spagfm
+ER  - 
+
+TY  - JOUR
+TI  - SPARCS enables scalable recovery of complex image-based phenotypes for genetic screening
+AU  - Schmacke, Niklas A.
+AU  - Mädler, Sophia C.
+AU  - Wallmann, Georg
+AU  - Metousis, Andreas
+AU  - Varlamova, Varvara
+AU  - Steigerwald, Sophia
+AU  - Christ, Sarah B.
+PY  - 2026
+T2  - Cell
+DO  - 10.1016/j.cell.2026.09.021
+UR  - https://doi.org/10.1016/j.cell.2026.09.021
+KW  - perturbation
+KW  - imaging
+AB  - SPARCS: microscopy-based forward genetic screening platform for complex image phenotypes with proteome readout of hit cells.
+ID  - sparcs
 ER  - 
 
 TY  - UNPB
@@ -7305,6 +8069,20 @@ KW  - generative
 ID  - squidiff
 ER  - 
 
+TY  - CPAPER
+TI  - Stable-Shift: Predicting Transcriptional Responses of Unseen Gene Perturbations Using Graph Neural Networks with Biological Priors
+AU  - Dip, Sajib Acharjee
+AU  - Zhang, Liqing
+PY  - 2026
+T2  - ACM-BCB
+DO  - 10.1145/3807503.3820871
+UR  - https://doi.org/10.1145/3807503.3820871
+KW  - perturbation
+KW  - graph
+AB  - Estimates responses to never-perturbed genes from a low-rank response basis and gene-graph neighbourhoods.
+ID  - stable-shift
+ER  - 
+
 TY  - UNPB
 TI  - Stack: In-Context Learning of Single-Cell Biology
 AU  - Dong, Mingze
@@ -7496,6 +8274,42 @@ ID  - subcell
 ER  - 
 
 TY  - JOUR
+TI  - Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on gene expression
+AU  - Lorenzini, Michael H.
+AU  - Balderson, Brad
+AU  - Lavalle, Shanna N.
+AU  - Sajeev, Karthyayani
+AU  - Ho, Aaron J.
+AU  - Light, Madelyn
+AU  - Usman, Olalekan H.
+PY  - 2026
+T2  - Nature Methods
+DO  - 10.1038/s41592-026-03319-z
+UR  - https://doi.org/10.1038/s41592-026-03319-z
+KW  - perturbation
+KW  - scrna-seq
+AB  - Superb-seq: assay that captures Cas9 edits and the transcriptome of the same single cell, revealing on- and off-target effects.
+ID  - superb-seq
+ER  - 
+
+TY  - UNPB
+TI  - SVC: A Vision Transformer-based Spatially and Virtually Embedded Cell Model for Deciphering Subcellular Spatial Transcriptomic Heterogeneity
+AU  - Wan, Hui
+AU  - Yang, Penghui
+AU  - Hou, Siyu
+AU  - Wang, Jade
+AU  - Zhou, Xiang
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.10.07.757371
+UR  - https://doi.org/10.64898/2026.10.07.757371
+KW  - spatial
+KW  - foundation-model
+AB  - Vision-transformer model of subcellular transcript organisation in tissue, whose representations transfer to imputation, clustering and domains.
+ID  - svc
+ER  - 
+
+TY  - JOUR
 TI  - Integrative deep learning of spatial multi-omics with SWITCH
 AU  - Li, Zhongzhan
 AU  - Qu, Sanqing
@@ -7681,6 +8495,24 @@ KW  - foundation-model
 KW  - perturbation
 AB  - Spatial foundation model pretrained on 112 million human cells that gives cell-, niche- and tissue-level embeddings and predicts tissue responses in silico.
 ID  - terra
+ER  - 
+
+TY  - JOUR
+TI  - A transcription factor regulatory atlas for activity inference and perturbation prediction
+AU  - Sugimoto, Hikaru
+AU  - Tsuyuzaki, Koki
+AU  - Zou, Zhaonan
+AU  - Oki, Shinya
+AU  - Ohta, Tazro
+AU  - Kawakami, Eiryo
+PY  - 2026
+T2  - Nucleic Acids Research
+DO  - 10.1093/nar/gkag897
+UR  - https://doi.org/10.1093/nar/gkag897
+KW  - perturbation
+KW  - gene-regulation
+AB  - Signed, quantitative TF-target atlas and framework for inferring TF activity and predicting transcriptome-wide responses to TF perturbations.
+ID  - tfactprofiler
 ER  - 
 
 TY  - JOUR
@@ -7970,6 +8802,25 @@ KW  - perturbation
 KW  - graph
 KW  - scrna-seq
 ID  - txpert
+ER  - 
+
+TY  - UNPB
+TI  - Unbalanced Perturbation Dynamics For Cell Fate Design
+AU  - Peng, Qiangwei
+AU  - Wang, Yuchuan
+AU  - Li, Jianzhe
+AU  - Wang, Xinyu
+AU  - Xiao, Yao
+AU  - Zhou, Peijie
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.06.30.735555
+UR  - https://doi.org/10.64898/2026.06.30.735555
+KW  - perturbation
+KW  - generative
+KW  - virtual-cell
+AB  - Models perturbations as unbalanced (mass-changing) dynamics to capture both expression and cell-abundance changes, and supports inverse design.
+ID  - u-pert
 ER  - 
 
 TY  - JOUR
@@ -8581,6 +9432,26 @@ UR  - https://www.biorxiv.org/content/10.1101/2025.11.13.688367v2
 KW  - perturbation
 KW  - multi-omics
 ID  - x-pert
+ER  - 
+
+TY  - JOUR
+TI  - Modelling drug-induced cellular perturbation responses with a biologically informed dual-branch transformer
+AU  - Guo, Yue
+AU  - Zhang, Hao
+AU  - Hu, Haitao
+AU  - Wu, Jialu
+AU  - Cao, Ji
+AU  - Hsieh, Chang-Yu
+AU  - Yang, Bo
+PY  - 2026
+T2  - Nature Machine Intelligence
+DO  - 10.1038/s42256-025-01165-w
+UR  - https://doi.org/10.1038/s42256-025-01165-w
+KW  - perturbation
+KW  - drug-response
+KW  - interpretability
+AB  - Dual-branch transformer that separates cell state from drug-induced shifts and models dose-time dynamics.
+ID  - xpert
 ER  - 
 
 TY  - CPAPER

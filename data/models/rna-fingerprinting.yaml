@@ -1,0 +1,35 @@
+id: rna-fingerprinting
+kind: model
+name: RNA fingerprinting
+title: Mapping transcriptional responses to cellular perturbations with RNA fingerprinting
+year: 2026
+venue: Cell
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: Single-cell perturbation dictionaries
+architecture: Statistical framework mapping responses to reference perturbations
+inputs:
+- expression
+outputs:
+- gene-prioritization
+perturbation_type:
+- genetic
+- chemical
+key: Learns perturbation 'fingerprints' from single-cell dictionaries and maps responses in new experiments
+  back to the perturbations that likely caused them.
+links:
+  paper: https://doi.org/10.1016/j.cell.2026.09.017
+  preprint: https://doi.org/10.1101/2025.09.19.676866
+  code: https://github.com/satijalab/rna-fingerprinting
+citation: Grabski, Isabella N., Junsuk Lee, John D. Blair, Carol Dalgarno, Isabella Mascio, Alexandra
+  Bradu, David A. Knowles et al. "Mapping transcriptional responses to cellular perturbations with RNA
+  fingerprinting." Cell (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.cell.2026.09.017
+- https://doi.org/10.1101/2025.09.19.676866
+- https://github.com/satijalab/rna-fingerprinting
+review_basis: abstract
+reviewed: false

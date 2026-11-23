@@ -1,0 +1,36 @@
+id: meta-flow-matching
+kind: model
+name: Meta Flow Matching
+title: 'Meta Flow Matching: Integrating Vector Fields on the Wasserstein Manifold'
+year: 2024
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- drug-response
+modality: Multi-patient single-cell drug screens
+architecture: Flow matching on the Wasserstein manifold with GNN population embeddings
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+architecture_family: flow-matching
+perturbation_type:
+- chemical
+generalization:
+- unseen-cell-context
+key: Flow matching conditioned on population embeddings to predict treatment responses for unseen patients.
+links:
+  preprint: https://arxiv.org/abs/2408.14608
+  code: https://github.com/lazaratan/meta-flow-matching
+citation: 'Atanackovic, Lazar, Xi Zhang, Brandon Amos, Mathieu Blanchette, Leo J. Lee, Yoshua Bengio,
+  Alexander Tong et al. "Meta Flow Matching: Integrating Vector Fields on the Wasserstein Manifold." arXiv
+  preprint arXiv:2408.14608 (2024).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2408.14608
+- https://github.com/lazaratan/meta-flow-matching
+review_basis: abstract
+reviewed: false

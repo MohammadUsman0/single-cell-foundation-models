@@ -1,0 +1,37 @@
+id: biomicroscopyprofiler
+kind: model
+name: BioMicroscopyProfiler
+title: Intervention-Aware Multiscale Representation Learning from Imaging Phenomics and Perturbation Transcriptomics
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- imaging
+- drug-response
+modality: Cell Painting / RxRx + L1000
+architecture: Intervention-aware multiscale image-transcriptome representation
+inputs:
+- cell-image
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- cell-embedding
+perturbation_type:
+- chemical
+generalization:
+- unseen-perturbation
+key: Aligns microscopy phenomics with perturbation transcriptomics, accounting for cell type and dose,
+  for transfer to unseen interventions.
+links:
+  preprint: https://arxiv.org/abs/2604.22832
+  code: https://github.com/The-Real-JerryChen/BioMicroscopyProfiler
+citation: Chen, Jiayuan, Ruoqi Liu, Zishan Gu, and Ping Zhang. "Intervention-Aware Multiscale Representation
+  Learning from Imaging Phenomics and Perturbation Transcriptomics." arXiv preprint arXiv:2604.22832 (2026).
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2604.22832
+- https://github.com/The-Real-JerryChen/BioMicroscopyProfiler
+review_basis: abstract
+reviewed: false

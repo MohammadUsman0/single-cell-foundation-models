@@ -1,0 +1,37 @@
+id: pie
+kind: model
+name: PIE
+title: 'PIE: Generalizing perturbation effects across unseen perturbations, contexts and datasets'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: Single-cell perturbation data
+architecture: Perturbation-effect model generalising across contexts and datasets
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+generalization:
+- unseen-perturbation
+- unseen-cell-context
+- cross-dataset
+key: Generalises perturbation effects across unseen perturbations, contexts and datasets; reports 1.2-3.2x
+  the DE-gene AUPRC of the best baseline.
+links:
+  preprint: https://doi.org/10.64898/2026.10.02.756297
+  code: https://github.com/ArcInstitute/pie
+citation: 'Verma, Rishi, Abhinav Adduri, Beatrice Bevilacqua, Basak Eraslan, Dave P. Burke, Hani Goodarzi,
+  and Yusuf H Roohani. "PIE: Generalizing perturbation effects across unseen perturbations, contexts and
+  datasets." bioRxiv (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.10.02.756297
+- https://github.com/ArcInstitute/pie
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,36 @@
+id: pt-rag
+kind: model
+name: PT-RAG
+title: Differentiable Retrieval-Augmented Generation for Predicting Cellular Responses to Gene Perturbation
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: scRNA-seq (genetic perturbation)
+architecture: Plug-in differentiable retrieval-augmented generation
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+generalization:
+- unseen-perturbation
+- unseen-cell-context
+key: Plug-in two-stage retrieval module that lets perturbation models condition on related perturbations,
+  improving models such as scGPT.
+links:
+  preprint: https://arxiv.org/abs/2603.07233
+  code: https://github.com/difra100/PT-RAG_NIPS
+citation: Francesco, Andrea Giuseppe Di, Andrea Rubbi, Rishabh Jain, and Pietro Liò. "Differentiable Retrieval-Augmented
+  Generation for Predicting Cellular Responses to Gene Perturbation." arXiv preprint arXiv:2603.07233
+  (2026).
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2603.07233
+- https://github.com/difra100/PT-RAG_NIPS
+review_basis: abstract
+reviewed: false

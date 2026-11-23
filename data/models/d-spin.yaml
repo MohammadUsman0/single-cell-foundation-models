@@ -1,0 +1,40 @@
+id: d-spin
+kind: model
+name: D-SPIN
+title: D-SPIN constructs regulatory network models from scRNA-seq that reveal organizing principles of
+  perturbation response
+year: 2026
+venue: Cell
+category: perturbation
+tags:
+- perturbation
+- gene-regulation
+- scrna-seq
+- drug-response
+modality: Single-cell perturbation data (drug and genetic)
+architecture: Generative regulatory network model of gene programs
+inputs:
+- expression
+- perturbation
+outputs:
+- gene-regulatory-network
+- perturbation-response
+perturbation_type:
+- chemical
+- combination
+key: Builds interpretable, generative regulatory-network models from perturbation scRNA-seq and simulates
+  cell populations under unseen drug-dose combinations.
+links:
+  paper: https://doi.org/10.1016/j.cell.2026.04.028
+  preprint: https://doi.org/10.1101/2023.04.19.537364
+  code: https://github.com/JialongJiang/DSPIN
+citation: 'Jiang, Jialong, Sisi Chen, Tiffany Tsou, Christopher S. McGinnis, Tahmineh Khazaei, Qin Zhu,
+  Jong H. Park et al. "D-SPIN constructs regulatory network models from scRNA-seq that reveal organizing
+  principles of perturbation response." Cell 189, no. 13 (2026): 4159-4184.e35.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.cell.2026.04.028
+- https://doi.org/10.1101/2023.04.19.537364
+- https://github.com/JialongJiang/DSPIN
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,35 @@
+id: expert
+kind: model
+name: ExPert
+title: ExPert infers causal perturbations from cell states across biological and clinical contexts
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+- virtual-cell
+modality: Pooled single-cell CRISPR screens (12 contexts)
+architecture: Perturbation prototypes in a shared latent space
+inputs:
+- expression
+outputs:
+- gene-prioritization
+perturbation_type:
+- genetic
+generalization:
+- unseen-cell-context
+key: 'Inverse model: ranks which perturbation most likely produced an observed cell state, trained on
+  8,964 perturbations across 12 cellular contexts.'
+links:
+  preprint: https://doi.org/10.64898/2026.11.02.762549
+  code: https://github.com/GoyalLab/ExPert
+citation: Schwartz, Leon, Jacob L. Schlamowitz, Benjamin Kuznets-Speck, Conor W. Johnson, Diptatanu Das,
+  Emanuelle I. Grody, Tao Bai et al. "ExPert infers causal perturbations from cell states across biological
+  and clinical contexts." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.11.02.762549
+- https://github.com/GoyalLab/ExPert
+review_basis: abstract
+reviewed: false

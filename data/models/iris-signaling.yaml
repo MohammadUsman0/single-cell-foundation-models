@@ -1,0 +1,29 @@
+id: iris-signaling
+kind: model
+name: IRIS
+title: Reconstructing signaling histories of single cells via perturbation screens and transfer learning
+year: 2026
+venue: Nature Methods
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: Signaling perturbation screens + in vivo scRNA-seq
+architecture: Transfer learning from in vitro signaling responses
+inputs:
+- expression
+outputs:
+- perturbation-response
+key: Learns signalling-response signatures from in vitro screens and transfers them to reconstruct cells'
+  signalling histories in vivo.
+links:
+  paper: https://doi.org/10.1038/s41592-026-03213-8
+code_status: none-found
+citation: 'Hutchins, Nicholas T., Miram Meziane, Claire Lu, Maisam Mitalipova, David S. Fischer, and Pulin
+  Li. "Reconstructing signaling histories of single cells via perturbation screens and transfer learning."
+  Nature Methods 23, no. 10 (2026): 1973-1983.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41592-026-03213-8
+review_basis: abstract
+reviewed: false

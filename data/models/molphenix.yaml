@@ -1,0 +1,38 @@
+id: molphenix
+kind: model
+name: MolPhenix
+title: 'How Molecules Impact Cells: Unlocking Contrastive PhenoMolecular Retrieval'
+year: 2024
+venue: NeurIPS
+category: perturbation
+tags:
+- perturbation
+- imaging
+- drug-response
+modality: Microscopy phenomics + molecular structures
+architecture: Contrastive molecule-phenomics model
+inputs:
+- cell-image
+- perturbation
+outputs:
+- cell-embedding
+architecture_family: contrastive-dual-encoder
+perturbation_type:
+- chemical
+generalization:
+- zero-shot
+key: Contrastively aligns molecular structures with microscopy phenomics for zero-shot molecule retrieval
+  from cell images.
+links:
+  paper: https://doi.org/10.52202/079017-3513
+  preprint: https://arxiv.org/abs/2409.08302
+code_status: none-found
+citation: 'Fradkin, Philip, Puria Azadi, Karush Suri, Frederik Wenkel, Ali Bashashati, Maciej Sypetkowski,
+  and Dominique Beaini. "How Molecules Impact Cells: Unlocking Contrastive PhenoMolecular Retrieval."
+  In Advances in Neural Information Processing Systems 37 (2024): 110667-110701.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.52202/079017-3513
+- https://arxiv.org/abs/2409.08302
+review_basis: abstract
+reviewed: false

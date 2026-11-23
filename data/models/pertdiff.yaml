@@ -1,0 +1,40 @@
+id: pertdiff
+kind: model
+name: PertDiff
+title: Enhancing cross-context generalization in drug perturbation prediction with a multimodal conditional
+  diffusion framework
+year: 2026
+venue: Bioinformatics
+category: perturbation
+tags:
+- perturbation
+- drug-response
+- generative
+modality: Drug perturbation transcriptomics
+architecture: Conditional diffusion with LLM cell semantics and molecular graphs
+inputs:
+- expression
+- perturbation
+- text
+outputs:
+- perturbation-response
+architecture_family: diffusion
+perturbation_type:
+- chemical
+generalization:
+- unseen-perturbation
+- unseen-cell-context
+key: Conditional diffusion model combining control expression, LLM-derived cell descriptions and molecular
+  graphs for unseen drugs and cell lines.
+links:
+  paper: https://doi.org/10.1093/bioinformatics/btag482
+  code: https://github.com/Panda-myj/PertDiff
+citation: Ma, Yanjie, Kang Du, Yan Li, Pengyong Li, and Liang Yu. "Enhancing cross-context generalization
+  in drug perturbation prediction with a multimodal conditional diffusion framework." Bioinformatics 42,
+  no. 7 (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1093/bioinformatics/btag482
+- https://github.com/Panda-myj/PertDiff
+review_basis: abstract
+reviewed: false

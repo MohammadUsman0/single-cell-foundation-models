@@ -1,0 +1,32 @@
+id: cautrigger
+kind: model
+name: CauTrigger
+title: 'CauTrigger: deciphering biological system state transitions by hierarchical causal decomposition'
+year: 2026
+venue: Nature Methods
+category: perturbation
+tags:
+- perturbation
+- gene-regulation
+- interpretability
+modality: Single-cell transcriptomics (state transitions)
+architecture: Hierarchical deep latent variable model with do-calculus
+inputs:
+- expression
+outputs:
+- gene-prioritization
+- perturbation-response
+architecture_family: vae
+key: Hierarchical latent-variable model using do-calculus to find causal triggers of state transitions
+  and predict outcomes of interventions.
+links:
+  paper: https://doi.org/10.1038/s41592-026-03274-9
+  code: https://github.com/ChengmingZhang-CAS/CauTrigger
+citation: 'Zhang, Chengming, Deyu Cai, Kazuyuki Aihara, and Luonan Chen. "CauTrigger: deciphering biological
+  system state transitions by hierarchical causal decomposition." Nature Methods 23, no. 11 (2026): 2169-2180.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41592-026-03274-9
+- https://github.com/ChengmingZhang-CAS/CauTrigger
+review_basis: abstract
+reviewed: false

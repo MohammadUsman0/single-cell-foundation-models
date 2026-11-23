@@ -1,0 +1,32 @@
+id: cytocarto
+kind: model
+name: CytoCarto
+title: A human cytokine response atlas to reconstruct underlying gene regulatory networks
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- gene-regulation
+modality: ~10M PBMCs exposed to 90 cytokines
+architecture: Multiscale cytokine-response model (GPU D-SPIN)
+inputs:
+- expression
+outputs:
+- gene-regulatory-network
+- perturbation-response
+key: Turns a single-cell atlas of PBMCs exposed to 90 cytokines into a multiscale cytokine-response and
+  regulatory-network model.
+links:
+  preprint: https://doi.org/10.64898/2026.07.27.740961
+  code: https://github.com/poconnel3/CytoCarto
+citation: O’Connell, Patrick. "A human cytokine response atlas to reconstruct underlying gene regulatory
+  networks." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.07.27.740961
+- https://github.com/poconnel3/CytoCarto
+review_basis: abstract
+reviewed: false
+review_notes:
+- Single-author preprint, not peer reviewed.
