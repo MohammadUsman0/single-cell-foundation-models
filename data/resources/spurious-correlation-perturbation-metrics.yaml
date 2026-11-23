@@ -1,0 +1,23 @@
+id: spurious-correlation-perturbation-metrics
+kind: resource
+type: benchmark
+title: Spurious correlation inflates performance in single-cell perturbation prediction
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- scrna-seq
+key: Shows that correlation and cosine metrics against shared controls are inflated in perturbation benchmarks.
+links:
+  preprint: https://doi.org/10.64898/2026.05.07.723486
+  code: https://github.com/phillipnicol/systema
+findings: Even uninformative methods look good; a control-splitting fix substantially lowers previously
+  reported performance.
+citation: Nicol, Phillip B., Shriya Shivakumar, and Rafael A. Irizarry. "Spurious correlation inflates
+  performance in single-cell perturbation prediction." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.05.07.723486
+- https://github.com/phillipnicol/systema
+review_basis: abstract
+reviewed: false

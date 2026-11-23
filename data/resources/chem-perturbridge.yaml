@@ -1,0 +1,23 @@
+id: chem-perturbridge
+kind: resource
+type: dataset
+title: 'Chem-PerturBridge: a harmonized compendium of small molecule perturbation transcriptomic effects'
+year: 2026
+venue: arXiv
+tags:
+- perturbation
+- drug-response
+key: 'Chem-PerturBridge: harmonised compendium of small-molecule transcriptomic perturbation data (37k
+  compounds, 136 contexts, 1.25M profiles).'
+links:
+  preprint: https://arxiv.org/abs/2605.31522
+  code: https://github.com/theislab/Chem-PerturBridge
+citation: 'Szałata, Artur, Olga Novitskaia, Maiia Shulman, Matthew Mella, Altynbek Zhubanchaliyev, and
+  Fabian J. Theis. "Chem-PerturBridge: a harmonized compendium of small molecule perturbation transcriptomic
+  effects." arXiv preprint arXiv:2605.31522 (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2605.31522
+- https://github.com/theislab/Chem-PerturBridge
+review_basis: abstract
+reviewed: false

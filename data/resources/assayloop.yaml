@@ -1,0 +1,27 @@
+id: assayloop
+kind: resource
+type: benchmark
+title: 'Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens'
+aliases:
+- AssayLoop
+year: 2026
+venue: arXiv
+tags:
+- perturbation
+- llm
+key: Benchmark for adaptive hit discovery in CRISPR screens, with AssayFormer, a policy learned across
+  historical screens.
+links:
+  preprint: https://arxiv.org/abs/2609.11877
+  code: https://github.com/genentech/assayloop
+findings: Learned acquisition policies plus biological priors beat classical adaptive design and standalone
+  LLMs.
+citation: 'Edwards, Carl, Edward De Brouwer, Xiner Li, Namkyeong Lee, Ehsan Hajiramezanali, Anne Biton,
+  Sara Mostafavi et al. "Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens." arXiv
+  preprint arXiv:2609.11877 (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2609.11877
+- https://github.com/genentech/assayloop
+review_basis: abstract
+reviewed: false

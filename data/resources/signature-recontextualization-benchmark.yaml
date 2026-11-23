@@ -1,0 +1,24 @@
+id: signature-recontextualization-benchmark
+kind: resource
+type: benchmark
+title: A benchmarking framework for perturbational signature recontextualization across biological contexts
+aliases:
+- sigRecon
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+key: Benchmark for transferring perturbational signatures across biological contexts (sigRecon).
+links:
+  preprint: https://doi.org/10.64898/2026.08.14.744937
+  code: https://github.com/montilab/sigrecon
+findings: Predictability depends on pathway conservation, response strength and baseline similarity between
+  contexts.
+citation: Chen, Andrew, Noa Rappaport, Nick Schork, Thomas Girke, and Stefano Monti. "A benchmarking framework
+  for perturbational signature recontextualization across biological contexts." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.08.14.744937
+- https://github.com/montilab/sigrecon
+review_basis: abstract
+reviewed: false

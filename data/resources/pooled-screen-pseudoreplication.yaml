@@ -1,0 +1,26 @@
+id: pooled-screen-pseudoreplication
+kind: resource
+type: benchmark
+title: Shared clones make random cell halves look reproducible in pooled screens
+year: 2026
+venue: arXiv
+tags:
+- perturbation
+- scrna-seq
+key: Shows that random cell halves in pooled screens are not independent replicates, because cells share
+  transduced clones.
+links:
+  preprint: https://arxiv.org/abs/2610.32962
+  code: https://github.com/xuanruihuang/random-halves-not-replicates
+evaluates:
+- state
+findings: Judged against another transduction, a model's apparent gain on new cell states (STATE) vanished;
+  reproducibility should be measured across transductions.
+citation: Huang, Xuanrui. "Shared clones make random cell halves look reproducible in pooled screens."
+  arXiv preprint arXiv:2610.32962 (2026).
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2610.32962
+- https://github.com/xuanruihuang/random-halves-not-replicates
+review_basis: abstract
+reviewed: false

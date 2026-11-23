@@ -1,0 +1,24 @@
+id: screpresenter
+kind: resource
+type: tool
+title: 'scRepresenter: a workflow for computing, integrating and benchmarking cellular representations
+  in single-cell transcriptomics'
+year: 2026
+venue: bioRxiv
+tags:
+- scrna-seq
+- foundation-model
+key: 'scRepresenter: workflow for computing, integrating and comparing single-cell embeddings, including
+  foundation-model ones, with a Shiny viewer.'
+links:
+  preprint: https://doi.org/10.64898/2026.07.15.738660
+  code: https://github.com/GuilhermePocas/scRepresenter
+citation: 'Pocas, Guilherme, Muhammad Umar, Oliver Davis, Martin Hemberg, Andre Lamurias, András Lakatos,
+  and Muhammad Asif. "scRepresenter: a workflow for computing, integrating and benchmarking cellular representations
+  in single-cell transcriptomics." bioRxiv (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.07.15.738660
+- https://github.com/GuilhermePocas/scRepresenter
+review_basis: abstract
+reviewed: false

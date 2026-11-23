@@ -1,0 +1,25 @@
+id: raw-count-embeddings-scfm
+kind: resource
+type: benchmark
+title: Raw-count embeddings improve single-cell foundation models
+year: 2026
+venue: bioRxiv
+tags:
+- foundation-model
+- scrna-seq
+key: Benchmarks preprocessing choices (ranking, normalisation) for single-cell transformers and builds
+  a simple raw-count model.
+links:
+  preprint: https://doi.org/10.64898/2026.06.29.735389
+  code: https://github.com/beleggia-lab/geneintelligence
+findings: Non-normalised log counts work best and gene order barely matters; the simple model matches
+  large foundation models with 10-200x fewer parameters.
+citation: Schlede, Sebastian, Thulasi Priyadharshini Muruganandan, Santhosh Gojjam Kantharaju, Ilmars
+  Kisis, Maike Boecker, Mira Kim Alves Carpinteiro, Anne Schmitz et al. "Raw-count embeddings improve
+  single-cell foundation models." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.06.29.735389
+- https://github.com/beleggia-lab/geneintelligence
+review_basis: abstract
+reviewed: false

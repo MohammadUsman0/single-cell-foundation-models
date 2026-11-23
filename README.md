@@ -13,7 +13,7 @@
 
 For each model, the catalogue aims to record what it is, whether you can use it (code, weights, license) and what benchmarks found about it. Titles, years, venues and links are verified against Crossref, OpenAlex, arXiv and bioRxiv with [`scripts/verify.py`](scripts/verify.py).
 
-**343 models** (284 with code) · **243 resources** · **19 venues** · updated 2026-11-23
+**346 models** (287 with code) · **273 resources** · **19 venues** · updated 2026-11-23
 
 Each entry: **name** · title (**venue year**) · tags · links. Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).
 
@@ -24,7 +24,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 | Added | Models | Resources |
 |---|---|---|
-| 2026-11-23 | 71 | 17 |
+| 2026-11-23 | 74 | 47 |
 | 2026-10-22 | 102 | 100 |
 | 2026-06-02 | 170 | 126 |
 
@@ -46,15 +46,15 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - [LLM-based & Language-Cell Models](#llm-based--language-cell-models) (22)
 - [Agentic & Autonomous Cell Models](#agentic--autonomous-cell-models) (26)
 - [Cross-species & Cell Atlas / Similarity Models](#cross-species--cell-atlas--similarity-models) (4)
-- [Perturbation Prediction & Virtual Cell / World Models](#perturbation-prediction--virtual-cell--world-models) (143)
+- [Perturbation Prediction & Virtual Cell / World Models](#perturbation-prediction--virtual-cell--world-models) (146)
 - [Mechanistic & Whole-Cell Models](#mechanistic--whole-cell-models) (3)
 
 **Resources**
 
-- [Benchmarks & Evaluation](#benchmarks--evaluation) (101)
+- [Benchmarks & Evaluation](#benchmarks--evaluation) (127)
 - [Interpretability & Mechanistic Analysis](#interpretability--mechanistic-analysis) (28)
-- [Datasets & Atlases](#datasets--atlases) (48)
-- [Tools & Software](#tools--software) (9)
+- [Datasets & Atlases](#datasets--atlases) (51)
+- [Tools & Software](#tools--software) (10)
 - [Surveys](#surveys) (21)
 - [Perspectives & Commentary](#perspectives--commentary) (29)
 - [Other References](#other-references) (7)
@@ -352,6 +352,7 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - **ExPert** · ExPert infers causal perturbations from cell states across biological and clinical contexts (**bioRxiv 2026**) · `Perturbation` `scRNA-seq` `Virtual cell` · [[code](https://github.com/GoyalLab/ExPert)] ![stars](https://img.shields.io/github/stars/GoyalLab/ExPert?style=flat-square&label=%E2%98%85)
 - **ExpressionVAE** · Elucidating the Design Space of Generative Models for Single-Cell Perturbation Prediction (**bioRxiv 2026**) · `Perturbation` `Generative` `scRNA-seq` · [[code](https://github.com/sanjukta7/sc-evae)] ![stars](https://img.shields.io/github/stars/sanjukta7/sc-evae?style=flat-square&label=%E2%98%85)
 - **GeneGeoFlow** · Control-Anchored Residual Flow Matching Conditioned on Gene Geometry for Virtual Cell Perturbation Modeling (**arXiv 2026**) · `Perturbation` `Generative` `Virtual cell` `scRNA-seq`
+- **GENESIS** · Single-cell perturbation prediction near experimental reproducibility with GENESIS (**bioRxiv 2026**) · `Perturbation` `Generative` `scRNA-seq` · [[code](https://github.com/rickconci/GENESIS)] ![stars](https://img.shields.io/github/stars/rickconci/GENESIS?style=flat-square&label=%E2%98%85)
 - **GFM** · Graph-guided flow matching enables biologically informed prediction at single-cell resolution (**bioRxiv 2026**) · `Perturbation` `Generative` `scRNA-seq` · [[code](https://github.com/TRON-Bioinformatics/GFM)] ![stars](https://img.shields.io/github/stars/TRON-Bioinformatics/GFM?style=flat-square&label=%E2%98%85)
 - **GPS** · Deep-learning-based de novo discovery and design of therapeutics that reverse disease-associated transcriptional phenotypes (**Cell 2026**) · `Perturbation` `Drug response` · [[paper](https://doi.org/10.1016/j.cell.2026.02.016)] [[code](https://github.com/Bin-Chen-Lab/GPS)] ![stars](https://img.shields.io/github/stars/Bin-Chen-Lab/GPS?style=flat-square&label=%E2%98%85)
 - **HarmonyCell** · HarmonyCell: Automating Single-Cell Perturbation Modeling under Semantic and Distribution Shifts (**arXiv 2026**) · `Perturbation` · [[paper](https://arxiv.org/pdf/2603.01396)]
@@ -385,6 +386,7 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - **RegVelo** · RegVelo: Gene-Regulatory-Informed Dynamics of Single Cells (**Cell 2026**) · `Perturbation` `Gene regulation` · [[paper](https://doi.org/10.1016/j.cell.2026.04.022)] [[code](https://github.com/theislab/regvelo)] ![stars](https://img.shields.io/github/stars/theislab/regvelo?style=flat-square&label=%E2%98%85)
 - **Response decomposition** · Perturbation response decomposition enables biologically aligned generalization to unseen perturbations and cellular contexts (**bioRxiv 2026**) · `Perturbation` `scRNA-seq` · [[code](https://github.com/xinyizhanglab/perturbation-decomposition)] ![stars](https://img.shields.io/github/stars/xinyizhanglab/perturbation-decomposition?style=flat-square&label=%E2%98%85)
 - **RNA fingerprinting** · Mapping transcriptional responses to cellular perturbations with RNA fingerprinting (**Cell 2026**) · `Perturbation` `scRNA-seq` · [[paper](https://doi.org/10.1016/j.cell.2026.09.017)] [[code](https://github.com/satijalab/rna-fingerprinting)] ![stars](https://img.shields.io/github/stars/satijalab/rna-fingerprinting?style=flat-square&label=%E2%98%85)
+- **S1Pert** · S1Pert: Scalable Target-Specific Gene Response Prediction with System-One Intelligence (**arXiv 2026**) · `Perturbation` `scRNA-seq` · [[code](https://github.com/liujiawen-jpg/S1Pert)] ![stars](https://img.shields.io/github/stars/liujiawen-jpg/S1Pert?style=flat-square&label=%E2%98%85)
 - **sc2Flow** · sc2Flow: Mitigating Mean Prediction Bias in Single-Cell Perturbation with Dual-Stage Flow Matching (**IJCAI 2026**) · `Perturbation` `Generative` `Drug response` · [[paper](https://doi.org/10.24963/ijcai.2026/757)] [[code](https://github.com/hanwenlv-cmd/sc2Flow)] ![stars](https://img.shields.io/github/stars/hanwenlv-cmd/sc2Flow?style=flat-square&label=%E2%98%85)
 - **SCALE** · SCALE: Scalable Conditional Atlas-Level Endpoint transport for virtual cell perturbation prediction (**bioRxiv 2026**) · `Perturbation` `Virtual cell` · [[paper](https://doi.org/10.64898/2026.03.17.712536)]
 - **scBalFlow** · scBalFlow: a staged flow matching framework for imbalanced single-cell drug perturbation prediction (**Bioinformatics 2026**) · `Perturbation` `Generative` `Drug response` · [[paper](https://doi.org/10.1093/bioinformatics/btag682)] [[code](https://github.com/hanwenlv-cmd/scBalFlow)] ![stars](https://img.shields.io/github/stars/hanwenlv-cmd/scBalFlow?style=flat-square&label=%E2%98%85)
@@ -406,6 +408,7 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - **TxPert** · TxPert: using multiple knowledge graphs for prediction of transcriptomic perturbation effects (**Nature Biotechnology 2026**) · `Perturbation` `Graph` `scRNA-seq` · [[paper](https://www.nature.com/articles/s41587-026-03113-4)] [[code](https://github.com/valence-labs/TxPert)] ![stars](https://img.shields.io/github/stars/valence-labs/TxPert?style=flat-square&label=%E2%98%85)
 - **U-Pert** · Unbalanced Perturbation Dynamics For Cell Fate Design (**bioRxiv 2026**) · `Perturbation` `Generative` `Virtual cell` · [[code](https://github.com/QiangweiPeng/UPT)] ![stars](https://img.shields.io/github/stars/QiangweiPeng/UPT?style=flat-square&label=%E2%98%85)
 - **UniPert-G2CP** · UniPert-G2CP bridges genetic and chemical screens from molecular representation to phenotype modeling (**Cell 2026**) · `Perturbation` `Multi-omics` `Drug response` · [[paper](https://doi.org/10.1016/j.cell.2026.06.005)] [[code](https://github.com/TencentAILabHealthcare/UniPert)] ![stars](https://img.shields.io/github/stars/TencentAILabHealthcare/UniPert?style=flat-square&label=%E2%98%85)
+- **UPM** · How Much Can AI Virtual Cells Gain from Unified Perturbational Modeling? (**bioRxiv 2026**) · `Perturbation` `Virtual cell` · [[code](https://github.com/youlab2025/UPM)] ![stars](https://img.shields.io/github/stars/youlab2025/UPM?style=flat-square&label=%E2%98%85)
 - **URFPert** · URFPert: Unrolled Regulatory Flow Networks for Out-of-Distribution Single-Cell Perturbation Prediction (**IJCAI 2026**) · `Perturbation` `Gene regulation` · [[paper](https://doi.org/10.24963/ijcai.2026/534)] [[code](https://github.com/Jiniretttt/URFPert)] ![stars](https://img.shields.io/github/stars/Jiniretttt/URFPert?style=flat-square&label=%E2%98%85)
 - **V3Cell** · V3Cell: A Vision-Guided Virtual 3D Cell Framework for Phenotypic Modeling and Perturbation Prediction (**bioRxiv 2026**) · `Perturbation` `Imaging` `Virtual cell` · [[code](https://github.com/Laineyoulu/V3Cell)] ![stars](https://img.shields.io/github/stars/Laineyoulu/V3Cell?style=flat-square&label=%E2%98%85)
 - **VCLMU** · VCLMU: Mechanism-Centric Virtual Cell World Modeling for Perturbation Response (**arXiv 2026**) · `Perturbation` `Virtual cell` `scRNA-seq` `Interpretability`
@@ -478,12 +481,18 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 
 ## Benchmarks & Evaluation
 
+- 3D Masked Autoencoders are Robust Learners of Volumetric and Multimodal Cellular Representations for Microscopy (**arXiv 2026**) · `Imaging` `Foundation model` · [[code](https://github.com/marrlab/mae3d-opencell)] ![stars](https://img.shields.io/github/stars/marrlab/mae3d-opencell?style=flat-square&label=%E2%98%85)
+- A benchmarking framework for perturbational signature recontextualization across biological contexts (**bioRxiv 2026**) · `Perturbation` · [[code](https://github.com/montilab/sigrecon)] ![stars](https://img.shields.io/github/stars/montilab/sigrecon?style=flat-square&label=%E2%98%85)
+- A confound-diagnostic toolkit for in silico perturbation with single-cell foundation models (**bioRxiv 2026**) · `Foundation model` `Perturbation` · [[code](https://github.com/willow0077/isp-confound-toolkit)] ![stars](https://img.shields.io/github/stars/willow0077/isp-confound-toolkit?style=flat-square&label=%E2%98%85)
 - A leakage-aware benchmark for evaluating chemical and cellular generalization in single-cell perturbation-response prediction (**Research Square 2026**) · `Perturbation` `Drug response`
 - A mechanism-annotated benchmark reveals limited fidelity to drug-response signatures in single-cell perturbation models (**bioRxiv 2026**) · `Perturbation` `Drug response` `scRNA-seq`
+- A split-control criterion for few-shot adaptation in single-cell perturbation prediction (**bioRxiv 2026**) · `Perturbation` `scRNA-seq` · [[code](https://github.com/yyb2020/safedelta)] ![stars](https://img.shields.io/github/stars/yyb2020/safedelta?style=flat-square&label=%E2%98%85)
 - A Standardized Framework For Evaluating Gene Expression Generative Models (**arXiv 2026**) · `Generative` `scRNA-seq` `Perturbation`
+- A structured study of cross-condition prediction of transcriptional responses to gene perturbations (**bioRxiv 2026**) · `Perturbation` `LLM` · [[code](https://github.com/PancakeZoy/TranScouter)] ![stars](https://img.shields.io/github/stars/PancakeZoy/TranScouter?style=flat-square&label=%E2%98%85)
 - A systematic assessment of single-cell language model configurations (**NAR Genomics and Bioinformatics 2026**) · `Foundation model` `scRNA-seq` · [[paper](https://doi.org/10.1093/nargab/lqag095)]
 - A Systematic Comparison of Single-Cell Perturbation Response Prediction Models (**Science Advances 2026**) · `Perturbation` · [[paper](https://doi.org/10.1126/sciadv.aed3414)]
 - Accessible and reproducible deployment reveals the practical boundaries of single-cell foundation models (**bioRxiv 2026**) · `scRNA-seq` `Foundation model` · [[paper](https://www.biorxiv.org/content/10.64898/2026.01.06.698060v1)]
+- Advancing morphological profiling with self-supervised learning through comparative insights into representation learning of cellular perturbations (**Nature Methods 2026**) · `Imaging` `Foundation model` `Perturbation` · [[paper](https://doi.org/10.1038/s41592-026-03270-z)] [[code](https://github.com/johnsonandjohnson/DeepCellMorpho)] ![stars](https://img.shields.io/github/stars/johnsonandjohnson/DeepCellMorpho?style=flat-square&label=%E2%98%85)
 - AmbiModBench: Benchmarking Gene Perturbation Prediction Beyond Shared Responses (**arXiv 2026**) · `Perturbation` `scRNA-seq`
 - An Empirical Comparison of Virtual Cell Models: Perturbation Prediction, Representation, and the Baseline Gap (**Research Square 2026**) · `Perturbation` `Virtual cell` `Foundation model`
 - AssayBench: An Assay-Level Virtual Cell Benchmark for LLMs and Agents (**arXiv 2026**) · `Text` `Virtual cell` `Agent` · [[paper](https://arxiv.org/abs/2605.10876)]
@@ -491,6 +500,7 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - Auditing Confidence-Calibrated Benchmarking of Single-Cell Perturbation Models (**bioRxiv 2026**) · `Perturbation` `scRNA-seq`
 - Auditing pretraining contamination in single-cell foundation model benchmarks (**arXiv 2026**) · `Foundation model` `scRNA-seq`
 - Auditing Retrieval-Augmented LLM Hypotheses for Longitudinal Cell Painting Morphology (**ACM-BCB 2026**) · `Imaging` `LLM` `Perturbation` · [[paper](https://doi.org/10.1145/3807503.3819448)]
+- BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard (**arXiv 2026**) · `Imaging` · [[code](https://github.com/ml-jku/batchbench-baselines)] ![stars](https://img.shields.io/github/stars/ml-jku/batchbench-baselines?style=flat-square&label=%E2%98%85)
 - Benchmarking biological knowledge-graph priors against single-cell foundation models for Perturb-seq prediction (**Computational Biology and Chemistry 2026**) · `Perturbation` `Foundation model` · [[paper](https://doi.org/10.1016/j.compbiolchem.2026.109480)]
 - Benchmarking gene expression reconstruction from single-cell latent representations (**bioRxiv 2026**) · `Foundation model` `scRNA-seq` `Perturbation`
 - Benchmarking LLM-based agents for single-cell omics analysis (**Genome Biology 2026**) · `Agent` `LLM` `scRNA-seq` · [[paper](https://doi.org/10.1186/s13059-026-03998-z)]
@@ -500,9 +510,14 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - Benchmarking virtual cell models for in-the-wild perturbation response (**arXiv 2026**) · `Perturbation` `Virtual cell` · [[paper](https://arxiv.org/abs/2604.27646)]
 - Benchmarking zero-shot single-cell foundation model embeddings for cellular dynamics reconstruction (**bioRxiv 2026**) · `Foundation model` `scRNA-seq`
 - Beyond Expression Prediction: Benchmarking Differential Expression Classification in Single-Cell Perturbation Models (**bioRxiv 2026**) · `Perturbation` `scRNA-seq`
+- Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens (**arXiv 2026**) · `Perturbation` `LLM` · [[code](https://github.com/genentech/assayloop)] ![stars](https://img.shields.io/github/stars/genentech/assayloop?style=flat-square&label=%E2%98%85)
 - Can We Trust In-Distribution Success? Locked Evaluation Reveals Transfer Failure and Sampling-Depth Entanglement in CRISPRi Perturbation Prediction (**arXiv 2026**) · `Perturbation` `Foundation model`
+- Cancer Cell Line Heterogeneity Imposes a Primary Bottleneck for Virtual Perturbation Screening at Scale (**bioRxiv 2026**) · `Perturbation` `Drug response` · [[code](https://github.com/wkr112344/VirtualCellWorkbench)] ![stars](https://img.shields.io/github/stars/wkr112344/VirtualCellWorkbench?style=flat-square&label=%E2%98%85)
 - Context-dependent utility and robustness of pretrained single-cell foundation model representations across analytical tasks (**bioRxiv 2026**) · `Foundation model` `scRNA-seq`
+- Counting cells can accurately predict small-molecule bioactivity benchmarks (**Nature Communications 2026**) · `Imaging` `Drug response` · [[paper](https://doi.org/10.1038/s41467-026-68725-5)]
+- Deep learning perturbation models can outperform baselines on calibrated metrics (**Nature Biotechnology 2026**) · `Perturbation` · [[paper](https://doi.org/10.1038/s41587-026-03307-w)]
 - Discover, Falsify, Revise: Auditing Input-Use Claims from Source Code to Predictive Contribution in Agent-Discovered Cell Models (**arXiv 2026**) · `Virtual cell` `Perturbation` `Agent` · [[code](https://github.com/limengran98/CellAudit)] ![stars](https://img.shields.io/github/stars/limengran98/CellAudit?style=flat-square&label=%E2%98%85)
+- Escaping cells dilute CRISPR screen responses unequally across cell types (**arXiv 2026**) · `Perturbation` `scRNA-seq` · [[code](https://github.com/xuanruihuang/which-cells-are-measured)] ![stars](https://img.shields.io/github/stars/xuanruihuang/which-cells-are-measured?style=flat-square&label=%E2%98%85)
 - Evaluating Single-Cell Perturbation Response Models Is Far from Straightforward (**bioRxiv 2026**) · `Perturbation` `Virtual cell` `scRNA-seq`
 - Evaluating the learnability of single-cell large language models on multiple tasks (**BMC Genomics 2026**) · `Foundation model` `scRNA-seq` `Perturbation` · [[paper](https://doi.org/10.1186/s12864-026-12975-6)]
 - Evaluating the role of pretraining dataset size and diversity on single-cell foundation model performance (**Nature Methods 2026**) · `scRNA-seq` `Foundation model` · [[paper](https://doi.org/10.1038/s41592-026-03120-y)]
@@ -510,11 +525,17 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - Evaluation protocol choices dominate reported performance in gene regulatory network benchmarks for single-cell foundation models (**Research Square 2026**) · `Gene regulation` `Foundation model`
 - Genetic Perturbation Prediction Models Fail Out-of-Distribution: A Rigorous Benchmark and Systematic Evaluation (**bioRxiv 2026**) · `Perturbation` `scRNA-seq`
 - Harmonised benchmarking of foundation models for single-cell and spatial transcriptomics reveals context-dependent generalisation (**arXiv 2026**) · `Foundation model` `scRNA-seq` `Spatial`
+- JUMP-lite: Compact, reproducible benchmarking of cell representations (**arXiv 2026**) · `Imaging` · [[code](https://github.com/afermg/JUMP_lite)] ![stars](https://img.shields.io/github/stars/afermg/JUMP_lite?style=flat-square&label=%E2%98%85)
+- Mechanisms Matter: Transportability of Cellular Perturbation Effects (**bioRxiv 2026**) · `Perturbation` `Virtual cell` · [[code](https://github.com/microsoft/mechanisms_matter)] ![stars](https://img.shields.io/github/stars/microsoft/mechanisms_matter?style=flat-square&label=%E2%98%85)
+- MorphoHELM: A Comprehensive Benchmark for Evaluating Representations for Microscopy-Based Morphology Assays (**arXiv 2026**) · `Imaging` `Perturbation` · [[code](https://github.com/microsoft/MorphoHELM)] ![stars](https://img.shields.io/github/stars/microsoft/MorphoHELM?style=flat-square&label=%E2%98%85)
+- Multimodal cell foundation models require synergistic integration beyond alignment (**Nature Machine Intelligence 2026**) · `Foundation model` `Multi-omics` · [[paper](https://doi.org/10.1038/s42256-026-01328-3)] [[code](https://github.com/microsoft/cell_synergy)] ![stars](https://img.shields.io/github/stars/microsoft/cell_synergy?style=flat-square&label=%E2%98%85)
 - MVCBench: A Multimodal Benchmark for Drug-induced Virtual Cell Phenotypes (**bioRxiv 2026**) · `Multi-omics` `Drug response` `Virtual cell` · [[paper](https://www.biorxiv.org/content/10.64898/2026.04.22.720110v1)]
 - OmniVCBench: Benchmarking Evidence-Grounded Multimodal Reasoning Towards AI Virtual Cells (**arXiv 2026**) · `Virtual cell` `LLM`
 - Parameter-free representations outperform single-cell foundation models on downstream benchmarks (**bioRxiv 2026**) · `Foundation model` `scRNA-seq`
 - PertDiffBench: Benchmarking Diffusion Models for Single-Cell Perturbation Response Prediction (**bioRxiv 2026**) · `Perturbation` `Generative` `scRNA-seq`
 - PertReason: A Knowledge-Grounded Benchmark and Framework for Cell-State-Conditioned Mechanistic Reasoning of Perturbation Effects (**arXiv 2026**) · `Perturbation` `LLM`
+- Pretrained gene representations transfer mean expression more broadly than spatial patterns in virtual spatial transcriptomics (**bioRxiv 2026**) · `Spatial` `Histology` `Foundation model` · [[code](https://github.com/tjchen020524/SpatioS2E)] ![stars](https://img.shields.io/github/stars/tjchen020524/SpatioS2E?style=flat-square&label=%E2%98%85)
+- Raw-count embeddings improve single-cell foundation models (**bioRxiv 2026**) · `Foundation model` `scRNA-seq` · [[code](https://github.com/beleggia-lab/geneintelligence)] ![stars](https://img.shields.io/github/stars/beleggia-lab/geneintelligence?style=flat-square&label=%E2%98%85)
 - Re-evaluating the benefit of pretraining scale in cell foundation models (**bioRxiv 2026**) · `Foundation model` `scRNA-seq`
 - Reference-cell design shapes model evaluation in single-cell perturbation prediction (**Research Square 2026**) · `Perturbation` `scRNA-seq`
 - Rethinking Class Imbalance for Single-Cell Foundation Models: A Systematic Benchmark Across Architectures and Long-Tail Loss Functions (**arXiv 2026**) · `Foundation model` `scRNA-seq`
@@ -525,16 +546,24 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - scBench-Long: Verifiable Benchmarking of Long-Horizon Single-Cell Biology (**arXiv 2026**) · `Agent` `scRNA-seq` · [[code](https://github.com/latchbio/scbench-long)] ![stars](https://img.shields.io/github/stars/latchbio/scbench-long?style=flat-square&label=%E2%98%85)
 - scCluBench: Comprehensive Benchmarking of Clustering Algorithms for Single-Cell RNA Sequencing (**AAAI 2026**) · `scRNA-seq` · [[paper](https://doi.org/10.1609/aaai.v40i2.37110)]
 - SCMBench: benchmarking domain-specific and foundation models for single-cell multi-omics data integration (**Nature Communications 2026**) · `Foundation model` `Multi-omics` · [[paper](https://doi.org/10.1038/s41467-026-72570-x)]
+- scTranslation: A Comprehensive Benchmark for Single-Cell Multi-Omics Modality Translation (**KDD 2026**) · `Multi-omics` · [[paper](https://doi.org/10.1145/3770855.3817464)]
+- Shared clones make random cell halves look reproducible in pooled screens (**arXiv 2026**) · `Perturbation` `scRNA-seq` · [[code](https://github.com/xuanruihuang/random-halves-not-replicates)] ![stars](https://img.shields.io/github/stars/xuanruihuang/random-halves-not-replicates?style=flat-square&label=%E2%98%85)
 - Signal, Bounds, and Baselines: Principles for Evaluating Virtual Cell Perturbation Models (**bioRxiv 2026**) · `Perturbation` `Virtual cell` `scRNA-seq`
+- Slide-level batch structure limits histology-guided supervision of transcriptomic foundation models (**bioRxiv 2026**) · `Spatial` `Foundation model` `Histology` · [[code](https://github.com/ratschlab/vision-guided-transcriptomics-fm-2026)] ![stars](https://img.shields.io/github/stars/ratschlab/vision-guided-transcriptomics-fm-2026?style=flat-square&label=%E2%98%85)
+- Spurious correlation inflates performance in single-cell perturbation prediction (**bioRxiv 2026**) · `Perturbation` `scRNA-seq` · [[code](https://github.com/phillipnicol/systema)] ![stars](https://img.shields.io/github/stars/phillipnicol/systema?style=flat-square&label=%E2%98%85)
+- SubcellPert: Benchmarking Subcellular Perturbation Prediction (**bioRxiv 2026**) · `Perturbation` `Spatial` `Imaging` · [[code](https://github.com/king159/SubcellPert)] ![stars](https://img.shields.io/github/stars/king159/SubcellPert?style=flat-square&label=%E2%98%85)
 - Tabular Foundation Models Are Competitive Cellular Perturbation Predictors Across Biological Scales (**bioRxiv 2026**) · `Perturbation` `Foundation model` `scRNA-seq`
 - Task-dependent Performance of Single-cell Foundation Models under Low Supervision (**bioRxiv 2026**) · `scRNA-seq` `Foundation model` · [[paper](https://www.biorxiv.org/content/10.64898/2026.04.01.714123v1)]
 - The 2026 Virtual Cell Challenge: predicting perturbation responses in cell contexts a model has never seen (**Cell 2026**) · `Virtual cell` `Perturbation` · [[paper](https://doi.org/10.1016/j.cell.2026.08.004)] [[project](https://arcinstitute.org/news/virtual-cell-challenge-2026)]
+- The recoverable resolution of cellular perturbation-response prediction (**bioRxiv 2026**) · `Perturbation` `Virtual cell` · [[code](https://github.com/yongqih/cgc-counterfactual-resolution)] ![stars](https://img.shields.io/github/stars/yongqih/cgc-counterfactual-resolution?style=flat-square&label=%E2%98%85)
 - Towards Autonomous Mechanistic Reasoning in Virtual Cells (**arXiv 2026**) · `Virtual cell` `Agent` · [[paper](https://arxiv.org/abs/2604.11661)]
 - Towards principled evaluation of single-cell perturbation prediction models (**bioRxiv 2026**) · `Perturbation` `scRNA-seq` `Virtual cell` · [[code](https://github.com/Virtual-Cell-Research-Community/scPertEval)] ![stars](https://img.shields.io/github/stars/Virtual-Cell-Research-Community/scPertEval?style=flat-square&label=%E2%98%85)
+- Transcriptional perturbation effects remain structured beyond the leading global trend (**bioRxiv 2026**) · `Perturbation` · [[code](https://github.com/liuqiyuanhhh/perturbation-structure)] ![stars](https://img.shields.io/github/stars/liuqiyuanhhh/perturbation-structure?style=flat-square&label=%E2%98%85)
 - VCBench: A Multi-Dimensional Benchmark for Single-Cell Foundation Models (**bioRxiv 2026**) · `Foundation model` `Virtual cell` `scRNA-seq`
 - Virtual Cell Models Inflate Perturbation Effect Sizes and Undermine Causal Gene Regulatory Network Recovery (**ICML 2026**, 3rd Workshop on Multi-Modal Foundation Models and Large Language Models for Life Sciences) · `Perturbation` `Gene regulation` `Virtual cell` `scRNA-seq` · [[paper](https://openreview.net/forum?id=Nfc6WxZG2x)]
 - When Do Biological Reasoning Models Use Their Biological Inputs? (**arXiv 2026**) · `LLM` `Foundation model` · [[code](https://github.com/mims-harvard/bio-mirage)] ![stars](https://img.shields.io/github/stars/mims-harvard/bio-mirage?style=flat-square&label=%E2%98%85)
 - When Does Gene Regulatory Network Inference Break? A Controlled Diagnostic Study of Causal and Correlational Methods on Single-Cell Data (**arXiv 2026**) · `Gene regulation` `scRNA-seq`
+- A comparison of computational methods for expression forecasting (**Genome Biology 2025**) · `Perturbation` `Gene regulation` · [[paper](https://doi.org/10.1186/s13059-025-03840-y)] [[code](https://github.com/ekernf01/perturbation_benchmarking)] ![stars](https://img.shields.io/github/stars/ekernf01/perturbation_benchmarking?style=flat-square&label=%E2%98%85)
 - A Simple and Comprehensive Benchmark for Single-Cell Transcriptomics (**AAAI 2025**) · `scRNA-seq` · [[paper](https://doi.org/10.1609/aaai.v39i1.32049)]
 - A Systematic Evaluation of Single-Cell Foundation Models on Cell-Type Classification Task (**WSDM 2025**) · `scRNA-seq` `Foundation model` · [[paper](https://dl.acm.org/doi/10.1145/3701551.3708811)]
 - AUPRC: a metric for evaluating the performance of in-silico perturbation methods in identifying differentially expressed genes (**Briefings in Bioinformatics 2025**) · `Perturbation` `scRNA-seq` · [[paper](https://doi.org/10.1093/bib/bbaf426)]
@@ -550,7 +579,6 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - BMFM-RNA: whole-cell expression decoding improves transcriptomic foundation models (**arXiv 2025**) · `scRNA-seq` · [[paper](https://arxiv.org/abs/2506.14861)]
 - CellVerse: Do Large Language Models Really Understand Cell Biology? (**arXiv 2025**) · `LLM` `scRNA-seq` `Drug response` `Perturbation` · [[code](https://github.com/zfkarl/CellVerse)] ![stars](https://img.shields.io/github/stars/zfkarl/CellVerse?style=flat-square&label=%E2%98%85)
 - Contextualizing biological perturbation experiments through language (**arXiv 2025**) · `Perturbation` `LLM` · [[code](https://github.com/Genentech/PerturbQA)] ![stars](https://img.shields.io/github/stars/Genentech/PerturbQA?style=flat-square&label=%E2%98%85)
-- Deep Learning-Based Genetic Perturbation Models Do Outperform Uninformative Baselines on Well-Calibrated Metrics (**bioRxiv 2025**) · `Perturbation` · [[paper](https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1)]
 - Deep-learning-based gene perturbation effect prediction does not yet outperform simple linear baselines (**Nature Methods 2025**) · `Perturbation` · [[paper](https://www.nature.com/articles/s41592-025-02772-6)]
 - Defining and benchmarking open problems in single-cell analysis (**Nature Biotechnology 2025**) · `scRNA-seq` · [[paper](https://www.nature.com/articles/s41587-025-02694-w)]
 - Diversity by Design: Addressing Mode Collapse Improves scRNA-seq Perturbation Modeling on Well-Calibrated Metrics (**arXiv 2025**) · `Perturbation` `scRNA-seq` · [[paper](https://arxiv.org/abs/2506.22641)] [[code](https://github.com/shiftbioscience/Needles-In-The-Haystack)] ![stars](https://img.shields.io/github/stars/shiftbioscience/Needles-In-The-Haystack?style=flat-square&label=%E2%98%85)
@@ -574,6 +602,7 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - Virtual Cell Challenge: Toward a Turing test for the virtual cell (**Cell 2025**) · `Virtual cell` · [[paper](https://doi.org/10.1016/j.cell.2025.06.008)]
 - When Task-Specific Learning Outperforms Transfer Learning: A Benchmark of Gene and Expression Encoding Strategies (**bioRxiv 2025**) · `Foundation model` `scRNA-seq`
 - Zero-shot evaluation reveals limitations of single-cell foundation models (**Genome Biology 2025**) · `scRNA-seq` `Foundation model` · [[paper](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03574-x)]
+- A benchmark for prediction of transcriptomic responses to chemical perturbations across cell types (**NeurIPS 2024**, Datasets and Benchmarks Track) · `Perturbation` `Drug response` · [[paper](https://doi.org/10.52202/079017-0650)]
 - Benchmarking AI Models for in Silico Gene Perturbation of Cells (**bioRxiv 2024**) · `Perturbation` · [[paper](https://doi.org/10.1101/2024.12.20.629581)]
 - Benchmarking Transcriptomics Foundation Models for Perturbation Analysis: one PCA still rules them all (**arXiv 2024**) · `Perturbation` `scRNA-seq` · [[paper](https://arxiv.org/abs/2410.13956)]
 - Delineating the effective use of self-supervised learning in single-cell genomics (**Nature Machine Intelligence 2024**) · `scRNA-seq` · [[paper](https://www.nature.com/articles/s42256-024-00934-3)]
@@ -616,6 +645,8 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - A genome-scale CRISPRi perturbation atlas of human induced pluripotent stem cells (**Nature Biotechnology 2026**) · `Perturbation` `scRNA-seq` · [[paper](https://doi.org/10.1038/s41587-026-03199-w)]
 - A genome-scale single-cell CRISPRi map of trans gene regulation across human pluripotent stem cell lines (**Cell Genomics 2026**) · `Perturbation` `Gene regulation` · [[paper](https://doi.org/10.1016/j.xgen.2025.101076)]
 - Cell shapes decode molecular phenotypes in image-based spatial proteomics (**Cell Systems 2026**) · `Imaging` `Spatial` `Proteomics` · [[paper](https://doi.org/10.1016/j.cels.2026.101589)]
+- Chem-PerturBridge: a harmonized compendium of small molecule perturbation transcriptomic effects (**arXiv 2026**) · `Perturbation` `Drug response` · [[code](https://github.com/theislab/Chem-PerturBridge)] ![stars](https://img.shields.io/github/stars/theislab/Chem-PerturBridge?style=flat-square&label=%E2%98%85)
+- Direct comparison of CRISPR knockout and interference with Perturb-seq (**bioRxiv 2026**) · `Perturbation` `scRNA-seq` · [[code](https://github.com/ldrepano/head-to-head-CRISPRko-CRISPRi-Perturbseq)] ![stars](https://img.shields.io/github/stars/ldrepano/head-to-head-CRISPRko-CRISPRi-Perturbseq?style=flat-square&label=%E2%98%85)
 - High-content morphological profiling by Cell Painting in 3D spheroids (**Nature Communications 2026**) · `Perturbation` `Imaging` · [[paper](https://doi.org/10.1038/s41467-026-78596-5)] [[code](https://github.com/pharmbio/colopaint3D)] ![stars](https://img.shields.io/github/stars/pharmbio/colopaint3D?style=flat-square&label=%E2%98%85)
 - In situ graphene-seq: spatial transcriptomics and chronic electrophysiological characterization of tissue microenvironments (**Nature Communications 2026**) · `Spatial` · [[paper](https://doi.org/10.1038/s41467-026-73883-7)] [[code](https://github.com/LiuLab-Bioelectronics-Harvard/Graphene_seq)] ![stars](https://img.shields.io/github/stars/LiuLab-Bioelectronics-Harvard/Graphene_seq?style=flat-square&label=%E2%98%85)
 - Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on gene expression (**Nature Methods 2026**) · `Perturbation` `scRNA-seq` · [[paper](https://doi.org/10.1038/s41592-026-03319-z)] [[code](https://github.com/BradBalderson/Sheriff)] ![stars](https://img.shields.io/github/stars/BradBalderson/Sheriff?style=flat-square&label=%E2%98%85)
@@ -623,6 +654,7 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - Pooled combinatorial screening identifies transcription factor sets that drive hematopoietic progenitor-like cell fate (**Cell Systems 2026**) · `Perturbation` `scRNA-seq` · [[paper](https://doi.org/10.1016/j.cels.2026.101644)]
 - SPARCS enables scalable recovery of complex image-based phenotypes for genetic screening (**Cell 2026**) · `Perturbation` `Imaging` · [[paper](https://doi.org/10.1016/j.cell.2026.09.021)] [[code](https://github.com/MannLabs/SPARCSpy)] ![stars](https://img.shields.io/github/stars/MannLabs/SPARCSpy?style=flat-square&label=%E2%98%85)
 - Spatial perturb-seq: single-cell functional genomics within intact tissue architecture (**Nature Communications 2026**) · `Spatial` `Perturbation` · [[paper](https://www.nature.com/articles/s41467-026-69677-6)] [[code](https://github.com/kimberle9/spatialperturbseq)] ![stars](https://img.shields.io/github/stars/kimberle9/spatialperturbseq?style=flat-square&label=%E2%98%85)
+- spora: A Unified Multimodal Dataset and Platform for Spatial Proteomics (**arXiv 2026**) · `Proteomics` `Spatial` · [[code](https://github.com/bunnelab/spora-bench)] ![stars](https://img.shields.io/github/stars/bunnelab/spora-bench?style=flat-square&label=%E2%98%85)
 - Uncovering spatially resolved functional genomics with CRISPR screen sequencing (**Cell 2026**) · `Perturbation` `Spatial` · [[paper](https://doi.org/10.1016/j.cell.2026.04.049)]
 - A genome-wide atlas of human cell morphology (**Nature Methods 2025**) · `Imaging` · [[paper](https://www.nature.com/articles/s41592-024-02537-7)] [[code](https://github.com/broadinstitute/2022_PERISCOPE)] ![stars](https://img.shields.io/github/stars/broadinstitute/2022_PERISCOPE?style=flat-square&label=%E2%98%85)
 - A pooled Cell Painting CRISPR screening platform enables de novo inference of gene function by self-supervised deep learning (**Nature Communications 2025**) · `Perturbation` `Imaging` · [[paper](https://doi.org/10.1038/s41467-025-66778-6)] [[code](https://github.com/insitro/cp-posh)] ![stars](https://img.shields.io/github/stars/insitro/cp-posh?style=flat-square&label=%E2%98%85)
@@ -667,6 +699,7 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - Human-Guided Causal Knowledge Injection for Virtual Cells (**arXiv 2026**) · `Virtual cell` `Interpretability` · [[code](https://github.com/hnu-vis/CELLens)] ![stars](https://img.shields.io/github/stars/hnu-vis/CELLens?style=flat-square&label=%E2%98%85)
 - Large-scale proteome inference from unpaired single-cell transcriptomic and proteomic data by msInfer (**Research Square 2026**) · `Proteomics` `scRNA-seq` · [[paper](https://doi.org/10.21203/rs.3.rs-9068677/v1)]
 - PHAROS: turning single-cell perturbation models into target-directed drug-combination screens (**bioRxiv 2026**) · `Perturbation` `Drug response` `Virtual cell` · [[code](https://github.com/jbezney61/PHAROS)] ![stars](https://img.shields.io/github/stars/jbezney61/PHAROS?style=flat-square&label=%E2%98%85)
+- scRepresenter: a workflow for computing, integrating and benchmarking cellular representations in single-cell transcriptomics (**bioRxiv 2026**) · `scRNA-seq` `Foundation model` · [[code](https://github.com/GuilhermePocas/scRepresenter)] ![stars](https://img.shields.io/github/stars/GuilhermePocas/scRepresenter?style=flat-square&label=%E2%98%85)
 - Human Interpretable Grammar Encodes Multicellular Systems Biology Models to Democratize Virtual Cell Laboratories (**Cell 2025**) · `Perturbation` `Virtual cell` · [[paper](https://doi.org/10.1016/j.cell.2025.06.048)] [[code](https://github.com/physicell-models/grammar_samples)] ![stars](https://img.shields.io/github/stars/physicell-models/grammar_samples?style=flat-square&label=%E2%98%85)
 - Multimodal learning enables chat-based exploration of single-cell data (**Nature Biotechnology 2025**) · `Multi-omics` · [[paper](https://www.nature.com/articles/s41587-025-02857-9)]
 - Pertpy: an End-to-end Framework for Perturbation Analysis (**Nature Methods 2025**) · `Perturbation` · [[paper](https://www.nature.com/articles/s41592-025-02909-7)]

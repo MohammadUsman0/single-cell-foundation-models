@@ -1,0 +1,33 @@
+id: s1pert
+kind: model
+name: S1Pert
+title: 'S1Pert: Scalable Target-Specific Gene Response Prediction with System-One Intelligence'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: CRISPR screens (genetic perturbation)
+architecture: System-One decision learning
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+key: Target-specific gene response prediction that separates perturbation effects from historical gene-level
+  response frequencies.
+links:
+  preprint: https://arxiv.org/abs/2611.17705
+  code: https://github.com/liujiawen-jpg/S1Pert
+citation: 'Sheng, Xiaoqi, Hou wang, Yan Liang, Yutong Li, Wenhao Du, Tinghe Zhang, Jiawen Liu et al. "S1Pert:
+  Scalable Target-Specific Gene Response Prediction with System-One Intelligence." arXiv preprint arXiv:2611.17705
+  (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2611.17705
+- https://github.com/liujiawen-jpg/S1Pert
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,28 @@
+id: morphological-ssl-comparison
+kind: resource
+type: benchmark
+title: Advancing morphological profiling with self-supervised learning through comparative insights into
+  representation learning of cellular perturbations
+year: 2026
+venue: Nature Methods
+tags:
+- imaging
+- foundation-model
+- perturbation
+key: Large-scale comparison of self-supervised image foundation models (DINO, MAE, iTPN, hybrids) for
+  morphological profiling.
+links:
+  paper: https://doi.org/10.1038/s41592-026-03270-z
+  code: https://github.com/johnsonandjohnson/DeepCellMorpho
+findings: Self-supervised models beat classical CellProfiler features by 31-37% in mechanism-of-action
+  retrieval, and contrastive models beat masked ones.
+citation: 'Abdelmoula, Walid M., Tomé Albuquerque, Steffen Jaensch, Pushpak Pati, Michiel Van Dyck, Samantha
+  J. Allen, Litao Zhang et al. "Advancing morphological profiling with self-supervised learning through
+  comparative insights into representation learning of cellular perturbations." Nature Methods 23, no.
+  11 (2026): 2181-2194.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41592-026-03270-z
+- https://github.com/johnsonandjohnson/DeepCellMorpho
+review_basis: abstract
+reviewed: false

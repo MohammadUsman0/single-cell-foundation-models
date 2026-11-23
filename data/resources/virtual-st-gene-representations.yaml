@@ -1,0 +1,26 @@
+id: virtual-st-gene-representations
+kind: resource
+type: benchmark
+title: Pretrained gene representations transfer mean expression more broadly than spatial patterns in
+  virtual spatial transcriptomics
+year: 2026
+venue: bioRxiv
+tags:
+- spatial
+- histology
+- foundation-model
+key: 'Separates what pretrained gene representations contribute to virtual spatial transcriptomics: mean
+  expression versus spatial pattern.'
+links:
+  preprint: https://doi.org/10.64898/2026.09.15.751768
+  code: https://github.com/tjchen020524/SpatioS2E
+findings: Pretrained gene representations transfer mean expression broadly but help spatial patterns only
+  selectively.
+citation: Chen, Tingjun, and Stephanie C. Hicks. "Pretrained gene representations transfer mean expression
+  more broadly than spatial patterns in virtual spatial transcriptomics." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.09.15.751768
+- https://github.com/tjchen020524/SpatioS2E
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,24 @@
+id: op3-chemical-perturbation-benchmark
+kind: resource
+type: benchmark
+title: A benchmark for prediction of transcriptomic responses to chemical perturbations across cell types
+aliases:
+- OP3
+year: 2024
+venue: NeurIPS
+venue_detail: Datasets and Benchmarks Track
+tags:
+- perturbation
+- drug-response
+key: Benchmark for predicting transcriptomic responses to chemical perturbations across cell types (Open
+  Problems OP3), NeurIPS Datasets and Benchmarks.
+links:
+  paper: https://doi.org/10.52202/079017-0650
+citation: 'Szalata, Artur, Andrew Benz, Robrecht Cannoodt, Mauricio Cortes, Jason Fong, Sunil Kuppasani,
+  Richard Lieberman et al. "A benchmark for prediction of transcriptomic responses to chemical perturbations
+  across cell types." In Advances in Neural Information Processing Systems 37 (2024): 20566-20616.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.52202/079017-0650
+review_basis: metadata
+reviewed: false

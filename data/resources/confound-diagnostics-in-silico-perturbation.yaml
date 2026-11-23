@@ -1,0 +1,24 @@
+id: confound-diagnostics-in-silico-perturbation
+kind: resource
+type: benchmark
+title: A confound-diagnostic toolkit for in silico perturbation with single-cell foundation models
+year: 2026
+venue: bioRxiv
+tags:
+- foundation-model
+- perturbation
+key: Toolkit of matched controls to test whether foundation-model in-silico knockouts (gene-token deletion)
+  reflect biology.
+links:
+  preprint: https://doi.org/10.64898/2026.08.04.732812
+  code: https://github.com/willow0077/isp-confound-toolkit
+findings: Apparent knockout effects often reflect gene identity, universal responsiveness, tokenisation
+  limits or library size rather than biology.
+citation: Qiu, Ru, and Max Mingqian Zhao. "A confound-diagnostic toolkit for in silico perturbation with
+  single-cell foundation models." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.08.04.732812
+- https://github.com/willow0077/isp-confound-toolkit
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,34 @@
+id: upm-unified-perturbation
+kind: model
+name: UPM
+title: How Much Can AI Virtual Cells Gain from Unified Perturbational Modeling?
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- virtual-cell
+modality: Heterogeneous perturbation datasets
+architecture: Unified perturbation model across datasets
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- chemical
+- combination
+key: One predictor trained across heterogeneous perturbation datasets with different genes, perturbation
+  types and contexts.
+links:
+  preprint: https://doi.org/10.64898/2026.10.25.761625
+  code: https://github.com/youlab2025/UPM
+citation: Wei, Zongting, Yuedian Ye, Shuguang Cui, Wenjing Ma, and Yuning You. "How Much Can AI Virtual
+  Cells Gain from Unified Perturbational Modeling?" bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.10.25.761625
+- https://github.com/youlab2025/UPM
+review_basis: abstract
+reviewed: false

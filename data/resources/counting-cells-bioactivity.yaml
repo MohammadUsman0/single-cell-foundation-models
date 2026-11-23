@@ -1,0 +1,25 @@
+id: counting-cells-bioactivity
+kind: resource
+type: benchmark
+title: Counting cells can accurately predict small-molecule bioactivity benchmarks
+year: 2026
+venue: Nature Communications
+tags:
+- imaging
+- drug-response
+key: Shows that many bioactivity benchmark assays track cytotoxicity, and proposes a cell-count baseline
+  for fair evaluation.
+links:
+  paper: https://doi.org/10.1038/s41467-026-68725-5
+  preprint: https://doi.org/10.1101/2025.04.27.650853
+findings: Simply counting cells predicts many bioactivity benchmarks; Cell Painting profiles still beat
+  that baseline on 24 protein-target assays.
+citation: Seal, Srijit, William Dee, Adit Shah, Natacha Cerisier, Andrew Zhang, Esteban Miglietta, Katherine
+  Titterton et al. "Counting cells can accurately predict small-molecule bioactivity benchmarks." Nature
+  Communications 17, no. 1 (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41467-026-68725-5
+- https://doi.org/10.1101/2025.04.27.650853
+review_basis: abstract
+reviewed: false

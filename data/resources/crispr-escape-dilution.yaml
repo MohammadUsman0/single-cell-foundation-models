@@ -1,0 +1,24 @@
+id: crispr-escape-dilution
+kind: resource
+type: benchmark
+title: Escaping cells dilute CRISPR screen responses unequally across cell types
+year: 2026
+venue: arXiv
+tags:
+- perturbation
+- scrna-seq
+key: Shows that cells escaping knockdown dilute single-cell CRISPR screen responses unequally across cell
+  types.
+links:
+  preprint: https://arxiv.org/abs/2610.35508
+  code: https://github.com/xuanruihuang/which-cells-are-measured
+findings: Escape inflates apparent cell-type differences and rewards predictions shrunk toward no change;
+  responses should be compared on knocked-down cells.
+citation: Huang, Xuanrui. "Escaping cells dilute CRISPR screen responses unequally across cell types."
+  arXiv preprint arXiv:2610.35508 (2026).
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2610.35508
+- https://github.com/xuanruihuang/which-cells-are-measured
+review_basis: abstract
+reviewed: false

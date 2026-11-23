@@ -366,6 +366,24 @@ ID  - assaybench
 ER  - 
 
 TY  - UNPB
+TI  - Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens
+AU  - Edwards, Carl
+AU  - Brouwer, Edward De
+AU  - Li, Xiner
+AU  - Lee, Namkyeong
+AU  - Hajiramezanali, Ehsan
+AU  - Biton, Anne
+AU  - Mostafavi, Sara
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2609.11877
+KW  - perturbation
+KW  - llm
+AB  - Benchmark for adaptive hit discovery in CRISPR screens, with AssayFormer, a policy learned across historical screens.
+ID  - assayloop
+ER  - 
+
+TY  - UNPB
 TI  - Atacformer: A transformer-based foundation model for analysis and interpretation of ATAC-seq data
 AU  - LeRoy, Nathan J.
 AU  - Zheng, Guangtao
@@ -428,6 +446,19 @@ UR  - https://doi.org/10.64898/2025.12.19.695371
 KW  - scrna-seq
 KW  - foundation-model
 ID  - batch-effects-remain-a-fundamental-barrier
+ER  - 
+
+TY  - UNPB
+TI  - BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard
+AU  - Topf, Sonja
+AU  - Sanchez-Fernandez, Ana
+AU  - Klambauer, Günter
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2610.30104
+KW  - imaging
+AB  - BatchBench: open leaderboard for robustness to batch effects and domain shift on JUMP Cell Painting.
+ID  - batchbench
 ER  - 
 
 TY  - UNPB
@@ -1126,6 +1157,21 @@ AB  - Joint-embedding predictive model that predicts cell embeddings in latent s
 ID  - cell-jepa
 ER  - 
 
+TY  - UNPB
+TI  - Cancer Cell Line Heterogeneity Imposes a Primary Bottleneck for Virtual Perturbation Screening at Scale
+AU  - Wei, Kairui
+AU  - Zhan, Lijing
+AU  - Qi, Canyang
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.08.10.743942
+UR  - https://doi.org/10.64898/2026.08.10.743942
+KW  - perturbation
+KW  - drug-response
+AB  - Extends a genetic-chemical screening model to 162 cell lines to test virtual perturbation screening at scale.
+ID  - cell-line-heterogeneity-bottleneck
+ER  - 
+
 TY  - JOUR
 TI  - Cell-o1: Training LLMs to Solve Single-Cell Reasoning Puzzles with Reinforcement Learning
 AU  - Fang, Yin
@@ -1772,6 +1818,23 @@ AB  - One conditional flow-matching model that learns gene-perturbation effects 
 ID  - cfm-gp
 ER  - 
 
+TY  - UNPB
+TI  - Chem-PerturBridge: a harmonized compendium of small molecule perturbation transcriptomic effects
+AU  - Szałata, Artur
+AU  - Novitskaia, Olga
+AU  - Shulman, Maiia
+AU  - Mella, Matthew
+AU  - Zhubanchaliyev, Altynbek
+AU  - Theis, Fabian J.
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2605.31522
+KW  - perturbation
+KW  - drug-response
+AB  - Chem-PerturBridge: harmonised compendium of small-molecule transcriptomic perturbation data (37k compounds, 136 contexts, 1.25M profiles).
+ID  - chem-perturbridge
+ER  - 
+
 TY  - GEN
 TI  - ChEMBL: Drug-like molecules, bioactivities, targets, and assays
 KW  - drug-response
@@ -2071,6 +2134,25 @@ AB  - Pooled combinatorial TF-overexpression screening platform that found TF se
 ID  - combinatorial-tf-screening-hspc
 ER  - 
 
+TY  - JOUR
+TI  - Multimodal cell foundation models require synergistic integration beyond alignment
+AU  - Richter, Till
+AU  - Zimmermann, Eric
+AU  - Hall, James
+AU  - Theis, Fabian J.
+AU  - Raghavan, Srivatsan
+AU  - Winter, Peter S.
+AU  - Amini, Ava P.
+PY  - 2026
+T2  - Nature Machine Intelligence
+DO  - 10.1038/s42256-026-01328-3
+UR  - https://doi.org/10.1038/s42256-026-01328-3
+KW  - foundation-model
+KW  - multi-omics
+AB  - Evaluates compositional multimodal cell foundation models that fuse frozen unimodal experts, and measures synergy between modalities (SIS).
+ID  - comm-sis-multimodal-synergy
+ER  - 
+
 TY  - UNPB
 TI  - COMPASS: Component-Wise Inference of Shared and Gene-Specific Perturbation Response
 AU  - Liang, Huan
@@ -2149,6 +2231,20 @@ ID  - conditional-monge-gap
 ER  - 
 
 TY  - UNPB
+TI  - A confound-diagnostic toolkit for in silico perturbation with single-cell foundation models
+AU  - Qiu, Ru
+AU  - Zhao, Max Mingqian
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.08.04.732812
+UR  - https://doi.org/10.64898/2026.08.04.732812
+KW  - foundation-model
+KW  - perturbation
+AB  - Toolkit of matched controls to test whether foundation-model in-silico knockouts (gene-token deletion) reflect biology.
+ID  - confound-diagnostics-in-silico-perturbation
+ER  - 
+
+TY  - UNPB
 TI  - Context-dependent utility and robustness of pretrained single-cell foundation model representations across analytical tasks
 AU  - Liu, Tianyuan
 AU  - Feng, Tingze
@@ -2166,6 +2262,25 @@ KW  - foundation-model
 KW  - scrna-seq
 AB  - Zero-shot evaluation of 20 representation methods on 6 tasks and 1,607 datasets, testing both utility and robustness to changes in dataset structure.
 ID  - context-dependent-utility-scfm
+ER  - 
+
+TY  - JOUR
+TI  - Counting cells can accurately predict small-molecule bioactivity benchmarks
+AU  - Seal, Srijit
+AU  - Dee, William
+AU  - Shah, Adit
+AU  - Cerisier, Natacha
+AU  - Zhang, Andrew
+AU  - Miglietta, Esteban
+AU  - Titterton, Katherine
+PY  - 2026
+T2  - Nature Communications
+DO  - 10.1038/s41467-026-68725-5
+UR  - https://doi.org/10.1038/s41467-026-68725-5
+KW  - imaging
+KW  - drug-response
+AB  - Shows that many bioactivity benchmark assays track cytotoxicity, and proposes a cell-count baseline for fair evaluation.
+ID  - counting-cells-bioactivity
 ER  - 
 
 TY  - JOUR
@@ -2274,6 +2389,18 @@ AB  - Predicts drug responses in cell types never seen during training by transf
 ID  - crisp
 ER  - 
 
+TY  - UNPB
+TI  - Escaping cells dilute CRISPR screen responses unequally across cell types
+AU  - Huang, Xuanrui
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2610.35508
+KW  - perturbation
+KW  - scrna-seq
+AB  - Shows that cells escaping knockdown dilute single-cell CRISPR screen responses unequally across cell types.
+ID  - crispr-escape-dilution
+ER  - 
+
 TY  - JOUR
 TI  - CRISPR-GPT for Agentic Automation of Gene-Editing Experiments
 AU  - Qu, Yuanhao
@@ -2290,6 +2417,25 @@ UR  - https://doi.org/10.1038/s41551-025-01463-z
 KW  - agent
 KW  - perturbation
 ID  - crispr-gpt
+ER  - 
+
+TY  - UNPB
+TI  - Direct comparison of CRISPR knockout and interference with Perturb-seq
+AU  - Drepanos, Laura M
+AU  - Velasco, Berta Escude
+AU  - Chase, Abigail J
+AU  - Srikanth, Smriti
+AU  - Gatzen, Michael
+AU  - Rickner, Hannah D
+AU  - Dubinsky, Dan
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.07.04.736492
+UR  - https://doi.org/10.64898/2026.07.04.736492
+KW  - perturbation
+KW  - scrna-seq
+AB  - Benchmarking libraries directly comparing CRISPR knockout and interference with Perturb-seq readout.
+ID  - crisprko-vs-crispri-perturb-seq
 ER  - 
 
 TY  - CPAPER
@@ -2468,18 +2614,18 @@ KW  - perturbation
 ID  - deep-learning-based-gene-perturbation-effect
 ER  - 
 
-TY  - UNPB
-TI  - Deep Learning-Based Genetic Perturbation Models Do Outperform Uninformative Baselines on Well-Calibrated Metrics
+TY  - JOUR
+TI  - Deep learning perturbation models can outperform baselines on calibrated metrics
 AU  - Miller, Henry E.
 AU  - Mejia, Gabriel M.
 AU  - Leblanc, Francis J. A.
-AU  - Wang, Bo
 AU  - Swain, Brendan
+AU  - Wang, Bo
 AU  - Camillo, Lucas Paulo de Lima
-PY  - 2025
-T2  - bioRxiv
-DO  - 10.1101/2025.10.20.683304
-UR  - https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1
+PY  - 2026
+T2  - Nature Biotechnology
+DO  - 10.1038/s41587-026-03307-w
+UR  - https://doi.org/10.1038/s41587-026-03307-w
 KW  - perturbation
 ID  - deep-learning-based-genetic-perturbation-models
 ER  - 
@@ -3329,6 +3475,26 @@ ID  - genept
 ER  - 
 
 TY  - UNPB
+TI  - Single-cell perturbation prediction near experimental reproducibility with GENESIS
+AU  - Conci, Riccardo
+AU  - D’Ascenzo, Davide
+AU  - Montesano, Sebastiano Cultrera di
+AU  - Raghavan, Srivatsan
+AU  - Winter, Peter S.
+AU  - Allen, Eliezer M. Van
+AU  - Crawford, Lorin
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.10.30.763081
+UR  - https://doi.org/10.64898/2026.10.30.763081
+KW  - perturbation
+KW  - generative
+KW  - scrna-seq
+AB  - Generative energy-based simulator that predicts single-cell response distributions near experimental reproducibility and augments sparsely sampled conditions.
+ID  - genesis
+ER  - 
+
+TY  - UNPB
 TI  - Do Geometric Outliers Identify Important Genes in Single-Cell Foundation Models?
 AU  - Whalley, Justin P
 PY  - 2026
@@ -3879,6 +4045,21 @@ AB  - Learns signalling-response signatures from in vitro screens and transfers 
 ID  - iris-signaling
 ER  - 
 
+TY  - UNPB
+TI  - JUMP-lite: Compact, reproducible benchmarking of cell representations
+AU  - Muñoz, Alán F.
+AU  - Haslum, Johan Fredin
+AU  - Shen, Runxi
+AU  - Carpenter, Anne E.
+AU  - Singh, Shantanu
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2608.07632
+KW  - imaging
+AB  - JUMP-lite and Nahual: compact, reproducible benchmarking of cell image representations on JUMP Cell Painting.
+ID  - jump-lite
+ER  - 
+
 TY  - JOUR
 TI  - Benchmarking biological knowledge-graph priors against single-cell foundation models for Perturb-seq prediction
 AU  - Ni, Jie
@@ -4201,6 +4382,21 @@ AB  - Represents genes by pretrained mRNA-sequence embeddings so cell models tra
 ID  - lucacell
 ER  - 
 
+TY  - UNPB
+TI  - 3D Masked Autoencoders are Robust Learners of Volumetric and Multimodal Cellular Representations for Microscopy
+AU  - Kardoost, Amirhossein
+AU  - Gleiter, Lion
+AU  - Peng, Tingying
+AU  - Marr, Carsten
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2606.23964
+KW  - imaging
+KW  - foundation-model
+AB  - Compares 2D and 3D masked autoencoders on volumetric fluorescence microscopy.
+ID  - mae-3d-microscopy
+ER  - 
+
 TY  - JOUR
 TI  - Masked Autoencoders for Microscopy are Scalable Learners of Cellular Biology
 AU  - Kraus, Oren
@@ -4275,6 +4471,20 @@ KW  - foundation-model
 KW  - virtual-cell
 AB  - Temporal model that generates cell states across long aging trajectories and nominated age-modulating targets that were verified in vivo.
 ID  - maxtoki
+ER  - 
+
+TY  - UNPB
+TI  - Mechanisms Matter: Transportability of Cellular Perturbation Effects
+AU  - Qi, Shi-ang
+AU  - Chapfuwa, Paidamoyo
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.05.08.723625
+UR  - https://doi.org/10.64898/2026.05.08.723625
+KW  - perturbation
+KW  - virtual-cell
+AB  - Uses causal transportability theory and a causal simulator to test when perturbation effects transfer across contexts.
+ID  - mechanisms-matter
 ER  - 
 
 TY  - UNPB
@@ -4422,6 +4632,40 @@ UR  - https://openreview.net/forum?id=PstM8YfhvI
 KW  - imaging
 KW  - generative
 ID  - morphodiff
+ER  - 
+
+TY  - UNPB
+TI  - MorphoHELM: A Comprehensive Benchmark for Evaluating Representations for Microscopy-Based Morphology Assays
+AU  - Hayir, Emre
+AU  - Crawford, Lorin
+AU  - Lu, Alex X.
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2605.15383
+KW  - imaging
+KW  - perturbation
+AB  - MorphoHELM: benchmark of image representations for microscopy morphology assays across many biological signals.
+ID  - morphohelm
+ER  - 
+
+TY  - JOUR
+TI  - Advancing morphological profiling with self-supervised learning through comparative insights into representation learning of cellular perturbations
+AU  - Abdelmoula, Walid M.
+AU  - Albuquerque, Tomé
+AU  - Jaensch, Steffen
+AU  - Pati, Pushpak
+AU  - Dyck, Michiel Van
+AU  - Allen, Samantha J.
+AU  - Zhang, Litao
+PY  - 2026
+T2  - Nature Methods
+DO  - 10.1038/s41592-026-03270-z
+UR  - https://doi.org/10.1038/s41592-026-03270-z
+KW  - imaging
+KW  - foundation-model
+KW  - perturbation
+AB  - Large-scale comparison of self-supervised image foundation models (DINO, MAE, iTPN, hybrids) for morphological profiling.
+ID  - morphological-ssl-comparison
 ER  - 
 
 TY  - UNPB
@@ -4873,6 +5117,25 @@ AB  - OmniVCBench: figure-centred benchmark of how multimodal models interpret e
 ID  - omnivcbench
 ER  - 
 
+TY  - CPAPER
+TI  - A benchmark for prediction of transcriptomic responses to chemical perturbations across cell types
+AU  - Szalata, Artur
+AU  - Benz, Andrew
+AU  - Cannoodt, Robrecht
+AU  - Cortes, Mauricio
+AU  - Fong, Jason
+AU  - Kuppasani, Sunil
+AU  - Lieberman, Richard
+PY  - 2024
+T2  - NeurIPS
+DO  - 10.52202/079017-0650
+UR  - https://doi.org/10.52202/079017-0650
+KW  - perturbation
+KW  - drug-response
+AB  - Benchmark for predicting transcriptomic responses to chemical perturbations across cell types (Open Problems OP3), NeurIPS Datasets and Benchmarks.
+ID  - op3-chemical-perturbation-benchmark
+ER  - 
+
 TY  - JOUR
 TI  - OpenCell: Endogenous tagging for the cartography of human cellular organization
 AU  - Cho, Nathan H.
@@ -5016,6 +5279,23 @@ KW  - graph
 KW  - drug-response
 AB  - Inverse model: predicts the combination of therapeutic targets that would reverse a disease phenotype.
 ID  - pdgrapher
+ER  - 
+
+TY  - JOUR
+TI  - A comparison of computational methods for expression forecasting
+AU  - Kernfeld, Eric
+AU  - Yang, Yunxiao
+AU  - Weinstock, Joshua S.
+AU  - Battle, Alexis
+AU  - Cahan, Patrick
+PY  - 2025
+T2  - Genome Biology
+DO  - 10.1186/s13059-025-03840-y
+UR  - https://doi.org/10.1186/s13059-025-03840-y
+KW  - perturbation
+KW  - gene-regulation
+AB  - PEREGGRN: benchmarking platform for expression forecasting after genetic perturbation across 11 datasets.
+ID  - pereggrn
 ER  - 
 
 TY  - JOUR
@@ -5190,6 +5470,23 @@ KW  - perturbation
 KW  - scrna-seq
 AB  - LLM multi-agent system for analysing and predicting single-cell genetic perturbations with mechanism-grounded interpretation.
 ID  - perturbagent
+ER  - 
+
+TY  - UNPB
+TI  - Transcriptional perturbation effects remain structured beyond the leading global trend
+AU  - Liu, Qiyuan
+AU  - Zhang, Qirui
+AU  - Chen, Yilong
+AU  - Du, Jinhong
+AU  - Zhao, Siming
+AU  - Wang, Jingshu
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.10.05.756839
+UR  - https://doi.org/10.64898/2026.10.05.756839
+KW  - perturbation
+AB  - Analyses the structure of perturbation effects beyond the common global transcriptional response.
+ID  - perturbation-effects-beyond-global-trend
 ER  - 
 
 TY  - UNPB
@@ -5463,6 +5760,18 @@ KW  - perturbation
 KW  - scrna-seq
 AB  - Generalises perturbation effects across unseen perturbations, contexts and datasets; reports 1.2-3.2x the DE-gene AUPRC of the best baseline.
 ID  - pie
+ER  - 
+
+TY  - UNPB
+TI  - Shared clones make random cell halves look reproducible in pooled screens
+AU  - Huang, Xuanrui
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2610.32962
+KW  - perturbation
+KW  - scrna-seq
+AB  - Shows that random cell halves in pooled screens are not independent replicates, because cells share transduced clones.
+ID  - pooled-screen-pseudoreplication
 ER  - 
 
 TY  - UNPB
@@ -5765,6 +6074,25 @@ ID  - ragcell
 ER  - 
 
 TY  - UNPB
+TI  - Raw-count embeddings improve single-cell foundation models
+AU  - Schlede, Sebastian
+AU  - Muruganandan, Thulasi Priyadharshini
+AU  - Kantharaju, Santhosh Gojjam
+AU  - Kisis, Ilmars
+AU  - Boecker, Maike
+AU  - Carpinteiro, Mira Kim Alves
+AU  - Schmitz, Anne
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.06.29.735389
+UR  - https://doi.org/10.64898/2026.06.29.735389
+KW  - foundation-model
+KW  - scrna-seq
+AB  - Benchmarks preprocessing choices (ranking, normalisation) for single-cell transformers and builds a simple raw-count model.
+ID  - raw-count-embeddings-scfm
+ER  - 
+
+TY  - UNPB
 TI  - rBio1-Training Scientific Reasoning LLMs with Biological World Models as Soft Verifiers
 AU  - Istrate, Ana-Maria
 AU  - Milletari, Fausto
@@ -5816,6 +6144,22 @@ KW  - scrna-seq
 KW  - perturbation
 AB  - ReconEval: benchmarks how well gene expression can be decoded back from latent spaces, from PCA and autoencoders to frozen foundation-model embeddings.
 ID  - reconeval
+ER  - 
+
+TY  - UNPB
+TI  - The recoverable resolution of cellular perturbation-response prediction
+AU  - Huang, Yongqi
+AU  - Wang, Hanzhi
+AU  - Li, Chenyu
+AU  - Wilson, Parker
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.09.30.755756
+UR  - https://doi.org/10.64898/2026.09.30.755756
+KW  - perturbation
+KW  - virtual-cell
+AB  - Defines context geometry compression: models keep identity and shared effects but collapse context-specific differences.
+ID  - recoverable-resolution-perturbation
 ER  - 
 
 TY  - UNPB
@@ -5924,6 +6268,24 @@ KW  - perturbation
 ID  - rxrx
 ER  - 
 
+TY  - UNPB
+TI  - S1Pert: Scalable Target-Specific Gene Response Prediction with System-One Intelligence
+AU  - Sheng, Xiaoqi
+AU  - wang, Hou
+AU  - Liang, Yan
+AU  - Li, Yutong
+AU  - Du, Wenhao
+AU  - Zhang, Tinghe
+AU  - Liu, Jiawen
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2611.17705
+KW  - perturbation
+KW  - scrna-seq
+AB  - Target-specific gene response prediction that separates perturbation effects from historical gene-level response frequencies.
+ID  - s1pert
+ER  - 
+
 TY  - JOUR
 TI  - Sparse autoencoders reveal interpretable cell-type programs in single-cell foundation model representations
 AU  - Kendiukhov, Ihor
@@ -5951,6 +6313,25 @@ KW  - gene-regulation
 KW  - scrna-seq
 AB  - Compares sparse-autoencoder features of scFoundation and Geneformer for pathway alignment, sparsity and response to transcription-factor perturbation.
 ID  - sae-scfoundation-vs-geneformer
+ER  - 
+
+TY  - UNPB
+TI  - A split-control criterion for few-shot adaptation in single-cell perturbation prediction
+AU  - Liang, Wan-Li
+AU  - Yang, Ya-Bing
+AU  - Zhang, Qiong-Yi
+AU  - Feng, Jing-Cheng
+AU  - Wang, Qian-Fei
+AU  - Zou, Dehua
+AU  - Tang, Jia-Lin
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.10.05.756906
+UR  - https://doi.org/10.64898/2026.10.05.756906
+KW  - perturbation
+KW  - scrna-seq
+AB  - Split-control criterion for evaluating few-shot adaptation in perturbation prediction.
+ID  - safedelta-split-control
 ER  - 
 
 TY  - UNPB
@@ -7436,6 +7817,25 @@ ID  - screpa
 ER  - 
 
 TY  - UNPB
+TI  - scRepresenter: a workflow for computing, integrating and benchmarking cellular representations in single-cell transcriptomics
+AU  - Pocas, Guilherme
+AU  - Umar, Muhammad
+AU  - Davis, Oliver
+AU  - Hemberg, Martin
+AU  - Lamurias, Andre
+AU  - Lakatos, András
+AU  - Asif, Muhammad
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.07.15.738660
+UR  - https://doi.org/10.64898/2026.07.15.738660
+KW  - scrna-seq
+KW  - foundation-model
+AB  - scRepresenter: workflow for computing, integrating and comparing single-cell embeddings, including foundation-model ones, with a Shiny viewer.
+ID  - screpresenter
+ER  - 
+
+TY  - UNPB
 TI  - scRGP: Prediction of Single-cell Genetic Perturbation Transcriptional Responses based on Rank in Multiple Scenarios
 AU  - Liu, Yufeng
 AU  - Zhang, Hao
@@ -7469,6 +7869,24 @@ DO  - 10.1038/s41467-024-51059-5
 UR  - https://doi.org/10.1038/s41467-024-51059-5
 KW  - scrna-seq
 ID  - sctab
+ER  - 
+
+TY  - CPAPER
+TI  - scTranslation: A Comprehensive Benchmark for Single-Cell Multi-Omics Modality Translation
+AU  - Cheng, Jiabei
+AU  - Zhou, Jingbo
+AU  - Xia, Jun
+AU  - Li, Changkai
+AU  - Lei, Zhen
+AU  - Yu, Chang
+AU  - Li, Stan Z.
+PY  - 2026
+T2  - KDD
+DO  - 10.1145/3770855.3817464
+UR  - https://doi.org/10.1145/3770855.3817464
+KW  - multi-omics
+AB  - scTranslation: benchmark for single-cell multi-omics modality translation methods.
+ID  - sctranslation
 ER  - 
 
 TY  - JOUR
@@ -7617,6 +8035,22 @@ AB  - SIGnature: scores each gene's importance in a cell from foundation-model a
 ID  - signature-gene-importance
 ER  - 
 
+TY  - UNPB
+TI  - A benchmarking framework for perturbational signature recontextualization across biological contexts
+AU  - Chen, Andrew
+AU  - Rappaport, Noa
+AU  - Schork, Nick
+AU  - Girke, Thomas
+AU  - Monti, Stefano
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.08.14.744937
+UR  - https://doi.org/10.64898/2026.08.14.744937
+KW  - perturbation
+AB  - Benchmark for transferring perturbational signatures across biological contexts (sigRecon).
+ID  - signature-recontextualization-benchmark
+ER  - 
+
 TY  - CPAPER
 TI  - A Simple and Comprehensive Benchmark for Single-Cell Transcriptomics
 AU  - Qi, Jiaxin
@@ -7693,6 +8127,23 @@ KW  - foundation-model
 KW  - scrna-seq
 AB  - Finds single-cell foundation models hard to install, run and understand, and gives six recommendations for packaging, documentation and maintenance.
 ID  - six-recommendations-usable-scfms
+ER  - 
+
+TY  - UNPB
+TI  - Slide-level batch structure limits histology-guided supervision of transcriptomic foundation models
+AU  - McConnell, Ulysse
+AU  - Nonchev, Kalin
+AU  - Koelzer, Viktor H
+AU  - Rätsch, Gunnar
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.09.30.755585
+UR  - https://doi.org/10.64898/2026.09.30.755585
+KW  - spatial
+KW  - foundation-model
+KW  - histology
+AB  - Tests whether matched H&E can improve transcriptomic foundation-model representations of spatial data.
+ID  - slide-level-batch-structure
 ER  - 
 
 TY  - UNPB
@@ -8071,6 +8522,39 @@ ID  - spemo
 ER  - 
 
 TY  - UNPB
+TI  - spora: A Unified Multimodal Dataset and Platform for Spatial Proteomics
+AU  - Querfurth, Benedikt von
+AU  - Wenckstern, Johann
+AU  - Jain, Eeshaan
+AU  - Klein, Lukas
+AU  - Cheng, Phil
+AU  - Cheng, Yexiang
+AU  - Vincent-Cuaz, Cedric
+PY  - 2026
+T2  - arXiv
+UR  - https://arxiv.org/abs/2610.24002
+KW  - proteomics
+KW  - spatial
+AB  - spora: unified multimodal spatial proteomics dataset, loader and benchmark across twelve cohorts.
+ID  - spora
+ER  - 
+
+TY  - UNPB
+TI  - Spurious correlation inflates performance in single-cell perturbation prediction
+AU  - Nicol, Phillip B.
+AU  - Shivakumar, Shriya
+AU  - Irizarry, Rafael A.
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.05.07.723486
+UR  - https://doi.org/10.64898/2026.05.07.723486
+KW  - perturbation
+KW  - scrna-seq
+AB  - Shows that correlation and cosine metrics against shared controls are inflated in perturbation benchmarks.
+ID  - spurious-correlation-perturbation-metrics
+ER  - 
+
+TY  - UNPB
 TI  - A multimodal foundation model to integrate histology with spatial molecular programs
 AU  - Zhang, Zongxu
 AU  - Qin, Bowen
@@ -8302,6 +8786,26 @@ UR  - https://doi.org/10.1101/2024.12.06.627299
 KW  - proteomics
 KW  - imaging
 ID  - subcell
+ER  - 
+
+TY  - UNPB
+TI  - SubcellPert: Benchmarking Subcellular Perturbation Prediction
+AU  - Wang, Jinghao
+AU  - Cao, Hanqun
+AU  - Dang, Xilin
+AU  - Zhou, Tianhui
+AU  - Zhao, Yiyang
+AU  - Hsieh, Chang-Yu
+AU  - Gu, Chunbin
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.10.11.758305
+UR  - https://doi.org/10.64898/2026.10.11.758305
+KW  - perturbation
+KW  - spatial
+KW  - imaging
+AB  - SubcellPert: benchmark for perturbation prediction at single-RNA-molecule resolution across 14 imaging datasets (13.9M cells).
+ID  - subcellpert
 ER  - 
 
 TY  - JOUR
@@ -8741,6 +9245,20 @@ KW  - foundation-model
 ID  - transcoder-based-circuit-analysis-for-interpretable
 ER  - 
 
+TY  - UNPB
+TI  - A structured study of cross-condition prediction of transcriptional responses to gene perturbations
+AU  - Zhu, Ouyang
+AU  - Li, Jun
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.07.30.741892
+UR  - https://doi.org/10.64898/2026.07.30.741892
+KW  - perturbation
+KW  - llm
+AB  - Structured study of cross-condition perturbation prediction, with TranScouter, a model using text summaries and control profiles.
+ID  - transcouter
+ER  - 
+
 TY  - JOUR
 TI  - TranscriptFormer: A generative cell atlas across 1.5 billion years of evolution
 AU  - Pearce, James D.
@@ -8937,6 +9455,23 @@ DO  - 10.1186/s40779-025-00608-0
 UR  - https://doi.org/10.1186/s40779-025-00608-0
 KW  - virtual-cell
 ID  - unresolved-questions-in-the-application-of
+ER  - 
+
+TY  - UNPB
+TI  - How Much Can AI Virtual Cells Gain from Unified Perturbational Modeling?
+AU  - Wei, Zongting
+AU  - Ye, Yuedian
+AU  - Cui, Shuguang
+AU  - Ma, Wenjing
+AU  - You, Yuning
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.10.25.761625
+UR  - https://doi.org/10.64898/2026.10.25.761625
+KW  - perturbation
+KW  - virtual-cell
+AB  - One predictor trained across heterogeneous perturbation datasets with different genes, perturbation types and contexts.
+ID  - upm-unified-perturbation
 ER  - 
 
 TY  - CPAPER
@@ -9282,6 +9817,21 @@ UR  - https://doi.org/10.1038/d41586-026-01731-1
 KW  - virtual-cell
 AB  - Nature news feature on the push to build virtual cells that turn raw data into predictive models of biology.
 ID  - virtual-cells-raw-data-predictive-models
+ER  - 
+
+TY  - UNPB
+TI  - Pretrained gene representations transfer mean expression more broadly than spatial patterns in virtual spatial transcriptomics
+AU  - Chen, Tingjun
+AU  - Hicks, Stephanie C.
+PY  - 2026
+T2  - bioRxiv
+DO  - 10.64898/2026.09.15.751768
+UR  - https://doi.org/10.64898/2026.09.15.751768
+KW  - spatial
+KW  - histology
+KW  - foundation-model
+AB  - Separates what pretrained gene representations contribute to virtual spatial transcriptomics: mean expression versus spatial pattern.
+ID  - virtual-st-gene-representations
 ER  - 
 
 TY  - JOUR

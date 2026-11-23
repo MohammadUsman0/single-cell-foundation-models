@@ -1,0 +1,27 @@
+id: pereggrn
+kind: resource
+type: benchmark
+title: A comparison of computational methods for expression forecasting
+aliases:
+- PEREGGRN
+year: 2025
+venue: Genome Biology
+tags:
+- perturbation
+- gene-regulation
+key: 'PEREGGRN: benchmarking platform for expression forecasting after genetic perturbation across 11
+  datasets.'
+links:
+  paper: https://doi.org/10.1186/s13059-025-03840-y
+  preprint: https://doi.org/10.1101/2023.07.28.551039
+  code: https://github.com/ekernf01/perturbation_benchmarking
+findings: Expression forecasting methods rarely beat simple baselines.
+citation: Kernfeld, Eric, Yunxiao Yang, Joshua S. Weinstock, Alexis Battle, and Patrick Cahan. "A comparison
+  of computational methods for expression forecasting." Genome Biology 26, no. 1 (2025).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1186/s13059-025-03840-y
+- https://doi.org/10.1101/2023.07.28.551039
+- https://github.com/ekernf01/perturbation_benchmarking
+review_basis: abstract
+reviewed: false

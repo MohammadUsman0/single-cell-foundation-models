@@ -1,0 +1,22 @@
+id: crisprko-vs-crispri-perturb-seq
+kind: resource
+type: dataset
+title: Direct comparison of CRISPR knockout and interference with Perturb-seq
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- scrna-seq
+key: Benchmarking libraries directly comparing CRISPR knockout and interference with Perturb-seq readout.
+links:
+  preprint: https://doi.org/10.64898/2026.07.04.736492
+  code: https://github.com/ldrepano/head-to-head-CRISPRko-CRISPRi-Perturbseq
+citation: Drepanos, Laura M, Berta Escude Velasco, Abigail J Chase, Smriti Srikanth, Michael Gatzen, Hannah
+  D Rickner, Dan Dubinsky et al. "Direct comparison of CRISPR knockout and interference with Perturb-seq."
+  bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.07.04.736492
+- https://github.com/ldrepano/head-to-head-CRISPRko-CRISPRi-Perturbseq
+review_basis: abstract
+reviewed: false
