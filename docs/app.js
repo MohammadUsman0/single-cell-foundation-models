@@ -551,7 +551,7 @@
     ["Spatial", ["spatial"]],
     ["Imaging & proteomics", ["morphology", "proteomics"]],
     ["Multi-omics, epigenomics & regulation", ["multimodal", "epigenomics", "grn", "seq2exp"]],
-    ["Other", ["generative", "other"]],
+    ["Other", ["generative", "mechanistic", "other"]],
   ];
   const nice = (max) => {
     const step = [1, 2, 5, 10, 20, 25, 50, 100].find((x) => max / x <= 5) || 100;

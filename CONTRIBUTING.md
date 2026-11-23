@@ -16,6 +16,8 @@ with the paper link and we'll add it.
 - **Virtual-cell, world and perturbation-response models**, including established perturbation
   baselines (e.g. GEARS, CPA) that benchmarks routinely compare against.
 - **Agents and LLM systems** built for single-cell or virtual-cell analysis.
+- **Mechanistic whole-cell models**: physics- or kinetics-based simulations of whole cells, the
+  non-AI route to virtual cells, listed under their own category.
 - **Benchmarks and evaluations** of these models, and **interpretability studies** that analyse
   what they learn.
 - **Datasets, tools, surveys and perspectives** that the above build on.

@@ -44,6 +44,9 @@ categories:
   - id: perturbation
     label: Perturbation Prediction & Virtual Cell / World Models
     desc: Perturbation response prediction and virtual-cell / world models.
+  - id: mechanistic
+    label: Mechanistic & Whole-Cell Models
+    desc: Physics- and kinetics-based whole-cell simulations (non-AI virtual cells).
   - id: other
     label: Other Single-cell Foundation Models
     desc: Fallback only.

@@ -13,7 +13,7 @@
 
 For each model, the catalogue aims to record what it is, whether you can use it (code, weights, license) and what benchmarks found about it. Titles, years, venues and links are verified against Crossref, OpenAlex, arXiv and bioRxiv with [`scripts/verify.py`](scripts/verify.py).
 
-**340 models** (283 with code) · **243 resources** · **19 venues** · updated 2026-11-23
+**343 models** (284 with code) · **243 resources** · **19 venues** · updated 2026-11-23
 
 Each entry: **name** · title (**venue year**) · tags · links. Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).
 
@@ -24,7 +24,7 @@ Each entry: **name** · title (**venue year**) · tags · links. Machine-readabl
 
 | Added | Models | Resources |
 |---|---|---|
-| 2026-11-23 | 68 | 17 |
+| 2026-11-23 | 71 | 17 |
 | 2026-10-22 | 102 | 100 |
 | 2026-06-02 | 170 | 126 |
 
@@ -47,6 +47,7 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - [Agentic & Autonomous Cell Models](#agentic--autonomous-cell-models) (26)
 - [Cross-species & Cell Atlas / Similarity Models](#cross-species--cell-atlas--similarity-models) (4)
 - [Perturbation Prediction & Virtual Cell / World Models](#perturbation-prediction--virtual-cell--world-models) (143)
+- [Mechanistic & Whole-Cell Models](#mechanistic--whole-cell-models) (3)
 
 **Resources**
 
@@ -466,6 +467,14 @@ Every entry records the date it was added (`added`), also in [`exports/`](export
 - **CPA** · Predicting cellular responses to complex perturbations in high-throughput screens (**Molecular Systems Biology 2023**) · `Perturbation` `Drug response` `scRNA-seq` `Interpretability` · [[paper](https://doi.org/10.15252/msb.202211517)] [[code](https://github.com/theislab/cpa)] ![stars](https://img.shields.io/github/stars/theislab/cpa?style=flat-square&label=%E2%98%85)
 - **GEARS** · Predicting transcriptional outcomes of novel multigene perturbations with GEARS (**Nature Biotechnology 2023**) · `Perturbation` `Graph` `scRNA-seq` · [[paper](https://doi.org/10.1038/s41587-023-01905-6)] [[code](https://github.com/snap-stanford/GEARS)] ![stars](https://img.shields.io/github/stars/snap-stanford/GEARS?style=flat-square&label=%E2%98%85)
 - **SAMS-VAE** · Modelling Cellular Perturbations with the Sparse Additive Mechanism Shift Variational Autoencoder (**NeurIPS 2023**) · `Perturbation` `Generative` `scRNA-seq` `Interpretability` · [[paper](https://doi.org/10.52202/075280-0001)] [[code](https://github.com/insitro/sams-vae)] ![stars](https://img.shields.io/github/stars/insitro/sams-vae?style=flat-square&label=%E2%98%85)
+
+### Mechanistic & Whole-Cell Models
+
+*Physics- and kinetics-based whole-cell simulations (non-AI virtual cells).*
+
+- **hallsim** · An AI-ready compositional framework for mechanistic aging research and in silico intervention testing (**bioRxiv 2026**) · `Virtual cell` · [[code](https://github.com/BabaJaguska/HallSim)] ![stars](https://img.shields.io/github/stars/BabaJaguska/HallSim?style=flat-square&label=%E2%98%85)
+- **JCVI-syn3A 4D whole-cell model** · Bringing the genetically minimal cell to life on a computer in 4D (**Cell 2026**) · `Virtual cell` · [[paper](https://doi.org/10.1016/j.cell.2026.02.009)]
+- **Whole-cell digital twin (ReaDDy)** · Whole-cell particle-based digital twin simulations from 4D lattice light-sheet microscopy data (**Cell 2026**) · `Virtual cell` `Imaging` · [[paper](https://doi.org/10.1016/j.cell.2026.06.010)]
 
 ## Benchmarks & Evaluation
 

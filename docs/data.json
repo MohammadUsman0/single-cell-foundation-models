@@ -2,7 +2,7 @@
  "generated": "2026-11-23",
  "repo": "MohammadUsman0/single-cell-foundation-models",
  "counts": {
-  "models": 340,
+  "models": 343,
   "resources": 243,
   "venues": 19
  },
@@ -72,6 +72,11 @@
     "id": "perturbation",
     "label": "Perturbation Prediction & Virtual Cell / World Models",
     "desc": "Perturbation response prediction and virtual-cell / world models."
+   },
+   {
+    "id": "mechanistic",
+    "label": "Mechanistic & Whole-Cell Models",
+    "desc": "Physics- and kinetics-based whole-cell simulations (non-AI virtual cells)."
    },
    {
     "id": "other",
@@ -2919,6 +2924,36 @@
    "github": "Bin-Chen-Lab/GPS"
   },
   {
+   "id": "hallsim",
+   "kind": "model",
+   "name": "hallsim",
+   "title": "An AI-ready compositional framework for mechanistic aging research and in silico intervention testing",
+   "year": 2026,
+   "venue": "bioRxiv",
+   "category": "mechanistic",
+   "tags": [
+    "virtual-cell"
+   ],
+   "modality": "Mechanistic models of aging hallmarks",
+   "architecture": "Compositional mechanistic modules with a neural ODE surrogate",
+   "key": "Framework that composes mechanistic models of aging hallmarks into one system for in silico intervention testing, with a neural ODE surrogate as a component.",
+   "links": {
+    "preprint": "https://doi.org/10.64898/2026.09.22.753641",
+    "code": "https://github.com/BabaJaguska/HallSim"
+   },
+   "citation": "Belic, Minja, and David Furman. \"An AI-ready compositional framework for mechanistic aging research and in silico intervention testing.\" bioRxiv (2026).",
+   "reviewed": false,
+   "architecture_family": "other",
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.64898/2026.09.22.753641",
+    "https://github.com/BabaJaguska/HallSim"
+   ],
+   "review_basis": "abstract",
+   "status": "preprint",
+   "github": "BabaJaguska/HallSim"
+  },
+  {
    "id": "harmonycell",
    "kind": "model",
    "name": "HarmonyCell",
@@ -3088,6 +3123,34 @@
    "added": "2026-11-23",
    "sources": [
     "https://doi.org/10.1038/s41592-026-03213-8"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
+   "id": "minimal-cell-4d",
+   "kind": "model",
+   "name": "JCVI-syn3A 4D whole-cell model",
+   "title": "Bringing the genetically minimal cell to life on a computer in 4D",
+   "year": 2026,
+   "venue": "Cell",
+   "category": "mechanistic",
+   "tags": [
+    "virtual-cell"
+   ],
+   "modality": "Genetically minimal bacterium JCVI-syn3A",
+   "architecture": "Hybrid spatial and kinetic whole-cell simulation",
+   "key": "Simulates the full ~100-minute cell cycle of the minimal bacterium JCVI-syn3A in space and time, including genetic information processing, metabolism, growth and division; recovers measured doubling time, mRNA half-lives and ribosome counts.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2026.02.009"
+   },
+   "citation": "Thornburg, Zane R., Andrew Maytin, Jiwoong Kwon, Troy A. Brier, Benjamin R. Gilbert, Enguang Fu, Yang-Le Gao et al. \"Bringing the genetically minimal cell to life on a computer in 4D.\" Cell 189, no. 9 (2026): 2582-2597.e27.",
+   "reviewed": false,
+   "architecture_family": "other",
+   "code_status": "none-found",
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1016/j.cell.2026.02.009"
    ],
    "review_basis": "abstract",
    "status": "published"
@@ -7635,6 +7698,37 @@
    "added": "2026-11-23",
    "sources": [
     "https://doi.org/10.1038/s41586-026-10884-y"
+   ],
+   "review_basis": "abstract",
+   "status": "published"
+  },
+  {
+   "id": "whole-cell-digital-twin",
+   "kind": "model",
+   "name": "Whole-cell digital twin (ReaDDy)",
+   "title": "Whole-cell particle-based digital twin simulations from 4D lattice light-sheet microscopy data",
+   "year": 2026,
+   "venue": "Cell",
+   "category": "mechanistic",
+   "tags": [
+    "virtual-cell",
+    "imaging"
+   ],
+   "modality": "4D lattice light-sheet microscopy of live cells",
+   "architecture": "Particle-based reaction-diffusion simulation (ReaDDy)",
+   "key": "Builds spatially resolved digital twins of live cells from 4D lattice light-sheet microscopy and particle-based reaction-diffusion simulations to model organelle dynamics and perturbation effects.",
+   "links": {
+    "paper": "https://doi.org/10.1016/j.cell.2026.06.010",
+    "preprint": "https://doi.org/10.1101/2025.04.09.647865"
+   },
+   "citation": "Arkfeld, Eric, Zichen Wang, Hiroyuki Hakozaki, and Johannes Schöneberg. \"Whole-cell particle-based digital twin simulations from 4D lattice light-sheet microscopy data.\" Cell 189, no. 15 (2026): 4581-4593.e6.",
+   "reviewed": false,
+   "architecture_family": "other",
+   "code_status": "none-found",
+   "added": "2026-11-23",
+   "sources": [
+    "https://doi.org/10.1016/j.cell.2026.06.010",
+    "https://doi.org/10.1101/2025.04.09.647865"
    ],
    "review_basis": "abstract",
    "status": "published"
