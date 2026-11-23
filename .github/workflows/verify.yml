@@ -9,11 +9,12 @@ name: Verify entries
 #   VERIFY_MAILTO        contact address for the OpenAlex/Crossref polite pool
 #   VERIFY_OPENALEX_KEY  free OpenAlex API key; without it OpenAlex only allows a
 #                        small daily budget shared per IP, which runners exhaust
+#
+# Manual only (Actions → Verify entries → Run workflow). The usual route is to run
+# `python scripts/verify.py` locally; add a schedule here once the secrets are set.
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 6 1 * *"   # 06:00 UTC on the 1st of every month
 
 permissions:
   contents: read
