@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Correct an existing entry
+    url: https://github.com/MohammadUsman0/single-cell-foundation-models/blob/main/CONTRIBUTING.md
+    about: Every entry is one YAML file in data/; CONTRIBUTING explains how to edit it.

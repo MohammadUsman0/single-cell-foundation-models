@@ -8,11 +8,14 @@ Writes:
   docs/data.json          full catalogue for the GitHub Pages site
   exports/models.csv      flat CSV of models
   exports/resources.csv   flat CSV of resources
+  exports/catalogue.bib   BibTeX of every entry (for LaTeX, Zotero, Mendeley)
+  exports/catalogue.ris   RIS of every entry (for Zotero, Mendeley, EndNote)
 """
 import csv
 import datetime
 import json
 import os
+import re
 from collections import defaultdict
 
 from catalog import ROOT, github_repo, load_entries, load_venues, load_vocab, status, year_sort_key
@@ -71,6 +74,21 @@ def entry_line(e, tag_labels):
     return "- " + " · ".join(parts)
 
 
+def latest_additions(models, resources, dates=5):
+    """README lines: how many entries were added on each recent date (from each entry's `added` field)."""
+    by_date = defaultdict(list)
+    for e in models + resources:
+        if e.get("added"):
+            by_date[str(e["added"])].append(e)
+    if not by_date:
+        return []
+    L = ["## Latest Additions", "", "| Added | Models | Resources |", "|---|---|---|"]
+    for d in sorted(by_date, reverse=True)[:dates]:
+        es = by_date[d]
+        L.append(f"| {d} | {sum(e['kind'] == 'model' for e in es)} | {sum(e['kind'] == 'resource' for e in es)} |")
+    return L + ["", "Every entry records the date it was added (`added`), also in [`exports/`](exports/).", ""]
+
+
 def build_readme(models, resources, venues, vocab):
     tag_labels = {t["id"]: t["label"] for t in vocab["tags"]}
     by_cat = defaultdict(list)
@@ -93,6 +111,12 @@ def build_readme(models, resources, venues, vocab):
         "# Awesome Single-Cell Foundation Models & Virtual Cell Modelling "
         "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
         "",
+        f"[![Catalogue](https://img.shields.io/badge/catalogue-browse-0B6E99?style=flat-square)]({site_url()}) "
+        f"[![Last commit](https://img.shields.io/github/last-commit/{REPO}?style=flat-square&label=updated)]"
+        f"(https://github.com/{REPO}/commits/main) "
+        f"[![Stars](https://img.shields.io/github/stars/{REPO}?style=flat-square)](https://github.com/{REPO}/stargazers) "
+        "[![License: CC0-1.0](https://img.shields.io/badge/license-CC0--1.0-lightgrey?style=flat-square)](LICENSE)",
+        "",
         "> A curated list of foundation models for single-cell biology and AI virtual-cell / world models, "
         "plus the benchmarks, datasets, tools and reviews around them.",
         "",
@@ -114,6 +138,7 @@ def build_readme(models, resources, venues, vocab):
         "> This README is generated from [`data/`](data/). Don't edit it by hand — see "
         "[CONTRIBUTING.md](CONTRIBUTING.md).",
         "",
+        *latest_additions(models, resources),
         "## Contents",
         "",
         "**Models**",
@@ -202,12 +227,132 @@ def write_csv(path, rows, fields):
                     v = links.get(fld[5:], "")
                 elif fld.startswith("card_"):
                     v = card.get(fld[5:], "")
+                elif fld == "status":
+                    v = status(r)
                 else:
                     v = r.get(fld, "")
                 if isinstance(v, list):
                     v = "; ".join(map(str, v))
                 row.append("" if v is None else v)
             w.writerow(row)
+
+
+CONFERENCES = {"NeurIPS", "ICML", "ICLR", "AAAI", "IJCAI", "KDD", "ACL", "ACM-BCB", "RECOMB", "ISMB", "WSDM", "ICDM Workshops"}
+DOI = re.compile(r"10\.\d{4,9}/[^\s?#]+")
+ARXIV = re.compile(r"arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})")
+
+
+def citation_authors(cit):
+    """Authors from a Chicago-style citation ("Last, First, First Last, and First Last. "Title." ...").
+
+    Best effort: returns names as "Last, First" plus whether the list was cut with "et al".
+    """
+    if ' "' not in (cit or ""):  # not in the usual 'Authors. "Title." Venue' form
+        return [], False
+    head = cit.split(' "')[0].strip().rstrip(".")
+    if not head or head.startswith('"'):
+        return [], False
+    etal = bool(re.search(r"\bet al\.?$", head))
+    head = re.sub(r",?\s*et al\.?$", "", head)
+    parts = [p.strip() for p in re.split(r",\s*(?:and\s+)?|\s+and\s+", head) if p.strip()]
+    if len(parts) < 2:
+        return parts, etal
+    names = [f"{parts[0]}, {parts[1]}"]  # first author is written "Last, First"
+    for p in parts[2:]:
+        bits = p.split()
+        names.append(f"{bits[-1]}, {' '.join(bits[:-1])}" if len(bits) > 1 else p)
+    return names, etal
+
+
+def entry_ids(e):
+    links = e.get("links") or {}
+    doi = arxiv = None
+    for k in ("paper", "preprint"):
+        u = links.get(k) or ""
+        m = DOI.search(u)
+        if m and not doi and "10.48550" not in m.group(0):
+            doi = re.sub(r"(v\d+|\.full|\.pdf)$", "", m.group(0))
+        a = ARXIV.search(u) or re.search(r"10\.48550/arxiv\.(\d{4}\.\d{4,5})", u, re.I)
+        if a and not arxiv:
+            arxiv = a.group(1)
+    url = next((links[k] for k in ("paper", "preprint", "project", "video", "code") if links.get(k)), "")
+    return doi, arxiv, url
+
+
+def kind_of(e):
+    """'article' | 'inproceedings' | 'preprint' | 'misc'."""
+    if status(e) == "preprint":
+        return "preprint"
+    if e.get("venue") in CONFERENCES:
+        return "inproceedings"
+    if (e.get("links") or {}).get("paper") and e.get("venue"):
+        return "article"
+    return "misc"
+
+
+def bib_escape(s):
+    return str(s or "").replace("\\", "").replace("{", "").replace("}", "").replace("&", r"\&").replace("%", r"\%")
+
+
+def write_bib(path, entries):
+    out = []
+    for e in sorted(entries, key=lambda x: x["id"]):
+        doi, arxiv, url = entry_ids(e)
+        kind = kind_of(e)
+        names, etal = citation_authors(e.get("citation"))
+        fields = [("title", "{" + bib_escape(e["title"]) + "}")]
+        if names:
+            # a one-word-part name without a comma is an organisation: brace it so BibTeX keeps it whole
+            fields.append(("author", " and ".join(bib_escape(n) if "," in n else "{" + bib_escape(n) + "}" for n in names)
+                           + (" and others" if etal else "")))
+        if e.get("year"):
+            fields.append(("year", str(e["year"])))
+        venue = bib_escape(e.get("venue"))
+        if kind == "article":
+            fields.append(("journal", venue))
+        elif kind == "inproceedings":
+            fields.append(("booktitle", venue + (f" ({bib_escape(e['venue_detail'])})" if e.get("venue_detail") else "")))
+        elif venue:
+            fields.append(("howpublished", venue))
+        if doi:
+            fields.append(("doi", doi))
+        if arxiv:
+            fields += [("eprint", arxiv), ("archiveprefix", "arXiv")]
+        if url:
+            fields.append(("url", url))
+        if e.get("tags"):
+            fields.append(("keywords", ", ".join(e["tags"])))
+        btype = {"article": "article", "inproceedings": "inproceedings"}.get(kind, "misc")
+        out.append(f"@{btype}{{{e['id']},\n" + ",\n".join(f"  {k} = {{{v}}}" for k, v in fields) + "\n}\n")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("% Generated by scripts/build.py from data/ — do not edit by hand.\n"
+                "% Authors are parsed from each entry's citation; use the DOI to refresh full metadata.\n\n" + "\n".join(out))
+
+
+def write_ris(path, entries):
+    TY = {"article": "JOUR", "inproceedings": "CPAPER", "preprint": "UNPB", "misc": "GEN"}
+    lines = []
+    for e in sorted(entries, key=lambda x: x["id"]):
+        doi, arxiv, url = entry_ids(e)
+        names, _ = citation_authors(e.get("citation"))
+        lines.append(f"TY  - {TY[kind_of(e)]}")
+        lines.append(f"TI  - {e['title']}")
+        lines += [f"AU  - {n}" for n in names]
+        if e.get("year"):
+            lines.append(f"PY  - {e['year']}")
+        if e.get("venue"):
+            lines.append(f"T2  - {e['venue']}")
+        if doi:
+            lines.append(f"DO  - {doi}")
+        if url:
+            lines.append(f"UR  - {url}")
+        lines += [f"KW  - {t}" for t in e.get("tags") or []]
+        if e.get("key"):
+            lines.append(f"AB  - {e['key']}")
+        lines.append(f"ID  - {e['id']}")
+        lines.append("ER  - \n")
+    with open(path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
 
 
 def main():
@@ -222,13 +367,18 @@ def main():
         json.dump(build_json(models, resources, venues, vocab), f, ensure_ascii=False, indent=1)
 
     os.makedirs(os.path.join(ROOT, "exports"), exist_ok=True)
+    links = ["link_" + k for k in ("paper", "preprint", "code", "weights", "project", "dataset", "docs", "video")]
     write_csv(os.path.join(ROOT, "exports", "models.csv"), sorted(models, key=year_sort_key),
-              ["id", "name", "title", "year", "venue", "category", "tags", "modality", "architecture",
-               "key", "link_paper", "link_code", "link_weights", "link_project", "card_params",
-               "card_pretraining_cells", "card_weights", "card_license", "reviewed"])
+              ["id", "name", "aliases", "title", "year", "venue", "venue_detail", "status", "category", "tags",
+               "modality", "architecture", "architecture_family", "inputs", "outputs", "perturbation_type",
+               "generalization", "task", "key", *links, "code_status",
+               *["card_" + k for k in vocab["model_card_fields"]],
+               "citation", "added", "review_basis", "reviewed"])
     write_csv(os.path.join(ROOT, "exports", "resources.csv"), sorted(resources, key=year_sort_key),
-              ["id", "type", "title", "year", "venue", "tags", "key", "link_paper", "link_code",
-               "link_project", "evaluates", "findings", "reviewed"])
+              ["id", "type", "title", "aliases", "year", "venue", "venue_detail", "status", "tags", "key",
+               "evaluates", "findings", "interp_method", *links, "citation", "added", "review_basis", "reviewed"])
+    write_bib(os.path.join(ROOT, "exports", "catalogue.bib"), models + resources)
+    write_ris(os.path.join(ROOT, "exports", "catalogue.ris"), models + resources)
 
     print(f"Built README.md, docs/data.json, exports/: {len(models)} models, "
           f"{len(resources)} resources, {len(venues)} venues.")

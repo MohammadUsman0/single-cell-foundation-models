@@ -6,6 +6,7 @@ __pycache__/
 .cache/
 # Local working notes: never published.
 planning/
+research/
 CLAUDE.md
 CLAUDE.local.md
 # verify.py output: needs network + API keys, so it can't be rebuilt on every push and
