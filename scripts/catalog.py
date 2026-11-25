@@ -81,6 +81,12 @@ def write_yaml(path, data):
         yaml.dump(data, f, Dumper=Dumper, sort_keys=False, allow_unicode=True, width=100)
 
 
+def data_date(entries):
+    """Date of the latest catalogue addition (max `added`), so generated files depend on data only, not on the build day."""
+    dates = [str(e["added"]) for e in entries if e.get("added")]
+    return max(dates) if dates else ""
+
+
 def year_sort_key(e):
     y = e.get("year")
     return (0 if isinstance(y, int) else 1, -(y or 0), (e.get("name") or e.get("title") or "").lower())
