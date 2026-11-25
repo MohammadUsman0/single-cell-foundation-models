@@ -1,0 +1,50 @@
+name: Find new papers
+
+# Every Monday, searches bioRxiv, medRxiv, arXiv and Europe PMC for papers from the past
+# 8 days that may belong in the catalogue (scripts/find_new.py), and opens an issue listing
+# them for review. It never changes data/: accepted papers are added and verified by hand,
+# following CONTRIBUTING. No secrets needed; all sources are free and keyless.
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"   # 07:00 UTC every Monday
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Window length in days"
+        default: "8"
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  find:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install dependencies
+        run: pip install pyyaml requests
+      - name: Search
+        run: python scripts/find_new.py --days "${{ github.event.inputs.days || '8' }}"
+      - name: Open the weekly candidates issue
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          {
+            # GitHub issue bodies are limited to 65,536 characters.
+            head -c 60000 reports/candidates.md
+            echo
+            echo "---"
+            echo "From [this run]($RUN_URL). Tick through the list, then add accepted papers with"
+            echo "\`scripts/new_entry.py\` (or by hand) and run \`check.py\` + \`build.py\`. Close this issue when done."
+          } > issue.md
+          cat issue.md >> "$GITHUB_STEP_SUMMARY"
+          title=$(head -1 reports/candidates.md | sed 's/^# //')
+          gh label create candidates --color C5DEF5 --description "Weekly find_new.py results" 2>/dev/null || true
+          gh issue create --title "$title" --label candidates --body-file issue.md
