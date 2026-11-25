@@ -1,0 +1,29 @@
+id: cellaudit
+kind: resource
+type: benchmark
+title: 'Discover, Falsify, Revise: Auditing Input-Use Claims from Source Code to Predictive Contribution
+  in Agent-Discovered Cell Models'
+aliases:
+- CellAudit
+year: 2026
+venue: arXiv
+tags:
+- virtual-cell
+- perturbation
+- agent
+key: 'CellAudit: checks whether agent-discovered virtual-cell predictors actually use the perturbation
+  inputs they claim to use.'
+links:
+  preprint: https://arxiv.org/abs/2609.27234
+  code: https://github.com/limengran98/CellAudit
+findings: 'Predictive generalisation need not imply that input-use claims generalise: dose contribution
+  held up, compound identity did not.'
+citation: 'Li, Mengran, Bo Li, Chengyang Zhang, Yang Yan, Jinfeng Xu, and Zhenchao Tang. "Discover, Falsify,
+  Revise: Auditing Input-Use Claims from Source Code to Predictive Contribution in Agent-Discovered Cell
+  Models." arXiv preprint arXiv:2609.27234 (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2609.27234
+- https://github.com/limengran98/CellAudit
+review_basis: abstract
+reviewed: false

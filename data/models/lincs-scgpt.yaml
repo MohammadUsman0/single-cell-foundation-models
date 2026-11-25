@@ -1,0 +1,40 @@
+id: lincs-scgpt
+kind: model
+name: LINCS-scGPT
+title: Task-adapted biological foundation models uncover perturbation-centric representations
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- drug-response
+- foundation-model
+modality: LINCS L1000 perturbation profiles
+architecture: scGPT fine-tuned with a perturbation objective
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- gene-embedding
+architecture_family: transformer-encoder
+perturbation_type:
+- chemical
+- genetic
+generalization:
+- unseen-perturbation
+key: Fine-tunes scGPT on millions of perturbation profiles so its embedding space captures perturbation
+  effects rather than cell state.
+links:
+  preprint: https://doi.org/10.64898/2026.06.30.735584
+  code: https://github.com/sbnb-irb/LINCS_scGPT_embeddings
+citation: Pareja-Lorente, Elena, and Patrick Aloy. "Task-adapted biological foundation models uncover
+  perturbation-centric representations." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.06.30.735584
+- https://github.com/sbnb-irb/LINCS_scGPT_embeddings
+review_basis: abstract
+reviewed: false
+review_notes:
+- Name taken from the code repository (LINCS_scGPT_embeddings); the paper does not name the model.

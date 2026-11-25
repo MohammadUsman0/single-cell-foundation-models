@@ -1,0 +1,24 @@
+id: recoverable-resolution-perturbation
+kind: resource
+type: benchmark
+title: The recoverable resolution of cellular perturbation-response prediction
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- virtual-cell
+key: 'Defines context geometry compression: models keep identity and shared effects but collapse context-specific
+  differences.'
+links:
+  preprint: https://doi.org/10.64898/2026.09.30.755756
+  code: https://github.com/yongqih/cgc-counterfactual-resolution
+findings: Accurate expression prediction can hide failures to recover context-specific responses; evaluation
+  should target the resolution the data support.
+citation: Huang, Yongqi, Hanzhi Wang, Chenyu Li, and Parker Wilson. "The recoverable resolution of cellular
+  perturbation-response prediction." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.09.30.755756
+- https://github.com/yongqih/cgc-counterfactual-resolution
+review_basis: abstract
+reviewed: false

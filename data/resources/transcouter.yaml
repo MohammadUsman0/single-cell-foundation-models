@@ -1,0 +1,25 @@
+id: transcouter
+kind: resource
+type: benchmark
+title: A structured study of cross-condition prediction of transcriptional responses to gene perturbations
+aliases:
+- TranScouter
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- llm
+key: Structured study of cross-condition perturbation prediction, with TranScouter, a model using text
+  summaries and control profiles.
+links:
+  preprint: https://doi.org/10.64898/2026.07.30.741892
+  code: https://github.com/PancakeZoy/TranScouter
+findings: Condition-space coverage and how transferable effects are shape cross-condition performance.
+citation: Zhu, Ouyang, and Jun Li. "A structured study of cross-condition prediction of transcriptional
+  responses to gene perturbations." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.07.30.741892
+- https://github.com/PancakeZoy/TranScouter
+review_basis: abstract
+reviewed: false

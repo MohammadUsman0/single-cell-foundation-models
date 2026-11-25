@@ -1,0 +1,26 @@
+id: minimal-cell-4d
+kind: model
+name: JCVI-syn3A 4D whole-cell model
+title: Bringing the genetically minimal cell to life on a computer in 4D
+year: 2026
+venue: Cell
+category: mechanistic
+tags:
+- virtual-cell
+modality: Genetically minimal bacterium JCVI-syn3A
+architecture: Hybrid spatial and kinetic whole-cell simulation
+architecture_family: other
+key: Simulates the full ~100-minute cell cycle of the minimal bacterium JCVI-syn3A in space and time,
+  including genetic information processing, metabolism, growth and division; recovers measured doubling
+  time, mRNA half-lives and ribosome counts.
+links:
+  paper: https://doi.org/10.1016/j.cell.2026.02.009
+code_status: none-found
+citation: 'Thornburg, Zane R., Andrew Maytin, Jiwoong Kwon, Troy A. Brier, Benjamin R. Gilbert, Enguang
+  Fu, Yang-Le Gao et al. "Bringing the genetically minimal cell to life on a computer in 4D." Cell 189,
+  no. 9 (2026): 2582-2597.e27.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.cell.2026.02.009
+review_basis: abstract
+reviewed: false

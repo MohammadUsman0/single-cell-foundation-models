@@ -1,0 +1,28 @@
+id: pairing
+kind: model
+name: PAIRING
+title: Identifying an optimal perturbation to induce a desired cell state by generative deep learning
+year: 2025
+venue: Cell Systems
+category: perturbation
+tags:
+- perturbation
+- generative
+modality: scRNA-seq (perturbation)
+architecture: Generative model decomposing basal state and perturbation
+inputs:
+- expression
+outputs:
+- gene-prioritization
+- perturbation-response
+key: Identifies the perturbation that would move cells to a desired state by decomposing latent cell states.
+links:
+  paper: https://doi.org/10.1016/j.cels.2025.101405
+code_status: none-found
+citation: 'Han, Younghyun, Hyunjin Kim, Chun-Kyung Lee, and Kwang-Hyun Cho. "Identifying an optimal perturbation
+  to induce a desired cell state by generative deep learning." Cell Systems 16, no. 10 (2025): 101405.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.cels.2025.101405
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,32 @@
+id: spatialomicslab
+kind: model
+name: SpatialOmicsLab
+title: 'SpatialOmicsLab: an integrated research environment for AI co-scientists in spatial transcriptomics'
+year: 2026
+venue: bioRxiv
+category: agents
+tags:
+- agent
+- spatial
+modality: Spatial transcriptomics
+inputs:
+- expression
+- spatial-coordinates
+- text
+outputs:
+- text
+architecture_family: agent
+key: Research environment and co-scientist agent for reproducible spatial transcriptomics analysis, with
+  procedural memory for adding tools.
+links:
+  preprint: https://doi.org/10.64898/2026.10.01.756049
+  code: https://github.com/jiangyi01/SpatialOmicsLab
+citation: 'Jiang, Yi, Xiaowei Zhan, Peiran Quan, Ruheng Wang, Fangjiang Wu, Junhui Mi, Jia Yao et al.
+  "SpatialOmicsLab: an integrated research environment for AI co-scientists in spatial transcriptomics."
+  bioRxiv (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.10.01.756049
+- https://github.com/jiangyi01/SpatialOmicsLab
+review_basis: abstract
+reviewed: false

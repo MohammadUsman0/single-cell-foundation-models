@@ -1,0 +1,25 @@
+id: jump-lite
+kind: resource
+type: benchmark
+title: 'JUMP-lite: Compact, reproducible benchmarking of cell representations'
+aliases:
+- JUMP-lite
+- Nahual
+year: 2026
+venue: arXiv
+tags:
+- imaging
+key: 'JUMP-lite and Nahual: compact, reproducible benchmarking of cell image representations on JUMP Cell
+  Painting.'
+links:
+  preprint: https://arxiv.org/abs/2608.07632
+  code: https://github.com/afermg/JUMP_lite
+findings: Moderate image compression keeps most signal; standard metrics separate representation methods.
+citation: 'Muñoz, Alán F., Johan Fredin Haslum, Runxi Shen, Anne E. Carpenter, and Shantanu Singh. "JUMP-lite:
+  Compact, reproducible benchmarking of cell representations." arXiv preprint arXiv:2608.07632 (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2608.07632
+- https://github.com/afermg/JUMP_lite
+review_basis: abstract
+reviewed: false

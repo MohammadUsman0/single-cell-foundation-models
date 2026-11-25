@@ -1,0 +1,22 @@
+id: perturbation-effects-beyond-global-trend
+kind: resource
+type: benchmark
+title: Transcriptional perturbation effects remain structured beyond the leading global trend
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+key: Analyses the structure of perturbation effects beyond the common global transcriptional response.
+links:
+  preprint: https://doi.org/10.64898/2026.10.05.756839
+  code: https://github.com/liuqiyuanhhh/perturbation-structure
+findings: Substantial perturbation-specific, transferable structure remains beyond the global trend, which
+  makes simple strategies surprisingly competitive.
+citation: Liu, Qiyuan, Qirui Zhang, Yilong Chen, Jinhong Du, Siming Zhao, and Jingshu Wang. "Transcriptional
+  perturbation effects remain structured beyond the leading global trend." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.10.05.756839
+- https://github.com/liuqiyuanhhh/perturbation-structure
+review_basis: abstract
+reviewed: false

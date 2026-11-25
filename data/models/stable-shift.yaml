@@ -1,0 +1,40 @@
+id: stable-shift
+kind: model
+name: Stable-Shift
+title: 'Stable-Shift: Predicting Transcriptional Responses of Unseen Gene Perturbations Using Graph Neural
+  Networks with Biological Priors'
+year: 2026
+venue: ACM-BCB
+category: perturbation
+tags:
+- perturbation
+- graph
+modality: Perturb-seq
+architecture: Low-rank response basis with graph neural network
+inputs:
+- expression
+- perturbation
+- prior-network
+outputs:
+- perturbation-response
+architecture_family: graph-neural-network
+perturbation_type:
+- genetic
+generalization:
+- unseen-perturbation
+key: Estimates responses to never-perturbed genes from a low-rank response basis and gene-graph neighbourhoods.
+links:
+  paper: https://doi.org/10.1145/3807503.3820871
+  preprint: https://arxiv.org/abs/2606.24940
+  code: https://github.com/Sajib-006/PerturbGraph
+citation: 'Dip, Sajib Acharjee, and Liqing Zhang. "Stable-Shift: Predicting Transcriptional Responses
+  of Unseen Gene Perturbations Using Graph Neural Networks with Biological Priors." In Proceedings of
+  Proceedings of the 17th ACM International Conference on Bioinformatics, Computational Biology and Health
+  Informatics (2026): 1-6.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1145/3807503.3820871
+- https://arxiv.org/abs/2606.24940
+- https://github.com/Sajib-006/PerturbGraph
+review_basis: abstract
+reviewed: false

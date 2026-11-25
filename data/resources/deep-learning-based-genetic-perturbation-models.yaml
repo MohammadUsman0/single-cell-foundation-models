@@ -1,25 +1,29 @@
 id: deep-learning-based-genetic-perturbation-models
 kind: resource
 type: benchmark
-title: Deep Learning-Based Genetic Perturbation Models Do Outperform Uninformative Baselines on Well-Calibrated
+title: Deep learning perturbation models can outperform baselines on calibrated metrics
+aliases:
+- Deep Learning-Based Genetic Perturbation Models Do Outperform Uninformative Baselines on Well-Calibrated
   Metrics
-year: 2025
-venue: bioRxiv
+year: 2026
+venue: Nature Biotechnology
 tags:
 - perturbation
 links:
-  paper: https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1
+  paper: https://doi.org/10.1038/s41587-026-03307-w
+  preprint: https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1
 evaluates:
 - scgpt
 - gears
 - sclambda
 findings: Under well-calibrated metrics deep models do beat mean and linear baselines; earlier reports
   of underperformance came from poorly calibrated metrics such as MSE.
-citation: Miller, Henry E., Gabriel M. Mejia, Francis J. A. Leblanc, Bo Wang, Brendan Swain, and Lucas
-  Paulo de Lima Camillo. "Deep Learning-Based Genetic Perturbation Models Do Outperform Uninformative
-  Baselines on Well-Calibrated Metrics." bioRxiv (2025).
+citation: Miller, Henry E., Gabriel M. Mejia, Francis J. A. Leblanc, Brendan Swain, Bo Wang, and Lucas
+  Paulo de Lima Camillo. "Deep learning perturbation models can outperform baselines on calibrated metrics."
+  Nature Biotechnology (2026).
 added: '2026-06-02'
 sources:
+- https://doi.org/10.1038/s41587-026-03307-w
 - https://www.biorxiv.org/content/10.1101/2025.10.20.683304v1
 review_basis: paper
 reviewed: false

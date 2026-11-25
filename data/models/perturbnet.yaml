@@ -1,0 +1,38 @@
+id: perturbnet
+kind: model
+name: PerturbNet
+title: PerturbNet predicts single-cell responses to unseen chemical and genetic perturbations
+year: 2025
+venue: Molecular Systems Biology
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: Single-cell chemical and genetic perturbations
+architecture: Deep generative model
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- chemical
+- genetic
+generalization:
+- unseen-perturbation
+key: Predicts cell-state distributions for unseen chemical and genetic perturbations, including the effects
+  of point mutations.
+links:
+  paper: https://doi.org/10.1038/s44320-025-00131-3
+  preprint: https://doi.org/10.1101/2022.07.20.500854
+  code: https://github.com/welch-lab/PerturbNet
+citation: Yu, Hengshi, Weizhou Qian, Yuxuan Song, and Joshua D Welch. "PerturbNet predicts single-cell
+  responses to unseen chemical and genetic perturbations." Molecular Systems Biology 21, no. 8 (2025).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s44320-025-00131-3
+- https://doi.org/10.1101/2022.07.20.500854
+- https://github.com/welch-lab/PerturbNet
+review_basis: abstract
+reviewed: false

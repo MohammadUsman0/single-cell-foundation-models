@@ -1,0 +1,33 @@
+id: bridge-histo-st
+kind: model
+name: BRIDGE
+title: 'BRIDGE: A Multi-organ Histo-ST Foundation Model Enables Virtual Spatial Transcriptomics for Enhanced
+  Few-shot Cancer Diagnosis'
+year: 2026
+venue: bioRxiv
+category: multimodal
+tags:
+- histology
+- spatial
+- foundation-model
+modality: Histology + spatial transcriptomics (multi-organ)
+architecture: Multi-organ histology-transcriptomics foundation model
+inputs:
+- histology-image
+outputs:
+- expression-prediction
+- disease-state
+key: Multi-organ histology-to-spatial-transcriptomics model designed for few-shot settings, whose virtual
+  transcriptomes support diagnosis and prognosis.
+links:
+  preprint: https://doi.org/10.64898/2026.05.05.722971
+  code: https://github.com/tracy666/BRIDGE
+citation: 'Liang, Zhuo, Weiqin Zhao, Fuying Wang, Guangyong Chen, Yuanhua Huang, and Lequan Yu. "BRIDGE:
+  A Multi-organ Histo-ST Foundation Model Enables Virtual Spatial Transcriptomics for Enhanced Few-shot
+  Cancer Diagnosis." bioRxiv (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.05.05.722971
+- https://github.com/tracy666/BRIDGE
+review_basis: abstract
+reviewed: false

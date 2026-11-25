@@ -1,0 +1,33 @@
+id: u-pert
+kind: model
+name: U-Pert
+title: Unbalanced Perturbation Dynamics For Cell Fate Design
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- virtual-cell
+modality: Single-cell perturbation data
+architecture: Unbalanced perturbation dynamics
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+generalization:
+- unseen-perturbation
+key: Models perturbations as unbalanced (mass-changing) dynamics to capture both expression and cell-abundance
+  changes, and supports inverse design.
+links:
+  preprint: https://doi.org/10.64898/2026.06.30.735555
+  code: https://github.com/QiangweiPeng/UPT
+citation: Peng, Qiangwei, Yuchuan Wang, Jianzhe Li, Xinyu Wang, Yao Xiao, and Peijie Zhou. "Unbalanced
+  Perturbation Dynamics For Cell Fate Design." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.06.30.735555
+- https://github.com/QiangweiPeng/UPT
+review_basis: abstract
+reviewed: false

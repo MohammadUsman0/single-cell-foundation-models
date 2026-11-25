@@ -1,0 +1,36 @@
+id: scdiffusion-x
+kind: model
+name: scDiffusion-X
+title: A multi-modal diffusion model with dual-cross-attention for multi-omics data generation and translation
+year: 2026
+venue: Nature Communications
+category: generative
+tags:
+- generative
+- multi-omics
+- perturbation
+modality: Single-cell multi-omics
+architecture: Latent diffusion with dual cross-attention
+inputs:
+- expression
+- chromatin-accessibility
+outputs:
+- generated-cells
+- gene-regulatory-network
+architecture_family: diffusion
+key: Latent diffusion model for integrating, generating and translating single-cell multi-omics data,
+  also used to predict perturbation responses.
+links:
+  paper: https://doi.org/10.1038/s41467-026-71744-x
+  preprint: https://doi.org/10.1101/2025.02.27.640020
+  code: https://github.com/EperLuo/scDiffusion-X
+citation: Luo, Erpai, Lei Wei, Minsheng Hao, Xuegong Zhang, and Qiao Liu. "A multi-modal diffusion model
+  with dual-cross-attention for multi-omics data generation and translation." Nature Communications 17,
+  no. 1 (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41467-026-71744-x
+- https://doi.org/10.1101/2025.02.27.640020
+- https://github.com/EperLuo/scDiffusion-X
+review_basis: abstract
+reviewed: false

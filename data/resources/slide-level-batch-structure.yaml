@@ -1,0 +1,25 @@
+id: slide-level-batch-structure
+kind: resource
+type: benchmark
+title: Slide-level batch structure limits histology-guided supervision of transcriptomic foundation models
+year: 2026
+venue: bioRxiv
+tags:
+- spatial
+- foundation-model
+- histology
+key: Tests whether matched H&E can improve transcriptomic foundation-model representations of spatial
+  data.
+links:
+  preprint: https://doi.org/10.64898/2026.09.30.755585
+  code: https://github.com/ratschlab/vision-guided-transcriptomics-fm-2026
+findings: Histology supervision can reorganise information already in frozen representations but cannot
+  recover what they lost to slide-specific variation.
+citation: McConnell, Ulysse, Kalin Nonchev, Viktor H Koelzer, and Gunnar Rätsch. "Slide-level batch structure
+  limits histology-guided supervision of transcriptomic foundation models." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.09.30.755585
+- https://github.com/ratschlab/vision-guided-transcriptomics-fm-2026
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,32 @@
+id: mega-ode
+kind: model
+name: MEGA-ODE
+title: 'MEGA-ODE: Learning Biologically Structured and Navigable Continuous Perturbation Dynamics from
+  Sparse Omics'
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- gene-regulation
+modality: Sparse temporal perturbation omics
+architecture: Graph-constrained continuous-time model
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+key: Graph-constrained continuous-time model that reconstructs unmeasured perturbation trajectories and
+  prioritises virtual perturbations.
+links:
+  preprint: https://doi.org/10.64898/2026.08.05.742921
+  code: https://github.com/Candlelight-XYJ/MEGA-ODE
+citation: 'Xiang, Yujia, Yongge Li, Chunyan Tian, Ruichu Gu, Fuchu He, Han Wen, Linhai Xie et al. "MEGA-ODE:
+  Learning Biologically Structured and Navigable Continuous Perturbation Dynamics from Sparse Omics."
+  bioRxiv (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.08.05.742921
+- https://github.com/Candlelight-XYJ/MEGA-ODE
+review_basis: abstract
+reviewed: false

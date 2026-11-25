@@ -1,0 +1,31 @@
+id: cell-dino
+kind: model
+name: Cell-DINO
+title: 'Cell-DINO: Self-supervised image-based embeddings for cell fluorescent microscopy'
+year: 2025
+venue: PLOS Computational Biology
+category: morphology
+tags:
+- imaging
+- foundation-model
+modality: Fluorescence microscopy (single cells)
+architecture: Self-supervised vision transformer (DINOv2)
+inputs:
+- cell-image
+outputs:
+- cell-embedding
+architecture_family: transformer-encoder
+key: Applies self-supervised DINOv2 to fluorescence microscopy to learn single-cell morphology embeddings
+  without annotations.
+links:
+  paper: https://doi.org/10.1371/journal.pcbi.1013828
+  code: https://github.com/facebookresearch/dinov2
+citation: 'Moutakanni, Théo, Camille Couprie, Seungeun Yi, Michael Doron, Zitong S. Chen, Nikita Moshkov,
+  Elouan Gardes et al. "Cell-DINO: Self-supervised image-based embeddings for cell fluorescent microscopy."
+  PLOS Computational Biology 21, no. 12 (2025): e1013828.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1371/journal.pcbi.1013828
+- https://github.com/facebookresearch/dinov2
+review_basis: abstract
+reviewed: false

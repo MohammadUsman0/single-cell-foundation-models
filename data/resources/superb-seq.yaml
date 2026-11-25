@@ -1,0 +1,24 @@
+id: superb-seq
+kind: resource
+type: dataset
+title: Joint single-cell capture of Cas9 edits and transcriptomes reveals on- and off-target effects on
+  gene expression
+year: 2026
+venue: Nature Methods
+tags:
+- perturbation
+- scrna-seq
+key: 'Superb-seq: assay that captures Cas9 edits and the transcriptome of the same single cell, revealing
+  on- and off-target effects.'
+links:
+  paper: https://doi.org/10.1038/s41592-026-03319-z
+  code: https://github.com/BradBalderson/Sheriff
+citation: Lorenzini, Michael H., Brad Balderson, Shanna N. Lavalle, Karthyayani Sajeev, Aaron J. Ho, Madelyn
+  Light, Olalekan H. Usman et al. "Joint single-cell capture of Cas9 edits and transcriptomes reveals
+  on- and off-target effects on gene expression." Nature Methods (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41592-026-03319-z
+- https://github.com/BradBalderson/Sheriff
+review_basis: abstract
+reviewed: false

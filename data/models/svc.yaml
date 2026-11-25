@@ -1,0 +1,34 @@
+id: svc
+kind: model
+name: SVC
+title: 'SVC: A Vision Transformer-based Spatially and Virtually Embedded Cell Model for Deciphering Subcellular
+  Spatial Transcriptomic Heterogeneity'
+year: 2026
+venue: bioRxiv
+category: spatial
+tags:
+- spatial
+- foundation-model
+modality: Subcellular-resolution spatial transcriptomics
+architecture: Vision transformer over subcellular transcript images
+inputs:
+- spatial-coordinates
+- expression
+outputs:
+- cell-embedding
+- spatial-domain
+architecture_family: transformer-encoder
+key: Vision-transformer model of subcellular transcript organisation in tissue, whose representations
+  transfer to imputation, clustering and domains.
+links:
+  preprint: https://doi.org/10.64898/2026.10.07.757371
+  code: https://github.com/aster-ww/SVC
+citation: 'Wan, Hui, Penghui Yang, Siyu Hou, Jade Wang, and Xiang Zhou. "SVC: A Vision Transformer-based
+  Spatially and Virtually Embedded Cell Model for Deciphering Subcellular Spatial Transcriptomic Heterogeneity."
+  bioRxiv (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.10.07.757371
+- https://github.com/aster-ww/SVC
+review_basis: abstract
+reviewed: false

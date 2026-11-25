@@ -1,0 +1,21 @@
+id: spac-seq
+kind: resource
+type: dataset
+title: Uncovering spatially resolved functional genomics with CRISPR screen sequencing
+year: 2026
+venue: Cell
+tags:
+- perturbation
+- spatial
+key: 'SPAC-seq: spatial CRISPR screen sequencing with the TARDIS toolkit for linking perturbations to
+  spatial phenotypes.'
+links:
+  paper: https://doi.org/10.1016/j.cell.2026.04.049
+citation: 'Zhang, Haorui, Zongxu Zhang, Peiyu Wang, Tian Xu, Xiaoyu Chen, Yanping Zhao, Siyu Lin et al.
+  "Uncovering spatially resolved functional genomics with CRISPR screen sequencing." Cell 189, no. 15
+  (2026): 4594-4618.e48.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.cell.2026.04.049
+review_basis: abstract
+reviewed: false

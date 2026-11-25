@@ -1,0 +1,26 @@
+id: pangea
+kind: resource
+type: dataset
+title: 'PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling
+  of multicellular responses in human diseases'
+aliases:
+- PANGEA
+year: 2026
+venue: Nature Methods
+tags:
+- scrna-seq
+- foundation-model
+key: 'PANGEA: remapped atlas of 12.6 million human cells with a hierarchical cell classification, used
+  to profile multicellular responses across diseases.'
+links:
+  paper: https://doi.org/10.1038/s41592-026-03295-4
+  code: https://github.com/srkim727/pangeapy
+citation: 'Kim, Seongryong, Sungmin Cheong, Suho Lee, Yeju Kim, Ronald Xie, In Gyeong Koh, Jeongwoo La
+  et al. "PANGEA: an integrated cell atlas across diverse biological contexts enables systematic profiling
+  of multicellular responses in human diseases." Nature Methods (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41592-026-03295-4
+- https://github.com/srkim727/pangeapy
+review_basis: abstract
+reviewed: false

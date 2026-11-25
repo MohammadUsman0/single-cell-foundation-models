@@ -1,0 +1,35 @@
+id: mappfn
+kind: model
+name: MapPFN
+title: 'MapPFN: Learning Causal Perturbation Maps in Context'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- virtual-cell
+- foundation-model
+modality: scRNA-seq (perturbation)
+architecture: Prior-data fitted network pretrained on synthetic data
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+generalization:
+- unseen-cell-context
+key: Prior-fitted network meta-trained on synthetic causal systems that adapts perturbation-effect estimates
+  to new contexts in context.
+links:
+  preprint: https://arxiv.org/abs/2601.21092
+  code: https://github.com/marvinsxtr/MapPFN
+citation: 'Sextro, Marvin, Weronika Kłos, and Gabriel Dernbach. "MapPFN: Learning Causal Perturbation
+  Maps in Context." arXiv preprint arXiv:2601.21092 (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2601.21092
+- https://github.com/marvinsxtr/MapPFN
+review_basis: abstract
+reviewed: false

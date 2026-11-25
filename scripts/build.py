@@ -18,7 +18,7 @@ import os
 import re
 from collections import defaultdict
 
-from catalog import ROOT, github_repo, load_entries, load_venues, load_vocab, status, year_sort_key
+from catalog import ROOT, data_date, github_repo, load_entries, load_venues, load_vocab, status, year_sort_key
 
 REPO = "MohammadUsman0/single-cell-foundation-models"
 
@@ -129,7 +129,7 @@ def build_readme(models, resources, venues, vocab):
         "[`scripts/verify.py`](scripts/verify.py).",
         "",
         f"**{len(models)} models** ({n_code} with code) · **{len(resources)} resources** · "
-        f"**{len(venues)} venues** · updated {datetime.date.today().isoformat()}",
+        f"**{len(venues)} venues** · updated {data_date(models + resources)}",
         "",
         "Each entry: **name** · title (**venue year**) · tags · links. "
         "Machine-readable data: [`docs/data.json`](docs/data.json) · [`exports/`](exports/).",
@@ -204,7 +204,7 @@ def public(e, vocab):
 
 def build_json(models, resources, venues, vocab):
     return {
-        "generated": datetime.date.today().isoformat(),
+        "generated": data_date(models + resources),
         "repo": REPO,
         "counts": {"models": len(models), "resources": len(resources), "venues": len(venues)},
         "vocab": vocab,

@@ -1,0 +1,24 @@
+id: biological-input-use
+kind: resource
+type: benchmark
+title: When Do Biological Reasoning Models Use Their Biological Inputs?
+year: 2026
+venue: arXiv
+tags:
+- llm
+- foundation-model
+key: Perturbs one biological input of reasoning models at a time to test whether their answers actually
+  depend on foundation-model representations.
+links:
+  preprint: https://arxiv.org/abs/2610.00898
+  code: https://github.com/mims-harvard/bio-mirage
+findings: Higher accuracy does not mean the biological inputs contribute; current post-training does not
+  ensure that foundation-model representations are used.
+citation: Fang, Ada, Nikitha Thoduguli, Lukas Fesser, Hanlin Zhang, Sham M. Kakade, and Marinka Zitnik.
+  "When Do Biological Reasoning Models Use Their Biological Inputs?" arXiv preprint arXiv:2610.00898 (2026).
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2610.00898
+- https://github.com/mims-harvard/bio-mirage
+review_basis: abstract
+reviewed: false

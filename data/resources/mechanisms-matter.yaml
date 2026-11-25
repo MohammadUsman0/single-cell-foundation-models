@@ -1,0 +1,24 @@
+id: mechanisms-matter
+kind: resource
+type: benchmark
+title: 'Mechanisms Matter: Transportability of Cellular Perturbation Effects'
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- virtual-cell
+key: Uses causal transportability theory and a causal simulator to test when perturbation effects transfer
+  across contexts.
+links:
+  preprint: https://doi.org/10.64898/2026.05.08.723625
+  code: https://github.com/microsoft/mechanisms_matter
+findings: Cross-context generalisation depends on shared causal mechanisms; no model transfers across
+  contexts with different mechanisms.
+citation: 'Qi, Shi-ang, and Paidamoyo Chapfuwa. "Mechanisms Matter: Transportability of Cellular Perturbation
+  Effects." bioRxiv (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.05.08.723625
+- https://github.com/microsoft/mechanisms_matter
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,26 @@
+id: safedelta-split-control
+kind: resource
+type: benchmark
+title: A split-control criterion for few-shot adaptation in single-cell perturbation prediction
+aliases:
+- SafeDelta
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- scrna-seq
+key: Split-control criterion for evaluating few-shot adaptation in perturbation prediction.
+links:
+  preprint: https://doi.org/10.64898/2026.10.05.756906
+  code: https://github.com/yyb2020/safedelta
+findings: Sharing one control estimate inflates few-shot scores; splitting controls gives honest adaptation
+  decisions.
+citation: Liang, Wan-Li, Ya-Bing Yang, Qiong-Yi Zhang, Jing-Cheng Feng, Qian-Fei Wang, Dehua Zou, Jia-Lin
+  Tang et al. "A split-control criterion for few-shot adaptation in single-cell perturbation prediction."
+  bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.10.05.756906
+- https://github.com/yyb2020/safedelta
+review_basis: abstract
+reviewed: false

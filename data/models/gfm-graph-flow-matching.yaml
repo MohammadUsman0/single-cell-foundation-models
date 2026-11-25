@@ -1,0 +1,38 @@
+id: gfm-graph-flow-matching
+kind: model
+name: GFM
+title: Graph-guided flow matching enables biologically informed prediction at single-cell resolution
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: Perturb-seq
+architecture: Latent flow matching guided by biological knowledge graphs
+inputs:
+- expression
+- perturbation
+- prior-network
+outputs:
+- perturbation-response
+architecture_family: flow-matching
+perturbation_type:
+- genetic
+generalization:
+- unseen-perturbation
+key: Combines biological knowledge graphs with latent flow matching to predict post-perturbation single-cell
+  transcriptomes.
+links:
+  preprint: https://doi.org/10.64898/2026.11.12.766125
+  code: https://github.com/TRON-Bioinformatics/GFM
+citation: Liou, Huai-Yu, Maximilian Sprang, David A. Selby, Gerrit Grossmann, Sebastian Vollmer, Pablo
+  Riesgo-Ferreiro, Jennifer V. Gerbracht et al. "Graph-guided flow matching enables biologically informed
+  prediction at single-cell resolution." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.11.12.766125
+- https://github.com/TRON-Bioinformatics/GFM
+review_basis: abstract
+reviewed: false

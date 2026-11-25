@@ -1,0 +1,28 @@
+id: comm-sis-multimodal-synergy
+kind: resource
+type: benchmark
+title: Multimodal cell foundation models require synergistic integration beyond alignment
+aliases:
+- CoMM
+- SIS
+year: 2026
+venue: Nature Machine Intelligence
+tags:
+- foundation-model
+- multi-omics
+key: Evaluates compositional multimodal cell foundation models that fuse frozen unimodal experts, and
+  measures synergy between modalities (SIS).
+links:
+  paper: https://doi.org/10.1038/s42256-026-01328-3
+  code: https://github.com/microsoft/cell_synergy
+findings: Alignment-based fusion gives little synergy; fine-tuning a dominant unimodal expert is the most
+  sample-efficient strategy for standard tasks.
+citation: Richter, Till, Eric Zimmermann, James Hall, Fabian J. Theis, Srivatsan Raghavan, Peter S. Winter,
+  Ava P. Amini et al. "Multimodal cell foundation models require synergistic integration beyond alignment."
+  Nature Machine Intelligence (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s42256-026-01328-3
+- https://github.com/microsoft/cell_synergy
+review_basis: abstract
+reviewed: false

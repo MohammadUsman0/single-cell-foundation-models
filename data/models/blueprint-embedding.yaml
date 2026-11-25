@@ -1,0 +1,34 @@
+id: blueprint-embedding
+kind: model
+name: Blueprint embedding
+title: Coding agents author interpretable single-cell embedding models from the literature
+year: 2026
+venue: bioRxiv
+category: agents
+tags:
+- agent
+- scrna-seq
+- interpretability
+modality: scRNA-seq + literature
+inputs:
+- expression
+- text
+outputs:
+- cell-embedding
+architecture_family: agent
+key: Coding agents write interpretable single-cell embedding models from literature gene programs; each
+  dimension is a named, cited program.
+links:
+  preprint: https://doi.org/10.64898/2026.07.07.737048
+  code: https://github.com/NiklasBrunn/blueprint-embedding
+citation: Brunn, Niklas, Sonia Maria Krißmer, Maximilian Frosch, Markus Frick, Marco Prinz, and Harald
+  Binder. "Coding agents author interpretable single-cell embedding models from the literature." bioRxiv
+  (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.07.07.737048
+- https://github.com/NiklasBrunn/blueprint-embedding
+review_basis: abstract
+reviewed: false
+review_notes:
+- Name taken from the code repository; the paper does not name the method.

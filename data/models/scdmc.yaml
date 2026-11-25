@@ -1,0 +1,33 @@
+id: scdmc
+kind: model
+name: scDMC
+title: Unlocking biological insight from single-cell data with an interpretable dual-stream foundation
+  model
+year: 2026
+venue: Genome Biology
+category: scrna
+tags:
+- scrna-seq
+- foundation-model
+- interpretability
+modality: scRNA-seq
+architecture: Dual-stream transformer (rank + expression value)
+inputs:
+- expression
+outputs:
+- cell-embedding
+- cell-type-label
+architecture_family: transformer-encoder
+key: Dual-stream foundation model that combines relative gene ranking with absolute expression values
+  for more faithful cell representations.
+links:
+  paper: https://doi.org/10.1186/s13059-026-04193-w
+code_status: none-found
+citation: Guo, Honglie, Qinghang Cui, Xiang Zhang, Chaowei Chen, Weihua Zheng, Changfeng Cai, Xinyi Wang
+  et al. "Unlocking biological insight from single-cell data with an interpretable dual-stream foundation
+  model." Genome Biology 27, no. 1 (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1186/s13059-026-04193-w
+review_basis: abstract
+reviewed: false

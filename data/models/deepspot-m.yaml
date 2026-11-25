@@ -1,0 +1,32 @@
+id: deepspot-m
+kind: model
+name: DeepSpot-M
+title: 'DeepSpot-M: a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics
+  from histology'
+year: 2026
+venue: medRxiv
+category: multimodal
+tags:
+- histology
+- spatial
+- foundation-model
+modality: Histology + spatial transcriptomics (pan-cancer)
+architecture: Multimodal model with gene embeddings from DNA, RNA and protein foundation models
+inputs:
+- histology-image
+outputs:
+- expression-prediction
+key: Predicts transcriptome-wide spatial expression from histology by representing genes with embeddings
+  from other foundation models; built a virtual atlas of 28,664 slides across 32 cancers.
+links:
+  preprint: https://doi.org/10.64898/2026.06.19.26356060
+  code: https://github.com/ratschlab/DeepSpotM
+citation: 'Nonchev, Kalin, Sebastian Dawo, Karina Silina, Viktor H Koelzer, and Gunnar Rätsch. "DeepSpot-M:
+  a multimodal foundation model for transcriptome-wide virtual spatial transcriptomics from histology."
+  bioRxiv (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.06.19.26356060
+- https://github.com/ratschlab/DeepSpotM
+review_basis: abstract
+reviewed: false

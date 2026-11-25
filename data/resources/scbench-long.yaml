@@ -1,0 +1,25 @@
+id: scbench-long
+kind: resource
+type: benchmark
+title: 'scBench-Long: Verifiable Benchmarking of Long-Horizon Single-Cell Biology'
+aliases:
+- scBench-Long
+year: 2026
+venue: arXiv
+tags:
+- agent
+- scrna-seq
+key: 'scBench-Long: benchmark where agents must recover published conclusions from raw single-cell data
+  in long, open-ended analyses.'
+links:
+  preprint: https://arxiv.org/abs/2606.26563
+  code: https://github.com/latchbio/scbench-long
+findings: The best model-harness pair passed only 16 of 63 runs (25%).
+citation: 'Diks, Ian, Zhen Yang, Arjun Banerjee, Tim Proctor, and Kenny Workman. "scBench-Long: Verifiable
+  Benchmarking of Long-Horizon Single-Cell Biology." arXiv preprint arXiv:2606.26563 (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2606.26563
+- https://github.com/latchbio/scbench-long
+review_basis: abstract
+reviewed: false

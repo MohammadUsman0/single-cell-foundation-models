@@ -1,0 +1,32 @@
+id: phenoair
+kind: model
+name: PhenoAIR
+title: 'From Retrieval to Reasoning: Agentic Mechanism Prediction from Cell Painting Profiles'
+year: 2026
+venue: arXiv
+category: agents
+tags:
+- agent
+- imaging
+- llm
+modality: Cell Painting profiles
+inputs:
+- cell-image
+- text
+outputs:
+- text
+architecture_family: agent
+key: Agent that reasons over retrieved Cell Painting evidence, weighting it by reliability, to predict
+  compound mechanism of action.
+links:
+  preprint: https://arxiv.org/abs/2609.36406
+  code: https://github.com/The-Real-JerryChen/PhenoAIR_NeurIPS26
+citation: 'Chen, Jiayuan, Botao Yu, Tianyu Liu, Thai-Hoang Pham, Meng Wu, and Ping Zhang. "From Retrieval
+  to Reasoning: Agentic Mechanism Prediction from Cell Painting Profiles." arXiv preprint arXiv:2609.36406
+  (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2609.36406
+- https://github.com/The-Real-JerryChen/PhenoAIR_NeurIPS26
+review_basis: abstract
+reviewed: false

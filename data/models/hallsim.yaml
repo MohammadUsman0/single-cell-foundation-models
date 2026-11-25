@@ -1,0 +1,25 @@
+id: hallsim
+kind: model
+name: hallsim
+title: An AI-ready compositional framework for mechanistic aging research and in silico intervention testing
+year: 2026
+venue: bioRxiv
+category: mechanistic
+tags:
+- virtual-cell
+modality: Mechanistic models of aging hallmarks
+architecture: Compositional mechanistic modules with a neural ODE surrogate
+architecture_family: other
+key: Framework that composes mechanistic models of aging hallmarks into one system for in silico intervention
+  testing, with a neural ODE surrogate as a component.
+links:
+  preprint: https://doi.org/10.64898/2026.09.22.753641
+  code: https://github.com/BabaJaguska/HallSim
+citation: Belic, Minja, and David Furman. "An AI-ready compositional framework for mechanistic aging research
+  and in silico intervention testing." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.09.22.753641
+- https://github.com/BabaJaguska/HallSim
+review_basis: abstract
+reviewed: false

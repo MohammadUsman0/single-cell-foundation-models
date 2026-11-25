@@ -1,0 +1,36 @@
+id: coladan
+kind: model
+name: Coladan
+title: Trimodal, uncertainty-guided whole-slide framework for genome-scale spatial expression and image-only
+  virtual perturbation in cancer cohorts
+year: 2026
+venue: Genome Medicine
+category: multimodal
+tags:
+- histology
+- spatial
+- text
+- foundation-model
+modality: H&E + spatial transcriptomics + language
+architecture: Trimodal whole-slide framework
+inputs:
+- histology-image
+- text
+outputs:
+- expression-prediction
+generalization:
+- zero-shot
+key: Trimodal model predicting genome-wide spatial expression from H&E with calibrated uncertainty, with
+  image-only virtual perturbation.
+links:
+  paper: https://doi.org/10.1186/s13073-026-01713-y
+  code: https://github.com/99wzj/Coladan
+citation: Wang, Zijun, Chongyi Yang, Xiaoya Tang, Enzhi Yin, Yuxin Yao, Yuejun Luo, Jie He et al. "Trimodal,
+  uncertainty-guided whole-slide framework for genome-scale spatial expression and image-only virtual
+  perturbation in cancer cohorts." Genome Medicine 18, no. 1 (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1186/s13073-026-01713-y
+- https://github.com/99wzj/Coladan
+review_basis: abstract
+reviewed: false

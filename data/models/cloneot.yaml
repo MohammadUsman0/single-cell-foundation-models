@@ -1,0 +1,34 @@
+id: cloneot
+kind: model
+name: CloneOT
+title: 'CloneOT: predicting clone-specific perturbation responses with lineage-supervised neural inverse
+  optimal transport'
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- drug-response
+- scrna-seq
+modality: Lineage-traced scRNA-seq (drug)
+architecture: Lineage-supervised neural inverse optimal transport
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- chemical
+key: Learns clone-specific transport costs from lineage tracing to predict how each clone responds to
+  treatment, including drug-tolerant persisters.
+links:
+  preprint: https://arxiv.org/abs/2610.16093
+  code: https://github.com/poseidonchan/CloneOT
+citation: 'Chen, Yanshuo, Wei Chen, and Heng Huang. "CloneOT: predicting clone-specific perturbation responses
+  with lineage-supervised neural inverse optimal transport." arXiv preprint arXiv:2610.16093 (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2610.16093
+- https://github.com/poseidonchan/CloneOT
+review_basis: abstract
+reviewed: false

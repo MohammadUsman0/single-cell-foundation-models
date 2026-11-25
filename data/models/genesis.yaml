@@ -1,0 +1,36 @@
+id: genesis
+kind: model
+name: GENESIS
+title: Single-cell perturbation prediction near experimental reproducibility with GENESIS
+year: 2026
+venue: bioRxiv
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: Single-cell perturbation atlases
+architecture: Generative energy-based simulator
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+- generated-cells
+perturbation_type:
+- chemical
+- genetic
+key: Generative energy-based simulator that predicts single-cell response distributions near experimental
+  reproducibility and augments sparsely sampled conditions.
+links:
+  preprint: https://doi.org/10.64898/2026.10.30.763081
+  code: https://github.com/rickconci/GENESIS
+citation: Conci, Riccardo, Davide D’Ascenzo, Sebastiano Cultrera di Montesano, Srivatsan Raghavan, Peter
+  S. Winter, Eliezer M. Van Allen, Lorin Crawford et al. "Single-cell perturbation prediction near experimental
+  reproducibility with GENESIS." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.10.30.763081
+- https://github.com/rickconci/GENESIS
+review_basis: abstract
+reviewed: false

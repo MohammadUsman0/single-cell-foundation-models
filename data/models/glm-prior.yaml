@@ -1,0 +1,36 @@
+id: glm-prior
+kind: model
+name: GLM-Prior
+title: 'GLM-Prior: a genomic language model for transferable sequence-derived priors in gene regulatory
+  network inference'
+year: 2026
+venue: Nature Communications
+category: grn
+tags:
+- gene-regulation
+- dna-sequence
+- foundation-model
+- cross-species
+modality: DNA sequence + scRNA-seq
+architecture: Genomic language model fine-tuned for TF-target prediction
+inputs:
+- dna-sequence
+- expression
+outputs:
+- gene-regulatory-network
+key: Genomic language model fine-tuned to predict transcription factor-target interactions from sequence,
+  used as a transferable prior for GRN inference.
+links:
+  paper: https://doi.org/10.1038/s41467-026-77381-8
+  preprint: https://doi.org/10.1101/2025.06.29.662198
+  code: https://github.com/cskokgibbs/GLM-Prior
+citation: 'Gibbs, Claudia Skok, Angelica Chen, Richard Bonneau, and Kyunghyun Cho. "GLM-Prior: a genomic
+  language model for transferable sequence-derived priors in gene regulatory network inference." Nature
+  Communications 17, no. 1 (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41467-026-77381-8
+- https://doi.org/10.1101/2025.06.29.662198
+- https://github.com/cskokgibbs/GLM-Prior
+review_basis: abstract
+reviewed: false

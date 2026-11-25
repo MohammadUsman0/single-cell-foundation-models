@@ -1,0 +1,24 @@
+id: cell-painting-rag-audit
+kind: resource
+type: benchmark
+title: Auditing Retrieval-Augmented LLM Hypotheses for Longitudinal Cell Painting Morphology
+year: 2026
+venue: ACM-BCB
+tags:
+- imaging
+- llm
+- perturbation
+key: Audits retrieval-augmented LLM hypotheses about longitudinal Cell Painting morphology against measured
+  data.
+links:
+  paper: https://doi.org/10.1145/3807503.3819448
+  preprint: https://arxiv.org/abs/2607.19415
+citation: 'Park, Gilchan, Guang Zhao, Byung-Jun Yoon, and Shinjae Yoo. "Auditing Retrieval-Augmented LLM
+  Hypotheses for Longitudinal Cell Painting Morphology." In Proceedings of Proceedings of the 17th ACM
+  International Conference on Bioinformatics, Computational Biology and Health Informatics (2026): 1-6.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1145/3807503.3819448
+- https://arxiv.org/abs/2607.19415
+review_basis: abstract
+reviewed: false

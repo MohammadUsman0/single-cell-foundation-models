@@ -1,0 +1,22 @@
+id: spora
+kind: resource
+type: dataset
+title: 'spora: A Unified Multimodal Dataset and Platform for Spatial Proteomics'
+year: 2026
+venue: arXiv
+tags:
+- proteomics
+- spatial
+key: 'spora: unified multimodal spatial proteomics dataset, loader and benchmark across twelve cohorts.'
+links:
+  preprint: https://arxiv.org/abs/2610.24002
+  code: https://github.com/bunnelab/spora-bench
+citation: 'Querfurth, Benedikt von, Johann Wenckstern, Eeshaan Jain, Lukas Klein, Phil Cheng, Yexiang
+  Cheng, Cedric Vincent-Cuaz et al. "spora: A Unified Multimodal Dataset and Platform for Spatial Proteomics."
+  arXiv preprint arXiv:2610.24002 (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2610.24002
+- https://github.com/bunnelab/spora-bench
+review_basis: abstract
+reviewed: false

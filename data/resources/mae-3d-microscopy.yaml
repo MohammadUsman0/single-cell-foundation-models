@@ -1,0 +1,25 @@
+id: mae-3d-microscopy
+kind: resource
+type: benchmark
+title: 3D Masked Autoencoders are Robust Learners of Volumetric and Multimodal Cellular Representations
+  for Microscopy
+year: 2026
+venue: arXiv
+tags:
+- imaging
+- foundation-model
+key: Compares 2D and 3D masked autoencoders on volumetric fluorescence microscopy.
+links:
+  preprint: https://arxiv.org/abs/2606.23964
+  code: https://github.com/marrlab/mae3d-opencell
+findings: 3D masked autoencoders consistently beat 2D projections and slice-based variants on single-cell
+  tasks.
+citation: Kardoost, Amirhossein, Lion Gleiter, Tingying Peng, and Carsten Marr. "3D Masked Autoencoders
+  are Robust Learners of Volumetric and Multimodal Cellular Representations for Microscopy." arXiv preprint
+  arXiv:2606.23964 (2026).
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2606.23964
+- https://github.com/marrlab/mae3d-opencell
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,24 @@
+id: cell-painting-3d-spheroids
+kind: resource
+type: dataset
+title: High-content morphological profiling by Cell Painting in 3D spheroids
+year: 2026
+venue: Nature Communications
+tags:
+- perturbation
+- imaging
+key: Cell Painting adapted to 3D spheroids for single-cell morphological profiling of drug perturbations.
+links:
+  paper: https://doi.org/10.1038/s41467-026-78596-5
+  preprint: https://doi.org/10.1101/2025.02.05.636642
+  code: https://github.com/pharmbio/colopaint3D
+citation: Ringers, Christa, David Holmberg, Anders Larsson, Bomi Jung, Malin Jarvius, Anna Luchniak, Dan
+  Rosén et al. "High-content morphological profiling by Cell Painting in 3D spheroids." Nature Communications
+  17, no. 1 (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41467-026-78596-5
+- https://doi.org/10.1101/2025.02.05.636642
+- https://github.com/pharmbio/colopaint3D
+review_basis: abstract
+reviewed: false

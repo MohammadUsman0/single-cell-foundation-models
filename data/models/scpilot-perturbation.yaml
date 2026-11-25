@@ -1,0 +1,38 @@
+id: scpilot-perturbation
+kind: model
+name: scPILOT
+title: Predicting Single‐Cell Perturbation Responses Across Biological Contexts With a Deep Generative
+  Model Integrating Optimal Transport
+year: 2026
+venue: Advanced Science
+category: perturbation
+tags:
+- perturbation
+- generative
+- scrna-seq
+modality: scRNA-seq (perturbation across contexts)
+architecture: Deep generative model
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+generalization:
+- unseen-cell-context
+- cross-species
+key: Transfers observed perturbation responses to new cell types, patients and species with a deep generative
+  model.
+links:
+  paper: https://doi.org/10.1002/advs.77461
+  code: https://github.com/yongzhuangliulab/scPILOT
+citation: Wang, Jialiang, Ziqi Liu, Zhengqian Zhang, Yikun Cao, Junjun Ren, Peng Cheng, Jingjing Tian
+  et al. "Predicting Single‐Cell Perturbation Responses Across Biological Contexts With a Deep Generative
+  Model Integrating Optimal Transport." Advanced Science 13, no. 64 (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1002/advs.77461
+- https://github.com/yongzhuangliulab/scPILOT
+review_basis: abstract
+reviewed: false
+review_notes:
+- Not the same as `scpilot` (an LLM agent with a similar name).

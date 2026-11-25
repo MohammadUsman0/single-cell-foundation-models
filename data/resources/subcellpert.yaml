@@ -1,0 +1,25 @@
+id: subcellpert
+kind: resource
+type: benchmark
+title: 'SubcellPert: Benchmarking Subcellular Perturbation Prediction'
+aliases:
+- SubcellPert
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- spatial
+- imaging
+key: 'SubcellPert: benchmark for perturbation prediction at single-RNA-molecule resolution across 14 imaging
+  datasets (13.9M cells).'
+links:
+  preprint: https://doi.org/10.64898/2026.10.11.758305
+  code: https://github.com/king159/SubcellPert
+citation: 'Wang, Jinghao, Hanqun Cao, Xilin Dang, Tianhui Zhou, Yiyang Zhao, Chang-Yu Hsieh, Chunbin Gu
+  et al. "SubcellPert: Benchmarking Subcellular Perturbation Prediction." bioRxiv (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.10.11.758305
+- https://github.com/king159/SubcellPert
+review_basis: abstract
+reviewed: false

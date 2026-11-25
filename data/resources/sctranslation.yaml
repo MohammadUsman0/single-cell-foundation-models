@@ -1,0 +1,20 @@
+id: sctranslation
+kind: resource
+type: benchmark
+title: 'scTranslation: A Comprehensive Benchmark for Single-Cell Multi-Omics Modality Translation'
+aliases:
+- scTranslation
+year: 2026
+venue: KDD
+tags:
+- multi-omics
+key: 'scTranslation: benchmark for single-cell multi-omics modality translation methods.'
+links:
+  paper: https://doi.org/10.1145/3770855.3817464
+citation: 'Cheng, Jiabei, Jingbo Zhou, Jun Xia, Changkai Li, Zhen Lei, Chang Yu, and Stan Z. Li. "scTranslation:
+  A Comprehensive Benchmark for Single-Cell Multi-Omics Modality Translation." KDD (2026): 8731-8740.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1145/3770855.3817464
+review_basis: abstract
+reviewed: false

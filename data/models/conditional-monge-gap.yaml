@@ -1,0 +1,35 @@
+id: conditional-monge-gap
+kind: model
+name: Conditional Monge Gap
+title: Conditional Monge Gap enables generalizable single-cell perturbation modelling
+year: 2026
+venue: Nature Machine Intelligence
+category: perturbation
+tags:
+- perturbation
+- drug-response
+modality: scRNA-seq (drug perturbation)
+architecture: Conditional neural optimal transport
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- chemical
+generalization:
+- unseen-perturbation
+- unseen-cell-context
+key: Conditional neural optimal transport that generalises to unseen drugs from compound structure.
+links:
+  paper: https://doi.org/10.1038/s42256-026-01242-8
+  code: https://github.com/AI4SCR/conditional-monge-gap
+citation: 'Driessen, Alice, Dhruva Abhijit Rajwade, Benedek Harsanyi, Marianna Rapsomaniki, and Jannis
+  Born. "Conditional Monge Gap enables generalizable single-cell perturbation modelling." Nature Machine
+  Intelligence 8, no. 6 (2026): 984-996.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s42256-026-01242-8
+- https://github.com/AI4SCR/conditional-monge-gap
+review_basis: abstract
+reviewed: false

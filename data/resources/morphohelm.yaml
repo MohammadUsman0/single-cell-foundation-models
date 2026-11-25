@@ -1,0 +1,26 @@
+id: morphohelm
+kind: resource
+type: benchmark
+title: 'MorphoHELM: A Comprehensive Benchmark for Evaluating Representations for Microscopy-Based Morphology
+  Assays'
+aliases:
+- MorphoHELM
+year: 2026
+venue: arXiv
+tags:
+- imaging
+- perturbation
+key: 'MorphoHELM: benchmark of image representations for microscopy morphology assays across many biological
+  signals.'
+links:
+  preprint: https://arxiv.org/abs/2605.15383
+  code: https://github.com/microsoft/MorphoHELM
+findings: No learned model beats classic computer-vision features across all settings.
+citation: 'Hayir, Emre, Lorin Crawford, and Alex X. Lu. "MorphoHELM: A Comprehensive Benchmark for Evaluating
+  Representations for Microscopy-Based Morphology Assays." arXiv preprint arXiv:2605.15383 (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2605.15383
+- https://github.com/microsoft/MorphoHELM
+review_basis: abstract
+reviewed: false

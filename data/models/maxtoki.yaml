@@ -1,0 +1,35 @@
+id: maxtoki
+kind: model
+name: MaxToki
+title: Temporal AI model predicts drivers of cell state trajectories across human aging
+year: 2026
+venue: bioRxiv
+category: generative
+tags:
+- generative
+- scrna-seq
+- foundation-model
+- virtual-cell
+modality: scRNA-seq cell-state trajectories (human lifespan)
+architecture: Temporal transformer with in-context learning
+inputs:
+- expression
+outputs:
+- generated-cells
+- gene-prioritization
+key: Temporal model that generates cell states across long aging trajectories and nominated age-modulating
+  targets that were verified in vivo.
+links:
+  preprint: https://doi.org/10.64898/2026.03.30.715396
+  code: https://github.com/NVIDIA/maxToki
+model_card:
+  pretraining_data: ~1 trillion gene tokens incl. lifespan trajectories
+citation: Ortega, Javier Gόmez, Rangarajan D. Nadadur, Akira Kunitomi, Steven Kothen-Hill, Julian U. G.
+  Wagner, Sarp D. Kurtoglu, Bumjoon Kim et al. "Temporal AI model predicts drivers of cell state trajectories
+  across human aging." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.03.30.715396
+- https://github.com/NVIDIA/maxToki
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,33 @@
+id: virtues
+kind: model
+name: VirTues
+title: The Virtual Tissues foundation model resolves spatial proteomics across scales
+year: 2026
+venue: Nature
+category: proteomics
+tags:
+- proteomics
+- spatial
+- foundation-model
+modality: Spatial proteomics (variable marker panels)
+architecture: Marker-aware multi-scale foundation model
+inputs:
+- protein-abundance
+- spatial-coordinates
+outputs:
+- cell-embedding
+- cell-type-label
+- disease-state
+key: 'Virtual Tissues: foundation model for spatial proteomics across panels, from proteins to tissues,
+  with biomarkers that predict immunotherapy response.'
+links:
+  paper: https://doi.org/10.1038/s41586-026-10884-y
+code_status: none-found
+citation: 'Wenckstern, Johann, Eeshaan Jain, Benedikt von Querfurth, Yexiang Cheng, Kiril Vasilev, Matteo
+  Pariset, Phil F. Cheng et al. "The Virtual Tissues foundation model resolves spatial proteomics across
+  scales." Nature 657, no. 8132 (2026): 744-754.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41586-026-10884-y
+review_basis: abstract
+reviewed: false

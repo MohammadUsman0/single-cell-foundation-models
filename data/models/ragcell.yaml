@@ -1,0 +1,35 @@
+id: ragcell
+kind: model
+name: RAGCell
+title: 'RAGCell: retrieval-augmented generation as supervision for versatile single-cell analysis'
+year: 2026
+venue: Bioinformatics
+category: llm
+tags:
+- llm
+- text
+- scrna-seq
+modality: scRNA-seq + text
+architecture: Retrieval-augmented generation as supervision
+inputs:
+- expression
+- text
+outputs:
+- cell-embedding
+- cell-type-label
+key: Uses retrieval-augmented LLM text as supervision to build single-cell representations at a fraction
+  of the pretraining cost of foundation models.
+links:
+  paper: https://doi.org/10.1093/bioinformatics/btag732
+  preprint: https://arxiv.org/abs/2609.14147
+citation: 'Liu, Tianyu, Fan Zhang, Jiayuan Chen, Kun Wang, Haoxuan Li, Shengju Qian, Zhihong Zhu et al.
+  "RAGCell: retrieval-augmented generation as supervision for versatile single-cell analysis." Bioinformatics
+  42, no. 10 (2026).'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1093/bioinformatics/btag732
+- https://arxiv.org/abs/2609.14147
+review_basis: abstract
+reviewed: false
+review_notes:
+- Code is in the paper's supplementary file, not a public repository.

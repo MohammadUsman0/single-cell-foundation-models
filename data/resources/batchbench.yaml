@@ -1,0 +1,24 @@
+id: batchbench
+kind: resource
+type: benchmark
+title: 'BatchBench: Benchmarking AI Robustness to Batch Effects and Domain Shift in Biomedical Images
+  - A JUMP Cell Painting Leaderboard'
+aliases:
+- BatchBench
+year: 2026
+venue: arXiv
+tags:
+- imaging
+key: 'BatchBench: open leaderboard for robustness to batch effects and domain shift on JUMP Cell Painting.'
+links:
+  preprint: https://arxiv.org/abs/2610.30104
+  code: https://github.com/ml-jku/batchbench-baselines
+citation: 'Topf, Sonja, Ana Sanchez-Fernandez, and Günter Klambauer. "BatchBench: Benchmarking AI Robustness
+  to Batch Effects and Domain Shift in Biomedical Images - A JUMP Cell Painting Leaderboard." arXiv preprint
+  arXiv:2610.30104 (2026).'
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2610.30104
+- https://github.com/ml-jku/batchbench-baselines
+review_basis: abstract
+reviewed: false

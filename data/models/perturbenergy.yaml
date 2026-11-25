@@ -1,0 +1,31 @@
+id: perturbenergy
+kind: model
+name: PerturbEnergy
+title: Learning Perturbation-Specific Representations through Conditional Energy Prior for Cellular Response
+  Prediction
+year: 2026
+venue: arXiv
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: scRNA-seq (perturbation)
+architecture: Conditional energy-based prior over perturbation representations
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+key: Adds a conditional energy-based prior so perturbation representations stay perturbation-specific,
+  improving top differentially expressed gene prediction.
+links:
+  preprint: https://arxiv.org/abs/2610.18456
+  code: https://github.com/BlueWhaleLab/PerturbEnergy
+citation: Yan, Yuchen, and Yatao Bian. "Learning Perturbation-Specific Representations through Conditional
+  Energy Prior for Cellular Response Prediction." arXiv preprint arXiv:2610.18456 (2026).
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2610.18456
+- https://github.com/BlueWhaleLab/PerturbEnergy
+review_basis: abstract
+reviewed: false

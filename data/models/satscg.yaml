@@ -1,0 +1,31 @@
+id: satscg
+kind: model
+name: SATScG
+title: Scaling an Autoregressive Transformer for Single-Cell Generation
+year: 2026
+venue: arXiv
+category: generative
+tags:
+- generative
+- scrna-seq
+- foundation-model
+modality: scRNA-seq
+architecture: Causal transformer with quantised-VAE tokenizer
+inputs:
+- expression
+outputs:
+- generated-cells
+architecture_family: transformer-decoder
+key: Autoregressive transformer for generating single-cell expression, reporting a joint scaling law and
+  compute-optimal frontier.
+links:
+  preprint: https://arxiv.org/abs/2608.02961
+  code: https://github.com/haw-ai-i/SATScG
+citation: Sharipov, Aleksandr, Yusif Mukhtarov, and Igor Molybog. "Scaling an Autoregressive Transformer
+  for Single-Cell Generation." arXiv preprint arXiv:2608.02961 (2026).
+added: '2026-11-23'
+sources:
+- https://arxiv.org/abs/2608.02961
+- https://github.com/haw-ai-i/SATScG
+review_basis: abstract
+reviewed: false

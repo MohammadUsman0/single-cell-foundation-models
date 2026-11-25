@@ -1,0 +1,34 @@
+id: prim
+kind: model
+name: PRIM
+title: Incorporating valuable prior knowledge to improve deep learning prediction of genetic perturbation
+  responses
+year: 2026
+venue: Genome Research
+category: perturbation
+tags:
+- perturbation
+- scrna-seq
+modality: Perturb-seq
+architecture: Prior-guided response inference using control-cell expression
+inputs:
+- expression
+- perturbation
+outputs:
+- perturbation-response
+perturbation_type:
+- genetic
+- combination
+key: Uses control-cell expression as a prior to predict genetic perturbation responses, including non-additive
+  interactions.
+links:
+  paper: https://doi.org/10.1101/gr.281523.125
+code_status: none-found
+citation: 'Fu, Xiuhao, Chao Yang, Chunyan Cui, Aoyun Geng, Yidi Sun, Chao Zha, Feifei Cui et al. "Incorporating
+  valuable prior knowledge to improve deep learning prediction of genetic perturbation responses." Genome
+  Research 36, no. 5 (2026): 1040-1052.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1101/gr.281523.125
+review_basis: abstract
+reviewed: false

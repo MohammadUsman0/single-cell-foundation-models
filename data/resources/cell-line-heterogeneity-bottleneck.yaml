@@ -1,0 +1,25 @@
+id: cell-line-heterogeneity-bottleneck
+kind: resource
+type: benchmark
+title: Cancer Cell Line Heterogeneity Imposes a Primary Bottleneck for Virtual Perturbation Screening
+  at Scale
+year: 2026
+venue: bioRxiv
+tags:
+- perturbation
+- drug-response
+key: Extends a genetic-chemical screening model to 162 cell lines to test virtual perturbation screening
+  at scale.
+links:
+  preprint: https://doi.org/10.64898/2026.08.10.743942
+  code: https://github.com/wkr112344/VirtualCellWorkbench
+findings: Normal and primary cell lines are predicted far better than heterogeneous cancer lines, which
+  form the main bottleneck.
+citation: Wei, Kairui, Lijing Zhan, and Canyang Qi. "Cancer Cell Line Heterogeneity Imposes a Primary
+  Bottleneck for Virtual Perturbation Screening at Scale." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.08.10.743942
+- https://github.com/wkr112344/VirtualCellWorkbench
+review_basis: abstract
+reviewed: false

@@ -1,0 +1,38 @@
+id: pdgrapher
+kind: model
+name: PDGrapher
+title: Combinatorial prediction of therapeutic perturbations using causally inspired neural networks
+year: 2025
+venue: Nature Biomedical Engineering
+category: perturbation
+tags:
+- perturbation
+- graph
+- drug-response
+modality: Genetic and chemical perturbation data
+architecture: Causally inspired graph neural network
+inputs:
+- expression
+- prior-network
+outputs:
+- gene-prioritization
+architecture_family: graph-neural-network
+perturbation_type:
+- genetic
+- chemical
+- combination
+key: 'Inverse model: predicts the combination of therapeutic targets that would reverse a disease phenotype.'
+links:
+  paper: https://doi.org/10.1038/s41551-025-01481-x
+  preprint: https://www.biorxiv.org/content/10.1101/2024.01.03.573985v5
+  code: https://github.com/mims-harvard/PDGrapher
+citation: 'Gonzalez, Guadalupe, Xiang Lin, Isuru Herath, Kirill Veselkov, Michael Bronstein, and Marinka
+  Zitnik. "Combinatorial prediction of therapeutic perturbations using causally inspired neural networks."
+  Nature Biomedical Engineering 10, no. 5 (2025): 1008-1025.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1038/s41551-025-01481-x
+- https://www.biorxiv.org/content/10.1101/2024.01.03.573985v5
+- https://github.com/mims-harvard/PDGrapher
+review_basis: abstract
+reviewed: false

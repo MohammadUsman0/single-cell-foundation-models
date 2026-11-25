@@ -1,0 +1,32 @@
+id: alhena
+kind: model
+name: ALHENA
+title: ALHENA, an H&E encoder distilled from transcriptomic foundation models for multi-scale slide analysis
+year: 2026
+venue: bioRxiv
+category: multimodal
+tags:
+- histology
+- spatial
+- foundation-model
+modality: H&E histology (trained with paired spatial transcriptomics)
+architecture: H&E encoder distilled from transcriptomic foundation models
+inputs:
+- histology-image
+outputs:
+- cell-embedding
+- cell-type-label
+key: H&E encoder distilled from frozen transcriptomic foundation-model embeddings so that H&E alone yields
+  cell and tile embeddings for cell typing and atlas label transfer.
+links:
+  preprint: https://doi.org/10.64898/2026.10.20.760439
+  code: https://github.com/prism-oncology/ALHENA
+citation: Giraud-Sauveur, Félicie, Quentin Blampey, Pierre Marza, Hakim Benkirane, Maria Vakalopoulou,
+  Paul-Henry Cournède, and Stergios Christodoulidis. "ALHENA, an H&E encoder distilled from transcriptomic
+  foundation models for multi-scale slide analysis." bioRxiv (2026).
+added: '2026-11-23'
+sources:
+- https://doi.org/10.64898/2026.10.20.760439
+- https://github.com/prism-oncology/ALHENA
+review_basis: abstract
+reviewed: false

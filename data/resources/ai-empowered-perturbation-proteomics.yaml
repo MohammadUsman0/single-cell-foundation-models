@@ -1,0 +1,21 @@
+id: ai-empowered-perturbation-proteomics
+kind: resource
+type: perspective
+title: AI-empowered perturbation proteomics for complex biological systems
+year: 2024
+venue: Cell Genomics
+tags:
+- perturbation
+- proteomics
+- virtual-cell
+key: Perspective on perturbation proteomics and a perturbation-measurement-modelling pipeline for building
+  predictive models.
+links:
+  paper: https://doi.org/10.1016/j.xgen.2024.100691
+citation: 'Qian, Liujia, Rui Sun, Ruedi Aebersold, Peter Bühlmann, Chris Sander, and Tiannan Guo. "AI-empowered
+  perturbation proteomics for complex biological systems." Cell Genomics 4, no. 11 (2024): 100691.'
+added: '2026-11-23'
+sources:
+- https://doi.org/10.1016/j.xgen.2024.100691
+review_basis: abstract
+reviewed: false
