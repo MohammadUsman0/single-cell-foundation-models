@@ -9,7 +9,8 @@ planning/
 research/
 CLAUDE.md
 CLAUDE.local.md
-# verify.py output: needs network + API keys, so it can't be rebuilt on every push and
+# verify.py / find_new.py output: needs network + API keys, so it can't be rebuilt on every push and
 # would go stale. The monthly workflow uploads it and updates a GitHub issue instead.
 reports/verification.md
 reports/verification.json
+reports/candidates.md

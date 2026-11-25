@@ -102,6 +102,18 @@ same `evaluates` and `findings` fields for the models it analyses, plus `interp_
 Allowed `links` keys: `paper`, `preprint`, `code`, `weights`, `project`,
 `dataset`, `docs`, `video`.
 
+## Finding new papers
+
+Every Monday a workflow runs `scripts/find_new.py`, which searches bioRxiv, medRxiv, arXiv and
+Europe PMC for the past week, drops papers already in the catalogue, and opens an issue labelled
+`candidates` with the rest, grouped by suggested type and scored for relevance. The list is a
+starting point, not a decision: each paper still goes through the scope and verification rules
+on this page. To run it yourself:
+
+```bash
+python scripts/find_new.py --days 30        # writes reports/candidates.md
+```
+
 ## Rules
 
 1. **Never invent metadata or links.** Leave a field out rather than guess.
